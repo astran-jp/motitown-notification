@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>これはテスト配信だよ！【動作確認用】｜モチタン</title>
+<meta property="og:title" content="これはテスト配信だよ！【動作確認用】">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0D4962;
+    --teal:#34C8D0;
+    --teal-d:#1F9AA2;
+    --page-bg:#E7F6FF;
+    --text:#2D3B43;
+    --sub:#5A6A72;
+    --gray:#9AA3AA;
+    --line:#DCEAF0;
+    --card:#F4FBFD;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--page-bg);
+    font-family:"M PLUS Rounded 1c","Hiragino Maru Gothic ProN","Hiragino Kaku Gothic ProN","Yu Gothic","Noto Sans JP",-apple-system,BlinkMacSystemFont,sans-serif;
+    color:var(--text);
+    line-height:1.9;
+    -webkit-font-smoothing:antialiased;
+    word-break:break-word;
+  }
+  .wrap{max-width:430px;margin:0 auto;background:#fff;min-height:100vh;}
+
+  .header-img{display:block;width:100%;height:auto;background:var(--page-bg);}
+
+  .head{padding:22px 26px 8px;}
+  h1.title{
+    margin:0 0 12px;color:var(--navy);
+    font-weight:800;font-size:24px;line-height:1.5;letter-spacing:.01em;
+  }
+  .date{color:var(--gray);font-size:14px;font-weight:500;letter-spacing:.03em;}
+
+  .body{padding:8px 26px 34px;}
+  .lead{font-size:15.5px;margin:18px 0 8px;}
+  .lead .em{color:var(--navy);font-weight:700;}
+
+  h2.sec{
+    margin:40px 0 10px;color:var(--navy);
+    font-weight:800;font-size:20px;line-height:1.45;
+  }
+  p.txt{font-size:15px;margin:0 0 14px;}
+  .em{color:var(--navy);font-weight:700;}
+
+  ul.list{list-style:none;margin:6px 0 4px;padding:0;}
+  ul.list li{position:relative;padding:9px 0 9px 30px;font-size:15px;border-bottom:1px dashed var(--line);}
+  ul.list li:last-child{border-bottom:none;}
+  ul.list li::before{
+    content:"";position:absolute;left:2px;top:13px;width:18px;height:18px;border-radius:50%;
+    background:var(--teal);
+    -webkit-mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='white' d='M9.5 16.2 5.3 12l-1.4 1.4 5.6 5.6 12-12-1.4-1.4z'/></svg>") center/13px no-repeat;
+            mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='white' d='M9.5 16.2 5.3 12l-1.4 1.4 5.6 5.6 12-12-1.4-1.4z'/></svg>") center/13px no-repeat;
+  }
+
+  .inline-note{font-size:13px;color:var(--sub);background:var(--card);border-radius:10px;padding:10px 14px;margin:14px 0 0;}
+
+  .notes{margin-top:36px;border-top:1px solid var(--line);padding-top:18px;}
+  .notes p{font-size:13px;color:var(--sub);margin:0 0 9px;padding-left:1.1em;text-indent:-1.1em;line-height:1.7;}
+
+  .foot{text-align:center;color:var(--gray);font-size:11.5px;padding:24px 24px 38px;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <img class="header-img" src="assets/header.webp" alt="モチベア" width="1172" height="345">
+
+    <div class="head">
+      <h1 class="title">これはテスト配信だよ！<br>【動作確認用】</h1>
+      <div class="date">2026/06/09 12:00</div>
+    </div>
+
+    <main class="body">
+      <p class="lead">
+        Hello~！モチベアだよ！<br>
+        これは GitHub に push する形でお知らせがちゃんと出せるか試すための
+        <span class="em">テスト配信</span>だよ。中身に意味はないから安心してね。
+      </p>
+
+      <h2 class="sec">確認したいこと</h2>
+      <ul class="list">
+        <li>連番フォルダ <span class="em">/2/</span> がちゃんと公開されるか</li>
+        <li>ヘッダー画像が <span class="em">assets/</span> から読み込めるか</li>
+        <li>フォント・配色がアプリ内 WebView で崩れないか</li>
+      </ul>
+
+      <h2 class="sec">うまく表示されていれば成功！</h2>
+      <p class="txt">
+        このページがモチベアのデザインで表示されていれば、
+        <span class="em">脱 STUDIO で HTML 直 push のお知らせ運用</span>ができるってことだよ🎉
+      </p>
+
+      <div class="inline-note">
+        ※これはテストページです。確認が終わったら削除してOKです。
+      </div>
+
+      <div class="notes">
+        <p>※このお知らせは動作確認用に作成されたものです。</p>
+        <p>※過去の配信はモチタウン＞右上のメールボックスから確認できます。</p>
+      </div>
+    </main>
+
+    <div class="foot">© Motitan</div>
+
+  </div>
+</body>
+</html>
