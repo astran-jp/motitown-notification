@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>フレンド一覧の不具合を解消したよ！｜モチタン</title>
+<meta property="og:title" content="フレンド一覧の不具合を解消したよ！">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0D4962;
+    --date:#7C878A;
+    --page-bg:#E7F6FF;
+    --line:#99A7AA;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--page-bg);
+    font-family:"Noto Sans JP",-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+    color:var(--navy);
+    -webkit-font-smoothing:antialiased;
+    word-break:break-word;
+  }
+  .wrap{max-width:390px;margin:0 auto;background:#fff;min-height:100vh;display:flex;flex-direction:column;gap:30px;align-items:center;}
+
+  /* 上部グループ（ヘッダー〜本文）にまとめてドロップシャドウ */
+  .top{
+    width:390px;display:flex;flex-direction:column;gap:10px;align-items:center;
+    filter:drop-shadow(0 4px 2px rgba(0,0,0,.1));
+  }
+
+  /* ヘッダー画像（モチベア） */
+  .header{
+    width:390px;height:115px;background:var(--page-bg);
+    overflow:hidden;display:flex;justify-content:center;align-items:flex-start;
+  }
+  .header img{width:127px;height:auto;display:block;}
+
+  /* タイトル・日付 */
+  .head{width:100%;padding:8px 13px 3px;display:flex;flex-direction:column;gap:10px;}
+  h1.title{margin:0;color:var(--navy);font-weight:700;font-size:20px;line-height:1.4;letter-spacing:.6px;}
+  .date{color:var(--date);font-size:16.5px;line-height:1.4;letter-spacing:.495px;}
+
+  /* 本文 */
+  .body{width:364px;color:var(--navy);font-size:15.5px;line-height:21px;letter-spacing:.465px;}
+  .body p{margin:0;}
+
+  /* 下部グループ（注意書き＋お知らせの場所） */
+  .bottom{display:flex;flex-direction:column;gap:20px;align-items:center;}
+  .note{width:364px;padding:0 12px;color:var(--navy);font-size:15.5px;line-height:21px;letter-spacing:.465px;}
+  .note p{margin:0;}
+
+  /* お知らせの場所カード */
+  .place{
+    position:relative;width:257px;height:179px;background:var(--page-bg);
+    border-radius:20px;overflow:hidden;box-shadow:0 5px 5px rgba(147,149,169,.3);
+  }
+  .place .shot{
+    position:absolute;left:13.5px;top:36.17px;width:230px;height:106px;
+    border:1px solid var(--line);border-radius:20px;overflow:hidden;
+    box-shadow:0 5px 5px rgba(147,149,169,.3);
+  }
+  .place .shot img{position:absolute;left:0;top:-20.5%;width:100%;height:470.85%;max-width:none;}
+  .place .arrow{position:absolute;left:236.23px;top:110.4px;width:19.092px;height:19.092px;display:flex;align-items:center;justify-content:center;}
+  .place .arrow .line{transform:rotate(45deg);}
+  .place .arrow img{display:block;width:27px;height:14.2px;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <div class="top">
+      <!-- ヘッダー画像（ごめんなさいモチベア） -->
+      <div class="header">
+        <img src="assets/header.png" alt="モチベア" width="127" height="110">
+      </div>
+
+      <!-- タイトル・日付 -->
+      <div class="head">
+        <h1 class="title">フレンド一覧の不具合を解消したよ！</h1>
+        <div class="date">2026/06/03 14:00</div>
+      </div>
+
+      <!-- 本文 -->
+      <div class="body">
+        <p>Hello~！モチベアだよ！</p>
+        <p>みんな連絡をくれてありがとう！</p>
+        <p>モチタンで、マイページからフレンド一覧ページが正しく表示されない不具合を修正したよ！</p>
+        <p>&#8203;</p>
+        <p>&#8203;</p>
+        <p>もし気付いたことがあれば、いつでもモチタンアプリ内のフィードバックから連絡してね！</p>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <div class="note">
+        <p>※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。</p>
+      </div>
+
+      <!-- お知らせの場所（スクショ＋赤い矢印） -->
+      <div class="place">
+        <div class="shot">
+          <img src="assets/location.png" alt="お知らせの場所">
+        </div>
+        <div class="arrow">
+          <div class="line"><img src="assets/arrow.svg" alt=""></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
