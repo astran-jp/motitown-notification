@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>リーグに「参加しない」も選べる！【市民リーグ設定アップデート】｜モチタン</title>
+<meta property="og:title" content="リーグに「参加しない」も選べる！【市民リーグ設定アップデート】">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0D4962;       /* タイトル・見出し */
+    --teal:#34C8D0;       /* アクセント／トグル */
+    --teal-d:#1F9AA2;
+    --page-bg:#E7F6FF;    /* ヘッダー背景の水色 */
+    --text:#2D3B43;
+    --sub:#5A6A72;        /* 注意書き */
+    --gray:#9AA3AA;       /* 日付 */
+    --line:#DCEAF0;
+    --card:#F4FBFD;
+    --nav-dark:#3A4750;   /* 設定画面のヘッダー */
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--page-bg);
+    font-family:"M PLUS Rounded 1c","Hiragino Maru Gothic ProN","Hiragino Kaku Gothic ProN","Yu Gothic","Noto Sans JP",-apple-system,BlinkMacSystemFont,sans-serif;
+    color:var(--text);
+    line-height:1.9;
+    -webkit-font-smoothing:antialiased;
+    word-break:break-word;
+  }
+  .wrap{max-width:430px;margin:0 auto;background:#fff;min-height:100vh;}
+
+  /* ===== ヘッダー画像（そのまま使用） ===== */
+  .header-img{display:block;width:100%;height:auto;background:var(--page-bg);}
+
+  /* ===== タイトル ===== */
+  .head{padding:22px 26px 8px;}
+  h1.title{
+    margin:0 0 12px;color:var(--navy);
+    font-weight:800;font-size:24px;line-height:1.5;letter-spacing:.01em;
+  }
+  .date{color:var(--gray);font-size:14px;font-weight:500;letter-spacing:.03em;}
+
+  /* ===== 本文 ===== */
+  .body{padding:8px 26px 34px;}
+  .lead{font-size:15.5px;margin:18px 0 8px;}
+  .lead .em{color:var(--navy);font-weight:700;}
+
+  h2.sec{
+    margin:40px 0 10px;color:var(--navy);
+    font-weight:800;font-size:20px;line-height:1.45;
+  }
+  h3.sub{margin:26px 0 8px;color:var(--navy);font-weight:800;font-size:16px;}
+  p.txt{font-size:15px;margin:0 0 14px;}
+  .em{color:var(--navy);font-weight:700;}
+
+  /* チェックリスト */
+  ul.list{list-style:none;margin:6px 0 4px;padding:0;}
+  ul.list li{position:relative;padding:9px 0 9px 30px;font-size:15px;border-bottom:1px dashed var(--line);}
+  ul.list li:last-child{border-bottom:none;}
+  ul.list li::before{
+    content:"";position:absolute;left:2px;top:13px;width:18px;height:18px;border-radius:50%;
+    background:var(--teal);
+    -webkit-mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='white' d='M9.5 16.2 5.3 12l-1.4 1.4 5.6 5.6 12-12-1.4-1.4z'/></svg>") center/13px no-repeat;
+            mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='white' d='M9.5 16.2 5.3 12l-1.4 1.4 5.6 5.6 12-12-1.4-1.4z'/></svg>") center/13px no-repeat;
+  }
+
+  /* キャプション */
+  .cap{font-size:12.5px;color:var(--sub);margin:8px 2px 0;}
+  .inline-note{font-size:13px;color:var(--sub);background:var(--card);border-radius:10px;padding:10px 14px;margin:14px 0 0;}
+
+  /* ===== 画面モック（スクショ風カード） ===== */
+  .shot{
+    border:1px solid var(--line);border-radius:18px;overflow:hidden;
+    margin:14px 0 4px;box-shadow:0 6px 18px rgba(13,73,98,.06);
+  }
+  /* スマホ設定画面 */
+  .scr-status{
+    background:var(--nav-dark);color:#fff;display:flex;align-items:center;justify-content:space-between;
+    font-size:12px;font-weight:700;padding:7px 16px 2px;
+  }
+  .scr-status .dots{letter-spacing:1px;font-size:11px;}
+  .scr-nav{
+    background:var(--nav-dark);color:#fff;text-align:center;font-weight:800;font-size:16px;
+    padding:6px 0 12px;position:relative;
+  }
+  .scr-nav .back{position:absolute;left:16px;top:3px;font-size:22px;font-weight:600;}
+  .scr-body{background:#fff;padding:18px 16px 26px;min-height:120px;}
+  .setting-card{
+    display:flex;align-items:center;justify-content:space-between;
+    background:#fff;border:1.6px solid #CFEBEF;border-radius:14px;padding:15px 16px;
+  }
+  .setting-card .lab{font-weight:700;font-size:15px;color:#2D3B43;}
+  .switch{width:50px;height:29px;border-radius:999px;background:var(--teal);position:relative;flex:none;}
+  .switch::after{content:"";position:absolute;top:3px;right:3px;width:23px;height:23px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.25);}
+  .switch.off{background:#CAD4DA;}
+  .switch.off::after{right:auto;left:3px;}
+  .scr-hint{text-align:center;font-size:11px;color:#9AA3AA;margin-top:14px;}
+
+  /* ===== Before / After 比較 ===== */
+  .ba{display:flex;align-items:stretch;gap:8px;margin:14px 0 4px;}
+  .ba-col{flex:1;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff;}
+  .ba-tag{font-weight:800;font-size:12.5px;text-align:center;padding:7px;color:#fff;}
+  .ba-tag.on{background:var(--teal);}
+  .ba-tag.off{background:#9AA3AA;}
+  .ba-inner{padding:12px 12px 14px;}
+  .name-row{display:flex;align-items:center;gap:7px;}
+  .ava{width:30px;height:30px;border-radius:50%;background:#BDE9F6;flex:none;}
+  .name-row .nm{font-weight:800;font-size:12.5px;color:#2D3B43;}
+  .lg-badge{
+    display:inline-flex;align-items:center;gap:3px;background:#FFF4D6;border:1px solid #F2D98A;
+    color:#B8860B;font-weight:800;font-size:10.5px;border-radius:999px;padding:2px 7px;margin-top:7px;
+  }
+  .lg-badge .dot{width:11px;height:11px;border-radius:50%;background:linear-gradient(135deg,#FFD86B,#E8A92B);display:inline-block;}
+  .lg-card{margin-top:11px;background:#F4FBFD;border-radius:11px;padding:9px 11px;}
+  .lg-card .t{font-size:10.5px;color:var(--navy);font-weight:800;}
+  .lg-card .r{font-size:14px;color:#2D3B43;font-weight:800;margin-top:1px;}
+  .removed{display:flex;align-items:center;justify-content:center;min-height:30px;color:#AEB8BE;font-size:11px;font-weight:700;}
+  .lg-card.gone{background:#F2F5F7;border:1px dashed #D6DEE2;}
+  .ba-mid{font-size:11px;color:#9AA3AA;text-align:center;margin:6px 2px 0;}
+
+  /* ===== 注意書き ===== */
+  .notes{margin-top:36px;border-top:1px solid var(--line);padding-top:18px;}
+  .notes p{font-size:13px;color:var(--sub);margin:0 0 9px;padding-left:1.1em;text-indent:-1.1em;line-height:1.7;}
+
+  .foot{text-align:center;color:var(--gray);font-size:11.5px;padding:24px 24px 38px;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- ヘッダー画像（モチベア） -->
+    <img class="header-img" src="assets/header.webp" alt="モチベア" width="1172" height="345">
+
+    <!-- タイトル -->
+    <div class="head">
+      <h1 class="title">リーグに「参加しない」も選べる！<br>【市民リーグ設定アップデート】</h1>
+      <div class="date">2026/05/27 12:00</div>
+    </div>
+
+    <!-- 本文 -->
+    <main class="body">
+      <p class="lead">
+        Hello~！モチベアだよ！<br>
+        今回のアップデートで、市民リーグに<span class="em">「参加する・しない」を自分で選べる</span>ようになったよ！
+        ランキングが気になっちゃう人も、これで自分のペースで学習を楽しめるよ。
+      </p>
+
+      <!-- 1. 設定方法 -->
+      <h2 class="sec">「市民リーグ設定」からかんたん切り替え</h2>
+      <p class="txt">
+        <span class="em">マイページ →〔設定〕→「市民リーグ設定」</span>を開いて、スイッチを切り替えるだけ！
+        いつでも何度でも変更できるよ。
+      </p>
+
+      <div class="shot">
+        <div class="scr-status"><span>9:41</span><span class="dots">●●● 📶 ▮▮▮</span></div>
+        <div class="scr-nav"><span class="back">‹</span>市民リーグ設定</div>
+        <div class="scr-body">
+          <div class="setting-card">
+            <span class="lab">市民リーグ参加</span>
+            <span class="switch" aria-label="オン"></span>
+          </div>
+          <div class="scr-hint">▲ スイッチをオフにすると「不参加」になります</div>
+        </div>
+      </div>
+
+      <!-- 2. オフにしたとき -->
+      <h2 class="sec">オフにすると…（不参加）</h2>
+      <p class="txt">リーグをおやすみしたいときは、オフにしてね。こんなふうに変わるよ👇</p>
+      <ul class="list">
+        <li><span class="em">翌週から</span>、リーグに割り振られなくなるよ。</li>
+        <li>名前の横の<span class="em">リーグバッジ</span>が消えるよ。</li>
+        <li>マイページ・ホームから<span class="em">リーグの表示がなくなる</span>よ。</li>
+        <li>その週のリーグ結果や、<span class="em">昇格・降格のお知らせ</span>も表示されないよ。</li>
+      </ul>
+
+      <h3 class="sub">バッジ・リーグ表示はこう変わるよ</h3>
+      <div class="ba">
+        <div class="ba-col">
+          <div class="ba-tag on">参加中</div>
+          <div class="ba-inner">
+            <div class="name-row"><span class="ava"></span><span class="nm">もちたんたろうー</span></div>
+            <span class="lg-badge"><span class="dot"></span>ゴールド</span>
+            <div class="lg-card"><div class="t">市民リーグ</div><div class="r">3,200位</div></div>
+          </div>
+        </div>
+        <div class="ba-col">
+          <div class="ba-tag off">不参加</div>
+          <div class="ba-inner">
+            <div class="name-row"><span class="ava"></span><span class="nm">もちたんたろうー</span></div>
+            <div class="lg-card gone"><div class="removed">バッジ・リーグ非表示</div></div>
+          </div>
+        </div>
+      </div>
+      <p class="ba-mid">バッジが消え、リーグの情報も表示されなくなります</p>
+
+      <div class="inline-note">
+        ※切り替えたその週はまだ参加中のあつかいで、不参加になるのは<b>翌週から</b>だよ。
+      </div>
+
+      <!-- 3. オンにしたとき -->
+      <h2 class="sec">もう一度オンにすると…（再参加）</h2>
+      <p class="txt">またリーグに戻りたくなったら、いつでもオンにできるよ！</p>
+      <ul class="list">
+        <li><span class="em">BPを獲得したタイミング</span>で、またリーグに参加できるよ。</li>
+        <li>直前に参加していた週の成績をもとに、<span class="em">近いレベルのリーグ</span>に割り振られるよ。</li>
+      </ul>
+
+      <!-- 注意書き -->
+      <div class="notes">
+        <p>※設定のオン・オフは、いつでも切り替えできます。</p>
+        <p>※不参加中も、学習やBPの獲得はこれまでどおり楽しめます。</p>
+        <p>※過去の配信はモチタウン＞右上のメールボックスから確認できます。</p>
+      </div>
+    </main>
+
+    <div class="foot">© Motitan</div>
+
+  </div>
+</body>
+</html>
