@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>【モチタン・モチスピ】モチタン・モチスピに新しい言語が追加されたよ！｜モチタン</title>
+<meta property="og:title" content="モチタン・モチスピに新しい言語が追加されたよ！">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0D4962;
+    --date:#7C878A;
+    --line:#99A7AA;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  img{max-width:100%;}
+  body{
+    background:#fff;
+    font-family:"Noto Sans JP",-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+    color:var(--navy);
+    -webkit-font-smoothing:antialiased;
+    word-break:break-word;
+  }
+
+  /* 流動カラム：固定px幅を持たせずレスポンシブに */
+  .wrap{width:100%;max-width:430px;margin:0 auto;background:#fff;}
+
+  /* ヘッダーバナー（全幅・比率維持）＋下方向のシャドウ。
+     画像未配置時も崩れないよう、背景にブランドグラデーションを敷く */
+  .banner{
+    display:block;width:100%;height:auto;position:relative;z-index:1;
+    background:linear-gradient(180deg,#DCF1FF 0%,#F4FBFF 100%);
+    box-shadow:0 4px 6px rgba(0,0,0,.12);
+  }
+
+  /* 本文コンテナ：左右パディングで余白を作る */
+  .content{padding:14px 22px 40px;}
+
+  h1.title{margin:0 0 8px;color:var(--navy);font-weight:700;font-size:20px;line-height:1.5;letter-spacing:.02em;}
+  .date{color:var(--date);font-size:16.5px;line-height:1.4;letter-spacing:.02em;margin:0 0 18px;}
+
+  p.lead{font-size:15.5px;line-height:1.9;letter-spacing:.02em;margin:18px 0;}
+
+  /* ── 「言語を選ぶ」バナー（空色カード＋国旗） ───────────── */
+  .lang-banner{
+    display:flex;align-items:center;gap:14px;margin:26px 0 0;padding:16px;
+    background:linear-gradient(180deg,#CDEAFF 0%,#EAF7FF 60%,#FFFFFF 100%);
+    border-radius:20px;box-shadow:0 5px 5px rgba(147,149,169,.3);
+  }
+  .lang-btn{
+    flex:0 0 auto;background:#fff;color:var(--navy);
+    font-weight:700;font-size:16px;line-height:1.25;text-align:center;
+    padding:10px 14px;border-radius:14px;box-shadow:0 2px 3px rgba(13,73,98,.15);white-space:nowrap;
+  }
+  .flags{display:flex;flex-wrap:wrap;gap:6px;flex:1 1 auto;justify-content:center;}
+  .flag{width:34px;height:23px;border-radius:4px;overflow:hidden;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.22);}
+  .flag svg{display:block;width:100%;height:100%;}
+
+  /* ── 設定画面（環境設定 > 言語設定）の再現 ───────────── */
+  .settings{
+    margin:26px 0 0;background:#fff;border:1px solid #E6EDEF;border-radius:16px;overflow:hidden;
+    box-shadow:0 5px 12px rgba(147,149,169,.35);
+  }
+  .settings-bar{position:relative;display:flex;align-items:center;justify-content:center;height:52px;background:#2c2c2e;}
+  .settings-bar .back{
+    position:absolute;left:16px;top:50%;width:11px;height:11px;
+    border-left:2.5px solid #fff;border-bottom:2.5px solid #fff;
+    transform:translateY(-50%) rotate(45deg);
+  }
+  .settings-bar .bar-title{color:#fff;font-weight:700;font-size:18px;letter-spacing:.06em;}
+  .settings-body{padding:20px 18px 24px;}
+  .settings-body .section{margin:0 0 14px;color:var(--navy);font-weight:700;font-size:18px;letter-spacing:.02em;}
+  .rows{border:1px solid #DCEBF2;border-radius:14px;overflow:hidden;}
+  .row{display:flex;align-items:center;justify-content:space-between;padding:16px;background:#F7FCFF;font-size:16px;color:var(--navy);}
+  .row + .row{border-top:1px solid #E4F0F6;}
+  .row .chev{width:8px;height:8px;border-right:2px solid #9DB4BE;border-top:2px solid #9DB4BE;transform:rotate(45deg);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- ヘッダーバナー（5つの言語が新登場）
+         デザイン書き出し画像を 13/assets/header.png に配置してください -->
+    <img class="banner" src="assets/header.png" alt="モチタン・モチスピに5つの言語が新登場" width="390" height="159">
+
+    <div class="content">
+
+      <h1 class="title">モチタン・モチスピに新しい言語が追加されたよ！</h1>
+      <p class="date">2026/07/15 00:00</p>
+
+      <p class="lead">英語以外にも、中国語・韓国語・フランス語・ドイツ語・スペイン語が学べるようになったよ！</p>
+
+      <p class="lead">ホームの「言語を選ぶ」または<br>
+      マイページ ＞ 設定 ＞ 環境設定 ＞ 言語設定<br>
+      から切り替えてね！</p>
+
+      <!-- 「言語を選ぶ」バナー -->
+      <div class="lang-banner">
+        <span class="lang-btn">言語を<br>選ぶ</span>
+        <div class="flags">
+          <!-- アメリカ -->
+          <span class="flag"><svg viewBox="0 0 30 20" xmlns="http://www.w3.org/2000/svg">
+            <rect width="30" height="20" fill="#fff"/>
+            <g fill="#B22234">
+              <rect y="0" width="30" height="2.86"/><rect y="5.71" width="30" height="2.86"/>
+              <rect y="11.43" width="30" height="2.86"/><rect y="17.14" width="30" height="2.86"/>
+            </g>
+            <rect width="12" height="11.43" fill="#3C3B6E"/>
+            <g fill="#fff">
+              <circle cx="2.5" cy="2" r="0.7"/><circle cx="6" cy="2" r="0.7"/><circle cx="9.5" cy="2" r="0.7"/>
+              <circle cx="4.2" cy="4.2" r="0.7"/><circle cx="7.7" cy="4.2" r="0.7"/>
+              <circle cx="2.5" cy="6.4" r="0.7"/><circle cx="6" cy="6.4" r="0.7"/><circle cx="9.5" cy="6.4" r="0.7"/>
+              <circle cx="4.2" cy="8.6" r="0.7"/><circle cx="7.7" cy="8.6" r="0.7"/>
+            </g>
+          </svg></span>
+          <!-- 中国 -->
+          <span class="flag"><svg viewBox="0 0 30 20" xmlns="http://www.w3.org/2000/svg">
+            <rect width="30" height="20" fill="#DE2910"/>
+            <g fill="#FFDE00">
+              <path transform="translate(7,6) scale(0.9)" d="M0,-5 L1.122,-1.545 L4.755,-1.545 L1.817,0.59 L2.939,4.045 L0,1.91 L-2.939,4.045 L-1.817,0.59 L-4.755,-1.545 L-1.122,-1.545 Z"/>
+              <path transform="translate(13,2.2) scale(0.32)" d="M0,-5 L1.122,-1.545 L4.755,-1.545 L1.817,0.59 L2.939,4.045 L0,1.91 L-2.939,4.045 L-1.817,0.59 L-4.755,-1.545 L-1.122,-1.545 Z"/>
+              <path transform="translate(15.5,4.6) scale(0.32)" d="M0,-5 L1.122,-1.545 L4.755,-1.545 L1.817,0.59 L2.939,4.045 L0,1.91 L-2.939,4.045 L-1.817,0.59 L-4.755,-1.545 L-1.122,-1.545 Z"/>
+              <path transform="translate(15.5,7.8) scale(0.32)" d="M0,-5 L1.122,-1.545 L4.755,-1.545 L1.817,0.59 L2.939,4.045 L0,1.91 L-2.939,4.045 L-1.817,0.59 L-4.755,-1.545 L-1.122,-1.545 Z"/>
+              <path transform="translate(13,10.2) scale(0.32)" d="M0,-5 L1.122,-1.545 L4.755,-1.545 L1.817,0.59 L2.939,4.045 L0,1.91 L-2.939,4.045 L-1.817,0.59 L-4.755,-1.545 L-1.122,-1.545 Z"/>
+            </g>
+          </svg></span>
+          <!-- 韓国 -->
+          <span class="flag"><svg viewBox="0 0 30 20" xmlns="http://www.w3.org/2000/svg">
+            <rect width="30" height="20" fill="#fff"/>
+            <path d="M10,10 A5,5 0 0,1 20,10 Z" fill="#CD2E3A"/>
+            <path d="M10,10 A5,5 0 0,0 20,10 Z" fill="#0047A0"/>
+            <g fill="#000" transform="translate(15,10)">
+              <g transform="rotate(-56)"><rect x="-9.4" y="-0.5" width="3" height="1"/><rect x="-9.4" y="-1.7" width="3" height="0.8"/><rect x="-9.4" y="0.9" width="3" height="0.8"/></g>
+              <g transform="rotate(56)"><rect x="-9.4" y="-0.5" width="3" height="1"/><rect x="-9.4" y="-1.7" width="3" height="0.8"/><rect x="-9.4" y="0.9" width="3" height="0.8"/></g>
+              <g transform="rotate(-124)"><rect x="-9.4" y="-0.5" width="3" height="1"/><rect x="-9.4" y="-1.7" width="3" height="0.8"/><rect x="-9.4" y="0.9" width="3" height="0.8"/></g>
+              <g transform="rotate(124)"><rect x="-9.4" y="-0.5" width="3" height="1"/><rect x="-9.4" y="-1.7" width="3" height="0.8"/><rect x="-9.4" y="0.9" width="3" height="0.8"/></g>
+            </g>
+          </svg></span>
+          <!-- フランス -->
+          <span class="flag"><svg viewBox="0 0 30 20" xmlns="http://www.w3.org/2000/svg">
+            <rect width="10" height="20" fill="#0055A4"/>
+            <rect x="10" width="10" height="20" fill="#fff"/>
+            <rect x="20" width="10" height="20" fill="#EF4135"/>
+          </svg></span>
+          <!-- ドイツ -->
+          <span class="flag"><svg viewBox="0 0 30 20" xmlns="http://www.w3.org/2000/svg">
+            <rect width="30" height="6.67" fill="#000"/>
+            <rect y="6.67" width="30" height="6.67" fill="#DD0000"/>
+            <rect y="13.33" width="30" height="6.67" fill="#FFCE00"/>
+          </svg></span>
+          <!-- スペイン -->
+          <span class="flag"><svg viewBox="0 0 30 20" xmlns="http://www.w3.org/2000/svg">
+            <rect width="30" height="20" fill="#AA151B"/>
+            <rect y="5" width="30" height="10" fill="#F1BF00"/>
+          </svg></span>
+        </div>
+      </div>
+
+      <!-- 設定画面（マイページ ＞ 設定 ＞ 環境設定） -->
+      <div class="settings">
+        <div class="settings-bar">
+          <span class="back" aria-hidden="true"></span>
+          <span class="bar-title">設定</span>
+        </div>
+        <div class="settings-body">
+          <h2 class="section">環境設定</h2>
+          <div class="rows">
+            <div class="row"><span>学習設定</span><span class="chev" aria-hidden="true"></span></div>
+            <div class="row"><span>言語設定</span><span class="chev" aria-hidden="true"></span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
