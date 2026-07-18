@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>【モチタウン】いくつか不具合を解消したよ！｜モチタウン</title>
+<meta property="og:title" content="いくつか不具合を解消したよ！">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0D4962;
+    --date:#7C878A;
+    --line:#99A7AA;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  img{max-width:100%;}
+  body{
+    background:#fff;
+    font-family:"Noto Sans JP",-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+    color:var(--navy);
+    -webkit-font-smoothing:antialiased;
+    word-break:break-word;
+  }
+
+  /* 流動カラム：固定px幅を持たせずレスポンシブに */
+  .wrap{width:100%;max-width:430px;margin:0 auto;background:#fff;}
+
+  /* ヘッダーバナー（全幅・比率維持）＋下方向のシャドウ。
+     画像未配置時も崩れないよう、背景にブランドカラーを敷く */
+  .banner{
+    display:block;width:100%;height:auto;position:relative;z-index:1;
+    background:#DCF1FF;
+    box-shadow:0 4px 6px rgba(0,0,0,.12);
+  }
+
+  /* 本文コンテナ：左右パディングで余白を作る */
+  .content{padding:16px 22px 40px;}
+
+  h1.title{margin:0 0 8px;color:var(--navy);font-weight:700;font-size:22px;line-height:1.5;letter-spacing:.02em;}
+  .date{color:var(--date);font-size:16.5px;line-height:1.4;letter-spacing:.02em;margin:0 0 18px;}
+
+  p.lead{font-size:15.5px;line-height:1.9;letter-spacing:.02em;margin:18px 0;}
+
+  /* 修正内容の箇条書き（ネイビーの丸ポチ＋ぶら下げインデント） */
+  ul.fixes{margin:16px 0;padding:0;list-style:none;}
+  ul.fixes li{
+    position:relative;padding:0 0 0 20px;margin:12px 0;
+    font-size:15.5px;line-height:1.9;letter-spacing:.02em;
+  }
+  ul.fixes li::before{
+    content:"";position:absolute;left:2px;top:.72em;
+    width:7px;height:7px;border-radius:50%;background:var(--navy);
+  }
+
+  /* 補足（※ 過去の配信…） */
+  p.note{font-size:15.5px;line-height:1.9;letter-spacing:.02em;margin:28px 0 0;}
+
+  /* 下部：お知らせボタンの案内画像 */
+  .instruction{display:block;width:100%;height:auto;margin:22px 0 0;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- ヘッダーバナー：どろんこのモチベア -->
+    <img class="banner" src="assets/header.png" alt="どろんこのモチベア" width="1560" height="460">
+
+    <div class="content">
+
+      <h1 class="title">いくつか不具合を解消したよ！</h1>
+      <p class="date">2026/07/18 14:00</p>
+
+      <p class="lead">
+
+      <ul class="fixes">
+        <li>モチタンの対戦での音声再生の遅れを改善したよ。</li>
+        <li>モチスピのネイサンとの無料トークの終了ボタンを押しやすくしたよ。</li>
+        <li>マイページからフレンド一覧ページが正しく表示されない不具合を修正したよ。</li>
+      </ul>
+
+      <p class="lead"><a href="https://motitan.astran.jp/G3KkOx">こちらのリンク</a>からアプリをアップデートしてね。</p>
+
+      <p class="note">※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。</p>
+
+      <!-- 下部：モチタウン ホーム画面（右上のお知らせボタンを案内） -->
+      <img class="instruction" src="assets/instruction.png" alt="モチタウンのホーム画面。右上のお知らせボタンから過去の配信を確認できます。" width="801" height="567">
+
+    </div>
+  </div>
+</body>
+</html>
