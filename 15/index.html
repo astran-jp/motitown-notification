@@ -45,6 +45,16 @@
 
   p.lead{font-size:15.5px;line-height:1.9;letter-spacing:.02em;margin:18px 0;}
 
+  /* トピックごとの見出し（左のネイビーバー＋薄い水色の下線） */
+  h2.section{
+    display:flex;align-items:center;gap:10px;
+    margin:36px 0 4px;padding:0 0 8px;border-bottom:2px solid #DCF1FF;
+    color:var(--navy);font-weight:700;font-size:18px;line-height:1.5;letter-spacing:.02em;
+  }
+  h2.section::before{
+    content:"";flex:0 0 auto;width:5px;height:1.2em;border-radius:3px;background:var(--navy);
+  }
+
   /* ジョニー先生の紹介画像（透過PNGを白背景・角丸・薄いグレー枠のカードに載せる） */
   .character{
     display:block;width:100%;height:auto;margin:26px 0;padding:10px;
@@ -73,6 +83,8 @@
       <h1 class="title">モチスピにジョニー先生が登場！<br>/中国語・韓国語の読み方表示<br>/ペアレンタルコントロール機能の追加</h1>
       <p class="date">2026/8/1 14:00</p>
 
+      <h2 class="section">モチスピにジョニー先生が登場！</h2>
+
       <p class="lead">ネイサン先生に続いて、ジョニー先生とも話せるようになったよ！</p>
 
       <p class="lead">マイページ &gt; 学習設定 &gt; 先生を変更<br>
@@ -80,6 +92,8 @@
 
       <!-- ジョニー先生の立ち絵 -->
       <img class="character" src="assets/johnny.png" alt="ジョニー先生" width="338" height="258">
+
+      <h2 class="section">中国語・韓国語の読み方表示</h2>
 
       <p class="lead">中国語・韓国語の読み方を追加したよ！</p>
 
@@ -95,6 +109,8 @@
 
       <!-- 設定画面（マイページ ＞ 設定 ＞ 学習設定） -->
       <img class="settings" src="assets/learning-settings.png" alt="学習設定画面。対戦モードで「対戦前に単語一覧を表示」と「ピンインを表示」をオンにできます。" width="338" height="226">
+
+      <h2 class="section">ペアレンタルコントロール機能の追加</h2>
 
       <p class="lead">ファミリープランにペアレンタルコントロール機能を追加したよ！</p>
 
