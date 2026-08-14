@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>【モチタン・モチスピ】モチスピにみゆ・レックスが登場！/自動音声読み上げ機能を追加｜モチタウン</title>
+<meta property="og:title" content="モチスピにみゆ・レックスが登場！/自動音声読み上げ機能を追加">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0D4962;
+    --date:#7C878A;
+    --line:#99A7AA;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  img{max-width:100%;}
+  body{
+    background:#fff;
+    font-family:"Noto Sans JP",-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+    color:var(--navy);
+    -webkit-font-smoothing:antialiased;
+    word-break:break-word;
+  }
+
+  /* 流動カラム：固定px幅を持たせずレスポンシブに */
+  .wrap{width:100%;max-width:430px;margin:0 auto;background:#fff;}
+
+  /* ヘッダーバナー（全幅・比率維持）＋下方向のシャドウ。
+     画像未配置時も崩れないよう、背景にブランドグラデーションを敷く */
+  .banner{
+    display:block;width:100%;height:auto;position:relative;z-index:1;
+    background:linear-gradient(180deg,#DCF1FF 0%,#F4FBFF 100%);
+    box-shadow:0 4px 6px rgba(0,0,0,.12);
+  }
+
+  /* 本文コンテナ：左右パディングで余白を作る */
+  .content{padding:14px 22px 40px;}
+
+  h1.title{margin:0 0 8px;color:var(--navy);font-weight:700;font-size:20px;line-height:1.5;letter-spacing:.02em;}
+  .date{color:var(--date);font-size:16.5px;line-height:1.4;letter-spacing:.02em;margin:0 0 18px;}
+
+  p.lead{font-size:15.5px;line-height:1.9;letter-spacing:.02em;margin:18px 0;}
+
+  /* トピックごとの見出し（左のネイビーバー＋薄い水色の下線） */
+  h2.section{
+    display:flex;align-items:center;gap:10px;
+    margin:36px 0 4px;padding:0 0 8px;border-bottom:2px solid #DCF1FF;
+    color:var(--navy);font-weight:700;font-size:18px;line-height:1.5;letter-spacing:.02em;
+  }
+  h2.section::before{
+    content:"";flex:0 0 auto;width:5px;height:1.2em;border-radius:3px;background:var(--navy);
+  }
+
+  /* みゆ先生・レックス先生の紹介画像（透過PNGを白背景・角丸・薄いグレー枠のカードに載せる） */
+  .character{
+    display:block;width:100%;height:auto;margin:26px 0;padding:10px;
+    background:#fff;border:1px solid #E4E4E4;border-radius:16px;
+  }
+
+  /* アプリ画面のスクリーンショット（単語詳細／自動再生設定） */
+  .settings{
+    display:block;width:100%;height:auto;margin:26px 0;
+    border-radius:12px 12px 0 0;
+    box-shadow:0 5px 12px rgba(147,149,169,.35);
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- ヘッダーバナー：みゆ先生・レックス先生 登場！ ほか1件 -->
+    <img class="banner" src="assets/header.png" alt="モチスピに みゆ先生 レックス先生 登場！ ほか1件" width="1170" height="513">
+
+    <div class="content">
+
+      <h1 class="title">モチスピにみゆ・レックスが登場！<br>/自動音声読み上げ機能を追加</h1>
+      <p class="date">2026/8/14 16:00</p>
+
+      <h2 class="section">モチスピにみゆ・レックスが登場！</h2>
+
+      <p class="lead">ネイサン先生・ジョニー先生に続いて、みゆ先生・レックス先生とも話せるようになったよ！</p>
+
+      <p class="lead">マイページ &gt; 学習設定 &gt; 先生を変更<br>
+      で切り替えてね！</p>
+
+      <!-- みゆ先生・レックス先生の立ち絵 -->
+      <img class="character" src="assets/character.png" alt="みゆ先生とレックス先生" width="338" height="258">
+
+      <h2 class="section">自動音声読み上げ機能を追加</h2>
+
+      <p class="lead">モチタン・モチスピ両方に、自動音声読み上げ機能を追加したよ！</p>
+
+      <p class="lead">再生ボタンを押すと、単語リストやフレーズリストを読み上げて、ループ再生するよ。ハンズフリーで流し聞き学習が可能になるよ。</p>
+
+      <p class="lead">再生対象は⚙アイコンから個別にON/OFF可能だから、必要なものを選んでね。</p>
+
+      <!-- 単語詳細画面（再生ボタン付きの単語カード） -->
+      <img class="settings" src="assets/wordbook.png" alt="単語詳細画面。worldの意味・例文が表示され、下部の再生ボタンで読み上げできます。" width="338" height="724">
+
+      <!-- 自動再生の設定画面（単語詳細 ＞ 自動再生） -->
+      <img class="settings" src="assets/setting.png" alt="自動再生の設定画面。単語・単語の意味・例文・例文和訳を個別にON/OFFできます。" width="338" height="353">
+
+    </div>
+  </div>
+</body>
+</html>
