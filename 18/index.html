@@ -46,15 +46,34 @@
 
   p.lead{font-size:15.5px;line-height:1.9;letter-spacing:.02em;margin:18px 0;}
 
-  /* 「モチタウンのいま」カード（タップでページへ。角丸＋やわらかいシャドウ） */
-  a.now-link{display:block;margin:32px 0 0;}
-  .now-card{
+  /* トピックごとの見出し（左のネイビーバー＋薄い水色の下線） */
+  h2.section{
+    display:flex;align-items:center;gap:10px;
+    margin:44px 0 4px;padding:0 0 8px;border-bottom:2px solid #DCF1FF;
+    color:var(--navy);font-weight:700;font-size:18px;line-height:1.5;letter-spacing:.02em;
+  }
+  h2.section::before{
+    content:"";flex:0 0 auto;width:5px;height:1.2em;border-radius:3px;background:var(--navy);
+  }
+
+  /* サイト断面のカード（タップでサイトへ。角丸＋やわらかいシャドウで統一） */
+  a.card-link{display:block;margin:24px 0 34px;}
+  .card{
     display:block;width:100%;height:auto;
     border-radius:20px;overflow:hidden;
     box-shadow:0 5px 12px rgba(147,149,169,.35);
   }
+
+  /* 末尾のバナーリンク＋タップ誘導 */
+  a.footer-link{display:block;margin:28px 0 0;text-decoration:none;}
+  .footer-banner{
+    display:block;width:100%;height:auto;
+    border-radius:16px;overflow:hidden;
+    box-shadow:0 5px 12px rgba(147,149,169,.35);
+    background:linear-gradient(180deg,#DCF1FF 0%,#F4FBFF 100%);
+  }
   p.tap{
-    margin:12px 0 0;text-align:center;
+    margin:14px 0 0;text-align:center;
     color:var(--navy);font-weight:500;font-size:17px;line-height:1.5;letter-spacing:.06em;
   }
 </style>
@@ -68,18 +87,70 @@
     <div class="content">
 
       <h1 class="title">モチタウンのいま</h1>
-      <p class="date">2026/8/14 17:00</p>
+      <p class="date">2026/8/14 18:00</p>
 
       <p class="lead">モチタン・モチスピの「いま」がわかるページを作ったよ！</p>
 
-      <p class="lead">これからのアプデ予定、楽しいデータ、歴史、人気のコース、人気のキャラ、混んでる時間帯などがわかるよ！</p>
+      <p class="lead">アプデ予定、楽しいデータ、歴史、人気のコース、人気のキャラ、混んでる時間帯などなど、みんなの気になる情報を、毎日更新。</p>
 
-      <p class="lead">みんなの気になる情報を、毎日更新！</p>
+      <p class="lead">少しだけ内容を紹介するね！</p>
 
-      <!-- 「モチタウンのいま」ページへのリンクカード -->
-      <a class="now-link" href="https://motitown.com/news/">
-        <img class="now-card" src="assets/main.png" alt="Motitown Now モチタウンのいま。モチタン・モチスピで学んでる人 1,117,613人" width="338" height="288">
-        <p class="tap">＜画像をタップ＞</p>
+      <h2 class="section">モチタウンの盛り上がり</h2>
+
+      <p class="lead">まずはモチタウンの人口から。毎日こんなにも、みんなの仲間が増え続けているんだ。</p>
+
+      <!-- モチタウンの人口（Motitown Now カード） -->
+      <a class="card-link" href="https://motitown.com/news/">
+        <img class="card" src="assets/now.png" alt="Motitown Now モチタウンのいま。モチタン・モチスピで学んでる人 1,117,613人。きのうより3,780人増えた！" width="338" height="288">
+      </a>
+
+      <p class="lead">つぎにダウンロード数ランキング！タップすると、各ストアのランキングに飛ぶよ。</p>
+
+      <!-- ダウンロード数ランキング -->
+      <a class="card-link" href="https://motitown.com/news/">
+        <img class="card" src="assets/ranking.png" alt="ダウンロード数ランキング（8/14最新）。モチタンは App Store 英単語アプリ1位・Google Play 英単語アプリ1位、モチスピは App Store 英会話アプリ2位・Google Play 英会話アプリ1位" width="338" height="288">
+      </a>
+
+      <p class="lead">アプデ予定からは、次に追加される機能を先取り。もうすぐStudyPlusとつながるんだって！</p>
+
+      <!-- アプデ予定（StudyPlus 連携） -->
+      <a class="card-link" href="https://motitown.com/news/">
+        <img class="card" src="assets/studyplus.png" alt="勉強記録が、Studyplusとつながる！学習記録アプリと連携して、モチタウンでの勉強もまとめて記録できるようになります。" width="338" height="318">
+      </a>
+
+      <p class="lead">ほかにも、たくさんの楽しい機能の予定があるから、ぜひサイトをチェックしてね。</p>
+
+      <h2 class="section">モチタウンのこと</h2>
+
+      <p class="lead">いまでこそモチタウンはにぎわっているけど、その道のりにはいろんなことがあったよ。</p>
+
+      <p class="lead">ユーザーがひとりしかいなかった時代からの成長の歴史や、</p>
+
+      <!-- モチタウンの歴史 -->
+      <a class="card-link" href="https://motitown.com/news/">
+        <img class="card" src="assets/history.png" alt="Our Story モチタウンの歴史。2022年12月 モチタウン、着工。2023年7月 最初の住民がやってきた。" width="338" height="381">
+      </a>
+
+      <p class="lead">日本中のモチタウンの仲間のこと、</p>
+
+      <!-- 全ての地域に仲間がいる（日本地図） -->
+      <a class="card-link" href="https://motitown.com/news/">
+        <img class="card" src="assets/map.png" alt="All over Japan! 全ての地域に仲間がいる。都道府県ごとの仲間の分布マップ" width="338" height="345">
+      </a>
+
+      <p class="lead">みんなが使っているキャラの人気度も！</p>
+
+      <!-- キャラの人気度ランキング -->
+      <a class="card-link" href="https://motitown.com/news/">
+        <img class="card" src="assets/characters.png" alt="キャラの人気度。1位 みゆ 5,474人が相棒に、2位 ソラ 3,312人が相棒に、3位 レックス 2,308人が相棒に、4位 ジョニー 1,995人が相棒に" width="338" height="257">
+      </a>
+
+      <p class="lead">もっともっとモチタウンのことを知ることができるよ。ぜひ、ぼくと一緒にモチタウンを見て回ろう。サイトで待ってるよ。</p>
+
+      <!-- 末尾バナー：タップでサイトへ -->
+      <a class="footer-link" href="https://motitown.com/news/">
+        <img class="footer-banner" src="assets/footer.png" alt="Welcome to Motitown! モチタウン" width="338" height="178">
+        <p class="tap">＜画像をタップしてサイトへ＞</p>
       </a>
 
     </div>
