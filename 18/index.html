@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>【モチタウン】モチタウンのいま｜モチタウン</title>
+<meta property="og:title" content="モチタウンのいま">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0D4962;
+    --date:#7C878A;
+    --line:#99A7AA;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  img{max-width:100%;}
+  body{
+    background:#fff;
+    font-family:"Noto Sans JP",-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+    color:var(--navy);
+    -webkit-font-smoothing:antialiased;
+    word-break:break-word;
+  }
+
+  /* 流動カラム：固定px幅を持たせずレスポンシブに */
+  .wrap{width:100%;max-width:430px;margin:0 auto;background:#fff;}
+
+  /* ヘッダーバナー（全幅・比率維持）＋下方向のシャドウ。
+     画像未配置時も崩れないようフォールバック背景を敷く */
+  .banner{
+    display:block;width:100%;height:auto;position:relative;z-index:1;
+    background:linear-gradient(180deg,#DCF1FF 0%,#F4FBFF 100%);
+    box-shadow:0 4px 6px rgba(0,0,0,.12);
+  }
+
+  /* 本文コンテナ：左右パディングで余白を作る */
+  .content{padding:14px 22px 40px;}
+
+  h1.title{margin:0 0 8px;color:var(--navy);font-weight:700;font-size:20px;line-height:1.5;letter-spacing:.02em;}
+  .date{color:var(--date);font-size:16.5px;line-height:1.4;letter-spacing:.02em;margin:0 0 18px;}
+
+  p.lead{font-size:15.5px;line-height:1.9;letter-spacing:.02em;margin:18px 0;}
+
+  /* 「モチタウンのいま」カード（タップでページへ。角丸＋やわらかいシャドウ） */
+  a.now-link{display:block;margin:32px 0 0;}
+  .now-card{
+    display:block;width:100%;height:auto;
+    border-radius:20px;overflow:hidden;
+    box-shadow:0 5px 12px rgba(147,149,169,.35);
+  }
+  p.tap{
+    margin:12px 0 0;text-align:center;
+    color:var(--navy);font-weight:500;font-size:17px;line-height:1.5;letter-spacing:.06em;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- ヘッダーバナー：Welcome to Motitown! モチタウン -->
+    <img class="banner" src="assets/header.png" alt="Welcome to Motitown! モチタウン “楽しすぎる学習アプリ”の生まれる街" width="1170" height="513">
+
+    <div class="content">
+
+      <h1 class="title">モチタウンのいま</h1>
+      <p class="date">2026/8/14 17:00</p>
+
+      <p class="lead">モチタン・モチスピの「いま」がわかるページを作ったよ！</p>
+
+      <p class="lead">これからのアプデ予定、楽しいデータ、歴史、人気のコース、人気のキャラ、混んでる時間帯などがわかるよ！</p>
+
+      <p class="lead">みんなの気になる情報を、毎日更新！</p>
+
+      <!-- 「モチタウンのいま」ページへのリンクカード -->
+      <a class="now-link" href="https://motitown.com/news/">
+        <img class="now-card" src="assets/main.png" alt="Motitown Now モチタウンのいま。モチタン・モチスピで学んでる人 1,117,613人" width="338" height="288">
+      </a>
+      <p class="tap">＜画像をタップ＞</p>
+
+    </div>
+  </div>
+</body>
+</html>
