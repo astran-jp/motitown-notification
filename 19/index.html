@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<!-- history 本体 (motitown.com/news/history/) の HTML を .site にそのまま流し込んでいるため、
+     URL (news.css / roadmap.css / data.js / assets / 各リンク) をすべて本体側に解決させる。
+     history 本体はルート絶対パス (/news/...) 参照なので base のオリジンで解決される。
+     このページ自身の参照 (favicon・バナー) は base の影響を受けないよう絶対URLにすること -->
+<base href="https://motitown.com/news/history/">
+<link rel="icon" type="image/png" href="https://motitown-notification.astran.jp/favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>【モチタウン】モチタウンの歴史｜モチタウン</title>
+<meta property="og:title" content="モチタウンの歴史">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/news/news.css?v=auto-202608141722">
+<link rel="stylesheet" href="/news/roadmap/roadmap.css?v=auto-202608141722">
+<style>
+  /* news.css / roadmap.css の後に読み、お知らせ部分のスタイルはこちらを優先させる */
+  :root{
+    --navy:#0D4962;
+    --date:#7C878A;
+    --line:#99A7AA;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  img{max-width:100%;}
+  body{
+    background:#fff;
+    font-family:"Noto Sans JP",-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+    color:var(--navy);
+    -webkit-font-smoothing:antialiased;
+    word-break:break-word;
+  }
+
+  /* 流動カラム：固定px幅を持たせずレスポンシブに */
+  .wrap{width:100%;max-width:430px;margin:0 auto;background:#fff;}
+
+  /* ヘッダーバナー（全幅・比率維持）＋下方向のシャドウ。
+     画像未配置時も崩れないようフォールバック背景を敷く */
+  .banner{
+    display:block;width:100%;height:auto;position:relative;z-index:1;
+    background:linear-gradient(180deg,#DCF1FF 0%,#F4FBFF 100%);
+    box-shadow:0 4px 6px rgba(0,0,0,.12);
+  }
+
+  /* 本文コンテナ：左右パディングで余白を作る */
+  .content{padding:14px 22px 26px;}
+
+  h1.title{margin:0 0 8px;color:var(--navy);font-weight:700;font-size:20px;line-height:1.5;letter-spacing:.02em;}
+  .date{color:var(--date);font-size:16.5px;line-height:1.4;letter-spacing:.02em;margin:0 0 18px;}
+
+  p.lead{font-size:15.5px;line-height:1.9;letter-spacing:.02em;margin:18px 0;}
+
+  /* トピック見出し（左のネイビーバー＋薄い水色の下線）。
+     news.css の .section と衝突しないよう subhead という別名にする */
+  h3.subhead{
+    display:flex;align-items:center;gap:10px;
+    margin:32px 0 8px;padding:0 0 8px;border-bottom:2px solid #DCF1FF;
+    color:var(--navy);font-weight:700;font-size:18px;line-height:1.5;letter-spacing:.02em;
+  }
+  h3.subhead::before{
+    content:"";flex:0 0 auto;width:5px;height:1.2em;border-radius:3px;background:var(--navy);
+  }
+
+  /* サイトへのリンクバナー（角丸はやわらかいシャドウで強調） */
+  a.banner-link{display:block;margin:24px 0 8px;}
+  .banner-link img{
+    display:block;width:100%;height:auto;
+    border-radius:16px;
+    box-shadow:0 5px 12px rgba(147,149,169,.35);
+  }
+
+  /* history 本体の流し込み先。本体と同じクリーム地を敷いておく */
+  .site{background:#FFF9EE;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- ヘッダーバナー：モチタウンの歴史 -->
+    <img class="banner" src="https://motitown-notification.astran.jp/19/assets/header.jpeg" alt="Our Story モチタウンの歴史 小さな工事現場から、みんなの街へ" width="1200" height="630">
+
+    <div class="content">
+
+      <h1 class="title">モチタウンの歴史</h1>
+      <p class="date">2026/8/17 14:00</p>
+
+      <p class="lead">「モチタウンのいま」に、モチタウンの歴史をまるごと読める年表ページが登場。</p>
+
+      <p class="lead">2022年の冬、名前もない小さな工事現場からはじまったこの街の、モチタンのリリース、100万人突破、モチスピ誕生までの物語をお届けします。</p>
+
+      <p class="lead">※新しい記録が生まれるとここに歴史として刻まれます。</p>
+
+      <!-- サイトへのリンクバナー -->
+      <a class="banner-link" href="https://motitown.com/news/history/">
+        <img src="https://motitown-notification.astran.jp/19/assets/banner.png" alt="モチタウンの歴史" width="2117" height="743">
+      </a>
+
+      <h3 class="subhead">サイトプレビュー</h3>
+
+    </div>
+
+    <!-- ============================================================
+         ここから history 本体 (https://motitown.com/news/history/) の main をそのまま流し込み。
+         元ソース: branding_pages/src/news/history/index.html
+         ============================================================ -->
+    <div class="site">
+
+      <main class="rd-main">
+        <article class="rd-article">
+          <a class="rd-back" href="/news/#history-title">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5m6 7-7-7 7-7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            モチタウンのいまにもどる
+          </a>
+
+          <p class="section__eyebrow" aria-hidden="true">Our Story</p>
+          <h1 class="rd-title">モチタウンの歴史</h1>
+          <p class="rd-lead">
+            はじまりは、名前もない小さな工事現場でした。数人のチームが「楽しすぎる学習アプリ」を夢見て開発を始めてから、
+            この街には全国からたくさんの住民がやってきました。モチタウンのこれまでを、まるごと年表でどうぞ。
+            住民数の記録は毎日更新され、新しい記録が生まれるとここに歴史として刻まれます。
+          </p>
+
+          <div class="prologue">
+            <p class="prologue__eyebrow" aria-hidden="true">Prologue</p>
+            <h2 class="prologue__title">なぜ、「街」なのか</h2>
+            <p class="prologue__text">
+              わたしたちがつくっているのは、単語アプリでも英会話アプリでもなく、「街」です。
+              なぜかというと——学びって、じつはぜんぶつながっているからです。
+              英単語を覚えれば、英会話がもっと楽しくなる。ひとつの学びが、となりの学びを助けてくれる。
+              だったら、ぜんぶ同じ街にあったほうがいい。そう考えました。
+            </p>
+            <p class="prologue__text">
+              それに、この街にはなかまがいます。いっしょにがんばるなかまがいて、
+              それでいて学ぶ道のりは、ひとりひとりに合わせてつくられる。
+              「みんなといっしょ」と「じぶんだけの学び」。その両方があるのが、モチタウンです。
+            </p>
+            <p class="prologue__text">
+              モチタウンの学びは、英単語と英会話だけでは終わりません。
+              この街はこれからもどんどん進化して、<strong class="prologue__strong">すべての学びが、この街でつながっていきます。</strong>
+              街は、住む人といっしょにずっと育ちつづける。これは、そんな街のこれまでの物語です。
+            </p>
+          </div>
+
+          <h2 class="rd-section-title"><span aria-hidden="true">📈</span>住民の増えかた</h2>
+          <p class="rd-lead">はじめはゆっくり、そしてどんどん加速——。増えかたにも、物語があります。</p>
+          <div class="growth-chart" id="js-growth" role="img" aria-label="住民数の月別推移グラフ"></div>
+
+          <h2 class="rd-section-title"><span aria-hidden="true">📜</span>年表</h2>
+          <ol class="htl" id="js-htl"></ol>
+
+          <div class="rd-more">
+            <a class="rd-more__link" href="/news/">
+              モチタウンのいまへもどる
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M5 12h14m-6-7 7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <section class="closing closing--stars" aria-labelledby="closing-title">
+          <div class="closing__stars" aria-hidden="true"></div>
+          <div class="closing__inner">
+            <p class="closing__epilogue">
+              夜空に星がひとつずつ増えていくように、<br class="closing__br-sp">この街の歴史も、今日どこかで1行ふえています。
+            </p>
+            <h2 class="closing__title" id="closing-title">次の歴史を、いっしょに。</h2>
+            <nav class="closing__apps" aria-label="アプリの紹介ページ">
+              <a class="closing__app" href="/motitan/">
+                <img src="/assets/images/motitan-icon.png" alt="" width="320" height="320" loading="lazy" decoding="async">
+                <span>モチタン</span>
+              </a>
+              <a class="closing__app" href="/motispi/">
+                <img src="/assets/images/motispi-icon.png" alt="" width="320" height="320" loading="lazy" decoding="async">
+                <span>モチスピ</span>
+              </a>
+            </nav>
+          </div>
+        </section>
+      </main>
+
+      <noscript>
+        <p style="text-align:center; padding: 24px;">このページのデータ表示には JavaScript が必要です。</p>
+      </noscript>
+    </div>
+    <!-- ここまで history 本体の流し込み -->
+
+  </div>
+
+  <script src="/news/data.js?v=auto-202608141722"></script>
+  <script src="/news/data-auto.js?v=auto-202608141722"></script>
+  <script src="/news/subpages.js?v=auto-202608141722"></script>
+</body>
+</html>
