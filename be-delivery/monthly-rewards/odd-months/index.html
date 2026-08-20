@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--
+  月間ミッション報酬のお知らせ（奇数月）
+  - アプリ内 WebView から ?app=motitan / ?app=motispi 付きで開かれ、起動アプリのブロックが上に来る
+  - 中身は両アプリで同一。毎月 奇数月 の分だけをここで差し替える（更新手順は ../README.md）
+  - TODO: 現在は偶数月のサンプル内容のコピー。次の奇数月の公開前にキャラ画像・名前・説明文を差し替えること
+-->
+<html lang="ja" data-app="motitan">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>今月の報酬一覧｜モチタン・モチスピ</title>
+  <meta property="og:title" content="今月の報酬一覧">
+  <meta property="og:type" content="article">
+  <meta name="robots" content="noindex">
+  <script>
+    // 描画前に起動アプリを確定させる（順序切り替えのちらつき防止）。
+    // 不正値・パラメータ無しはモチタン扱い。
+    (function () {
+      var m = /[?&]app=([^&#]*)/.exec(window.location.search);
+      var app = m ? decodeURIComponent(m[1]).toLowerCase() : '';
+      document.documentElement.setAttribute('data-app', app === 'motispi' ? 'motispi' : 'motitan');
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../shared/style.css">
+</head>
+
+<body>
+  <div class="page">
+
+    <!-- ================= モチタン限定 ================= -->
+    <section class="zone zone--motitan">
+      <h1 class="zone__title">モチタン限定</h1>
+
+      <!-- 月間ミッション -->
+      <div class="card card--monthly">
+        <div class="card__glow"><img src="../shared/glow.svg" alt=""></div>
+        <div class="card__tag">月間ミッション<img src="../shared/calendar.svg" alt=""></div>
+        <div class="hero">
+          <img class="sparkle sparkle--start" src="../shared/sparkle.svg" alt="">
+          <img src="images/motitan-monthly.png" alt="百物語ソラ">
+          <img class="sparkle sparkle--end" src="../shared/sparkle.svg" alt="">
+        </div>
+        <div class="info">
+          <p class="info__name">百物語ソラ</p>
+          <p class="info__desc">青白いろうそくの姿をして、百物語を語るソラ。ゆらゆら揺れる炎とともに、ちょっぴり怖くて不思議なお話を聞かせてくれるよ。世界中に伝わる怪談や伝承に触れながら、さまざまな言葉や文化を楽しく教えてくれるんだ。</p>
+        </div>
+      </div>
+
+      <!-- カレンダーミッション -->
+      <div class="card card--calendar">
+        <div class="card__glow"><img src="../shared/glow.svg" alt=""></div>
+        <div class="card__tag">カレンダーミッション<span class="leaf"><img src="../shared/gold-leaf.svg" alt=""><img src="../shared/silver-leaf.svg" alt=""></span></div>
+        <img class="sparkle sparkle--start" src="../shared/sparkle.svg" alt="">
+
+        <div class="cal-row cal-row--effort">
+          <img class="cal-row__char--overhang" src="images/motitan-effort.png" alt="夏満喫モチベア">
+          <div class="cal-row__spacer"></div>
+          <div class="info">
+            <span class="award award--effort">努力賞</span>
+            <p class="info__name">夏満喫モチベア</p>
+            <p class="info__desc">パイナップル帽子をかぶって、浮き輪でぷかぷか夏を満喫中のミニモチベア。ひんやり南国ドリンクを片手に、のんびりバカンスを楽しんでいるよ。旅先で出会う言葉や文化にわくわくしながら、新しい世界への一歩を応援してくれるんだ。</p>
+          </div>
+        </div>
+
+        <div class="cal-row cal-row--excellent">
+          <div class="info">
+            <span class="award award--excellent">優秀賞</span>
+            <p class="info__name">スパーク・レモネード</p>
+            <p class="info__desc">レモネードのパワーを宿した、正義のヒーロー「スパーク・レモネード」。稲妻のようなスピードで駆けつけ、どんな困難にも立ち向かう勇敢な存在なんだ。世界中の仲間と心を通わせ、言葉の力で希望をつないでくれるよ。</p>
+          </div>
+          <div class="cal-row__figure">
+            <img src="images/motitan-excellent.png" alt="スパーク・レモネード">
+            <img class="sparkle sparkle--end" src="../shared/sparkle.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= モチスピ限定 ================= -->
+    <section class="zone zone--motispi">
+      <h1 class="zone__title">モチスピ限定</h1>
+
+      <!-- 月間ミッション -->
+      <div class="card card--monthly">
+        <div class="card__glow"><img src="../shared/glow.svg" alt=""></div>
+        <div class="card__tag">月間ミッション<img src="../shared/calendar.svg" alt=""></div>
+        <div class="hero">
+          <img class="sparkle sparkle--start" src="../shared/sparkle.svg" alt="">
+          <img src="images/motispi-monthly.png" alt="イエローミニモチベア">
+          <img class="sparkle sparkle--end" src="../shared/sparkle.svg" alt="">
+        </div>
+        <div class="info">
+          <p class="info__name">イエローミニモチベア</p>
+          <p class="info__desc">青白いろうそくの姿をして、百物語を語るソラ。ゆらゆら揺れる炎とともに、ちょっぴり怖くて不思議なお話を聞かせてくれるよ。世界中に伝わる怪談や伝承に触れながら、さまざまな言葉や文化を楽しく教えてくれるんだ。</p>
+        </div>
+      </div>
+
+      <!-- カレンダーミッション -->
+      <div class="card card--calendar">
+        <div class="card__glow"><img src="../shared/glow.svg" alt=""></div>
+        <div class="card__tag">カレンダーミッション<span class="leaf"><img src="../shared/gold-leaf.svg" alt=""><img src="../shared/silver-leaf.svg" alt=""></span></div>
+        <img class="sparkle sparkle--start" src="../shared/sparkle.svg" alt="">
+
+        <div class="cal-row cal-row--effort">
+          <img class="cal-row__char--overhang" src="images/motispi-effort.png" alt="神様モチベア">
+          <div class="cal-row__spacer"></div>
+          <div class="info">
+            <span class="award award--effort">努力賞</span>
+            <p class="info__name">神様モチベア</p>
+            <p class="info__desc">パイナップル帽子をかぶって、浮き輪でぷかぷか夏を満喫中のミニモチベア。ひんやり南国ドリンクを片手に、のんびりバカンスを楽しんでいるよ。旅先で出会う言葉や文化にわくわくしながら、新しい世界への一歩を応援してくれるんだ。</p>
+          </div>
+        </div>
+
+        <div class="cal-row cal-row--excellent">
+          <div class="info">
+            <span class="award award--excellent">優秀賞</span>
+            <p class="info__name">宇宙アイドルソラ</p>
+            <p class="info__desc">レモネードのパワーを宿した、正義のヒーロー「スパーク・レモネード」。稲妻のようなスピードで駆けつけ、どんな困難にも立ち向かう勇敢な存在なんだ。世界中の仲間と心を通わせ、言葉の力で希望をつないでくれるよ。</p>
+          </div>
+          <div class="cal-row__figure">
+            <img src="images/motispi-excellent.png" alt="宇宙アイドルソラ">
+            <img class="sparkle sparkle--end" src="../shared/sparkle.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</body>
+
+</html>

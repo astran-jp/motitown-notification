@@ -1,0 +1,335 @@
+/*
+ * 月間ミッション報酬のお知らせ（モチタン / モチスピ共通）
+ * 表示順とゾーン背景は起動アプリ（?app=motitan|motispi）で入れ替わる。
+ * even-months / odd-months で共有するため、レイアウト修正はこのファイルだけで完結させる。
+ */
+
+:root {
+  --ink: #005172;
+  /* 青目の黒 */
+  --sub: #3c7992;
+  /* 青目のグレー */
+  --fe-white: #fefefe;
+  --blue: #1cb0f6;
+  /* 正解の青 */
+  --orange: #ffa800;
+  /* スターのオレンジ2 */
+  --zone-first: #e7f6ff;
+  --zone-second: #fff6e0;
+  --card-width: 326px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  color: var(--ink);
+  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  word-break: break-word;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── アプリ別ゾーン ───────────────────────────── */
+
+.zone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 24px 16px;
+  overflow: hidden;
+}
+
+.zone>* {
+  width: 100%;
+  max-width: var(--card-width);
+}
+
+.zone__title {
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* 起動アプリのブロックが上、背景は上が青ゾーン・下がクリームゾーン */
+[data-app="motitan"] .zone--motitan,
+[data-app="motispi"] .zone--motispi {
+  order: 1;
+  background: var(--zone-first);
+}
+
+[data-app="motitan"] .zone--motispi,
+[data-app="motispi"] .zone--motitan {
+  order: 2;
+  background: var(--zone-second);
+}
+
+/* ── カード共通 ─────────────────────────────── */
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, .1);
+}
+
+/* グロー（600px の円）はカード内に収める */
+.card__glow {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: 10px;
+  pointer-events: none;
+}
+
+.card__glow img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 600px;
+  height: 600px;
+  max-width: none;
+  transform: translate(-50%, -50%);
+}
+
+/* 左上の見出しタグ。カード角丸に合わせて左上も丸める */
+.card__tag {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 10px 0 10px 0;
+  background: var(--fe-white);
+  color: var(--sub);
+  font-size: 15px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.card__tag img {
+  width: 20px;
+  height: 20px;
+}
+
+.leaf {
+  display: flex;
+  align-items: center;
+}
+
+.leaf img {
+  width: 20px;
+  height: 20px;
+}
+
+.leaf img+img {
+  margin-left: -4px;
+}
+
+.sparkle {
+  position: absolute;
+  z-index: 2;
+  width: 32.34px;
+  height: 40px;
+  filter: drop-shadow(0 0 3.5px rgba(0, 0, 0, .08));
+  pointer-events: none;
+}
+
+/* 白い説明ボックス */
+.info {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border-radius: 10px;
+  background: #fff;
+  text-align: center;
+}
+
+.info__name {
+  font-weight: 700;
+}
+
+.info__desc {
+  font-size: 13px;
+}
+
+/* ── 月間ミッションカード ───────────────────── */
+
+.card--monthly {
+  gap: 8px;
+  padding: 48px 16px 24px;
+  background: linear-gradient(180deg, #ffe0ff 0%, #e3e4ff 50%, #c6ebff 100%);
+  overflow: hidden;
+}
+
+.card--monthly .hero {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.card--monthly .hero img {
+  width: 172px;
+  height: 172px;
+}
+
+.card--monthly .sparkle--start {
+  left: 12px;
+  top: 12px;
+}
+
+.card--monthly .sparkle--end {
+  right: 11.66px;
+  bottom: 12px;
+}
+
+.card--monthly .info {
+  width: 100%;
+  padding: 16px 8px;
+}
+
+.card--monthly .info__name {
+  font-size: 17px;
+}
+
+/* ── カレンダーミッションカード ─────────────── */
+
+/* 努力賞キャラがカード左にはみ出すため overflow は切らない */
+.card--calendar {
+  gap: 32px;
+  padding: 48px 16px 32px;
+  background: linear-gradient(180deg, #ffefbd 0%, #d7fade 50%, #baf9ff 100%);
+}
+
+.card--calendar .sparkle--start {
+  left: 16px;
+  top: 48px;
+}
+
+.cal-row {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+/* 努力賞：左のはみ出しキャラ分を空けてから説明ボックス */
+.cal-row--effort {
+  justify-content: flex-end;
+}
+
+/* 努力賞キャラの居場所。幅の狭い端末では縮んでよい */
+.cal-row__spacer {
+  flex: 0 1 106px;
+  height: 172px;
+}
+
+.cal-row__char--overhang {
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  z-index: 2;
+  width: 160px;
+  height: 160px;
+  transform: translateY(-50%);
+}
+
+/* 優秀賞：キャラはカード右端で切れる（Figma 同様）。
+   overflow だと上下・左に飛び出すラベルまで切れるので、右だけを clip-path で落とす */
+.cal-row--excellent {
+  justify-content: center;
+  clip-path: inset(-999px -16px -999px -999px);
+}
+
+.cal-row__figure {
+  position: relative;
+  display: flex;
+  flex: 1 0 0;
+  min-width: 0;
+  justify-content: center;
+}
+
+.cal-row__figure img {
+  flex: none;
+  width: 172px;
+  height: 172px;
+}
+
+.cal-row--excellent .sparkle--end {
+  right: 0;
+  bottom: 0;
+}
+
+.card--calendar .info {
+  flex: 0 1 180px;
+  width: 180px;
+  min-width: 0;
+  padding: 16px 8px;
+}
+
+.card--calendar .info__name {
+  font-size: 15px;
+}
+
+/* 努力賞 / 優秀賞ラベル */
+.award {
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 22px;
+  padding: 2px 8px 3px;
+  border-radius: 6px;
+  background: var(--blue);
+  color: var(--fe-white);
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.award--effort {
+  right: -12px;
+  top: -12px;
+  transform: rotate(15deg);
+}
+
+.award--excellent {
+  left: -13px;
+  top: -14px;
+  background: var(--orange);
+  transform: rotate(-15deg);
+}

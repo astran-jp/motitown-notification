@@ -1,0 +1,15 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Gold Leaf Icon">
+<path id="Vector" d="M12.5657 0.828552C12.5657 0.828552 14.0802 4.53355 7.58951 7.02219C4.06263 8.37406 1.35378 11.8391 4.58815 17.1916C4.85601 14.7991 6.00457 9.52395 10.9433 8.3202C10.9433 8.3202 6.34662 10.039 5.94057 17.8194C8.30253 18.1511 13.842 18.3739 15.4867 13.5667C17.6585 7.2153 12.5657 0.828552 12.5657 0.828552Z" fill="#D39A00"/>
+<path id="Vector_2" d="M5.94271 17.7871C10.957 15.7859 14.6055 11.0979 15.109 5.50158C14.0839 2.73648 12.5657 0.828552 12.5657 0.828552C12.5657 0.828552 14.0802 4.53355 7.58951 7.02219C4.06263 8.37406 1.35378 11.8391 4.58815 17.1916C4.85601 14.7991 6.00457 9.52395 10.9433 8.3202C10.943 8.32023 6.36002 10.0348 5.94271 17.7871Z" fill="url(#paint0_linear_82006_242123)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_82006_242123" x1="4.44057" y1="3.39998" x2="12.5834" y2="14.9714" gradientUnits="userSpaceOnUse">
+<stop offset="0.169517" stop-color="#F1B500"/>
+<stop offset="0.399584" stop-color="#F1BF06"/>
+<stop offset="0.517365" stop-color="#F2DF06"/>
+<stop offset="0.618429" stop-color="#F1BF06"/>
+<stop offset="0.764602" stop-color="#F1B500"/>
+</linearGradient>
+</defs>
+</svg>
