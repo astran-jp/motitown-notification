@@ -26,7 +26,8 @@
 }
 
 html,
-body {
+body,
+p {
   margin: 0;
   padding: 0;
 }
@@ -40,9 +41,11 @@ body {
   word-break: break-word;
 }
 
+/* キャラ画像は幅だけを指定し、高さは元画像の比率のまま（縦横比を崩さない） */
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 .page {
@@ -176,17 +179,21 @@ img {
 
 .info__name {
   font-weight: 700;
+  line-height: 20px;
 }
 
 .info__desc {
+  /* Figma: 説明文だけ内容幅より左右 8px ずつ狭い */
+  padding: 0 8px;
   font-size: 13px;
+  line-height: 16px;
 }
 
 /* ── 月間ミッションカード ───────────────────── */
 
 .card--monthly {
   gap: 8px;
-  padding: 48px 16px 24px;
+  padding: 48px 12px 24px;
   background: linear-gradient(180deg, #ffe0ff 0%, #e3e4ff 50%, #c6ebff 100%);
   overflow: hidden;
 }
@@ -196,12 +203,14 @@ img {
   z-index: 1;
   display: flex;
   justify-content: center;
-  width: 100%;
+  /* キラキラの位置基準。白ボックス（左右 12px）より内側の 16px */
+  width: 294px;
 }
 
-.card--monthly .hero img {
+/* キャラ画像のみ。同じ箱に入るキラキラ（.sparkle）は 32.34x40 のままにする */
+.card--monthly .hero img:not(.sparkle) {
   width: 172px;
-  height: 172px;
+  height: auto;
 }
 
 .card--monthly .sparkle--start {
@@ -216,7 +225,7 @@ img {
 
 .card--monthly .info {
   width: 100%;
-  padding: 16px 8px;
+  padding: 16px 4px;
 }
 
 .card--monthly .info__name {
@@ -263,7 +272,7 @@ img {
   top: 50%;
   z-index: 2;
   width: 160px;
-  height: 160px;
+  height: auto;
   transform: translateY(-50%);
 }
 
@@ -282,10 +291,13 @@ img {
   justify-content: center;
 }
 
-.cal-row__figure img {
+/* キャラ画像のみ。同じ箱に入るキラキラ（.sparkle）は 32.34x40 のままにする */
+.cal-row__figure img:not(.sparkle) {
   flex: none;
+  /* 106px の枠に対して中央 172px。左右 33px のはみ出しは Figma どおり */
+  max-width: none;
   width: 172px;
-  height: 172px;
+  height: auto;
 }
 
 .cal-row--excellent .sparkle--end {
@@ -297,11 +309,12 @@ img {
   flex: 0 1 180px;
   width: 180px;
   min-width: 0;
-  padding: 16px 8px;
+  padding: 16px 4px;
 }
 
 .card--calendar .info__name {
   font-size: 15px;
+  line-height: 18px;
 }
 
 /* 努力賞 / 優秀賞ラベル */
@@ -322,14 +335,14 @@ img {
 }
 
 .award--effort {
-  right: -12px;
+  right: -10px;
   top: -12px;
   transform: rotate(15deg);
 }
 
 .award--excellent {
-  left: -13px;
-  top: -14px;
+  left: -11px;
+  top: -8px;
   background: var(--orange);
   transform: rotate(-15deg);
 }
