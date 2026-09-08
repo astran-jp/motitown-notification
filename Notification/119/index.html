@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- 移植元: https://motitan-notification.astran.jp/Notification/119 (STUDIO) -->
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>【モチタン】アップデートのお願い｜モチタウン</title>
+<meta property="og:title" content="【モチタン】アップデートのお願い">
+<meta property="og:type" content="article">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+html,body{margin:0;padding:0;background:#fff;}
+@keyframes loading-spin-9f7266e2 { 
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(1turn); }
+}
+.StudioCanvas { height: auto; min-height: 100dvh; display: flex; }
+.StudioCanvas > .sd { min-height: 100dvh; overflow: clip; }
+:where(.render-canvas), :where(.render-canvas) a, :where(.render-canvas) abbr, :where(.render-canvas) address, :where(.render-canvas) article, :where(.render-canvas) aside, :where(.render-canvas) audio, :where(.render-canvas) b, :where(.render-canvas) blockquote, :where(.render-canvas) button, :where(.render-canvas) canvas, :where(.render-canvas) caption, :where(.render-canvas) cite, :where(.render-canvas) code, :where(.render-canvas) dd, :where(.render-canvas) del, :where(.render-canvas) details, :where(.render-canvas) dfn, :where(.render-canvas) div, :where(.render-canvas) dl, :where(.render-canvas) dt, :where(.render-canvas) em, :where(.render-canvas) fieldset, :where(.render-canvas) figcaption, :where(.render-canvas) figure, :where(.render-canvas) footer, :where(.render-canvas) form, :where(.render-canvas) h1, :where(.render-canvas) h2, :where(.render-canvas) h3, :where(.render-canvas) h4, :where(.render-canvas) h5, :where(.render-canvas) h6, :where(.render-canvas) header, :where(.render-canvas) hgroup, :where(.render-canvas) i, :where(.render-canvas) iframe, :where(.render-canvas) img, :where(.render-canvas) input, :where(.render-canvas) ins, :where(.render-canvas) kbd, :where(.render-canvas) label, :where(.render-canvas) legend, :where(.render-canvas) li, :where(.render-canvas) loop-box, :where(.render-canvas) main, :where(.render-canvas) mark, :where(.render-canvas) menu, :where(.render-canvas) nav, :where(.render-canvas) object, :where(.render-canvas) ol, :where(.render-canvas) p, :where(.render-canvas) pre, :where(.render-canvas) q, :where(.render-canvas) samp, :where(.render-canvas) section, :where(.render-canvas) select, :where(.render-canvas) small, :where(.render-canvas) span, :where(.render-canvas) strong, :where(.render-canvas) sub, :where(.render-canvas) summary, :where(.render-canvas) sup, :where(.render-canvas) table, :where(.render-canvas) tbody, :where(.render-canvas) td, :where(.render-canvas) textarea, :where(.render-canvas) tfoot, :where(.render-canvas) th, :where(.render-canvas) thead, :where(.render-canvas) time, :where(.render-canvas) tr, :where(.render-canvas) ul, :where(.render-canvas) var, :where(.render-canvas) video { -webkit-font-smoothing: antialiased; box-sizing: border-box; color: rgb(51, 51, 51); word-spacing: 1px; backface-visibility: hidden; border: 0px; margin: 0px; padding: 0px; font-family: sans-serif; line-height: 1; text-decoration: none; list-style: none; transition: 0.3s cubic-bezier(0.4, 0.4, 0, 1); }
+:where(.render-canvas) a:focus:not(:focus-visible), :where(.render-canvas) button:focus:not(:focus-visible), :where(.render-canvas) summary:focus:not(:focus-visible) { outline: none; }
+:where(.render-canvas) a, :where(.render-canvas) button { vertical-align: baseline; background: 0px 0px; margin: 0px; padding: 0px; font-size: 100%; }
+:where(.render-canvas) .sd { z-index: 0; pointer-events: all; flex-flow: column; flex: 0 0 auto; align-content: center; align-items: center; max-width: 100%; display: flex; position: relative; }
+:where(.render-canvas) .sd::-webkit-scrollbar { display: none; }
+:where(.render-canvas) .sd, :where(.render-canvas) .sd.richText * { transition-property: all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11; }
+:where(.render-canvas) .sd.text, :where(.render-canvas) .sd:where(.icon) { word-break: break-word; overflow-wrap: anywhere; flex-direction: row; place-content: center; align-items: center; display: flex; overflow: visible; }
+:where(.render-canvas) .sd:where(.icon.fa) { display: inline-flex; }
+:where(.render-canvas) .material-icons { letter-spacing: normal; text-transform: none; white-space: nowrap; overflow-wrap: normal; text-rendering: optimizelegibility; -webkit-font-smoothing: antialiased; direction: ltr; justify-content: center; align-items: center; font-family: "Material Icons"; font-size: 24px; font-style: normal; font-weight: 400; line-height: 1; display: inline-flex; }
+:where(.render-canvas) .sd:where(.icon.material-symbols) { font-variation-settings: "FILL" var(--symbol-fill,0),"wght" var(--symbol-weight,400); justify-content: center; align-items: center; min-width: 1em; min-height: 1em; font-style: normal; display: flex; }
+:where(.render-canvas) a, :where(.render-canvas) a.icon, :where(.render-canvas) a.text { -webkit-tap-highlight-color: rgba(0, 0, 0, 0.15); }
+:where(.render-canvas) .button { cursor: pointer; transition: 0.4s cubic-bezier(0.4, 0.4, 0, 1); }
+:where(.render-canvas) .richText { word-break: break-word; display: block; }
+:where(.render-canvas) .richText [data-thread], :where(.render-canvas) .richText a, :where(.render-canvas) .richText blockquote, :where(.render-canvas) .richText em, :where(.render-canvas) .richText h1, :where(.render-canvas) .richText h2, :where(.render-canvas) .richText h3, :where(.render-canvas) .richText h4, :where(.render-canvas) .richText li, :where(.render-canvas) .richText ol, :where(.render-canvas) .richText p, :where(.render-canvas) .richText p > code, :where(.render-canvas) .richText pre, :where(.render-canvas) .richText pre > code, :where(.render-canvas) .richText s, :where(.render-canvas) .richText strong, :where(.render-canvas) .richText table tbody, :where(.render-canvas) .richText table tbody tr, :where(.render-canvas) .richText table tbody tr > td, :where(.render-canvas) .richText table tbody tr > th, :where(.render-canvas) .richText u, :where(.render-canvas) .richText ul { color: inherit; font-family: inherit; font-size: inherit; text-align: inherit; letter-spacing: inherit; line-height: inherit; font-weight: inherit; font-style: inherit; backface-visibility: visible; }
+:where(.render-canvas) .richText p { align-self: stretch; margin: 10px 0px; display: block; }
+:where(.render-canvas) .richText > p { min-height: 1em; }
+:where(.render-canvas) .richText strong { color: inherit; font-family: inherit; font-weight: 900; display: inline; }
+.sd[data-s-1a55f112-a922-4368-860f-213e0b7123c1] { place-content: center flex-start; align-items: center; background: rgb(255, 255, 255); border-radius: 0px; flex-flow: column; height: 100%; margin: 0px; opacity: 1; padding: 0px; width: 100%; --gap-uuid: 1a55f112-a922-4368-860f-213e0b7123c1; --gap-h-1a55f112-a922-4368-860f-213e0b7123c1: 0px; --gap-v-1a55f112-a922-4368-860f-213e0b7123c1: 0px; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-1a55f112-a922-4368-860f-213e0b7123c1] { gap: 0px; padding: 0px; --gap-h-1a55f112-a922-4368-860f-213e0b7123c1: 0px; --gap-v-1a55f112-a922-4368-860f-213e0b7123c1: 0px; }
+}
+.sd[data-s-a259e8c0-b4f1-4503-99ac-6a33c7acbafb] { display: flex; flex: 0 0 auto; height: auto; width: 674px; max-width: 100%; }
+@media screen and (max-width: 840px) {
+.sd[data-s-a259e8c0-b4f1-4503-99ac-6a33c7acbafb] { display: flex; height: auto; width: calc(100% - (var(--gap-h-1a55f112-a922-4368-860f-213e0b7123c1) * 0)); max-width: calc(100% - (var(--gap-h-1a55f112-a922-4368-860f-213e0b7123c1) * 0)); }
+}
+@media screen and (max-width: 450px) {
+.sd[data-s-a259e8c0-b4f1-4503-99ac-6a33c7acbafb] { border-radius: 0px; display: flex; flex: 0 0 auto; height: auto; overflow: visible; width: 100%; }
+}
+.sd[data-s-32262cba-5dfe-49d3-9d39-ed372786b2b3] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 14px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-32262cba-5dfe-49d3-9d39-ed372786b2b3] > p { }
+@media screen and (max-width: 840px) {
+.sd[data-s-32262cba-5dfe-49d3-9d39-ed372786b2b3] { font-size: 20px; font-weight: 700; }
+}
+@media screen and (max-width: 450px) {
+.sd[data-s-32262cba-5dfe-49d3-9d39-ed372786b2b3] { color: rgb(13, 73, 98); font-size: 20px; font-weight: 700; padding: 6px 10px 0px; }
+.sd[data-s-32262cba-5dfe-49d3-9d39-ed372786b2b3] > p { color: rgb(0, 48, 68); }
+}
+.sd[data-s-05573bda-7be8-41fc-ae0a-300cdb1a61c9] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-05573bda-7be8-41fc-ae0a-300cdb1a61c9] > p { }
+@media screen and (max-width: 450px) {
+.sd[data-s-05573bda-7be8-41fc-ae0a-300cdb1a61c9] { color: rgb(124, 135, 138); padding: 0px 10px; }
+.sd[data-s-05573bda-7be8-41fc-ae0a-300cdb1a61c9] > p { color: rgb(124, 135, 138); margin: 4px 0px; }
+}
+.sd[data-s-e11dfb5f-dd04-48c2-b132-5283f6af4d4e] { place-content: center flex-start; align-items: center; flex-flow: column; padding: 0px; --gap-uuid: e11dfb5f-dd04-48c2-b132-5283f6af4d4e; --gap-h-e11dfb5f-dd04-48c2-b132-5283f6af4d4e: 0px; --gap-v-e11dfb5f-dd04-48c2-b132-5283f6af4d4e: 0px; }
+@media screen and (max-width: 840px) {
+.sd[data-s-e11dfb5f-dd04-48c2-b132-5283f6af4d4e] { flex-flow: row; }
+}
+@media screen and (max-width: 450px) {
+.sd[data-s-e11dfb5f-dd04-48c2-b132-5283f6af4d4e] { gap: 0px; --gap-h-e11dfb5f-dd04-48c2-b132-5283f6af4d4e: 0px; --gap-v-e11dfb5f-dd04-48c2-b132-5283f6af4d4e: 0px; }
+}
+.sd[data-s-4e028f94-6523-42a6-a643-b5b72d67e370] { background: rgb(51, 51, 51); border-radius: 4px; box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0px 0px; color: rgb(51, 51, 51); flex: 0 0 auto; font-family: var(--s-font-c58edbc8); font-size: 15px; font-weight: 400; justify-content: center; letter-spacing: 0em; line-height: 1.4; margin: 20px 0px 0px; opacity: 1; padding: 15px; text-align: left; width: 500px; max-width: 100%; }
+@media screen and (max-width: 840px) {
+.sd[data-s-4e028f94-6523-42a6-a643-b5b72d67e370] { background: rgb(25, 157, 232); border-radius: 32px; flex-flow: row; }
+}
+@media screen and (max-width: 450px) {
+.sd[data-s-4e028f94-6523-42a6-a643-b5b72d67e370] { place-content: center; align-items: center; background: rgb(25, 157, 232); border-radius: 32px; box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px; flex: 0 0 auto; flex-flow: row; height: 56px; margin: 10px 0px 5px; padding: 18px 10px 15px 15px; width: 328px; max-width: 100%; }
+}
+.sd[data-s-5f0979ff-c5c2-477b-bf37-bd46c6c67e7c] { border-radius: 0px; color: rgb(255, 255, 255); font-family: var(--s-font-c58edbc8); font-size: 18px; font-weight: 700; letter-spacing: 0em; line-height: 1; margin: 0px; opacity: 1; padding: 0px 0px 2px; text-align: center; max-width: 100%; justify-content: center; }
+@media screen and (max-width: 450px) {
+.sd[data-s-5f0979ff-c5c2-477b-bf37-bd46c6c67e7c] { font-size: 17px; margin: 0px 5px 0px 0px; max-width: calc(100% - 5px); }
+}
+.sd[data-s-e3c6d5be-0aec-4731-8e68-dd5bb41b3529] { color: rgb(34, 34, 34); font-size: 24px; }
+@media screen and (max-width: 840px) {
+.sd[data-s-e3c6d5be-0aec-4731-8e68-dd5bb41b3529] { color: rgb(255, 255, 255); }
+}
+@media screen and (max-width: 450px) {
+.sd[data-s-e3c6d5be-0aec-4731-8e68-dd5bb41b3529] { color: rgb(255, 255, 255); font-size: 18px; padding: 0px 0px 2px; }
+}
+.sd[data-s-6f4bee87-a0c2-4b28-9b52-bf7d70e94a23] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-6f4bee87-a0c2-4b28-9b52-bf7d70e94a23] > p { }
+@media screen and (max-width: 450px) {
+.sd[data-s-6f4bee87-a0c2-4b28-9b52-bf7d70e94a23] { color: rgb(124, 135, 138); font-size: 15px; padding: 4px 10px; }
+.sd[data-s-6f4bee87-a0c2-4b28-9b52-bf7d70e94a23] > p { color: rgb(13, 73, 98); font-size: 15px; }
+}
+.sd[data-s-3db5e707-f031-4ad7-a940-d8cf66772f41] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-3db5e707-f031-4ad7-a940-d8cf66772f41] > p { }
+@media screen and (max-width: 450px) {
+.sd[data-s-3db5e707-f031-4ad7-a940-d8cf66772f41] { color: rgb(13, 73, 98); font-size: 15px; padding: 4px 10px; }
+.sd[data-s-3db5e707-f031-4ad7-a940-d8cf66772f41] > p { color: rgb(13, 73, 98); font-size: 15px; }
+}
+.sd[data-s-518e5bae-6328-42e3-9446-24d036ebcc6c] { height: auto; width: 200px; max-width: 100%; }
+@media screen and (max-width: 840px) {
+.sd[data-s-518e5bae-6328-42e3-9446-24d036ebcc6c] { height: auto; width: calc(50% - (var(--gap-h-1a55f112-a922-4368-860f-213e0b7123c1) * 0.5)); max-width: calc(50% - (var(--gap-h-1a55f112-a922-4368-860f-213e0b7123c1) * 0.5)); }
+}
+@media screen and (max-width: 450px) {
+.sd[data-s-518e5bae-6328-42e3-9446-24d036ebcc6c] { border-radius: 20px; flex: 0 0 auto; height: 215px; margin: 12px 0px 0px; width: 315px; max-width: 100%; }
+}
+:root { --s-color-9bb18529: rgb(248, 248, 248); --s-color-eaa3a4fd: #c7c7c7ff; --s-color-30a8e2c3: #0d4962ff; --s-color-f0adf6b3: #199de8ff; --s-font-c58edbc8: Lato; --s-font-89af1dd3: 'Noto Sans JP'; --s-font-f88811e0: Inter,'Noto Sans JP'; }
+:where(.render-canvas) .tiles{display:flex;flex-direction:column;align-items:stretch;}
+:where(.render-canvas) .tiles>img{display:block;width:100%;height:auto;max-width:100%;}
+
+</style>
+</head>
+<body>
+<div class="render-canvas"><div class="StudioCanvas">
+<div class="sd appear" data-s-1a55f112-a922-4368-860f-213e0b7123c1=""><img alt="" class="sd" data-s-a259e8c0-b4f1-4503-99ac-6a33c7acbafb="" decoding="async" height="265" src="assets/01-2771b7ec.webp" width="900"/><div class="richText sd" data-s-32262cba-5dfe-49d3-9d39-ed372786b2b3=""><p>【モチタン】アップデートのお願い</p></div><div class="richText sd" data-s-05573bda-7be8-41fc-ae0a-300cdb1a61c9=""><p>2026/5/25 15:00</p></div><a class="sd appear" data-s-e11dfb5f-dd04-48c2-b132-5283f6af4d4e="" href="https://app.adjust.com/1pcctn2t_1pr2w4xl"><button class="button sd appear" data-s-4e028f94-6523-42a6-a643-b5b72d67e370=""><p class="text sd appear" data-s-5f0979ff-c5c2-477b-bf37-bd46c6c67e7c="">アプリをアップデート</p><i class="icon material-icons sd appear" data-s-e3c6d5be-0aec-4731-8e68-dd5bb41b3529="">sync</i></button></a><div class="richText sd" data-s-6f4bee87-a0c2-4b28-9b52-bf7d70e94a23=""><p>Hello~！モチベアだよ！英単語頑張ってるね！</p><p>今回のアップデートは、以下の修正をしたよ！</p><p></p><p>●1年生モチベアがネイサンにならないように修正</p><p>●単語/フレーズの検索機能を改善</p><p></p><p>楽しく快適に学べるように、<strong>アプリを最新版にアップデートしてね！</strong></p><p>もし気付いたことがあれば、いつでもモチタンアプリ内のフィードバックから連絡してね！全部見させてもらってるよ！</p></div><div class="richText sd" data-s-3db5e707-f031-4ad7-a940-d8cf66772f41=""><p></p><p>※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。</p></div><img alt="" class="sd" data-s-518e5bae-6328-42e3-9446-24d036ebcc6c="" decoding="async" height="512" src="assets/02-0934ce0c.webp" width="752"/></div><!-- -->
+</div></div>
+
+</body>
+</html>
