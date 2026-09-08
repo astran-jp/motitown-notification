@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- 移植元: https://motitan-notification.astran.jp/Notification/50 (STUDIO) -->
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>【新機能✨】記憶度の手動変更＆忘却機能リリース！｜モチタウン</title>
+<meta property="og:title" content="【新機能✨】記憶度の手動変更＆忘却機能リリース！">
+<meta property="og:type" content="article">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+html,body{margin:0;padding:0;background:#fff;}
+@keyframes loading-spin-9f7266e2 { 
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(1turn); }
+}
+.StudioCanvas { height: auto; min-height: 100dvh; display: flex; }
+.StudioCanvas > .sd { min-height: 100dvh; overflow: clip; }
+:where(.render-canvas), :where(.render-canvas) a, :where(.render-canvas) abbr, :where(.render-canvas) address, :where(.render-canvas) article, :where(.render-canvas) aside, :where(.render-canvas) audio, :where(.render-canvas) b, :where(.render-canvas) blockquote, :where(.render-canvas) button, :where(.render-canvas) canvas, :where(.render-canvas) caption, :where(.render-canvas) cite, :where(.render-canvas) code, :where(.render-canvas) dd, :where(.render-canvas) del, :where(.render-canvas) details, :where(.render-canvas) dfn, :where(.render-canvas) div, :where(.render-canvas) dl, :where(.render-canvas) dt, :where(.render-canvas) em, :where(.render-canvas) fieldset, :where(.render-canvas) figcaption, :where(.render-canvas) figure, :where(.render-canvas) footer, :where(.render-canvas) form, :where(.render-canvas) h1, :where(.render-canvas) h2, :where(.render-canvas) h3, :where(.render-canvas) h4, :where(.render-canvas) h5, :where(.render-canvas) h6, :where(.render-canvas) header, :where(.render-canvas) hgroup, :where(.render-canvas) i, :where(.render-canvas) iframe, :where(.render-canvas) img, :where(.render-canvas) input, :where(.render-canvas) ins, :where(.render-canvas) kbd, :where(.render-canvas) label, :where(.render-canvas) legend, :where(.render-canvas) li, :where(.render-canvas) loop-box, :where(.render-canvas) main, :where(.render-canvas) mark, :where(.render-canvas) menu, :where(.render-canvas) nav, :where(.render-canvas) object, :where(.render-canvas) ol, :where(.render-canvas) p, :where(.render-canvas) pre, :where(.render-canvas) q, :where(.render-canvas) samp, :where(.render-canvas) section, :where(.render-canvas) select, :where(.render-canvas) small, :where(.render-canvas) span, :where(.render-canvas) strong, :where(.render-canvas) sub, :where(.render-canvas) summary, :where(.render-canvas) sup, :where(.render-canvas) table, :where(.render-canvas) tbody, :where(.render-canvas) td, :where(.render-canvas) textarea, :where(.render-canvas) tfoot, :where(.render-canvas) th, :where(.render-canvas) thead, :where(.render-canvas) time, :where(.render-canvas) tr, :where(.render-canvas) ul, :where(.render-canvas) var, :where(.render-canvas) video { -webkit-font-smoothing: antialiased; box-sizing: border-box; color: rgb(51, 51, 51); word-spacing: 1px; backface-visibility: hidden; border: 0px; margin: 0px; padding: 0px; font-family: sans-serif; line-height: 1; text-decoration: none; list-style: none; transition: 0.3s cubic-bezier(0.4, 0.4, 0, 1); }
+:where(.render-canvas) .sd { z-index: 0; pointer-events: all; flex-flow: column; flex: 0 0 auto; align-content: center; align-items: center; max-width: 100%; display: flex; position: relative; }
+:where(.render-canvas) .sd::-webkit-scrollbar { display: none; }
+:where(.render-canvas) .sd, :where(.render-canvas) .sd.richText * { transition-property: all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11; }
+:where(.render-canvas) .sd.text, :where(.render-canvas) .sd:where(.icon) { word-break: break-word; overflow-wrap: anywhere; flex-direction: row; place-content: center; align-items: center; display: flex; overflow: visible; }
+:where(.render-canvas) .sd:where(.icon.fa) { display: inline-flex; }
+:where(.render-canvas) .sd:where(.icon.material-symbols) { font-variation-settings: "FILL" var(--symbol-fill,0),"wght" var(--symbol-weight,400); justify-content: center; align-items: center; min-width: 1em; min-height: 1em; font-style: normal; display: flex; }
+:where(.render-canvas) .richText { word-break: break-word; display: block; }
+:where(.render-canvas) .richText [data-thread], :where(.render-canvas) .richText a, :where(.render-canvas) .richText blockquote, :where(.render-canvas) .richText em, :where(.render-canvas) .richText h1, :where(.render-canvas) .richText h2, :where(.render-canvas) .richText h3, :where(.render-canvas) .richText h4, :where(.render-canvas) .richText li, :where(.render-canvas) .richText ol, :where(.render-canvas) .richText p, :where(.render-canvas) .richText p > code, :where(.render-canvas) .richText pre, :where(.render-canvas) .richText pre > code, :where(.render-canvas) .richText s, :where(.render-canvas) .richText strong, :where(.render-canvas) .richText table tbody, :where(.render-canvas) .richText table tbody tr, :where(.render-canvas) .richText table tbody tr > td, :where(.render-canvas) .richText table tbody tr > th, :where(.render-canvas) .richText u, :where(.render-canvas) .richText ul { color: inherit; font-family: inherit; font-size: inherit; text-align: inherit; letter-spacing: inherit; line-height: inherit; font-weight: inherit; font-style: inherit; backface-visibility: visible; }
+:where(.render-canvas) .richText p { align-self: stretch; margin: 10px 0px; display: block; }
+:where(.render-canvas) .richText > p { min-height: 1em; }
+:where(.render-canvas) .richText h2 { align-self: stretch; margin: 10px 0px; font-size: 2em; font-weight: 700; display: block; }
+:where(.render-canvas) .richText h3 { align-self: stretch; margin: 10px 0px; font-size: 1em; font-weight: 700; display: block; }
+:where(.render-canvas) .richText strong { color: inherit; font-family: inherit; font-weight: 900; display: inline; }
+.sd[data-s-213c8995-a4a6-4082-a696-ba81a342d2bd] { place-content: center flex-start; align-items: center; background: rgb(255, 255, 255); border-radius: 0px; flex-flow: column; height: 100%; margin: 0px; opacity: 1; padding: 0px; width: 100%; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-213c8995-a4a6-4082-a696-ba81a342d2bd] { padding: 0px 0px 24px; }
+}
+.sd[data-s-a7c49607-ca55-4bc0-99ed-64c19b6e26cf] { display: flex; flex: 0 0 auto; height: auto; width: 674px; max-width: 100%; }
+@media screen and (max-width: 840px) {
+.sd[data-s-a7c49607-ca55-4bc0-99ed-64c19b6e26cf] { display: flex; }
+}
+@media screen and (max-width: 450px) {
+.sd[data-s-a7c49607-ca55-4bc0-99ed-64c19b6e26cf] { border-radius: 0px; display: flex; flex: 0 0 auto; height: auto; overflow: visible; width: 100%; max-width: 100%; }
+}
+.sd[data-s-96472bfb-5516-461a-bad9-07897325a285] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 14px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-96472bfb-5516-461a-bad9-07897325a285] > h2 { }
+@media screen and (max-width: 450px) {
+.sd[data-s-96472bfb-5516-461a-bad9-07897325a285] { color: rgb(13, 73, 98); font-size: 16px; padding: 6px 10px 0px; }
+.sd[data-s-96472bfb-5516-461a-bad9-07897325a285] > h2 { font-size: 20px; margin: 4px 0px; padding: 0px; }
+}
+.sd[data-s-ae28acf0-d668-4e55-864a-9f647fb62656] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-ae28acf0-d668-4e55-864a-9f647fb62656] > p { }
+@media screen and (max-width: 450px) {
+.sd[data-s-ae28acf0-d668-4e55-864a-9f647fb62656] { color: rgb(124, 135, 138); padding: 0px 10px; }
+.sd[data-s-ae28acf0-d668-4e55-864a-9f647fb62656] > p { color: rgb(124, 135, 138); margin: 4px 0px; }
+}
+.sd[data-s-ebbd8b76-d35e-47e9-a1c5-2ecd95e1a83f] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-ebbd8b76-d35e-47e9-a1c5-2ecd95e1a83f] > h3 { }
+.sd[data-s-ebbd8b76-d35e-47e9-a1c5-2ecd95e1a83f] > p { }
+@media screen and (max-width: 450px) {
+.sd[data-s-ebbd8b76-d35e-47e9-a1c5-2ecd95e1a83f] { color: rgb(13, 73, 98); font-size: 15px; padding: 4px 10px 0px; }
+.sd[data-s-ebbd8b76-d35e-47e9-a1c5-2ecd95e1a83f] > h3 { margin: 0px 0px 20px; }
+.sd[data-s-ebbd8b76-d35e-47e9-a1c5-2ecd95e1a83f] > p { color: rgb(13, 73, 98); font-size: 15px; margin: 10px 0px 0px; }
+}
+.sd[data-s-8c353ba1-fbf9-42b8-a92c-14198734ea9d] { height: auto; width: 92.1327px; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-8c353ba1-fbf9-42b8-a92c-14198734ea9d] { flex: 0 0 auto; height: auto; margin: 25px 0px 0px; width: 320px; max-width: 100%; }
+}
+.sd[data-s-3bb3c0cc-9426-49ff-80f6-681d8e4d0027] { height: auto; width: 92.1327px; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-3bb3c0cc-9426-49ff-80f6-681d8e4d0027] { flex: 0 0 auto; height: auto; margin: 25px 0px 0px; width: 320px; max-width: 100%; }
+}
+.sd[data-s-74eb3696-9be1-45b3-93fc-01f971fa16c8] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-74eb3696-9be1-45b3-93fc-01f971fa16c8] > h3 { }
+.sd[data-s-74eb3696-9be1-45b3-93fc-01f971fa16c8] > p { }
+@media screen and (max-width: 450px) {
+.sd[data-s-74eb3696-9be1-45b3-93fc-01f971fa16c8] { color: rgb(13, 73, 98); font-size: 15px; padding: 4px 10px 0px; }
+.sd[data-s-74eb3696-9be1-45b3-93fc-01f971fa16c8] > h3 { margin: 0px 0px 20px; }
+.sd[data-s-74eb3696-9be1-45b3-93fc-01f971fa16c8] > p { color: rgb(13, 73, 98); font-size: 15px; margin: 10px 0px 0px; }
+}
+.sd[data-s-542b7506-0fbf-48fe-808e-b645d04509f4] { height: auto; width: 92.1327px; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-542b7506-0fbf-48fe-808e-b645d04509f4] { flex: 0 0 auto; height: auto; margin: 25px 0px 0px; width: 320px; max-width: 100%; }
+}
+.sd[data-s-36b59a81-d73a-4457-b615-7c5aacb4d3b7] { height: auto; width: 92.1327px; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-36b59a81-d73a-4457-b615-7c5aacb4d3b7] { flex: 0 0 auto; height: auto; margin: 25px 0px 0px; width: 320px; max-width: 100%; }
+}
+.sd[data-s-4aa1e2fe-54bd-4062-b14c-78d4a1e35531] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-4aa1e2fe-54bd-4062-b14c-78d4a1e35531] > p { }
+@media screen and (max-width: 450px) {
+.sd[data-s-4aa1e2fe-54bd-4062-b14c-78d4a1e35531] { color: rgb(13, 73, 98); font-size: 15px; padding: 0px 10px; }
+.sd[data-s-4aa1e2fe-54bd-4062-b14c-78d4a1e35531] > p { color: rgb(13, 73, 98); font-size: 15px; margin: 10px 0px 0px; }
+}
+.sd[data-s-a6d45733-5ec4-435f-ba51-3ce22ecbf8d0] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-a6d45733-5ec4-435f-ba51-3ce22ecbf8d0] > p { }
+@media screen and (max-width: 450px) {
+.sd[data-s-a6d45733-5ec4-435f-ba51-3ce22ecbf8d0] { color: rgb(13, 73, 98); font-size: 15px; margin: 0px; padding: 0px 10px 4px; max-width: 100%; }
+.sd[data-s-a6d45733-5ec4-435f-ba51-3ce22ecbf8d0] > p { color: rgb(13, 73, 98); font-size: 15px; }
+}
+.sd[data-s-c4a6b503-3945-484b-9d0e-165e077877ec] { height: auto; width: 200px; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-c4a6b503-3945-484b-9d0e-165e077877ec] { border-radius: 20px; flex: 0 0 auto; height: 215px; margin: 12px 0px 0px; width: 315px; max-width: 100%; }
+}
+:root { --s-color-9bb18529: rgb(248, 248, 248); --s-color-eaa3a4fd: #c7c7c7ff; --s-color-30a8e2c3: #0d4962ff; --s-color-f0adf6b3: #199de8ff; --s-font-c58edbc8: Lato; --s-font-89af1dd3: 'Noto Sans JP'; --s-font-f88811e0: Inter,'Noto Sans JP'; }
+:where(.render-canvas) .tiles{display:flex;flex-direction:column;align-items:stretch;}
+:where(.render-canvas) .tiles>img{display:block;width:100%;height:auto;max-width:100%;}
+
+</style>
+</head>
+<body>
+<div class="render-canvas"><div class="StudioCanvas">
+<div class="sd appear" data-s-213c8995-a4a6-4082-a696-ba81a342d2bd=""><img alt="" class="sd" data-s-a7c49607-ca55-4bc0-99ed-64c19b6e26cf="" decoding="async" height="261" src="assets/01-d8ded5ee.webp" width="648"/><div class="richText sd" data-s-96472bfb-5516-461a-bad9-07897325a285=""><h2 id="index_txZJqCzR">【新機能✨】記憶度の手動変更＆忘却機能リリース！</h2></div><div class="richText sd" data-s-ae28acf0-d668-4e55-864a-9f647fb62656=""><p>2025/05/08 11:00</p></div><div class="richText sd" data-s-ebbd8b76-d35e-47e9-a1c5-2ecd95e1a83f=""><p>Hello~！モチベアだよ！新しい挑戦はワクワクするね！</p><p>単語学習の機能がさらにパワーアップして、<strong>２つの新機能</strong> が追加されたよ！✨</p><p>これで復習がもっとラクに、もっと正確になること間違いなし！</p><p></p><h3 id="index_I52tWXJC">①：記憶度を自分でカスタマイズ可能に！</h3><p>単語ごとに <strong>「覚えた」「ほぼ覚えた」「うろ覚え」「苦手」</strong> のラベルを自由に変更できるようになったよ！</p></div><img alt="" class="sd" data-s-8c353ba1-fbf9-42b8-a92c-14198734ea9d="" decoding="async" height="1677" src="assets/02-208346a0.webp" width="813"/><img alt="" class="sd" data-s-3bb3c0cc-9426-49ff-80f6-681d8e4d0027="" decoding="async" height="1677" loading="lazy" src="assets/03-3a8fa768.webp" width="813"/><div class="richText sd" data-s-74eb3696-9be1-45b3-93fc-01f971fa16c8=""><h3 id="index_QDHhAWbn"></h3><h3 id="index_a8KXk8UA"><strong>③：忘却機能</strong>ON／OFFスイッチ！</h3><p><strong>・作動中</strong><br/>モチタンAIが「そろそろ忘れそうだ！」と判断したタイミングで、記憶度が少しずつ下がっていくよ！</p><p>記憶度が下がった単語は単語帳の「忘れかけ単語」に入るから、ベストなタイミングで復習できる！</p><p></p><p><strong>・停止中</strong><br/>記憶度は下がらずキープされるよ。</p><p>作動中⇔停止中はモチタンAIによって判断され、自分でも手動で切り替えられるよ！</p><p></p><p><strong>・切り替えできない単語がある？</strong><br/>まだ一度も「覚えた」まで到達していない単語は、忘却機能を作動できないよ。</p><p>まずは「覚えた」まで上げてから試してみてね！</p></div><img alt="" class="sd" data-s-542b7506-0fbf-48fe-808e-b645d04509f4="" decoding="async" height="1677" loading="lazy" src="assets/04-479562f8.webp" width="813"/><img alt="" class="sd" data-s-36b59a81-d73a-4457-b615-7c5aacb4d3b7="" decoding="async" height="1677" loading="lazy" src="assets/05-2552d3d3.webp" width="813"/><div class="richText sd" data-s-4aa1e2fe-54bd-4062-b14c-78d4a1e35531=""><p></p><p>記憶度ラベルと忘却機能を上手く使って、もっと効率的に単語をマスターしよう！！</p></div><div class="richText sd" data-s-a6d45733-5ec4-435f-ba51-3ce22ecbf8d0=""><p></p><p>※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。</p></div><img alt="" class="sd" data-s-c4a6b503-3945-484b-9d0e-165e077877ec="" decoding="async" height="512" loading="lazy" src="assets/06-0934ce0c.webp" width="752"/></div><!-- -->
+</div></div>
+
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!-- 移植元: https://motitan-notification.astran.jp/Notification/74 (STUDIO) -->
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>掲示板がリニューアル！｜モチタウン</title>
+<meta property="og:title" content="掲示板がリニューアル！">
+<meta property="og:type" content="article">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+html,body{margin:0;padding:0;background:#fff;}
+@keyframes loading-spin-9f7266e2 { 
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(1turn); }
+}
+.StudioCanvas { height: auto; min-height: 100dvh; display: flex; }
+.StudioCanvas > .sd { min-height: 100dvh; overflow: clip; }
+:where(.render-canvas), :where(.render-canvas) a, :where(.render-canvas) abbr, :where(.render-canvas) address, :where(.render-canvas) article, :where(.render-canvas) aside, :where(.render-canvas) audio, :where(.render-canvas) b, :where(.render-canvas) blockquote, :where(.render-canvas) button, :where(.render-canvas) canvas, :where(.render-canvas) caption, :where(.render-canvas) cite, :where(.render-canvas) code, :where(.render-canvas) dd, :where(.render-canvas) del, :where(.render-canvas) details, :where(.render-canvas) dfn, :where(.render-canvas) div, :where(.render-canvas) dl, :where(.render-canvas) dt, :where(.render-canvas) em, :where(.render-canvas) fieldset, :where(.render-canvas) figcaption, :where(.render-canvas) figure, :where(.render-canvas) footer, :where(.render-canvas) form, :where(.render-canvas) h1, :where(.render-canvas) h2, :where(.render-canvas) h3, :where(.render-canvas) h4, :where(.render-canvas) h5, :where(.render-canvas) h6, :where(.render-canvas) header, :where(.render-canvas) hgroup, :where(.render-canvas) i, :where(.render-canvas) iframe, :where(.render-canvas) img, :where(.render-canvas) input, :where(.render-canvas) ins, :where(.render-canvas) kbd, :where(.render-canvas) label, :where(.render-canvas) legend, :where(.render-canvas) li, :where(.render-canvas) loop-box, :where(.render-canvas) main, :where(.render-canvas) mark, :where(.render-canvas) menu, :where(.render-canvas) nav, :where(.render-canvas) object, :where(.render-canvas) ol, :where(.render-canvas) p, :where(.render-canvas) pre, :where(.render-canvas) q, :where(.render-canvas) samp, :where(.render-canvas) section, :where(.render-canvas) select, :where(.render-canvas) small, :where(.render-canvas) span, :where(.render-canvas) strong, :where(.render-canvas) sub, :where(.render-canvas) summary, :where(.render-canvas) sup, :where(.render-canvas) table, :where(.render-canvas) tbody, :where(.render-canvas) td, :where(.render-canvas) textarea, :where(.render-canvas) tfoot, :where(.render-canvas) th, :where(.render-canvas) thead, :where(.render-canvas) time, :where(.render-canvas) tr, :where(.render-canvas) ul, :where(.render-canvas) var, :where(.render-canvas) video { -webkit-font-smoothing: antialiased; box-sizing: border-box; color: rgb(51, 51, 51); word-spacing: 1px; backface-visibility: hidden; border: 0px; margin: 0px; padding: 0px; font-family: sans-serif; line-height: 1; text-decoration: none; list-style: none; transition: 0.3s cubic-bezier(0.4, 0.4, 0, 1); }
+:where(.render-canvas) a:focus:not(:focus-visible), :where(.render-canvas) button:focus:not(:focus-visible), :where(.render-canvas) summary:focus:not(:focus-visible) { outline: none; }
+:where(.render-canvas) a, :where(.render-canvas) button { vertical-align: baseline; background: 0px 0px; margin: 0px; padding: 0px; font-size: 100%; }
+:where(.render-canvas) .sd { z-index: 0; pointer-events: all; flex-flow: column; flex: 0 0 auto; align-content: center; align-items: center; max-width: 100%; display: flex; position: relative; }
+:where(.render-canvas) .sd::-webkit-scrollbar { display: none; }
+:where(.render-canvas) .sd, :where(.render-canvas) .sd.richText * { transition-property: all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11; }
+:where(.render-canvas) .sd.text, :where(.render-canvas) .sd:where(.icon) { word-break: break-word; overflow-wrap: anywhere; flex-direction: row; place-content: center; align-items: center; display: flex; overflow: visible; }
+:where(.render-canvas) .sd:where(.icon.fa) { display: inline-flex; }
+:where(.render-canvas) .material-icons { letter-spacing: normal; text-transform: none; white-space: nowrap; overflow-wrap: normal; text-rendering: optimizelegibility; -webkit-font-smoothing: antialiased; direction: ltr; justify-content: center; align-items: center; font-family: "Material Icons"; font-size: 24px; font-style: normal; font-weight: 400; line-height: 1; display: inline-flex; }
+:where(.render-canvas) .sd:where(.icon.material-symbols) { font-variation-settings: "FILL" var(--symbol-fill,0),"wght" var(--symbol-weight,400); justify-content: center; align-items: center; min-width: 1em; min-height: 1em; font-style: normal; display: flex; }
+:where(.render-canvas) .button { cursor: pointer; transition: 0.4s cubic-bezier(0.4, 0.4, 0, 1); }
+.sd[data-s-82d906e4-9465-49f1-b5c0-c0ec220cd9e8] { place-content: center flex-start; align-items: center; background: rgb(255, 255, 255); border-radius: 0px; flex-flow: column; height: 100%; margin: 0px; opacity: 1; padding: 0px; width: 100%; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-82d906e4-9465-49f1-b5c0-c0ec220cd9e8] { padding: 0px 0px 24px; }
+}
+.sd[data-s-786d99ea-83e0-439a-8750-ceced7b7fb96] { flex: 0 0 auto; height: auto; width: 800px; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-786d99ea-83e0-439a-8750-ceced7b7fb96] { height: auto; width: 100%; max-width: 100%; }
+}
+.sd[data-s-f54bbd3d-0fdb-4267-b567-3637f0042eee] { place-content: flex-start; align-items: flex-start; background: rgb(255, 255, 255); border-radius: 0px; flex: 0 0 auto; flex-flow: column; height: auto; padding: 0px; width: 320px; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-f54bbd3d-0fdb-4267-b567-3637f0042eee] { place-content: flex-start; align-items: flex-start; background: rgb(233, 233, 233); border-radius: 8px; flex: 0 0 auto; margin: 10px 0px 0px; width: 250px; max-width: 100%; }
+}
+.sd[data-s-ea06d713-2937-4a27-999d-12fe44bc0353] { place-content: center space-between; align-items: center; border-radius: 0px; flex: 0 0 auto; flex-flow: row; gap: 0px; height: 44px; padding: 12px; width: 100%; --gap-h-ea06d713-2937-4a27-999d-12fe44bc0353: 0px; --gap-v-ea06d713-2937-4a27-999d-12fe44bc0353: 0px; --gap-uuid: ea06d713-2937-4a27-999d-12fe44bc0353; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-ea06d713-2937-4a27-999d-12fe44bc0353] { width: 100%; --gap-h-ea06d713-2937-4a27-999d-12fe44bc0353: 0px; --gap-v-ea06d713-2937-4a27-999d-12fe44bc0353: 0px; }
+}
+.sd[data-s-2ef1e4bd-477e-493c-8931-16f94bb1601c] { color: rgb(51, 51, 51); font-family: var(--s-font-c58edbc8); font-size: 16px; font-weight: 700; height: auto; line-height: 1; text-align: center; width: auto; max-width: 100%; justify-content: center; }
+.sd[data-s-6dc2a314-aaaf-4863-a21c-c0a495b40da3] { color: rgb(51, 51, 51); font-size: 24px; margin: 0px; padding: 0px; max-width: 100%; }
+.sd._isClose[data-s-6dc2a314-aaaf-4863-a21c-c0a495b40da3] { rotate: 180deg; }
+.sd[data-s-eb1b7e1e-b0f8-4c3c-bf8d-96e675fa42f1] { place-content: center flex-start; align-items: center; background: rgba(0, 0, 0, 0); flex: 0 0 auto; flex-flow: column; height: auto; opacity: 1; overflow: hidden; padding: 0px; width: 100%; max-width: 100%; }
+.sd._isClose[data-s-eb1b7e1e-b0f8-4c3c-bf8d-96e675fa42f1] { flex: 0 0 auto; height: 0px; }
+@media screen and (max-width: 450px) {
+.sd[data-s-eb1b7e1e-b0f8-4c3c-bf8d-96e675fa42f1] { place-content: flex-start; align-items: flex-start; background: rgb(248, 248, 248); border-radius: 0px 0px 8px 8px; margin: 0px; width: 100%; max-width: 100%; }
+}
+.sd[data-s-1ce42107-8213-4e15-b986-995d849d6887] { place-content: center; align-items: center; background: rgba(0, 0, 0, 0); flex: 0 0 auto; flex-flow: column; height: auto; opacity: 1; padding: 12px; width: 100%; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-1ce42107-8213-4e15-b986-995d849d6887] { place-content: flex-start center; align-items: flex-start; background: var(--s-color-9bb18529); flex: 0 0 auto; height: 120%; margin: 0px; padding: 5px; width: 100%; max-width: 100%; }
+}
+.sd[data-s-a86fc549-68d9-43bc-8fa3-5ee0efa2c248] { color: rgb(51, 51, 51); font-family: var(--s-font-c58edbc8); font-size: 14px; font-weight: 400; height: auto; line-height: 1.4; text-align: left; width: auto; max-width: 100%; justify-content: flex-start; }
+@media screen and (max-width: 450px) {
+.sd[data-s-a86fc549-68d9-43bc-8fa3-5ee0efa2c248] { font-size: 18px; line-height: 1.6; padding: 0px; width: auto; }
+}
+.sd[data-s-a2d5d0c4-a5b1-4ff9-b226-99a12d09149f] { place-content: flex-start; align-items: flex-start; background: rgb(255, 255, 255); border-radius: 0px; flex: 0 0 auto; flex-flow: column; height: auto; padding: 0px; width: 320px; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-a2d5d0c4-a5b1-4ff9-b226-99a12d09149f] { place-content: flex-start; align-items: flex-start; background: rgb(233, 233, 233); border-radius: 8px; flex: 0 0 auto; margin: 20px 0px 0px; width: 250px; max-width: 100%; }
+}
+.sd[data-s-2e1b6b34-9b0f-403f-a9bc-af375c10f0e3] { place-content: center space-between; align-items: center; border-radius: 0px; flex: 0 0 auto; flex-flow: row; gap: 0px; height: 44px; padding: 12px; width: 100%; --gap-h-2e1b6b34-9b0f-403f-a9bc-af375c10f0e3: 0px; --gap-v-2e1b6b34-9b0f-403f-a9bc-af375c10f0e3: 0px; --gap-uuid: 2e1b6b34-9b0f-403f-a9bc-af375c10f0e3; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-2e1b6b34-9b0f-403f-a9bc-af375c10f0e3] { width: 100%; --gap-h-2e1b6b34-9b0f-403f-a9bc-af375c10f0e3: 0px; --gap-v-2e1b6b34-9b0f-403f-a9bc-af375c10f0e3: 0px; }
+}
+.sd[data-s-c65f64d3-6cf5-4e41-81f2-ec7abb5b39d9] { color: rgb(51, 51, 51); font-family: var(--s-font-c58edbc8); font-size: 16px; font-weight: 700; height: auto; line-height: 1; text-align: center; width: auto; max-width: 100%; justify-content: center; }
+.sd[data-s-4003f24d-c7a2-48f3-aaf1-fe13fac8cc11] { color: rgb(51, 51, 51); font-size: 24px; margin: 0px; padding: 0px; max-width: 100%; }
+.sd._isClose[data-s-4003f24d-c7a2-48f3-aaf1-fe13fac8cc11] { rotate: 180deg; }
+.sd[data-s-8a0c0ddb-ee4b-48b1-955b-5d023c7a9c10] { place-content: center flex-start; align-items: center; background: rgba(0, 0, 0, 0); flex: 0 0 auto; flex-flow: column; height: auto; opacity: 1; overflow: hidden; padding: 0px; width: 100%; max-width: 100%; }
+.sd._isClose[data-s-8a0c0ddb-ee4b-48b1-955b-5d023c7a9c10] { flex: 0 0 auto; height: 0px; }
+@media screen and (max-width: 450px) {
+.sd[data-s-8a0c0ddb-ee4b-48b1-955b-5d023c7a9c10] { place-content: flex-start; align-items: flex-start; background: rgb(248, 248, 248); border-radius: 0px 0px 8px 8px; margin: 0px; width: 100%; max-width: 100%; }
+}
+.sd[data-s-e80dcc3c-5641-41e2-8367-bf4b4d1725f6] { place-content: center; align-items: center; background: rgba(0, 0, 0, 0); flex: 0 0 auto; flex-flow: column; height: auto; opacity: 1; padding: 12px; width: 100%; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-e80dcc3c-5641-41e2-8367-bf4b4d1725f6] { place-content: flex-start center; align-items: flex-start; background: var(--s-color-9bb18529); flex: 0 0 auto; height: auto; margin: 0px; padding: 5px; width: 100%; max-width: 100%; }
+}
+.sd[data-s-d4c7e88a-7832-45ca-bdd7-233e7b3c06bb] { color: rgb(51, 51, 51); font-family: var(--s-font-c58edbc8); font-size: 14px; font-weight: 400; height: auto; line-height: 1.4; text-align: left; width: auto; max-width: 100%; justify-content: flex-start; }
+@media screen and (max-width: 450px) {
+.sd[data-s-d4c7e88a-7832-45ca-bdd7-233e7b3c06bb] { font-size: 18px; line-height: 1.6; padding: 0px; width: auto; }
+}
+.sd[data-s-0a7534ec-62a1-441c-bb5f-b1ad80395163] { place-content: flex-start; align-items: flex-start; background: rgb(255, 255, 255); border-radius: 0px; flex: 0 0 auto; flex-flow: column; height: auto; padding: 0px; width: 320px; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-0a7534ec-62a1-441c-bb5f-b1ad80395163] { place-content: flex-start; align-items: flex-start; background: rgb(233, 233, 233); border-radius: 8px; flex: 0 0 auto; margin: 20px 0px 0px; width: 250px; max-width: 100%; }
+}
+.sd[data-s-cb3ef18d-7dfb-4452-8a86-06cbdeabddde] { place-content: center space-between; align-items: center; border-radius: 0px; flex: 0 0 auto; flex-flow: row; gap: 0px; height: 44px; padding: 12px; width: 100%; --gap-h-cb3ef18d-7dfb-4452-8a86-06cbdeabddde: 0px; --gap-v-cb3ef18d-7dfb-4452-8a86-06cbdeabddde: 0px; --gap-uuid: cb3ef18d-7dfb-4452-8a86-06cbdeabddde; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-cb3ef18d-7dfb-4452-8a86-06cbdeabddde] { width: 100%; --gap-h-cb3ef18d-7dfb-4452-8a86-06cbdeabddde: 0px; --gap-v-cb3ef18d-7dfb-4452-8a86-06cbdeabddde: 0px; }
+}
+.sd[data-s-2e28006d-550b-404a-85fd-b3bef01c2940] { color: rgb(51, 51, 51); font-family: var(--s-font-c58edbc8); font-size: 16px; font-weight: 700; height: auto; line-height: 1; text-align: center; width: auto; max-width: 100%; justify-content: center; }
+.sd[data-s-ca8d5062-d249-4c32-9e34-e56b933bf61a] { color: rgb(51, 51, 51); font-size: 24px; margin: 0px; padding: 0px; max-width: 100%; }
+.sd._isClose[data-s-ca8d5062-d249-4c32-9e34-e56b933bf61a] { rotate: 180deg; }
+.sd[data-s-44b1a93e-e2d3-4b7a-93a4-ada62a867efd] { place-content: center flex-start; align-items: center; background: rgba(0, 0, 0, 0); flex: 0 0 auto; flex-flow: column; height: auto; opacity: 1; overflow: hidden; padding: 0px; width: 100%; max-width: 100%; }
+.sd._isClose[data-s-44b1a93e-e2d3-4b7a-93a4-ada62a867efd] { flex: 0 0 auto; height: 0px; }
+@media screen and (max-width: 450px) {
+.sd[data-s-44b1a93e-e2d3-4b7a-93a4-ada62a867efd] { place-content: flex-start; align-items: flex-start; background: rgb(248, 248, 248); border-radius: 0px 0px 8px 8px; margin: 0px; width: 100%; max-width: 100%; }
+}
+.sd[data-s-ddde3514-dd01-42f8-88d3-b0c0ade17914] { place-content: center; align-items: center; background: rgba(0, 0, 0, 0); flex: 0 0 auto; flex-flow: column; height: auto; opacity: 1; padding: 12px; width: 100%; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-ddde3514-dd01-42f8-88d3-b0c0ade17914] { place-content: flex-start center; align-items: flex-start; background: var(--s-color-9bb18529); flex: 0 0 auto; height: auto; margin: 0px; padding: 3px; width: 100%; max-width: 100%; }
+}
+.sd[data-s-ce8ea552-3667-4369-84b3-73071e37b28d] { color: rgb(51, 51, 51); font-family: var(--s-font-c58edbc8); font-size: 14px; font-weight: 400; height: auto; line-height: 1.4; text-align: left; width: auto; max-width: 100%; justify-content: flex-start; }
+@media screen and (max-width: 450px) {
+.sd[data-s-ce8ea552-3667-4369-84b3-73071e37b28d] { font-size: 18px; line-height: 1.6; padding: 5px; width: auto; }
+}
+.sd[data-s-7f8a1d5d-fc0d-406c-96dc-91133b002482] { place-content: flex-start; align-items: flex-start; background: rgb(255, 255, 255); border-radius: 0px; flex: 0 0 auto; flex-flow: column; height: auto; padding: 0px; width: 320px; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-7f8a1d5d-fc0d-406c-96dc-91133b002482] { place-content: flex-start; align-items: flex-start; background: rgb(233, 233, 233); border-radius: 8px; flex: 0 0 auto; margin: 20px 0px 0px; width: 250px; max-width: 100%; }
+}
+.sd[data-s-59457a72-53cf-45e8-86f6-52c5c6ce9fd5] { place-content: center space-between; align-items: center; border-radius: 0px; flex: 0 0 auto; flex-flow: row; gap: 0px; height: 44px; padding: 12px; width: 100%; --gap-h-59457a72-53cf-45e8-86f6-52c5c6ce9fd5: 0px; --gap-v-59457a72-53cf-45e8-86f6-52c5c6ce9fd5: 0px; --gap-uuid: 59457a72-53cf-45e8-86f6-52c5c6ce9fd5; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-59457a72-53cf-45e8-86f6-52c5c6ce9fd5] { width: 100%; --gap-h-59457a72-53cf-45e8-86f6-52c5c6ce9fd5: 0px; --gap-v-59457a72-53cf-45e8-86f6-52c5c6ce9fd5: 0px; }
+}
+.sd[data-s-7445efc5-9dad-4991-884c-006e721853e7] { color: rgb(51, 51, 51); font-family: var(--s-font-c58edbc8); font-size: 16px; font-weight: 700; height: auto; line-height: 1; text-align: center; width: auto; max-width: 100%; justify-content: center; }
+.sd[data-s-8eef9f9a-040b-4a01-8d69-9d021f2ed86a] { color: rgb(51, 51, 51); font-size: 24px; margin: 0px; padding: 0px; max-width: 100%; }
+.sd._isClose[data-s-8eef9f9a-040b-4a01-8d69-9d021f2ed86a] { rotate: 180deg; }
+.sd[data-s-92b328b0-96fc-490a-932b-6b54b326f124] { place-content: center flex-start; align-items: center; background: rgba(0, 0, 0, 0); flex: 0 0 auto; flex-flow: column; height: auto; opacity: 1; overflow: hidden; padding: 0px; width: 100%; max-width: 100%; }
+.sd._isClose[data-s-92b328b0-96fc-490a-932b-6b54b326f124] { flex: 0 0 auto; height: 0px; }
+@media screen and (max-width: 450px) {
+.sd[data-s-92b328b0-96fc-490a-932b-6b54b326f124] { place-content: flex-start; align-items: flex-start; background: rgb(248, 248, 248); border-radius: 0px 0px 8px 8px; margin: 0px; width: 100%; max-width: 100%; }
+}
+.sd[data-s-29e593be-f36d-409a-a625-4b586a35f560] { place-content: center; align-items: center; background: rgba(0, 0, 0, 0); flex: 0 0 auto; flex-flow: column; height: auto; opacity: 1; padding: 12px; width: 100%; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-29e593be-f36d-409a-a625-4b586a35f560] { place-content: flex-start center; align-items: flex-start; background: var(--s-color-9bb18529); flex: 0 0 auto; height: auto; margin: 0px; padding: 5px; width: 100%; max-width: 100%; }
+}
+.sd[data-s-38f15d3a-3541-42f4-916e-2e002508d74b] { color: rgb(51, 51, 51); font-family: var(--s-font-c58edbc8); font-size: 14px; font-weight: 400; height: auto; line-height: 1.4; text-align: left; width: auto; max-width: 100%; justify-content: flex-start; }
+@media screen and (max-width: 450px) {
+.sd[data-s-38f15d3a-3541-42f4-916e-2e002508d74b] { font-size: 18px; line-height: 1.6; padding: 0px; width: auto; }
+}
+.sd[data-s-c0fa2145-fe45-4a80-9bee-6659a741b78c] { place-content: flex-start; align-items: flex-start; background: rgb(255, 255, 255); border-radius: 0px; flex: 0 0 auto; flex-flow: column; height: auto; padding: 0px; width: 320px; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-c0fa2145-fe45-4a80-9bee-6659a741b78c] { place-content: flex-start; align-items: flex-start; background: rgb(233, 233, 233); border-radius: 8px; flex: 0 0 auto; margin: 20px 0px 0px; width: 250px; max-width: 100%; }
+}
+.sd[data-s-e9b05e15-e93c-409b-bf01-d389704393f6] { place-content: center space-between; align-items: center; border-radius: 0px; flex: 0 0 auto; flex-flow: row; gap: 0px; height: 44px; padding: 12px; width: 100%; --gap-h-e9b05e15-e93c-409b-bf01-d389704393f6: 0px; --gap-v-e9b05e15-e93c-409b-bf01-d389704393f6: 0px; --gap-uuid: e9b05e15-e93c-409b-bf01-d389704393f6; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-e9b05e15-e93c-409b-bf01-d389704393f6] { width: 100%; --gap-h-e9b05e15-e93c-409b-bf01-d389704393f6: 0px; --gap-v-e9b05e15-e93c-409b-bf01-d389704393f6: 0px; }
+}
+.sd[data-s-acbf3ba3-c3b4-4bb7-ab74-315c811fcb36] { color: rgb(51, 51, 51); font-family: var(--s-font-c58edbc8); font-size: 16px; font-weight: 700; height: auto; line-height: 1; text-align: center; width: auto; max-width: 100%; justify-content: center; }
+.sd[data-s-e6b74a45-a632-4583-b873-3a145c3da353] { color: rgb(51, 51, 51); font-size: 24px; margin: 0px; padding: 0px; max-width: 100%; }
+.sd._isClose[data-s-e6b74a45-a632-4583-b873-3a145c3da353] { rotate: 180deg; }
+.sd[data-s-167a5ab1-f2f4-433e-90cd-4e302e5bda38] { place-content: center flex-start; align-items: center; background: rgba(0, 0, 0, 0); flex: 0 0 auto; flex-flow: column; height: auto; opacity: 1; overflow: hidden; padding: 0px; width: 100%; max-width: 100%; }
+.sd._isClose[data-s-167a5ab1-f2f4-433e-90cd-4e302e5bda38] { flex: 0 0 auto; height: 0px; }
+@media screen and (max-width: 450px) {
+.sd[data-s-167a5ab1-f2f4-433e-90cd-4e302e5bda38] { place-content: flex-start; align-items: flex-start; background: rgb(248, 248, 248); border-radius: 0px 0px 8px 8px; margin: 0px; width: 100%; max-width: 100%; }
+}
+.sd[data-s-bda75e72-722c-4626-90a8-7f1f76d9da5d] { place-content: center; align-items: center; background: rgba(0, 0, 0, 0); flex: 0 0 auto; flex-flow: column; height: auto; opacity: 1; padding: 12px; width: 100%; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-bda75e72-722c-4626-90a8-7f1f76d9da5d] { place-content: flex-start center; align-items: flex-start; background: var(--s-color-9bb18529); flex: 0 0 auto; height: auto; margin: 0px; padding: 5px; width: 100%; max-width: 100%; }
+}
+.sd[data-s-706da29b-f56a-4b7f-b6fd-6c0652be4d97] { color: rgb(51, 51, 51); font-family: var(--s-font-c58edbc8); font-size: 14px; font-weight: 400; height: auto; line-height: 1.4; text-align: left; width: auto; max-width: 100%; justify-content: flex-start; }
+@media screen and (max-width: 450px) {
+.sd[data-s-706da29b-f56a-4b7f-b6fd-6c0652be4d97] { font-size: 18px; line-height: 1.6; padding: 0px; width: auto; }
+}
+.sd[data-s-8be76d95-6e76-4ec5-83e6-421c865d5406] { flex: 0 0 auto; height: auto; width: 801px; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-8be76d95-6e76-4ec5-83e6-421c865d5406] { height: auto; width: 100%; max-width: 100%; }
+}
+:root { --s-color-9bb18529: rgb(248, 248, 248); --s-color-eaa3a4fd: #c7c7c7ff; --s-color-30a8e2c3: #0d4962ff; --s-color-f0adf6b3: #199de8ff; --s-font-c58edbc8: Lato; --s-font-89af1dd3: 'Noto Sans JP'; --s-font-f88811e0: Inter,'Noto Sans JP'; }
+:where(.render-canvas) .tiles{display:flex;flex-direction:column;align-items:stretch;}
+:where(.render-canvas) .tiles>img{display:block;width:100%;height:auto;max-width:100%;}
+
+</style>
+</head>
+<body>
+<div class="render-canvas"><div class="StudioCanvas">
+<div class="sd appear" data-s-82d906e4-9465-49f1-b5c0-c0ec220cd9e8=""><div class="sd tiles" data-s-786d99ea-83e0-439a-8750-ceced7b7fb96=""><img alt="" decoding="async" height="1369" src="assets/01-b27b77b1-1.webp" width="900"/><img alt="" decoding="async" height="1369" loading="lazy" src="assets/01-b27b77b1-2.webp" width="900"/><img alt="" decoding="async" height="1369" loading="lazy" src="assets/01-b27b77b1-3.webp" width="900"/></div><div class="sd _isClose" data-s-f54bbd3d-0fdb-4267-b567-3637f0042eee=""><button aria-controls="studio-toggle-content-ce3e1219-4663-417a-8fae-236e803540c5" aria-expanded="false" class="button sd appear _isClose" data-s-ea06d713-2937-4a27-999d-12fe44bc0353="" id="studio-toggle-button-2e650e2e-a191-4f99-9064-551b3106c174"><p class="text sd appear _isClose" data-s-2ef1e4bd-477e-493c-8931-16f94bb1601c="">中学コース</p><i aria-hidden="true" class="icon material-icons sd appear _isClose" data-s-6dc2a314-aaaf-4863-a21c-c0a495b40da3="">arrow_drop_up</i></button><div aria-hidden="true" aria-labelledby="studio-toggle-button-2e650e2e-a191-4f99-9064-551b3106c174" class="sd appear _isClose" data-s-eb1b7e1e-b0f8-4c3c-bf8d-96e675fa42f1="" id="studio-toggle-content-ce3e1219-4663-417a-8fae-236e803540c5"><div class="sd appear _isClose" data-s-1ce42107-8213-4e15-b986-995d849d6887=""><p class="text sd appear _isClose" data-s-a86fc549-68d9-43bc-8fa3-5ee0efa2c248="">　- 高校受験対策</p></div></div></div><div class="sd _isClose" data-s-a2d5d0c4-a5b1-4ff9-b226-99a12d09149f=""><button aria-controls="studio-toggle-content-d537fc83-d6a7-46fe-903a-511c91377b5c" aria-expanded="false" class="button sd appear _isClose" data-s-2e1b6b34-9b0f-403f-a9bc-af375c10f0e3="" id="studio-toggle-button-c6231a53-39f4-4132-8b9c-33c3cfa81859"><p class="text sd appear _isClose" data-s-c65f64d3-6cf5-4e41-81f2-ec7abb5b39d9="">高校コース</p><i aria-hidden="true" class="icon material-icons sd appear _isClose" data-s-4003f24d-c7a2-48f3-aaf1-fe13fac8cc11="">arrow_drop_up</i></button><div aria-hidden="true" aria-labelledby="studio-toggle-button-c6231a53-39f4-4132-8b9c-33c3cfa81859" class="sd appear _isClose" data-s-8a0c0ddb-ee4b-48b1-955b-5d023c7a9c10="" id="studio-toggle-content-d537fc83-d6a7-46fe-903a-511c91377b5c"><div class="sd appear _isClose" data-s-e80dcc3c-5641-41e2-8367-bf4b4d1725f6=""><p class="text sd appear _isClose" data-s-d4c7e88a-7832-45ca-bdd7-233e7b3c06bb="">　- 大学受験対策</p></div></div></div><div class="sd _isClose" data-s-0a7534ec-62a1-441c-bb5f-b1ad80395163=""><button aria-controls="studio-toggle-content-4633faac-b3e0-4b46-9850-f5f25b412171" aria-expanded="false" class="button sd appear _isClose" data-s-cb3ef18d-7dfb-4452-8a86-06cbdeabddde="" id="studio-toggle-button-8a9b60f1-4aae-42bb-9b85-2b705520b3a8"><p class="text sd appear _isClose" data-s-2e28006d-550b-404a-85fd-b3bef01c2940="">英検コース</p><i aria-hidden="true" class="icon material-icons sd appear _isClose" data-s-ca8d5062-d249-4c32-9e34-e56b933bf61a="">arrow_drop_up</i></button><div aria-hidden="true" aria-labelledby="studio-toggle-button-8a9b60f1-4aae-42bb-9b85-2b705520b3a8" class="sd appear _isClose" data-s-44b1a93e-e2d3-4b7a-93a4-ada62a867efd="" id="studio-toggle-content-4633faac-b3e0-4b46-9850-f5f25b412171"><div class="sd appear _isClose" data-s-ddde3514-dd01-42f8-88d3-b0c0ade17914=""><p class="text sd appear _isClose" data-s-ce8ea552-3667-4369-84b3-73071e37b28d="">　- 英検５級対策<br/>　- 英検４級対策<br/>　- 英検３級対策<br/>　- 英検準２級・２級対策<br/>　- 英検準１級・１級対策</p></div></div></div><div class="sd _isClose" data-s-7f8a1d5d-fc0d-406c-96dc-91133b002482=""><button aria-controls="studio-toggle-content-ed316691-784d-488b-870f-e8d59d280986" aria-expanded="false" class="button sd appear _isClose" data-s-59457a72-53cf-45e8-86f6-52c5c6ce9fd5="" id="studio-toggle-button-dd9f41f4-623e-4e5d-bfbe-f7d4fcc72e87"><p class="text sd appear _isClose" data-s-7445efc5-9dad-4991-884c-006e721853e7="">TOEICコース</p><i aria-hidden="true" class="icon material-icons sd appear _isClose" data-s-8eef9f9a-040b-4a01-8d69-9d021f2ed86a="">arrow_drop_up</i></button><div aria-hidden="true" aria-labelledby="studio-toggle-button-dd9f41f4-623e-4e5d-bfbe-f7d4fcc72e87" class="sd appear _isClose" data-s-92b328b0-96fc-490a-932b-6b54b326f124="" id="studio-toggle-content-ed316691-784d-488b-870f-e8d59d280986"><div class="sd appear _isClose" data-s-29e593be-f36d-409a-a625-4b586a35f560=""><p class="text sd appear _isClose" data-s-38f15d3a-3541-42f4-916e-2e002508d74b="">　- TOEIC対策</p></div></div></div><div class="sd _isClose" data-s-c0fa2145-fe45-4a80-9bee-6659a741b78c=""><button aria-controls="studio-toggle-content-f6d463e1-abc4-4e7f-9763-3fe99be3abb6" aria-expanded="false" class="button sd appear _isClose" data-s-e9b05e15-e93c-409b-bf01-d389704393f6="" id="studio-toggle-button-3b081b4c-6158-4890-8199-f9b4651b6da3"><p class="text sd appear _isClose" data-s-acbf3ba3-c3b4-4bb7-ab74-315c811fcb36="">英会話コース</p><i aria-hidden="true" class="icon material-icons sd appear _isClose" data-s-e6b74a45-a632-4583-b873-3a145c3da353="">arrow_drop_up</i></button><div aria-hidden="true" aria-labelledby="studio-toggle-button-3b081b4c-6158-4890-8199-f9b4651b6da3" class="sd appear _isClose" data-s-167a5ab1-f2f4-433e-90cd-4e302e5bda38="" id="studio-toggle-content-f6d463e1-abc4-4e7f-9763-3fe99be3abb6"><div class="sd appear _isClose" data-s-bda75e72-722c-4626-90a8-7f1f76d9da5d=""><p class="text sd appear _isClose" data-s-706da29b-f56a-4b7f-b6fd-6c0652be4d97="">　- 旅行<br/>　- ビジネス<br/>　- 留学<br/>　- ワーホリ<br/>　- ドラマ・映画<br/>　- 音楽<br/>　- ゲーム・アニメ</p></div></div></div><img alt="" class="sd" data-s-8be76d95-6e76-4ec5-83e6-421c865d5406="" decoding="async" height="699" src="assets/02-e8b7c191.webp" width="900"/></div><!-- -->
+</div></div>
+<script>
+document.querySelectorAll('button[aria-controls]').forEach(function(b){
+  b.addEventListener('click',function(){
+    var open=b.getAttribute('aria-expanded')==='true';
+    var wrap=b.parentElement;
+    [wrap].concat(Array.from(wrap.querySelectorAll('*'))).forEach(function(el){el.classList.toggle('_isClose',open);});
+    b.setAttribute('aria-expanded',open?'false':'true');
+    var c=document.getElementById(b.getAttribute('aria-controls')); if(c) c.setAttribute('aria-hidden',open?'true':'false');
+  });
+});
+</script>
+</body>
+</html>

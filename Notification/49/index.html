@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!-- 移植元: https://motitan-notification.astran.jp/Notification/49 (STUDIO) -->
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>【単語帳機能アップデート✨】単語帳が増えてもっと便利になったよ！｜モチタウン</title>
+<meta property="og:title" content="【単語帳機能アップデート✨】単語帳が増えてもっと便利になったよ！">
+<meta property="og:type" content="article">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+html,body{margin:0;padding:0;background:#fff;}
+@keyframes loading-spin-9f7266e2 { 
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(1turn); }
+}
+.StudioCanvas { height: auto; min-height: 100dvh; display: flex; }
+.StudioCanvas > .sd { min-height: 100dvh; overflow: clip; }
+:where(.render-canvas), :where(.render-canvas) a, :where(.render-canvas) abbr, :where(.render-canvas) address, :where(.render-canvas) article, :where(.render-canvas) aside, :where(.render-canvas) audio, :where(.render-canvas) b, :where(.render-canvas) blockquote, :where(.render-canvas) button, :where(.render-canvas) canvas, :where(.render-canvas) caption, :where(.render-canvas) cite, :where(.render-canvas) code, :where(.render-canvas) dd, :where(.render-canvas) del, :where(.render-canvas) details, :where(.render-canvas) dfn, :where(.render-canvas) div, :where(.render-canvas) dl, :where(.render-canvas) dt, :where(.render-canvas) em, :where(.render-canvas) fieldset, :where(.render-canvas) figcaption, :where(.render-canvas) figure, :where(.render-canvas) footer, :where(.render-canvas) form, :where(.render-canvas) h1, :where(.render-canvas) h2, :where(.render-canvas) h3, :where(.render-canvas) h4, :where(.render-canvas) h5, :where(.render-canvas) h6, :where(.render-canvas) header, :where(.render-canvas) hgroup, :where(.render-canvas) i, :where(.render-canvas) iframe, :where(.render-canvas) img, :where(.render-canvas) input, :where(.render-canvas) ins, :where(.render-canvas) kbd, :where(.render-canvas) label, :where(.render-canvas) legend, :where(.render-canvas) li, :where(.render-canvas) loop-box, :where(.render-canvas) main, :where(.render-canvas) mark, :where(.render-canvas) menu, :where(.render-canvas) nav, :where(.render-canvas) object, :where(.render-canvas) ol, :where(.render-canvas) p, :where(.render-canvas) pre, :where(.render-canvas) q, :where(.render-canvas) samp, :where(.render-canvas) section, :where(.render-canvas) select, :where(.render-canvas) small, :where(.render-canvas) span, :where(.render-canvas) strong, :where(.render-canvas) sub, :where(.render-canvas) summary, :where(.render-canvas) sup, :where(.render-canvas) table, :where(.render-canvas) tbody, :where(.render-canvas) td, :where(.render-canvas) textarea, :where(.render-canvas) tfoot, :where(.render-canvas) th, :where(.render-canvas) thead, :where(.render-canvas) time, :where(.render-canvas) tr, :where(.render-canvas) ul, :where(.render-canvas) var, :where(.render-canvas) video { -webkit-font-smoothing: antialiased; box-sizing: border-box; color: rgb(51, 51, 51); word-spacing: 1px; backface-visibility: hidden; border: 0px; margin: 0px; padding: 0px; font-family: sans-serif; line-height: 1; text-decoration: none; list-style: none; transition: 0.3s cubic-bezier(0.4, 0.4, 0, 1); }
+:where(.render-canvas) .sd { z-index: 0; pointer-events: all; flex-flow: column; flex: 0 0 auto; align-content: center; align-items: center; max-width: 100%; display: flex; position: relative; }
+:where(.render-canvas) .sd::-webkit-scrollbar { display: none; }
+:where(.render-canvas) .sd, :where(.render-canvas) .sd.richText * { transition-property: all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11; }
+:where(.render-canvas) .sd.text, :where(.render-canvas) .sd:where(.icon) { word-break: break-word; overflow-wrap: anywhere; flex-direction: row; place-content: center; align-items: center; display: flex; overflow: visible; }
+:where(.render-canvas) .sd:where(.icon.fa) { display: inline-flex; }
+:where(.render-canvas) .sd:where(.icon.material-symbols) { font-variation-settings: "FILL" var(--symbol-fill,0),"wght" var(--symbol-weight,400); justify-content: center; align-items: center; min-width: 1em; min-height: 1em; font-style: normal; display: flex; }
+:where(.render-canvas) .richText { word-break: break-word; display: block; }
+:where(.render-canvas) .richText [data-thread], :where(.render-canvas) .richText a, :where(.render-canvas) .richText blockquote, :where(.render-canvas) .richText em, :where(.render-canvas) .richText h1, :where(.render-canvas) .richText h2, :where(.render-canvas) .richText h3, :where(.render-canvas) .richText h4, :where(.render-canvas) .richText li, :where(.render-canvas) .richText ol, :where(.render-canvas) .richText p, :where(.render-canvas) .richText p > code, :where(.render-canvas) .richText pre, :where(.render-canvas) .richText pre > code, :where(.render-canvas) .richText s, :where(.render-canvas) .richText strong, :where(.render-canvas) .richText table tbody, :where(.render-canvas) .richText table tbody tr, :where(.render-canvas) .richText table tbody tr > td, :where(.render-canvas) .richText table tbody tr > th, :where(.render-canvas) .richText u, :where(.render-canvas) .richText ul { color: inherit; font-family: inherit; font-size: inherit; text-align: inherit; letter-spacing: inherit; line-height: inherit; font-weight: inherit; font-style: inherit; backface-visibility: visible; }
+:where(.render-canvas) .richText p { align-self: stretch; margin: 10px 0px; display: block; }
+:where(.render-canvas) .richText > p { min-height: 1em; }
+:where(.render-canvas) .richText h2 { align-self: stretch; margin: 10px 0px; font-size: 2em; font-weight: 700; display: block; }
+:where(.render-canvas) .richText h3 { align-self: stretch; margin: 10px 0px; font-size: 1em; font-weight: 700; display: block; }
+:where(.render-canvas) .richText strong { color: inherit; font-family: inherit; font-weight: 900; display: inline; }
+.sd[data-s-558f0faa-eca7-4bd5-811f-b4f16be0a51c] { place-content: center flex-start; align-items: center; background: rgb(255, 255, 255); border-radius: 0px; flex-flow: column; height: 100%; margin: 0px; opacity: 1; padding: 0px; width: 100%; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-558f0faa-eca7-4bd5-811f-b4f16be0a51c] { padding: 0px 0px 24px; }
+}
+.sd[data-s-60069e4e-3e5c-4938-a9e4-3bcb5e1c38e7] { display: flex; flex: 0 0 auto; height: auto; width: 674px; max-width: 100%; }
+@media screen and (max-width: 840px) {
+.sd[data-s-60069e4e-3e5c-4938-a9e4-3bcb5e1c38e7] { display: flex; }
+}
+@media screen and (max-width: 450px) {
+.sd[data-s-60069e4e-3e5c-4938-a9e4-3bcb5e1c38e7] { border-radius: 0px; display: flex; flex: 0 0 auto; height: auto; overflow: visible; width: 100%; max-width: 100%; }
+}
+.sd[data-s-69d21f5c-2b4a-405a-a945-475fb7c92192] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 14px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-69d21f5c-2b4a-405a-a945-475fb7c92192] > h2 { }
+@media screen and (max-width: 450px) {
+.sd[data-s-69d21f5c-2b4a-405a-a945-475fb7c92192] { color: rgb(13, 73, 98); font-size: 16px; padding: 6px 10px 0px; }
+.sd[data-s-69d21f5c-2b4a-405a-a945-475fb7c92192] > h2 { color: rgb(13, 73, 98); font-size: 20px; margin: 4px 0px; padding: 0px; }
+}
+.sd[data-s-74f05e3b-e173-4a43-8290-2bd537579ee9] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-74f05e3b-e173-4a43-8290-2bd537579ee9] > p { }
+@media screen and (max-width: 450px) {
+.sd[data-s-74f05e3b-e173-4a43-8290-2bd537579ee9] { color: rgb(124, 135, 138); padding: 0px 10px; }
+.sd[data-s-74f05e3b-e173-4a43-8290-2bd537579ee9] > p { color: rgb(124, 135, 138); margin: 4px 0px; }
+}
+.sd[data-s-c06ec21f-62ec-4492-aafa-d15315f2e647] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-c06ec21f-62ec-4492-aafa-d15315f2e647] > p { }
+@media screen and (max-width: 450px) {
+.sd[data-s-c06ec21f-62ec-4492-aafa-d15315f2e647] { color: rgb(13, 73, 98); font-size: 15px; padding: 4px 10px 0px; }
+.sd[data-s-c06ec21f-62ec-4492-aafa-d15315f2e647] > p { color: rgb(13, 73, 98); font-size: 15px; margin: 10px 0px 0px; }
+}
+.sd[data-s-2033767b-032e-47c1-86e7-09ef90871572] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-2033767b-032e-47c1-86e7-09ef90871572] > h3 { }
+.sd[data-s-2033767b-032e-47c1-86e7-09ef90871572] > p { }
+.sd[data-s-2033767b-032e-47c1-86e7-09ef90871572] strong { }
+@media screen and (max-width: 450px) {
+.sd[data-s-2033767b-032e-47c1-86e7-09ef90871572] { color: rgb(229, 243, 254); font-size: 15px; padding: 4px 10px 0px; }
+.sd[data-s-2033767b-032e-47c1-86e7-09ef90871572] > h3 { color: rgb(28, 176, 246); margin: 0px 0px 20px; }
+.sd[data-s-2033767b-032e-47c1-86e7-09ef90871572] > p { color: rgb(13, 73, 98); font-size: 15px; margin: 10px 0px 0px; }
+.sd[data-s-2033767b-032e-47c1-86e7-09ef90871572] strong { color: rgb(28, 176, 246); }
+}
+.sd[data-s-69ce563b-869c-4ad9-8fb2-02bbdc0f3e37] { height: auto; width: 92.1327px; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-69ce563b-869c-4ad9-8fb2-02bbdc0f3e37] { flex: 0 0 auto; height: auto; margin: 25px 0px 0px; width: 320px; max-width: 100%; }
+}
+.sd[data-s-f5cb1fd0-5294-4f72-a9a8-1946ede18b0b] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-f5cb1fd0-5294-4f72-a9a8-1946ede18b0b] > h3 { }
+.sd[data-s-f5cb1fd0-5294-4f72-a9a8-1946ede18b0b] > p { }
+.sd[data-s-f5cb1fd0-5294-4f72-a9a8-1946ede18b0b] strong { }
+@media screen and (max-width: 450px) {
+.sd[data-s-f5cb1fd0-5294-4f72-a9a8-1946ede18b0b] { color: rgb(13, 73, 98); font-size: 15px; padding: 4px 10px 0px; }
+.sd[data-s-f5cb1fd0-5294-4f72-a9a8-1946ede18b0b] > h3 { margin: 0px 0px 20px; }
+.sd[data-s-f5cb1fd0-5294-4f72-a9a8-1946ede18b0b] > p { color: rgb(13, 73, 98); font-size: 15px; margin: 10px 0px 0px; }
+.sd[data-s-f5cb1fd0-5294-4f72-a9a8-1946ede18b0b] strong { color: rgb(28, 176, 246); }
+}
+.sd[data-s-3283cc00-30ac-4f31-be97-c9533e3f2570] { height: auto; width: 92.1327px; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-3283cc00-30ac-4f31-be97-c9533e3f2570] { flex: 0 0 auto; height: auto; margin: 25px 0px 0px; width: 320px; max-width: 100%; }
+}
+.sd[data-s-591be6b0-aa69-4921-a7b7-2313cdaf7c43] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-591be6b0-aa69-4921-a7b7-2313cdaf7c43] > p { }
+.sd[data-s-591be6b0-aa69-4921-a7b7-2313cdaf7c43] strong { }
+@media screen and (max-width: 450px) {
+.sd[data-s-591be6b0-aa69-4921-a7b7-2313cdaf7c43] { color: rgb(13, 73, 98); font-size: 15px; padding: 4px 10px 0px; }
+.sd[data-s-591be6b0-aa69-4921-a7b7-2313cdaf7c43] > p { color: rgb(13, 73, 98); font-size: 15px; margin: 10px 0px 0px; }
+.sd[data-s-591be6b0-aa69-4921-a7b7-2313cdaf7c43] strong { color: rgb(28, 176, 246); }
+}
+.sd[data-s-836aa480-5f07-43b2-ba02-7b82e9d4b07c] { height: auto; width: 92.1327px; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-836aa480-5f07-43b2-ba02-7b82e9d4b07c] { flex: 0 0 auto; height: auto; margin: 25px 0px 0px; width: 320px; max-width: 100%; }
+}
+.sd[data-s-37a0f7ee-ad17-4fb8-b39a-bca641b48ea7] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-37a0f7ee-ad17-4fb8-b39a-bca641b48ea7] > p { }
+.sd[data-s-37a0f7ee-ad17-4fb8-b39a-bca641b48ea7] strong { }
+@media screen and (max-width: 450px) {
+.sd[data-s-37a0f7ee-ad17-4fb8-b39a-bca641b48ea7] { color: rgb(13, 73, 98); font-size: 15px; padding: 0px 10px; }
+.sd[data-s-37a0f7ee-ad17-4fb8-b39a-bca641b48ea7] > p { color: rgb(13, 73, 98); font-size: 15px; margin: 10px 0px 0px; }
+.sd[data-s-37a0f7ee-ad17-4fb8-b39a-bca641b48ea7] strong { color: rgb(28, 176, 246); }
+}
+.sd[data-s-bff0b7ae-47ae-4866-bf6e-f5a4dc4ea4e4] { height: auto; width: 92.1327px; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-bff0b7ae-47ae-4866-bf6e-f5a4dc4ea4e4] { flex: 0 0 auto; height: auto; margin: 25px 0px 0px; width: 320px; max-width: 100%; }
+}
+.sd[data-s-17502d4b-cbe5-43e6-9a01-1eb068039fe2] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-17502d4b-cbe5-43e6-9a01-1eb068039fe2] > p { }
+.sd[data-s-17502d4b-cbe5-43e6-9a01-1eb068039fe2] strong { }
+@media screen and (max-width: 450px) {
+.sd[data-s-17502d4b-cbe5-43e6-9a01-1eb068039fe2] { color: rgb(13, 73, 98); font-size: 15px; padding: 0px 10px; }
+.sd[data-s-17502d4b-cbe5-43e6-9a01-1eb068039fe2] > p { color: rgb(13, 73, 98); font-size: 15px; margin: 10px 0px 0px; }
+.sd[data-s-17502d4b-cbe5-43e6-9a01-1eb068039fe2] strong { color: rgb(28, 176, 246); }
+}
+.sd[data-s-086c2c35-183a-44f1-a81c-96e3d3da4279] { height: auto; width: 92.1327px; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-086c2c35-183a-44f1-a81c-96e3d3da4279] { flex: 0 0 auto; height: auto; margin: 25px 0px 0px; width: 320px; max-width: 100%; }
+}
+.sd[data-s-d304080e-dd99-4c0e-b2e2-ae522462d96a] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-d304080e-dd99-4c0e-b2e2-ae522462d96a] > p { }
+.sd[data-s-d304080e-dd99-4c0e-b2e2-ae522462d96a] strong { }
+@media screen and (max-width: 450px) {
+.sd[data-s-d304080e-dd99-4c0e-b2e2-ae522462d96a] { color: rgb(13, 73, 98); font-size: 15px; padding: 0px 10px; }
+.sd[data-s-d304080e-dd99-4c0e-b2e2-ae522462d96a] > p { color: rgb(13, 73, 98); font-size: 15px; margin: 10px 0px 0px; }
+.sd[data-s-d304080e-dd99-4c0e-b2e2-ae522462d96a] strong { color: rgb(28, 176, 246); }
+}
+.sd[data-s-6d1a8409-640b-4646-bfe9-77222f68efef] { height: auto; width: 92.1327px; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-6d1a8409-640b-4646-bfe9-77222f68efef] { flex: 0 0 auto; height: auto; margin: 25px 0px 0px; width: 320px; max-width: 100%; }
+}
+.sd[data-s-7fcd5afa-6fa6-43cc-89f0-07f7bbb5c629] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-7fcd5afa-6fa6-43cc-89f0-07f7bbb5c629] > p { }
+@media screen and (max-width: 450px) {
+.sd[data-s-7fcd5afa-6fa6-43cc-89f0-07f7bbb5c629] { color: rgb(13, 73, 98); font-size: 15px; padding: 0px 10px; }
+.sd[data-s-7fcd5afa-6fa6-43cc-89f0-07f7bbb5c629] > p { color: rgb(13, 73, 98); font-size: 15px; margin: 10px 0px 0px; }
+}
+.sd[data-s-74ebd6f7-ec2a-4cf7-b5ce-1320045d9f5b] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-74ebd6f7-ec2a-4cf7-b5ce-1320045d9f5b] > p { }
+@media screen and (max-width: 450px) {
+.sd[data-s-74ebd6f7-ec2a-4cf7-b5ce-1320045d9f5b] { color: rgb(13, 73, 98); font-size: 15px; margin: 0px; padding: 0px 10px 4px; max-width: 100%; }
+.sd[data-s-74ebd6f7-ec2a-4cf7-b5ce-1320045d9f5b] > p { color: rgb(13, 73, 98); font-size: 15px; }
+}
+.sd[data-s-55b99ef0-8c7d-4f60-9bc7-36a9bbe00915] { height: auto; width: 200px; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-55b99ef0-8c7d-4f60-9bc7-36a9bbe00915] { border-radius: 20px; flex: 0 0 auto; height: 215px; margin: 12px 0px 0px; width: 315px; max-width: 100%; }
+}
+:root { --s-color-9bb18529: rgb(248, 248, 248); --s-color-eaa3a4fd: #c7c7c7ff; --s-color-30a8e2c3: #0d4962ff; --s-color-f0adf6b3: #199de8ff; --s-font-c58edbc8: Lato; --s-font-89af1dd3: 'Noto Sans JP'; --s-font-f88811e0: Inter,'Noto Sans JP'; }
+:where(.render-canvas) .tiles{display:flex;flex-direction:column;align-items:stretch;}
+:where(.render-canvas) .tiles>img{display:block;width:100%;height:auto;max-width:100%;}
+
+</style>
+</head>
+<body>
+<div class="render-canvas"><div class="StudioCanvas">
+<div class="sd appear" data-s-558f0faa-eca7-4bd5-811f-b4f16be0a51c=""><img alt="" class="sd" data-s-60069e4e-3e5c-4938-a9e4-3bcb5e1c38e7="" decoding="async" height="357" src="assets/01-91560891.webp" width="648"/><div class="richText sd" data-s-69d21f5c-2b4a-405a-a945-475fb7c92192=""><h2 id="index_txZJqCzR">【単語帳機能アップデート✨】単語帳が増えてもっと便利になったよ！</h2></div><div class="richText sd" data-s-74f05e3b-e173-4a43-8290-2bd537579ee9=""><p>2025/05/08 11:00</p></div><div class="richText sd" data-s-c06ec21f-62ec-4492-aafa-d15315f2e647=""><p>Hello~！モチベアだよ！毎日コツコツ頑張っててすごいね！</p><p>モチタンの単語帳機能がパワーアップしたんだ！</p><p></p></div><div class="richText sd" data-s-2033767b-032e-47c1-86e7-09ef90871572=""><h3 id="index_I52tWXJC">【単語帳機能のパワーアップポイント5選】</h3><p>①<strong>モチタンAIのオススメ</strong>が登場！<br/>②<strong>モチベアの単語帳</strong>がいっぱい！<br/>③<strong>コース別の単語帳</strong>でしっかり復習！<br/>④<strong>お気に入り機能</strong>が新登場！<br/>⑤<strong>複製機能</strong>が新搭載！</p></div><img alt="" class="sd" data-s-69ce563b-869c-4ad9-8fb2-02bbdc0f3e37="" decoding="async" height="1800" src="assets/02-c1e322c8.webp" width="861"/><div class="richText sd" data-s-f5cb1fd0-5294-4f72-a9a8-1946ede18b0b=""><h3 id="index_QDHhAWbn"></h3><p>①<strong>モチタンAIのオススメ</strong>が登場！</p><p>AIが学習履歴を分析し、記憶度に応じて単語帳が生成されるよ。<br/>記憶度別に集中して取り組める！</p></div><img alt="" class="sd" data-s-3283cc00-30ac-4f31-be97-c9533e3f2570="" decoding="async" height="1638" loading="lazy" src="assets/03-cce95e30.webp" width="813"/><div class="richText sd" data-s-591be6b0-aa69-4921-a7b7-2313cdaf7c43=""><p></p><p>②<strong>モチベアの単語帳</strong>がいっぱい！</p><p>ボクが厳選した「東大頻出英単語」や「日常会話でよく使う英単語」、「ビジネス英単語」など、コース・シーン別に豊富なラインナップを揃えたよ！</p></div><img alt="" class="sd" data-s-836aa480-5f07-43b2-ba02-7b82e9d4b07c="" decoding="async" height="1638" loading="lazy" src="assets/04-86ac81a9.webp" width="813"/><div class="richText sd" data-s-37a0f7ee-ad17-4fb8-b39a-bca641b48ea7=""><p></p><p>③<strong>コース別の単語帳</strong>でしっかり復習！</p><p>選択中のコースの単語をレベル別にまとめてチェックできるよ！</p></div><img alt="" class="sd" data-s-bff0b7ae-47ae-4866-bf6e-f5a4dc4ea4e4="" decoding="async" height="1638" loading="lazy" src="assets/05-27076cca.webp" width="813"/><div class="richText sd" data-s-17502d4b-cbe5-43e6-9a01-1eb068039fe2=""><p></p><p>④<strong>お気に入り機能</strong>が新搭載！</p><p>単語帳上部のしおりマークをタップして、お気に入りに追加しよう！</p></div><img alt="" class="sd" data-s-086c2c35-183a-44f1-a81c-96e3d3da4279="" decoding="async" height="1677" loading="lazy" src="assets/06-1857c8a0.webp" width="813"/><div class="richText sd" data-s-d304080e-dd99-4c0e-b2e2-ae522462d96a=""><p></p><p>⑤<strong>単語帳の複製機能</strong>が新搭載！</p><p>単語帳上部の・・・マークから、単語帳をMy単語帳に複製できるよ。<br/>複製後は、単語の追加・削除など自由にカスタマイズ可能！</p></div><img alt="" class="sd" data-s-6d1a8409-640b-4646-bfe9-77222f68efef="" decoding="async" height="1677" loading="lazy" src="assets/07-99f20cdb.webp" width="813"/><div class="richText sd" data-s-7fcd5afa-6fa6-43cc-89f0-07f7bbb5c629=""><p></p><p>自分の目的に合った単語帳をフル活用して、着実に英単語力を伸ばそう！！</p></div><div class="richText sd" data-s-74ebd6f7-ec2a-4cf7-b5ce-1320045d9f5b=""><p></p><p>※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。</p></div><img alt="" class="sd" data-s-55b99ef0-8c7d-4f60-9bc7-36a9bbe00915="" decoding="async" height="512" loading="lazy" src="assets/08-0934ce0c.webp" width="752"/></div><!-- -->
+</div></div>
+
+</body>
+</html>

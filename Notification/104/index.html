@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- 移植元: https://motitan-notification.astran.jp/Notification/104 (STUDIO) -->
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>壁紙の追加と、安定性改善のアップデート！｜モチタウン</title>
+<meta property="og:title" content="壁紙の追加と、安定性改善のアップデート！">
+<meta property="og:type" content="article">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+html,body{margin:0;padding:0;background:#fff;}
+@keyframes loading-spin-9f7266e2 { 
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(1turn); }
+}
+.StudioCanvas { height: auto; min-height: 100dvh; display: flex; }
+.StudioCanvas > .sd { min-height: 100dvh; overflow: clip; }
+:where(.render-canvas), :where(.render-canvas) a, :where(.render-canvas) abbr, :where(.render-canvas) address, :where(.render-canvas) article, :where(.render-canvas) aside, :where(.render-canvas) audio, :where(.render-canvas) b, :where(.render-canvas) blockquote, :where(.render-canvas) button, :where(.render-canvas) canvas, :where(.render-canvas) caption, :where(.render-canvas) cite, :where(.render-canvas) code, :where(.render-canvas) dd, :where(.render-canvas) del, :where(.render-canvas) details, :where(.render-canvas) dfn, :where(.render-canvas) div, :where(.render-canvas) dl, :where(.render-canvas) dt, :where(.render-canvas) em, :where(.render-canvas) fieldset, :where(.render-canvas) figcaption, :where(.render-canvas) figure, :where(.render-canvas) footer, :where(.render-canvas) form, :where(.render-canvas) h1, :where(.render-canvas) h2, :where(.render-canvas) h3, :where(.render-canvas) h4, :where(.render-canvas) h5, :where(.render-canvas) h6, :where(.render-canvas) header, :where(.render-canvas) hgroup, :where(.render-canvas) i, :where(.render-canvas) iframe, :where(.render-canvas) img, :where(.render-canvas) input, :where(.render-canvas) ins, :where(.render-canvas) kbd, :where(.render-canvas) label, :where(.render-canvas) legend, :where(.render-canvas) li, :where(.render-canvas) loop-box, :where(.render-canvas) main, :where(.render-canvas) mark, :where(.render-canvas) menu, :where(.render-canvas) nav, :where(.render-canvas) object, :where(.render-canvas) ol, :where(.render-canvas) p, :where(.render-canvas) pre, :where(.render-canvas) q, :where(.render-canvas) samp, :where(.render-canvas) section, :where(.render-canvas) select, :where(.render-canvas) small, :where(.render-canvas) span, :where(.render-canvas) strong, :where(.render-canvas) sub, :where(.render-canvas) summary, :where(.render-canvas) sup, :where(.render-canvas) table, :where(.render-canvas) tbody, :where(.render-canvas) td, :where(.render-canvas) textarea, :where(.render-canvas) tfoot, :where(.render-canvas) th, :where(.render-canvas) thead, :where(.render-canvas) time, :where(.render-canvas) tr, :where(.render-canvas) ul, :where(.render-canvas) var, :where(.render-canvas) video { -webkit-font-smoothing: antialiased; box-sizing: border-box; color: rgb(51, 51, 51); word-spacing: 1px; backface-visibility: hidden; border: 0px; margin: 0px; padding: 0px; font-family: sans-serif; line-height: 1; text-decoration: none; list-style: none; transition: 0.3s cubic-bezier(0.4, 0.4, 0, 1); }
+:where(.render-canvas) .sd { z-index: 0; pointer-events: all; flex-flow: column; flex: 0 0 auto; align-content: center; align-items: center; max-width: 100%; display: flex; position: relative; }
+:where(.render-canvas) .sd::-webkit-scrollbar { display: none; }
+:where(.render-canvas) .sd, :where(.render-canvas) .sd.richText * { transition-property: all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11; }
+:where(.render-canvas) .sd.text, :where(.render-canvas) .sd:where(.icon) { word-break: break-word; overflow-wrap: anywhere; flex-direction: row; place-content: center; align-items: center; display: flex; overflow: visible; }
+:where(.render-canvas) .sd:where(.icon.fa) { display: inline-flex; }
+:where(.render-canvas) .sd:where(.icon.material-symbols) { font-variation-settings: "FILL" var(--symbol-fill,0),"wght" var(--symbol-weight,400); justify-content: center; align-items: center; min-width: 1em; min-height: 1em; font-style: normal; display: flex; }
+:where(.render-canvas) .richText { word-break: break-word; display: block; }
+:where(.render-canvas) .richText [data-thread], :where(.render-canvas) .richText a, :where(.render-canvas) .richText blockquote, :where(.render-canvas) .richText em, :where(.render-canvas) .richText h1, :where(.render-canvas) .richText h2, :where(.render-canvas) .richText h3, :where(.render-canvas) .richText h4, :where(.render-canvas) .richText li, :where(.render-canvas) .richText ol, :where(.render-canvas) .richText p, :where(.render-canvas) .richText p > code, :where(.render-canvas) .richText pre, :where(.render-canvas) .richText pre > code, :where(.render-canvas) .richText s, :where(.render-canvas) .richText strong, :where(.render-canvas) .richText table tbody, :where(.render-canvas) .richText table tbody tr, :where(.render-canvas) .richText table tbody tr > td, :where(.render-canvas) .richText table tbody tr > th, :where(.render-canvas) .richText u, :where(.render-canvas) .richText ul { color: inherit; font-family: inherit; font-size: inherit; text-align: inherit; letter-spacing: inherit; line-height: inherit; font-weight: inherit; font-style: inherit; backface-visibility: visible; }
+:where(.render-canvas) .richText p { align-self: stretch; margin: 10px 0px; display: block; }
+:where(.render-canvas) .richText > p { min-height: 1em; }
+:where(.render-canvas) .richText strong { color: inherit; font-family: inherit; font-weight: 900; display: inline; }
+.sd[data-s-9821cec9-a87e-4ee9-96cd-bf1b897ac491] { place-content: center flex-start; align-items: center; background: rgb(255, 255, 255); border-radius: 0px; flex-flow: column; height: 100%; margin: 0px; opacity: 1; padding: 0px; width: 100%; --gap-uuid: 9821cec9-a87e-4ee9-96cd-bf1b897ac491; --gap-h-9821cec9-a87e-4ee9-96cd-bf1b897ac491: 0px; --gap-v-9821cec9-a87e-4ee9-96cd-bf1b897ac491: 0px; max-width: 100%; }
+@media screen and (max-width: 450px) {
+.sd[data-s-9821cec9-a87e-4ee9-96cd-bf1b897ac491] { gap: 0px; padding: 0px; --gap-h-9821cec9-a87e-4ee9-96cd-bf1b897ac491: 0px; --gap-v-9821cec9-a87e-4ee9-96cd-bf1b897ac491: 0px; }
+}
+.sd[data-s-6d4baea6-37aa-42d6-9ecb-768e995e61a4] { display: flex; flex: 0 0 auto; height: auto; width: 674px; max-width: 100%; }
+@media screen and (max-width: 840px) {
+.sd[data-s-6d4baea6-37aa-42d6-9ecb-768e995e61a4] { display: flex; height: auto; width: calc(100% - (var(--gap-h-9821cec9-a87e-4ee9-96cd-bf1b897ac491) * 0)); max-width: calc(100% - (var(--gap-h-9821cec9-a87e-4ee9-96cd-bf1b897ac491) * 0)); }
+}
+@media screen and (max-width: 450px) {
+.sd[data-s-6d4baea6-37aa-42d6-9ecb-768e995e61a4] { border-radius: 0px; display: flex; flex: 0 0 auto; height: auto; overflow: visible; width: 100%; }
+}
+.sd[data-s-8f7ab03d-32bb-44a4-9718-82627909faba] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 14px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-8f7ab03d-32bb-44a4-9718-82627909faba] > p { }
+@media screen and (max-width: 840px) {
+.sd[data-s-8f7ab03d-32bb-44a4-9718-82627909faba] { font-size: 20px; font-weight: 700; }
+}
+@media screen and (max-width: 450px) {
+.sd[data-s-8f7ab03d-32bb-44a4-9718-82627909faba] { color: rgb(13, 73, 98); font-size: 20px; font-weight: 700; padding: 6px 10px 0px; }
+.sd[data-s-8f7ab03d-32bb-44a4-9718-82627909faba] > p { color: rgb(0, 48, 68); }
+}
+.sd[data-s-624aef3c-ee3a-4267-acc1-84496d8ca312] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-624aef3c-ee3a-4267-acc1-84496d8ca312] > p { }
+@media screen and (max-width: 450px) {
+.sd[data-s-624aef3c-ee3a-4267-acc1-84496d8ca312] { color: rgb(124, 135, 138); padding: 0px 10px; }
+.sd[data-s-624aef3c-ee3a-4267-acc1-84496d8ca312] > p { color: rgb(124, 135, 138); margin: 4px 0px; }
+}
+.sd[data-s-5d273ea1-1111-47d7-82ab-df62c97433c6] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-5d273ea1-1111-47d7-82ab-df62c97433c6] > p { }
+@media screen and (max-width: 450px) {
+.sd[data-s-5d273ea1-1111-47d7-82ab-df62c97433c6] { color: rgb(124, 135, 138); font-size: 15px; padding: 4px 10px; }
+.sd[data-s-5d273ea1-1111-47d7-82ab-df62c97433c6] > p { color: rgb(13, 73, 98); font-size: 15px; }
+}
+.sd[data-s-fa4d1d2c-1c55-41ff-9074-cca0b2635e8a] { place-content: center; align-items: center; flex-flow: row; padding: 0px; }
+@media screen and (max-width: 840px) {
+.sd[data-s-fa4d1d2c-1c55-41ff-9074-cca0b2635e8a] { place-content: center; align-items: center; flex: 0 0 auto; margin: 0px; width: calc(90% - (var(--gap-h-9821cec9-a87e-4ee9-96cd-bf1b897ac491) * 0.10000000000000003)); max-width: calc(90% - (var(--gap-h-9821cec9-a87e-4ee9-96cd-bf1b897ac491) * 0.10000000000000003)); }
+}
+.sd[data-s-4fbaf23a-6444-4946-900a-6cd03ccce4f4] { height: auto; width: 200px; max-width: 100%; }
+@media screen and (max-width: 840px) {
+.sd[data-s-4fbaf23a-6444-4946-900a-6cd03ccce4f4] { border-width: 1px; border-style: solid; border-color: rgb(197, 197, 197); border-radius: 10px; flex: 0 0 auto; margin: 0px 10px; width: calc(55% - 20px); max-width: calc(55% - 20px); }
+}
+@media screen and (max-width: 450px) {
+.sd[data-s-4fbaf23a-6444-4946-900a-6cd03ccce4f4] { flex: 0 0 auto; margin: 0px 5px; width: calc(53% - 10px); max-width: calc(53% - 10px); }
+}
+.sd[data-s-a5167818-8456-4b6e-a910-1ba35c92ee2e] { height: auto; width: 200px; max-width: 100%; }
+@media screen and (max-width: 840px) {
+.sd[data-s-a5167818-8456-4b6e-a910-1ba35c92ee2e] { border-width: 1px; border-style: solid; border-color: rgb(197, 197, 197); border-radius: 10px; flex: 0 0 auto; margin: 0px 10px; width: calc(55% - 20px); max-width: calc(55% - 20px); }
+}
+@media screen and (max-width: 450px) {
+.sd[data-s-a5167818-8456-4b6e-a910-1ba35c92ee2e] { flex: 0 0 auto; margin: 0px 5px; width: calc(53% - 10px); max-width: calc(53% - 10px); }
+}
+.sd[data-s-1bdec5f3-d605-46fb-972f-e47b2c4161e6] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-1bdec5f3-d605-46fb-972f-e47b2c4161e6] > p { }
+@media screen and (max-width: 450px) {
+.sd[data-s-1bdec5f3-d605-46fb-972f-e47b2c4161e6] { color: rgb(124, 135, 138); font-size: 15px; padding: 4px 10px; }
+.sd[data-s-1bdec5f3-d605-46fb-972f-e47b2c4161e6] > p { color: rgb(13, 73, 98); font-size: 15px; }
+}
+.sd[data-s-e0582e46-81c5-4194-9177-634074dbc621] { height: auto; width: 200px; max-width: 100%; }
+@media screen and (max-width: 840px) {
+.sd[data-s-e0582e46-81c5-4194-9177-634074dbc621] { flex: 0 0 auto; width: calc(100% - (var(--gap-h-9821cec9-a87e-4ee9-96cd-bf1b897ac491) * 0)); max-width: calc(100% - (var(--gap-h-9821cec9-a87e-4ee9-96cd-bf1b897ac491) * 0)); }
+}
+@media screen and (max-width: 450px) {
+.sd[data-s-e0582e46-81c5-4194-9177-634074dbc621] { flex: 0 0 auto; width: 100%; }
+}
+.sd[data-s-fef6d685-e154-4c3e-8ce3-e9bd15e3a128] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-fef6d685-e154-4c3e-8ce3-e9bd15e3a128] > p { }
+@media screen and (max-width: 450px) {
+.sd[data-s-fef6d685-e154-4c3e-8ce3-e9bd15e3a128] { color: rgb(124, 135, 138); font-size: 15px; padding: 4px 10px; }
+.sd[data-s-fef6d685-e154-4c3e-8ce3-e9bd15e3a128] > p { color: rgb(13, 73, 98); font-size: 15px; }
+}
+.sd[data-s-ba554149-21c1-4d8e-adf6-6f9437fcd824] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-ba554149-21c1-4d8e-adf6-6f9437fcd824] > p { }
+@media screen and (max-width: 450px) {
+.sd[data-s-ba554149-21c1-4d8e-adf6-6f9437fcd824] { color: rgb(124, 135, 138); font-size: 15px; padding: 4px 10px; }
+.sd[data-s-ba554149-21c1-4d8e-adf6-6f9437fcd824] > p { color: rgb(13, 73, 98); font-size: 15px; }
+}
+.sd[data-s-e012410b-bff4-45a1-bc51-719d2df4387a] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-e012410b-bff4-45a1-bc51-719d2df4387a] > p { }
+@media screen and (max-width: 450px) {
+.sd[data-s-e012410b-bff4-45a1-bc51-719d2df4387a] { color: rgb(124, 135, 138); font-size: 15px; padding: 4px 10px; }
+.sd[data-s-e012410b-bff4-45a1-bc51-719d2df4387a] > p { color: rgb(13, 73, 98); font-size: 15px; }
+}
+.sd[data-s-aae4b236-01e3-44b7-b9e0-c7f179d2c42f] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-aae4b236-01e3-44b7-b9e0-c7f179d2c42f] > p { }
+@media screen and (max-width: 450px) {
+.sd[data-s-aae4b236-01e3-44b7-b9e0-c7f179d2c42f] { color: rgb(124, 135, 138); font-size: 15px; padding: 4px 10px; }
+.sd[data-s-aae4b236-01e3-44b7-b9e0-c7f179d2c42f] > p { color: rgb(13, 73, 98); font-size: 15px; }
+}
+.sd[data-s-3cb162c5-20e3-4bfe-b890-6ae3c912598d] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-3cb162c5-20e3-4bfe-b890-6ae3c912598d] > p { }
+@media screen and (max-width: 450px) {
+.sd[data-s-3cb162c5-20e3-4bfe-b890-6ae3c912598d] { color: rgb(124, 135, 138); font-size: 15px; padding: 4px 10px; }
+.sd[data-s-3cb162c5-20e3-4bfe-b890-6ae3c912598d] > p { color: rgb(13, 73, 98); font-size: 15px; }
+}
+.sd[data-s-eed4fb28-d065-4f3f-99ec-62252e3823d7] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-eed4fb28-d065-4f3f-99ec-62252e3823d7] > p { }
+@media screen and (max-width: 450px) {
+.sd[data-s-eed4fb28-d065-4f3f-99ec-62252e3823d7] { color: rgb(124, 135, 138); font-size: 15px; padding: 4px 10px; }
+.sd[data-s-eed4fb28-d065-4f3f-99ec-62252e3823d7] > p { color: rgb(13, 73, 98); font-size: 15px; }
+}
+.sd[data-s-22c7337e-052b-4548-a560-0123621f135e] { color: rgb(51, 51, 51); font-family: var(--s-font-89af1dd3); font-size: 16px; font-weight: 400; height: auto; line-height: 1.4; padding: 0px 10px; text-align: left; width: 939px; max-width: 100%; }
+.sd[data-s-22c7337e-052b-4548-a560-0123621f135e] > p { }
+@media screen and (max-width: 450px) {
+.sd[data-s-22c7337e-052b-4548-a560-0123621f135e] { color: rgb(13, 73, 98); font-size: 15px; padding: 4px 10px; }
+.sd[data-s-22c7337e-052b-4548-a560-0123621f135e] > p { color: rgb(13, 73, 98); font-size: 15px; }
+}
+.sd[data-s-5f4bee8a-bcc7-4b1b-9dee-b24337cb1795] { height: auto; width: 200px; max-width: 100%; }
+@media screen and (max-width: 840px) {
+.sd[data-s-5f4bee8a-bcc7-4b1b-9dee-b24337cb1795] { flex: 0 0 auto; width: calc(65% - (var(--gap-h-9821cec9-a87e-4ee9-96cd-bf1b897ac491) * 0.35000000000000003)); max-width: calc(65% - (var(--gap-h-9821cec9-a87e-4ee9-96cd-bf1b897ac491) * 0.35000000000000003)); }
+}
+@media screen and (max-width: 450px) {
+.sd[data-s-5f4bee8a-bcc7-4b1b-9dee-b24337cb1795] { flex: 0 0 auto; padding: 0px; width: 65%; }
+}
+:root { --s-color-9bb18529: rgb(248, 248, 248); --s-color-eaa3a4fd: #c7c7c7ff; --s-color-30a8e2c3: #0d4962ff; --s-color-f0adf6b3: #199de8ff; --s-font-c58edbc8: Lato; --s-font-89af1dd3: 'Noto Sans JP'; --s-font-f88811e0: Inter,'Noto Sans JP'; }
+:where(.render-canvas) .tiles{display:flex;flex-direction:column;align-items:stretch;}
+:where(.render-canvas) .tiles>img{display:block;width:100%;height:auto;max-width:100%;}
+
+</style>
+</head>
+<body>
+<div class="render-canvas"><div class="StudioCanvas">
+<div class="sd appear" data-s-9821cec9-a87e-4ee9-96cd-bf1b897ac491=""><img alt="" class="sd" data-s-6d4baea6-37aa-42d6-9ecb-768e995e61a4="" decoding="async" height="265" src="assets/01-18910d14.webp" width="900"/><div class="richText sd" data-s-8f7ab03d-32bb-44a4-9718-82627909faba=""><p>壁紙の追加と、安定性改善のアップデート！</p></div><div class="richText sd" data-s-624aef3c-ee3a-4267-acc1-84496d8ca312=""><p>2026/01/16 14:00</p></div><div class="richText sd" data-s-5d273ea1-1111-47d7-82ab-df62c97433c6=""><p>Hello~！モチベアだよ！みんな連絡をくれてありがとう！</p><p>今回のアップデートで、もっと楽しく、快適に学習できるように機能の改善をしたよ！</p><p><strong>1.カスタマイズ機能に「壁紙」を追加！</strong></p><p>アイコンやマイページを好みのスタイルに彩ろう！</p></div><div class="sd appear" data-s-fa4d1d2c-1c55-41ff-9074-cca0b2635e8a=""><img alt="" class="sd" data-s-4fbaf23a-6444-4946-900a-6cd03ccce4f4="" decoding="async" height="425" src="assets/02-587f9e15.webp" width="600"/><img alt="" class="sd" data-s-a5167818-8456-4b6e-a910-1ba35c92ee2e="" decoding="async" height="425" loading="lazy" src="assets/03-09cfe308.webp" width="600"/></div><div class="richText sd" data-s-1bdec5f3-d605-46fb-972f-e47b2c4161e6=""><p><strong>2.金銀銅のキャラクターが表示されない不具合の解消</strong></p></div><img alt="" class="sd" data-s-e0582e46-81c5-4194-9177-634074dbc621="" decoding="async" height="281" loading="lazy" src="assets/04-5fe420d7.webp" width="900"/><div class="richText sd" data-s-fef6d685-e154-4c3e-8ce3-e9bd15e3a128=""><p><strong>3.プレイ中に画面が明滅する不具合を改善</strong></p></div><div class="richText sd" data-s-ba554149-21c1-4d8e-adf6-6f9437fcd824=""><p><strong>4.冒険や対戦のプレイ途中でアプリが停止してしまう不具合を解消</strong></p></div><div class="richText sd" data-s-e012410b-bff4-45a1-bc51-719d2df4387a=""><p><strong>5.アプリ動作の安定性向上</strong><br/>不安定な通信環境でもアプリが安定して動作するように改善</p></div><div class="richText sd" data-s-aae4b236-01e3-44b7-b9e0-c7f179d2c42f=""><p><strong>6.カスタマイズ機能の改善</strong><br/>カスタマイズ中に、キャラクターを回転できるようになったんだ！360度の視点で自分だけのキャラクターをチェックしてみてね！</p></div><div class="richText sd" data-s-3cb162c5-20e3-4bfe-b890-6ae3c912598d=""><p><strong>7.単語情報の改善</strong><br/>一部の単語の画像や例文和訳などを改善！</p></div><div class="richText sd" data-s-eed4fb28-d065-4f3f-99ec-62252e3823d7=""><p><strong>8.その他、不具合の解消とパフォーマンスの改善！</strong><br/></p><p>楽しく快適に学べるように、<strong>アプリを最新版にアップデートしてね！</strong></p><p>もし気付いたことがあれば、いつでもモチタンアプリ内のフィードバックから連絡してね！全部見させてもらってるよ！</p></div><div class="richText sd" data-s-22c7337e-052b-4548-a560-0123621f135e=""><p></p><p>※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。</p></div><img alt="" class="sd" data-s-5f4bee8a-bcc7-4b1b-9dee-b24337cb1795="" decoding="async" height="326" loading="lazy" src="assets/05-93a93784.webp" width="600"/></div><!-- -->
+</div></div>
+
+</body>
+</html>
