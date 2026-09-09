@@ -1,10 +1,20 @@
 # お知らせ作成の流れ
 
-1. figmaでデザインを行う
-2. claudeでhrml化を行う
-3. git pushでactionが回り、公開される
- - 公開urlは https://motitown-notification.astran.jp/xx/
- - git actionには、初回pushするユーザーは無視される設定がある
+1. 原稿作成 — `/notification-draft`
+   - 伝えたい内容のメモを `{N}/brief.md` にまとめ、開発者・神谷創の人格を読み込ませた Gemini に `{N}/draft.md`(Markdown)を書かせる。Claude がレビュー
+2. デザイン — figma でバナー等を作る(`draft.md` の `banner` を元に)
+3. HTML作成 — `/notification-page`
+   - `{N}/draft.md` を文言ソースに `{N}/index.html` を作り、アセットを配置して表示確認
+4. SQL作成・公開・確認依頼 — `/notification-sql`
+   - `sql/deployed/{N}.sql` を作り、git push で公開(GitHub Pages)
+   - 公開urlは https://motitown-notification.astran.jp/xx/
+   - git actionには、初回pushするユーザーは無視される設定がある
+   - デプロイ完了を待って、Slack `#02-develop` に確認依頼を投稿(宛先・文面は `.claude/skills/notification-sql/slack.json`)
+5. 返信の反映 — `/notification-review`
+   - Slack スレッドの返信を読んで原稿・HTMLを修正し、再公開してスレッドに報告
+
+スキルは `.claude/skills/` 配下。原稿の書き手の人格は `.claude/skills/notification-draft/persona.md`(Notion の履歴書の要約)。
+Gemini CLI(`npm i -g @google/gemini-cli`)と認証(`GEMINI_API_KEY` または `gemini` での Google ログイン)が必要。
 
 # 旧 STUDIO サイト (motitan-notification.astran.jp) からの移植ページ
 

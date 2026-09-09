@@ -1,0 +1,9 @@
+{
+  "channel": { "name": "#02-develop", "id": "C04APK82UCD" },
+  "reviewers": [
+    { "name": "Imin Sai",       "id": "U037PTX0Q9Z" },
+    { "name": "Shio Bou",       "id": "U057R6NQPC2" },
+    { "name": "Takuya Okajima", "id": "U037PUGC9SN" }
+  ],
+  "message_template": "<@U037PTX0Q9Z> <@U057R6NQPC2> <@U037PUGC9SN> 神谷です。お知らせを作成しました。ご確認ください。{url}"
+}
