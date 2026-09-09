@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>【モチタン・モチスピ】自動再生を改善し、フレーズ帳から対戦をプレイできるようになりました｜モチタウン</title>
+<meta property="og:title" content="自動再生を改善し、フレーズ帳から対戦をプレイできるようになりました">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0D4962;
+    --date:#7C878A;
+    --line:#99A7AA;
+    --sky:#DCF1FF;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  img{max-width:100%;}
+  body{
+    background:#fff;
+    font-family:"Noto Sans JP",-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+    color:var(--navy);
+    -webkit-font-smoothing:antialiased;
+    word-break:break-word;
+  }
+
+  /* 流動カラム：固定px幅を持たせずレスポンシブに */
+  .wrap{width:100%;max-width:430px;margin:0 auto;background:#fff;}
+
+  /* ヘッダーバナー（全幅・比率維持）＋下方向のシャドウ。
+     画像未配置時も崩れないよう、背景にブランドグラデーションを敷く */
+  .banner{
+    display:block;width:100%;height:auto;position:relative;z-index:1;
+    background:linear-gradient(180deg,#DCF1FF 0%,#F4FBFF 100%);
+    box-shadow:0 4px 6px rgba(0,0,0,.12);
+  }
+
+  /* 本文コンテナ：左右パディングで余白を作る */
+  .content{padding:14px 22px 40px;}
+
+  h1.title{margin:0 0 8px;color:var(--navy);font-weight:700;font-size:20px;line-height:1.5;letter-spacing:.02em;}
+  .date{color:var(--date);font-size:16.5px;line-height:1.4;letter-spacing:.02em;margin:0 0 18px;}
+
+  p.lead{font-size:15.5px;line-height:1.9;letter-spacing:.02em;margin:18px 0;}
+
+  /* トピックごとの見出し（左のネイビーバー＋薄い水色の下線） */
+  h2.section{
+    display:flex;align-items:center;gap:10px;
+    margin:36px 0 4px;padding:0 0 8px;border-bottom:2px solid var(--sky);
+    color:var(--navy);font-weight:700;font-size:18px;line-height:1.5;letter-spacing:.02em;
+  }
+  h2.section::before{
+    content:"";flex:0 0 auto;width:5px;height:1.2em;border-radius:3px;background:var(--navy);
+  }
+
+  /* 箇条書き */
+  ul.list{margin:14px 0;padding:0 0 0 1.3em;font-size:15.5px;line-height:1.8;letter-spacing:.02em;}
+  ul.list li{margin:6px 0;}
+
+  /* 操作手順：ラベル＋パス */
+  .steps{margin:18px 0;font-size:15.5px;line-height:1.9;letter-spacing:.02em;}
+  .steps__label{display:block;font-weight:700;}
+  .steps__path{
+    display:block;margin-top:6px;padding:8px 12px;
+    background:#EAF6FF;border:1px solid #C9E8FB;border-radius:8px;
+    font-weight:500;font-size:14.5px;line-height:1.7;
+  }
+
+  /* 画像枠：角丸＋細い枠線＋淡い影。画像が未配置のときはファイル名を表示するプレースホルダーになる */
+  figure.shot{margin:20px 0;}
+  figure.shot img{
+    display:block;width:100%;height:auto;
+    border:1px solid #C9E8FB;border-radius:12px;
+    box-shadow:0 2px 8px rgba(13,73,98,.10);
+  }
+  figure.shot.missing img{display:none;}
+  figure.shot.missing::before{
+    content:"画像を配置してください\A" attr(data-file);
+    white-space:pre;
+    display:flex;align-items:center;justify-content:center;text-align:center;
+    aspect-ratio:var(--ratio,4/3);
+    border:2px dashed #99C9E6;border-radius:12px;background:#F4FBFF;
+    color:var(--date);font-size:13px;line-height:1.7;letter-spacing:.02em;
+  }
+  figure.shot figcaption{margin-top:8px;font-size:12.5px;line-height:1.6;color:var(--date);text-align:center;}
+
+  /* ヘッダーバナー未配置時のプレースホルダー（1000x380 の比率） */
+  figure.banner-box{margin:0;}
+  figure.banner-box.missing img{display:none;}
+  figure.banner-box.missing::before{
+    content:"ヘッダー画像を配置してください\A" attr(data-file);
+    white-space:pre;
+    display:flex;align-items:center;justify-content:center;text-align:center;
+    aspect-ratio:1000/380;
+    background:linear-gradient(180deg,#DCF1FF 0%,#F4FBFF 100%);
+    border-bottom:2px dashed #99C9E6;box-shadow:0 4px 6px rgba(0,0,0,.12);
+    color:var(--date);font-size:13px;line-height:1.7;letter-spacing:.02em;
+  }
+
+  /* 署名（右寄せ・控えめ） */
+  p.sign{margin:32px 0 0;text-align:right;font-size:14.5px;line-height:1.7;letter-spacing:.02em;}
+
+  /* 補足（※） */
+  p.note{font-size:12.5px;line-height:1.8;letter-spacing:.02em;margin:32px 0 0;color:var(--date);}
+  .steps+p.note{margin-top:-8px;}
+  p.note+p.note{margin-top:8px;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- ヘッダーバナー：自動再生改善・フレーズ対戦追加（header-bg.png + banner-title.py で合成） -->
+    <figure class="banner-box" data-file="assets/header.png">
+      <img class="banner" src="assets/header.png" alt="自動再生改善・フレーズ対戦追加" width="1000" height="380" onerror="this.parentNode.classList.add('missing')">
+    </figure>
+
+    <div class="content">
+
+      <h1 class="title">自動再生を改善し、<br>フレーズ帳から対戦を<br>プレイできるようになりました</h1>
+      <p class="date">2026/9/9 15:00</p>
+
+      <p class="lead">モチタン・モチスピを開発している神谷です。</p>
+
+      <p class="lead">v11.5.0 へのアップデートにより、モチタン・モチスピの自動再生が改善され、モチスピのフレーズ帳から対戦をプレイできるようになります。</p>
+
+      <h2 class="section">モチタン・モチスピ：自動再生を改善</h2>
+
+      <p class="lead">単語詳細/フレーズ詳細の自動再生において、以下の改善を行いました。</p>
+
+      <ul class="list">
+        <li>再生速度を0.5倍から3.0倍まで変更できるようになりました。</li>
+        <li>バックグラウンド再生に対応し、画面を閉じても移動中などにそのまま音声を聞くことができます。</li>
+      </ul>
+
+      <!-- 単語詳細の歯車アイコンで開く「自動再生」設定（Unity Device Simulator iPhone 12 のスクリーンショットを上部で切り出し） -->
+      <figure class="shot" data-file="assets/autoplay.png" style="--ratio:1170/1560">
+        <img src="assets/autoplay.png" alt="単語詳細の自動再生設定。再生速度（倍）を 0.5 から 3.0 まで選べる" width="1170" height="1560" onerror="this.parentNode.classList.add('missing')">
+      </figure>
+
+      <p class="steps">
+        <span class="steps__label">設定手順：</span>
+        <span class="steps__path">単語詳細 &gt; 歯車アイコン &gt; 再生速度（倍）</span>
+      </p>
+
+      <h2 class="section">モチスピ：フレーズ帳から対戦をプレイ</h2>
+
+      <p class="lead">モチスピのフレーズ帳から、対戦をプレイできるようになりました。</p>
+
+      <ul class="list">
+        <li>無料プランでは、フレーズ帳からの対戦、冒険が1日3回までプレイできます（単語帳での制限とは別枠です）。</li>
+        <li>モチタンのフレーズ帳詳細にある「モチスピでプレイ」から、モチスピに移動してプレイできます。</li>
+      </ul>
+
+      <!-- フレーズ帳詳細 > 対戦/冒険をプレイ > プレイ設定 で「対戦」を選んだ画面（同上） -->
+      <figure class="shot" data-file="assets/phrase-battle.png" style="--ratio:1170/1400">
+        <img src="assets/phrase-battle.png" alt="フレーズ帳のプレイ設定で対戦を選んだ画面" width="1170" height="1400" onerror="this.parentNode.classList.add('missing')">
+      </figure>
+
+      <p class="steps">
+        <span class="steps__label">操作手順：</span>
+        <span class="steps__path">フレーズ帳 &gt; フレーズ帳詳細 &gt; 対戦/冒険をプレイ &gt; プレイ設定 &gt; 対戦</span>
+      </p>
+      <p class="note">※「対戦」を選択した後に「スタート」を押します。</p>
+
+      <p class="lead">移動中や画面を閉じているときも学習を続けられる心地よさ、そして覚えた表現をすぐに対戦で使える楽しさにこだわって作りました。</p>
+
+      <p class="sign">開発者 神谷創</p>
+
+    </div>
+  </div>
+</body>
+</html>
