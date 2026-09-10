@@ -1,7 +1,7 @@
 ---
 number: 21
 title: 自動再生を改善し、フレーズ帳から対戦をプレイできるようになりました
-date: 2026/9/9 15:00
+date: 2026/9/10 12:00
 apps: [motitan, motispi]
 author: 神谷創
 banner: 自動再生改善・フレーズ対戦追加
