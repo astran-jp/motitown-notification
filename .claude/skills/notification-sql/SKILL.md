@@ -29,6 +29,7 @@ description: モチタウンお知らせの配信用SQLを作成し、pushして
 
 ユーザーが完成を確認してから:
 
+0. **push の前に差分を見せる**: `git add` 後に `git diff --cached -- {N}/ sql/deployed/{N}.sql` の変更行(HTML の CSS 等は要約でよい)を返信に貼り、意図した変更だけであることを確認してから push する。修正の再公開(日時変更など)でも同じ
 1. `git add {N}/ sql/deployed/{N}.sql` — `.DS_Store` は追加しない。`{N}/brief.md` `{N}/draft.md` も一緒に入れる(原稿の履歴として残す)
 2. コミットメッセージは過去の慣例に合わせ「`add {N}`」
 3. `git push origin main` — GitHub Actions が回り公開される(初回pushのユーザーは無視される設定あり)
@@ -59,3 +60,7 @@ GitHub Pages のデプロイには数十秒〜数分かかる。公開URLに新�
 ```
 
 `review.json` は `git add` して次の push に含める。投稿後、ユーザーには投稿へのリンクと「返信が来たら `/notification-review` で反映する」ことを伝える。
+
+## 6. お知らせ一覧には載せない(別タイミング)
+
+一覧(`index.html`)への追加は `/notification-list` で、ユーザーが指示したときに別途行う。このスキルでは `index.html` に触らない。報告の最後に「一覧への追加は別途 `/notification-list` で」と一言添える。

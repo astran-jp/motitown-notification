@@ -12,6 +12,8 @@
    - デプロイ完了を待って、Slack `#02-develop` に確認依頼を投稿(宛先・文面は `.claude/skills/notification-sql/slack.json`)
 5. 返信の反映 — `/notification-review`
    - Slack スレッドの返信を読んで原稿・HTMLを修正し、再公開してスレッドに報告
+6. お知らせ一覧の更新 — `/notification-list`(公開とは別タイミングで、指示されたときに実行)
+   - 直下の `index.html`(一覧)の先頭にカードを追加し、`assets/notice-{N}.webp` を置いて push
 
 スキルは `.claude/skills/` 配下。原稿の書き手の人格は `.claude/skills/notification-draft/persona.md`(Notion の履歴書の要約)。
 Gemini CLI(`npm i -g @google/gemini-cli`)と認証(`GEMINI_API_KEY` または `gemini` での Google ログイン)が必要。

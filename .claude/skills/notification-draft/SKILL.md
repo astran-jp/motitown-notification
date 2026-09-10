@@ -91,7 +91,7 @@ Claude が手で直したあとも、必ずもう一度 lint を通してから�
 
 `{N}/draft.md` の本文をそのまま返信に貼って確認をとる。修正要望は draft.md に反映する(人格・形式の点検を再度通す)。
 
-確定したら次の段階を案内する: 「/notification-page で HTML 化」。バナーは frontmatter の `banner` を元に Figma で作る。
+確定したら次の段階を案内する: 「/notification-page で HTML 化」。バナーは frontmatter の `banner` を元に作る(notification-page の 3 節)。`list_title` は後で `/notification-list` が一覧のカードに使う。
 
 ## ファイル
 

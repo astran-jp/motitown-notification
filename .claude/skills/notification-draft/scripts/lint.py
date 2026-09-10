@@ -102,7 +102,7 @@ def check_terms(lines, skip_prefixes=()):
         # frontmatter: 機械的な項目は見ない。title/banner は値だけ見る
         if re.match(r"^(number|date|apps|author):", raw):
             continue
-        m = re.match(r"^(title|banner):\s*(.*)$", raw)
+        m = re.match(r"^(title|banner|list_title):\s*(.*)$", raw)
         if m:
             raw = m.group(2)
         # 操作手順の行は各段が UI 用語に完全一致しなければならない

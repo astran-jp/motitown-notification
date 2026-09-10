@@ -43,6 +43,7 @@ description: Slack #02-develop に投稿したお知らせ確認依頼への返�
 
 ## 4. 再公開と報告
 
+0. push の前に `git diff -- {N}/` の変更行を返信に貼って見せる(意図した変更だけか確認してから push)
 1. `git add {N}/` → コミット「`{N}: <指摘の要約>`」→ `git push origin main`
 2. `.claude/skills/notification-sql/scripts/wait-deploy.sh {N}` でデプロイ完了を待つ(修正が反映されたことを title だけでなく、変更した文言で確認したい場合は `curl` で本文を grep する)
 3. 同じスレッドに返信する(`slack_send_message` に `thread_ts` = review.json の `ts`)。文面:
