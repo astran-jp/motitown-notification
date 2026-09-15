@@ -70,7 +70,7 @@ def sync_thumb(d, card):
         try:
             from PIL import Image
         except ImportError:
-            print(f"  注意: {d} のサムネイルは英語版から作り直すべきだが Pillow が無い(~/miniforge3/envs/py310_env/bin/python3 で実行する)")
+            print(f"  注意: {d} のサムネイルは英語版から作り直すべきだが Pillow が無い(pip install pillow した python3 で実行する)")
             return
         im = Image.open(os.path.join(en_dir, name)).convert("RGB")
         im = im.resize((900, int(im.height * 900 / im.width)), Image.LANCZOS)

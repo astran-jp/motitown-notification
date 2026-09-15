@@ -38,8 +38,8 @@ python3 scripts/en/extract.py {N}            # 旧お知らせは Notification/{
 
 ```sh
 mkdir -p en/{N}
-~/miniforge3/envs/py310_env/bin/python3 .claude/skills/notification-page/scripts/banner-title.py {N}/assets/header-bg.png "Pinch to Zoom" en/{N}/header.png   # Pillow が入っている python
-~/miniforge3/envs/py310_env/bin/python3 -c "from PIL import Image; im=Image.open('en/{N}/header.png').convert('RGB'); im=im.resize((900,int(im.height*900/im.width)),Image.LANCZOS); im.save('en/assets/notice-{N}.webp',quality=75)"   # 一覧サムネイル
+python3 .claude/skills/notification-page/scripts/banner-title.py {N}/assets/header-bg.png "Pinch to Zoom" en/{N}/header.png   # Pillow が要る(無ければ pip install pillow)
+python3 -c "from PIL import Image; im=Image.open('en/{N}/header.png').convert('RGB'); im=im.resize((900,int(im.height*900/im.width)),Image.LANCZOS); im.save('en/assets/notice-{N}.webp',quality=75)"   # 一覧サムネイル
 ```
 
 `en/{N}/header.png` を Read で確認する(文字がキャラクターに重なっていない、切れていない)。
