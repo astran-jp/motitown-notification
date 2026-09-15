@@ -19,21 +19,10 @@ description: モチタウンお知らせの配信用SQLを作成し、pushして
 
 直近の `sql/deployed/` のファイルをベースに、URL の番号だけを変えて作成する。全員配信のパターン:
 
-- `SET @url = 'https://motitown-notification.astran.jp/{N}' COLLATE utf8mb4_unicode_ci;` と `SET @url_en = 'https://motitown-notification.astran.jp/en/{N}' COLLATE utf8mb4_unicode_ci;`
+- `SET @url = 'https://motitown-notification.astran.jp/{N}' COLLATE utf8mb4_unicode_ci;`
 - 「削除されていない(`deleted_at IS NULL`)」かつ「BOTでない(`is_bot = FALSE`)」かつ「直近3ヶ月以内にログイン」のユーザーへ
-- `app` = `'motispi'` と `'motitan'` のそれぞれに `notices` へ INSERT
-- タイトルと URL は表示言語で出し分ける。母語はユーザーの現在コース(`users.course_id` → `courses.language_pair`。列名は BE の gorm 既定で、初回実行時に配信担当が確認する)から決まり、`en_*` なら英語:
-  ```sql
-  INSERT INTO `notices` (`user_id`, `title`, `url`, `app`, `created_at`, `updated_at`)
-  SELECT u.`id`,
-         IF(c.`language_pair` LIKE 'en\_%', 'Announcement', 'お知らせ'),
-         IF(c.`language_pair` LIKE 'en\_%', @url_en, @url),
-         'motitan', NOW(), NOW()
-  FROM `users` u LEFT JOIN `courses` c ON c.`id` = u.`course_id`
-  WHERE u.`deleted_at` IS NULL AND u.`is_bot` = FALSE
-  AND u.`last_logged_in_at` > DATE_SUB(NOW(), INTERVAL 3 MONTH);
-  ```
-  英語版 `en/{N}/index.html` が無いお知らせは `/notification-en` で先に作る(無いまま配信すると英語ユーザーに 404 を送る)
+- `app` = `'motispi'` と `'motitan'` のそれぞれに `notices` へ INSERT(タイトルは `'お知らせ'`)
+- 英語ユーザー向けの出し分けは SQL ではやらない。BE が閲覧時に表示言語で URL を `/en/{N}` に読み替え、タイトルを英語にする(仕様裁定 P-17)。そのため配信前に `/notification-en` で英語版を作っておく(英語版が無いお知らせには `build_list.py` が日本語ページへの転送を置くので 404 にはならない)
 
 `apps` が片方だけなら、その `app` の INSERT だけにする。対象を絞る場合も WHERE 句の基本3条件は維持し、条件を追加する形にする。
 
