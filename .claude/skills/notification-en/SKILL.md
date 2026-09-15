@@ -42,7 +42,16 @@ mkdir -p en/{N}
 ~/miniforge3/envs/py310_env/bin/python3 -c "from PIL import Image; im=Image.open('en/{N}/header.png').convert('RGB'); im=im.resize((900,int(im.height*900/im.width)),Image.LANCZOS); im.save('en/assets/notice-{N}.webp',quality=75)"   # 一覧サムネイル
 ```
 
-`en/{N}/header.png` を Read で確認する(文字がキャラクターに重なっていない、切れていない)。`header-bg.png` が無い古いお知らせは日本語バナーのまま(画像は差し替えない)。
+`en/{N}/header.png` を Read で確認する(文字がキャラクターに重なっていない、切れていない)。
+
+`header-bg.png` が無い(日本語の文字を焼き込んだ)バナーは、`/notification-page` 3 節と同じ手順で Codex に文字なし背景を作らせてから合成する。保存先だけ `en/{N}/assets/header-bg.png` にする(日本語版は触らない):
+
+```sh
+sed "s#{{N}}#en/{N}#; s/{{TITLE}}/New Courses/; s/{{SUMMARY}}/内容の要点/" .claude/skills/notification-page/scripts/banner-prompt.md \
+  | codex exec -s workspace-write -i 22/assets/header-bg.png -      # 1 枚 1.5 分ほど。複数枚は並列に走らせてよい
+```
+
+Codex が「model requires a newer version」で止まるときは `codex update`。旧お知らせ(`Notification/{N}`)のヘッダーはファイル名が `01-xxxx.webp` なので、合成の出力名をそれに合わせる。同じヘッダーを共用する記事(11 と 12、旧 1/4/5、旧 113/127)は同じファイルをコピーして置く。
 
 ## 3.5 画像の中の日本語
 
