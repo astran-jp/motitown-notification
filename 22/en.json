@@ -1,0 +1,106 @@
+{
+ "title": {
+  "ja": "【モチタン・モチスピ】2本指の操作で画面を拡大・縮小できるようになりました｜モチタウン",
+  "en": "Pinch to Zoom In and Out on Any Screen | Motitown"
+ },
+ "list_title": {
+  "ja": "画面を拡大・縮小できるようになりました",
+  "en": "You can now zoom in and out"
+ },
+ "banner": {
+  "ja": "画面の拡大縮小",
+  "en": "Pinch to Zoom"
+ },
+ "segments": [
+  {
+   "tag": "h1",
+   "ja": "2本指の操作で画面を<br>拡大・縮小できるようになりました",
+   "en": "You Can Now Pinch to Zoom<br>In and Out on Any Screen"
+  },
+  {
+   "tag": "p",
+   "ja": "モチタン・モチスピを開発している神谷です。",
+   "en": "Hi, this is Kamiya, the developer of Motitan and Motispi."
+  },
+  {
+   "tag": "p",
+   "ja": "v11.6.0 へのアップデートにより、画面を2本指で操作して、拡大や縮小ができるようになります。",
+   "en": "Starting with v11.6.0, you can zoom in and out on the screen using two fingers."
+  },
+  {
+   "tag": "h2",
+   "ja": "画面の拡大・縮小",
+   "en": "Zooming In and Out"
+  },
+  {
+   "tag": "p",
+   "ja": "画面を2本指で操作することで、表示を大きくしたり小さくしたりできます。",
+   "en": "Use two fingers on the screen to make things bigger or smaller."
+  },
+  {
+   "tag": "li",
+   "ja": "画面を2本指で広げる（ピンチアウト）と拡大、つまむ（ピンチイン）と縮小ができます。",
+   "en": "Spread two fingers apart (pinch out) to zoom in, and bring them together (pinch in) to zoom out."
+  },
+  {
+   "tag": "li",
+   "ja": "拡大できる倍率は、等倍から3倍までです。",
+   "en": "You can zoom from 1x up to 3x."
+  },
+  {
+   "tag": "li",
+   "ja": "拡大したまま指を離してもその大きさが保たれ、その状態のままタップやスクロールができます。",
+   "en": "The zoom level stays after you lift your fingers, so you can keep tapping and scrolling while zoomed in."
+  },
+  {
+   "tag": "li",
+   "ja": "拡大しているときに2本指を同じ間隔のまま動かすと、表示位置を動かせます。",
+   "en": "While zoomed in, move two fingers together to pan around the screen."
+  },
+  {
+   "tag": "li",
+   "ja": "別の画面に移動すると、等倍に戻ります。",
+   "en": "Moving to another screen resets the zoom to 1x."
+  },
+  {
+   "tag": "figcaption",
+   "ja": "等倍",
+   "en": "1x"
+  },
+  {
+   "tag": "figcaption",
+   "ja": "2本指で拡大",
+   "en": "Zoomed in with two fingers"
+  },
+  {
+   "tag": "p",
+   "ja": "※対戦プレイなど、一部の画面は対象外です。",
+   "en": "* Some screens, such as battles, do not support zooming."
+  },
+  {
+   "tag": "p",
+   "ja": "開発者 神谷創",
+   "en": "Sou Kamiya, Developer"
+  },
+  {
+   "tag": "attr:content",
+   "ja": "2本指の操作で画面を拡大・縮小できるようになりました",
+   "en": "You Can Now Pinch to Zoom In and Out on Any Screen"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "画面の拡大縮小",
+   "en": "Pinch to Zoom"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "等倍の画面。中国語の単語とピンインが小さく表示されている",
+   "en": "Screen at 1x. Chinese words and pinyin are shown small."
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "2本指で拡大した画面。ピンインが大きく読みやすい",
+   "en": "Screen zoomed in with two fingers. The pinyin is large and easy to read."
+  }
+ ]
+}

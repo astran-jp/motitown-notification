@@ -1,0 +1,77 @@
+{
+ "title": {
+  "ja": "新しく、4人の仲間が増えました！｜モチタウン",
+  "en": "Four New Friends Have Joined! | Motitown"
+ },
+ "list_title": {
+  "ja": "新しく、4人の仲間が増えました！",
+  "en": "Four new friends have joined!"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "4人の仲間が増えました！",
+   "en": "Four New Friends Have Joined!"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello! モチベアだよ！今日もモチタン頑張ってるね！",
+   "en": "Hello! It's Motibear! Great to see you studying with Motitan today!"
+  },
+  {
+   "tag": "p",
+   "ja": "モチタウンに新しく4人の仲間が増えたよ！",
+   "en": "Four new friends have joined Motitown!"
+  },
+  {
+   "tag": "p",
+   "ja": "簡単にみんなを紹介するね。",
+   "en": "Let me introduce them."
+  },
+  {
+   "tag": "p",
+   "ja": "<strong>みゆ</strong>",
+   "en": "<strong>Miyu</strong>"
+  },
+  {
+   "tag": "p",
+   "ja": "「努力は必ず報われる」がモットーの女子高生。英語を学んでグローバルに活躍することが夢。頼まれると断れない性格。",
+   "en": "A high school girl whose motto is \"Hard work always pays off.\" Her dream is to learn English and work around the world. She can never say no when someone asks for help."
+  },
+  {
+   "tag": "p",
+   "ja": "<strong>ジョニー</strong>",
+   "en": "<strong>Johnny</strong>"
+  },
+  {
+   "tag": "p",
+   "ja": "お調子者のゾンビの男の子。英語圏出身で日本語は勉強中。人を楽しませることが好きで、夢は世界的なエンターテイナー。",
+   "en": "A happy-go-lucky zombie boy. He's from an English-speaking country and is learning Japanese. He loves making people laugh and dreams of becoming a world-famous entertainer."
+  },
+  {
+   "tag": "p",
+   "ja": "<strong>ソラ</strong>",
+   "en": "<strong>Sora</strong>"
+  },
+  {
+   "tag": "p",
+   "ja": "地球に移住してきた宇宙人。好奇心が強く、地球の文化も勉強中。テレキネシスで物体を動かせる。こう見えて1000歳超え。",
+   "en": "An alien who moved to Earth. Endlessly curious and busy studying Earth culture. Can move objects with telekinesis. Believe it or not, over 1,000 years old."
+  },
+  {
+   "tag": "p",
+   "ja": "<strong>レックス</strong>",
+   "en": "<strong>Rex</strong>"
+  },
+  {
+   "tag": "p",
+   "ja": "山に住む屈強な恐竜。狩猟採集をしているが、AIやプログラミングにも精通している。モチベアの親友でもある。冷静沈着。",
+   "en": "A tough dinosaur who lives in the mountains. A hunter-gatherer who is also an expert in AI and programming. Motibear's best friend. Always calm and collected."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "新しく、4人の仲間が増えました！",
+   "en": "Four New Friends Have Joined!"
+  }
+ ]
+}

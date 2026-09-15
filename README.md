@@ -5,6 +5,7 @@
 2. デザイン — figma でバナー等を作る(`draft.md` の `banner` を元に)
 3. HTML作成 — `/notification-page`
    - `{N}/draft.md` を文言ソースに `{N}/index.html` を作り、アセットを配置して表示確認
+   - 英語版 — `/notification-en`: `{N}/en.json` に英訳を書き、`en/{N}/index.html`・英語バナー・英語一覧 `en/index.html` を生成(公開 URL は `/en/{N}/`、一覧は `/en/`)
 4. SQL作成・公開・確認依頼 — `/notification-sql`
    - `sql/deployed/{N}.sql` を作り、git push で公開(GitHub Pages)
    - 公開urlは https://motitown-notification.astran.jp/xx/
@@ -15,7 +16,7 @@
 6. お知らせ一覧の更新 — `/notification-list`(公開とは別タイミングで、指示されたときに実行)
    - 直下の `index.html`(一覧)の先頭にカードを追加し、`assets/notice-{N}.webp` を置いて push
 
-スキルは `.claude/skills/` 配下。原稿の書き手の人格は `.claude/skills/notification-draft/persona.md`(Notion の履歴書の要約)。
+スキルは `.claude/skills/` 配下。英語版の生成スクリプトは `scripts/en/`(extract.py → en.json → build.py / build_list.py)。原稿の書き手の人格は `.claude/skills/notification-draft/persona.md`(Notion の履歴書の要約)。
 Gemini CLI(`npm i -g @google/gemini-cli`)と認証(`GEMINI_API_KEY` または `gemini` での Google ログイン)が必要。
 
 # 旧 STUDIO サイト (motitan-notification.astran.jp) からの移植ページ
