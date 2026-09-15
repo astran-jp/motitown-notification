@@ -45,6 +45,35 @@ def write_fallbacks():
     return n
 
 
+def sync_thumb(d, card):
+    import hashlib
+    m = re.search(r'<img[^>]*src="([^"]+)"', card)
+    if not m:
+        return
+    thumb_path = os.path.join(ROOT, m.group(1))
+    if not os.path.isfile(thumb_path):
+        return
+    en_dir = os.path.join(ROOT, "en", d)
+    ja_assets = os.path.join(ROOT, d, "assets")
+    for name in os.listdir(en_dir) if os.path.isdir(en_dir) else []:
+        ja = os.path.join(ja_assets, name)
+        if name in ("index.html", "en.json") or not os.path.isfile(ja):
+            continue
+        if hashlib.md5(open(ja, "rb").read()).digest() != hashlib.md5(open(thumb_path, "rb").read()).digest():
+            continue
+        try:
+            from PIL import Image
+        except ImportError:
+            print(f"  注意: {d} のサムネイルは英語版から作り直すべきだが Pillow が無い(~/miniforge3/envs/py310_env/bin/python3 で実行する)")
+            return
+        im = Image.open(os.path.join(en_dir, name)).convert("RGB")
+        im = im.resize((900, int(im.height * 900 / im.width)), Image.LANCZOS)
+        os.makedirs(os.path.join(ROOT, "en", "assets"), exist_ok=True)
+        im.save(os.path.join(ROOT, "en", "assets", os.path.basename(thumb_path)), quality=75)
+        print(f"  サムネイル更新: en/assets/{os.path.basename(thumb_path)} ← en/{d}/{name}")
+        return
+
+
 def dir_of(href):
     m = re.match(re.escape(SITE) + r"/(\d+)/?$", href) or re.match(r"/(\d+)/?$", href)
     if m:
@@ -76,7 +105,8 @@ def main():
             return 1
         p = ps[1]
         card = card[: p.start(1)] + title + card[p.end(1) :]
-        # サムネイル
+        # サムネイル: 日本語版サムネイルが en/{dir}/ で差し替えた画像と同じ画像なら、英語版から作り直す
+        sync_thumb(d, card)
         def thumb(im):
             name = os.path.basename(im.group(1))
             local = os.path.isfile(os.path.join(ROOT, "en", "assets", name))

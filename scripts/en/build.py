@@ -59,7 +59,8 @@ def main():
     # 言語・フォント・URL
     out = out.replace('lang="ja"', 'lang="en"', 1)
     out = out.replace("family=Noto+Sans+JP", "family=Noto+Sans").replace('"Noto Sans JP"', '"Noto Sans"').replace("'Noto Sans JP'", "'Noto Sans'")
-    out = out.replace(f"{SITE}/{d}/", f"{SITE}/en/{d}/").replace(f"{SITE}/{d}\"", f"{SITE}/en/{d}\"")
+    # ページ自身の URL(og:url / canonical)だけ英語版に。アセットの絶対 URL は日本語版のまま
+    out = out.replace(f"{SITE}/{d}/\"", f"{SITE}/en/{d}/\"").replace(f"{SITE}/{d}\"", f"{SITE}/en/{d}\"")
 
     # アセットは日本語版ディレクトリを参照。en/{dir}/ にある同名ファイルは英語版として優先
     en_dir = os.path.join(ROOT, "en", d)
@@ -70,7 +71,7 @@ def main():
     for name in os.listdir(en_dir):
         if name in ("index.html", "en.json") or name.startswith("."):
             continue
-        out = out.replace(f"{rel}/assets/{name}", name)
+        out = out.replace(f"{rel}/assets/{name}", name).replace(f"{SITE}/{d}/assets/{name}", name)
 
     open(os.path.join(en_dir, "index.html"), "w", encoding="utf-8").write(out)
     body = re.sub(r"<!--.*?-->|<style.*?</style>|<script.*?</script>", "", out, flags=re.S)
