@@ -133,6 +133,8 @@ def main():
     out = out.replace("family=Noto+Sans+JP", "family=Noto+Sans").replace('"Noto Sans JP"', '"Noto Sans"').replace("'Noto Sans JP'", "'Noto Sans'")
     out = out.replace(f'href="{SITE}/"', f'href="{SITE}/en/"').replace(f'content="{SITE}/"', f'content="{SITE}/en/"')
     out = re.sub(r'((?:href|src)=")(?!https?:|/|#|data:|\.\./|assets/)', lambda m: m.group(1) + "../", out)
+    # CSS の背景画像も日本語版の assets/ を参照する(英語版サムネイルは en/assets/ にあるものだけ)
+    out = re.sub(r'(url\(["\']?)assets/', lambda m: m.group(1) + "../assets/", out)
     os.makedirs(os.path.join(ROOT, "en"), exist_ok=True)
     open(os.path.join(ROOT, "en", "index.html"), "w", encoding="utf-8").write(out)
     body = re.sub(r"<!--.*?-->|<style.*?</style>|<script.*?</script>", "", out, flags=re.S)
