@@ -55,11 +55,18 @@ def sync_thumb(d, card):
         return
     en_dir = os.path.join(ROOT, "en", d)
     ja_assets = os.path.join(ROOT, d, "assets")
-    for name in os.listdir(en_dir) if os.path.isdir(en_dir) else []:
+    names = os.listdir(en_dir) if os.path.isdir(en_dir) else []
+    # 番号付きお知らせのサムネイル notice-{N}.webp はヘッダー画像から作られているので、英語ヘッダーがあれば作り直す
+    if os.path.basename(thumb_path) == f"notice-{d}.webp":
+        names = [n for n in names if n.startswith("header.")] + [n for n in names if not n.startswith("header.")]
+        if names and names[0].startswith("header."):
+            names = names[:1]
+    for name in names:
         ja = os.path.join(ja_assets, name)
         if name in ("index.html", "en.json") or not os.path.isfile(ja):
             continue
-        if hashlib.md5(open(ja, "rb").read()).digest() != hashlib.md5(open(thumb_path, "rb").read()).digest():
+        same = hashlib.md5(open(ja, "rb").read()).digest() == hashlib.md5(open(thumb_path, "rb").read()).digest()
+        if not same and os.path.basename(thumb_path) != f"notice-{d}.webp":
             continue
         try:
             from PIL import Image
