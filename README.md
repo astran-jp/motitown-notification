@@ -5,7 +5,7 @@
 2. デザイン — figma でバナー等を作る(`draft.md` の `banner` を元に)
 3. HTML作成 — `/notification-page`
    - `{N}/draft.md` を文言ソースに `{N}/index.html` を作り、アセットを配置して表示確認
-   - 英語版 — `/notification-en`: `{N}/en.json` に英訳を書き、`en/{N}/index.html`・英語バナー・英語一覧 `en/index.html` を生成(公開 URL は `/en/{N}/`、一覧は `/en/`)
+   - 続けて英語版も作る(`/notification-page` の中で `/notification-en` の手順を実行): `{N}/en.json` に英訳、`en/{N}/index.html`・英語バナー・英語一覧 `en/index.html` を生成(公開 URL は `/en/{N}/`、一覧は `/en/`)。`/notification-sql` は英語版が無いと公開しない
 4. SQL作成・公開・確認依頼 — `/notification-sql`
    - `sql/deployed/{N}.sql` を作り、git push で公開(GitHub Pages)
    - 公開urlは https://motitown-notification.astran.jp/xx/

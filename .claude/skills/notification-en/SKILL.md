@@ -5,7 +5,7 @@ description: モチタウンお知らせの英語版を作る(ワークフロー
 
 # お知らせ英語版の作成
 
-日本語の `{N}/index.html` が完成した後に行う。英語版は同じ番号で `en/{N}/`(旧お知らせは `en/Notification/{N}/`)に置き、公開 URL は `https://motitown-notification.astran.jp/en/{N}/`、一覧は `https://motitown-notification.astran.jp/en/`。アプリは表示言語が英語のユーザーにこの URL を開く(配信 SQL は `/notification-sql` が言語で出し分ける)。
+日本語の `{N}/index.html` が完成した後に行う(通常は `/notification-page` の 7 節から続けて実行され、ユーザーが別に呼ぶ必要はない。旧お知らせの英語化や英語版だけの直しでは単独で使う)。英語版は同じ番号で `en/{N}/`(旧お知らせは `en/Notification/{N}/`)に置き、公開 URL は `https://motitown-notification.astran.jp/en/{N}/`、一覧は `https://motitown-notification.astran.jp/en/`。アプリは表示言語が英語のユーザーにこの URL を開く(配信 SQL は `/notification-sql` が言語で出し分ける)。
 
 ```
 原稿作成 → HTML作成 (/notification-page) → 英語版 (このスキル) → SQL作成・公開 (/notification-sql)

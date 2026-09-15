@@ -15,6 +15,10 @@ description: モチタウンお知らせの配信用SQLを作成し、pushして
 
 `{N}/draft.md` の frontmatter `apps` を既定値としてユーザーに確認する。draft.md が無い場合の既定は「モチタン・モチスピ両方の全員に配信」。
 
+## 1.5 英語版の確認
+
+`en/{N}/index.html` があり、中に `<!-- fallback: redirect to ja -->` が無いことを確認する。無ければ公開前に `/notification-en` の手順で英語版を作る(英語ユーザーには BE が `/en/{N}` を開くため、英語版なしで配信すると日本語ページへの転送になる)。
+
 ## 2. sql/deployed/{N}.sql の作成
 
 直近の `sql/deployed/` のファイルをベースに、URL の番号だけを変えて作成する。全員配信のパターン:
@@ -31,7 +35,7 @@ description: モチタウンお知らせの配信用SQLを作成し、pushして
 ユーザーが完成を確認してから:
 
 0. **push の前に差分を見せる**: `git add` 後に `git diff --cached -- {N}/ sql/deployed/{N}.sql` の変更行(HTML の CSS 等は要約でよい)を返信に貼り、意図した変更だけであることを確認してから push する。修正の再公開(日時変更など)でも同じ
-1. `git add {N}/ sql/deployed/{N}.sql` — `.DS_Store` は追加しない。`{N}/brief.md` `{N}/draft.md` も一緒に入れる(原稿の履歴として残す)
+1. `git add {N}/ sql/deployed/{N}.sql en/{N}/ en/index.html en/assets/notice-{N}.webp` — `.DS_Store` は追加しない。`{N}/brief.md` `{N}/draft.md` `{N}/en.json` も一緒に入れる(原稿と訳の履歴として残す)
 2. コミットメッセージは過去の慣例に合わせ「`add {N}`」
 3. `git push origin main` — GitHub Actions が回り公開される(初回pushのユーザーは無視される設定あり)
 4. 公開URL `https://motitown-notification.astran.jp/{N}/` を報告する。SQL の実行は配信担当が行うので、`sql/deployed/{N}.sql` のパスも併せて伝える
