@@ -89,3 +89,17 @@ python3 -m http.server 8931
   STUDIO からの移行にあたり、この定数を上記 URL に差し替える必要がある
 - `?app=` はアプリ（またはリクエストヘッダを見て BE）が付与する。付いていなくても
   モチタンの順序で表示されるだけで、ページは壊れない
+
+## 英語版（en/）
+
+`en/odd-months/` は奇数月ページの英語版（URL: `…/monthly-rewards/en/odd-months/?app=…`）。
+`shared/style.css` と画像は日本語版と共通（画像は `en/odd-months/images/` にコピー）。
+
+毎月の更新: 奇数月の index.html を更新したら、`en/odd-months/index.html` も同じキャラで更新する。
+キャラ名・説明文の英訳は motitan-api の `character_translations`（native=en）を使う
+（正本は app-localization `locales/en-US/drafts/character-translations-*.tsv`）。
+固定ラベルの英訳: モチタン限定=Motitan Exclusive／モチスピ限定=Motispi Exclusive／月間ミッション=Monthly Mission／
+カレンダーミッション=Calendar Mission／努力賞=Achiever Award／優秀賞=Excellence Award。
+
+偶数月（画像 1 枚）の英語版は画像対応仕様 IMG-27（毎月デザイン）。
+
