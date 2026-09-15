@@ -69,9 +69,17 @@ def main():
     out = re.sub(r"(url\(['\"]?)(?!https?:|/|#|data:)(?=[\w.])", lambda m: m.group(1) + rel + "/", out)
     os.makedirs(en_dir, exist_ok=True)
     for name in os.listdir(en_dir):
-        if name in ("index.html", "en.json") or name.startswith("."):
+        if name in ("index.html", "en.json") or name.startswith(".") or os.path.isdir(os.path.join(en_dir, name)):
             continue
         out = out.replace(f"{rel}/assets/{name}", name).replace(f"{SITE}/{d}/assets/{name}", name)
+        # 差し替え画像の寸法が日本語版と違えば <img> の width/height を実寸に合わせる(縦横比の崩れ防止)
+        try:
+            from PIL import Image
+            w, h = Image.open(os.path.join(en_dir, name)).size
+            out = re.sub(r'(<img[^>]*src="' + re.escape(name) + r'"[^>]*?)\swidth="\d+"\sheight="\d+"', lambda m: f'{m.group(1)} width="{w}" height="{h}"', out)
+            out = re.sub(r'(<img[^>]*?)\sheight="\d+"([^>]*src="' + re.escape(name) + r'"[^>]*?)\swidth="\d+"', lambda m: f'{m.group(1)} height="{h}"{m.group(2)} width="{w}"', out)
+        except ImportError:
+            pass
 
     open(os.path.join(en_dir, "index.html"), "w", encoding="utf-8").write(out)
     body = re.sub(r"<!--.*?-->|<style.*?</style>|<script.*?</script>", "", out, flags=re.S)
