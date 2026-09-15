@@ -44,14 +44,15 @@ mkdir -p en/{N}
 
 `en/{N}/header.png` を Read で確認する(文字がキャラクターに重なっていない、切れていない)。
 
-`header-bg.png` が無い(日本語の文字を焼き込んだ)バナーは、`/notification-page` 3 節と同じ手順で Codex に文字なし背景を作らせてから合成する。保存先だけ `en/{N}/assets/header-bg.png` にする(日本語版は触らない):
+`header-bg.png` が無い(日本語の文字を焼き込んだ)バナーは、**元画像を入力にして日本語の文字だけを消す編集**を Codex にさせ、空いた位置に英語タイトルを載せる。新規生成にすると元の絵と別物になるので使わない:
 
 ```sh
-sed "s#{{N}}#en/{N}#; s/{{TITLE}}/New Courses/; s/{{SUMMARY}}/内容の要点/" .claude/skills/notification-page/scripts/banner-prompt.md \
-  | codex exec -s workspace-write -i 22/assets/header-bg.png -      # 1 枚 1.5 分ほど。複数枚は並列に走らせてよい
+codex exec -s workspace-write -i {N}/assets/header.png - <<'PROMPT'
+添付画像から日本語の文字(縁取り・影・文字の背景の帯も)だけを消し、消した部分は周囲の絵柄で自然に埋めてください。キャラクター・構図・配色・画角は元画像と完全に同じに保ち、新しい要素や文字を足さないでください。元画像と同じ寸法の PNG で en/{N}/assets/header-bg.png に保存してください。
+PROMPT
 ```
 
-Codex が「model requires a newer version」で止まるときは `codex update`。旧お知らせ(`Notification/{N}`)のヘッダーはファイル名が `01-xxxx.webp` なので、合成の出力名をそれに合わせる。同じヘッダーを共用する記事(11 と 12、旧 1/4/5、旧 113/127)は同じファイルをコピーして置く。
+1 枚 1.5 分ほど。複数枚は並列に走らせてよい。Codex が「model requires a newer version」で止まるときは `codex update`。英語タイトルは文字があった位置に合成する(`banner-title.py` は上端固定なので、位置指定が要るときは同じスタイルで描く。中央寄せ・オレンジ #FF940F・白縁・水色ハロー)。旧お知らせ(`Notification/{N}`)のヘッダーはファイル名が `01-xxxx.webp` なので出力名を合わせる。同じヘッダーを共用する記事(11 と 12、旧 1/4/5、旧 113/127)は同じファイルをコピーして置く。
 
 ## 3.5 画像の中の日本語
 
