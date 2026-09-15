@@ -1,0 +1,217 @@
+{
+ "title": {
+  "ja": "52冊の英単語帳をWebで無料公開したよ！📚｜モチタウン",
+  "en": "52 Vocabulary Books, Free on the Web! 📚 | Motitown"
+ },
+ "list_title": {
+  "ja": "52冊の英単語帳をWebで無料公開したよ！📚",
+  "en": "52 Vocabulary Books, Free on the Web! 📚"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "52冊の英単語帳をWebで無料公開したよ！📚",
+   "en": "52 Vocabulary Books, Free on the Web! 📚"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello~！モチベアだよ！今日、ぼくが作った渾身の一撃、「モチタン英単語帳」を公開した。モチタン英単語帳は、ただの単語帳じゃないんだ。",
+   "en": "Hello! It's Motibear! Today I released something I poured my heart into: the \"Motitan Vocabulary Books\". They're not just ordinary vocabulary books."
+  },
+  {
+   "tag": "p",
+   "ja": "このモチタン英単語帳には、ぼくがこれまで教育にかけた思いが詰まっている。今日は、ぼくの教育にかける思いと、モチタン英単語帳の公開に至った経緯の話をさせて欲しい。",
+   "en": "These books hold everything I believe about education. Today, let me tell you about that belief and how the Motitan Vocabulary Books came to be."
+  },
+  {
+   "tag": "p",
+   "ja": "ぼくは、教育で創出される価値というのは、全人類が享受すべきだと思っている。",
+   "en": "I believe the value that education creates should be shared by all of humanity."
+  },
+  {
+   "tag": "p",
+   "ja": "教育があるからこそ、先人が生み出した知識を当たり前のものとして、新たな知識を生み出せる。",
+   "en": "Education is what lets us take the knowledge of those before us for granted and build new knowledge on top of it."
+  },
+  {
+   "tag": "p",
+   "ja": "だから、1人1人の「学びたい」という気持ちは非常に尊く、限りなく大切にされるべきものだと思う。",
+   "en": "That's why I think every single person's desire to learn is precious and deserves to be treasured without limit."
+  },
+  {
+   "tag": "p",
+   "ja": "論語にもこうあるよね。",
+   "en": "The Analects put it this way:"
+  },
+  {
+   "tag": "p",
+   "ja": "「同じ志を持つ友と、互いに刺激し合いながら学ぶことほど楽しいことはない。」",
+   "en": "\"Is it not a joy to learn together with friends who share your aspirations, inspiring one another?\""
+  },
+  {
+   "tag": "p",
+   "ja": "でも、実際は学びたいという気持ちだけでは学べないのが現状なんだ。教育には、地理的・金銭的な壁が確実に存在している。",
+   "en": "But in reality, wanting to learn isn't enough. Education comes with very real barriers of geography and money."
+  },
+  {
+   "tag": "p",
+   "ja": "お金がないと塾にいけない、通える範囲に良い学校がない、そもそもどう勉強すればいいのか、情報が手に入らない。同じ志を持つ仲間もなかなか見つからない。",
+   "en": "No money for cram school. No good school within reach. No idea how to study, and no way to find out. And it's hard to find friends who share your goals."
+  },
+  {
+   "tag": "p",
+   "ja": "「学びたい」という尊い気持ちが無下にされているんだ。",
+   "en": "That precious desire to learn is being left behind."
+  },
+  {
+   "tag": "p",
+   "ja": "ぼくは、この壁をイノベーションで打ち壊したい。どんな人でも、学びたいと思えば、常に仲間が見つかり、常に方法がわかる。そんな、最高の教育が受けられる世界にしたい。",
+   "en": "I want to break down these walls with innovation. A world where anyone who wants to learn can always find companions and always find a way. A world where everyone can get the best education there is."
+  },
+  {
+   "tag": "p",
+   "ja": "そこで、ぼくはまず、英単語分野で革命を起こすことにしたんだ。",
+   "en": "So I decided to start a revolution in the field of English vocabulary."
+  },
+  {
+   "tag": "p",
+   "ja": "これまで英単語は、単語帳を買って学ぶことが当たり前だった。でも、単語帳には明らかに限界がある。",
+   "en": "Until now, learning vocabulary meant buying a vocabulary book. But vocabulary books have clear limits."
+  },
+  {
+   "tag": "p",
+   "ja": "紙の単語帳は、きみがどの単語を覚えているか知らないし、世の中が変わり、覚えるべき単語が変わっても、同じ単語を相変わらずきみに見せ続ける。",
+   "en": "A paper book doesn't know which words you already know. And when the world changes and the words worth learning change, it keeps showing you the same old words."
+  },
+  {
+   "tag": "p",
+   "ja": "そして何より、紙と向き合う孤独な取り組みは、勉強がつまらないものだと誤解させてしまう。",
+   "en": "Worst of all, the lonely work of facing a page makes people believe that studying is boring."
+  },
+  {
+   "tag": "p",
+   "ja": "だから、ぼくは「モチタン」を作った。",
+   "en": "That's why I built Motitan."
+  },
+  {
+   "tag": "p",
+   "ja": "モチタンなら、きみの学習傾向を元に、今覚えるべき単語を出してくれる。時代に合わせて内容もアップデートされ続ける。",
+   "en": "Motitan shows you the words you should learn right now, based on how you learn. Its content keeps being updated with the times."
+  },
+  {
+   "tag": "p",
+   "ja": "そして何より、アプリ内の友達の存在が、学ぶことを楽しくする。友人と学び成長することは楽しい。",
+   "en": "And above all, having friends in the app makes learning fun. Learning and growing with friends is a joy."
+  },
+  {
+   "tag": "p",
+   "ja": "モチタンをリリースして1年、今では多くの人がモチタンの世界で楽しく勉強し、お互いに切磋琢磨している。",
+   "en": "One year after Motitan launched, many people now study happily in the world of Motitan, pushing each other to improve."
+  },
+  {
+   "tag": "p",
+   "ja": "これはとても嬉しいことで、やっぱり切磋琢磨は本質的に楽しいことなんだと、みんなにも逆に教えてもらった。",
+   "en": "That makes me really happy, and it taught me something in return: friendly rivalry is fun at its core."
+  },
+  {
+   "tag": "p",
+   "ja": "でも、実際にモチタンを使ってみると、モチタンよりも単語帳の方がいい面があることにも、気がついたんだ。",
+   "en": "But after actually using Motitan, I also noticed that a vocabulary book has some advantages over the app."
+  },
+  {
+   "tag": "p",
+   "ja": "１冊の単語帳をやり切る達成感、より多くの単語を一覧できること、「このページまでやった」という手触り感。",
+   "en": "The satisfaction of finishing a whole book. Seeing more words at a glance. The tangible feeling of \"I've done up to this page.\""
+  },
+  {
+   "tag": "p",
+   "ja": "どうすれば、この単語帳の良さも活かして、世の中に最高の学習体験を届けられるんだろう？",
+   "en": "How could we keep the strengths of a vocabulary book and deliver the best learning experience in the world?"
+  },
+  {
+   "tag": "p",
+   "ja": "その答えが、今日公開した「モチタン英単語帳」だ。モチタン英単語帳は、本当に「使える」記憶になるまで覚え込める、特別な単語帳だ。",
+   "en": "The answer is the \"Motitan Vocabulary Books\" released today. They're special books that help you learn words until they become memories you can truly use."
+  },
+  {
+   "tag": "p",
+   "ja": "ぼくは、モチタンに含まれる全ての単語データを、単語帳の形にまとめ直して、無料でWeb公開することに決めた。",
+   "en": "I decided to reorganize all the word data in Motitan into vocabulary books and publish them on the web, for free."
+  },
+  {
+   "tag": "p",
+   "ja": "しかも、これまでWeb上にあったフリーの単語リストとは全く異なるレベルで。",
+   "en": "And at a completely different level from the free word lists that have been on the web until now."
+  },
+  {
+   "tag": "p",
+   "ja": "一目見れば、これが普通の単語帳ではないことは気づくと思う。",
+   "en": "One look and you'll see these aren't ordinary vocabulary books."
+  },
+  {
+   "tag": "p",
+   "ja": "単語の意味や例文はもちろん、単語のイメージ画像、音声、発音記号、関連語、フレーズ、類義語との違い、英英の解説まで完備し、本当に「使える」記憶になるまで、単語を覚えられるようにまとめなおした。",
+   "en": "Beyond meanings and example sentences, each word comes with an image, audio, phonetic symbols, related words, phrases, differences from synonyms, and English-English explanations, all reorganized so you can learn words until they become memories you can truly use."
+  },
+  {
+   "tag": "p",
+   "ja": "もちろん時代の変化に応じて、内容もアップデートされ続けるので、常に最新版だ。",
+   "en": "Of course, the content keeps being updated as times change, so it's always the latest version."
+  },
+  {
+   "tag": "p",
+   "ja": "日本語や英語を隠しながら覚える機能も搭載した。",
+   "en": "There's also a feature to hide the Japanese or English while you memorize."
+  },
+  {
+   "tag": "p",
+   "ja": "どうしても紙の単語帳を持ち歩きたいという人のために、簡単にプリントアウトでき、ホッチキスでとめれば紙の単語帳にもできるように工夫もした。",
+   "en": "For those who really want to carry a paper book, we made them easy to print out and staple into a physical vocabulary book."
+  },
+  {
+   "tag": "p",
+   "ja": "しかも、それぞれの単語帳はモチタンのアプリにも入っているから、Web英単語帳で学んだ単語をモチタンのゲームで復習したり、苦手な単語をまとめたりもできるんだ。",
+   "en": "And since every book is also inside the Motitan app, you can review the words you learned on the web in Motitan's games or gather your weak words together."
+  },
+  {
+   "tag": "p",
+   "ja": "こんな単語帳を５２冊、今日、完全無料でWeb公開した。カバー範囲は、英検・TOEIC・大学受験・高校受験・IELTS・TOEFL・小学英語・英会話まで、広大だ。",
+   "en": "Today, 52 of these books went live on the web, completely free. They cover a huge range: EIKEN, TOEIC, university and high school entrance exams, IELTS, TOEFL, elementary English, and English conversation."
+  },
+  {
+   "tag": "p",
+   "ja": "英語を本気で学びたいという人は、ぜひ一度見てみてほしい。",
+   "en": "If you're serious about learning English, please take a look."
+  },
+  {
+   "tag": "p",
+   "ja": "そして、もしこれが良いと思ったら、きみの友達にも、この学習の機会を広めて欲しい。きっと友達と一緒に学ぶことで、きみ自身の学びもさらに楽しいものになると思う。",
+   "en": "And if you think they're good, share this learning opportunity with your friends. Learning alongside friends will surely make your own learning even more fun."
+  },
+  {
+   "tag": "p",
+   "ja": "ぼくはこれからも、「学びたい」という志を持つ全ての人々が、自分にあった学習法で、楽しく、効果的に学べるような世界を創り続けていく。",
+   "en": "I'll keep building a world where everyone with the aspiration to learn can do so happily and effectively, in the way that suits them."
+  },
+  {
+   "tag": "p",
+   "ja": "<a data-has-link=\"true\" href=\"https://x.com/moti_english/status/1940156205600854500\" rel=\"noopener\" target=\"_blank\">公式Xでも公開しているから見てみてね。</a>",
+   "en": "<a data-has-link=\"true\" href=\"https://x.com/moti_english/status/1940156205600854500\" rel=\"noopener\" target=\"_blank\">It's on our official X account too, so check it out.</a>"
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown."
+  },
+  {
+   "tag": "text",
+   "ja": "モチタン英単語帳へ📚 ＞",
+   "en": "Go to the Motitan Vocabulary Books 📚 ＞"
+  },
+  {
+   "tag": "attr:content",
+   "ja": "52冊の英単語帳をWebで無料公開したよ！📚",
+   "en": "52 Vocabulary Books, Free on the Web! 📚"
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "title": {
+  "ja": "モチベアのLINEスタンプがリニューアルされたよ！｜モチタウン",
+  "en": "Motibear's LINE Stickers Got a Makeover! | Motitown"
+ },
+ "list_title": {
+  "ja": "モチベアのLINEスタンプがリニューアルされたよ！",
+  "en": "Motibear's LINE Stickers Got a Makeover!"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "モチベアのLINEスタンプがリニューアルされたよ！",
+   "en": "Motibear's LINE Stickers Got a Makeover!"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello~！モチベアだよ！今日もモチタン頑張ってるね！",
+   "en": "Hello! It's Motibear! Great to see you studying with Motitan today!"
+  },
+  {
+   "tag": "p",
+   "ja": "ボクのLINEスタンプをリニューアルしたよ！",
+   "en": "My LINE stickers have been redesigned!"
+  },
+  {
+   "tag": "p",
+   "ja": "新しくなったスタンプを送ってモチタンを頑張る仲間とモチベーションを高め合おう！",
+   "en": "Send the new stickers to your fellow Motitan learners and keep each other motivated!"
+  },
+  {
+   "tag": "p",
+   "ja": "<a data-has-link=\"true\" href=\"https://store.line.me/stickershop/product/29115072/ja?utm_source=gnsh_stickerDetail\" rel=\"noopener\" target=\"_blank\">LINEスタンプはこちらから！</a>",
+   "en": "<a data-has-link=\"true\" href=\"https://store.line.me/stickershop/product/29115072/ja?utm_source=gnsh_stickerDetail\" rel=\"noopener\" target=\"_blank\">Get the LINE stickers here!</a>"
+  },
+  {
+   "tag": "attr:content",
+   "ja": "モチベアのLINEスタンプがリニューアルされたよ！",
+   "en": "Motibear's LINE Stickers Got a Makeover!"
+  }
+ ]
+}

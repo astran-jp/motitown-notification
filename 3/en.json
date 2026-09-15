@@ -1,0 +1,53 @@
+{
+ "title": {
+  "ja": "フレンド一覧の不具合を解消したよ！｜モチタン",
+  "en": "Fixed a Bug in the Friends List! | Motitown"
+ },
+ "segments": [
+  {
+   "tag": "h1",
+   "ja": "フレンド一覧の不具合を解消したよ！",
+   "en": "Fixed a Bug in the Friends List!"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello~！モチベアだよ！",
+   "en": "Hello! It's Motibear!"
+  },
+  {
+   "tag": "p",
+   "ja": "みんな連絡をくれてありがとう！",
+   "en": "Thanks to everyone who reported it!"
+  },
+  {
+   "tag": "p",
+   "ja": "モチタンで、マイページからフレンド一覧ページが正しく表示されない不具合を修正したよ！",
+   "en": "We fixed a bug in Motitan where the Friends list didn't display correctly from your Profile."
+  },
+  {
+   "tag": "p",
+   "ja": "もし気付いたことがあれば、いつでもモチタンアプリ内のフィードバックから連絡してね！",
+   "en": "If you notice anything else, let us know anytime through Feedback in the Motitan app!"
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "フレンド一覧の不具合を解消したよ！",
+   "en": "Fixed a Bug in the Friends List!"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "モチベア",
+   "en": "Motibear"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "お知らせの場所",
+   "en": "Where to find announcements"
+  }
+ ]
+}

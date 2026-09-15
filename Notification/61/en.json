@@ -1,0 +1,47 @@
+{
+ "title": {
+  "ja": "【高校モチタン杯】6/1開始！｜モチタウン",
+  "en": "[High School Motitan Cup] Starts June 1! | Motitown"
+ },
+ "list_title": {
+  "ja": "【高校モチタン杯】6/1開始！",
+  "en": "[High School Motitan Cup] Starts June 1!"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "高校モチタン杯が始まったよ！",
+   "en": "The High School Motitan Cup Has Begun!"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello~！モチベアだよ！今日もモチタンお疲れさま！",
+   "en": "Hello! It's Motibear! Nice work on Motitan today!"
+  },
+  {
+   "tag": "p",
+   "ja": "高校モチタン杯が毎月の開催になったよ！",
+   "en": "The High School Motitan Cup is now held every month!"
+  },
+  {
+   "tag": "p",
+   "ja": "報酬の内容も変わったから詳しくは下の詳細を確認してね！",
+   "en": "The rewards have changed too, so check the details below!"
+  },
+  {
+   "tag": "p",
+   "ja": "<a data-has-link=\"true\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSd7szXfE7undFypft5hrC6nmL-arCrWhrINnlR1yr8qBt8cLA/viewform\" rel=\"noopener\" target=\"_blank\">フィードバックフォーム</a>",
+   "en": "<a data-has-link=\"true\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSd7szXfE7undFypft5hrC6nmL-arCrWhrINnlR1yr8qBt8cLA/viewform\" rel=\"noopener\" target=\"_blank\">Feedback form</a>"
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "【高校モチタン杯】6/1開始！",
+   "en": "[High School Motitan Cup] Starts June 1!"
+  }
+ ]
+}

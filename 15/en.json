@@ -1,0 +1,92 @@
+{
+ "title": {
+  "ja": "【モチスピ】モチスピにジョニー先生が登場！/中国語・韓国語の読み方表示/ペアレンタルコントロール機能の追加｜モチタウン",
+  "en": "Johnny Joins Motispi as a Teacher! / Pinyin and Hangul Readings / Parental Controls Added | Motitown"
+ },
+ "list_title": {
+  "ja": "モチスピにジョニー先生が登場！",
+  "en": "Johnny joins Motispi as a teacher!"
+ },
+ "segments": [
+  {
+   "tag": "h1",
+   "ja": "モチスピにジョニー先生が登場！<br>/中国語・韓国語の読み方表示<br>/ペアレンタルコントロール機能の追加",
+   "en": "Johnny Joins Motispi as a Teacher!<br>/ Pinyin and Hangul Readings<br>/ Parental Controls Added"
+  },
+  {
+   "tag": "h2",
+   "ja": "モチスピにジョニー先生が登場！",
+   "en": "Johnny joins Motispi as a teacher!"
+  },
+  {
+   "tag": "p",
+   "ja": "ネイサン先生に続いて、ジョニー先生とも話せるようになったよ！",
+   "en": "After Nathan, you can now talk with Johnny too!"
+  },
+  {
+   "tag": "p",
+   "ja": "マイページ &gt; 学習設定 &gt; 先生を変更<br>\n      で切り替えてね！",
+   "en": "Profile &gt; Learning Settings &gt; Change Teacher<br>to switch!"
+  },
+  {
+   "tag": "h2",
+   "ja": "中国語・韓国語の読み方表示",
+   "en": "Chinese and Korean Readings"
+  },
+  {
+   "tag": "p",
+   "ja": "中国語・韓国語の読み方を追加したよ！",
+   "en": "We've added readings for Chinese and Korean!"
+  },
+  {
+   "tag": "p",
+   "ja": "※中国語の読み方(ピンイン)の表示方法<br>\n      マイページ &gt; 設定 &gt; 言語設定 &gt; 中国語<br>\n      を選んだ状態で<br>\n      マイページ &gt; 設定 &gt; 学習設定 &gt; ピンインを表示",
+   "en": "* To show Chinese readings (pinyin)<br>With Profile &gt; Settings &gt; Language Settings &gt; Chinese<br>selected, turn on<br>Profile &gt; Settings &gt; Learning Settings &gt; Show Pinyin"
+  },
+  {
+   "tag": "p",
+   "ja": "※韓国語の読み方の表示方法<br>\n      マイページ &gt; 設定 &gt; 言語設定 &gt; 韓国語<br>\n      を選んだ状態で<br>\n      マイページ &gt; 設定 &gt; 学習設定 &gt; ハングルの読み方を表示",
+   "en": "* To show Korean readings<br>With Profile &gt; Settings &gt; Language Settings &gt; Korean<br>selected, turn on<br>Profile &gt; Settings &gt; Learning Settings &gt; Show Hangul Readings"
+  },
+  {
+   "tag": "h2",
+   "ja": "ペアレンタルコントロール機能の追加",
+   "en": "Parental Controls Added"
+  },
+  {
+   "tag": "p",
+   "ja": "ファミリープランにペアレンタルコントロール機能を追加したよ！",
+   "en": "We've added parental controls to the Family Plan!"
+  },
+  {
+   "tag": "p",
+   "ja": "※ペアレンタルコントロールの設定方法<br>\n      マイページ &gt; 設定 &gt; ファミリープラン<br>\n      で「子供として管理」を押し、<br>\n      子供側デバイスで「承認」ボタンを押すと「管理設定」にボタンが変わり各種設定が可能となります。",
+   "en": "* To set up parental controls<br>Go to Profile &gt; Settings &gt; Family Plan<br>and tap \"Manage as Child\".<br>When the child taps \"Approve\" on their device, the button changes to \"Manage Settings\" and you can adjust each setting."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "モチスピにジョニー先生が登場！/中国語・韓国語の読み方表示/ペアレンタルコントロール機能の追加",
+   "en": "Johnny Joins Motispi as a Teacher! / Pinyin and Hangul Readings / Parental Controls Added"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "ジョニー先生 登場！ ほか2件",
+   "en": "Johnny joins as a teacher! Plus 2 more updates"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "ジョニー先生",
+   "en": "Johnny"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "学習設定画面。対戦モードで「対戦前に単語一覧を表示」と「ピンインを表示」をオンにできます。",
+   "en": "Learning Settings screen. In Battle Mode you can turn on \"Show word list before battle\" and \"Show Pinyin\"."
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "管理設定画面。子供の管理で「掲示板の閲覧」「掲示板の書き込み」「フレンドマッチ」を設定できます。",
+   "en": "Manage Settings screen. Under child management you can set \"View board\", \"Post on board\", and \"Friend Match\"."
+  }
+ ]
+}

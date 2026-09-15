@@ -1,0 +1,57 @@
+{
+ "title": {
+  "ja": "【モチタウン】いくつか不具合を解消したよ！｜モチタウン",
+  "en": "We Fixed a Few Bugs! | Motitown"
+ },
+ "list_title": {
+  "ja": "いくつか不具合を解消したよ！<br/>",
+  "en": "We fixed a few bugs!<br/>"
+ },
+ "segments": [
+  {
+   "tag": "h1",
+   "ja": "いくつか不具合を解消したよ！",
+   "en": "We Fixed a Few Bugs!"
+  },
+  {
+   "tag": "li",
+   "ja": "モチタンの対戦での音声再生の遅れを改善したよ。",
+   "en": "Reduced audio playback delay in Motitan battles."
+  },
+  {
+   "tag": "li",
+   "ja": "モチスピのネイサンとの無料トークの終了ボタンを押しやすくしたよ。",
+   "en": "Made the end button easier to tap in Motispi's free talk with Nathan."
+  },
+  {
+   "tag": "li",
+   "ja": "マイページからフレンド一覧ページが正しく表示されない不具合を修正したよ。",
+   "en": "Fixed a bug where the Friends list didn't display correctly from your Profile."
+  },
+  {
+   "tag": "p",
+   "ja": "モチタンは<a href=\"https://motitan.astran.jp/G3KkOx\">こちら</a>、モチスピは<a href=\"https://motitan.astran.jp/mh4QrP\">こちら</a>からアプリをアップデートしてね。",
+   "en": "Update Motitan <a href=\"https://motitan.astran.jp/G3KkOx\">here</a> and Motispi <a href=\"https://motitan.astran.jp/mh4QrP\">here</a>."
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "いくつか不具合を解消したよ！",
+   "en": "We Fixed a Few Bugs!"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "どろんこのモチベア",
+   "en": "Motibear covered in mud"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "モチタウンのホーム画面。右上のお知らせボタンから過去の配信を確認できます。",
+   "en": "Motitown home screen. You can check past announcements from the button at the top right."
+  }
+ ]
+}

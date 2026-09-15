@@ -1,0 +1,42 @@
+{
+ "title": {
+  "ja": "強制ログアウトされる障害について｜モチタウン",
+  "en": "About the Forced Logout Issue | Motitown"
+ },
+ "list_title": {
+  "ja": "強制ログアウトされる障害について<br/><br/>",
+  "en": "About the Forced Logout Issue<br/><br/>"
+ },
+ "segments": [
+  {
+   "tag": "p",
+   "ja": "強制ログアウトされる障害について",
+   "en": "About the Forced Logout Issue"
+  },
+  {
+   "tag": "p",
+   "ja": "ごめんなさい、ログインできなくなる障害が一部の端末で発生しているんだ、、、",
+   "en": "Sorry, some devices are hitting an issue that prevents logging in..."
+  },
+  {
+   "tag": "p",
+   "ja": "強制ログアウトした人は、v7.1.1（審査中）でアプデしたらアカウント復旧されるよ",
+   "en": "If you were logged out, updating to v7.1.1 (currently in review) will restore your account"
+  },
+  {
+   "tag": "p",
+   "ja": "16日の連続記録と金葉っぱは、途切れないように補填しておくね",
+   "en": "We'll credit your streak and Gold Leaf for the 16th so they don't break"
+  },
+  {
+   "tag": "p",
+   "ja": "修正版v7.1.1はアプリストアに審査提出中、、、通ったらすぐアップデートするね、、、！",
+   "en": "The fix, v7.1.1, has been submitted to the app stores for review... we'll release it the moment it's approved...!"
+  },
+  {
+   "tag": "attr:content",
+   "ja": "強制ログアウトされる障害について",
+   "en": "About the Forced Logout Issue"
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "title": {
+  "ja": "【モチスピ】アンケート・インタビューのご協力のお願い｜モチタン",
+  "en": "[Motispi] Please Help Us with a Survey and Interviews | Motitown"
+ },
+ "list_title": {
+  "ja": "【モチスピ】アンケート・インタビューのお願い<br/><br/>",
+  "en": "[Motispi] Survey and interview request<br/><br/>"
+ },
+ "segments": [
+  {
+   "tag": "h1",
+   "ja": "【モチスピ】アンケート・インタビューのご協力のお願い",
+   "en": "[Motispi] Please Help Us with a Survey and Interviews"
+  },
+  {
+   "tag": "p",
+   "ja": "モチスピを、もっと楽しく学習できるアプリにするため、あなたの声をぜひ聞かせてください！",
+   "en": "To make Motispi an even more enjoyable way to learn, we'd love to hear from you!"
+  },
+  {
+   "tag": "h2",
+   "ja": "【アンケート】",
+   "en": "[Survey]"
+  },
+  {
+   "tag": "li",
+   "ja": "所要時間：10分程度",
+   "en": "Takes about 10 minutes"
+  },
+  {
+   "tag": "li",
+   "ja": "「アンケートに協力する＞」ボタンをタップ",
+   "en": "Tap the \"Take the survey &gt;\" button"
+  },
+  {
+   "tag": "li",
+   "ja": "アンケートに回答",
+   "en": "Answer the questions"
+  },
+  {
+   "tag": "p",
+   "ja": "※回答できる回数は1人1回までとなります。<br>※回答期限：6/14（日）まで",
+   "en": "* One response per person.<br>* Deadline: Sunday, June 14"
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown."
+  },
+  {
+   "tag": "text",
+   "ja": "アンケートに協力する ＞",
+   "en": "Take the survey ＞"
+  },
+  {
+   "tag": "attr:content",
+   "ja": "【モチスピ】アンケート・インタビューのご協力のお願い",
+   "en": "[Motispi] Please Help Us with a Survey and Interviews"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "圧倒的感謝…っ！",
+   "en": "Thank you so much!"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "お知らせの場所",
+   "en": "Where to find announcements"
+  }
+ ]
+}

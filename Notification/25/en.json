@@ -1,0 +1,92 @@
+{
+ "title": {
+  "ja": "連続記録チャレンジがはじまったよ！｜モチタウン",
+  "en": "The Streak Challenge Has Begun! | Motitown"
+ },
+ "list_title": {
+  "ja": "連続記録チャレンジがはじまったよ！",
+  "en": "The Streak Challenge Has Begun!"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "連続記録チャレンジがはじまったよ！",
+   "en": "The Streak Challenge Has Begun!"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello~！モチベアだよ！今日もモチタン頑張っててえらい！",
+   "en": "Hello! It's Motibear! Way to go studying with Motitan today!"
+  },
+  {
+   "tag": "p",
+   "ja": "新しい限定キャラクターをゲットするチャンス✨連続記録チャレンジがはじまったよ！",
+   "en": "Your chance to get new limited characters ✨ The Streak Challenge has begun!"
+  },
+  {
+   "tag": "p",
+   "ja": "特定の連続記録に到達すると、キャラクターがもらえるガチャを引けるよ！",
+   "en": "Reach certain streak milestones and you can spin a gacha that gives you a character!"
+  },
+  {
+   "tag": "p",
+   "ja": "新しいキャラクターが増えたよ！",
+   "en": "New characters have been added!"
+  },
+  {
+   "tag": "p",
+   "ja": "【ガチャを引けるチャンスの日】",
+   "en": "[Days you can spin the gacha]"
+  },
+  {
+   "tag": "p",
+   "ja": "・1,2,5,10,15,20,25日目",
+   "en": "• Days 1, 2, 5, 10, 15, 20, and 25"
+  },
+  {
+   "tag": "p",
+   "ja": "・その後は5の倍数の日（※50の倍数を除く）",
+   "en": "• After that, every 5th day (excluding multiples of 50)"
+  },
+  {
+   "tag": "p",
+   "ja": "連続記録チャレンジは、左上の葉っぱマークから確認できるよ！",
+   "en": "You can check the Streak Challenge from the leaf icon at the top left!"
+  },
+  {
+   "tag": "p",
+   "ja": "連続記録が途切れてしまった場合も安心！",
+   "en": "Broke your streak? No worries!"
+  },
+  {
+   "tag": "p",
+   "ja": "2日間まではコインで連続記録を回復できるよ。",
+   "en": "You can restore up to 2 days of your streak with coins."
+  },
+  {
+   "tag": "p",
+   "ja": "・1日回復：5,000コイン",
+   "en": "• Restore 1 day: 5,000 coins"
+  },
+  {
+   "tag": "p",
+   "ja": "・2日回復：10,000コイン",
+   "en": "• Restore 2 days: 10,000 coins"
+  },
+  {
+   "tag": "p",
+   "ja": "連続記録を伸ばして、限定キャラクターをコンプリートしよう！！",
+   "en": "Keep your streak going and collect all the limited characters!"
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "連続記録チャレンジがはじまったよ！",
+   "en": "The Streak Challenge Has Begun!"
+  }
+ ]
+}

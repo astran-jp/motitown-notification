@@ -1,0 +1,142 @@
+{
+ "title": {
+  "ja": "ランキングがリーグ制になったよ！🔥｜モチタウン",
+  "en": "Rankings Are Now League-Based! 🔥 | Motitown"
+ },
+ "list_title": {
+  "ja": "ランキングがリーグ制になったよ！🔥",
+  "en": "Rankings Are Now League-Based! 🔥"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "ランキングがリーグ制になったよ！🔥",
+   "en": "Rankings Are Now League-Based! 🔥"
+  },
+  {
+   "tag": "p",
+   "ja": "ランキングがリニューアル！✨",
+   "en": "The rankings have been renewed! ✨"
+  },
+  {
+   "tag": "p",
+   "ja": "キミと同じ学習目的・レベルの皆と競い合えて、もっとランキングが白熱するよ！🔥",
+   "en": "Compete with people who share your learning goal and level, and the rankings get even hotter! 🔥"
+  },
+  {
+   "tag": "p",
+   "ja": "新リーグで一緒に上位を目指してがんばろうね！",
+   "en": "Let's aim for the top together in the new leagues!"
+  },
+  {
+   "tag": "p",
+   "ja": "<strong>新リーグランキング　3つの注目ポイント</strong>",
+   "en": "<strong>New league rankings: 3 things to know</strong>"
+  },
+  {
+   "tag": "p",
+   "ja": "①毎月１日に選んでいるコースの単語力に応じてリーグ分けされるんだ！",
+   "en": "1. On the 1st of each month, you're placed in a league based on your vocabulary level in your selected course!"
+  },
+  {
+   "tag": "p",
+   "ja": "細かいリーグ区分は、下の詳細を確認してね",
+   "en": "See the details below for the exact league breakdown"
+  },
+  {
+   "tag": "p",
+   "ja": "②リーグの月間ランキング上位に入ると、限定キャラやコインがもらえる！🎁",
+   "en": "2. Finish near the top of your league's monthly ranking to earn limited characters and coins! 🎁"
+  },
+  {
+   "tag": "p",
+   "ja": "③自分のリーグや順位は、ランキング画面でチェックできるよ！",
+   "en": "3. Check your league and rank on the Ranking screen!"
+  },
+  {
+   "tag": "p",
+   "ja": "<strong>未参加の時はどうしたらいい？</strong>",
+   "en": "<strong>What if I haven't joined yet?</strong>"
+  },
+  {
+   "tag": "p",
+   "ja": "①ホームのランキングにある参加ボタンをタップするとポップアップが表示されるよ！",
+   "en": "1. Tap the Join button in the Home ranking and a popup appears!"
+  },
+  {
+   "tag": "p",
+   "ja": "②2つの方法で参加しよう！",
+   "en": "2. Join in one of two ways!"
+  },
+  {
+   "tag": "p",
+   "ja": "選んでいるコースの単語力テストを受けると、ピッタリのリーグに入れる！",
+   "en": "Take the vocabulary test for your selected course and get placed in the league that fits you!"
+  },
+  {
+   "tag": "p",
+   "ja": "今の単語力でリーグに参加することもできる！",
+   "en": "Or join a league at your current vocabulary level!"
+  },
+  {
+   "tag": "p",
+   "ja": "<strong>リーグ分け詳細</strong>",
+   "en": "<strong>League breakdown</strong>"
+  },
+  {
+   "tag": "p",
+   "ja": "リーグは各コースのレベル区分で分けているよ！",
+   "en": "Leagues are divided by the level tiers of each course!"
+  },
+  {
+   "tag": "p",
+   "ja": "中学コース",
+   "en": "Junior High Course"
+  },
+  {
+   "tag": "p",
+   "ja": "高校コース",
+   "en": "High School Course"
+  },
+  {
+   "tag": "p",
+   "ja": "TOEICコース",
+   "en": "TOEIC Course"
+  },
+  {
+   "tag": "p",
+   "ja": "英検コース",
+   "en": "EIKEN Course"
+  },
+  {
+   "tag": "p",
+   "ja": "- Legend<br/>　- 1級 Lv 101-164<br/>　- 1級 Lv 51-100<br/>　- 1級 Lv 1-50<br/>　- 準1級 Lv 101-160<br/>　- 準1級 Lv 51-100<br/>　- 準1級 Lv 1-50<br/>　- 2級 Lv 26-50<br/>　- 2級 Lv 1-25<br/>　- 2級 Lv 51-74<br/>　- 準2級 Lv 61-83<br/>　- 準2級 Lv 31-60<br/>　- 準2級 Lv 1-30<br/>　- 3級 Lv 31-59<br/>　- 3級 Lv 1-30<br/>　- 4級 Lv 1-31<br/>　- 5級 Lv 1-46",
+   "en": "- Legend<br/>&nbsp;&nbsp;- Grade 1 Lv 101-164<br/>&nbsp;&nbsp;- Grade 1 Lv 51-100<br/>&nbsp;&nbsp;- Grade 1 Lv 1-50<br/>&nbsp;&nbsp;- Grade Pre-1 Lv 101-160<br/>&nbsp;&nbsp;- Grade Pre-1 Lv 51-100<br/>&nbsp;&nbsp;- Grade Pre-1 Lv 1-50<br/>&nbsp;&nbsp;- Grade 2 Lv 26-50<br/>&nbsp;&nbsp;- Grade 2 Lv 1-25<br/>&nbsp;&nbsp;- Grade 2 Lv 51-74<br/>&nbsp;&nbsp;- Grade Pre-2 Lv 61-83<br/>&nbsp;&nbsp;- Grade Pre-2 Lv 31-60<br/>&nbsp;&nbsp;- Grade Pre-2 Lv 1-30<br/>&nbsp;&nbsp;- Grade 3 Lv 31-59<br/>&nbsp;&nbsp;- Grade 3 Lv 1-30<br/>&nbsp;&nbsp;- Grade 4 Lv 1-31<br/>&nbsp;&nbsp;- Grade 5 Lv 1-46"
+  },
+  {
+   "tag": "p",
+   "ja": "英会話向上コース",
+   "en": "English Conversation Skills Course"
+  },
+  {
+   "tag": "p",
+   "ja": "- Legend<br/>　- 準ネイティブ Lv 101-164<br/>　- 準ネイティブ Lv 51-100<br/>　- 準ネイティブ Lv 1-50<br/>　- 準日常会話 Lv 61-83<br/>　- 準日常会話 Lv 31-60<br/>　- 準日常会話 Lv 1-30<br/>　- 上級会話 Lv 101-160<br/>　- 上級会話 Lv 51-100<br/>　- 上級会話 Lv 1-50<br/>　- 日常会話 Lv 51-74<br/>　- 日常会話 Lv 26-50<br/>　- 日常会話 Lv 1-25<br/>　- 簡単な会話 Lv 31-59<br/>　- 簡単な会話 Lv 1-30<br/>　- 初歩的な会話 Lv 1-31<br/>　- 超初歩的な会話 Lv 1-46",
+   "en": "- Legend<br/>&nbsp;&nbsp;- Near-native Lv 101-164<br/>&nbsp;&nbsp;- Near-native Lv 51-100<br/>&nbsp;&nbsp;- Near-native Lv 1-50<br/>&nbsp;&nbsp;- Near-everyday conversation Lv 61-83<br/>&nbsp;&nbsp;- Near-everyday conversation Lv 31-60<br/>&nbsp;&nbsp;- Near-everyday conversation Lv 1-30<br/>&nbsp;&nbsp;- Advanced conversation Lv 101-160<br/>&nbsp;&nbsp;- Advanced conversation Lv 51-100<br/>&nbsp;&nbsp;- Advanced conversation Lv 1-50<br/>&nbsp;&nbsp;- Everyday conversation Lv 51-74<br/>&nbsp;&nbsp;- Everyday conversation Lv 26-50<br/>&nbsp;&nbsp;- Everyday conversation Lv 1-25<br/>&nbsp;&nbsp;- Simple conversation Lv 31-59<br/>&nbsp;&nbsp;- Simple conversation Lv 1-30<br/>&nbsp;&nbsp;- Basic conversation Lv 1-31<br/>&nbsp;&nbsp;- Very basic conversation Lv 1-46"
+  },
+  {
+   "tag": "p",
+   "ja": "※リーグ開催中にコース変更を行ったり、単語力がアップした場合も、所属リーグは変更されません。",
+   "en": "* Your league won't change even if you switch courses or your vocabulary level goes up while a league is in progress."
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "ランキングがリーグ制になったよ！🔥",
+   "en": "Rankings Are Now League-Based! 🔥"
+  }
+ ]
+}

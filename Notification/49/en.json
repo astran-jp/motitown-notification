@@ -1,0 +1,102 @@
+{
+ "title": {
+  "ja": "【単語帳機能アップデート✨】単語帳が増えてもっと便利になったよ！｜モチタウン",
+  "en": "[Wordbook Update ✨] More Wordbooks, More Convenience! | Motitown"
+ },
+ "list_title": {
+  "ja": "【単語帳機能アップデート✨】単語帳が増えてもっと便利になったよ！",
+  "en": "[Wordbook Update ✨] More Wordbooks, More Convenience!"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "【単語帳機能アップデート✨】単語帳が増えてもっと便利になったよ！",
+   "en": "[Wordbook Update ✨] More Wordbooks, More Convenience!"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello~！モチベアだよ！毎日コツコツ頑張っててすごいね！",
+   "en": "Hello! It's Motibear! Amazing that you keep at it every day!"
+  },
+  {
+   "tag": "p",
+   "ja": "モチタンの単語帳機能がパワーアップしたんだ！",
+   "en": "Motitan's wordbook feature just got a power-up!"
+  },
+  {
+   "tag": "h3",
+   "ja": "【単語帳機能のパワーアップポイント5選】",
+   "en": "[5 wordbook power-ups]"
+  },
+  {
+   "tag": "p",
+   "ja": "①<strong>モチタンAIのオススメ</strong>が登場！<br/>②<strong>モチベアの単語帳</strong>がいっぱい！<br/>③<strong>コース別の単語帳</strong>でしっかり復習！<br/>④<strong>お気に入り機能</strong>が新登場！<br/>⑤<strong>複製機能</strong>が新搭載！",
+   "en": "1. <strong>Motitan AI Picks</strong> are here!<br/>2. Lots of <strong>Motibear's Wordbooks</strong>!<br/>3. Solid review with <strong>course wordbooks</strong>!<br/>4. New <strong>Favorites</strong> feature!<br/>5. New <strong>Duplicate</strong> feature!"
+  },
+  {
+   "tag": "p",
+   "ja": "①<strong>モチタンAIのオススメ</strong>が登場！",
+   "en": "1. <strong>Motitan AI Picks</strong> are here!"
+  },
+  {
+   "tag": "p",
+   "ja": "AIが学習履歴を分析し、記憶度に応じて単語帳が生成されるよ。<br/>記憶度別に集中して取り組める！",
+   "en": "AI analyzes your learning history and generates wordbooks based on mastery.<br/>Focus on one mastery level at a time!"
+  },
+  {
+   "tag": "p",
+   "ja": "②<strong>モチベアの単語帳</strong>がいっぱい！",
+   "en": "2. Lots of <strong>Motibear's Wordbooks</strong>!"
+  },
+  {
+   "tag": "p",
+   "ja": "ボクが厳選した「東大頻出英単語」や「日常会話でよく使う英単語」、「ビジネス英単語」など、コース・シーン別に豊富なラインナップを揃えたよ！",
+   "en": "I've hand-picked a rich lineup by course and situation, like \"Frequent Words for University of Tokyo Exams\", \"Everyday Conversation Words\", and \"Business English Words\"!"
+  },
+  {
+   "tag": "p",
+   "ja": "③<strong>コース別の単語帳</strong>でしっかり復習！",
+   "en": "3. Solid review with <strong>course wordbooks</strong>!"
+  },
+  {
+   "tag": "p",
+   "ja": "選択中のコースの単語をレベル別にまとめてチェックできるよ！",
+   "en": "Check the words of your current course, grouped by level!"
+  },
+  {
+   "tag": "p",
+   "ja": "④<strong>お気に入り機能</strong>が新搭載！",
+   "en": "4. New <strong>Favorites</strong> feature!"
+  },
+  {
+   "tag": "p",
+   "ja": "単語帳上部のしおりマークをタップして、お気に入りに追加しよう！",
+   "en": "Tap the bookmark icon at the top of a wordbook to add it to your favorites!"
+  },
+  {
+   "tag": "p",
+   "ja": "⑤<strong>単語帳の複製機能</strong>が新搭載！",
+   "en": "5. New <strong>Duplicate</strong> feature!"
+  },
+  {
+   "tag": "p",
+   "ja": "単語帳上部の・・・マークから、単語帳をMy単語帳に複製できるよ。<br/>複製後は、単語の追加・削除など自由にカスタマイズ可能！",
+   "en": "From the ⋯ icon at the top of a wordbook, you can copy it into your My Wordbooks.<br/>After copying, customize it freely by adding or removing words!"
+  },
+  {
+   "tag": "p",
+   "ja": "自分の目的に合った単語帳をフル活用して、着実に英単語力を伸ばそう！！",
+   "en": "Make full use of wordbooks that fit your goals and build your vocabulary steadily!"
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "【単語帳機能アップデート✨】単語帳が増えてもっと便利になったよ！",
+   "en": "[Wordbook Update ✨] More Wordbooks, More Convenience!"
+  }
+ ]
+}

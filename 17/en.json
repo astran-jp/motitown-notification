@@ -1,0 +1,33 @@
+{
+ "title": {
+  "ja": "【モチタン】現在、対戦モードで、対戦相手が見つかりづらくなっています｜モチタウン",
+  "en": "Battle Mode Is Currently Having Trouble Finding Opponents | Motitown"
+ },
+ "segments": [
+  {
+   "tag": "h1",
+   "ja": "現在、対戦モードで、対戦相手が見つかりづらくなっています",
+   "en": "Battle Mode Is Currently Having Trouble Finding Opponents"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello~！モチベアだよ！<br>\n      みんなモチタンを使ってくれてありがとう！",
+   "en": "Hello! It's Motibear!<br>Thanks for playing Motitan, everyone!"
+  },
+  {
+   "tag": "p",
+   "ja": "現在、対戦モードで、相手が見つかりづらくなっているよ。修正中で、1時間以内に復旧予定だよ。",
+   "en": "Right now, Battle Mode is having trouble finding opponents. We're working on a fix and expect it to be back within an hour."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "現在、対戦モードで、対戦相手が見つかりづらくなっています",
+   "en": "Battle Mode Is Currently Having Trouble Finding Opponents"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "地面に倒れ込むモチベア",
+   "en": "Motibear collapsed on the ground"
+  }
+ ]
+}

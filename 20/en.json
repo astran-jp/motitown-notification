@@ -1,0 +1,202 @@
+{
+ "title": {
+  "ja": "【モチタウン】モチタン・モチスピにコースを追加しました｜モチタウン",
+  "en": "New Courses Added to Motitan and Motispi | Motitown"
+ },
+ "list_title": {
+  "ja": "モチタン・モチスピに新コース追加！",
+  "en": "New courses in Motitan and Motispi!"
+ },
+ "segments": [
+  {
+   "tag": "h1",
+   "ja": "モチタン・モチスピに<br>コースを追加しました",
+   "en": "New Courses Added to<br>Motitan and Motispi"
+  },
+  {
+   "tag": "p",
+   "ja": "モチタン・モチスピにコースを追加しました。<br>\n      アプリ更新後、ヘッダー/マイページのコース変更から選べるよ！",
+   "en": "We've added new courses to Motitan and Motispi.<br>After updating the app, pick one from Change Course in the header or your Profile!"
+  },
+  {
+   "tag": "h2",
+   "ja": "モチタン",
+   "en": "Motitan"
+  },
+  {
+   "tag": "p",
+   "ja": "英語",
+   "en": "English"
+  },
+  {
+   "tag": "li",
+   "ja": "キッズ",
+   "en": "Kids"
+  },
+  {
+   "tag": "p",
+   "ja": "中国語",
+   "en": "Chinese"
+  },
+  {
+   "tag": "li",
+   "ja": "キッズ",
+   "en": "Kids"
+  },
+  {
+   "tag": "p",
+   "ja": "韓国語",
+   "en": "Korean"
+  },
+  {
+   "tag": "li",
+   "ja": "キッズ",
+   "en": "Kids"
+  },
+  {
+   "tag": "p",
+   "ja": "フランス語",
+   "en": "French"
+  },
+  {
+   "tag": "li",
+   "ja": "キッズ",
+   "en": "Kids"
+  },
+  {
+   "tag": "p",
+   "ja": "スペイン語",
+   "en": "Spanish"
+  },
+  {
+   "tag": "li",
+   "ja": "キッズ",
+   "en": "Kids"
+  },
+  {
+   "tag": "p",
+   "ja": "ドイツ語",
+   "en": "German"
+  },
+  {
+   "tag": "li",
+   "ja": "キッズ",
+   "en": "Kids"
+  },
+  {
+   "tag": "h2",
+   "ja": "モチスピ",
+   "en": "Motispi"
+  },
+  {
+   "tag": "p",
+   "ja": "英語",
+   "en": "English"
+  },
+  {
+   "tag": "li",
+   "ja": "英検®︎一次",
+   "en": "EIKEN® (first stage)"
+  },
+  {
+   "tag": "li",
+   "ja": "キッズ",
+   "en": "Kids"
+  },
+  {
+   "tag": "p",
+   "ja": "中国語",
+   "en": "Chinese"
+  },
+  {
+   "tag": "li",
+   "ja": "中検",
+   "en": "Chuken (Chinese Proficiency Test)"
+  },
+  {
+   "tag": "li",
+   "ja": "キッズ",
+   "en": "Kids"
+  },
+  {
+   "tag": "p",
+   "ja": "韓国語",
+   "en": "Korean"
+  },
+  {
+   "tag": "li",
+   "ja": "ハン検",
+   "en": "Hanken (Hangul Proficiency Test)"
+  },
+  {
+   "tag": "li",
+   "ja": "キッズ",
+   "en": "Kids"
+  },
+  {
+   "tag": "p",
+   "ja": "フランス語",
+   "en": "French"
+  },
+  {
+   "tag": "li",
+   "ja": "仏検",
+   "en": "Futsuken (French Proficiency Test)"
+  },
+  {
+   "tag": "li",
+   "ja": "キッズ",
+   "en": "Kids"
+  },
+  {
+   "tag": "p",
+   "ja": "スペイン語",
+   "en": "Spanish"
+  },
+  {
+   "tag": "li",
+   "ja": "キッズ",
+   "en": "Kids"
+  },
+  {
+   "tag": "p",
+   "ja": "ドイツ語",
+   "en": "German"
+  },
+  {
+   "tag": "li",
+   "ja": "独検",
+   "en": "Dokken (German Proficiency Test)"
+  },
+  {
+   "tag": "li",
+   "ja": "キッズ",
+   "en": "Kids"
+  },
+  {
+   "tag": "p",
+   "ja": "※英検®︎は、公益財団法人 日本英語検定協会の登録商標です。このコンテンツは、公益財団法人 日本英語検定協会の承認や推奨、その他の検討を受けたものではありません。",
+   "en": "* EIKEN® is a registered trademark of the Eiken Foundation of Japan. This content is not approved, endorsed, or otherwise reviewed by the Eiken Foundation of Japan."
+  },
+  {
+   "tag": "p",
+   "ja": "※IELTSは、ブリティッシュ・カウンシル、IDP:IELTS Australia、ケンブリッジ大学英語検定機構の登録商標です。",
+   "en": "* IELTS is a registered trademark of the British Council, IDP: IELTS Australia, and Cambridge Assessment English."
+  },
+  {
+   "tag": "p",
+   "ja": "※HSK・中検・TOPIK・ハン検（ハングル能力検定）・仏検・独検をはじめ、記載されている試験名・団体名等は、各主催団体の商標または登録商標です。本アプリおよび本コンテンツは、各試験の主催・運営団体による承認や推奨を受けたものではありません。",
+   "en": "* HSK, Chuken, TOPIK, Hanken (Hangul Proficiency Test), Futsuken, Dokken, and all other test and organization names mentioned are trademarks or registered trademarks of their respective organizations. This app and its content are not approved or endorsed by the organizations that run these tests."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "モチタン・モチスピにコースを追加しました",
+   "en": "New Courses Added to Motitan and Motispi"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "新コース追加",
+   "en": "New courses added"
+  }
+ ]
+}

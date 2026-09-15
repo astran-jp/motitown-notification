@@ -1,0 +1,37 @@
+{
+ "title": {
+  "ja": "スコアの近いユーザーとマッチするようになったよ！｜モチタウン",
+  "en": "You're Now Matched with Players of a Similar Score! | Motitown"
+ },
+ "list_title": {
+  "ja": "スコアの近いユーザーとマッチするようになったよ！",
+  "en": "You're Now Matched with Players of a Similar Score!"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "スコアが近いユーザーとマッチするようになったよ！",
+   "en": "You're Now Matched with Players of a Similar Score!"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello! 今日もモチタン頑張ってるね！",
+   "en": "Hello! Great to see you studying with Motitan today!"
+  },
+  {
+   "tag": "p",
+   "ja": "対戦モードで、これまでの対戦スコアが近いユーザーとマッチするようになったよ！",
+   "en": "In Battle Mode, you're now matched with players whose past battle scores are close to yours!"
+  },
+  {
+   "tag": "p",
+   "ja": "対戦がもっと白熱して面白くなったと思うから、たくさんプレイしてみてね！",
+   "en": "Battles should be more exciting and competitive now, so play lots!"
+  },
+  {
+   "tag": "attr:content",
+   "ja": "スコアの近いユーザーとマッチするようになったよ！",
+   "en": "You're Now Matched with Players of a Similar Score!"
+  }
+ ]
+}

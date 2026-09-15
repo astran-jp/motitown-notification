@@ -1,0 +1,67 @@
+{
+ "title": {
+  "ja": "市民リーグの参加設定ができるようになったよ！｜モチタン",
+  "en": "You Can Now Choose Whether to Join the Citizen League! | Motitown"
+ },
+ "list_title": {
+  "ja": "市民リーグの参加設定ができるようになったよ！",
+  "en": "You can now choose whether to join the Citizen League!"
+ },
+ "segments": [
+  {
+   "tag": "h1",
+   "ja": "市民リーグの参加設定ができるようになったよ！",
+   "en": "You can now choose whether to join the Citizen League!"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello~！モチベアだよ！",
+   "en": "Hello! It's Motibear!"
+  },
+  {
+   "tag": "p",
+   "ja": "市民リーグに「参加する／参加しない」を選べるようになったんだ！",
+   "en": "You can now choose whether or not to take part in the Citizen League!"
+  },
+  {
+   "tag": "p",
+   "ja": "自分のペースで学習したいときは、マイページ&gt;設定&gt;市民リーグ設定で参加をオフにできるよ。",
+   "en": "If you'd rather learn at your own pace, turn off participation in Profile &gt; Settings &gt; Citizen League Settings."
+  },
+  {
+   "tag": "p",
+   "ja": "オフにすると、次の週から不参加になってホームやマイページにもリーグ情報が表示されなくなるんだ。",
+   "en": "When it's off, you'll be out of the league from the next week, and league info will no longer appear on Home or your Profile."
+  },
+  {
+   "tag": "p",
+   "ja": "また参加したくなったら、いつでも設定をオンに戻せるよ！",
+   "en": "Want to join again? You can turn the setting back on anytime!"
+  },
+  {
+   "tag": "p",
+   "ja": "自分に合ったスタイルで学習してみてね！",
+   "en": "Learn in the style that suits you best!"
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "市民リーグの参加設定ができるようになったよ！",
+   "en": "You can now choose whether to join the Citizen League!"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "リーグ不参加も選べるっ！自分のペースで学習しよう",
+   "en": "You can even opt out of the league! Learn at your own pace"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "お知らせの場所",
+   "en": "Where to find announcements"
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "title": {
+  "ja": "【モチタン】ウィジェット機能の導入！【Android版】｜モチタン",
+  "en": "[Motitan] Widgets Are Here! [Android] | Motitown"
+ },
+ "list_title": {
+  "ja": "【モチタン】ウィジェット機能の導入！【Android版】<br/><br/>",
+  "en": "[Motitan] Widgets are here! [Android]<br/><br/>"
+ },
+ "segments": [
+  {
+   "tag": "h1",
+   "ja": "【モチタン】ウィジェット機能の導入！【Android版】",
+   "en": "[Motitan] Widgets Are Here! [Android]"
+  },
+  {
+   "tag": "p",
+   "ja": "Androidのみなさまお待たせしました！ウィジェットを設定すると毎日モチベアがホーム画面でみんなを応援します！連続記録の管理にも役立ちます。",
+   "en": "Android users, thanks for waiting! Set up the widget and Motibear will cheer you on from your home screen every day. It's also handy for keeping track of your streak."
+  },
+  {
+   "tag": "h2",
+   "ja": "ウィジェットの設定方法",
+   "en": "How to set up the widget"
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "【モチタン】ウィジェット機能の導入！【Android版】",
+   "en": "[Motitan] Widgets Are Here! [Android]"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "モチベアのウィジェット",
+   "en": "Motibear widget"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "ウィジェットの設定方法：モチタンアプリを長押ししてね",
+   "en": "How to set up the widget: press and hold the Motitan app icon"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "お知らせの場所",
+   "en": "Where to find announcements"
+  }
+ ]
+}

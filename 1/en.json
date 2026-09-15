@@ -1,0 +1,183 @@
+{
+ "title": {
+  "ja": "リーグに「参加しない」も選べる！【市民リーグ設定アップデート】｜モチタン",
+  "en": "You Can Now Opt Out of the League! [Citizen League Settings Update] | Motitown"
+ },
+ "segments": [
+  {
+   "tag": "h1",
+   "ja": "リーグに「参加しない」も選べる！<br>【市民リーグ設定アップデート】",
+   "en": "You Can Now Opt Out of the League!<br>[Citizen League Settings Update]"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello~！モチベアだよ！<br>\n        今回のアップデートで、市民リーグに<span class=\"em\">「参加する・しない」を自分で選べる</span>ようになったよ！\n        ランキングが気になっちゃう人も、これで自分のペースで学習を楽しめるよ。",
+   "en": "Hello! It's Motibear!<br>With this update, you can now <span class=\"em\">choose whether to join the Citizen League</span>! If the rankings stress you out, you can now learn at your own pace."
+  },
+  {
+   "tag": "h2",
+   "ja": "「市民リーグ設定」からかんたん切り替え",
+   "en": "Easy to switch in \"Citizen League Settings\""
+  },
+  {
+   "tag": "p",
+   "ja": "<span class=\"em\">マイページ →〔設定〕→「市民リーグ設定」</span>を開いて、スイッチを切り替えるだけ！\n        いつでも何度でも変更できるよ。",
+   "en": "Just open <span class=\"em\">Profile → Settings → \"Citizen League Settings\"</span> and flip the switch! You can change it anytime, as often as you like."
+  },
+  {
+   "tag": "h2",
+   "ja": "オフにすると…（不参加）",
+   "en": "When it's off (not participating)…"
+  },
+  {
+   "tag": "p",
+   "ja": "リーグをおやすみしたいときは、オフにしてね。こんなふうに変わるよ👇",
+   "en": "Turn it off whenever you want a break from the league. Here's what changes 👇"
+  },
+  {
+   "tag": "li",
+   "ja": "<span class=\"em\">翌週から</span>、リーグに割り振られなくなるよ。",
+   "en": "<span class=\"em\">Starting the next week</span>, you won't be placed in a league."
+  },
+  {
+   "tag": "li",
+   "ja": "名前の横の<span class=\"em\">リーグバッジ</span>が消えるよ。",
+   "en": "The <span class=\"em\">league badge</span> next to your name disappears."
+  },
+  {
+   "tag": "li",
+   "ja": "マイページ・ホームから<span class=\"em\">リーグの表示がなくなる</span>よ。",
+   "en": "<span class=\"em\">League info is no longer shown</span> on your Profile or Home."
+  },
+  {
+   "tag": "li",
+   "ja": "その週のリーグ結果や、<span class=\"em\">昇格・降格のお知らせ</span>も表示されないよ。",
+   "en": "You won't see that week's league results or <span class=\"em\">promotion and demotion notices</span> either."
+  },
+  {
+   "tag": "h3",
+   "ja": "バッジ・リーグ表示はこう変わるよ",
+   "en": "Here's how the badge and league display change"
+  },
+  {
+   "tag": "p",
+   "ja": "バッジが消え、リーグの情報も表示されなくなります",
+   "en": "The badge disappears and league info is no longer shown"
+  },
+  {
+   "tag": "h2",
+   "ja": "もう一度オンにすると…（再参加）",
+   "en": "When you turn it back on (rejoining)…"
+  },
+  {
+   "tag": "p",
+   "ja": "またリーグに戻りたくなったら、いつでもオンにできるよ！",
+   "en": "Whenever you want to come back, just turn it on again!"
+  },
+  {
+   "tag": "li",
+   "ja": "<span class=\"em\">BPを獲得したタイミング</span>で、またリーグに参加できるよ。",
+   "en": "You'll rejoin the league <span class=\"em\">the next time you earn BP</span>."
+  },
+  {
+   "tag": "li",
+   "ja": "直前に参加していた週の成績をもとに、<span class=\"em\">近いレベルのリーグ</span>に割り振られるよ。",
+   "en": "You'll be placed in a <span class=\"em\">league at a similar level</span>, based on your results from the last week you took part."
+  },
+  {
+   "tag": "p",
+   "ja": "※設定のオン・オフは、いつでも切り替えできます。",
+   "en": "* You can switch this setting on and off at any time."
+  },
+  {
+   "tag": "p",
+   "ja": "※不参加中も、学習やBPの獲得はこれまでどおり楽しめます。",
+   "en": "* While you're not participating, you can still learn and earn BP as usual."
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン＞右上のメールボックスから確認できます。",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown."
+  },
+  {
+   "tag": "text",
+   "ja": "市民リーグ設定",
+   "en": "Citizen League Settings"
+  },
+  {
+   "tag": "text",
+   "ja": "市民リーグ参加",
+   "en": "Join Citizen League"
+  },
+  {
+   "tag": "text",
+   "ja": "▲ スイッチをオフにすると「不参加」になります",
+   "en": "▲ Turning the switch off means \"not participating\""
+  },
+  {
+   "tag": "text",
+   "ja": "参加中",
+   "en": "Participating"
+  },
+  {
+   "tag": "text",
+   "ja": "もちたんたろうー",
+   "en": "motitantaro"
+  },
+  {
+   "tag": "text",
+   "ja": "ゴールド",
+   "en": "Gold"
+  },
+  {
+   "tag": "text",
+   "ja": "市民リーグ",
+   "en": "Citizen League"
+  },
+  {
+   "tag": "text",
+   "ja": "3,200位",
+   "en": "#3,200"
+  },
+  {
+   "tag": "text",
+   "ja": "不参加",
+   "en": "Not participating"
+  },
+  {
+   "tag": "text",
+   "ja": "バッジ・リーグ非表示",
+   "en": "Badge and league hidden"
+  },
+  {
+   "tag": "text",
+   "ja": "※切り替えたその週はまだ参加中のあつかいで、不参加になるのは",
+   "en": "* The week you switch it off still counts as participating. You leave the league"
+  },
+  {
+   "tag": "text",
+   "ja": "翌週から",
+   "en": "from the next week"
+  },
+  {
+   "tag": "text",
+   "ja": "だよ。",
+   "en": "."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "リーグに「参加しない」も選べる！【市民リーグ設定アップデート】",
+   "en": "You Can Now Opt Out of the League! [Citizen League Settings Update]"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "モチベア",
+   "en": "Motibear"
+  },
+  {
+   "tag": "attr:aria-label",
+   "ja": "オン",
+   "en": "On"
+  }
+ ]
+}

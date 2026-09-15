@@ -1,0 +1,67 @@
+{
+ "title": {
+  "ja": "掲示板がリニューアル！｜モチタウン",
+  "en": "The Board Has Been Renewed! | Motitown"
+ },
+ "list_title": {
+  "ja": "掲示板がリニューアル！<br/><br/>",
+  "en": "The Board Has Been Renewed!<br/><br/>"
+ },
+ "segments": [
+  {
+   "tag": "p",
+   "ja": "中学コース",
+   "en": "Junior High Course"
+  },
+  {
+   "tag": "p",
+   "ja": "- 高校受験対策",
+   "en": "- High school entrance exam prep"
+  },
+  {
+   "tag": "p",
+   "ja": "高校コース",
+   "en": "High School Course"
+  },
+  {
+   "tag": "p",
+   "ja": "- 大学受験対策",
+   "en": "- University entrance exam prep"
+  },
+  {
+   "tag": "p",
+   "ja": "英検コース",
+   "en": "EIKEN Course"
+  },
+  {
+   "tag": "p",
+   "ja": "- 英検５級対策<br/>　- 英検４級対策<br/>　- 英検３級対策<br/>　- 英検準２級・２級対策<br/>　- 英検準１級・１級対策",
+   "en": "- EIKEN Grade 5 prep<br/>&nbsp;&nbsp;- EIKEN Grade 4 prep<br/>&nbsp;&nbsp;- EIKEN Grade 3 prep<br/>&nbsp;&nbsp;- EIKEN Grade Pre-2 and 2 prep<br/>&nbsp;&nbsp;- EIKEN Grade Pre-1 and 1 prep"
+  },
+  {
+   "tag": "p",
+   "ja": "TOEICコース",
+   "en": "TOEIC Course"
+  },
+  {
+   "tag": "p",
+   "ja": "- TOEIC対策",
+   "en": "- TOEIC prep"
+  },
+  {
+   "tag": "p",
+   "ja": "英会話コース",
+   "en": "English Conversation Course"
+  },
+  {
+   "tag": "p",
+   "ja": "- 旅行<br/>　- ビジネス<br/>　- 留学<br/>　- ワーホリ<br/>　- ドラマ・映画<br/>　- 音楽<br/>　- ゲーム・アニメ",
+   "en": "- Travel<br/>&nbsp;&nbsp;- Business<br/>&nbsp;&nbsp;- Study abroad<br/>&nbsp;&nbsp;- Working holiday<br/>&nbsp;&nbsp;- TV and movies<br/>&nbsp;&nbsp;- Music<br/>&nbsp;&nbsp;- Games and anime"
+  },
+  {
+   "tag": "attr:content",
+   "ja": "掲示板がリニューアル！",
+   "en": "The Board Has Been Renewed!"
+  }
+ ]
+}

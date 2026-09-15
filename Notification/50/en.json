@@ -1,0 +1,92 @@
+{
+ "title": {
+  "ja": "【新機能✨】記憶度の手動変更＆忘却機能リリース！｜モチタウン",
+  "en": "[New ✨] Manual Mastery Changes and Forgetting Mode! | Motitown"
+ },
+ "list_title": {
+  "ja": "【新機能✨】記憶度の手動変更＆忘却機能リリース！",
+  "en": "[New ✨] Manual Mastery Changes and Forgetting Mode!"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "【新機能✨】記憶度の手動変更＆忘却機能リリース！",
+   "en": "[New ✨] Manual Mastery Changes and Forgetting Mode!"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello~！モチベアだよ！新しい挑戦はワクワクするね！",
+   "en": "Hello! It's Motibear! New challenges are exciting, aren't they?"
+  },
+  {
+   "tag": "p",
+   "ja": "単語学習の機能がさらにパワーアップして、<strong>２つの新機能</strong> が追加されたよ！✨",
+   "en": "Word learning just got another power-up with <strong>2 new features</strong>! ✨"
+  },
+  {
+   "tag": "p",
+   "ja": "これで復習がもっとラクに、もっと正確になること間違いなし！",
+   "en": "Reviewing is about to get easier and more accurate!"
+  },
+  {
+   "tag": "h3",
+   "ja": "①：記憶度を自分でカスタマイズ可能に！",
+   "en": "1: Customize mastery yourself!"
+  },
+  {
+   "tag": "p",
+   "ja": "単語ごとに <strong>「覚えた」「ほぼ覚えた」「うろ覚え」「苦手」</strong> のラベルを自由に変更できるようになったよ！",
+   "en": "You can now freely change each word's label between <strong>\"Mastered\", \"Familiar\", \"Learning\", and \"Difficult\"</strong>!"
+  },
+  {
+   "tag": "h3",
+   "ja": "<strong>③：忘却機能</strong>ON／OFFスイッチ！",
+   "en": "<strong>2: Forgetting Mode</strong> ON/OFF switch!"
+  },
+  {
+   "tag": "p",
+   "ja": "<strong>・作動中</strong><br/>モチタンAIが「そろそろ忘れそうだ！」と判断したタイミングで、記憶度が少しずつ下がっていくよ！",
+   "en": "<strong>• On</strong><br/>When Motitan AI judges \"you're about to forget this!\", the word's mastery gradually goes down!"
+  },
+  {
+   "tag": "p",
+   "ja": "記憶度が下がった単語は単語帳の「忘れかけ単語」に入るから、ベストなタイミングで復習できる！",
+   "en": "Words whose mastery drops go into the \"Rusty\" wordbook, so you can review them at the best time!"
+  },
+  {
+   "tag": "p",
+   "ja": "<strong>・停止中</strong><br/>記憶度は下がらずキープされるよ。",
+   "en": "<strong>• Off</strong><br/>Mastery stays where it is and won't go down."
+  },
+  {
+   "tag": "p",
+   "ja": "作動中⇔停止中はモチタンAIによって判断され、自分でも手動で切り替えられるよ！",
+   "en": "Motitan AI decides when to switch between On and Off, and you can also switch manually!"
+  },
+  {
+   "tag": "p",
+   "ja": "<strong>・切り替えできない単語がある？</strong><br/>まだ一度も「覚えた」まで到達していない単語は、忘却機能を作動できないよ。",
+   "en": "<strong>• Some words can't be switched?</strong><br/>Forgetting Mode can't be turned on for words that have never reached \"Mastered\"."
+  },
+  {
+   "tag": "p",
+   "ja": "まずは「覚えた」まで上げてから試してみてね！",
+   "en": "Bring them up to \"Mastered\" first, then give it a try!"
+  },
+  {
+   "tag": "p",
+   "ja": "記憶度ラベルと忘却機能を上手く使って、もっと効率的に単語をマスターしよう！！",
+   "en": "Use mastery labels and Forgetting Mode wisely to master words more efficiently!"
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "【新機能✨】記憶度の手動変更＆忘却機能リリース！",
+   "en": "[New ✨] Manual Mastery Changes and Forgetting Mode!"
+  }
+ ]
+}

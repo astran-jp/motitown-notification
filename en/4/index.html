@@ -1,2 +1,118 @@
-<!DOCTYPE html><!-- fallback: redirect to ja -->
-<html lang="ja"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=/4/"><link rel="canonical" href="https://motitown-notification.astran.jp/4/"><title>Redirecting…</title></head><body><a href="/4/">https://motitown-notification.astran.jp/4/</a></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>You Can Now Choose Whether to Join the Citizen League! | Motitown</title>
+<meta property="og:title" content="You can now choose whether to join the Citizen League!">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0D4962;
+    --date:#7C878A;
+    --page-bg:#E7F6FF;
+    --line:#99A7AA;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--page-bg);
+    font-family:"Noto Sans",-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+    color:var(--navy);
+    -webkit-font-smoothing:antialiased;
+    word-break:break-word;
+  }
+  .wrap{max-width:390px;margin:0 auto;background:#fff;min-height:100vh;display:flex;flex-direction:column;gap:30px;align-items:center;}
+
+  /* 上部グループ（ヘッダー〜本文）にまとめてドロップシャドウ */
+  .top{
+    width:390px;display:flex;flex-direction:column;gap:10px;align-items:center;
+    filter:drop-shadow(0 4px 2px rgba(0,0,0,.1));
+  }
+
+  /* ヘッダーバナー（全幅） */
+  .header{width:390px;height:130px;overflow:hidden;}
+  .header img{width:100%;height:100%;object-fit:cover;display:block;}
+
+  /* タイトル・日付 */
+  .head{width:100%;padding:8px 13px 3px;display:flex;flex-direction:column;gap:10px;}
+  h1.title{margin:0;color:var(--navy);font-weight:700;font-size:20px;line-height:1.4;letter-spacing:.6px;}
+  .date{color:var(--date);font-size:16.5px;line-height:1.4;letter-spacing:.495px;}
+
+  /* 本文 */
+  .body{width:364px;color:var(--navy);font-size:15.5px;line-height:21px;letter-spacing:.465px;}
+  .body p{margin:0;}
+
+  /* 下部グループ（注意書き＋お知らせの場所） */
+  .bottom{display:flex;flex-direction:column;gap:20px;align-items:center;}
+  .note{width:364px;padding:0 12px;color:var(--navy);font-size:15.5px;line-height:21px;letter-spacing:.465px;}
+  .note p{margin:0;}
+
+  /* お知らせの場所カード */
+  .place{
+    position:relative;width:257px;height:179px;background:var(--page-bg);
+    border-radius:20px;overflow:hidden;box-shadow:0 5px 5px rgba(147,149,169,.3);
+  }
+  .place .shot{
+    position:absolute;left:13.5px;top:36.17px;width:230px;height:106px;
+    border:1px solid var(--line);border-radius:20px;overflow:hidden;
+    box-shadow:0 5px 5px rgba(147,149,169,.3);
+  }
+  .place .shot img{position:absolute;left:0;top:-20.5%;width:100%;height:470.85%;max-width:none;}
+  .place .arrow{position:absolute;left:236.23px;top:110.4px;width:19.092px;height:19.092px;display:flex;align-items:center;justify-content:center;}
+  .place .arrow .line{transform:rotate(45deg);}
+  .place .arrow img{display:block;width:27px;height:14.2px;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <div class="top">
+      <!-- ヘッダーバナー（リーグ不参加も選べるっ！） -->
+      <div class="header">
+        <img src="../../4/assets/header.png" alt="You can even opt out of the league! Learn at your own pace">
+      </div>
+
+      <!-- タイトル・日付 -->
+      <div class="head">
+        <h1 class="title">You can now choose whether to join the Citizen League!</h1>
+        <div class="date">2026/06/10 16:00</div>
+      </div>
+
+      <!-- 本文 -->
+      <div class="body">
+        <p>Hello! It's Motibear!</p>
+        <p>You can now choose whether or not to take part in the Citizen League!</p>
+        <p>&#8203;</p>
+        <p>If you'd rather learn at your own pace, turn off participation in Profile &gt; Settings &gt; Citizen League Settings.</p>
+        <p>&#8203;</p>
+        <p>When it's off, you'll be out of the league from the next week, and league info will no longer appear on Home or your Profile.</p>
+        <p>Want to join again? You can turn the setting back on anytime!</p>
+        <p>&#8203;</p>
+        <p>Learn in the style that suits you best!</p>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <div class="note">
+        <p>* You can find past announcements in the mailbox at the top right of Motitown.</p>
+      </div>
+
+      <!-- お知らせの場所（スクショ＋赤い矢印） -->
+      <div class="place">
+        <div class="shot">
+          <img src="../../4/assets/location.png" alt="Where to find announcements">
+        </div>
+        <div class="arrow">
+          <div class="line"><img src="../../4/assets/arrow.svg" alt=""></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

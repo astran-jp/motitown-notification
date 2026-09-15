@@ -47,6 +47,9 @@ def main():
     out = html
     for s in reversed(segs):
         out = out[: s["start"]] + s["raw"].replace(s["ja"], byja[s["ja"]]) + out[s["end"] :]
+    for t in tr["segments"]:
+        if t["tag"] == "text":
+            out = re.sub(r">(\s*)" + re.escape(t["ja"]) + r"(\s*)<", lambda m: ">" + m.group(1) + t["en"] + m.group(2) + "<", out)
     for a in attrs(html):
         en = byja.get(a["ja"]) or (tr["title"]["en"] if a["ja"] == tr["title"]["ja"] else None)
         if en:

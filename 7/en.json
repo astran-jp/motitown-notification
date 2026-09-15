@@ -1,0 +1,78 @@
+{
+ "title": {
+  "ja": "アカウント復旧のお知らせ｜モチタン",
+  "en": "Account Recovery Update | Motitown"
+ },
+ "segments": [
+  {
+   "tag": "h1",
+   "ja": "アカウント復旧のお知らせ",
+   "en": "Account Recovery Update"
+  },
+  {
+   "tag": "p",
+   "ja": "一部のプレイヤーのアカウントが初期化される問題を解決した新しいバージョンを、App Storeで公開しました。<br>バージョン10.2.1にアップデートいただくと、問題が解決します。",
+   "en": "A new version that fixes the issue where some players' accounts were reset is now available on the App Store.<br>Updating to version 10.2.1 resolves the problem."
+  },
+  {
+   "tag": "p",
+   "ja": "この度はご迷惑をおかけし、申し訳ございませんでした。",
+   "en": "We sincerely apologize for the trouble this caused."
+  },
+  {
+   "tag": "h2",
+   "ja": "補填として、以下の内容を実施しております。",
+   "en": "As compensation, we have provided the following:"
+  },
+  {
+   "tag": "li",
+   "ja": "6/19、6/20の連続ログイン記録",
+   "en": "Login streak credit for June 19 and 20"
+  },
+  {
+   "tag": "li",
+   "ja": "6/19、6/20の連続学習記録",
+   "en": "Learning streak credit for June 19 and 20"
+  },
+  {
+   "tag": "li",
+   "ja": "6/19、6/20の金葉っぱ",
+   "en": "Gold Leaves for June 19 and 20"
+  },
+  {
+   "tag": "li",
+   "ja": "原石50個",
+   "en": "50 Gems"
+  },
+  {
+   "tag": "li",
+   "ja": "マイクロプレミアムチケット",
+   "en": "A Micro Premium Ticket"
+  },
+  {
+   "tag": "p",
+   "ja": "引き続きモチタン・モチスピで楽しんでいただけるよう頑張りますので、よろしくお願いいたします。",
+   "en": "We'll keep working hard so you can continue to enjoy Motitan and Motispi. Thank you for your support."
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown."
+  },
+  {
+   "tag": "text",
+   "ja": "アップデート",
+   "en": "Update"
+  },
+  {
+   "tag": "attr:content",
+   "ja": "アカウント復旧のお知らせ",
+   "en": "Account Recovery Update"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "モチタン",
+   "en": "Motitan"
+  }
+ ]
+}

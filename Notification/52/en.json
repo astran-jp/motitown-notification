@@ -1,0 +1,132 @@
+{
+ "title": {
+  "ja": "【BP計算式リニューアル✨】学べば学ぶほどBPゲット！｜モチタウン",
+  "en": "[New BP Formula ✨] The More You Learn, the More BP You Get! | Motitown"
+ },
+ "list_title": {
+  "ja": "【BP計算式リニューアル✨】学べば学ぶほどBPゲット！",
+  "en": "[New BP Formula ✨] The More You Learn, the More BP You Get!"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "【BP計算式リニューアル✨】学べば学ぶほどBPゲット！",
+   "en": "[New BP Formula ✨] The More You Learn, the More BP You Get!"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello~！モチベアだよ！今日も元気にモチタンしよう！",
+   "en": "Hello! It's Motibear! Let's have a great Motitan day!"
+  },
+  {
+   "tag": "p",
+   "ja": "BP（バトルポイント）の計算式がリニューアルされたよ！",
+   "en": "The formula for BP (Battle Points) has been renewed!"
+  },
+  {
+   "tag": "p",
+   "ja": "たくさん学んだ人ほど、より多くのBPがもらえる仕組みになったんだ！",
+   "en": "Now, the more you learn, the more BP you earn!"
+  },
+  {
+   "tag": "h3",
+   "ja": "<strong>【BP獲得の仕組み】</strong>",
+   "en": "<strong>[How BP is earned]</strong>"
+  },
+  {
+   "tag": "p",
+   "ja": "獲得BPは、次の要素で決まるよ！",
+   "en": "Your BP is made up of the following:"
+  },
+  {
+   "tag": "p",
+   "ja": "<strong>・正解数ポイント</strong>",
+   "en": "<strong>• Correct answer points</strong>"
+  },
+  {
+   "tag": "p",
+   "ja": "対戦・冒険の正解数に応じてもらえるよ。<br/>対戦の結果画面では、「基礎点」として表示されるよ。",
+   "en": "Based on the number of correct answers in Battles and Adventures.<br/>Shown as \"Base points\" on the battle results screen."
+  },
+  {
+   "tag": "p",
+   "ja": "<strong>・順位ボーナス</strong>",
+   "en": "<strong>• Rank bonus</strong>"
+  },
+  {
+   "tag": "p",
+   "ja": "対戦の順位に応じてもらえるよ。",
+   "en": "Based on your finishing position in a Battle."
+  },
+  {
+   "tag": "p",
+   "ja": "<strong>・全問正解ボーナス</strong>",
+   "en": "<strong>• Perfect bonus</strong>"
+  },
+  {
+   "tag": "p",
+   "ja": "冒険で全問正解するともらえるよ。",
+   "en": "Earned when you get every question right in an Adventure."
+  },
+  {
+   "tag": "p",
+   "ja": "<strong>・記憶度ボーナス</strong>",
+   "en": "<strong>• Mastery bonus</strong>"
+  },
+  {
+   "tag": "p",
+   "ja": "記憶度の段階が上がるともらえるよ。",
+   "en": "Earned when a word's mastery level goes up."
+  },
+  {
+   "tag": "p",
+   "ja": "<strong>・レベルボーナス</strong>",
+   "en": "<strong>• Level bonus</strong>"
+  },
+  {
+   "tag": "p",
+   "ja": "プレイしたレベルに応じてもらえるよ。レベルが高くなるほど多くもらえる！",
+   "en": "Based on the level you played. The higher the level, the more you get!"
+  },
+  {
+   "tag": "p",
+   "ja": "さまざまな単語や問題に挑戦し、幅広く学ぶことで、より多くのBPを獲得できるんだ。",
+   "en": "You'll earn more BP by taking on a wide variety of words and questions."
+  },
+  {
+   "tag": "p",
+   "ja": "同じ単語や同じレベルの繰り返しでは獲得効率が下がるから、いろいろな挑戦を楽しんで学習を進めよう！",
+   "en": "Repeating the same words or the same level earns less, so enjoy mixing things up as you learn!"
+  },
+  {
+   "tag": "p",
+   "ja": "※記憶度ボーナスは1つの単語につき1週間で5回までとなります。",
+   "en": "* The mastery bonus is limited to 5 times per word per week."
+  },
+  {
+   "tag": "p",
+   "ja": "※クリア済みのレベルをプレイしてもらえるBPは、1日に2回を超えると通常の1/4になります。ただし、記憶度ボーナスはそのままもらえます。",
+   "en": "* BP for playing a level you've already cleared drops to 1/4 after the 2nd time in a day. The mastery bonus is still earned in full."
+  },
+  {
+   "tag": "p",
+   "ja": "リニューアルされた計算式で、学習した成果がしっかり反映されるから、これからのプレイももっとやりがいがあるね！",
+   "en": "With the new formula, your learning really shows in your results, so playing is more rewarding than ever!"
+  },
+  {
+   "tag": "p",
+   "ja": "学びながら、しっかりBPを集めていこう！！",
+   "en": "Keep learning and keep collecting BP!"
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "【BP計算式リニューアル✨】学べば学ぶほどBPゲット！",
+   "en": "[New BP Formula ✨] The More You Learn, the More BP You Get!"
+  }
+ ]
+}

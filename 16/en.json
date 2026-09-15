@@ -1,0 +1,77 @@
+{
+ "title": {
+  "ja": "【モチタン・モチスピ】モチスピにみゆ・レックスが登場！/自動音声読み上げ機能を追加｜モチタウン",
+  "en": "Miyu and Rex Join Motispi! / Auto Read-Aloud Added | Motitown"
+ },
+ "list_title": {
+  "ja": "モチスピにみゆ・レックスが登場！ <br/>/自動音声読み上げ機能を追加",
+  "en": "Miyu and Rex join Motispi! <br/>/ Auto read-aloud added"
+ },
+ "segments": [
+  {
+   "tag": "h1",
+   "ja": "モチスピにみゆ・レックスが登場！/自動音声読み上げ機能を追加",
+   "en": "Miyu and Rex Join Motispi! / Auto Read-Aloud Added"
+  },
+  {
+   "tag": "h2",
+   "ja": "モチスピにみゆ・レックスが登場！",
+   "en": "Miyu and Rex Join Motispi!"
+  },
+  {
+   "tag": "p",
+   "ja": "ネイサン先生・ジョニー先生に続いて、みゆ先生・レックス先生とも話せるようになったよ！",
+   "en": "After Nathan and Johnny, you can now talk with Miyu and Rex too!"
+  },
+  {
+   "tag": "p",
+   "ja": "マイページ &gt; 学習設定 &gt; 先生を変更<br>\n      で切り替えてね！",
+   "en": "Profile &gt; Learning Settings &gt; Change Teacher<br>to switch!"
+  },
+  {
+   "tag": "h2",
+   "ja": "自動音声読み上げ機能を追加",
+   "en": "Auto Read-Aloud Added"
+  },
+  {
+   "tag": "p",
+   "ja": "モチタン・モチスピ両方に、自動音声読み上げ機能を追加したよ！",
+   "en": "We've added auto read-aloud to both Motitan and Motispi!"
+  },
+  {
+   "tag": "p",
+   "ja": "再生ボタンを押すと、単語リストやフレーズリストを読み上げて、ループ再生するよ。ハンズフリーで流し聞き学習が可能になるよ。",
+   "en": "Tap the play button and your word list or phrase list is read aloud on a loop. Great for hands-free listening practice."
+  },
+  {
+   "tag": "p",
+   "ja": "読み上げ対象は歯車アイコンから個別にON/OFF可能だから、必要なものを選んでね。",
+   "en": "You can turn each item on or off from the gear icon, so pick just what you need."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "モチスピにみゆ・レックスが登場！/自動音声読み上げ機能を追加",
+   "en": "Miyu and Rex Join Motispi! / Auto Read-Aloud Added"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "モチスピに みゆ先生 レックス先生 登場！ ほか1件",
+   "en": "Miyu and Rex join Motispi as teachers! Plus 1 more update"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "みゆ先生とレックス先生",
+   "en": "Miyu and Rex"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "単語詳細画面。worldの意味・例文が表示され、下部の再生ボタンで読み上げできます。",
+   "en": "Word detail screen showing the meaning and example sentences for \"world\", with a play button at the bottom to read them aloud."
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "自動再生の設定画面。単語・単語の意味・例文・例文和訳を個別にON/OFFできます。",
+   "en": "Auto-play settings screen. You can turn words, meanings, example sentences, and their translations on or off individually."
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "title": {
+  "ja": "【音が出ない？】消音モードのときは要注意だよ！｜モチタウン",
+  "en": "[No Sound?] Watch Out for Silent Mode! | Motitown"
+ },
+ "list_title": {
+  "ja": "【音が出ない？】消音モードのときは要注意だよ！",
+  "en": "[No Sound?] Watch Out for Silent Mode!"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "【音が出ない？】消音モードのときは要注意だよ！",
+   "en": "[No Sound?] Watch Out for Silent Mode!"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello~！モチベアだよ！今日も英語の勉強お疲れさま！",
+   "en": "Hello! It's Motibear! Nice work on your English study today!"
+  },
+  {
+   "tag": "p",
+   "ja": "最近モチタンで「英単語の音声が出ない！」って困ったことない？",
+   "en": "Have you run into \"the word audio isn't playing!\" in Motitan lately?"
+  },
+  {
+   "tag": "p",
+   "ja": "モチタンではスマホが消音モードになっていると、音声アイコンをタップしても単語の読み上げ音声が流れないように変更になったんだ！",
+   "en": "Motitan has changed so that when your phone is in silent mode, tapping the audio icon no longer plays the word pronunciation!"
+  },
+  {
+   "tag": "p",
+   "ja": "単語音声を流したいときは、スマホの消音モードをオフにしてね！",
+   "en": "If you want to hear the word audio, turn off silent mode on your phone!"
+  },
+  {
+   "tag": "p",
+   "ja": "単語音声やBGM、操作音などの音量を調整したりオフにしたい場合は、マイページ &gt; 設定(歯車マーク) &gt; 音量をタップして設定できるよ！",
+   "en": "To adjust or mute word audio, BGM, and tap sounds, go to Profile &gt; Settings (gear icon) &gt; Volume!"
+  },
+  {
+   "tag": "p",
+   "ja": "自分に合った音量に調整して、もっと快適に英単語を覚えよう！",
+   "en": "Set the volume that suits you and learn vocabulary in comfort!"
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "【音が出ない？】消音モードのときは要注意だよ！",
+   "en": "[No Sound?] Watch Out for Silent Mode!"
+  }
+ ]
+}

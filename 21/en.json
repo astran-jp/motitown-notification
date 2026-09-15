@@ -1,0 +1,116 @@
+{
+ "title": {
+  "ja": "【モチタン・モチスピ】自動再生を改善し、フレーズ帳から対戦をプレイできるようになりました｜モチタウン",
+  "en": "Better Auto-Play, and Battles from Your Phrasebook | Motitown"
+ },
+ "list_title": {
+  "ja": "自動再生の改善とフレーズ帳から対戦",
+  "en": "Better auto-play and phrasebook battles"
+ },
+ "banner": {
+  "ja": "自動再生改善・フレーズ対戦追加",
+  "en": "Auto-Play & Phrase Battles"
+ },
+ "segments": [
+  {
+   "tag": "h1",
+   "ja": "自動再生を改善し、<br>フレーズ帳から対戦を<br>プレイできるようになりました",
+   "en": "Better Auto-Play, and<br>Battles from<br>Your Phrasebook"
+  },
+  {
+   "tag": "p",
+   "ja": "モチタン・モチスピを開発している神谷です。",
+   "en": "Hi, this is Kamiya, the developer of Motitan and Motispi."
+  },
+  {
+   "tag": "p",
+   "ja": "v11.5.0 へのアップデートにより、モチタン・モチスピの自動再生が改善され、モチスピのフレーズ帳から対戦をプレイできるようになります。",
+   "en": "With the update to v11.5.0, auto-play is improved in both Motitan and Motispi, and you can now play battles from your Motispi phrasebook."
+  },
+  {
+   "tag": "h2",
+   "ja": "モチタン・モチスピ：自動再生を改善",
+   "en": "Motitan and Motispi: Better Auto-Play"
+  },
+  {
+   "tag": "p",
+   "ja": "単語詳細/フレーズ詳細の自動再生において、以下の改善を行いました。",
+   "en": "We made the following improvements to auto-play in word details and phrase details."
+  },
+  {
+   "tag": "li",
+   "ja": "再生速度を0.5倍から3.0倍まで変更できるようになりました。",
+   "en": "You can now change the playback speed from 0.5x to 3.0x."
+  },
+  {
+   "tag": "li",
+   "ja": "バックグラウンド再生に対応し、画面を閉じても移動中などにそのまま音声を聞くことができます。",
+   "en": "Background playback is supported, so you can keep listening on the go even after closing the screen."
+  },
+  {
+   "tag": "p",
+   "ja": "<span class=\"steps__label\">設定手順：</span>\n        <span class=\"steps__path\">単語詳細 &gt; 歯車アイコン &gt; 再生速度（倍）</span>",
+   "en": "<span class=\"steps__label\">How to set it:</span> <span class=\"steps__path\">Word Details &gt; Gear icon &gt; Playback Speed (x)</span>"
+  },
+  {
+   "tag": "h2",
+   "ja": "モチスピ：フレーズ帳から対戦をプレイ",
+   "en": "Motispi: Play Battles from Your Phrasebook"
+  },
+  {
+   "tag": "p",
+   "ja": "モチスピのフレーズ帳から、対戦をプレイできるようになりました。",
+   "en": "You can now play battles from your Motispi phrasebook."
+  },
+  {
+   "tag": "li",
+   "ja": "無料プランでは、フレーズ帳からの対戦、冒険が1日3回までプレイできます（単語帳での制限とは別枠です）。",
+   "en": "On the free plan, you can play battles and adventures from a phrasebook up to 3 times a day (separate from the wordbook limit)."
+  },
+  {
+   "tag": "li",
+   "ja": "モチタンのフレーズ帳詳細にある「モチスピでプレイ」から、モチスピに移動してプレイできます。",
+   "en": "From \"Play in Motispi\" in a Motitan phrasebook's details, you can jump to Motispi and play."
+  },
+  {
+   "tag": "p",
+   "ja": "<span class=\"steps__label\">操作手順：</span>\n        <span class=\"steps__path\">フレーズ帳 &gt; フレーズ帳詳細 &gt; 対戦/冒険をプレイ &gt; プレイ設定 &gt; 対戦</span>",
+   "en": "<span class=\"steps__label\">How to play:</span> <span class=\"steps__path\">Phrasebook &gt; Phrasebook Details &gt; Play Battle/Adventure &gt; Play Settings &gt; Battle</span>"
+  },
+  {
+   "tag": "p",
+   "ja": "※「対戦」を選択した後に「スタート」を押します。",
+   "en": "* After selecting \"Battle\", tap \"Start\"."
+  },
+  {
+   "tag": "p",
+   "ja": "移動中や画面を閉じているときも学習を続けられる心地よさ、そして覚えた表現をすぐに対戦で使える楽しさにこだわって作りました。",
+   "en": "We built this around two things: the comfort of learning even while on the move or with the screen closed, and the fun of using the expressions you've just learned in a battle right away."
+  },
+  {
+   "tag": "p",
+   "ja": "開発者 神谷創",
+   "en": "Sou Kamiya, Developer"
+  },
+  {
+   "tag": "attr:content",
+   "ja": "自動再生を改善し、フレーズ帳から対戦をプレイできるようになりました",
+   "en": "Better Auto-Play, and Battles from Your Phrasebook"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "自動再生改善・フレーズ対戦追加",
+   "en": "Better auto-play, phrase battles added"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "単語詳細の自動再生設定。再生速度（倍）を 0.5 から 3.0 まで選べる",
+   "en": "Auto-play settings in word details. Playback speed (x) can be set from 0.5 to 3.0"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "フレーズ帳のプレイ設定で対戦を選んだ画面",
+   "en": "Play settings screen in a phrasebook with Battle selected"
+  }
+ ]
+}

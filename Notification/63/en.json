@@ -1,0 +1,57 @@
+{
+ "title": {
+  "ja": "ご褒美ガチャで限定モチベアをGET🎁｜モチタウン",
+  "en": "Get a Limited Motibear from the Reward Gacha 🎁 | Motitown"
+ },
+ "list_title": {
+  "ja": "ご褒美ガチャで限定モチベアをGET🎁",
+  "en": "Get a Limited Motibear from the Reward Gacha 🎁"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "ご褒美ガチャで限定モチベアをGET🎁",
+   "en": "Get a Limited Motibear from the Reward Gacha 🎁"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello~！モチベアだよ！いつも一生懸命がんばってるキミへご褒美ガチャをプレゼントするよ！",
+   "en": "Hello! It's Motibear! Here's a reward gacha for you, since you always work so hard!"
+  },
+  {
+   "tag": "p",
+   "ja": "なんと、今回だけの限定モチベア4体の中から、1体が必ず当たるんだ！",
+   "en": "You're guaranteed to get 1 of 4 limited Motibears available only this time!"
+  },
+  {
+   "tag": "p",
+   "ja": "どのぼくがキミの手元にやってきたかな？",
+   "en": "Which me came to you?"
+  },
+  {
+   "tag": "p",
+   "ja": "掲示板でゲットしたモチベアの報告も待ってるよ〜！",
+   "en": "I'd love to see your Motibear reports on the board too!"
+  },
+  {
+   "tag": "p",
+   "ja": "もし今回手に入らなかったぼくたちも、今後どこかで再登場するかも...？<br/>楽しみにしててね！",
+   "en": "And the ones you didn't get this time might show up again somewhere down the road...<br/>Stay tuned!"
+  },
+  {
+   "tag": "p",
+   "ja": "※ガチャ排出確率：4体均等の25 %",
+   "en": "* Gacha rates: 25% each for the 4 characters"
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "ご褒美ガチャで限定モチベアをGET🎁",
+   "en": "Get a Limited Motibear from the Reward Gacha 🎁"
+  }
+ ]
+}

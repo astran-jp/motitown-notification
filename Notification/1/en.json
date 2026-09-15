@@ -1,0 +1,42 @@
+{
+ "title": {
+  "ja": "リマインダー機能追加のご案内｜モチタウン",
+  "en": "Reminders Added | Motitown"
+ },
+ "list_title": {
+  "ja": "リマインダー機能追加のご案内",
+  "en": "Reminders Added"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "リマインダー機能追加のご案内",
+   "en": "Reminders Added"
+  },
+  {
+   "tag": "p",
+   "ja": "やっほー！今日も英単語の勉強頑張ってるね！",
+   "en": "Hey there! Great to see you studying your vocabulary today!"
+  },
+  {
+   "tag": "p",
+   "ja": "新しく、アプリにリマインダー機能を追加したよ！",
+   "en": "We've added a reminder feature to the app!"
+  },
+  {
+   "tag": "p",
+   "ja": "マイページ＞設定（歯車アイコン）＞プッシュ通知＞学習リマインダーから設定できて、指定した時間にボクから通知を送るよ！",
+   "en": "Set it up in Profile > Settings (gear icon) > Push Notifications > Learning Reminder, and I'll send you a notification at the time you choose!"
+  },
+  {
+   "tag": "p",
+   "ja": "この機能で英単語の勉強を習慣化しちゃおう！",
+   "en": "Use it to make vocabulary study a daily habit!"
+  },
+  {
+   "tag": "attr:content",
+   "ja": "リマインダー機能追加のご案内",
+   "en": "Reminders Added"
+  }
+ ]
+}

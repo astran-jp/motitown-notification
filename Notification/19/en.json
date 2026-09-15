@@ -1,0 +1,82 @@
+{
+ "title": {
+  "ja": "モチタウン機能が追加されたよ！｜モチタウン",
+  "en": "New Motitown Features! | Motitown"
+ },
+ "list_title": {
+  "ja": "モチタウン機能が追加されたよ！",
+  "en": "New Motitown Features!"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "モチタウンの機能が追加されたよ！",
+   "en": "New Motitown Features!"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello~！モチベアだよ！今日もモチタン頑張っててえらいね！",
+   "en": "Hello! It's Motibear! Way to go studying with Motitan today!"
+  },
+  {
+   "tag": "p",
+   "ja": "新しくモチタウンの機能が追加されたから紹介するね！",
+   "en": "We've added new features to Motitown, so let me introduce them!"
+  },
+  {
+   "tag": "p",
+   "ja": "<strong>【タイムライン】</strong>",
+   "en": "<strong>[Timeline]</strong>"
+  },
+  {
+   "tag": "p",
+   "ja": "自分やフレンドのさまざまな成長・達成の記録が表示されるよ。",
+   "en": "See your own and your friends' growth and achievements."
+  },
+  {
+   "tag": "p",
+   "ja": "気軽に「いいね」を送って、努力を讃え合おう！",
+   "en": "Send a quick \"Like\" and celebrate each other's hard work!"
+  },
+  {
+   "tag": "p",
+   "ja": "<strong>【アクティビティ】</strong>",
+   "en": "<strong>[Activity]</strong>"
+  },
+  {
+   "tag": "p",
+   "ja": "フレンドからもらったいいねや、フレンド申請などを確認できるよ！",
+   "en": "Check the Likes you've received from friends, friend requests, and more!"
+  },
+  {
+   "tag": "p",
+   "ja": "<strong>【ライフ】</strong>",
+   "en": "<strong>[Life]</strong>"
+  },
+  {
+   "tag": "p",
+   "ja": "ライフの送受信もモチタウンでできるようになったよ！",
+   "en": "You can now send and receive Life in Motitown too!"
+  },
+  {
+   "tag": "p",
+   "ja": "ライフを送り合って、みんなでたくさんプレイしよう！",
+   "en": "Send Life to each other and play lots together!"
+  },
+  {
+   "tag": "p",
+   "ja": "モチタウンでフレンドと交流してモチベを高め合おう！！",
+   "en": "Connect with friends in Motitown and keep each other motivated!"
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown"
+  },
+  {
+   "tag": "attr:content",
+   "ja": "モチタウン機能が追加されたよ！",
+   "en": "New Motitown Features!"
+  }
+ ]
+}

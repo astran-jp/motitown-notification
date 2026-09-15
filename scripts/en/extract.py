@@ -35,6 +35,23 @@ def segments(html):
     return out
 
 
+TEXT = re.compile(r">([^<>]*[぀-ヿ一-鿿][^<>]*)<")
+
+
+def text_nodes(html, segs):
+    """segments に含まれない日本語のテキストノード(span/div/button 等の中身)。build では同じ文字列をすべて置換する。"""
+    seen, out = set(), []
+    masked = re.sub(r"<style.*?</style>|<script.*?</script>|<!--.*?-->|<title>.*?</title>", lambda m: " " * len(m.group(0)), html, flags=re.S)
+    for m in TEXT.finditer(masked):
+        if any(s["start"] <= m.start(1) < s["end"] for s in segs):
+            continue
+        t = m.group(1).strip()
+        if t and t not in seen:
+            seen.add(t)
+            out.append({"tag": "text", "ja": t})
+    return out
+
+
 def attrs(html):
     return [{"tag": "attr:" + m.group(1), "ja": m.group(2)} for m in ATTR.finditer(html)]
 
@@ -94,7 +111,10 @@ def main():
     fm = read_frontmatter(os.path.join(ROOT, d, "draft.md"))
     if fm.get("banner"):
         out["banner"] = pair(fm["banner"])
-    segs = [{"tag": s["tag"], **pair(s["ja"])} for s in segments(html)] + [{"tag": a["tag"], **pair(a["ja"])} for a in attrs(html)]
+    raw_segs = segments(html)
+    segs = ([{"tag": s["tag"], **pair(s["ja"])} for s in raw_segs]
+            + [{"tag": t["tag"], **pair(t["ja"])} for t in text_nodes(html, raw_segs)]
+            + [{"tag": a["tag"], **pair(a["ja"])} for a in attrs(html)])
     # <title> と同じ文字列は segments に含めない(title 側で訳す)
     out["segments"] = [s for s in segs if not (s["tag"] == "attr:content" and s["ja"] == out["title"]["ja"])]
     json.dump(out, open(out_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)

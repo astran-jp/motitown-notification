@@ -1,0 +1,72 @@
+{
+ "title": {
+  "ja": "掲示板に管理者機能が追加されたよ！｜モチタウン",
+  "en": "Board Moderators Added! | Motitown"
+ },
+ "list_title": {
+  "ja": "掲示板に管理者機能が追加されたよ！",
+  "en": "Board Moderators Added!"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "掲示板に管理者機能が追加されたよ！",
+   "en": "Board Moderators Added!"
+  },
+  {
+   "tag": "p",
+   "ja": "モチベアだよ！今日も英単語の勉強えらいね！",
+   "en": "It's Motibear! Way to go studying your vocabulary today!"
+  },
+  {
+   "tag": "p",
+   "ja": "おつかれ様！",
+   "en": "Great work!"
+  },
+  {
+   "tag": "p",
+   "ja": "高校の掲示板に管理者権限を追加したよ！",
+   "en": "We've added moderator privileges to high school boards!"
+  },
+  {
+   "tag": "p",
+   "ja": "毎週、週間BPが上位の3人は管理者になって、他のユーザーの投稿を削除できるようになったんだ！",
+   "en": "Each week, the top 3 players by weekly BP become moderators and can delete other users' posts!"
+  },
+  {
+   "tag": "p",
+   "ja": "万が一、不適切な投稿がなされた時は投稿を削除して、掲示板の平和を守ってね！",
+   "en": "If an inappropriate post ever shows up, delete it and keep the board peaceful!"
+  },
+  {
+   "tag": "p",
+   "ja": "【新機能概要】",
+   "en": "[New feature overview]"
+  },
+  {
+   "tag": "p",
+   "ja": "各高校の掲示板に管理者機能が追加されました。",
+   "en": "A moderator feature has been added to each high school's board."
+  },
+  {
+   "tag": "p",
+   "ja": "管理者には、管理者のラベルが表示されます。",
+   "en": "Moderators are shown with a moderator label."
+  },
+  {
+   "tag": "p",
+   "ja": "管理者は前週の週間BPの上位1位〜3位のユーザーに権限が付与されます。",
+   "en": "Moderator privileges go to the users ranked 1st to 3rd in the previous week's weekly BP."
+  },
+  {
+   "tag": "p",
+   "ja": "管理者は自身の高校の掲示板で他ユーザーの投稿を削除できます。",
+   "en": "Moderators can delete other users' posts on their own high school's board."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "掲示板に管理者機能が追加されたよ！",
+   "en": "Board Moderators Added!"
+  }
+ ]
+}

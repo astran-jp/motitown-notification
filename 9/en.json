@@ -1,0 +1,67 @@
+{
+ "title": {
+  "ja": "【モチスピ】リアルタイム添削機能が登場！｜モチタン",
+  "en": "[Motispi] Real-Time Corrections Are Here! | Motitown"
+ },
+ "list_title": {
+  "ja": "【モチスピ】リアルタイム添削機能が登場！<br/><br/>",
+  "en": "[Motispi] Real-time corrections are here!<br/><br/>"
+ },
+ "segments": [
+  {
+   "tag": "h1",
+   "ja": "【モチスピ】リアルタイム添削機能が登場！",
+   "en": "[Motispi] Real-Time Corrections Are Here!"
+  },
+  {
+   "tag": "p",
+   "ja": "モチスピで話すたびに、先生がフィードバックをその場でメモするようになりました！",
+   "en": "Every time you speak in Motispi, your teacher now jots down feedback on the spot!"
+  },
+  {
+   "tag": "p",
+   "ja": "あなたが話した英語に対して、",
+   "en": "For the English you speak, you can check:"
+  },
+  {
+   "tag": "li",
+   "ja": "文法のミス",
+   "en": "Grammar mistakes"
+  },
+  {
+   "tag": "li",
+   "ja": "発音の改善ポイント",
+   "en": "Pronunciation tips"
+  },
+  {
+   "tag": "li",
+   "ja": "自然な言い方",
+   "en": "More natural phrasing"
+  },
+  {
+   "tag": "p",
+   "ja": "を、会話の流れに合わせてチェックできます。",
+   "en": "All without breaking the flow of the conversation."
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "【モチスピ】リアルタイム添削機能が登場！",
+   "en": "[Motispi] Real-Time Corrections Are Here!"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "リアルタイム添削機能が登場！",
+   "en": "Real-time corrections are here!"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "お知らせの場所",
+   "en": "Where to find announcements"
+  }
+ ]
+}

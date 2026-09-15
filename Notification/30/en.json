@@ -1,0 +1,52 @@
+{
+ "title": {
+  "ja": "音楽を聴きながらプレイできるようになったよ！｜モチタウン",
+  "en": "You Can Now Play While Listening to Music! | Motitown"
+ },
+ "list_title": {
+  "ja": "音楽を聴きながらプレイできるようになったよ！",
+  "en": "You Can Now Play While Listening to Music!"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "音楽を聴きながらプレイできるようになったよ！",
+   "en": "You Can Now Play While Listening to Music!"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello~！モチベアだよ！今日もモチタンお疲れさま！",
+   "en": "Hello! It's Motibear! Nice work on Motitan today!"
+  },
+  {
+   "tag": "p",
+   "ja": "他の音楽アプリで好きな音楽を聴きながら、モチタンをプレイできるようになったよ！✨",
+   "en": "You can now play Motitan while listening to your favorite music in another music app! ✨"
+  },
+  {
+   "tag": "p",
+   "ja": "音楽アプリと同時に使えるよ！",
+   "en": "It works alongside your music app!"
+  },
+  {
+   "tag": "p",
+   "ja": "勉強しながら音楽を楽しみたい人は、ぜひ試してみてね！",
+   "en": "If you like studying with music, give it a try!"
+  },
+  {
+   "tag": "p",
+   "ja": "お気に入りの曲を聴きながらモチタンで英単語をたくさん覚えちゃおう！",
+   "en": "Learn lots of words with Motitan while enjoying your favorite songs!"
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "音楽を聴きながらプレイできるようになったよ！",
+   "en": "You Can Now Play While Listening to Music!"
+  }
+ ]
+}

@@ -1,2 +1,224 @@
-<!DOCTYPE html><!-- fallback: redirect to ja -->
-<html lang="ja"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=/1/"><link rel="canonical" href="https://motitown-notification.astran.jp/1/"><title>Redirecting…</title></head><body><a href="/1/">https://motitown-notification.astran.jp/1/</a></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>You Can Now Opt Out of the League! [Citizen League Settings Update] | Motitown</title>
+<meta property="og:title" content="You Can Now Opt Out of the League! [Citizen League Settings Update]">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0D4962;       /* タイトル・見出し */
+    --teal:#34C8D0;       /* アクセント／トグル */
+    --teal-d:#1F9AA2;
+    --page-bg:#E7F6FF;    /* ヘッダー背景の水色 */
+    --text:#2D3B43;
+    --sub:#5A6A72;        /* 注意書き */
+    --gray:#9AA3AA;       /* 日付 */
+    --line:#DCEAF0;
+    --card:#F4FBFD;
+    --nav-dark:#3A4750;   /* 設定画面のヘッダー */
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--page-bg);
+    font-family:"M PLUS Rounded 1c","Hiragino Maru Gothic ProN","Hiragino Kaku Gothic ProN","Yu Gothic","Noto Sans",-apple-system,BlinkMacSystemFont,sans-serif;
+    color:var(--text);
+    line-height:1.9;
+    -webkit-font-smoothing:antialiased;
+    word-break:break-word;
+  }
+  .wrap{max-width:430px;margin:0 auto;background:#fff;min-height:100vh;}
+
+  /* ===== ヘッダー画像（そのまま使用） ===== */
+  .header-img{display:block;width:100%;height:auto;background:var(--page-bg);}
+
+  /* ===== タイトル ===== */
+  .head{padding:22px 26px 8px;}
+  h1.title{
+    margin:0 0 12px;color:var(--navy);
+    font-weight:800;font-size:24px;line-height:1.5;letter-spacing:.01em;
+  }
+  .date{color:var(--gray);font-size:14px;font-weight:500;letter-spacing:.03em;}
+
+  /* ===== 本文 ===== */
+  .body{padding:8px 26px 34px;}
+  .lead{font-size:15.5px;margin:18px 0 8px;}
+  .lead .em{color:var(--navy);font-weight:700;}
+
+  h2.sec{
+    margin:40px 0 10px;color:var(--navy);
+    font-weight:800;font-size:20px;line-height:1.45;
+  }
+  h3.sub{margin:26px 0 8px;color:var(--navy);font-weight:800;font-size:16px;}
+  p.txt{font-size:15px;margin:0 0 14px;}
+  .em{color:var(--navy);font-weight:700;}
+
+  /* チェックリスト */
+  ul.list{list-style:none;margin:6px 0 4px;padding:0;}
+  ul.list li{position:relative;padding:9px 0 9px 30px;font-size:15px;border-bottom:1px dashed var(--line);}
+  ul.list li:last-child{border-bottom:none;}
+  ul.list li::before{
+    content:"";position:absolute;left:2px;top:13px;width:18px;height:18px;border-radius:50%;
+    background:var(--teal);
+    -webkit-mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='white' d='M9.5 16.2 5.3 12l-1.4 1.4 5.6 5.6 12-12-1.4-1.4z'/></svg>") center/13px no-repeat;
+            mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='white' d='M9.5 16.2 5.3 12l-1.4 1.4 5.6 5.6 12-12-1.4-1.4z'/></svg>") center/13px no-repeat;
+  }
+
+  /* キャプション */
+  .cap{font-size:12.5px;color:var(--sub);margin:8px 2px 0;}
+  .inline-note{font-size:13px;color:var(--sub);background:var(--card);border-radius:10px;padding:10px 14px;margin:14px 0 0;}
+
+  /* ===== 画面モック（スクショ風カード） ===== */
+  .shot{
+    border:1px solid var(--line);border-radius:18px;overflow:hidden;
+    margin:14px 0 4px;box-shadow:0 6px 18px rgba(13,73,98,.06);
+  }
+  /* スマホ設定画面 */
+  .scr-status{
+    background:var(--nav-dark);color:#fff;display:flex;align-items:center;justify-content:space-between;
+    font-size:12px;font-weight:700;padding:7px 16px 2px;
+  }
+  .scr-status .dots{letter-spacing:1px;font-size:11px;}
+  .scr-nav{
+    background:var(--nav-dark);color:#fff;text-align:center;font-weight:800;font-size:16px;
+    padding:6px 0 12px;position:relative;
+  }
+  .scr-nav .back{position:absolute;left:16px;top:3px;font-size:22px;font-weight:600;}
+  .scr-body{background:#fff;padding:18px 16px 26px;min-height:120px;}
+  .setting-card{
+    display:flex;align-items:center;justify-content:space-between;
+    background:#fff;border:1.6px solid #CFEBEF;border-radius:14px;padding:15px 16px;
+  }
+  .setting-card .lab{font-weight:700;font-size:15px;color:#2D3B43;}
+  .switch{width:50px;height:29px;border-radius:999px;background:var(--teal);position:relative;flex:none;}
+  .switch::after{content:"";position:absolute;top:3px;right:3px;width:23px;height:23px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.25);}
+  .switch.off{background:#CAD4DA;}
+  .switch.off::after{right:auto;left:3px;}
+  .scr-hint{text-align:center;font-size:11px;color:#9AA3AA;margin-top:14px;}
+
+  /* ===== Before / After 比較 ===== */
+  .ba{display:flex;align-items:stretch;gap:8px;margin:14px 0 4px;}
+  .ba-col{flex:1;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff;}
+  .ba-tag{font-weight:800;font-size:12.5px;text-align:center;padding:7px;color:#fff;}
+  .ba-tag.on{background:var(--teal);}
+  .ba-tag.off{background:#9AA3AA;}
+  .ba-inner{padding:12px 12px 14px;}
+  .name-row{display:flex;align-items:center;gap:7px;}
+  .ava{width:30px;height:30px;border-radius:50%;background:#BDE9F6;flex:none;}
+  .name-row .nm{font-weight:800;font-size:12.5px;color:#2D3B43;}
+  .lg-badge{
+    display:inline-flex;align-items:center;gap:3px;background:#FFF4D6;border:1px solid #F2D98A;
+    color:#B8860B;font-weight:800;font-size:10.5px;border-radius:999px;padding:2px 7px;margin-top:7px;
+  }
+  .lg-badge .dot{width:11px;height:11px;border-radius:50%;background:linear-gradient(135deg,#FFD86B,#E8A92B);display:inline-block;}
+  .lg-card{margin-top:11px;background:#F4FBFD;border-radius:11px;padding:9px 11px;}
+  .lg-card .t{font-size:10.5px;color:var(--navy);font-weight:800;}
+  .lg-card .r{font-size:14px;color:#2D3B43;font-weight:800;margin-top:1px;}
+  .removed{display:flex;align-items:center;justify-content:center;min-height:30px;color:#AEB8BE;font-size:11px;font-weight:700;}
+  .lg-card.gone{background:#F2F5F7;border:1px dashed #D6DEE2;}
+  .ba-mid{font-size:11px;color:#9AA3AA;text-align:center;margin:6px 2px 0;}
+
+  /* ===== 注意書き ===== */
+  .notes{margin-top:36px;border-top:1px solid var(--line);padding-top:18px;}
+  .notes p{font-size:13px;color:var(--sub);margin:0 0 9px;padding-left:1.1em;text-indent:-1.1em;line-height:1.7;}
+
+  .foot{text-align:center;color:var(--gray);font-size:11.5px;padding:24px 24px 38px;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- ヘッダー画像（モチベア） -->
+    <img class="header-img" src="../../1/assets/header.webp" alt="Motibear" width="1172" height="345">
+
+    <!-- タイトル -->
+    <div class="head">
+      <h1 class="title">You Can Now Opt Out of the League!<br>[Citizen League Settings Update]</h1>
+      <div class="date">2026/05/27 12:00</div>
+    </div>
+
+    <!-- 本文 -->
+    <main class="body">
+      <p class="lead">
+        Hello! It's Motibear!<br>With this update, you can now <span class="em">choose whether to join the Citizen League</span>! If the rankings stress you out, you can now learn at your own pace.
+      </p>
+
+      <!-- 1. 設定方法 -->
+      <h2 class="sec">Easy to switch in "Citizen League Settings"</h2>
+      <p class="txt">
+        Just open <span class="em">Profile → Settings → "Citizen League Settings"</span> and flip the switch! You can change it anytime, as often as you like.
+      </p>
+
+      <div class="shot">
+        <div class="scr-status"><span>9:41</span><span class="dots">●●● 📶 ▮▮▮</span></div>
+        <div class="scr-nav"><span class="back">‹</span>Citizen League Settings</div>
+        <div class="scr-body">
+          <div class="setting-card">
+            <span class="lab">Join Citizen League</span>
+            <span class="switch" aria-label="On"></span>
+          </div>
+          <div class="scr-hint">▲ Turning the switch off means "not participating"</div>
+        </div>
+      </div>
+
+      <!-- 2. オフにしたとき -->
+      <h2 class="sec">When it's off (not participating)…</h2>
+      <p class="txt">Turn it off whenever you want a break from the league. Here's what changes 👇</p>
+      <ul class="list">
+        <li><span class="em">Starting the next week</span>, you won't be placed in a league.</li>
+        <li>The <span class="em">league badge</span> next to your name disappears.</li>
+        <li><span class="em">League info is no longer shown</span> on your Profile or Home.</li>
+        <li>You won't see that week's league results or <span class="em">promotion and demotion notices</span> either.</li>
+      </ul>
+
+      <h3 class="sub">Here's how the badge and league display change</h3>
+      <div class="ba">
+        <div class="ba-col">
+          <div class="ba-tag on">Participating</div>
+          <div class="ba-inner">
+            <div class="name-row"><span class="ava"></span><span class="nm">motitantaro</span></div>
+            <span class="lg-badge"><span class="dot"></span>Gold</span>
+            <div class="lg-card"><div class="t">Citizen League</div><div class="r">#3,200</div></div>
+          </div>
+        </div>
+        <div class="ba-col">
+          <div class="ba-tag off">Not participating</div>
+          <div class="ba-inner">
+            <div class="name-row"><span class="ava"></span><span class="nm">motitantaro</span></div>
+            <div class="lg-card gone"><div class="removed">Badge and league hidden</div></div>
+          </div>
+        </div>
+      </div>
+      <p class="ba-mid">The badge disappears and league info is no longer shown</p>
+
+      <div class="inline-note">
+        * The week you switch it off still counts as participating. You leave the league<b>from the next week</b>.
+      </div>
+
+      <!-- 3. オンにしたとき -->
+      <h2 class="sec">When you turn it back on (rejoining)…</h2>
+      <p class="txt">Whenever you want to come back, just turn it on again!</p>
+      <ul class="list">
+        <li>You'll rejoin the league <span class="em">the next time you earn BP</span>.</li>
+        <li>You'll be placed in a <span class="em">league at a similar level</span>, based on your results from the last week you took part.</li>
+      </ul>
+
+      <!-- 注意書き -->
+      <div class="notes">
+        <p>* You can switch this setting on and off at any time.</p>
+        <p>* While you're not participating, you can still learn and earn BP as usual.</p>
+        <p>* You can find past announcements in the mailbox at the top right of Motitown.</p>
+      </div>
+    </main>
+
+    <div class="foot">© Motitan</div>
+
+  </div>
+</body>
+</html>

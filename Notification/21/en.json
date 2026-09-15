@@ -1,0 +1,57 @@
+{
+ "title": {
+  "ja": "ユーザーIDが新しくなったよ！｜モチタウン",
+  "en": "User IDs Have a New Look! | Motitown"
+ },
+ "list_title": {
+  "ja": "ユーザーIDが新しくなったよ！",
+  "en": "User IDs Have a New Look!"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "ユーザーIDが新しくなったよ！",
+   "en": "User IDs Have a New Look!"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello~！モチベアだよ！今日もモチタン頑張ってるね！",
+   "en": "Hello! It's Motibear! Great to see you studying with Motitan today!"
+  },
+  {
+   "tag": "p",
+   "ja": "ユーザーIDの表示形式が変わったよ！",
+   "en": "The format of user IDs has changed!"
+  },
+  {
+   "tag": "p",
+   "ja": "【変更前】モチベア#1234",
+   "en": "[Before] Motibear#1234"
+  },
+  {
+   "tag": "p",
+   "ja": "【変更後】@a12345（英字1文字 + 数字5文字）",
+   "en": "[After] @a12345 (1 letter + 5 digits)"
+  },
+  {
+   "tag": "p",
+   "ja": "新しいユーザーIDは自動的にランダムで割り当てられるよ。",
+   "en": "Your new user ID is assigned automatically at random."
+  },
+  {
+   "tag": "p",
+   "ja": "新しくなったユーザーIDで友達を招待しちゃおう！",
+   "en": "Invite your friends with your new user ID!"
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown"
+  },
+  {
+   "tag": "attr:content",
+   "ja": "ユーザーIDが新しくなったよ！",
+   "en": "User IDs Have a New Look!"
+  }
+ ]
+}

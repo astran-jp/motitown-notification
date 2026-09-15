@@ -1,0 +1,62 @@
+{
+ "title": {
+  "ja": "英単語の情報が追加されたよ！｜モチタウン",
+  "en": "More Word Information Added! | Motitown"
+ },
+ "list_title": {
+  "ja": "英単語の情報が追加されたよ！",
+  "en": "More Word Information Added!"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "英単語の情報が追加されたよ！",
+   "en": "More Word Information Added!"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello~！モチベアだよ！今日もモチタンおつかれさま！",
+   "en": "Hello! It's Motibear! Nice work on Motitan today!"
+  },
+  {
+   "tag": "p",
+   "ja": "単語詳細ページに英単語の情報が追加されたよ！",
+   "en": "We've added more information to the word detail page!"
+  },
+  {
+   "tag": "p",
+   "ja": "【追加された情報】",
+   "en": "[Added information]"
+  },
+  {
+   "tag": "p",
+   "ja": "・発音記号<br/>・意味<br/>・例文と和訳<br/>・関連語（類義語と↔︎対義語）<br/>・使い方<br/>・ニュアンス<br/>・英英辞典の意味",
+   "en": "• Phonetic symbols<br/>• Meanings<br/>• Example sentences with translations<br/>• Related words (synonyms and ↔︎ antonyms)<br/>• Usage<br/>• Nuance<br/>• English-English dictionary definitions"
+  },
+  {
+   "tag": "p",
+   "ja": "※単語によって、一部の情報が存在しない場合があります。",
+   "en": "* Some information may not be available for every word."
+  },
+  {
+   "tag": "p",
+   "ja": "英単語の情報が増えたから、単語の意味や使い方をもっと深く理解できるよ！",
+   "en": "With more word information, you can understand meanings and usage more deeply!"
+  },
+  {
+   "tag": "p",
+   "ja": "詳細情報もインプットしちゃおう！",
+   "en": "Take in the details too!"
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown"
+  },
+  {
+   "tag": "attr:content",
+   "ja": "英単語の情報が追加されたよ！",
+   "en": "More Word Information Added!"
+  }
+ ]
+}

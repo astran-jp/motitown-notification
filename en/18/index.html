@@ -1,2 +1,247 @@
-<!DOCTYPE html><!-- fallback: redirect to ja -->
-<html lang="ja"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=/18/"><link rel="canonical" href="https://motitown-notification.astran.jp/18/"><title>Redirecting…</title></head><body><a href="/18/">https://motitown-notification.astran.jp/18/</a></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- news 本体 (motitown.com/news/) の HTML を .site にそのまま流し込んでいるため、
+     相対URL (news.css / data.js / assets / 各リンク) をすべて本体側に解決させる。
+     このページ自身の参照 (favicon・バナー) は base の影響を受けないよう絶対URLにすること -->
+<base href="https://motitown.com/news/">
+<link rel="icon" type="image/png" href="https://motitown-notification.astran.jp/favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Motitown Now | Motitown</title>
+<meta property="og:title" content="Motitown Now">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Noto+Sans:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../18/news.css?v=auto-202608141722">
+<style>
+  /* news.css の後に読み、お知らせ部分のスタイルはこちらを優先させる */
+  :root{
+    --navy:#0D4962;
+    --date:#7C878A;
+    --line:#99A7AA;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  img{max-width:100%;}
+  body{
+    background:#fff;
+    font-family:"Noto Sans",-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+    color:var(--navy);
+    -webkit-font-smoothing:antialiased;
+    word-break:break-word;
+  }
+
+  /* 流動カラム：固定px幅を持たせずレスポンシブに */
+  .wrap{width:100%;max-width:430px;margin:0 auto;background:#fff;}
+
+  /* ヘッダーバナー（全幅・比率維持）＋下方向のシャドウ。
+     画像未配置時も崩れないようフォールバック背景を敷く */
+  .banner{
+    display:block;width:100%;height:auto;position:relative;z-index:1;
+    background:linear-gradient(180deg,#DCF1FF 0%,#F4FBFF 100%);
+    box-shadow:0 4px 6px rgba(0,0,0,.12);
+  }
+
+  /* 本文コンテナ：左右パディングで余白を作る */
+  .content{padding:14px 22px 26px;}
+
+  h1.title{margin:0 0 8px;color:var(--navy);font-weight:700;font-size:20px;line-height:1.5;letter-spacing:.02em;}
+  .date{color:var(--date);font-size:16.5px;line-height:1.4;letter-spacing:.02em;margin:0 0 18px;}
+
+  p.lead{font-size:15.5px;line-height:1.9;letter-spacing:.02em;margin:18px 0;}
+
+  /* トピック見出し（左のネイビーバー＋薄い水色の下線）。
+     news.css の .section と衝突しないよう subhead という別名にする */
+  h3.subhead{
+    display:flex;align-items:center;gap:10px;
+    margin:32px 0 8px;padding:0 0 8px;border-bottom:2px solid #DCF1FF;
+    color:var(--navy);font-weight:700;font-size:18px;line-height:1.5;letter-spacing:.02em;
+  }
+  h3.subhead::before{
+    content:"";flex:0 0 auto;width:5px;height:1.2em;border-radius:3px;background:var(--navy);
+  }
+
+  /* サイトへのリンクバナー（角丸はやわらかいシャドウで強調） */
+  a.banner-link{display:block;margin:24px 0 8px;}
+  .banner-link img{
+    display:block;width:100%;height:auto;
+    border-radius:16px;
+    box-shadow:0 5px 12px rgba(147,149,169,.35);
+  }
+
+  /* news 本体の流し込み先。本体と同じクリーム地を敷いておく */
+  .site{background:#FFF9EE;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- ヘッダーバナー：Welcome to Motitown! モチタウン -->
+    <img class="banner" src="https://motitown-notification.astran.jp/en/18/assets/header.png" alt="Welcome to Motitown! The town where "learning apps that are way too fun" are born" width="1170" height="513">
+
+    <div class="content">
+
+      <h1 class="title">Motitown Now</h1>
+      <p class="date">2026/8/14 19:00</p>
+
+      <p class="lead">We've launched a page that shows what's happening "now" in Motitan and Motispi.</p>
+
+      <p class="lead">Upcoming updates, fun stats, our history, popular courses, popular characters, busy hours and more. Everything you're curious about, updated daily.</p>
+
+      <p class="lead">* You can also open it from the "Motitown Now" banner on Home.</p>
+
+      <!-- サイトへのリンクバナー -->
+      <a class="banner-link" href="https://motitown.com/news/">
+        <img src="https://motitown-notification.astran.jp/en/18/assets/banner.png" alt="Motitown Now" width="730" height="256">
+      </a>
+
+      <h3 class="subhead">Site preview</h3>
+
+    </div>
+
+    <!-- ============================================================
+         ここから news 本体 (https://motitown.com/news/) の main をそのまま流し込み。
+         元ソース: branding_pages/src/news/index.html
+         ============================================================ -->
+    <div class="site">
+
+      <main class="now">
+
+        <!-- ============ Hero: 累計プレイヤー数 ============ -->
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero__sky" aria-hidden="true">
+            <span class="hero__cloud hero__cloud--1"></span>
+            <span class="hero__cloud hero__cloud--2"></span>
+            <span class="hero__cloud hero__cloud--3"></span>
+          </div>
+          <div class="hero__inner">
+            <p class="hero__eyebrow" aria-hidden="true">Motitown Now</p>
+            <h1 class="hero__title" id="hero-title">Motitown Now</h1>
+            <div class="hero__stat">
+              <img class="hero__bear" src="../../18/../motitan/assets/images/hero/motibear-fun.png" alt="" role="presentation" width="160" height="160" decoding="async">
+              <p class="hero__stat-label">People learning with Motitan and Motispi</p>
+              <p class="hero__stat-value">
+                <span class="hero__stat-number" id="js-total-players" data-count="0">0</span><span class="hero__stat-unit"> players</span>
+              </p>
+              <p class="hero__updated" id="js-updated-at"></p>
+            </div>
+
+            <div class="hero__ranks" id="js-hero-ranks"></div>
+          </div>
+          <div class="hero__hill" aria-hidden="true"></div>
+        </section>
+
+        <!-- ============ アップデート予定 ============ -->
+        <section class="section roadmap" aria-labelledby="roadmap-title">
+          <div class="section__inner">
+            <p class="section__eyebrow" aria-hidden="true">Coming Up!</p>
+            <h2 class="section__title" id="roadmap-title">Upcoming Updates</h2>
+            <p class="section__lead">News on what's coming next, straight from the Motitown construction site.</p>
+            <div id="js-roadmap-groups"></div>
+          </div>
+        </section>
+
+        <!-- ============ データいろいろ ============ -->
+        <section class="section fundata" aria-labelledby="fundata-title">
+          <div class="section__inner">
+            <p class="section__eyebrow" aria-hidden="true">Fun Data</p>
+            <h2 class="section__title" id="fundata-title">All Kinds of Data</h2>
+            <p class="section__lead">Updated daily. Records we've all built together.</p>
+            <div class="fundata__grid" id="js-fundata-grid"></div>
+            <div class="section__more">
+              <a class="more-link" href="../../18/data/">
+                See more
+                <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M5 12h14m-6-7 7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============ モチタウンの歴史 ============ -->
+        <section class="section history" aria-labelledby="history-title">
+          <div class="section__inner">
+            <p class="section__eyebrow" aria-hidden="true">Our Story</p>
+            <h2 class="section__title" id="history-title">The History of Motitown</h2>
+            <p class="section__lead">In the winter of 2022, this town began as a small, nameless construction site.</p>
+            <ol class="history__mini" id="js-history-mini"></ol>
+            <div class="section__more">
+              <a class="more-link" href="../../18/history/">
+                Read all
+                <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M5 12h14m-6-7 7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============ 年齢分布 ============ -->
+        <section class="section ages" aria-labelledby="ages-title">
+          <div class="section__inner">
+            <p class="section__eyebrow" aria-hidden="true">Who lives here?</p>
+            <h2 class="section__title" id="ages-title">Player Age Distribution</h2>
+            <div class="ages__chart" id="js-ages-chart" role="img" aria-label="Bar chart of players by age group"></div>
+          </div>
+        </section>
+
+        <!-- ============ 人気コース ============ -->
+        <section class="section courses" aria-labelledby="courses-title">
+          <div class="section__inner">
+            <p class="section__eyebrow" aria-hidden="true">Popular Courses</p>
+            <h2 class="section__title" id="courses-title">Popular Courses</h2>
+            <p class="section__lead">Which courses is everyone learning? Here's the share of course registrations.</p>
+            <ol class="courses__list" id="js-courses-list"></ol>
+          </div>
+        </section>
+
+        <!-- ============ 都道府県分布 ============ -->
+        <section class="section map" aria-labelledby="map-title">
+          <div class="section__inner">
+            <p class="section__eyebrow" aria-hidden="true">All over Japan!</p>
+            <h2 class="section__title" id="map-title">Friends in Every Region</h2>
+            <div class="map__layout">
+              <div class="map__scroll">
+                <div class="map__grid" id="js-map-grid" role="img" aria-label="Map of Japan showing players by prefecture"></div>
+              </div>
+              <div class="map__side">
+                <p class="map__side-title">Prefectures with the most players</p>
+                <ol class="map__top" id="js-map-top"></ol>
+                <div class="map__legend" id="js-map-legend" aria-hidden="true"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============ Closing ============ -->
+        <section class="closing" aria-labelledby="closing-title">
+          <div class="closing__inner">
+            <h2 class="closing__title" id="closing-title">Motitown,<br class="closing__br-sp"> the town where learning is way too fun</h2>
+            <nav class="closing__apps" aria-label="App introduction page">
+              <a class="closing__app" href="../../18/../motitan/">
+                <img src="../../18/../assets/images/motitan-icon.png" alt="" width="320" height="320" loading="lazy" decoding="async">
+                <span>Motitan</span>
+              </a>
+              <a class="closing__app" href="../../18/../motispi/">
+                <img src="../../18/../assets/images/motispi-icon.png" alt="" width="320" height="320" loading="lazy" decoding="async">
+                <span>Motispi</span>
+              </a>
+            </nav>
+          </div>
+        </section>
+      </main>
+
+      <div class="tooltip" id="js-tooltip" role="tooltip" hidden></div>
+
+      <noscript>
+        <p style="text-align:center; padding: 24px;">JavaScript is required to display the data on this page.</p>
+      </noscript>
+    </div>
+    <!-- ここまで news 本体の流し込み -->
+
+  </div>
+
+  <script src="../../18/data.js?v=auto-202608141722"></script>
+  <script src="../../18/data-auto.js?v=auto-202608141722"></script>
+  <script src="../../18/news.js?v=auto-202608141722"></script>
+</body>
+</html>

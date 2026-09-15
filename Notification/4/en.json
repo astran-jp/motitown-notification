@@ -1,0 +1,77 @@
+{
+ "title": {
+  "ja": "毎日の更新時間を変更したよ｜モチタウン",
+  "en": "Daily Reset Time Changed | Motitown"
+ },
+ "list_title": {
+  "ja": "毎日の更新時間を変更したよ",
+  "en": "Daily Reset Time Changed"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "毎日の更新時間を変更したよ",
+   "en": "Daily Reset Time Changed"
+  },
+  {
+   "tag": "p",
+   "ja": "Hi! モチタン頑張ってるね！",
+   "en": "Hi! Great to see you studying with Motitan!"
+  },
+  {
+   "tag": "p",
+   "ja": "アプリ内の日付更新時間を当日24時から、翌朝4時に変更したよ！",
+   "en": "We've moved the app's daily reset from midnight to 4:00 a.m. the next morning!"
+  },
+  {
+   "tag": "p",
+   "ja": "主に、これらの機能の開始時間、終了時間が変化するよ！",
+   "en": "This mainly changes the start and end times of the following features:"
+  },
+  {
+   "tag": "p",
+   "ja": "【主な該当機能】",
+   "en": "[Main features affected]"
+  },
+  {
+   "tag": "p",
+   "ja": "連続学習日数",
+   "en": "Learning streak days"
+  },
+  {
+   "tag": "p",
+   "ja": "モチタン杯のランキング（BP獲得、ランキング期限）",
+   "en": "Motitan Cup rankings (BP earned, ranking deadlines)"
+  },
+  {
+   "tag": "p",
+   "ja": "月間ランキング",
+   "en": "Monthly rankings"
+  },
+  {
+   "tag": "p",
+   "ja": "月間ミッション",
+   "en": "Monthly missions"
+  },
+  {
+   "tag": "p",
+   "ja": "ライフ送付上限値の回復",
+   "en": "Recovery of the daily Life-sending limit"
+  },
+  {
+   "tag": "p",
+   "ja": "ログインボーナス",
+   "en": "Login bonus"
+  },
+  {
+   "tag": "p",
+   "ja": "これからもモチタンで楽しく英単語を勉強してね！",
+   "en": "Keep enjoying your vocabulary study with Motitan!"
+  },
+  {
+   "tag": "attr:content",
+   "ja": "毎日の更新時間を変更したよ",
+   "en": "Daily Reset Time Changed"
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "title": {
+  "ja": "【モチタン・モチスピ】モチタン・モチスピに新しい言語が追加されたよ！｜モチタン",
+  "en": "New Languages Added to Motitan and Motispi! | Motitown"
+ },
+ "list_title": {
+  "ja": "新しい言語が追加されたよ！",
+  "en": "New languages added!"
+ },
+ "segments": [
+  {
+   "tag": "h1",
+   "ja": "モチタン・モチスピに新しい言語が追加されたよ！",
+   "en": "New Languages Added to Motitan and Motispi!"
+  },
+  {
+   "tag": "p",
+   "ja": "英語以外にも、中国語・韓国語・フランス語・ドイツ語・スペイン語が学べるようになったよ！",
+   "en": "Besides English, you can now learn Chinese, Korean, French, German, and Spanish!"
+  },
+  {
+   "tag": "p",
+   "ja": "ホームの「言語を選ぶ」または<br>\n      マイページ ＞ 設定 ＞ 環境設定 ＞ 言語設定<br>\n      から切り替えてね！",
+   "en": "Switch it from \"Choose a language\" on Home or<br>Profile &gt; Settings &gt; Preferences &gt; Language Settings<br>whenever you like!"
+  },
+  {
+   "tag": "h2",
+   "ja": "環境設定",
+   "en": "Preferences"
+  },
+  {
+   "tag": "text",
+   "ja": "言語を",
+   "en": "Choose a"
+  },
+  {
+   "tag": "text",
+   "ja": "選ぶ",
+   "en": "language"
+  },
+  {
+   "tag": "text",
+   "ja": "設定",
+   "en": "Settings"
+  },
+  {
+   "tag": "text",
+   "ja": "学習設定",
+   "en": "Learning Settings"
+  },
+  {
+   "tag": "text",
+   "ja": "言語設定",
+   "en": "Language Settings"
+  },
+  {
+   "tag": "attr:content",
+   "ja": "モチタン・モチスピに新しい言語が追加されたよ！",
+   "en": "New Languages Added to Motitan and Motispi!"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "モチタン・モチスピに5つの言語が新登場",
+   "en": "5 new languages in Motitan and Motispi"
+  }
+ ]
+}

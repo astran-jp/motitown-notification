@@ -1,0 +1,58 @@
+{
+ "title": {
+  "ja": "【モチタン】アップデートのお願い｜モチタウン",
+  "en": "[Motitan] Please Update the App | Motitown"
+ },
+ "segments": [
+  {
+   "tag": "p",
+   "ja": "【モチタン】アップデートのお願い",
+   "en": "[Motitan] Please Update the App"
+  },
+  {
+   "tag": "p",
+   "ja": "アプリをアップデート",
+   "en": "Update the app"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello~！モチベアだよ！英単語頑張ってるね！",
+   "en": "Hello! It's Motibear! Keep up the great vocabulary work!"
+  },
+  {
+   "tag": "p",
+   "ja": "今回のアップデートは、以下の修正をしたよ！",
+   "en": "This update includes the following fixes:"
+  },
+  {
+   "tag": "p",
+   "ja": "●1年生モチベアがネイサンにならないように修正",
+   "en": "● Fixed First-Year Motibear turning into Nathan"
+  },
+  {
+   "tag": "p",
+   "ja": "●単語/フレーズの検索機能を改善",
+   "en": "● Improved word and phrase search"
+  },
+  {
+   "tag": "p",
+   "ja": "楽しく快適に学べるように、<strong>アプリを最新版にアップデートしてね！</strong>",
+   "en": "For fun, comfortable learning, <strong>please update the app to the latest version!</strong>"
+  },
+  {
+   "tag": "p",
+   "ja": "もし気付いたことがあれば、いつでもモチタンアプリ内のフィードバックから連絡してね！全部見させてもらってるよ！",
+   "en": "If you notice anything, let us know anytime through Feedback in the Motitan app! I read every one!"
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "【モチタン】アップデートのお願い",
+   "en": "[Motitan] Please Update the App"
+  }
+ ]
+}

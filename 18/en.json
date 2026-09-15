@@ -1,0 +1,167 @@
+{
+ "title": {
+  "ja": "【モチタウン】モチタウンのいま｜モチタウン",
+  "en": "Motitown Now | Motitown"
+ },
+ "list_title": {
+  "ja": "「モチタウンのいま」スタート！",
+  "en": "\"Motitown Now\" is here!"
+ },
+ "segments": [
+  {
+   "tag": "h1",
+   "ja": "モチタウンのいま",
+   "en": "Motitown Now"
+  },
+  {
+   "tag": "p",
+   "ja": "モチタン・モチスピの「いま」がわかるページをスタート。",
+   "en": "We've launched a page that shows what's happening \"now\" in Motitan and Motispi."
+  },
+  {
+   "tag": "p",
+   "ja": "アプデ予定、楽しいデータ、歴史、人気のコース、人気のキャラ、混んでる時間帯などなど、ユーザーの皆様の気になる情報を、毎日更新します。",
+   "en": "Upcoming updates, fun stats, our history, popular courses, popular characters, busy hours and more. Everything you're curious about, updated daily."
+  },
+  {
+   "tag": "p",
+   "ja": "※ホームの「モチタウンのいま」常設バナーからもご覧いただけます。",
+   "en": "* You can also open it from the \"Motitown Now\" banner on Home."
+  },
+  {
+   "tag": "h3",
+   "ja": "サイトプレビュー",
+   "en": "Site preview"
+  },
+  {
+   "tag": "h1",
+   "ja": "モチタウンのいま",
+   "en": "Motitown Now"
+  },
+  {
+   "tag": "p",
+   "ja": "モチタン・モチスピで学んでる人",
+   "en": "People learning with Motitan and Motispi"
+  },
+  {
+   "tag": "p",
+   "ja": "<span class=\"hero__stat-number\" id=\"js-total-players\" data-count=\"0\">0</span><span class=\"hero__stat-unit\">人</span>",
+   "en": "<span class=\"hero__stat-number\" id=\"js-total-players\" data-count=\"0\">0</span><span class=\"hero__stat-unit\"> players</span>"
+  },
+  {
+   "tag": "h2",
+   "ja": "アップデート予定",
+   "en": "Upcoming Updates"
+  },
+  {
+   "tag": "p",
+   "ja": "モチタウンの工事現場から、これからの予定をお知らせ。",
+   "en": "News on what's coming next, straight from the Motitown construction site."
+  },
+  {
+   "tag": "h2",
+   "ja": "データいろいろ",
+   "en": "All Kinds of Data"
+  },
+  {
+   "tag": "p",
+   "ja": "毎日更新、みんなで積み上げた記録。",
+   "en": "Updated daily. Records we've all built together."
+  },
+  {
+   "tag": "h2",
+   "ja": "モチタウンの歴史",
+   "en": "The History of Motitown"
+  },
+  {
+   "tag": "p",
+   "ja": "2022年の冬、名前もない小さな工事現場から、この街ははじまりました。",
+   "en": "In the winter of 2022, this town began as a small, nameless construction site."
+  },
+  {
+   "tag": "h2",
+   "ja": "プレイヤーの年齢分布",
+   "en": "Player Age Distribution"
+  },
+  {
+   "tag": "h2",
+   "ja": "人気のコース",
+   "en": "Popular Courses"
+  },
+  {
+   "tag": "p",
+   "ja": "みんなはどのコースで学んでいる？　コース登録の割合です。",
+   "en": "Which courses is everyone learning? Here's the share of course registrations."
+  },
+  {
+   "tag": "h2",
+   "ja": "全ての地域に仲間がいる",
+   "en": "Friends in Every Region"
+  },
+  {
+   "tag": "p",
+   "ja": "プレイヤーが多い都道府県",
+   "en": "Prefectures with the most players"
+  },
+  {
+   "tag": "h2",
+   "ja": "たのしすぎる学習の街、<br class=\"closing__br-sp\">モチタウン",
+   "en": "Motitown,<br class=\"closing__br-sp\"> the town where learning is way too fun"
+  },
+  {
+   "tag": "p",
+   "ja": "このページのデータ表示には JavaScript が必要です。",
+   "en": "JavaScript is required to display the data on this page."
+  },
+  {
+   "tag": "text",
+   "ja": "もっと見る",
+   "en": "See more"
+  },
+  {
+   "tag": "text",
+   "ja": "ぜんぶ読む",
+   "en": "Read all"
+  },
+  {
+   "tag": "text",
+   "ja": "モチタン",
+   "en": "Motitan"
+  },
+  {
+   "tag": "text",
+   "ja": "モチスピ",
+   "en": "Motispi"
+  },
+  {
+   "tag": "attr:content",
+   "ja": "モチタウンのいま",
+   "en": "Motitown Now"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "Welcome to Motitown! モチタウン “楽しすぎる学習アプリ”の生まれる街",
+   "en": "Welcome to Motitown! The town where \"learning apps that are way too fun\" are born"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "モチタウンのいま",
+   "en": "Motitown Now"
+  },
+  {
+   "tag": "attr:aria-label",
+   "ja": "年齢層別のプレイヤー数の棒グラフ",
+   "en": "Bar chart of players by age group"
+  },
+  {
+   "tag": "attr:aria-label",
+   "ja": "都道府県別プレイヤー数の日本地図",
+   "en": "Map of Japan showing players by prefecture"
+  },
+  {
+   "tag": "attr:aria-label",
+   "ja": "アプリの紹介ページ",
+   "en": "App introduction page"
+  }
+ ]
+}

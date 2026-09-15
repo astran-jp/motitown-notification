@@ -1,0 +1,47 @@
+{
+ "title": {
+  "ja": "【モチスピ】ネイサンがあなたのことを覚えてくれるようになりました！｜モチタン",
+  "en": "[Motispi] Nathan Now Remembers You! | Motitown"
+ },
+ "list_title": {
+  "ja": "【モチスピ】ネイサンがあなたのことを覚えてくれるようになりました！",
+  "en": "[Motispi] Nathan now remembers you!"
+ },
+ "segments": [
+  {
+   "tag": "h1",
+   "ja": "【モチスピ】ネイサンがあなたのことを覚えてくれるようになりました！",
+   "en": "[Motispi] Nathan now remembers you!"
+  },
+  {
+   "tag": "p",
+   "ja": "先生の記憶力が良くなりました。フリートークで話したことを、先生が長い間覚えています。",
+   "en": "Your teacher's memory has improved. He'll remember what you talked about in Free Talk for a long time."
+  },
+  {
+   "tag": "p",
+   "ja": "自分の好きなこと、興味のあること、最近頑張っていること、ネイサンとの関係性など、自由に話してみましょう！",
+   "en": "Feel free to tell him what you like, what you're into, what you've been working on lately, or how you two get along!"
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "【モチスピ】ネイサンがあなたのことを覚えてくれるようになりました！",
+   "en": "[Motispi] Nathan now remembers you!"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "ネイサンがあなたのことを覚えてくれるようになりました！",
+   "en": "Nathan now remembers you!"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "お知らせの場所",
+   "en": "Where to find announcements"
+  }
+ ]
+}

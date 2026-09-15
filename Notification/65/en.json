@@ -1,0 +1,102 @@
+{
+ "title": {
+  "ja": "【新機能✨】学習レコード機能リリース！｜モチタウン",
+  "en": "[New ✨] Learning Record Is Here! | Motitown"
+ },
+ "list_title": {
+  "ja": "【新機能✨】学習レコード機能リリース！",
+  "en": "[New ✨] Learning Record Is Here!"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "【新機能✨】学習レコード機能リリース！",
+   "en": "[New ✨] Learning Record Is Here!"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello~！モチベアだよ！新しい挑戦はワクワクするね！",
+   "en": "Hello! It's Motibear! New challenges are exciting, aren't they?"
+  },
+  {
+   "tag": "p",
+   "ja": "<strong>学習レコード</strong>が追加されたよ！✨",
+   "en": "<strong>Learning Record</strong> has been added! ✨"
+  },
+  {
+   "tag": "p",
+   "ja": "立てた目標を達成するまでの学習状況や、今のペースならあと何日で達成できるかが一目でわかるよ！",
+   "en": "See at a glance how you're progressing toward your goal and how many days until you reach it at your current pace!"
+  },
+  {
+   "tag": "p",
+   "ja": "ホーム真ん中左の「学習レコード」をタップして確認してね！",
+   "en": "Tap \"Learning Record\" on the middle left of Home to check it out!"
+  },
+  {
+   "tag": "h3",
+   "ja": "①：あなたの目標を設定しよう！",
+   "en": "1: Set your goal!"
+  },
+  {
+   "tag": "p",
+   "ja": "鉛筆アイコンから目標を設定できるよ！",
+   "en": "Set your goal from the pencil icon!"
+  },
+  {
+   "tag": "h3",
+   "ja": "<strong>②：今日の学習状況を知ろう</strong>！",
+   "en": "<strong>2: See today's learning</strong>!"
+  },
+  {
+   "tag": "p",
+   "ja": "鉛筆アイコンから１日の目標学習時間を設定できるよ！",
+   "en": "Set your daily learning time goal from the pencil icon!"
+  },
+  {
+   "tag": "p",
+   "ja": "時間によって目標単語数も変化するから自分のペースに合わせよう！",
+   "en": "Your target word count changes with the time, so match it to your pace!"
+  },
+  {
+   "tag": "p",
+   "ja": "円グラフをタップすると、今日学んだ単語一覧も確認できるよ！",
+   "en": "Tap the pie chart to see the list of words you learned today!"
+  },
+  {
+   "tag": "p",
+   "ja": "＜新たに学んだ単語＞<br/>今日、新しく未学習の単語から学んだ数だよ！",
+   "en": "&lt;Newly learned words&gt;<br/>The number of words you learned today from your New words!"
+  },
+  {
+   "tag": "p",
+   "ja": "＜復習できた単語＞<br/>これまで学んだことのある単語を復習した数だよ！",
+   "en": "&lt;Reviewed words&gt;<br/>The number of words you reviewed that you'd learned before!"
+  },
+  {
+   "tag": "h3",
+   "ja": "<strong>③：最後に目標までの学習進捗を確認しよう</strong>！",
+   "en": "<strong>3: Finally, check your progress toward your goal</strong>!"
+  },
+  {
+   "tag": "p",
+   "ja": "目標までに学ぶ単語数を母数にしているよ！",
+   "en": "The total is the number of words to learn before you reach your goal!"
+  },
+  {
+   "tag": "p",
+   "ja": "道のりをここで確認しよう！",
+   "en": "Check how far you've come here!"
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "【新機能✨】学習レコード機能リリース！",
+   "en": "[New ✨] Learning Record Is Here!"
+  }
+ ]
+}

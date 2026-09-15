@@ -1,0 +1,67 @@
+{
+ "title": {
+  "ja": "ログイン障害のお詫びとアップデートのお願い｜モチタウン",
+  "en": "Apology for the Login Issue and Update Request | Motitown"
+ },
+ "list_title": {
+  "ja": "ログイン障害のお詫びとアップデートのお願い<br/><br/>",
+  "en": "Apology for the Login Issue and Update Request<br/><br/>"
+ },
+ "segments": [
+  {
+   "tag": "p",
+   "ja": "ログイン障害のお詫びとアップデートのお願い",
+   "en": "Apology for the Login Issue and Update Request"
+  },
+  {
+   "tag": "p",
+   "ja": "ごめんなさい、一部の端末でログインできなくなる障害が発生していたんだ、、、",
+   "en": "Sorry, some devices ran into an issue that prevented logging in..."
+  },
+  {
+   "tag": "p",
+   "ja": "強制ログアウトになってしまった人は、ストアで公開された修正版「v7.1.1」にアップデートするとアカウントが復旧されるよ！",
+   "en": "If you were logged out, updating to the fixed version \"v7.1.1\" now available in the stores will restore your account!"
+  },
+  {
+   "tag": "p",
+   "ja": "<strong>【お詫び】</strong>",
+   "en": "<strong>[Apology gift]</strong>"
+  },
+  {
+   "tag": "p",
+   "ja": "ご迷惑をおかけした全プレイヤーのみんなにお詫びを送ったよ",
+   "en": "We've sent an apology gift to every player affected"
+  },
+  {
+   "tag": "p",
+   "ja": "・モチベイト原石 × 30個",
+   "en": "• 30 Motivation Gems"
+  },
+  {
+   "tag": "p",
+   "ja": "・コイン × 10,000枚",
+   "en": "• 10,000 coins"
+  },
+  {
+   "tag": "p",
+   "ja": "・マイクロプレミアムチケット（3日間） × 1枚",
+   "en": "• 1 Micro Premium Ticket (3 days)"
+  },
+  {
+   "tag": "p",
+   "ja": "あと、2/16、2/17の連続記録と金色の葉っぱについても、途切れないように補填するね",
+   "en": "We'll also credit your streak and Gold Leaves for February 16 and 17 so they don't break"
+  },
+  {
+   "tag": "p",
+   "ja": "本当にごめんなさい、、、これからも安心して使ってもらえるように頑張るね、、、！",
+   "en": "We're truly sorry... we'll keep working hard so you can use the app with peace of mind...!"
+  },
+  {
+   "tag": "attr:content",
+   "ja": "ログイン障害のお詫びとアップデートのお願い",
+   "en": "Apology for the Login Issue and Update Request"
+  }
+ ]
+}

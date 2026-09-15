@@ -1,0 +1,72 @@
+{
+ "title": {
+  "ja": "対戦モードの演出あり/なしを設定できるようになったよ！｜モチタウン",
+  "en": "You Can Now Turn Off Battle Mode Effects! | Motitown"
+ },
+ "list_title": {
+  "ja": "対戦モードの演出あり/なしを設定できるようになったよ！",
+  "en": "You can now turn Battle Mode effects on or off!"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "対戦モードの演出をオフに切り替え可能になったよ！",
+   "en": "You Can Now Turn Off Battle Mode Effects!"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello~！モチベアだよ！今日もモチタン頑張っててえらいね！",
+   "en": "Hello! It's Motibear! Way to go studying with Motitan today!"
+  },
+  {
+   "tag": "p",
+   "ja": "対戦モードの演出を、好みに応じてオフに切り替えられるようになったよ！",
+   "en": "You can now turn off the visual effects in Battle Mode to suit your taste!"
+  },
+  {
+   "tag": "p",
+   "ja": "【オン/オフ 切り替え可能な演出】",
+   "en": "[Effects you can toggle on/off]"
+  },
+  {
+   "tag": "p",
+   "ja": "・1位の背景演出",
+   "en": "• 1st-place background effect"
+  },
+  {
+   "tag": "p",
+   "ja": "・コンボ数の表示",
+   "en": "• Combo counter"
+  },
+  {
+   "tag": "p",
+   "ja": "【変更方法】",
+   "en": "[How to change]"
+  },
+  {
+   "tag": "p",
+   "ja": "マイページ &gt; 設定(歯車のマーク) &gt; 学習設定から、対戦モードの演出を設定できるよ！",
+   "en": "Go to Profile &gt; Settings (gear icon) &gt; Learning Settings to set Battle Mode effects!"
+  },
+  {
+   "tag": "p",
+   "ja": "対戦の臨場感を感じたい人や、ゲーム感覚で学びたい人は演出オン、英単語に集中したい人はオフがおすすめだよ！",
+   "en": "If you want the thrill of battle or like learning game-style, keep them on. If you'd rather focus on the words, turn them off!"
+  },
+  {
+   "tag": "p",
+   "ja": "自分に合った設定にして、もっと快適に英単語を覚えちゃおう！",
+   "en": "Pick the setting that suits you and learn vocabulary in comfort!"
+  },
+  {
+   "tag": "p",
+   "ja": "※過去の配信はモチタウン&gt;右上のメールボックスから確認できます。",
+   "en": "* You can find past announcements in the mailbox at the top right of Motitown."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "対戦モードの演出あり/なしを設定できるようになったよ！",
+   "en": "You Can Now Turn Off Battle Mode Effects!"
+  }
+ ]
+}

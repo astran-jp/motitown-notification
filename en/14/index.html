@@ -1,2 +1,96 @@
-<!DOCTYPE html><!-- fallback: redirect to ja -->
-<html lang="ja"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=/14/"><link rel="canonical" href="https://motitown-notification.astran.jp/14/"><title>Redirecting…</title></head><body><a href="/14/">https://motitown-notification.astran.jp/14/</a></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>We Fixed a Few Bugs! | Motitown</title>
+<meta property="og:title" content="We Fixed a Few Bugs!">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0D4962;
+    --date:#7C878A;
+    --line:#99A7AA;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  img{max-width:100%;}
+  body{
+    background:#fff;
+    font-family:"Noto Sans",-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+    color:var(--navy);
+    -webkit-font-smoothing:antialiased;
+    word-break:break-word;
+  }
+
+  /* 流動カラム：固定px幅を持たせずレスポンシブに */
+  .wrap{width:100%;max-width:430px;margin:0 auto;background:#fff;}
+
+  /* ヘッダーバナー（全幅・比率維持）＋下方向のシャドウ。
+     画像未配置時も崩れないよう、背景にブランドカラーを敷く */
+  .banner{
+    display:block;width:100%;height:auto;position:relative;z-index:1;
+    background:#DCF1FF;
+    box-shadow:0 4px 6px rgba(0,0,0,.12);
+  }
+
+  /* 本文コンテナ：左右パディングで余白を作る */
+  .content{padding:16px 22px 40px;}
+
+  h1.title{margin:0 0 8px;color:var(--navy);font-weight:700;font-size:22px;line-height:1.5;letter-spacing:.02em;}
+  .date{color:var(--date);font-size:16.5px;line-height:1.4;letter-spacing:.02em;margin:0 0 18px;}
+
+  p.lead{font-size:15.5px;line-height:1.9;letter-spacing:.02em;margin:18px 0;}
+
+  /* 修正内容の箇条書き（ネイビーの丸ポチ＋ぶら下げインデント） */
+  ul.fixes{margin:16px 0;padding:0;list-style:none;}
+  ul.fixes li{
+    position:relative;padding:0 0 0 20px;margin:12px 0;
+    font-size:15.5px;line-height:1.9;letter-spacing:.02em;
+  }
+  ul.fixes li::before{
+    content:"";position:absolute;left:2px;top:.72em;
+    width:7px;height:7px;border-radius:50%;background:var(--navy);
+  }
+
+  /* 補足（※ 過去の配信…） */
+  p.note{font-size:15.5px;line-height:1.9;letter-spacing:.02em;margin:28px 0 0;}
+
+  /* 下部：お知らせボタンの案内画像 */
+  .instruction{display:block;width:100%;height:auto;margin:22px 0 0;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- ヘッダーバナー：どろんこのモチベア -->
+    <img class="banner" src="../../14/assets/header.png" alt="Motibear covered in mud" width="1560" height="460">
+
+    <div class="content">
+
+      <h1 class="title">We Fixed a Few Bugs!</h1>
+      <p class="date">2026/07/18 14:00</p>
+
+      <p class="lead">
+
+      <ul class="fixes">
+        <li>Reduced audio playback delay in Motitan battles.</li>
+        <li>Made the end button easier to tap in Motispi's free talk with Nathan.</li>
+        <li>Fixed a bug where the Friends list didn't display correctly from your Profile.</li>
+      </ul>
+
+      <p class="lead">Update Motitan <a href="https://motitan.astran.jp/G3KkOx">here</a> and Motispi <a href="https://motitan.astran.jp/mh4QrP">here</a>.</p>
+
+      <p class="note">* You can find past announcements in the mailbox at the top right of Motitown.</p>
+
+      <!-- 下部：モチタウン ホーム画面（右上のお知らせボタンを案内） -->
+      <img class="instruction" src="../../14/assets/instruction.png" alt="Motitown home screen. You can check past announcements from the button at the top right." width="801" height="567">
+
+    </div>
+  </div>
+</body>
+</html>
