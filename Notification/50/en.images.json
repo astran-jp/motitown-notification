@@ -1,0 +1,1229 @@
+{
+ "assets/06-0934ce0c.webp": [
+  {
+   "rect": [
+    489,
+    308,
+    565,
+    332
+   ],
+   "fill": "#ffffff",
+   "text": "Friends",
+   "size": 14,
+   "weight": 700,
+   "color": {
+    "darkest": [
+     495,
+     310,
+     560,
+     330
+    ]
+   },
+   "box": [
+    484,
+    308,
+    570,
+    332
+   ]
+  },
+  {
+   "rect": [
+    567,
+    308,
+    661,
+    332
+   ],
+   "fill": "#ffffff",
+   "text": "Announcements",
+   "size": 13,
+   "weight": 700,
+   "color": {
+    "darkest": [
+     495,
+     310,
+     560,
+     330
+    ]
+   },
+   "box": [
+    569,
+    308,
+    659,
+    332
+   ]
+  }
+ ],
+ "assets/02-208346a0.webp": [
+  {
+   "rect": [
+    50,
+    272,
+    440,
+    318
+   ],
+   "fill": "auto",
+   "text": "Eiken® Grade 5 Lv.1",
+   "size": 33,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    55,
+    272,
+    520,
+    318
+   ],
+   "color": {
+    "darkest": [
+     57,
+     282,
+     250,
+     309
+    ]
+   }
+  },
+  {
+   "rect": [
+    112,
+    412,
+    210,
+    452
+   ],
+   "fill": "auto",
+   "text": "Mastery",
+   "size": 27,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    117,
+    412,
+    380,
+    452
+   ],
+   "color": {
+    "darkest": [
+     119,
+     421,
+     187,
+     443
+    ]
+   }
+  },
+  {
+   "rect": [
+    356,
+    474,
+    431,
+    504
+   ],
+   "fill": "auto",
+   "text": "Mastered",
+   "size": 16,
+   "weight": 700,
+   "align": "center",
+   "box": [
+    352,
+    470,
+    429,
+    508
+   ],
+   "color": {
+    "darkest": [
+     365,
+     480,
+     430,
+     501
+    ]
+   }
+  },
+  {
+   "rect": [
+    546,
+    404,
+    706,
+    454
+   ],
+   "fill": "auto",
+   "text": "Memory Decay",
+   "size": 22,
+   "weight": 500,
+   "align": "center",
+   "box": [
+    538,
+    404,
+    712,
+    454
+   ],
+   "color": {
+    "darkest": [
+     555,
+     411,
+     650,
+     448
+    ]
+   }
+  },
+  {
+   "rect": [
+    565,
+    474,
+    648,
+    504
+   ],
+   "fill": "auto",
+   "text": "Off",
+   "size": 24,
+   "weight": 500,
+   "align": "right",
+   "box": [
+    565,
+    474,
+    645,
+    504
+   ],
+   "color": {
+    "darkest": [
+     577,
+     480,
+     645,
+     501
+    ]
+   }
+  },
+  {
+   "rect": [
+    50,
+    610,
+    300,
+    664
+   ],
+   "fill": "auto",
+   "text": "Meaning",
+   "size": 38,
+   "weight": 700,
+   "align": "left",
+   "box": [
+    55,
+    610,
+    420,
+    664
+   ],
+   "color": {
+    "darkest": [
+     57,
+     619,
+     133,
+     656
+    ]
+   }
+  },
+  {
+   "rect": [
+    50,
+    680,
+    440,
+    724
+   ],
+   "fill": "auto",
+   "text": "(n.) a round red or green fruit",
+   "size": 26,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    56,
+    680,
+    640,
+    724
+   ],
+   "color": {
+    "darkest": [
+     58,
+     689,
+     182,
+     716
+    ]
+   }
+  },
+  {
+   "rect": [
+    50,
+    1142,
+    320,
+    1196
+   ],
+   "fill": "auto",
+   "text": "Examples",
+   "size": 38,
+   "weight": 700,
+   "align": "left",
+   "box": [
+    55,
+    1142,
+    440,
+    1196
+   ],
+   "color": {
+    "darkest": [
+     57,
+     1151,
+     132,
+     1188
+    ]
+   }
+  },
+  {
+   "rect": [
+    85,
+    1298,
+    440,
+    1340
+   ],
+   "fill": "#ebf6fb"
+  },
+  {
+   "rect": [
+    330,
+    1505,
+    490,
+    1552
+   ],
+   "fill": "auto",
+   "text": "Close",
+   "size": 30,
+   "weight": 700,
+   "align": "center",
+   "box": [
+    56,
+    1500,
+    757,
+    1556
+   ],
+   "color": "#ffffff"
+  }
+ ],
+ "assets/03-3a8fa768.webp": [
+  {
+   "rect": [
+    50,
+    269,
+    440,
+    315
+   ],
+   "fill": "auto",
+   "text": "Eiken® Grade 5 Lv.1",
+   "size": 33,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    55,
+    269,
+    520,
+    315
+   ],
+   "color": {
+    "darkest": [
+     55,
+     279,
+     247,
+     306
+    ]
+   }
+  },
+  {
+   "rect": [
+    112,
+    409,
+    210,
+    449
+   ],
+   "fill": "auto",
+   "text": "Mastery",
+   "size": 27,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    117,
+    409,
+    380,
+    449
+   ],
+   "color": {
+    "darkest": [
+     116,
+     418,
+     184,
+     440
+    ]
+   }
+  },
+  {
+   "rect": [
+    356,
+    471,
+    431,
+    501
+   ],
+   "fill": "auto",
+   "text": "Mastered",
+   "size": 16,
+   "weight": 700,
+   "align": "center",
+   "box": [
+    352,
+    467,
+    429,
+    505
+   ],
+   "color": {
+    "darkest": [
+     362,
+     478,
+     439,
+     498
+    ]
+   }
+  },
+  {
+   "rect": [
+    546,
+    401,
+    706,
+    451
+   ],
+   "fill": "auto",
+   "text": "Memory Decay",
+   "size": 22,
+   "weight": 500,
+   "align": "center",
+   "box": [
+    538,
+    401,
+    712,
+    451
+   ],
+   "color": {
+    "darkest": [
+     552,
+     408,
+     648,
+     445
+    ]
+   }
+  },
+  {
+   "rect": [
+    565,
+    471,
+    648,
+    501
+   ],
+   "fill": "auto",
+   "text": "Off",
+   "size": 24,
+   "weight": 500,
+   "align": "right",
+   "box": [
+    565,
+    471,
+    645,
+    501
+   ],
+   "color": {
+    "darkest": [
+     574,
+     477,
+     642,
+     498
+    ]
+   }
+  },
+  {
+   "rect": [
+    50,
+    607,
+    300,
+    661
+   ],
+   "fill": "auto",
+   "text": "Meaning",
+   "size": 38,
+   "weight": 700,
+   "align": "left",
+   "box": [
+    55,
+    607,
+    420,
+    661
+   ],
+   "color": {
+    "darkest": [
+     55,
+     617,
+     129,
+     652
+    ]
+   }
+  },
+  {
+   "rect": [
+    50,
+    677,
+    440,
+    721
+   ],
+   "fill": "auto",
+   "text": "(n.) a round red or green fruit",
+   "size": 26,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    56,
+    677,
+    640,
+    721
+   ],
+   "color": {
+    "darkest": [
+     55,
+     686,
+     179,
+     713
+    ]
+   }
+  },
+  {
+   "rect": [
+    310,
+    1023,
+    498,
+    1070
+   ],
+   "fill": "auto",
+   "text": "Change Mastery",
+   "size": 30,
+   "weight": 700,
+   "align": "center",
+   "box": [
+    270,
+    1025,
+    537,
+    1068
+   ],
+   "color": {
+    "darkest": [
+     317,
+     1033,
+     490,
+     1060
+    ]
+   }
+  },
+  {
+   "rect": [
+    140,
+    1142,
+    196,
+    1172
+   ],
+   "fill": "auto",
+   "text": "Difficult",
+   "size": 16,
+   "weight": 700,
+   "align": "center",
+   "box": [
+    130,
+    1133,
+    205,
+    1179
+   ],
+   "color": {
+    "darkest": [
+     148,
+     1148,
+     188,
+     1167
+    ]
+   }
+  },
+  {
+   "rect": [
+    142,
+    1266,
+    240,
+    1300
+   ],
+   "fill": "auto",
+   "text": "Learning",
+   "size": 16,
+   "weight": 700,
+   "align": "center",
+   "box": [
+    129,
+    1257,
+    251,
+    1307
+   ],
+   "color": {
+    "darkest": [
+     150,
+     1273,
+     231,
+     1293
+    ]
+   }
+  },
+  {
+   "rect": [
+    141,
+    1392,
+    261,
+    1426
+   ],
+   "fill": "auto",
+   "text": "Familiar",
+   "size": 16,
+   "weight": 700,
+   "align": "center",
+   "box": [
+    129,
+    1383,
+    271,
+    1431
+   ],
+   "color": {
+    "darkest": [
+     149,
+     1399,
+     253,
+     1419
+    ]
+   }
+  },
+  {
+   "rect": [
+    140,
+    1518,
+    217,
+    1551
+   ],
+   "fill": "auto",
+   "text": "Mastered",
+   "size": 16,
+   "weight": 700,
+   "align": "center",
+   "box": [
+    129,
+    1511,
+    228,
+    1559
+   ],
+   "color": {
+    "darkest": [
+     148,
+     1525,
+     209,
+     1544
+    ]
+   }
+  }
+ ],
+ "assets/04-479562f8.webp": [
+  {
+   "rect": [
+    50,
+    269,
+    440,
+    315
+   ],
+   "fill": "auto",
+   "text": "Eiken® Grade 4 Lv.10",
+   "size": 33,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    55,
+    269,
+    520,
+    315
+   ],
+   "color": {
+    "darkest": [
+     54,
+     279,
+     266,
+     306
+    ]
+   }
+  },
+  {
+   "rect": [
+    112,
+    409,
+    210,
+    449
+   ],
+   "fill": "auto",
+   "text": "Mastery",
+   "size": 27,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    117,
+    409,
+    380,
+    449
+   ],
+   "color": {
+    "darkest": [
+     116,
+     418,
+     184,
+     440
+    ]
+   }
+  },
+  {
+   "rect": [
+    356,
+    471,
+    431,
+    501
+   ],
+   "fill": "auto",
+   "text": "Mastered",
+   "size": 16,
+   "weight": 700,
+   "align": "center",
+   "box": [
+    352,
+    467,
+    429,
+    505
+   ],
+   "color": {
+    "darkest": [
+     361,
+     478,
+     439,
+     498
+    ]
+   }
+  },
+  {
+   "rect": [
+    546,
+    401,
+    706,
+    451
+   ],
+   "fill": "auto",
+   "text": "Memory Decay",
+   "size": 22,
+   "weight": 500,
+   "align": "center",
+   "box": [
+    538,
+    401,
+    712,
+    451
+   ],
+   "color": {
+    "darkest": [
+     552,
+     408,
+     648,
+     445
+    ]
+   }
+  },
+  {
+   "rect": [
+    565,
+    471,
+    648,
+    501
+   ],
+   "fill": "auto",
+   "text": "Off",
+   "size": 24,
+   "weight": 500,
+   "align": "right",
+   "box": [
+    565,
+    471,
+    645,
+    501
+   ],
+   "color": {
+    "darkest": [
+     574,
+     477,
+     642,
+     498
+    ]
+   }
+  },
+  {
+   "rect": [
+    50,
+    607,
+    300,
+    661
+   ],
+   "fill": "auto",
+   "text": "Meaning",
+   "size": 38,
+   "weight": 700,
+   "align": "left",
+   "box": [
+    55,
+    607,
+    420,
+    661
+   ],
+   "color": {
+    "darkest": [
+     54,
+     617,
+     129,
+     653
+    ]
+   }
+  },
+  {
+   "rect": [
+    50,
+    677,
+    440,
+    721
+   ],
+   "fill": "auto",
+   "text": "(n.) a small round red fruit",
+   "size": 26,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    56,
+    677,
+    640,
+    721
+   ],
+   "color": {
+    "darkest": [
+     55,
+     686,
+     234,
+     713
+    ]
+   }
+  },
+  {
+   "rect": [
+    50,
+    1139,
+    320,
+    1193
+   ],
+   "fill": "auto",
+   "text": "Examples",
+   "size": 38,
+   "weight": 700,
+   "align": "left",
+   "box": [
+    55,
+    1139,
+    440,
+    1193
+   ],
+   "color": {
+    "darkest": [
+     54,
+     1148,
+     129,
+     1185
+    ]
+   }
+  },
+  {
+   "rect": [
+    85,
+    1295,
+    440,
+    1337
+   ],
+   "fill": "#ebf6fb"
+  },
+  {
+   "rect": [
+    330,
+    1505,
+    490,
+    1552
+   ],
+   "fill": "auto",
+   "text": "Close",
+   "size": 30,
+   "weight": 700,
+   "align": "center",
+   "box": [
+    56,
+    1500,
+    757,
+    1556
+   ],
+   "color": "#ffffff"
+  }
+ ],
+ "assets/05-2552d3d3.webp": [
+  {
+   "rect": [
+    50,
+    269,
+    440,
+    315
+   ],
+   "fill": "auto",
+   "text": "Eiken® Grade 4 Lv.10",
+   "size": 33,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    55,
+    269,
+    520,
+    315
+   ],
+   "color": {
+    "darkest": [
+     55,
+     279,
+     266,
+     306
+    ]
+   }
+  },
+  {
+   "rect": [
+    112,
+    409,
+    210,
+    449
+   ],
+   "fill": "auto",
+   "text": "Mastery",
+   "size": 27,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    117,
+    409,
+    380,
+    449
+   ],
+   "color": {
+    "darkest": [
+     116,
+     418,
+     184,
+     440
+    ]
+   }
+  },
+  {
+   "rect": [
+    356,
+    471,
+    431,
+    501
+   ],
+   "fill": "auto",
+   "text": "Mastered",
+   "size": 16,
+   "weight": 700,
+   "align": "center",
+   "box": [
+    352,
+    467,
+    429,
+    505
+   ],
+   "color": {
+    "darkest": [
+     361,
+     478,
+     439,
+     498
+    ]
+   }
+  },
+  {
+   "rect": [
+    546,
+    401,
+    706,
+    451
+   ],
+   "fill": "auto",
+   "text": "Memory Decay",
+   "size": 22,
+   "weight": 500,
+   "align": "center",
+   "box": [
+    538,
+    401,
+    712,
+    451
+   ],
+   "color": {
+    "darkest": [
+     552,
+     408,
+     648,
+     445
+    ]
+   }
+  },
+  {
+   "rect": [
+    565,
+    471,
+    648,
+    501
+   ],
+   "fill": "auto",
+   "text": "Off",
+   "size": 24,
+   "weight": 500,
+   "align": "right",
+   "box": [
+    565,
+    471,
+    645,
+    501
+   ],
+   "color": {
+    "darkest": [
+     574,
+     477,
+     642,
+     498
+    ]
+   }
+  },
+  {
+   "rect": [
+    50,
+    607,
+    300,
+    661
+   ],
+   "fill": "auto",
+   "text": "Meaning",
+   "size": 38,
+   "weight": 700,
+   "align": "left",
+   "box": [
+    55,
+    607,
+    420,
+    661
+   ],
+   "color": {
+    "darkest": [
+     55,
+     617,
+     129,
+     652
+    ]
+   }
+  },
+  {
+   "rect": [
+    50,
+    677,
+    440,
+    721
+   ],
+   "fill": "auto",
+   "text": "(n.) a small round red fruit",
+   "size": 26,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    56,
+    677,
+    640,
+    721
+   ],
+   "color": {
+    "darkest": [
+     55,
+     686,
+     235,
+     713
+    ]
+   }
+  },
+  {
+   "rect": [
+    50,
+    1138,
+    320,
+    1184
+   ],
+   "fill": "auto",
+   "text": "Examples",
+   "size": 36,
+   "weight": 700,
+   "align": "left",
+   "box": [
+    55,
+    1135,
+    440,
+    1175
+   ],
+   "color": {
+    "darkest": [
+     54,
+     1149,
+     129,
+     1180
+    ]
+   }
+  },
+  {
+   "rect": [
+    336,
+    1213,
+    472,
+    1256
+   ],
+   "fill": "auto",
+   "text": "Memory Decay",
+   "size": 30,
+   "weight": 700,
+   "align": "center",
+   "box": [
+    280,
+    1213,
+    527,
+    1256
+   ],
+   "color": {
+    "darkest": [
+     346,
+     1221,
+     461,
+     1248
+    ]
+   }
+  },
+  {
+   "rect": [
+    122,
+    1325,
+    235,
+    1366
+   ],
+   "fill": "auto",
+   "text": "Memory Decay On",
+   "size": 30,
+   "weight": 700,
+   "align": "left",
+   "box": [
+    132,
+    1325,
+    640,
+    1366
+   ],
+   "color": {
+    "darkest": [
+     132,
+     1331,
+     222,
+     1359
+    ]
+   }
+  },
+  {
+   "rect": [
+    120,
+    1368,
+    700,
+    1402
+   ],
+   "fill": "auto",
+   "text": "Mastery changes right when you're about to forget a word.",
+   "size": 21,
+   "weight": 400,
+   "align": "left",
+   "box": [
+    132,
+    1368,
+    720,
+    1402
+   ],
+   "color": {
+    "darkest": [
+     132,
+     1374,
+     688,
+     1393
+    ]
+   }
+  },
+  {
+   "rect": [
+    122,
+    1481,
+    235,
+    1522
+   ],
+   "fill": "auto",
+   "text": "Memory Decay Off",
+   "size": 30,
+   "weight": 700,
+   "align": "left",
+   "box": [
+    132,
+    1481,
+    640,
+    1522
+   ],
+   "color": {
+    "darkest": [
+     132,
+     1487,
+     221,
+     1516
+    ]
+   }
+  },
+  {
+   "rect": [
+    120,
+    1524,
+    390,
+    1558
+   ],
+   "fill": "auto",
+   "text": "Mastery stays where it is.",
+   "size": 21,
+   "weight": 400,
+   "align": "left",
+   "box": [
+    132,
+    1524,
+    720,
+    1558
+   ],
+   "color": {
+    "darkest": [
+     132,
+     1530,
+     364,
+     1552
+    ]
+   }
+  }
+ ]
+}

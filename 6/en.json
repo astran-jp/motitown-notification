@@ -16,7 +16,7 @@
   {
    "tag": "p",
    "ja": "一部プレイヤーにおいて、アカウントがログアウトされてしまっている事象を確認しております。<br><br>初期画面よりサインインしていただくか、別の新しいアカウントを作成した場合でも、[マイページ]\n        &gt;\n        [設定] &gt; [モチタウンでサインイン]より以前のアカウントでサインインしていただくことができます。",
-   "en": "We've confirmed that some players have been logged out of their accounts.<br><br>Even if you signed in from the start screen or created a new account, you can sign back in to your previous account from [Profile] &gt; [Settings] &gt; [Sign in with Motitown]."
+   "en": "We've confirmed that some players have been logged out of their accounts.<br><br>Even if you signed in from the start screen or created a new account, you can sign back in to your previous account from [Profile] &gt; [Settings] &gt; [Sign In to Motitown]."
   },
   {
    "tag": "p",
@@ -36,7 +36,7 @@
   {
    "tag": "attr:alt",
    "ja": "設定 ＞ モチタウンでサインイン",
-   "en": "Settings > Sign in with Motitown"
+   "en": "Settings > Sign In to Motitown"
   }
  ]
 }

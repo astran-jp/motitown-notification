@@ -1,0 +1,378 @@
+{
+ "71-67d6d37b.webp": [
+  {
+   "rect": [
+    331,
+    42,
+    352,
+    168
+   ],
+   "fill": "#e7f6fe"
+  },
+  {
+   "rect": [
+    369,
+    42,
+    573,
+    168
+   ],
+   "fill": "#e7f6fe"
+  },
+  {
+   "rect": [
+    352,
+    50,
+    369,
+    168
+   ],
+   "fill": "#e7f6fe"
+  },
+  {
+   "rect": [
+    336,
+    168,
+    546,
+    184
+   ],
+   "fill": "#e7f6fe"
+  },
+  {
+   "rect": [
+    212,
+    180,
+    546,
+    244
+   ],
+   "fill": "#e7f6fe"
+  },
+  {
+   "rect": [
+    204,
+    244,
+    546,
+    258
+   ],
+   "fill": "#e7f6fe"
+  },
+  {
+   "rect": [
+    546,
+    184,
+    693,
+    258
+   ],
+   "fill": "#e7f6fe"
+  },
+  {
+   "rect": [
+    603,
+    177,
+    666,
+    186
+   ],
+   "fill": "#e7f6fe"
+  },
+  {
+   "rect": [
+    196,
+    228,
+    214,
+    258
+   ],
+   "fill": "#e7f6fe"
+  },
+  {
+   "rect": [
+    328,
+    134,
+    332,
+    161
+   ],
+   "fill": "#79d7fd"
+  },
+  {
+   "rect": [
+    332,
+    13,
+    565,
+    36
+   ],
+   "fill": "#fcfeff",
+   "text": "Which junior high is No.1!?",
+   "size": 18,
+   "weight": 800,
+   "color": "#0b1550",
+   "align": "center"
+  },
+  {
+   "rect": null,
+   "fill": null,
+   "box": [
+    332,
+    46,
+    573,
+    74
+   ],
+   "text": "GRAND PRIZE",
+   "size": 24,
+   "weight": 800,
+   "color": "#0b1550",
+   "align": "center"
+  },
+  {
+   "rect": null,
+   "fill": null,
+   "box": [
+    332,
+    74,
+    573,
+    136
+   ],
+   "text": "¥1,000,000",
+   "size": 50,
+   "weight": 900,
+   "color": "#e8a200",
+   "align": "center"
+  },
+  {
+   "rect": [
+    546,
+    136,
+    592,
+    156
+   ],
+   "fill": "#fae94f",
+   "text": "SPLIT",
+   "size": 16,
+   "weight": 800,
+   "color": "#0b1550",
+   "align": "center"
+  },
+  {
+   "rect": null,
+   "fill": null,
+   "box": [
+    338,
+    140,
+    542,
+    180
+   ],
+   "text": "NATIONWIDE",
+   "size": 32,
+   "weight": 800,
+   "color": "#0b1550",
+   "align": "center"
+  },
+  {
+   "rect": null,
+   "fill": null,
+   "box": [
+    214,
+    184,
+    690,
+    256
+   ],
+   "text": "ENGLISH VOCABULARY\nCHAMPIONSHIP",
+   "size": 34,
+   "weight": 900,
+   "color": "#0b1550",
+   "align": "center",
+   "line_height": 1.05
+  },
+  {
+   "rect": [
+    262,
+    126,
+    328,
+    164
+   ],
+   "fill": "#79d7fd",
+   "text": "Alumni\nwelcome!",
+   "size": 15,
+   "weight": 800,
+   "color": "#0b1550",
+   "align": "center",
+   "line_height": 1.2
+  }
+ ],
+ "87-81cae287.webp": [
+  {
+   "rect": [
+    336,
+    12,
+    610,
+    38
+   ],
+   "fill": "#d3f0ff"
+  },
+  {
+   "rect": [
+    336,
+    38,
+    457,
+    56
+   ],
+   "fill": "#d3f0ff"
+  },
+  {
+   "rect": [
+    492,
+    38,
+    610,
+    66
+   ],
+   "fill": "#d3f0ff"
+  },
+  {
+   "rect": [
+    336,
+    56,
+    388,
+    72
+   ],
+   "fill": "#d3f0ff"
+  },
+  {
+   "rect": [
+    394,
+    56,
+    424,
+    60
+   ],
+   "fill": "#d3f0ff"
+  },
+  {
+   "rect": [
+    457,
+    38,
+    471,
+    46
+   ],
+   "fill": "#d3f0ff"
+  },
+  {
+   "rect": [
+    546,
+    62,
+    592,
+    82
+   ],
+   "fill": "#d3f0ff"
+  },
+  {
+   "rect": [
+    534,
+    60,
+    546,
+    72
+   ],
+   "fill": "#d3f0ff"
+  },
+  {
+   "rect": null,
+   "fill": null,
+   "box": [
+    300,
+    4,
+    640,
+    48
+   ],
+   "text": "Let's Motitan!",
+   "size": 46,
+   "weight": 800,
+   "color": {
+    "darkest": [
+     344,
+     36,
+     376,
+     58
+    ]
+   },
+   "align": "center",
+   "line_height": 1.0
+  }
+ ],
+ "89-bg-e0a5bafb.webp": [
+  {
+   "rect": [
+    48,
+    304,
+    272,
+    337
+   ],
+   "fill": "#e7f6fe",
+   "box": [
+    61,
+    304,
+    272,
+    337
+   ],
+   "text": "Fruit Names",
+   "size": 23,
+   "weight": 600,
+   "color": {
+    "darkest": [
+     61,
+     309,
+     218,
+     329
+    ]
+   },
+   "align": "left"
+  },
+  {
+   "rect": [
+    318,
+    304,
+    541,
+    337
+   ],
+   "fill": "#e7f6fe",
+   "box": [
+    329,
+    304,
+    541,
+    337
+   ],
+   "text": "Final Exam",
+   "size": 23,
+   "weight": 600,
+   "color": {
+    "darkest": [
+     329,
+     309,
+     439,
+     329
+    ]
+   },
+   "align": "left"
+  },
+  {
+   "rect": [
+    588,
+    304,
+    813,
+    337
+   ],
+   "fill": "#e7f6fe",
+   "box": [
+    599,
+    304,
+    813,
+    337
+   ],
+   "text": "My Wordbook #1",
+   "size": 23,
+   "weight": 600,
+   "color": {
+    "darkest": [
+     599,
+     309,
+     722,
+     332
+    ]
+   },
+   "align": "left"
+  }
+ ]
+}

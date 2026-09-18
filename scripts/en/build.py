@@ -17,6 +17,27 @@ from extract import ROOT, JA, segments, attrs  # noqa: E402
 SITE = "https://motitown-notification.astran.jp"
 
 
+EN_TEXT_STYLE = """<style>
+.en-text{box-sizing:border-box;width:100%;max-width:900px;margin:0 auto;padding:20px 6%;font-family:'Noto Sans',sans-serif;font-size:16px;line-height:1.7;color:#16394f;text-align:left;background:#fff;}
+.en-text h2{font-size:1.35em;font-weight:800;margin:1.2em 0 .5em;line-height:1.35;color:inherit;}
+.en-text h3{font-size:1.1em;font-weight:800;margin:1.1em 0 .4em;line-height:1.4;color:inherit;}
+.en-text p{margin:.6em 0;line-height:1.7;color:inherit;font-size:1em;}
+.en-text ul,.en-text ol{margin:.6em 0 .6em 1.3em;padding:0;}
+.en-text li{margin:.35em 0;line-height:1.6;list-style:disc;color:inherit;font-size:1em;}
+.en-text ol li{list-style:decimal;}
+.en-text table{border-collapse:collapse;width:100%;margin:.8em 0;font-size:.95em;}
+.en-text th,.en-text td{border:1px solid #d5e3ec;padding:8px 10px;text-align:left;line-height:1.5;color:inherit;}
+.en-text th{background:#e6f4fc;font-weight:700;}
+.en-text strong{font-weight:800;color:inherit;}
+.en-text .note{font-size:.88em;color:#5b6b75;}
+.en-text .panel{background:#e4f3fd;border-radius:16px;padding:14px 18px;margin:14px 0;}
+.en-text .panel h3{margin-top:.2em;color:#1d9bf0;}
+.en-text ul.cols{display:grid;grid-template-columns:1fr 1fr;gap:6px 18px;margin-left:0;}
+.en-text ul.cols li{list-style:none;margin:0;}
+</style>
+"""
+
+
 FALLBACK_MARK = "<!-- fallback: redirect to ja -->"
 
 
@@ -77,6 +98,19 @@ def main():
         if en:
             out = out.replace(f'{a["tag"][5:]}="{a["ja"]}"', f'{a["tag"][5:]}="{en}"', 1)
     out = re.sub(r"<title>.*?</title>", "<title>" + tr["title"]["en"] + "</title>", out, count=1, flags=re.S)
+
+    # テキストだけの画像は英語の HTML に置き換える({dir}/en.replace.json: {"assets/x.webp": "<p>…</p>"})
+    rep_path = os.path.join(ROOT, d, "en.replace.json")
+    if os.path.isfile(rep_path):
+        reps = json.load(open(rep_path, encoding="utf-8"))
+        for src_name, snippet in reps.items():
+            tag = re.search(r'<img\b[^>]*\bsrc="' + re.escape(src_name) + r'"[^>]*/?>', out)
+            if not tag:
+                print(f"ERROR: en.replace.json の {src_name} が index.html の <img> に無い")
+                return 1
+            # 空文字は「この画像は不要」(複数タイルの 2 枚目以降を 1 枚目の HTML にまとめたとき)
+            out = out[: tag.start()] + (f'<div class="en-text">{snippet}</div>' if snippet else "") + out[tag.end():]
+        out = out.replace("</head>", EN_TEXT_STYLE + "</head>", 1)
 
     # 言語・フォント・URL
     out = out.replace('lang="ja"', 'lang="en"', 1)

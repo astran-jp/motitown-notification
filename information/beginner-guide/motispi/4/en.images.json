@@ -1,558 +1,186 @@
 {
- "assets/01-530e9c5b-1.webp": [
-  {
-   "rect": [
-    225,
-    48,
-    820,
-    202
-   ],
-   "fill": "auto",
-   "text": "Get the Most\nOut of Motispi",
-   "size": 56,
-   "weight": 800,
-   "align": "left",
-   "box": [
-    235,
-    48,
-    820,
-    202
-   ],
-   "color": {
-    "darkest": [
-     235,
-     60,
-     680,
-     190
-    ]
-   },
-   "line_height": 1.3
-  },
-  {
-   "rect": [
-    50,
-    263,
-    845,
-    472
-   ],
-   "fill": "auto",
-   "text": "Motispi isn't just another English conversation app. We built it to be \"the most fun English conversation app ever,\" packed with features that make learning a joy. Here are just a few of them.",
-   "size": 34,
-   "weight": 500,
-   "align": "left",
-   "box": [
-    58,
-    263,
-    840,
-    472
-   ],
-   "color": {
-    "darkest": [
-     60,
-     280,
-     830,
-     460
-    ]
-   },
-   "line_height": 1.45
-  },
-  {
-   "rect": [
-    50,
-    603,
-    520,
-    692
-   ],
-   "fill": "auto",
-   "text": "Rankings",
-   "size": 56,
-   "weight": 800,
-   "align": "left",
-   "box": [
-    58,
-    603,
-    520,
-    692
-   ],
-   "color": {
-    "darkest": [
-     60,
-     615,
-     330,
-     680
-    ]
-   }
-  },
-  {
-   "rect": [
-    50,
-    738,
-    845,
-    947
-   ],
-   "fill": "auto",
-   "text": "There's a weekly BP ranking. Finish near the top and you'll be promoted to a higher league and earn exclusive items. Compete with your friends and let the rivalry fire you up!",
-   "size": 34,
-   "weight": 500,
-   "align": "left",
-   "box": [
-    58,
-    738,
-    840,
-    947
-   ],
-   "color": {
-    "darkest": [
-     60,
-     755,
-     830,
-     935
-    ]
-   },
-   "line_height": 1.45
-  }
- ],
- "assets/01-530e9c5b-2.webp": [
-  {
-   "rect": [
-    50,
-    158,
-    620,
-    242
-   ],
-   "fill": "auto",
-   "text": "Characters & Items",
-   "size": 56,
-   "weight": 800,
-   "align": "left",
-   "box": [
-    58,
-    158,
-    620,
-    242
-   ],
-   "color": {
-    "darkest": [
-     60,
-     170,
-     435,
-     225
-    ]
-   }
-  },
-  {
-   "rect": [
-    50,
-    278,
-    845,
-    487
-   ],
-   "fill": "auto",
-   "text": "Set up your very own characters and items from My Page. Keep working at Motispi and you'll unlock special ones, so look forward to it!",
-   "size": 34,
-   "weight": 500,
-   "align": "left",
-   "box": [
-    58,
-    278,
-    840,
-    487
-   ],
-   "color": {
-    "darkest": [
-     60,
-     295,
-     830,
-     475
-    ]
-   },
-   "line_height": 1.45
-  }
- ],
- "assets/01-530e9c5b-3.webp": [
-  {
-   "rect": [
-    50,
-    3,
-    620,
-    82
-   ],
-   "fill": "auto",
-   "text": "Gems",
-   "size": 58,
-   "weight": 800,
-   "align": "left",
-   "box": [
-    58,
-    3,
-    620,
-    82
-   ],
-   "color": {
-    "darkest": [
-     60,
-     15,
-     390,
-     65
-    ]
-   }
-  },
-  {
-   "rect": [
-    50,
-    108,
-    650,
-    222
-   ],
-   "fill": "auto",
-   "text": "Gems are handy items you can use in all kinds of places across the app.",
-   "size": 34,
-   "weight": 500,
-   "align": "left",
-   "box": [
-    58,
-    108,
-    645,
-    222
-   ],
-   "color": {
-    "darkest": [
-     60,
-     125,
-     600,
-     205
-    ]
-   },
-   "line_height": 1.45
-  },
-  {
-   "rect": [
-    160,
-    343,
-    760,
-    412
-   ],
-   "fill": "auto",
-   "text": "What Gems Are For",
-   "size": 40,
-   "weight": 800,
-   "align": "left",
-   "box": [
-    170,
-    343,
-    760,
-    412
-   ],
-   "color": {
-    "darkest": [
-     175,
-     355,
-     550,
-     400
-    ]
-   }
-  },
-  {
-   "rect": [
-    140,
-    433,
-    760,
-    502
-   ],
-   "fill": "auto",
-   "text": "Gem Gacha",
-   "size": 34,
-   "weight": 500,
-   "align": "left",
-   "box": [
-    146,
-    433,
-    760,
-    502
-   ],
-   "color": {
-    "darkest": [
-     150,
-     445,
-     460,
-     490
-    ]
-   }
-  },
-  {
-   "rect": [
-    140,
-    502,
-    760,
-    570
-   ],
-   "fill": "auto",
-   "text": "Restore your streak",
-   "size": 34,
-   "weight": 500,
-   "align": "left",
-   "box": [
-    146,
-    502,
-    760,
-    570
-   ],
-   "color": {
-    "darkest": [
-     150,
-     512,
-     460,
-     557
-    ]
-   }
-  },
-  {
-   "rect": [
-    140,
-    570,
-    760,
-    638
-   ],
-   "fill": "auto",
-   "text": "Restore the lives you can send",
-   "size": 34,
-   "weight": 500,
-   "align": "left",
-   "box": [
-    146,
-    570,
-    760,
-    638
-   ],
-   "color": {
-    "darkest": [
-     150,
-     580,
-     460,
-     625
-    ]
-   }
-  },
-  {
-   "rect": [
-    140,
-    638,
-    760,
-    706
-   ],
-   "fill": "auto",
-   "text": "Fully restore your lives",
-   "size": 34,
-   "weight": 500,
-   "align": "left",
-   "box": [
-    146,
-    638,
-    760,
-    706
-   ],
-   "color": {
-    "darkest": [
-     150,
-     648,
-     460,
-     693
-    ]
-   }
-  },
-  {
-   "rect": [
-    160,
-    818,
-    790,
-    892
-   ],
-   "fill": "auto",
-   "text": "How to Get Gems",
-   "size": 40,
-   "weight": 800,
-   "align": "left",
-   "box": [
-    170,
-    818,
-    790,
-    892
-   ],
-   "color": {
-    "darkest": [
-     175,
-     830,
-     580,
-     875
-    ]
-   }
-  },
-  {
-   "rect": [
-    140,
-    905,
-    790,
-    972
-   ],
-   "fill": "auto",
-   "text": "Log in 3 days in a row",
-   "size": 34,
-   "weight": 500,
-   "align": "left",
-   "box": [
-    146,
-    905,
-    790,
-    972
-   ],
-   "color": {
-    "darkest": [
-     150,
-     915,
-     460,
-     960
-    ]
-   }
-  },
-  {
-   "rect": [
-    140,
-    972,
-    790,
-    1040
-   ],
-   "fill": "auto",
-   "text": "Receive lives (Premium members)",
-   "size": 34,
-   "weight": 500,
-   "align": "left",
-   "box": [
-    146,
-    972,
-    790,
-    1040
-   ],
-   "color": {
-    "darkest": [
-     150,
-     985,
-     460,
-     1030
-    ]
-   }
-  },
-  {
-   "rect": [
-    140,
-    1040,
-    790,
-    1108
-   ],
-   "fill": "auto",
-   "text": "Purchase",
-   "size": 34,
-   "weight": 500,
-   "align": "left",
-   "box": [
-    146,
-    1040,
-    790,
-    1108
-   ],
-   "color": {
-    "darkest": [
-     150,
-     1050,
-     300,
-     1095
-    ]
-   }
-  },
-  {
-   "rect": [
-    50,
-    1188,
-    845,
-    1292
-   ],
-   "fill": "auto",
-   "text": "You'll earn Gems by keeping at Motispi. Collect as many as you can!",
-   "size": 34,
-   "weight": 500,
-   "align": "left",
-   "box": [
-    58,
-    1188,
-    840,
-    1292
-   ],
-   "color": {
-    "darkest": [
-     60,
-     1200,
-     830,
-     1280
-    ]
-   },
-   "line_height": 1.45
-  }
- ],
- "assets/02-cf122744.webp": [
-  {
-   "rect": [
-    300,
-    128,
-    542,
-    198
-   ],
-   "fill": "auto",
-   "text": "Finally",
-   "size": 46,
-   "weight": 800,
-   "align": "right",
-   "box": [
-    300,
-    128,
-    534,
-    198
-   ],
-   "color": {
-    "darkest": [
-     370,
-     140,
-     530,
-     190
-    ]
-   }
-  }
- ],
- "assets/03-85584032.webp": [
-  {
-   "rect": [
-    108,
-    38,
-    250,
-    102
-   ],
-   "fill": "auto",
-   "text": "Back",
-   "size": 40,
-   "weight": 700,
-   "align": "left",
-   "box": [
-    114,
-    38,
-    320,
-    102
-   ],
-   "color": {
-    "darkest": [
-     115,
-     45,
-     230,
-     95
-    ]
-   }
-  }
- ]
+  "assets/01-530e9c5b-1.webp": [
+    {"rect": [225, 48, 820, 202], "fill": "auto", "text": "Get the Most\nOut of Motispi", "size": 56, "weight": 800, "align": "left", "box": [235, 48, 820, 202], "color": {"darkest": [235, 60, 680, 190]}, "line_height": 1.3},
+    {"rect": [50, 263, 845, 472], "fill": "auto", "text": "Motispi isn't just another English conversation app. We built it to be \"the most fun English conversation app ever,\" packed with features that make learning a joy. Here are just a few of them.", "size": 34, "weight": 500, "align": "left", "box": [58, 263, 840, 472], "color": {"darkest": [60, 280, 830, 460]}, "line_height": 1.45},
+    {"rect": [50, 603, 520, 692], "fill": "auto", "text": "Rankings", "size": 56, "weight": 800, "align": "left", "box": [58, 603, 520, 692], "color": {"darkest": [60, 615, 330, 680]}},
+    {"rect": [50, 738, 845, 947], "fill": "auto", "text": "There's a weekly BP ranking. Finish near the top and you'll be promoted to a higher league and earn exclusive items. Compete with your friends and let the rivalry fire you up!", "size": 34, "weight": 500, "align": "left", "box": [58, 738, 840, 947], "color": {"darkest": [60, 755, 830, 935]}, "line_height": 1.45}
+  ],
+  "assets/01-530e9c5b-2.webp": [
+    {"rect": [50, 158, 620, 242], "fill": "auto", "text": "Characters & Items", "size": 56, "weight": 800, "align": "left", "box": [58, 158, 620, 242], "color": {"darkest": [60, 170, 435, 225]}},
+    {"rect": [50, 278, 845, 487], "fill": "auto", "text": "Set up your very own characters and items from My Page. Keep working at Motispi and you'll unlock special ones, so look forward to it!", "size": 34, "weight": 500, "align": "left", "box": [58, 278, 840, 487], "color": {"darkest": [60, 295, 830, 475]}, "line_height": 1.45},
+    {"rect": [198, 576, 320, 606], "fill": "#393939", "_g": "G7b"},
+    {"_g": "G7b", "rect": [170, 576, 348, 606], "fill": null, "text": "Customize", "size": 19, "weight": 700, "align": "center", "box": [170, 576, 348, 606], "color": "#ffffff"},
+    {"rect": [115, 747, 161, 764], "fill": "#949494", "_g": "G7b"},
+    {"_g": "G7b", "rect": [115, 746, 162, 765], "fill": null, "text": "Motibear", "size": 10, "weight": 600, "align": "left", "box": [115, 746, 162, 765], "color": "#ffffff"},
+    {"rect": [138, 837, 212, 861], "fill": "#ffffff", "_g": "G7b"},
+    {"_g": "G7b", "rect": [140, 837, 260, 861], "fill": null, "text": "Owned Only", "size": 13, "weight": 600, "align": "left", "box": [140, 837, 260, 861], "color": {"darkest": [140, 840, 206, 858]}},
+    {"rect": [122, 892, 164, 913], "fill": "#1a9de3", "_g": "G7b"},
+    {"_g": "G7b", "rect": [117, 890, 170, 911], "fill": null, "text": "All", "size": 12, "weight": 700, "align": "center", "box": [117, 890, 170, 911], "color": "#ffffff"},
+    {"rect": [183, 894, 238, 912], "fill": "auto", "_g": "G7b"},
+    {"_g": "G7b", "rect": [178, 891, 241, 911], "fill": null, "text": "Animal", "size": 11, "weight": 500, "align": "center", "box": [178, 891, 241, 911], "color": {"darkest": [188, 896, 234, 910]}},
+    {"rect": [256, 894, 318, 912], "fill": "auto", "_g": "G7b"},
+    {"_g": "G7b", "rect": [250, 891, 325, 911], "fill": null, "text": "Alien", "size": 11, "weight": 500, "align": "center", "box": [250, 891, 325, 911], "color": {"darkest": [188, 896, 234, 910]}},
+    {"rect": [339, 894, 401, 912], "fill": "auto", "_g": "G7b"},
+    {"_g": "G7b", "rect": [333, 891, 408, 911], "fill": null, "text": "Alien", "size": 11, "weight": 500, "align": "center", "box": [333, 891, 408, 911], "color": {"darkest": [188, 896, 234, 910]}},
+    {"rect": [114, 932, 170, 953], "fill": "#ffffff", "_g": "G7b"},
+    {"_g": "G7b", "rect": [116, 932, 220, 953], "fill": null, "text": "Animal", "size": 14, "weight": 700, "align": "left", "box": [116, 932, 220, 953], "color": {"darkest": [117, 935, 165, 950]}},
+    {"rect": [112, 1062, 180, 1081], "fill": "#ffffff", "_g": "G7b"},
+    {"_g": "G7b", "rect": [116, 1061, 220, 1082], "fill": null, "text": "Alien", "size": 14, "weight": 700, "align": "left", "box": [116, 1061, 220, 1082], "color": {"darkest": [117, 935, 165, 950]}},
+    {"rect": [494, 628, 496, 654], "fill": {"sample": [495, 626]}, "_g": "G7b"},
+    {"rect": [496, 628, 498, 654], "fill": {"sample": [497, 626]}, "_g": "G7b"},
+    {"rect": [498, 628, 500, 654], "fill": {"sample": [499, 626]}, "_g": "G7b"},
+    {"rect": [500, 628, 502, 654], "fill": {"sample": [501, 626]}, "_g": "G7b"},
+    {"rect": [502, 628, 504, 654], "fill": {"sample": [503, 626]}, "_g": "G7b"},
+    {"rect": [504, 628, 506, 654], "fill": {"sample": [505, 626]}, "_g": "G7b"},
+    {"rect": [506, 628, 508, 654], "fill": {"sample": [507, 626]}, "_g": "G7b"},
+    {"rect": [508, 628, 510, 654], "fill": {"sample": [509, 626]}, "_g": "G7b"},
+    {"rect": [510, 628, 512, 654], "fill": {"sample": [511, 626]}, "_g": "G7b"},
+    {"rect": [512, 628, 514, 654], "fill": {"sample": [513, 626]}, "_g": "G7b"},
+    {"rect": [514, 628, 516, 654], "fill": {"sample": [515, 626]}, "_g": "G7b"},
+    {"rect": [516, 628, 518, 654], "fill": {"sample": [517, 626]}, "_g": "G7b"},
+    {"rect": [518, 628, 520, 654], "fill": {"sample": [519, 626]}, "_g": "G7b"},
+    {"rect": [520, 628, 522, 654], "fill": {"sample": [521, 626]}, "_g": "G7b"},
+    {"rect": [522, 628, 524, 654], "fill": {"sample": [523, 626]}, "_g": "G7b"},
+    {"rect": [524, 628, 526, 654], "fill": {"sample": [525, 626]}, "_g": "G7b"},
+    {"rect": [526, 628, 528, 654], "fill": {"sample": [527, 626]}, "_g": "G7b"},
+    {"rect": [528, 628, 530, 654], "fill": {"sample": [529, 626]}, "_g": "G7b"},
+    {"rect": [530, 628, 532, 654], "fill": {"sample": [531, 626]}, "_g": "G7b"},
+    {"rect": [532, 628, 534, 654], "fill": {"sample": [533, 626]}, "_g": "G7b"},
+    {"rect": [534, 628, 536, 654], "fill": {"sample": [535, 626]}, "_g": "G7b"},
+    {"rect": [536, 628, 538, 654], "fill": {"sample": [537, 626]}, "_g": "G7b"},
+    {"rect": [538, 628, 540, 654], "fill": {"sample": [539, 626]}, "_g": "G7b"},
+    {"rect": [540, 628, 542, 654], "fill": {"sample": [541, 626]}, "_g": "G7b"},
+    {"rect": [542, 628, 544, 654], "fill": {"sample": [543, 626]}, "_g": "G7b"},
+    {"rect": [544, 628, 546, 654], "fill": {"sample": [545, 626]}, "_g": "G7b"},
+    {"rect": [546, 628, 548, 654], "fill": {"sample": [547, 626]}, "_g": "G7b"},
+    {"rect": [548, 628, 550, 654], "fill": {"sample": [549, 626]}, "_g": "G7b"},
+    {"rect": [550, 628, 552, 654], "fill": {"sample": [551, 626]}, "_g": "G7b"},
+    {"rect": [552, 628, 554, 654], "fill": {"sample": [553, 626]}, "_g": "G7b"},
+    {"rect": [554, 628, 556, 654], "fill": {"sample": [555, 626]}, "_g": "G7b"},
+    {"rect": [556, 628, 558, 654], "fill": {"sample": [557, 626]}, "_g": "G7b"},
+    {"rect": [558, 628, 560, 654], "fill": {"sample": [559, 626]}, "_g": "G7b"},
+    {"rect": [560, 628, 562, 654], "fill": {"sample": [561, 626]}, "_g": "G7b"},
+    {"rect": [562, 628, 564, 654], "fill": {"sample": [563, 626]}, "_g": "G7b"},
+    {"rect": [564, 628, 566, 654], "fill": {"sample": [565, 626]}, "_g": "G7b"},
+    {"rect": [566, 628, 568, 654], "fill": {"sample": [567, 626]}, "_g": "G7b"},
+    {"rect": [568, 628, 570, 654], "fill": {"sample": [569, 626]}, "_g": "G7b"},
+    {"rect": [570, 628, 572, 654], "fill": {"sample": [571, 626]}, "_g": "G7b"},
+    {"rect": [572, 628, 574, 654], "fill": {"sample": [573, 626]}, "_g": "G7b"},
+    {"rect": [574, 628, 576, 654], "fill": {"sample": [575, 626]}, "_g": "G7b"},
+    {"rect": [576, 628, 578, 654], "fill": {"sample": [577, 626]}, "_g": "G7b"},
+    {"rect": [578, 628, 580, 654], "fill": {"sample": [579, 626]}, "_g": "G7b"},
+    {"rect": [580, 628, 582, 654], "fill": {"sample": [581, 626]}, "_g": "G7b"},
+    {"rect": [582, 628, 584, 654], "fill": {"sample": [583, 626]}, "_g": "G7b"},
+    {"rect": [584, 628, 586, 654], "fill": {"sample": [585, 626]}, "_g": "G7b"},
+    {"rect": [586, 628, 588, 654], "fill": {"sample": [587, 626]}, "_g": "G7b"},
+    {"rect": [588, 628, 590, 654], "fill": {"sample": [589, 626]}, "_g": "G7b"},
+    {"rect": [590, 628, 592, 654], "fill": {"sample": [591, 626]}, "_g": "G7b"},
+    {"rect": [592, 628, 594, 654], "fill": {"sample": [593, 626]}, "_g": "G7b"},
+    {"rect": [594, 628, 596, 654], "fill": {"sample": [595, 626]}, "_g": "G7b"},
+    {"rect": [596, 628, 598, 654], "fill": {"sample": [597, 626]}, "_g": "G7b"},
+    {"rect": [598, 628, 600, 654], "fill": {"sample": [599, 626]}, "_g": "G7b"},
+    {"rect": [600, 628, 602, 654], "fill": {"sample": [601, 626]}, "_g": "G7b"},
+    {"rect": [602, 628, 604, 654], "fill": {"sample": [603, 626]}, "_g": "G7b"},
+    {"rect": [604, 628, 606, 654], "fill": {"sample": [605, 626]}, "_g": "G7b"},
+    {"rect": [606, 628, 608, 654], "fill": {"sample": [607, 626]}, "_g": "G7b"},
+    {"rect": [608, 628, 610, 654], "fill": {"sample": [609, 626]}, "_g": "G7b"},
+    {"rect": [610, 628, 612, 654], "fill": {"sample": [611, 626]}, "_g": "G7b"},
+    {"rect": [612, 628, 614, 654], "fill": {"sample": [613, 626]}, "_g": "G7b"},
+    {"rect": [614, 628, 616, 654], "fill": {"sample": [615, 626]}, "_g": "G7b"},
+    {"rect": [616, 628, 618, 654], "fill": {"sample": [617, 626]}, "_g": "G7b"},
+    {"rect": [618, 628, 620, 654], "fill": {"sample": [619, 626]}, "_g": "G7b"},
+    {"rect": [620, 628, 622, 654], "fill": {"sample": [621, 626]}, "_g": "G7b"},
+    {"rect": [622, 628, 624, 654], "fill": {"sample": [623, 626]}, "_g": "G7b"},
+    {"rect": [624, 628, 626, 654], "fill": {"sample": [625, 626]}, "_g": "G7b"},
+    {"rect": [626, 628, 628, 654], "fill": {"sample": [627, 626]}, "_g": "G7b"},
+    {"rect": [628, 628, 630, 654], "fill": {"sample": [629, 626]}, "_g": "G7b"},
+    {"rect": [630, 628, 632, 654], "fill": {"sample": [631, 626]}, "_g": "G7b"},
+    {"rect": [632, 628, 634, 654], "fill": {"sample": [633, 626]}, "_g": "G7b"},
+    {"rect": [634, 628, 636, 654], "fill": {"sample": [635, 626]}, "_g": "G7b"},
+    {"rect": [636, 628, 638, 654], "fill": {"sample": [637, 626]}, "_g": "G7b"},
+    {"_g": "G7b", "rect": [496, 625, 660, 651], "fill": null, "text": "Santa Motibear", "size": 16, "weight": 800, "align": "left", "box": [496, 625, 660, 651], "color": {"darkest": [497, 630, 635, 652]}},
+    {"rect": [722, 629, 724, 648], "fill": {"sample": [723, 627]}, "_g": "G7b"},
+    {"rect": [724, 629, 726, 648], "fill": {"sample": [725, 627]}, "_g": "G7b"},
+    {"rect": [726, 629, 728, 648], "fill": {"sample": [727, 627]}, "_g": "G7b"},
+    {"rect": [728, 629, 730, 648], "fill": {"sample": [729, 627]}, "_g": "G7b"},
+    {"rect": [730, 629, 732, 648], "fill": {"sample": [731, 627]}, "_g": "G7b"},
+    {"rect": [732, 629, 734, 648], "fill": {"sample": [733, 627]}, "_g": "G7b"},
+    {"rect": [734, 629, 736, 648], "fill": {"sample": [735, 627]}, "_g": "G7b"},
+    {"rect": [736, 629, 738, 648], "fill": {"sample": [737, 627]}, "_g": "G7b"},
+    {"rect": [738, 629, 740, 648], "fill": {"sample": [739, 627]}, "_g": "G7b"},
+    {"rect": [740, 629, 742, 648], "fill": {"sample": [741, 627]}, "_g": "G7b"},
+    {"rect": [742, 629, 744, 648], "fill": {"sample": [743, 627]}, "_g": "G7b"},
+    {"rect": [744, 629, 746, 648], "fill": {"sample": [745, 627]}, "_g": "G7b"},
+    {"rect": [746, 629, 748, 648], "fill": {"sample": [747, 627]}, "_g": "G7b"},
+    {"rect": [748, 629, 750, 648], "fill": {"sample": [749, 627]}, "_g": "G7b"},
+    {"_g": "G7b", "rect": [723, 626, 790, 646], "fill": null, "text": "Day Streak", "size": 11, "weight": 700, "align": "left", "box": [723, 626, 790, 646], "color": {"darkest": [724, 631, 746, 645]}},
+    {"rect": [766, 667, 768, 687], "fill": {"sample": [767, 665]}, "_g": "G7b"},
+    {"rect": [768, 667, 770, 687], "fill": {"sample": [769, 665]}, "_g": "G7b"},
+    {"rect": [770, 667, 772, 687], "fill": {"sample": [771, 665]}, "_g": "G7b"},
+    {"rect": [772, 667, 774, 687], "fill": {"sample": [773, 665]}, "_g": "G7b"},
+    {"rect": [774, 667, 776, 687], "fill": {"sample": [775, 665]}, "_g": "G7b"},
+    {"rect": [776, 667, 778, 687], "fill": {"sample": [777, 665]}, "_g": "G7b"},
+    {"rect": [778, 667, 780, 687], "fill": {"sample": [779, 665]}, "_g": "G7b"},
+    {"rect": [780, 667, 782, 687], "fill": {"sample": [781, 665]}, "_g": "G7b"},
+    {"rect": [782, 667, 783, 687], "fill": {"sample": [782, 665]}, "_g": "G7b"},
+    {"rect": [525, 874, 556, 894], "fill": "#ffffff", "_g": "G7b"},
+    {"_g": "G7b", "rect": [500, 872, 583, 892], "fill": null, "text": "Edit", "size": 12, "weight": 600, "align": "center", "box": [500, 872, 583, 892], "color": {"darkest": [528, 876, 552, 892]}},
+    {"rect": [606, 874, 658, 894], "fill": "#ffffff", "_g": "G7b"},
+    {"_g": "G7b", "rect": [596, 872, 672, 892], "fill": null, "text": "Invite Friends", "size": 11, "weight": 600, "align": "center", "box": [596, 872, 672, 892], "color": {"darkest": [528, 876, 552, 892]}},
+    {"rect": [743, 884, 768, 892], "fill": "#86202a", "_g": "G7b"},
+    {"_g": "G7b", "rect": [738, 881, 772, 893], "fill": null, "text": "Change", "size": 7, "weight": 700, "align": "center", "box": [738, 881, 772, 893], "color": "#ffffff", "fit": false},
+    {"rect": [494, 908, 778, 928], "fill": "#ffffff", "_g": "G7b"},
+    {"_g": "G7b", "rect": [497, 908, 778, 928], "fill": null, "text": "My goal is TOEIC® 600. Nice to meet you!", "size": 13, "weight": 500, "align": "left", "box": [497, 908, 778, 928], "color": {"darkest": [497, 911, 640, 925]}},
+    {"rect": [498, 944, 553, 985], "fill": "#e7f6fe", "_g": "G7b"},
+    {"_g": "G7b", "rect": [496, 945, 556, 962], "fill": null, "text": "Friends", "size": 11, "weight": 500, "align": "center", "box": [496, 945, 556, 962], "color": "#5f9fc4"},
+    {"_g": "G7b", "rect": [496, 964, 556, 984], "fill": null, "text": "25", "size": 14, "weight": 700, "align": "center", "box": [496, 964, 556, 984], "color": {"darkest": [512, 967, 540, 982]}},
+    {"rect": [560, 944, 612, 985], "fill": "#e7f6fe", "_g": "G7b"},
+    {"_g": "G7b", "rect": [558, 945, 618, 962], "fill": null, "text": "Characters", "size": 11, "weight": 500, "align": "center", "box": [558, 945, 618, 962], "color": "#5f9fc4"},
+    {"_g": "G7b", "rect": [558, 964, 618, 984], "fill": null, "text": "32", "size": 14, "weight": 700, "align": "center", "box": [558, 964, 618, 984], "color": {"darkest": [512, 967, 540, 982]}},
+    {"rect": [630, 944, 700, 985], "fill": "#e7f6fe", "_g": "G7b"},
+    {"_g": "G7b", "rect": [624, 945, 702, 962], "fill": null, "text": "Total BP", "size": 11, "weight": 500, "align": "center", "box": [624, 945, 702, 962], "color": "#5f9fc4"},
+    {"_g": "G7b", "rect": [624, 964, 702, 984], "fill": null, "text": "#323,456", "size": 14, "weight": 700, "align": "center", "box": [624, 964, 702, 984], "color": {"darkest": [512, 967, 540, 982]}},
+    {"rect": [720, 944, 772, 963], "fill": "#e7f6fe", "_g": "G7b"},
+    {"_g": "G7b", "rect": [708, 945, 782, 962], "fill": null, "text": "All Chars", "size": 11, "weight": 500, "align": "center", "box": [708, 945, 782, 962], "color": "#5f9fc4"},
+    {"rect": [529, 1004, 576, 1021], "fill": "#ffffff", "_g": "G7b"},
+    {"_g": "G7b", "rect": [531, 1003, 640, 1021], "fill": null, "text": "Motibear", "size": 11, "weight": 500, "align": "left", "box": [531, 1003, 640, 1021], "color": {"darkest": [531, 1007, 573, 1019]}},
+    {"rect": [697, 1004, 764, 1022], "fill": "#ffffff", "_g": "G7b"},
+    {"_g": "G7b", "rect": [680, 1003, 763, 1022], "fill": null, "text": "Nov 1 18:10", "size": 10, "weight": 500, "align": "right", "box": [680, 1003, 763, 1022], "color": {"darkest": [700, 1007, 760, 1020]}},
+    {"rect": [529, 1022, 756, 1039], "fill": "#ffffff", "_g": "G7b"},
+    {"_g": "G7b", "rect": [531, 1021, 770, 1039], "fill": null, "text": "Post on the Board and join the fun!", "size": 11, "weight": 500, "align": "left", "box": [531, 1021, 770, 1039], "color": {"darkest": [531, 1024, 720, 1037]}},
+    {"rect": [518, 1100, 560, 1120], "fill": "#ffffff", "_g": "G7b"},
+    {"_g": "G7b", "rect": [520, 1100, 620, 1120], "fill": null, "text": "Ibaraki", "size": 13, "weight": 500, "align": "left", "box": [520, 1100, 620, 1120], "color": {"darkest": [521, 1104, 556, 1118]}},
+    {"rect": [503, 1173, 528, 1188], "fill": "auto", "_g": "G7b"},
+    {"_g": "G7b", "rect": [490, 1172, 542, 1189], "fill": null, "text": "Battle", "size": 8, "weight": 600, "align": "center", "box": [490, 1172, 542, 1189], "color": {"darkest": [506, 1175, 526, 1186]}},
+    {"rect": [550, 1173, 574, 1188], "fill": "auto", "_g": "G7b"},
+    {"_g": "G7b", "rect": [536, 1172, 590, 1189], "fill": null, "text": "Adventure", "size": 8, "weight": 600, "align": "center", "box": [536, 1172, 590, 1189], "color": {"darkest": [598, 1174, 626, 1186]}},
+    {"rect": [596, 1173, 628, 1188], "fill": "auto", "_g": "G7b"},
+    {"_g": "G7b", "rect": [586, 1172, 640, 1189], "fill": null, "text": "Wordbook", "size": 8, "weight": 600, "align": "center", "box": [586, 1172, 640, 1189], "color": {"darkest": [598, 1174, 626, 1186]}},
+    {"rect": [641, 1173, 688, 1188], "fill": "auto", "_g": "G7b"},
+    {"_g": "G7b", "rect": [638, 1172, 692, 1189], "fill": null, "text": "Motitown", "size": 8, "weight": 600, "align": "center", "box": [638, 1172, 692, 1189], "color": {"darkest": [598, 1174, 626, 1186]}},
+    {"rect": [702, 1173, 730, 1188], "fill": "auto", "_g": "G7b"},
+    {"_g": "G7b", "rect": [690, 1172, 742, 1189], "fill": null, "text": "Gacha", "size": 8, "weight": 600, "align": "center", "box": [690, 1172, 742, 1189], "color": {"darkest": [598, 1174, 626, 1186]}},
+    {"rect": [742, 1173, 788, 1188], "fill": "auto", "_g": "G7b"},
+    {"_g": "G7b", "rect": [740, 1172, 790, 1189], "fill": null, "text": "Profile", "size": 8, "weight": 600, "align": "center", "box": [740, 1172, 790, 1189], "color": {"darkest": [598, 1174, 626, 1186]}}
+  ],
+  "assets/01-530e9c5b-3.webp": [
+    {"rect": [50, 3, 620, 82], "fill": "auto", "text": "Gems", "size": 58, "weight": 800, "align": "left", "box": [58, 3, 620, 82], "color": {"darkest": [60, 15, 390, 65]}},
+    {"rect": [50, 108, 650, 222], "fill": "auto", "text": "Gems are handy items you can use in all kinds of places across the app.", "size": 34, "weight": 500, "align": "left", "box": [58, 108, 645, 222], "color": {"darkest": [60, 125, 600, 205]}, "line_height": 1.45},
+    {"rect": [160, 343, 760, 412], "fill": "auto", "text": "What Gems Are For", "size": 40, "weight": 800, "align": "left", "box": [170, 343, 760, 412], "color": {"darkest": [175, 355, 550, 400]}},
+    {"rect": [140, 433, 760, 502], "fill": "auto", "text": "Gem Gacha", "size": 34, "weight": 500, "align": "left", "box": [146, 433, 760, 502], "color": {"darkest": [150, 445, 460, 490]}},
+    {"rect": [140, 502, 760, 570], "fill": "auto", "text": "Restore your streak", "size": 34, "weight": 500, "align": "left", "box": [146, 502, 760, 570], "color": {"darkest": [150, 512, 460, 557]}},
+    {"rect": [140, 570, 760, 638], "fill": "auto", "text": "Restore the lives you can send", "size": 34, "weight": 500, "align": "left", "box": [146, 570, 760, 638], "color": {"darkest": [150, 580, 460, 625]}},
+    {"rect": [140, 638, 760, 706], "fill": "auto", "text": "Fully restore your lives", "size": 34, "weight": 500, "align": "left", "box": [146, 638, 760, 706], "color": {"darkest": [150, 648, 460, 693]}},
+    {"rect": [160, 818, 790, 892], "fill": "auto", "text": "How to Get Gems", "size": 40, "weight": 800, "align": "left", "box": [170, 818, 790, 892], "color": {"darkest": [175, 830, 580, 875]}},
+    {"rect": [140, 905, 790, 972], "fill": "auto", "text": "Log in 3 days in a row", "size": 34, "weight": 500, "align": "left", "box": [146, 905, 790, 972], "color": {"darkest": [150, 915, 460, 960]}},
+    {"rect": [140, 972, 790, 1040], "fill": "auto", "text": "Receive lives (Premium members)", "size": 34, "weight": 500, "align": "left", "box": [146, 972, 790, 1040], "color": {"darkest": [150, 985, 460, 1030]}},
+    {"rect": [140, 1040, 790, 1108], "fill": "auto", "text": "Purchase", "size": 34, "weight": 500, "align": "left", "box": [146, 1040, 790, 1108], "color": {"darkest": [150, 1050, 300, 1095]}},
+    {"rect": [50, 1188, 845, 1292], "fill": "auto", "text": "You'll earn Gems by keeping at Motispi. Collect as many as you can!", "size": 34, "weight": 500, "align": "left", "box": [58, 1188, 840, 1292], "color": {"darkest": [60, 1200, 830, 1280]}, "line_height": 1.45}
+  ],
+  "assets/02-cf122744.webp": [
+    {"rect": [300, 128, 542, 198], "fill": "auto", "text": "Finally", "size": 46, "weight": 800, "align": "right", "box": [300, 128, 534, 198], "color": {"darkest": [370, 140, 530, 190]}}
+  ],
+  "assets/03-85584032.webp": [
+    {"rect": [108, 38, 250, 102], "fill": "auto", "text": "Back", "size": 40, "weight": 700, "align": "left", "box": [114, 38, 320, 102], "color": {"darkest": [115, 45, 230, 95]}}
+  ]
 }

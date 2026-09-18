@@ -107,3 +107,38 @@ python3 scripts/en/build.py information/about-bp          # en/{dir}/index.html(
 - 画面名・機能名は `MOTITAN_APP=<motitan_app の path> python3 scripts/en/glossary.py 記憶度` で英語版アプリの文言に合わせる(記憶度 = Mastery、市民リーグ = Citizen League など)
 - 生成後は en/{dir}/ の画像を Read で全部見て、塗り残し・はみ出し・日本語の残りが無いことを確認する
 - 英語版を作らないページは `build_list.py` が `en/{dir}/index.html` に日本語ページへの転送を置く(アプリは英語表示のとき全ページを `/en/` 付きで開く)
+
+## 画像内の日本語の走査(OCR)
+
+英語ページが参照している画像に日本語が残っていないかは、目視ではなく OCR で機械的に確かめる。
+
+```sh
+python3 scripts/en/scan_images.py                 # en/ 配下の全英語ページ(転送スタブ以外)の画像を走査。残りがあれば exit 1
+python3 scripts/en/scan_images.py <画像> [...]     # 1 枚の全文字と座標を出す(overlay の rect を取るのに使う)
+```
+
+macOS の Vision を使う(`scripts/en/ocr.swift` を初回に `~/.cache/motitown-notification/ocr` へコンパイル。swiftc が要る)。
+
+- **アイコンの誤読に注意**: `く`=「<」/ `八））`・`小）`=スピーカー / `三の`・`三う`=ハンバーガーメニュー / `玄`=翻訳アイコン。
+  これらは日本語ではないので直さない。逆に OCR は装飾文字・極小文字を取りこぼすので、最後は必ず目で見る
+- 走査は**英語ページが実際に参照している画像だけ**を見る。日本語版の画像がそのまま参照されている(パスが `en/` で始まらない)なら、
+  その画像は英語版が未作成ということ
+- アルファ付き PNG/WebP を overlay にかけると透明部分が黒くなるので、白背景に合成した `{dir}/en-src/<名前>` を作り、
+  そのキーで `en.images.json` に書く(出力は `en/{dir}/<名前>` に落ちる)
+
+## 文字だけの画像はテキストに戻す
+
+画像が「無地の背景に文字だけ」(表・Q&A・規約文など)なら、塗り替えるより HTML に戻した方が読みやすく、翻訳も後から直せる。
+
+`{dir}/en.replace.json` に `{"assets/<画像>": "<h3>…</h3><p>…</p>"}` を書くと、`build.py` がその `<img>` を
+`<div class="en-text">…</div>` に差し替える(値を空文字にすると画像を消すだけ。複数タイルを 1 枚目にまとめる時に使う)。
+使えるタグ: h2 h3 p ul ol li table tr th td strong br、`class="note"`(注記)、`class="panel"`(青いパネル)、`ul class="cols"`(2 段組)。
+**キャラ・スクショ・デザインされたレイアウトのある画像には使わない**(塗り替える)。使ったら `en.images.json` の該当キーと
+`en/{dir}/<画像>` を消す。実例: `information/gacha-drop/*/en.replace.json`(排出率の表 5 ページ)
+
+### overlay で描けないもの(傾いた文字など)
+
+`overlay.py` は水平の文字しか描けない。傾いた文字・縁取り・グラデーションの上の文字は、出力を Pillow で後処理する
+`{dir}/en.post.py` を置く(`overlay.py` が最後に自動実行する)。実例: `information/widget/1/en.post.py`(傾いたウィジェットカード)。
+元画像の文字を消した下地を先に作る場合は `{dir}/en-src/<名前>` に置き、`en.images.json` のキーもそれにする
+(実例: `Notification/70/en-src/`, `Notification/61/en-src/`)。

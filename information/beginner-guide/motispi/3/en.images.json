@@ -3,7 +3,24 @@
     {"rect": [220, 48, 850, 202], "fill": "auto", "text": "Learn Tons of Phrases\nin Adventure Mode!", "size": 54, "weight": 800, "align": "left", "box": [230, 48, 850, 202], "color": {"darkest": [230, 60, 820, 190]}, "line_height": 1.3},
     {"rect": [50, 313, 495, 472], "fill": "auto", "text": "If you feel your vocabulary is holding you back, it's time to learn lots of phrases.", "size": 34, "weight": 500, "align": "left", "box": [56, 313, 490, 472], "color": {"darkest": [60, 325, 470, 460]}, "line_height": 1.45},
     {"rect": [50, 503, 495, 902], "fill": "auto", "text": "Motispi has a special game-like Adventure Mode just for learning phrases. Explore the world of Motitown while meeting the phrases that come up most often in English conversation.", "size": 34, "weight": 500, "align": "left", "box": [56, 503, 490, 902], "color": {"darkest": [60, 515, 470, 890]}, "line_height": 1.45},
-    {"rect": [50, 1068, 495, 1377], "fill": "auto", "text": "Each phrase comes with many question types, translating in both directions, usage, and more. That gives your memory lots of hooks, so phrases really stick.", "size": 34, "weight": 500, "align": "left", "box": [56, 1068, 490, 1377], "color": {"darkest": [60, 1080, 470, 1365]}, "line_height": 1.45}
+    {"rect": [50, 1068, 495, 1377], "fill": "auto", "text": "Each phrase comes with many question types, translating in both directions, usage, and more. That gives your memory lots of hooks, so phrases really stick.", "size": 34, "weight": 500, "align": "left", "box": [56, 1068, 490, 1377], "color": {"darkest": [60, 1080, 470, 1365]}, "line_height": 1.45},
+    {"rect": [568, 393, 654, 432], "fill": "#ffffff", "_g": "G7b"},
+    {"_g": "G7b", "rect": [543, 393, 664, 432], "fill": null, "text": "Daily English\nElementary Lv.23", "size": 12, "weight": 600, "align": "center", "box": [543, 393, 664, 432], "color": {"darkest": [574, 397, 648, 428]}, "line_height": 1.4},
+    {"rect": [556, 785, 700, 823], "fill": "#00bbf3", "_g": "G7b"},
+    {"_g": "G7b", "rect": [558, 785, 770, 806], "fill": null, "text": "Lv.21 Quest 3/3", "size": 16, "weight": 600, "align": "left", "box": [558, 785, 770, 806], "color": "#e6f8ff"},
+    {"_g": "G7b", "rect": [558, 806, 770, 822], "fill": null, "text": "Phrases Mastered: 3/5", "size": 11, "weight": 500, "align": "left", "box": [558, 806, 770, 822], "color": "#d4f2fd"},
+    {"rect": [655, 844, 702, 866], "fill": "#ffffff", "_g": "G7b"},
+    {"_g": "G7b", "rect": [600, 843, 758, 867], "fill": null, "text": "Play", "size": 15, "weight": 500, "align": "center", "box": [600, 843, 758, 867], "color": {"darkest": [658, 846, 700, 864]}},
+    {"rect": [640, 1156, 810, 1194], "fill": "#ffffff", "_g": "G7b"},
+    {"_g": "G7b", "rect": [643, 1154, 812, 1196], "fill": null, "text": "Choose the phrase that matches the description!", "size": 12, "weight": 500, "align": "left", "box": [643, 1154, 812, 1196], "color": {"darkest": [643, 1160, 805, 1192]}, "line_height": 1.35},
+    {"rect": [586, 1272, 770, 1302], "fill": "#ffffff", "_g": "G7b"},
+    {"_g": "G7b", "rect": [545, 1272, 812, 1302], "fill": null, "text": "Asking how someone is doing", "size": 17, "weight": 600, "align": "center", "box": [545, 1272, 812, 1302], "color": {"darkest": [590, 1276, 765, 1300]}},
+    {"rect": [562, 1335, 790, 1358], "fill": "#e7f6fe", "_g": "G7b"},
+    {"_g": "G7b", "rect": [548, 1335, 810, 1358], "fill": null, "text": "Used as a greeting when you meet someone.", "size": 11, "weight": 500, "align": "center", "box": [548, 1335, 810, 1358], "color": {"darkest": [565, 1338, 786, 1355]}},
+    {"rect": [562, 1619, 610, 1642], "fill": "auto", "_g": "G7b"},
+    {"_g": "G7b", "rect": [564, 1619, 680, 1642], "fill": null, "text": "Correct!", "size": 15, "weight": 600, "align": "left", "box": [564, 1619, 680, 1642], "color": {"darkest": [565, 1622, 608, 1640]}},
+    {"rect": [655, 1666, 704, 1688], "fill": "#1eaff8", "_g": "G7b"},
+    {"_g": "G7b", "rect": [600, 1665, 758, 1689], "fill": null, "text": "Next", "size": 15, "weight": 600, "align": "center", "box": [600, 1665, 758, 1689], "color": "#ffffff"}
   ],
   "assets/02-94772e4f.webp": [
     {"rect": [180, 128, 690, 198], "fill": "auto", "text": "Lots of fun features", "size": 46, "weight": 800, "color": {"darkest": [230, 140, 670, 190]}}

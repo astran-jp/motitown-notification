@@ -1,0 +1,20 @@
+{
+  "en-src/02-7219e885.webp": [
+    {"rect": [44, 6, 336, 50], "fill": "#e7f6fe"},
+    {"rect": [44, 26, 332, 46], "fill": "#e3fbd2"},
+    {"rect": [44, 28, 332, 44], "fill": "#e0feb2"},
+    {"fill": null, "box": [47, 0, 324, 42], "text": "Pajama Motibear", "size": 31, "weight": 800, "color": "#095166", "align": "left", "line_height": 1.2, "fit": false},
+    {"rect": [494, 6, 797, 50], "fill": "#e7f6fe"},
+    {"rect": [494, 26, 795, 46], "fill": "#e3fbd2"},
+    {"rect": [494, 28, 795, 44], "fill": "#e0feb2"},
+    {"fill": null, "box": [497, 0, 787, 42], "text": "Samurai Motibear", "size": 31, "weight": 800, "color": "#095166", "align": "left", "line_height": 1.2, "fit": false},
+    {"rect": [41, 367, 300, 411], "fill": "#e7f6fe"},
+    {"rect": [41, 387, 283, 407], "fill": "#e3fbd2"},
+    {"rect": [41, 389, 283, 405], "fill": "#e0feb2"},
+    {"fill": null, "box": [44, 361, 275, 403], "text": "Chef Motibear", "size": 31, "weight": 800, "color": "#095166", "align": "left", "line_height": 1.2, "fit": false},
+    {"rect": [488, 369, 822, 413], "fill": "#e7f6fe"},
+    {"rect": [488, 389, 818, 409], "fill": "#e3fbd2"},
+    {"rect": [488, 391, 818, 407], "fill": "#e0feb2"},
+    {"fill": null, "box": [491, 363, 810, 405], "text": "Astronaut Motibear", "size": 31, "weight": 800, "color": "#095166", "align": "left", "line_height": 1.2, "fit": false}
+  ]
+}

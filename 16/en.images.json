@@ -1,0 +1,41 @@
+{
+ "assets/setting.png": [
+  {"rect": [127, 7, 214, 36], "fill": "auto"},
+  {"rect": [40, 4, 298, 33], "fill": null, "text": "Word Details", "size": 16, "weight": 700, "color": "#ffffff", "align": "center", "line_height": 1.0, "fit": true},
+  {"rect": [2, 83, 83, 110], "fill": "auto"},
+  {"rect": [4, 80, 318, 106], "fill": null, "text": "Autoplay", "size": 17, "weight": 700, "color": {"darkest": [5, 86, 77, 106]}, "align": "left", "line_height": 1.0, "fit": true},
+  {"rect": [23, 131, 63, 155], "fill": "auto"},
+  {"rect": [26, 128, 240, 154], "fill": null, "text": "Word", "size": 13, "weight": 500, "color": {"darkest": [27, 135, 55, 151]}, "align": "left", "line_height": 1.0, "fit": true},
+  {"rect": [21, 187, 100, 210], "fill": "auto"},
+  {"rect": [26, 184, 240, 209], "fill": null, "text": "Word Meaning", "size": 13, "weight": 500, "color": {"darkest": [25, 191, 92, 206]}, "align": "left", "line_height": 1.0, "fit": true},
+  {"rect": [22, 242, 62, 266], "fill": "auto"},
+  {"rect": [26, 239, 240, 265], "fill": null, "text": "Examples", "size": 13, "weight": 500, "color": {"darkest": [26, 246, 54, 262]}, "align": "left", "line_height": 1.0, "fit": true},
+  {"rect": [21, 298, 88, 321], "fill": "auto"},
+  {"rect": [26, 295, 240, 320], "fill": null, "text": "Example translation", "size": 13, "weight": 500, "color": {"darkest": [25, 302, 80, 317]}, "align": "left", "line_height": 1.0, "fit": true}
+ ],
+ "assets/wordbook.png": [
+  {"rect": [2, 52, 124, 76], "fill": "auto"},
+  {"rect": [5, 48, 160, 71], "fill": null, "text": "Jr. high 41.75", "size": 13, "weight": 500, "color": {"darkest": [4, 55, 118, 72]}, "align": "left", "line_height": 1.0, "fit": true},
+  {"rect": [248, 51, 318, 76], "fill": {"sample": [228, 52]}},
+  {"rect": [246, 48, 330, 75], "fill": null, "text": "Memory\nDecay Off", "size": 10, "weight": 600, "color": {"darkest": [249, 54, 314, 73]}, "align": "center", "line_height": 1.15, "fit": true},
+  {"rect": [194, 131, 234, 149], "fill": "auto"},
+  {"rect": [196, 127, 250, 146], "fill": null, "text": "Mastery", "size": 11, "weight": 500, "color": {"darkest": [196, 134, 231, 146]}, "align": "left", "line_height": 1.0, "fit": true},
+  {"rect": [254, 157, 286, 174], "fill": {"sample": [252, 165]}},
+  {"rect": [252, 153, 288, 171], "fill": null, "text": "New", "size": 11, "weight": 600, "color": {"darkest": [256, 159, 284, 171]}, "align": "center", "line_height": 1.0, "fit": true},
+  {"rect": [15, 204, 82, 221], "fill": "auto"},
+  {"rect": [17, 200, 120, 218], "fill": null, "text": "Last seen: -", "size": 10, "weight": 500, "color": {"darkest": [17, 207, 78, 218]}, "align": "left", "line_height": 1.0, "fit": true},
+  {"rect": [166, 202, 228, 223], "fill": {"sample": [165, 212]}},
+  {"rect": [166, 199, 228, 219], "fill": null, "text": "Last 20", "size": 11, "weight": 700, "color": "#ffffff", "align": "center", "line_height": 1.0, "fit": true},
+  {"rect": [256, 202, 300, 223], "fill": {"sample": [250, 212]}},
+  {"rect": [244, 199, 314, 219], "fill": null, "text": "All Time", "size": 11, "weight": 700, "color": {"darkest": [260, 205, 297, 219]}, "align": "center", "line_height": 1.0, "fit": true},
+  {"rect": [0, 251, 46, 277], "fill": "auto"},
+  {"rect": [4, 245, 150, 270], "fill": null, "text": "Meaning", "size": 17, "weight": 700, "color": "#005172", "align": "left", "line_height": 1.0, "fit": true},
+  {"rect": [0, 283, 162, 308], "fill": "auto"},
+  {"rect": [4, 279, 300, 302], "fill": null, "text": "(n.) world; society; realm", "size": 13, "weight": 700, "color": "#005172", "align": "left", "line_height": 1.0, "fit": true},
+  {"rect": [0, 499, 46, 525], "fill": "auto"},
+  {"rect": [4, 493, 150, 518], "fill": null, "text": "Examples", "size": 17, "weight": 700, "color": "#005172", "align": "left", "line_height": 1.0, "fit": true},
+  {"rect": [14, 594, 300, 617], "fill": {"sample": [10, 610]}},
+  {"rect": [170, 652, 224, 675], "fill": {"sample": [140, 663]}},
+  {"rect": [150, 647, 244, 671], "fill": null, "text": "Close", "size": 14, "weight": 700, "color": "#ffffff", "align": "center", "line_height": 1.0, "fit": true}
+ ]
+}

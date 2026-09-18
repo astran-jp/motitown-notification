@@ -155,8 +155,13 @@ def main():
     out = out.replace("family=Noto+Sans+JP", "family=Noto+Sans").replace('"Noto Sans JP"', '"Noto Sans"').replace("'Noto Sans JP'", "'Noto Sans'")
     out = out.replace(f'href="{SITE}/"', f'href="{SITE}/en/"').replace(f'content="{SITE}/"', f'content="{SITE}/en/"')
     out = re.sub(r'((?:href|src)=")(?!https?:|/|#|data:|\.\./|assets/)', lambda m: m.group(1) + "../", out)
-    # CSS の背景画像も日本語版の assets/ を参照する(英語版サムネイルは en/assets/ にあるものだけ)
-    out = re.sub(r'(url\(["\']?)assets/', lambda m: m.group(1) + "../assets/", out)
+    # CSS の背景画像(<img> ではなく ::before でサムネイルを出しているカード)も、英語版が en/assets/ に
+    # あればそちらを、無ければ日本語版の ../assets/ を参照する
+    def bg(m):
+        name = m.group(2)
+        local = os.path.isfile(os.path.join(ROOT, "en", "assets", name))
+        return m.group(1) + ("assets/" if local else "../assets/") + name
+    out = re.sub(r'(url\(["\']?)assets/([^)"\']+)', bg, out)
     os.makedirs(os.path.join(ROOT, "en"), exist_ok=True)
     open(os.path.join(ROOT, "en", "index.html"), "w", encoding="utf-8").write(out)
     body = re.sub(r"<!--.*?-->|<style.*?</style>|<script.*?</script>", "", out, flags=re.S)

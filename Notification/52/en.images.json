@@ -1,0 +1,6 @@
+{
+ "assets/04-0dc3b194.webp": [
+  {"rect": [370, 228, 423, 244], "fill": "#f9fefe", "text": "Friends", "size": 11, "weight": 700, "align": "center", "box": [367, 227, 427, 245], "color": {"darkest": [371, 228, 422, 244]}},
+  {"rect": [435, 228, 489, 244], "fill": "#f8fefc", "text": "Announcements", "size": 9, "weight": 700, "align": "center", "box": [430, 227, 494, 245], "color": {"darkest": [436, 228, 487, 244]}}
+ ]
+}

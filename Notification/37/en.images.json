@@ -1,0 +1,1531 @@
+{
+ "assets/04-0934ce0c.webp": [
+  {
+   "rect": [
+    489,
+    308,
+    565,
+    332
+   ],
+   "fill": "#ffffff",
+   "text": "Friends",
+   "size": 14,
+   "weight": 700,
+   "color": {
+    "darkest": [
+     495,
+     310,
+     560,
+     330
+    ]
+   },
+   "box": [
+    484,
+    308,
+    570,
+    332
+   ]
+  },
+  {
+   "rect": [
+    567,
+    308,
+    661,
+    332
+   ],
+   "fill": "#ffffff",
+   "text": "Announcements",
+   "size": 13,
+   "weight": 700,
+   "color": {
+    "darkest": [
+     495,
+     310,
+     560,
+     330
+    ]
+   },
+   "box": [
+    569,
+    308,
+    659,
+    332
+   ]
+  }
+ ],
+ "assets/02-99e7e460.webp": [
+  {
+   "rect": [
+    112,
+    180,
+    246,
+    222
+   ],
+   "fill": {
+    "sample": [
+     100,
+     215
+    ]
+   },
+   "text": "Add Words",
+   "size": 23,
+   "weight": 400,
+   "color": "#597d89",
+   "align": "left",
+   "box": [
+    118,
+    175,
+    256,
+    217
+   ]
+  },
+  {
+   "rect": [
+    408,
+    266,
+    590,
+    308
+   ],
+   "fill": "#ffffff",
+   "text": "Hide Word / Meaning",
+   "size": 19,
+   "weight": 500,
+   "color": "#284f5c",
+   "align": "left",
+   "box": [
+    412,
+    262,
+    604,
+    304
+   ]
+  },
+  {
+   "rect": [
+    104,
+    403,
+    128,
+    428
+   ],
+   "fill": "#ffffff",
+   "text": "n.",
+   "size": 14,
+   "weight": 500,
+   "color": "#939695",
+   "align": "center",
+   "box": [
+    100,
+    397,
+    132,
+    428
+   ]
+  },
+  {
+   "rect": [
+    135,
+    400,
+    180,
+    432
+   ],
+   "fill": "#ffffff",
+   "text": "exclusive right to an invention",
+   "size": 17,
+   "weight": 400,
+   "color": "#939695",
+   "align": "left",
+   "box": [
+    138,
+    397,
+    480,
+    428
+   ]
+  },
+  {
+   "rect": [
+    104,
+    529,
+    128,
+    554
+   ],
+   "fill": "#ffffff",
+   "text": "adj.",
+   "size": 13,
+   "weight": 500,
+   "color": "#939695",
+   "align": "center",
+   "box": [
+    100,
+    523,
+    132,
+    554
+   ]
+  },
+  {
+   "rect": [
+    135,
+    526,
+    235,
+    558
+   ],
+   "fill": "#ffffff",
+   "text": "able to be applied",
+   "size": 17,
+   "weight": 400,
+   "color": "#939695",
+   "align": "left",
+   "box": [
+    138,
+    523,
+    480,
+    554
+   ]
+  },
+  {
+   "rect": [
+    104,
+    655,
+    128,
+    680
+   ],
+   "fill": "#ffffff",
+   "text": "n.",
+   "size": 14,
+   "weight": 500,
+   "color": "#939695",
+   "align": "center",
+   "box": [
+    100,
+    649,
+    132,
+    680
+   ]
+  },
+  {
+   "rect": [
+    135,
+    652,
+    200,
+    684
+   ],
+   "fill": "#ffffff",
+   "text": "amount produced",
+   "size": 17,
+   "weight": 400,
+   "color": "#939695",
+   "align": "left",
+   "box": [
+    138,
+    649,
+    480,
+    680
+   ]
+  },
+  {
+   "rect": [
+    104,
+    781,
+    128,
+    806
+   ],
+   "fill": "#ffffff",
+   "text": "v.",
+   "size": 14,
+   "weight": 500,
+   "color": "#939695",
+   "align": "center",
+   "box": [
+    100,
+    775,
+    132,
+    806
+   ]
+  },
+  {
+   "rect": [
+    135,
+    778,
+    180,
+    810
+   ],
+   "fill": "#ffffff",
+   "text": "to live in a place",
+   "size": 17,
+   "weight": 400,
+   "color": "#939695",
+   "align": "left",
+   "box": [
+    138,
+    775,
+    480,
+    806
+   ]
+  },
+  {
+   "rect": [
+    104,
+    907,
+    128,
+    932
+   ],
+   "fill": "#ffffff",
+   "text": "n.",
+   "size": 14,
+   "weight": 500,
+   "color": "#939695",
+   "align": "center",
+   "box": [
+    100,
+    901,
+    132,
+    932
+   ]
+  },
+  {
+   "rect": [
+    135,
+    904,
+    180,
+    936
+   ],
+   "fill": "#ffffff",
+   "text": "distinctive trait",
+   "size": 17,
+   "weight": 400,
+   "color": "#939695",
+   "align": "left",
+   "box": [
+    138,
+    901,
+    480,
+    932
+   ]
+  },
+  {
+   "rect": [
+    524,
+    373,
+    541,
+    416
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    512,
+    376,
+    543,
+    377
+   ],
+   "fill": "#dff4ff"
+  },
+  {
+   "rect": [
+    510,
+    377,
+    543,
+    378
+   ],
+   "fill": "#dff4ff"
+  },
+  {
+   "rect": [
+    508,
+    378,
+    543,
+    379
+   ],
+   "fill": "#dff4ff"
+  },
+  {
+   "rect": [
+    507,
+    379,
+    543,
+    380
+   ],
+   "fill": "#dff4ff"
+  },
+  {
+   "rect": [
+    506,
+    380,
+    543,
+    381
+   ],
+   "fill": "#dff4ff"
+  },
+  {
+   "rect": [
+    505,
+    381,
+    543,
+    383
+   ],
+   "fill": "#dff4ff"
+  },
+  {
+   "rect": [
+    504,
+    383,
+    543,
+    385
+   ],
+   "fill": "#dff4ff"
+  },
+  {
+   "rect": [
+    503,
+    385,
+    543,
+    404
+   ],
+   "fill": "#dff4ff"
+  },
+  {
+   "rect": [
+    504,
+    404,
+    543,
+    406
+   ],
+   "fill": "#dff4ff"
+  },
+  {
+   "rect": [
+    505,
+    406,
+    543,
+    408
+   ],
+   "fill": "#dff4ff"
+  },
+  {
+   "rect": [
+    506,
+    408,
+    543,
+    409
+   ],
+   "fill": "#dff4ff"
+  },
+  {
+   "rect": [
+    507,
+    409,
+    543,
+    410
+   ],
+   "fill": "#dff4ff"
+  },
+  {
+   "rect": [
+    508,
+    410,
+    543,
+    411
+   ],
+   "fill": "#dff4ff"
+  },
+  {
+   "rect": [
+    510,
+    411,
+    543,
+    412
+   ],
+   "fill": "#dff4ff"
+  },
+  {
+   "rect": [
+    512,
+    412,
+    543,
+    413
+   ],
+   "fill": "#dff4ff"
+  },
+  {
+   "rect": [
+    535,
+    382,
+    594,
+    407
+   ],
+   "fill": "#dff4ff"
+  },
+  {
+   "rect": [
+    503,
+    375,
+    602,
+    414
+   ],
+   "fill": null,
+   "box": [
+    503,
+    372,
+    602,
+    411
+   ],
+   "text": "Mastered",
+   "size": 15,
+   "weight": 700,
+   "color": "#266a8c",
+   "align": "center"
+  },
+  {
+   "rect": [
+    499,
+    506,
+    594,
+    531
+   ],
+   "fill": "#d2ffe1"
+  },
+  {
+   "rect": [
+    491,
+    499,
+    602,
+    538
+   ],
+   "fill": null,
+   "box": [
+    491,
+    496,
+    602,
+    535
+   ],
+   "text": "Familiar",
+   "size": 15,
+   "weight": 700,
+   "color": "#2c8747",
+   "align": "center"
+  },
+  {
+   "rect": [
+    517,
+    632,
+    594,
+    659
+   ],
+   "fill": "#ffeace"
+  },
+  {
+   "rect": [
+    509,
+    625,
+    602,
+    666
+   ],
+   "fill": null,
+   "box": [
+    509,
+    622,
+    602,
+    663
+   ],
+   "text": "Learning",
+   "size": 15,
+   "weight": 700,
+   "color": "#a0802f",
+   "align": "center"
+  },
+  {
+   "rect": [
+    541,
+    749,
+    558,
+    793
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    520,
+    752,
+    560,
+    753
+   ],
+   "fill": "#fbe4e5"
+  },
+  {
+   "rect": [
+    518,
+    753,
+    560,
+    754
+   ],
+   "fill": "#fbe4e5"
+  },
+  {
+   "rect": [
+    516,
+    754,
+    560,
+    755
+   ],
+   "fill": "#fbe4e5"
+  },
+  {
+   "rect": [
+    515,
+    755,
+    560,
+    756
+   ],
+   "fill": "#fbe4e5"
+  },
+  {
+   "rect": [
+    514,
+    756,
+    560,
+    757
+   ],
+   "fill": "#fbe4e5"
+  },
+  {
+   "rect": [
+    513,
+    757,
+    560,
+    759
+   ],
+   "fill": "#fbe4e5"
+  },
+  {
+   "rect": [
+    512,
+    759,
+    560,
+    761
+   ],
+   "fill": "#fbe4e5"
+  },
+  {
+   "rect": [
+    511,
+    761,
+    560,
+    781
+   ],
+   "fill": "#fbe4e5"
+  },
+  {
+   "rect": [
+    512,
+    781,
+    560,
+    783
+   ],
+   "fill": "#fbe4e5"
+  },
+  {
+   "rect": [
+    513,
+    783,
+    560,
+    785
+   ],
+   "fill": "#fbe4e5"
+  },
+  {
+   "rect": [
+    514,
+    785,
+    560,
+    786
+   ],
+   "fill": "#fbe4e5"
+  },
+  {
+   "rect": [
+    515,
+    786,
+    560,
+    787
+   ],
+   "fill": "#fbe4e5"
+  },
+  {
+   "rect": [
+    516,
+    787,
+    560,
+    788
+   ],
+   "fill": "#fbe4e5"
+  },
+  {
+   "rect": [
+    518,
+    788,
+    560,
+    789
+   ],
+   "fill": "#fbe4e5"
+  },
+  {
+   "rect": [
+    520,
+    789,
+    560,
+    790
+   ],
+   "fill": "#fbe4e5"
+  },
+  {
+   "rect": [
+    552,
+    758,
+    594,
+    784
+   ],
+   "fill": "#fbe4e5"
+  },
+  {
+   "rect": [
+    511,
+    751,
+    602,
+    791
+   ],
+   "fill": null,
+   "box": [
+    511,
+    748,
+    602,
+    788
+   ],
+   "text": "Difficult",
+   "size": 15,
+   "weight": 700,
+   "color": "#cf7071",
+   "align": "center"
+  },
+  {
+   "rect": [
+    535,
+    885,
+    594,
+    907
+   ],
+   "fill": "#f3f5f7"
+  },
+  {
+   "rect": [
+    527,
+    878,
+    602,
+    914
+   ],
+   "fill": null,
+   "box": [
+    527,
+    875,
+    602,
+    911
+   ],
+   "text": "New",
+   "size": 15,
+   "weight": 700,
+   "color": "#7f8386",
+   "align": "center"
+  }
+ ],
+ "assets/03-dedf5b1d.webp": [
+  {
+   "rect": [
+    55,
+    246,
+    295,
+    308
+   ],
+   "fill": "#ffffff",
+   "text": "Play Settings",
+   "size": 42,
+   "weight": 800,
+   "color": "#084c65",
+   "align": "left",
+   "box": [
+    61,
+    238,
+    603,
+    300
+   ]
+  },
+  {
+   "rect": [
+    55,
+    344,
+    165,
+    390
+   ],
+   "fill": "#ffffff",
+   "text": "Mode",
+   "size": 28,
+   "weight": 700,
+   "color": "#084c65",
+   "align": "left",
+   "box": [
+    61,
+    338,
+    403,
+    384
+   ]
+  },
+  {
+   "rect": [
+    171,
+    444,
+    259,
+    496
+   ],
+   "fill": "auto",
+   "text": "Battle",
+   "size": 28,
+   "weight": 700,
+   "color": "#32a7dd",
+   "align": "right",
+   "box": [
+    83,
+    438,
+    257,
+    490
+   ]
+  },
+  {
+   "rect": [
+    593,
+    444,
+    679,
+    496
+   ],
+   "fill": "#ffffff",
+   "text": "Adventure",
+   "size": 28,
+   "weight": 400,
+   "color": "#898e8d",
+   "align": "center",
+   "box": [
+    473,
+    438,
+    801,
+    490
+   ]
+  },
+  {
+   "rect": [
+    143,
+    660,
+    225,
+    718
+   ],
+   "fill": "#e7f6fe"
+  },
+  {
+   "rect": [
+    133,
+    664,
+    157,
+    714
+   ],
+   "fill": null,
+   "box": [
+    133,
+    652,
+    157,
+    702
+   ],
+   "text": "5",
+   "size": 40,
+   "weight": 350,
+   "color": "#7c8b91",
+   "align": "left",
+   "fit": false
+  },
+  {
+   "rect": [
+    165,
+    664,
+    237,
+    714
+   ],
+   "fill": null,
+   "box": [
+    165,
+    661,
+    237,
+    711
+   ],
+   "text": "words",
+   "size": 24,
+   "weight": 400,
+   "color": "#7c8b91",
+   "align": "left",
+   "fit": false
+  },
+  {
+   "rect": [
+    401,
+    660,
+    512,
+    718
+   ],
+   "fill": "#e7f6fe"
+  },
+  {
+   "rect": [
+    391,
+    664,
+    439,
+    714
+   ],
+   "fill": null,
+   "box": [
+    391,
+    652,
+    439,
+    702
+   ],
+   "text": "15",
+   "size": 40,
+   "weight": 700,
+   "color": "#32a7dd",
+   "align": "left",
+   "fit": false
+  },
+  {
+   "rect": [
+    447,
+    664,
+    523,
+    714
+   ],
+   "fill": null,
+   "box": [
+    447,
+    661,
+    523,
+    711
+   ],
+   "text": "words",
+   "size": 24,
+   "weight": 700,
+   "color": "#32a7dd",
+   "align": "left",
+   "fit": false
+  },
+  {
+   "rect": [
+    659,
+    660,
+    764,
+    718
+   ],
+   "fill": "#e7f6fe"
+  },
+  {
+   "rect": [
+    648,
+    664,
+    696,
+    714
+   ],
+   "fill": null,
+   "box": [
+    648,
+    652,
+    696,
+    702
+   ],
+   "text": "30",
+   "size": 40,
+   "weight": 350,
+   "color": "#78878e",
+   "align": "left",
+   "fit": false
+  },
+  {
+   "rect": [
+    703,
+    664,
+    776,
+    714
+   ],
+   "fill": null,
+   "box": [
+    703,
+    661,
+    776,
+    711
+   ],
+   "text": "words",
+   "size": 24,
+   "weight": 400,
+   "color": "#78878e",
+   "align": "left",
+   "fit": false
+  },
+  {
+   "rect": [
+    53,
+    780,
+    199,
+    830
+   ],
+   "fill": "#ffffff",
+   "text": "Question Range",
+   "size": 28,
+   "weight": 700,
+   "color": "#084c65",
+   "align": "left",
+   "box": [
+    60,
+    774,
+    503,
+    824
+   ]
+  },
+  {
+   "rect": [
+    149,
+    886,
+    335,
+    934
+   ],
+   "fill": "#ffffff",
+   "text": "All",
+   "size": 28,
+   "weight": 400,
+   "color": "#898e8d",
+   "align": "center",
+   "box": [
+    75,
+    880,
+    406,
+    928
+   ]
+  },
+  {
+   "rect": [
+    518,
+    882,
+    705,
+    936
+   ],
+   "fill": "auto",
+   "text": "Choose a Range",
+   "size": 26,
+   "weight": 700,
+   "color": "#32a7dd",
+   "align": "right",
+   "box": [
+    469,
+    877,
+    703,
+    931
+   ]
+  },
+  {
+   "rect": [
+    193,
+    1040,
+    311,
+    1092
+   ],
+   "fill": "auto",
+   "text": "New",
+   "size": 24,
+   "weight": 700,
+   "color": "#808689",
+   "align": "center",
+   "box": [
+    181,
+    1035,
+    324,
+    1087
+   ]
+  },
+  {
+   "rect": [
+    377,
+    1040,
+    465,
+    1092
+   ],
+   "fill": "auto",
+   "text": "Difficult",
+   "size": 24,
+   "weight": 700,
+   "color": "#e76866",
+   "align": "center",
+   "box": [
+    371,
+    1035,
+    474,
+    1087
+   ]
+  },
+  {
+   "rect": [
+    533,
+    1040,
+    685,
+    1092
+   ],
+   "fill": "auto",
+   "text": "Learning",
+   "size": 24,
+   "weight": 700,
+   "color": "#ad7d1c",
+   "align": "center",
+   "box": [
+    521,
+    1035,
+    696,
+    1087
+   ]
+  },
+  {
+   "rect": [
+    251,
+    1142,
+    443,
+    1194
+   ],
+   "fill": "auto",
+   "text": "Familiar",
+   "size": 24,
+   "weight": 700,
+   "color": "#21943d",
+   "align": "center",
+   "box": [
+    241,
+    1137,
+    451,
+    1189
+   ]
+  },
+  {
+   "rect": [
+    507,
+    1142,
+    627,
+    1194
+   ],
+   "fill": "auto",
+   "text": "Mastered",
+   "size": 24,
+   "weight": 700,
+   "color": "#1a72a3",
+   "align": "center",
+   "box": [
+    495,
+    1137,
+    638,
+    1189
+   ]
+  },
+  {
+   "rect": [
+    53,
+    1276,
+    169,
+    1328
+   ],
+   "fill": "#ffffff",
+   "text": "Order",
+   "size": 28,
+   "weight": 700,
+   "color": "#084c65",
+   "align": "left",
+   "box": [
+    60,
+    1270,
+    403,
+    1322
+   ]
+  },
+  {
+   "rect": [
+    83,
+    1394,
+    339,
+    1446
+   ],
+   "fill": "auto",
+   "text": "Lowest Mastery First",
+   "size": 29,
+   "weight": 700,
+   "color": "#32a7dd",
+   "align": "left",
+   "box": [
+    90,
+    1388,
+    703,
+    1440
+   ]
+  },
+  {
+   "rect": [
+    83,
+    1510,
+    348,
+    1536
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    90,
+    1516,
+    703,
+    1562
+   ],
+   "fill": null,
+   "box": [
+    90,
+    1502,
+    703,
+    1548
+   ],
+   "text": "Highest Mastery First",
+   "size": 29,
+   "weight": 400,
+   "color": "#3c5c6a",
+   "align": "left"
+  },
+  {
+   "rect": [
+    83,
+    1536,
+    443,
+    1537
+   ],
+   "fill": "#f9ffff"
+  },
+  {
+   "rect": [
+    83,
+    1537,
+    443,
+    1538
+   ],
+   "fill": "#e6ffff"
+  },
+  {
+   "rect": [
+    83,
+    1538,
+    443,
+    1539
+   ],
+   "fill": "#90c1d3"
+  },
+  {
+   "rect": [
+    83,
+    1539,
+    443,
+    1540
+   ],
+   "fill": "#5b90a7"
+  },
+  {
+   "rect": [
+    83,
+    1540,
+    443,
+    1541
+   ],
+   "fill": "#9bc2d2"
+  },
+  {
+   "rect": [
+    83,
+    1541,
+    443,
+    1542
+   ],
+   "fill": "#e6feff"
+  },
+  {
+   "rect": [
+    83,
+    1542,
+    443,
+    1543
+   ],
+   "fill": "#f7ffff"
+  },
+  {
+   "rect": [
+    83,
+    1543,
+    443,
+    1544
+   ],
+   "fill": "#fffffe"
+  },
+  {
+   "rect": [
+    83,
+    1544,
+    443,
+    1545
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    83,
+    1545,
+    443,
+    1546
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    83,
+    1546,
+    443,
+    1547
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    83,
+    1547,
+    443,
+    1548
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    83,
+    1548,
+    443,
+    1549
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    83,
+    1549,
+    443,
+    1550
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    83,
+    1550,
+    443,
+    1551
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    83,
+    1551,
+    443,
+    1552
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    83,
+    1552,
+    443,
+    1553
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    83,
+    1553,
+    443,
+    1554
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    83,
+    1554,
+    443,
+    1555
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    83,
+    1555,
+    443,
+    1556
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    83,
+    1556,
+    443,
+    1557
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    83,
+    1557,
+    443,
+    1558
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    83,
+    1558,
+    443,
+    1559
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    83,
+    1559,
+    443,
+    1560
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    83,
+    1560,
+    443,
+    1561
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    83,
+    1561,
+    443,
+    1562
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    83,
+    1562,
+    443,
+    1563
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    83,
+    1563,
+    443,
+    1564
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    83,
+    1564,
+    443,
+    1565
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    83,
+    1565,
+    443,
+    1566
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    83,
+    1566,
+    443,
+    1567
+   ],
+   "fill": "#fefefe"
+  },
+  {
+   "rect": [
+    83,
+    1567,
+    443,
+    1568
+   ],
+   "fill": "#fcfeff"
+  },
+  {
+   "rect": [
+    83,
+    1568,
+    443,
+    1569
+   ],
+   "fill": "#fbffff"
+  },
+  {
+   "rect": [
+    83,
+    1569,
+    443,
+    1570
+   ],
+   "fill": "#f9ffff"
+  },
+  {
+   "rect": [
+    353,
+    1600,
+    525,
+    1660
+   ],
+   "fill": {
+    "sample": [
+     203,
+     1630
+    ]
+   },
+   "text": "Start",
+   "size": 34,
+   "weight": 700,
+   "color": "#ffffff",
+   "align": "center",
+   "box": [
+    103,
+    1593,
+    773,
+    1653
+   ]
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+{
+ "assets/02-1102efba.webp": [
+  {"rect": [490, 307, 566, 331], "fill": "#ffffff", "text": "Friends", "size": 14, "weight": 700, "color": {"darkest": [495, 310, 560, 330]}, "box": [485, 307, 571, 331]},
+  {"rect": [568, 307, 662, 331], "fill": "#ffffff", "text": "Announcements", "size": 13, "weight": 700, "color": {"darkest": [495, 310, 560, 330]}, "box": [570, 307, 660, 331]}
+ ]
+}

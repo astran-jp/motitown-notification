@@ -1,0 +1,9 @@
+{
+ "assets/03-bg-86c5c21b.webp": [
+  {"rect": [60, 152, 240, 180], "fill": "#ffffff", "text": "Very basic conversation", "size": 17, "weight": 600, "color": {"darkest": [75, 155, 225, 176]}, "box": [44, 152, 240, 180]},
+  {"rect": [438, 229, 493, 246], "fill": "#ffffff", "text": "Dev. Score", "size": 11, "weight": 600, "color": {"darkest": [445, 231, 485, 244]}, "box": [435, 229, 496, 246]}
+ ],
+ "assets/04-bg-0f2c42cd.webp": [
+  {"rect": [50, 198, 165, 234], "fill": "#ffffff", "text": "Announcements", "size": 25, "weight": 700, "align": "left", "color": {"darkest": [55, 204, 155, 229]}, "box": [55, 198, 330, 234]}
+ ]
+}

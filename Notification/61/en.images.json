@@ -1,0 +1,1233 @@
+{
+ "assets/05-0934ce0c.webp": [
+  {
+   "rect": [
+    489,
+    308,
+    565,
+    332
+   ],
+   "fill": "#ffffff",
+   "text": "Friends",
+   "size": 14,
+   "weight": 700,
+   "color": {
+    "darkest": [
+     495,
+     310,
+     560,
+     330
+    ]
+   },
+   "box": [
+    484,
+    308,
+    570,
+    332
+   ]
+  },
+  {
+   "rect": [
+    567,
+    308,
+    661,
+    332
+   ],
+   "fill": "#ffffff",
+   "text": "Announcements",
+   "size": 13,
+   "weight": 700,
+   "color": {
+    "darkest": [
+     495,
+     310,
+     560,
+     330
+    ]
+   },
+   "box": [
+    569,
+    308,
+    659,
+    332
+   ]
+  }
+ ],
+ "en-src/02-e2a7fed3-1.webp": [
+  {
+   "rect": [
+    60,
+    792,
+    840,
+    1034
+   ],
+   "fill": "auto",
+   "text": "Take on the monthly rankings together!\nMembers of top schools win limited\ncharacters and Premium Tickets!\nGraduates can join too!",
+   "size": 34,
+   "weight": 500,
+   "color": "#021b4d",
+   "align": "center",
+   "line_height": 1.62,
+   "box": [
+    60,
+    785,
+    840,
+    1027
+   ]
+  },
+  {
+   "rect": [
+    240,
+    1112,
+    660,
+    1250
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    240,
+    1112,
+    660,
+    1166
+   ],
+   "fill": null,
+   "text": "Reward",
+   "size": 46,
+   "weight": 600,
+   "color": "#e1d064",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    240,
+    1103,
+    660,
+    1157
+   ]
+  },
+  {
+   "rect": [
+    100,
+    1160,
+    800,
+    1245
+   ],
+   "fill": null,
+   "text": "This Month's Rewards",
+   "size": 62,
+   "weight": 900,
+   "color": "#524702",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    100,
+    1148,
+    800,
+    1233
+   ]
+  },
+  {
+   "rect": [
+    262,
+    1372,
+    638,
+    1458
+   ],
+   "fill": null,
+   "text": "Qualifier Prize",
+   "size": 52,
+   "weight": 800,
+   "color": "#ce6508",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    262,
+    1362,
+    638,
+    1448
+   ]
+  },
+  {
+   "rect": [
+    80,
+    1500,
+    820,
+    1622
+   ],
+   "fill": "auto",
+   "text": "The top 30 players at each prefecture's\n1st–3rd place schools get a limited Motibear!",
+   "size": 31,
+   "weight": 500,
+   "color": "#6f3b0b",
+   "align": "center",
+   "line_height": 1.7,
+   "box": [
+    80,
+    1494,
+    820,
+    1616
+   ]
+  }
+ ],
+ "en-src/02-e2a7fed3-2.webp": [
+  {
+   "rect": [
+    240,
+    330,
+    660,
+    378
+   ],
+   "fill": null,
+   "text": "This Month's Limited Character",
+   "size": 25,
+   "weight": 800,
+   "color": "#101832",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    240,
+    325,
+    660,
+    373
+   ]
+  },
+  {
+   "rect": [
+    150,
+    398,
+    750,
+    462
+   ],
+   "fill": "auto",
+   "text": "Field Trip Motibear",
+   "size": 42,
+   "weight": 800,
+   "color": "#753c08",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    150,
+    390,
+    750,
+    454
+   ]
+  },
+  {
+   "rect": [
+    285,
+    635,
+    635,
+    722
+   ],
+   "fill": null,
+   "text": "Finals Prize",
+   "size": 56,
+   "weight": 800,
+   "color": "#5b7304",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    285,
+    624,
+    635,
+    711
+   ]
+  },
+  {
+   "rect": [
+    150,
+    795,
+    770,
+    860
+   ],
+   "fill": "auto",
+   "text": "Motitan Premium",
+   "size": 52,
+   "weight": 800,
+   "color": "#514704",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    150,
+    785,
+    770,
+    850
+   ]
+  },
+  {
+   "rect": [
+    150,
+    858,
+    770,
+    956
+   ],
+   "fill": null,
+   "text": "1 Month Free",
+   "size": 92,
+   "weight": 900,
+   "color": "#514704",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    150,
+    840,
+    770,
+    938
+   ]
+  },
+  {
+   "rect": [
+    120,
+    1022,
+    800,
+    1080
+   ],
+   "fill": "auto",
+   "text": "For Gold, Silver and Bronze Prize winners",
+   "size": 31,
+   "weight": 700,
+   "color": "#625f2e",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    120,
+    1016,
+    800,
+    1074
+   ]
+  },
+  {
+   "rect": [
+    268,
+    1340,
+    800,
+    1404
+   ],
+   "fill": "auto",
+   "text": "What is Motitan Premium?",
+   "size": 34,
+   "weight": 800,
+   "color": "#f86a09",
+   "align": "left",
+   "line_height": 1.4,
+   "box": [
+    268,
+    1333,
+    800,
+    1397
+   ]
+  },
+  {
+   "rect": [
+    255,
+    1434,
+    800,
+    1486
+   ],
+   "fill": "auto",
+   "text": "Unlimited Lives",
+   "size": 36,
+   "weight": 800,
+   "color": "#074e6a",
+   "align": "left",
+   "line_height": 1.4,
+   "box": [
+    255,
+    1427,
+    800,
+    1479
+   ]
+  },
+  {
+   "rect": [
+    255,
+    1492,
+    800,
+    1544
+   ],
+   "fill": "auto",
+   "text": "Play Motitan as much as you like!",
+   "size": 30,
+   "weight": 400,
+   "color": "#11485c",
+   "align": "left",
+   "line_height": 1.4,
+   "box": [
+    255,
+    1486,
+    800,
+    1538
+   ]
+  },
+  {
+   "rect": [
+    255,
+    1576,
+    800,
+    1632
+   ],
+   "fill": "auto",
+   "text": "No Ads",
+   "size": 36,
+   "weight": 800,
+   "color": "#074e6a",
+   "align": "left",
+   "line_height": 1.4,
+   "box": [
+    255,
+    1569,
+    800,
+    1625
+   ]
+  },
+  {
+   "rect": [
+    255,
+    1636,
+    800,
+    1686
+   ],
+   "fill": "auto",
+   "text": "Stay focused and learn more efficiently!",
+   "size": 30,
+   "weight": 400,
+   "color": "#11485c",
+   "align": "left",
+   "line_height": 1.4,
+   "box": [
+    255,
+    1630,
+    800,
+    1680
+   ]
+  },
+  {
+   "rect": [
+    250,
+    1718,
+    800,
+    1757
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    255,
+    1720,
+    800,
+    1757
+   ],
+   "fill": null,
+   "text": "2x Coins",
+   "size": 34,
+   "weight": 800,
+   "color": "#074e6a",
+   "align": "left",
+   "line_height": 1.4,
+   "box": [
+    255,
+    1707,
+    800,
+    1755
+   ],
+   "fit": false
+  }
+ ],
+ "en-src/02-e2a7fed3-3.webp": [
+  {
+   "rect": [
+    250,
+    0,
+    560,
+    14
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    250,
+    20,
+    800,
+    72
+   ],
+   "fill": "auto",
+   "text": "Earn coins efficiently!",
+   "size": 30,
+   "weight": 400,
+   "color": "#10495d",
+   "align": "left",
+   "line_height": 1.4,
+   "box": [
+    250,
+    14,
+    800,
+    66
+   ]
+  },
+  {
+   "rect": [
+    250,
+    106,
+    800,
+    166
+   ],
+   "fill": "auto",
+   "text": "10,000 Coins every month",
+   "size": 36,
+   "weight": 800,
+   "color": "#074f6a",
+   "align": "left",
+   "line_height": 1.4,
+   "box": [
+    250,
+    99,
+    800,
+    159
+   ]
+  },
+  {
+   "rect": [
+    250,
+    166,
+    800,
+    256
+   ],
+   "fill": "auto",
+   "text": "Plus, sign up for a free trial now and\nget 3,000 bonus Coins!",
+   "size": 29,
+   "weight": 400,
+   "color": "#0f465a",
+   "align": "left",
+   "line_height": 1.4,
+   "box": [
+    250,
+    160,
+    800,
+    250
+   ]
+  },
+  {
+   "rect": [
+    268,
+    385,
+    652,
+    480
+   ],
+   "fill": null,
+   "text": "Gold Prize",
+   "size": 54,
+   "weight": 800,
+   "color": "#ac9103",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    268,
+    374,
+    652,
+    469
+   ]
+  },
+  {
+   "rect": [
+    120,
+    505,
+    800,
+    560
+   ],
+   "fill": null,
+   "text": "National Finals: 1st place school",
+   "size": 32,
+   "weight": 700,
+   "color": "#7f6f06",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    120,
+    499,
+    800,
+    554
+   ]
+  },
+  {
+   "rect": [
+    200,
+    580,
+    720,
+    625
+   ],
+   "fill": null,
+   "text": "Rank within your school",
+   "size": 27,
+   "weight": 500,
+   "color": "#4c4206",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    200,
+    575,
+    720,
+    620
+   ]
+  },
+  {
+   "rect": [
+    268,
+    875,
+    652,
+    970
+   ],
+   "fill": null,
+   "text": "Silver Prize",
+   "size": 54,
+   "weight": 800,
+   "color": "#767574",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    268,
+    864,
+    652,
+    959
+   ]
+  },
+  {
+   "rect": [
+    120,
+    995,
+    800,
+    1050
+   ],
+   "fill": null,
+   "text": "National Finals: 2nd–5th place schools",
+   "size": 32,
+   "weight": 700,
+   "color": "#727272",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    120,
+    989,
+    800,
+    1044
+   ]
+  },
+  {
+   "rect": [
+    200,
+    1068,
+    720,
+    1113
+   ],
+   "fill": null,
+   "text": "Rank within your school",
+   "size": 27,
+   "weight": 500,
+   "color": "#3d3d3d",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    200,
+    1063,
+    720,
+    1108
+   ]
+  },
+  {
+   "rect": [
+    268,
+    1365,
+    652,
+    1462
+   ],
+   "fill": null,
+   "text": "Bronze Prize",
+   "size": 54,
+   "weight": 800,
+   "color": "#8b6a42",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    268,
+    1354,
+    652,
+    1451
+   ]
+  },
+  {
+   "rect": [
+    120,
+    1485,
+    800,
+    1540
+   ],
+   "fill": null,
+   "text": "National Finals: 6th–10th place schools",
+   "size": 32,
+   "weight": 700,
+   "color": "#896841",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    120,
+    1479,
+    800,
+    1534
+   ]
+  },
+  {
+   "rect": [
+    200,
+    1558,
+    720,
+    1603
+   ],
+   "fill": null,
+   "text": "Rank within your school",
+   "size": 27,
+   "weight": 500,
+   "color": "#836239",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    200,
+    1553,
+    720,
+    1598
+   ]
+  }
+ ],
+ "assets/02-e2a7fed3-4.webp": [
+  {
+   "rect": [
+    120,
+    178,
+    780,
+    348
+   ],
+   "fill": "auto",
+   "text": "Work together and\naim for No. 1 in Japan!",
+   "size": 54,
+   "weight": 800,
+   "color": "#f94b34",
+   "align": "center",
+   "line_height": 1.45,
+   "box": [
+    120,
+    167,
+    780,
+    337
+   ]
+  },
+  {
+   "rect": [
+    60,
+    395,
+    840,
+    515
+   ],
+   "fill": "auto",
+   "text": "Each user's BP is added to their school's total,\nup to 2,000 BP per day.",
+   "size": 31,
+   "weight": 400,
+   "color": "#dd4e3a",
+   "align": "center",
+   "line_height": 1.75,
+   "box": [
+    60,
+    389,
+    840,
+    509
+   ]
+  },
+  {
+   "rect": [
+    60,
+    560,
+    840,
+    735
+   ],
+   "fill": "auto",
+   "text": "Rank within your school is based on each user's\ntotal BP during the finals (no daily cap).\n* BP from the qualifiers is not counted.",
+   "size": 31,
+   "weight": 400,
+   "color": "#dd4e3a",
+   "align": "center",
+   "line_height": 1.75,
+   "box": [
+    60,
+    554,
+    840,
+    729
+   ]
+  },
+  {
+   "rect": [
+    250,
+    940,
+    660,
+    1080
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    250,
+    944,
+    660,
+    998
+   ],
+   "fill": null,
+   "text": "Mission",
+   "size": 46,
+   "weight": 600,
+   "color": "#68d5e0",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    250,
+    935,
+    660,
+    989
+   ]
+  },
+  {
+   "rect": [
+    150,
+    992,
+    750,
+    1078
+   ],
+   "fill": null,
+   "text": "Your Mission",
+   "size": 66,
+   "weight": 900,
+   "color": "#024953",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    150,
+    979,
+    750,
+    1065
+   ]
+  },
+  {
+   "rect": [
+    130,
+    1170,
+    770,
+    1246
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    100,
+    1245,
+    800,
+    1392
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    130,
+    1170,
+    770,
+    1392
+   ],
+   "fill": null,
+   "text": "Team up with your schoolmates,\nplay Motitan, and become the\nNo. 1 school in English vocab!",
+   "size": 41,
+   "weight": 800,
+   "color": "#044851",
+   "align": "center",
+   "line_height": 1.62,
+   "box": [
+    130,
+    1162,
+    770,
+    1384
+   ]
+  },
+  {
+   "rect": [
+    100,
+    1682,
+    800,
+    1750
+   ],
+   "fill": "auto",
+   "text": "Register your school name in the app",
+   "size": 36,
+   "weight": 800,
+   "color": "#044851",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    100,
+    1675,
+    800,
+    1743
+   ]
+  }
+ ],
+ "en-src/02-e2a7fed3-5.webp": [
+  {
+   "rect": [
+    250,
+    50,
+    570,
+    120
+   ],
+   "fill": null,
+   "text": "Motitan High School",
+   "size": 31,
+   "weight": 500,
+   "color": "#0c485f",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    250,
+    44,
+    570,
+    114
+   ]
+  },
+  {
+   "rect": [
+    80,
+    448,
+    820,
+    518
+   ],
+   "fill": "auto",
+   "text": "Learn English words and earn points!",
+   "size": 39,
+   "weight": 800,
+   "color": "#044851",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    80,
+    440,
+    820,
+    510
+   ]
+  },
+  {
+   "rect": [
+    80,
+    1170,
+    820,
+    1292
+   ],
+   "fill": "auto",
+   "text": "BP you earn during the campaign period\nis added to your school's points!",
+   "size": 33,
+   "weight": 400,
+   "color": "#04454d",
+   "align": "center",
+   "line_height": 1.7,
+   "box": [
+    80,
+    1163,
+    820,
+    1285
+   ]
+  }
+ ],
+ "assets/02-e2a7fed3-6.webp": [
+  {
+   "rect": [
+    60,
+    0,
+    840,
+    68
+   ],
+   "fill": "#baf6ff",
+   "text": "First, win your prefectural qualifier!",
+   "size": 40,
+   "weight": 800,
+   "color": "#044851",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    60,
+    -7,
+    840,
+    49
+   ],
+   "fit": false
+  },
+  {
+   "rect": [
+    175,
+    515,
+    725,
+    680
+   ],
+   "fill": "#baf6ff",
+   "text": "The qualifiers pit local schools against each other!\nThe top 3 schools by points in each prefecture\ngo through to the finals!",
+   "size": 33,
+   "weight": 400,
+   "color": "#04454d",
+   "align": "center",
+   "line_height": 1.7,
+   "box": [
+    60,
+    509,
+    840,
+    677
+   ]
+  },
+  {
+   "rect": [
+    230,
+    738,
+    670,
+    790
+   ],
+   "fill": "#baf6ff",
+   "text": "Qualifiers: the 1st–25th of each month",
+   "size": 33,
+   "weight": 700,
+   "color": "#04454d",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    60,
+    733,
+    840,
+    779
+   ]
+  },
+  {
+   "rect": [
+    132,
+    781,
+    768,
+    783
+   ],
+   "fill": "#04454d"
+  },
+  {
+   "rect": [
+    60,
+    1098,
+    840,
+    1152
+   ],
+   "fill": "#baf6ff",
+   "text": "Prefectural champions clash in the finals!",
+   "size": 36,
+   "weight": 800,
+   "color": "#044851",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    60,
+    1094,
+    840,
+    1145
+   ]
+  },
+  {
+   "rect": [
+    180,
+    1706,
+    720,
+    1757
+   ],
+   "fill": "#baf6ff",
+   "text": "Top schools from across Japan face off!",
+   "size": 33,
+   "weight": 400,
+   "color": "#04454d",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    60,
+    1698,
+    840,
+    1744
+   ]
+  }
+ ],
+ "en-src/02-e2a7fed3-7.webp": [
+  {
+   "rect": [
+    40,
+    0,
+    860,
+    56
+   ],
+   "fill": "#baf6ff",
+   "text": "Break into the top 10 and win a Premium Ticket!",
+   "size": 33,
+   "weight": 400,
+   "color": "#04454d",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    60,
+    -1,
+    840,
+    45
+   ]
+  },
+  {
+   "rect": [
+    220,
+    114,
+    680,
+    164
+   ],
+   "fill": "#baf6ff",
+   "text": "Finals: the 26th to the end of the month",
+   "size": 33,
+   "weight": 700,
+   "color": "#04454d",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    60,
+    110,
+    840,
+    156
+   ]
+  },
+  {
+   "rect": [
+    120,
+    158,
+    780,
+    160
+   ],
+   "fill": "#04454d"
+  },
+  {
+   "rect": [
+    90,
+    224,
+    815,
+    332
+   ],
+   "fill": "#baf6ff",
+   "text": "(BP from the qualifiers does not carry over —\nevery school starts the finals from 0 BP.)",
+   "size": 33,
+   "weight": 400,
+   "color": "#04454d",
+   "align": "center",
+   "line_height": 1.7,
+   "box": [
+    60,
+    216,
+    840,
+    328
+   ]
+  },
+  {
+   "rect": null,
+   "fill": null,
+   "text": "Graduates can join too!",
+   "size": 44,
+   "weight": 800,
+   "color": "#17a2ef",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    150,
+    674,
+    750,
+    736
+   ],
+   "fit": false
+  },
+  {
+   "rect": [
+    110,
+    806,
+    790,
+    915
+   ],
+   "fill": "#ffffff",
+   "text": "Graduates can take part in the Motitan Cup too.\nAim for No. 1 in Japan with current students!",
+   "size": 31,
+   "weight": 400,
+   "color": "#0f2c40",
+   "align": "center",
+   "line_height": 1.8,
+   "box": [
+    60,
+    799,
+    840,
+    911
+   ]
+  },
+  {
+   "rect": [
+    260,
+    1145,
+    640,
+    1200
+   ],
+   "fill": "#c1e9fe",
+   "text": "About the Rewards",
+   "size": 46,
+   "weight": 800,
+   "color": "#062a3e",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    60,
+    1133,
+    840,
+    1197
+   ]
+  },
+  {
+   "rect": [
+    250,
+    1294,
+    828,
+    1436
+   ],
+   "fill": "#c1e9fe",
+   "text": "Limited characters for the Qualifier Prize are granted within 24 hours of the end of the qualifiers, and Finals Prize Premium Tickets within 24 hours of the end of the finals.",
+   "size": 27,
+   "weight": 400,
+   "color": "#0f2c40",
+   "align": "left",
+   "line_height": 1.5,
+   "box": [
+    258,
+    1290,
+    830,
+    1455
+   ],
+   "valign": "top"
+  },
+  {
+   "rect": [
+    280,
+    1700,
+    620,
+    1757
+   ],
+   "fill": "#ffffff",
+   "text": "Frequently Asked Questions",
+   "size": 44,
+   "weight": 800,
+   "color": "#062a3e",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    60,
+    1689,
+    840,
+    1751
+   ]
+  }
+ ]
+}

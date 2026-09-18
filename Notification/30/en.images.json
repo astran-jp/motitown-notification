@@ -1,0 +1,98 @@
+{
+ "assets/03-0934ce0c.webp": [
+  {
+   "rect": [
+    489,
+    308,
+    565,
+    332
+   ],
+   "fill": "#ffffff",
+   "text": "Friends",
+   "size": 14,
+   "weight": 700,
+   "color": {
+    "darkest": [
+     495,
+     310,
+     560,
+     330
+    ]
+   },
+   "box": [
+    484,
+    308,
+    570,
+    332
+   ]
+  },
+  {
+   "rect": [
+    567,
+    308,
+    661,
+    332
+   ],
+   "fill": "#ffffff",
+   "text": "Announcements",
+   "size": 13,
+   "weight": 700,
+   "color": {
+    "darkest": [
+     495,
+     310,
+     560,
+     330
+    ]
+   },
+   "box": [
+    569,
+    308,
+    659,
+    332
+   ]
+  }
+ ],
+ "assets/02-bd46b757.webp": [
+  {
+   "rect": [
+    130,
+    445,
+    330,
+    500
+   ],
+   "fill": "auto",
+   "text": "Music app",
+   "size": 32,
+   "weight": 600,
+   "color": "#2d90c1",
+   "align": "center",
+   "box": [
+    130,
+    439,
+    330,
+    494
+   ]
+  },
+  {
+   "rect": [
+    600,
+    445,
+    780,
+    500
+   ],
+   "fill": "auto",
+   "text": "Motitan",
+   "size": 32,
+   "weight": 600,
+   "color": "#2d90c1",
+   "align": "center",
+   "box": [
+    600,
+    439,
+    780,
+    494
+   ]
+  }
+ ]
+}

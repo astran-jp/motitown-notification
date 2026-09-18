@@ -1,0 +1,777 @@
+{
+ "assets/03-0934ce0c.webp": [
+  {
+   "rect": [
+    489,
+    308,
+    565,
+    332
+   ],
+   "fill": "#ffffff",
+   "text": "Friends",
+   "size": 14,
+   "weight": 700,
+   "color": {
+    "darkest": [
+     495,
+     310,
+     560,
+     330
+    ]
+   },
+   "box": [
+    484,
+    308,
+    570,
+    332
+   ]
+  },
+  {
+   "rect": [
+    567,
+    308,
+    661,
+    332
+   ],
+   "fill": "#ffffff",
+   "text": "Announcements",
+   "size": 13,
+   "weight": 700,
+   "color": {
+    "darkest": [
+     495,
+     310,
+     560,
+     330
+    ]
+   },
+   "box": [
+    569,
+    308,
+    659,
+    332
+   ]
+  }
+ ],
+ "assets/02-769a0e9a.webp": [
+  {
+   "rect": [
+    38,
+    131,
+    321,
+    164
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    44,
+    130,
+    524,
+    164
+   ],
+   "fill": null,
+   "text": "(v.) prizént, (n., adj.) préznt",
+   "size": 19,
+   "weight": 400,
+   "color": "#8a9094",
+   "align": "left",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    40,
+    177,
+    107,
+    215
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    45,
+    176,
+    520,
+    215
+   ],
+   "fill": null,
+   "text": "Meaning",
+   "size": 25,
+   "weight": 700,
+   "color": "#0c4a5e",
+   "align": "left",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    38,
+    228,
+    255,
+    256
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    44,
+    227,
+    524,
+    256
+   ],
+   "fill": null,
+   "text": "(v.) to present; to give as a gift",
+   "size": 18,
+   "weight": 400,
+   "color": "#21474f",
+   "align": "left",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    38,
+    261,
+    292,
+    291
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    44,
+    260,
+    524,
+    291
+   ],
+   "fill": null,
+   "text": "(n.) gift; the present; present tense",
+   "size": 18,
+   "weight": 400,
+   "color": "#21474f",
+   "align": "left",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    38,
+    296,
+    274,
+    327
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    44,
+    295,
+    524,
+    327
+   ],
+   "fill": null,
+   "text": "(adj.) in attendance; current",
+   "size": 18,
+   "weight": 400,
+   "color": "#21474f",
+   "align": "left",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    40,
+    604,
+    107,
+    644
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    45,
+    603,
+    520,
+    644
+   ],
+   "fill": null,
+   "text": "Examples",
+   "size": 25,
+   "weight": 700,
+   "color": "#0c4a5e",
+   "align": "left",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    62,
+    702,
+    440,
+    734
+   ],
+   "fill": {
+    "sample": [
+     450,
+     715
+    ]
+   }
+  },
+  {
+   "rect": [
+    68,
+    701,
+    524,
+    734
+   ],
+   "fill": null,
+   "text": "The gift was a beautiful necklace.",
+   "size": 17,
+   "weight": 400,
+   "color": "#7d878c",
+   "align": "left",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    60,
+    809,
+    422,
+    842
+   ],
+   "fill": {
+    "sample": [
+     450,
+     715
+    ]
+   }
+  },
+  {
+   "rect": [
+    66,
+    808,
+    524,
+    842
+   ],
+   "fill": null,
+   "text": "A friend gave her a lovely gift.",
+   "size": 17,
+   "weight": 400,
+   "color": "#7d878c",
+   "align": "left",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    43,
+    885,
+    133,
+    922
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    45,
+    884,
+    520,
+    922
+   ],
+   "fill": null,
+   "text": "Related Words",
+   "size": 25,
+   "weight": 700,
+   "color": "#0c4a5e",
+   "align": "left",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    38,
+    933,
+    309,
+    964
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    44,
+    932,
+    524,
+    964
+   ],
+   "fill": null,
+   "text": "(n.) presentation: a talk; a showing",
+   "size": 18,
+   "weight": 400,
+   "color": "#21474f",
+   "align": "left",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    38,
+    969,
+    320,
+    999
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    44,
+    968,
+    524,
+    999
+   ],
+   "fill": null,
+   "text": "(n.) presenter: a speaker; a host",
+   "size": 18,
+   "weight": 400,
+   "color": "#21474f",
+   "align": "left",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    38,
+    1004,
+    415,
+    1032
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    44,
+    1003,
+    524,
+    1032
+   ],
+   "fill": null,
+   "text": "(adj.) presentable: fit to be shown",
+   "size": 18,
+   "weight": 400,
+   "color": "#21474f",
+   "align": "left",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    64,
+    1037,
+    292,
+    1065
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    66,
+    1036,
+    524,
+    1065
+   ],
+   "fill": null,
+   "text": "(adj.) absent: not in attendance",
+   "size": 18,
+   "weight": 400,
+   "color": "#21474f",
+   "align": "left",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    40,
+    1097,
+    133,
+    1135
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    45,
+    1096,
+    520,
+    1135
+   ],
+   "fill": null,
+   "text": "Usage",
+   "size": 25,
+   "weight": 700,
+   "color": "#0c4a5e",
+   "align": "left",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    40,
+    1175,
+    389,
+    1205
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    46,
+    1174,
+    524,
+    1205
+   ],
+   "fill": null,
+   "text": "a gift for a birthday [Christmas, an anniversary]",
+   "size": 17,
+   "weight": 400,
+   "color": "#7d878c",
+   "align": "left",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    42,
+    1247,
+    278,
+    1275
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    48,
+    1246,
+    524,
+    1275
+   ],
+   "fill": null,
+   "text": "to formally give <something> to <someone>",
+   "size": 17,
+   "weight": 400,
+   "color": "#7d878c",
+   "align": "left",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    42,
+    1318,
+    278,
+    1349
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    48,
+    1317,
+    524,
+    1349
+   ],
+   "fill": null,
+   "text": "to formally give <something> to <someone>",
+   "size": 17,
+   "weight": 400,
+   "color": "#7d878c",
+   "align": "left",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    43,
+    1376,
+    180,
+    1413
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    45,
+    1375,
+    520,
+    1413
+   ],
+   "fill": null,
+   "text": "Nuance",
+   "size": 25,
+   "weight": 700,
+   "color": "#0c4a5e",
+   "align": "left",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    40,
+    1418,
+    526,
+    1560
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    46,
+    1418,
+    522,
+    1560
+   ],
+   "fill": null,
+   "text": "“present” and “gift” both mean something you give to someone, but “present” usually refers to a gift for a formal occasion or a special event, while “gift” covers gifts of any kind.",
+   "size": 18,
+   "weight": 400,
+   "color": "#21474f",
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.75,
+   "fit": true
+  },
+  {
+   "rect": [
+    40,
+    1584,
+    107,
+    1623
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    45,
+    1583,
+    520,
+    1623
+   ],
+   "fill": null,
+   "text": "EN-EN",
+   "size": 25,
+   "weight": 700,
+   "color": "#0c4a5e",
+   "align": "left",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    40,
+    1709,
+    133,
+    1748
+   ],
+   "fill": "#ffffff"
+  },
+  {
+   "rect": [
+    45,
+    1708,
+    520,
+    1748
+   ],
+   "fill": null,
+   "text": "Proficiency",
+   "size": 25,
+   "weight": 700,
+   "color": "#0c4a5e",
+   "align": "left",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    239,
+    1771,
+    299,
+    1798
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    199,
+    1770,
+    339,
+    1799
+   ],
+   "fill": null,
+   "text": "EN→JA",
+   "size": 17,
+   "weight": 400,
+   "color": "#84888a",
+   "align": "center",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true,
+   "font": "jp"
+  },
+  {
+   "rect": [
+    51,
+    1884,
+    146,
+    1912
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    28,
+    1883,
+    168,
+    1913
+   ],
+   "fill": null,
+   "text": "Spelling",
+   "size": 17,
+   "weight": 400,
+   "color": "#84888a",
+   "align": "center",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    416,
+    1884,
+    474,
+    1911
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    375,
+    1883,
+    515,
+    1912
+   ],
+   "fill": null,
+   "text": "JA→EN",
+   "size": 17,
+   "weight": 400,
+   "color": "#84888a",
+   "align": "center",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true,
+   "font": "jp"
+  },
+  {
+   "rect": [
+    119,
+    2071,
+    182,
+    2098
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    80,
+    2070,
+    220,
+    2099
+   ],
+   "fill": null,
+   "text": "Fill-in",
+   "size": 17,
+   "weight": 400,
+   "color": "#84888a",
+   "align": "center",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    350,
+    2070,
+    432,
+    2098
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    321,
+    2069,
+    461,
+    2099
+   ],
+   "fill": null,
+   "text": "Image",
+   "size": 17,
+   "weight": 400,
+   "color": "#84888a",
+   "align": "center",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  },
+  {
+   "rect": [
+    246,
+    2260,
+    320,
+    2294
+   ],
+   "fill": {
+    "sample": [
+     283,
+     2250
+    ]
+   }
+  },
+  {
+   "rect": [
+    180,
+    2254,
+    386,
+    2300
+   ],
+   "fill": null,
+   "text": "Close",
+   "size": 22,
+   "weight": 700,
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "line_height": 1.3,
+   "fit": true
+  }
+ ]
+}

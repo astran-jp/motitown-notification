@@ -2,6 +2,7 @@
 """画像に焼き込まれた日本語を英語に描き替える(文字部分を背景色で塗り、英語を載せる)。
 
 usage: overlay.py <dir>           # information/about-bp など({dir}/en.images.json を読む)
+       overlay.py <dir> --out-dir <出力先>   # 出力先を変える(一覧サムネイルは "." --out-dir en/assets … ではなく assets --out-dir en/assets)
        overlay.py --grid <画像> <出力png> [--step 100]   # 座標を読むための目盛り付き画像
 
 {dir}/en.images.json の形:
@@ -19,6 +20,7 @@ usage: overlay.py <dir>           # information/about-bp など({dir}/en.images.
    ...}
 
 出力は en/{dir}/<画像のファイル名>。build.py は en/{dir}/ に同名ファイルがあると日本語版の代わりに使う。
+{dir}/en.post.py があれば最後に実行する(傾いた文字などは overlay では描けないので Pillow で後処理する)。
 フォントは scripts/en/fonts/ の Noto Sans(可変ウェイト)。
 """
 import json, os, sys
@@ -174,7 +176,7 @@ def main():
         step = int(sys.argv[5]) if len(sys.argv) >= 6 and sys.argv[4] == "--step" else 100
         grid(sys.argv[2], sys.argv[3], step)
         return 0
-    if len(sys.argv) != 2:
+    if len(sys.argv) not in (2, 4) or (len(sys.argv) == 4 and sys.argv[2] != "--out-dir"):
         print(__doc__)
         return 2
     d = sys.argv[1].strip("/")
@@ -183,7 +185,7 @@ def main():
         print(f"ERROR: {spec_path} が無い")
         return 1
     spec = json.load(open(spec_path, encoding="utf-8"))
-    en_dir = os.path.join(ROOT, "en", d)
+    en_dir = os.path.join(ROOT, sys.argv[3]) if len(sys.argv) == 4 else os.path.join(ROOT, "en", d)
     os.makedirs(en_dir, exist_ok=True)
     for rel, items in spec.items():
         src = os.path.join(ROOT, d, rel)
@@ -197,6 +199,12 @@ def main():
         else:
             im.save(out)
         print(f"{out}: {len(items)} 箇所")
+    # 傾いた文字など overlay で描けないものは {dir}/en.post.py が出力を後処理する(あれば必ず実行する)
+    post = os.path.join(ROOT, d, "en.post.py")
+    if os.path.isfile(post):
+        import subprocess
+        subprocess.run([sys.executable, post], check=True)
+        print(f"{post}: 後処理を実行")
     return 0
 
 

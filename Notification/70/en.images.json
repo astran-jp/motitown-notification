@@ -1,0 +1,5582 @@
+{
+ "assets/04-0934ce0c.webp": [
+  {
+   "rect": [
+    489,
+    308,
+    565,
+    332
+   ],
+   "fill": "#ffffff",
+   "text": "Friends",
+   "size": 14,
+   "weight": 700,
+   "color": {
+    "darkest": [
+     495,
+     310,
+     560,
+     330
+    ]
+   },
+   "box": [
+    484,
+    308,
+    570,
+    332
+   ]
+  },
+  {
+   "rect": [
+    567,
+    308,
+    661,
+    332
+   ],
+   "fill": "#ffffff",
+   "text": "Announcements",
+   "size": 13,
+   "weight": 700,
+   "color": {
+    "darkest": [
+     495,
+     310,
+     560,
+     330
+    ]
+   },
+   "box": [
+    569,
+    308,
+    659,
+    332
+   ]
+  }
+ ],
+ "en-src/02-b4d20194.webp": [
+  {
+   "rect": [
+    3,
+    4,
+    40,
+    17
+   ],
+   "fill": "#ffffff",
+   "text": "Eiken",
+   "size": 8,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    4,
+    4,
+    70,
+    17
+   ],
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    13,
+    30,
+    78,
+    46
+   ],
+   "color": "#bc7f8d"
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    12,
+    29,
+    77,
+    45
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    8,
+    103,
+    81,
+    118
+   ],
+   "fill": "#eaf6fd",
+   "text": "Eiken word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    10,
+    103,
+    80,
+    118
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    96,
+    30,
+    161,
+    46
+   ],
+   "color": "#bc808b"
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    95,
+    29,
+    160,
+    45
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Grade 5",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    96,
+    46,
+    161,
+    62
+   ],
+   "color": "#bc808b"
+  },
+  {
+   "fill": null,
+   "text": "Grade 5",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    95,
+    45,
+    160,
+    61
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    91,
+    103,
+    164,
+    118
+   ],
+   "fill": "#e8f6fd",
+   "text": "Eiken Grade 5 word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    93,
+    103,
+    163,
+    118
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    179,
+    30,
+    244,
+    46
+   ],
+   "color": "#bc7d8d"
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    178,
+    29,
+    243,
+    45
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Grade 5",
+   "size": 12,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    179,
+    46,
+    244,
+    60
+   ],
+   "color": "#bc7d8d"
+  },
+  {
+   "fill": null,
+   "text": "Grade 5",
+   "size": 12,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    178,
+    45,
+    243,
+    59
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Top 200",
+   "size": 8,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    179,
+    60,
+    244,
+    72
+   ],
+   "color": "#bd8f8e"
+  },
+  {
+   "fill": null,
+   "text": "Top 200",
+   "size": 8,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    178,
+    59,
+    243,
+    71
+   ],
+   "color": "#fdf6f6"
+  },
+  {
+   "rect": [
+    174,
+    103,
+    247,
+    118
+   ],
+   "fill": "#e8f7ff",
+   "text": "Eiken Grade 5: top 300 words",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    176,
+    103,
+    246,
+    118
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    262,
+    30,
+    327,
+    46
+   ],
+   "color": "#be7e8b"
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    261,
+    29,
+    326,
+    45
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Grade 4",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    262,
+    46,
+    327,
+    62
+   ],
+   "color": "#be7e8b"
+  },
+  {
+   "fill": null,
+   "text": "Grade 4",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    261,
+    45,
+    326,
+    61
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    257,
+    103,
+    330,
+    118
+   ],
+   "fill": "#e9f6fd",
+   "text": "Eiken Grade 4 word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    259,
+    103,
+    329,
+    118
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    13,
+    139,
+    78,
+    155
+   ],
+   "color": "#be7d8c"
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    12,
+    138,
+    77,
+    154
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Grade 4",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    13,
+    155,
+    78,
+    171
+   ],
+   "color": "#be7d8c"
+  },
+  {
+   "fill": null,
+   "text": "Grade 4",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    12,
+    154,
+    77,
+    170
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Top 200",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    13,
+    171,
+    78,
+    183
+   ],
+   "color": "#be918d"
+  },
+  {
+   "fill": null,
+   "text": "Top 200",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    12,
+    170,
+    77,
+    182
+   ],
+   "color": "#fdf6f6"
+  },
+  {
+   "rect": [
+    8,
+    212,
+    81,
+    227
+   ],
+   "fill": "#e8f6fd",
+   "text": "Eiken Grade 4: top 350 words",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    10,
+    212,
+    80,
+    227
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    96,
+    139,
+    161,
+    155
+   ],
+   "color": "#ba7f8c"
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    95,
+    138,
+    160,
+    154
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Grade 4",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    96,
+    155,
+    161,
+    171
+   ],
+   "color": "#ba7f8c"
+  },
+  {
+   "fill": null,
+   "text": "Grade 4",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    95,
+    154,
+    160,
+    170
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Idioms",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    96,
+    171,
+    161,
+    183
+   ],
+   "color": "#bc938d"
+  },
+  {
+   "fill": null,
+   "text": "Idioms",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    95,
+    170,
+    160,
+    182
+   ],
+   "color": "#fdf6f6"
+  },
+  {
+   "rect": [
+    91,
+    212,
+    164,
+    227
+   ],
+   "fill": "#e9f6ff",
+   "text": "Eiken Grade 4 idiom list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    93,
+    212,
+    163,
+    227
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    179,
+    139,
+    244,
+    155
+   ],
+   "color": "#be7f8e"
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    178,
+    138,
+    243,
+    154
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Grade 3",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    179,
+    155,
+    244,
+    171
+   ],
+   "color": "#be7f8e"
+  },
+  {
+   "fill": null,
+   "text": "Grade 3",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    178,
+    154,
+    243,
+    170
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    174,
+    212,
+    247,
+    227
+   ],
+   "fill": "#e9f7fe",
+   "text": "Eiken Grade 3 word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    176,
+    212,
+    246,
+    227
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    262,
+    139,
+    327,
+    155
+   ],
+   "color": "#bf7d8c"
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    261,
+    138,
+    326,
+    154
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Grade 3",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    262,
+    155,
+    327,
+    171
+   ],
+   "color": "#bf7d8c"
+  },
+  {
+   "fill": null,
+   "text": "Grade 3",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    261,
+    154,
+    326,
+    170
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Top 200",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    262,
+    171,
+    327,
+    183
+   ],
+   "color": "#be918e"
+  },
+  {
+   "fill": null,
+   "text": "Top 200",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    261,
+    170,
+    326,
+    182
+   ],
+   "color": "#fdf6f6"
+  },
+  {
+   "rect": [
+    257,
+    212,
+    330,
+    227
+   ],
+   "fill": "#e7f6fe",
+   "text": "Eiken Grade 3: top 400 words",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    259,
+    212,
+    329,
+    227
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    13,
+    248,
+    78,
+    264
+   ],
+   "color": "#bd7e8c"
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    12,
+    247,
+    77,
+    263
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Grade Pre-2",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    13,
+    264,
+    78,
+    276
+   ],
+   "color": "#bd7e8c"
+  },
+  {
+   "fill": null,
+   "text": "Grade Pre-2",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    12,
+    263,
+    77,
+    275
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    8,
+    321,
+    81,
+    336
+   ],
+   "fill": "#e9f6fe",
+   "text": "Eiken Grade Pre-2 word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    10,
+    321,
+    80,
+    336
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    96,
+    248,
+    161,
+    264
+   ],
+   "color": "#b9808b"
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    95,
+    247,
+    160,
+    263
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Grade Pre-2",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    96,
+    264,
+    161,
+    276
+   ],
+   "color": "#b9808b"
+  },
+  {
+   "fill": null,
+   "text": "Grade Pre-2",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    95,
+    263,
+    160,
+    275
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Top 200",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    96,
+    276,
+    161,
+    288
+   ],
+   "color": "#ba908c"
+  },
+  {
+   "fill": null,
+   "text": "Top 200",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    95,
+    275,
+    160,
+    287
+   ],
+   "color": "#fcf6f5"
+  },
+  {
+   "rect": [
+    91,
+    321,
+    164,
+    336
+   ],
+   "fill": "#eaf7fb",
+   "text": "Eiken Grade Pre-2: top 500 words",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    93,
+    321,
+    163,
+    336
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    179,
+    248,
+    244,
+    264
+   ],
+   "color": "#bc7f8b"
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    178,
+    247,
+    243,
+    263
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Grade 2",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    179,
+    264,
+    244,
+    280
+   ],
+   "color": "#bc7f8b"
+  },
+  {
+   "fill": null,
+   "text": "Grade 2",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    178,
+    263,
+    243,
+    279
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    174,
+    321,
+    247,
+    336
+   ],
+   "fill": "#ebf6ff",
+   "text": "Eiken Grade 2 word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    176,
+    321,
+    246,
+    336
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    262,
+    248,
+    327,
+    264
+   ],
+   "color": "#bb7b8d"
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    261,
+    247,
+    326,
+    263
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Grade 2",
+   "size": 12,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    262,
+    264,
+    327,
+    278
+   ],
+   "color": "#bb7b8d"
+  },
+  {
+   "fill": null,
+   "text": "Grade 2",
+   "size": 12,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    261,
+    263,
+    326,
+    277
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Top 200",
+   "size": 8,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    262,
+    278,
+    327,
+    290
+   ],
+   "color": "#bc8e8d"
+  },
+  {
+   "fill": null,
+   "text": "Top 200",
+   "size": 8,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    261,
+    277,
+    326,
+    289
+   ],
+   "color": "#fdf6f6"
+  },
+  {
+   "rect": [
+    257,
+    321,
+    330,
+    336
+   ],
+   "fill": "#ebf5fb",
+   "text": "Eiken Grade 2: top 500 words",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    259,
+    321,
+    329,
+    336
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    13,
+    357,
+    78,
+    373
+   ],
+   "color": "#bd7d8e"
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    12,
+    356,
+    77,
+    372
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Grade Pre-1",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    13,
+    373,
+    78,
+    385
+   ],
+   "color": "#bd7d8e"
+  },
+  {
+   "fill": null,
+   "text": "Grade Pre-1",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    12,
+    372,
+    77,
+    384
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    8,
+    430,
+    81,
+    445
+   ],
+   "fill": "#ebf6fd",
+   "text": "Eiken Grade Pre-1 word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    10,
+    430,
+    80,
+    445
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    96,
+    357,
+    161,
+    373
+   ],
+   "color": "#bd7e8c"
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    95,
+    356,
+    160,
+    372
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Grade Pre-1",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    96,
+    373,
+    161,
+    385
+   ],
+   "color": "#bd7e8c"
+  },
+  {
+   "fill": null,
+   "text": "Grade Pre-1",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    95,
+    372,
+    160,
+    384
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Top 200",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    96,
+    385,
+    161,
+    397
+   ],
+   "color": "#bd8d8d"
+  },
+  {
+   "fill": null,
+   "text": "Top 200",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    95,
+    384,
+    160,
+    396
+   ],
+   "color": "#fdf6f5"
+  },
+  {
+   "rect": [
+    91,
+    430,
+    164,
+    445
+   ],
+   "fill": "#ebf7fd",
+   "text": "Eiken Grade Pre-1: top 600 words",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    93,
+    430,
+    163,
+    445
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    179,
+    357,
+    244,
+    373
+   ],
+   "color": "#bd7f8b"
+  },
+  {
+   "fill": null,
+   "text": "Eiken",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    178,
+    356,
+    243,
+    372
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Grade 1",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    179,
+    373,
+    244,
+    389
+   ],
+   "color": "#bd7f8b"
+  },
+  {
+   "fill": null,
+   "text": "Grade 1",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    178,
+    372,
+    243,
+    388
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    174,
+    430,
+    247,
+    445
+   ],
+   "fill": "#eaf7fd",
+   "text": "Eiken Grade 1 word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    176,
+    430,
+    246,
+    445
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "rect": [
+    344,
+    240,
+    380,
+    253
+   ],
+   "fill": "#ffffff",
+   "text": "Other",
+   "size": 8,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    345,
+    240,
+    410,
+    253
+   ],
+   "fit": false
+  },
+  {
+   "rect": [
+    350,
+    103,
+    423,
+    118
+   ],
+   "fill": "#e9f7fd",
+   "text": "TOEIC word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    352,
+    103,
+    422,
+    118
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Top 400",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    438,
+    53,
+    503,
+    65
+   ],
+   "color": "#7a9bbc"
+  },
+  {
+   "fill": null,
+   "text": "Top 400",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    437,
+    52,
+    502,
+    64
+   ],
+   "color": "#f3f8fd"
+  },
+  {
+   "rect": [
+    433,
+    103,
+    506,
+    118
+   ],
+   "fill": "#e9f6fe",
+   "text": "TOEIC top word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    435,
+    103,
+    505,
+    118
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "rect": [
+    516,
+    103,
+    589,
+    118
+   ],
+   "fill": "#e9f5fd",
+   "text": "TOEIC 600 prep word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    518,
+    103,
+    588,
+    118
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "rect": [
+    599,
+    103,
+    672,
+    118
+   ],
+   "fill": "#e9f7fb",
+   "text": "TOEIC 700 prep word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    601,
+    103,
+    671,
+    118
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "rect": [
+    350,
+    212,
+    423,
+    227
+   ],
+   "fill": "#e8f7ff",
+   "text": "TOEIC 800+ word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    352,
+    212,
+    422,
+    227
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "rect": [
+    433,
+    212,
+    506,
+    227
+   ],
+   "fill": "#e8f8fd",
+   "text": "TOEIC 900+ word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    435,
+    212,
+    505,
+    227
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Elementary",
+   "size": 11,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    355,
+    265,
+    420,
+    278
+   ],
+   "color": "#b390c3"
+  },
+  {
+   "fill": null,
+   "text": "Elementary",
+   "size": 11,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    354,
+    264,
+    419,
+    277
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    350,
+    338,
+    423,
+    353
+   ],
+   "fill": "#ebf6fc",
+   "text": "Elementary school word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    352,
+    338,
+    422,
+    353
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Business",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    438,
+    265,
+    503,
+    281
+   ],
+   "color": "#b28fc3"
+  },
+  {
+   "fill": null,
+   "text": "Business",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    437,
+    264,
+    502,
+    280
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    433,
+    338,
+    506,
+    353
+   ],
+   "fill": "#e9f6fc",
+   "text": "Business English word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    435,
+    338,
+    505,
+    353
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "rect": [
+    516,
+    338,
+    589,
+    353
+   ],
+   "fill": "#eaf5fb",
+   "text": "IELTS word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    518,
+    338,
+    588,
+    353
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "rect": [
+    599,
+    338,
+    672,
+    353
+   ],
+   "fill": "#eaf6fb",
+   "text": "TOEFL word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    601,
+    338,
+    671,
+    353
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Everyday",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    355,
+    374,
+    420,
+    390
+   ],
+   "color": "#b390c4"
+  },
+  {
+   "fill": null,
+   "text": "Everyday",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    354,
+    373,
+    419,
+    389
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "English",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    355,
+    390,
+    420,
+    406
+   ],
+   "color": "#b390c4"
+  },
+  {
+   "fill": null,
+   "text": "English",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    354,
+    389,
+    419,
+    405
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    350,
+    447,
+    423,
+    462
+   ],
+   "fill": "#e8f7fb",
+   "text": "Everyday English word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    352,
+    447,
+    422,
+    462
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Basics",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    438,
+    374,
+    503,
+    390
+   ],
+   "color": "#b390c3"
+  },
+  {
+   "fill": null,
+   "text": "Basics",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    437,
+    373,
+    502,
+    389
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    433,
+    447,
+    506,
+    462
+   ],
+   "fill": "#e9f6fd",
+   "text": "Basic word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    435,
+    447,
+    505,
+    462
+   ],
+   "line_height": 1.05,
+   "fit": false
+  }
+ ],
+ "en-src/03-c948753a.webp": [
+  {
+   "rect": [
+    5,
+    4,
+    70,
+    18
+   ],
+   "fill": "#ffffff",
+   "text": "Junior High",
+   "size": 8,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    6,
+    4,
+    100,
+    18
+   ],
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Junior",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    15,
+    30,
+    80,
+    46
+   ],
+   "color": "#80b25f"
+  },
+  {
+   "fill": null,
+   "text": "Junior",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    14,
+    29,
+    79,
+    45
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "High",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    15,
+    46,
+    80,
+    62
+   ],
+   "color": "#80b25f"
+  },
+  {
+   "fill": null,
+   "text": "High",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    14,
+    45,
+    79,
+    61
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    10,
+    103,
+    83,
+    118
+   ],
+   "fill": "#e7f7fd",
+   "text": "Junior high word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    12,
+    103,
+    82,
+    118
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Junior",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    96,
+    30,
+    161,
+    46
+   ],
+   "color": "#7bb25f"
+  },
+  {
+   "fill": null,
+   "text": "Junior",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    95,
+    29,
+    160,
+    45
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "High",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    96,
+    46,
+    161,
+    62
+   ],
+   "color": "#7bb25f"
+  },
+  {
+   "fill": null,
+   "text": "High",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    95,
+    45,
+    160,
+    61
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Key 200",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    96,
+    62,
+    161,
+    74
+   ],
+   "color": "#99bc76"
+  },
+  {
+   "fill": null,
+   "text": "Key 200",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    95,
+    61,
+    160,
+    73
+   ],
+   "color": "#f7fdf2"
+  },
+  {
+   "rect": [
+    91,
+    103,
+    164,
+    118
+   ],
+   "fill": "#e8f8fd",
+   "text": "Junior high: 200 key words",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    93,
+    103,
+    163,
+    118
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Grade 7",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    178,
+    30,
+    243,
+    46
+   ],
+   "color": "#7fb25f"
+  },
+  {
+   "fill": null,
+   "text": "Grade 7",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    177,
+    29,
+    242,
+    45
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    173,
+    103,
+    246,
+    118
+   ],
+   "fill": "#e8f7fd",
+   "text": "Grade 7 word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    175,
+    103,
+    245,
+    118
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Grade 8",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    260,
+    30,
+    325,
+    46
+   ],
+   "color": "#7eb25d"
+  },
+  {
+   "fill": null,
+   "text": "Grade 8",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    259,
+    29,
+    324,
+    45
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    255,
+    103,
+    328,
+    118
+   ],
+   "fill": "#e9f7ff",
+   "text": "Grade 8 word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    257,
+    103,
+    327,
+    118
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Grade 8",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    15,
+    137,
+    80,
+    153
+   ],
+   "color": "#7bb25e"
+  },
+  {
+   "fill": null,
+   "text": "Grade 8",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    14,
+    136,
+    79,
+    152
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Key 200",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    15,
+    154,
+    80,
+    166
+   ],
+   "color": "#84b566"
+  },
+  {
+   "fill": null,
+   "text": "Key 200",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    14,
+    153,
+    79,
+    165
+   ],
+   "color": "#f4fcf0"
+  },
+  {
+   "rect": [
+    10,
+    210,
+    83,
+    225
+   ],
+   "fill": "#e9f6fc",
+   "text": "Grade 8: 200 key words",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    12,
+    210,
+    82,
+    225
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Grade 8",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    96,
+    137,
+    161,
+    153
+   ],
+   "color": "#7cb25b"
+  },
+  {
+   "fill": null,
+   "text": "Grade 8",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    95,
+    136,
+    160,
+    152
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Term 1",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    96,
+    154,
+    161,
+    166
+   ],
+   "color": "#85b564"
+  },
+  {
+   "fill": null,
+   "text": "Term 1",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    95,
+    153,
+    160,
+    165
+   ],
+   "color": "#f4fcef"
+  },
+  {
+   "rect": [
+    91,
+    210,
+    164,
+    225
+   ],
+   "fill": "#eaf6fe",
+   "text": "Grade 8, term 1 word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    93,
+    210,
+    163,
+    225
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Grade 9",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    178,
+    137,
+    243,
+    153
+   ],
+   "color": "#7eb25e"
+  },
+  {
+   "fill": null,
+   "text": "Grade 9",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    177,
+    136,
+    242,
+    152
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    173,
+    210,
+    246,
+    225
+   ],
+   "fill": "#eaf6fd",
+   "text": "Grade 9 word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    175,
+    210,
+    245,
+    225
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Grade 9",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    260,
+    137,
+    325,
+    153
+   ],
+   "color": "#7cb25c"
+  },
+  {
+   "fill": null,
+   "text": "Grade 9",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    259,
+    136,
+    324,
+    152
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Key 200",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    260,
+    154,
+    325,
+    166
+   ],
+   "color": "#85b664"
+  },
+  {
+   "fill": null,
+   "text": "Key 200",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    259,
+    153,
+    324,
+    165
+   ],
+   "color": "#f4fcef"
+  },
+  {
+   "rect": [
+    255,
+    210,
+    328,
+    225
+   ],
+   "fill": "#eaf6fd",
+   "text": "Grade 9: 200 key words",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    257,
+    210,
+    327,
+    225
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "HS Entrance",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    15,
+    245,
+    80,
+    257
+   ],
+   "color": "#7db25d"
+  },
+  {
+   "fill": null,
+   "text": "HS Entrance",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    14,
+    244,
+    79,
+    256
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Exams",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    15,
+    256,
+    80,
+    268
+   ],
+   "color": "#7db25d"
+  },
+  {
+   "fill": null,
+   "text": "Exams",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    14,
+    255,
+    79,
+    267
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    10,
+    318,
+    83,
+    333
+   ],
+   "fill": "#e8f7ff",
+   "text": "High school entrance exam word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    12,
+    318,
+    82,
+    333
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "HS Entrance",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    96,
+    245,
+    161,
+    257
+   ],
+   "color": "#79ae5b"
+  },
+  {
+   "fill": null,
+   "text": "HS Entrance",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    95,
+    244,
+    160,
+    256
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Exams",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    96,
+    256,
+    161,
+    268
+   ],
+   "color": "#79ae5b"
+  },
+  {
+   "fill": null,
+   "text": "Exams",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    95,
+    255,
+    160,
+    267
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Key 200",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    96,
+    268,
+    161,
+    280
+   ],
+   "color": "#8ab56a"
+  },
+  {
+   "fill": null,
+   "text": "Key 200",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    95,
+    267,
+    160,
+    279
+   ],
+   "color": "#f5fcf0"
+  },
+  {
+   "rect": [
+    91,
+    318,
+    164,
+    333
+   ],
+   "fill": "#eaf6fd",
+   "text": "HS entrance exams: 200 key words",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    93,
+    318,
+    163,
+    333
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Public HS",
+   "size": 11,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    178,
+    245,
+    243,
+    258
+   ],
+   "color": "#7bb35b"
+  },
+  {
+   "fill": null,
+   "text": "Public HS",
+   "size": 11,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    177,
+    244,
+    242,
+    257
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Entrance",
+   "size": 11,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    178,
+    257,
+    243,
+    270
+   ],
+   "color": "#7bb35b"
+  },
+  {
+   "fill": null,
+   "text": "Entrance",
+   "size": 11,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    177,
+    256,
+    242,
+    269
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Exams",
+   "size": 11,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    178,
+    270,
+    243,
+    283
+   ],
+   "color": "#7bb35b"
+  },
+  {
+   "fill": null,
+   "text": "Exams",
+   "size": 11,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    177,
+    269,
+    242,
+    282
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    173,
+    318,
+    246,
+    333
+   ],
+   "fill": "#e9f6fd",
+   "text": "Public HS entrance exam words",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    175,
+    318,
+    245,
+    333
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "rect": [
+    255,
+    318,
+    328,
+    333
+   ],
+   "fill": "#eaf6fc",
+   "text": "NEW CROWN word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    257,
+    318,
+    327,
+    333
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "rect": [
+    10,
+    426,
+    83,
+    441
+   ],
+   "fill": "#e9f7fc",
+   "text": "NEW HORIZON word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    12,
+    426,
+    82,
+    441
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "rect": [
+    91,
+    426,
+    164,
+    441
+   ],
+   "fill": "#eaf6fc",
+   "text": "NEW TREASURE word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    93,
+    426,
+    163,
+    441
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "rect": [
+    344,
+    6,
+    410,
+    20
+   ],
+   "fill": "#ffffff",
+   "text": "High School",
+   "size": 8,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    345,
+    6,
+    440,
+    20
+   ],
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "College",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    356,
+    32,
+    421,
+    48
+   ],
+   "color": "#70b2ab"
+  },
+  {
+   "fill": null,
+   "text": "College",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    355,
+    31,
+    420,
+    47
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Exams",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    356,
+    48,
+    421,
+    64
+   ],
+   "color": "#70b2ab"
+  },
+  {
+   "fill": null,
+   "text": "Exams",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    355,
+    47,
+    420,
+    63
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    351,
+    105,
+    424,
+    120
+   ],
+   "fill": "#eaf6fd",
+   "text": "College entrance exam word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    353,
+    105,
+    423,
+    120
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "College",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    437,
+    32,
+    502,
+    48
+   ],
+   "color": "#6eb1a9"
+  },
+  {
+   "fill": null,
+   "text": "College",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    436,
+    31,
+    501,
+    47
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Exams",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    437,
+    48,
+    502,
+    64
+   ],
+   "color": "#6eb1a9"
+  },
+  {
+   "fill": null,
+   "text": "Exams",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    436,
+    47,
+    501,
+    63
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Top 200",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    437,
+    64,
+    502,
+    76
+   ],
+   "color": "#8cb79f"
+  },
+  {
+   "fill": null,
+   "text": "Top 200",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    436,
+    63,
+    501,
+    75
+   ],
+   "color": "#f5fcf8"
+  },
+  {
+   "rect": [
+    432,
+    105,
+    505,
+    120
+   ],
+   "fill": "#eaf7fe",
+   "text": "College exams: top 300 words",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    434,
+    105,
+    504,
+    120
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Common",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    519,
+    32,
+    584,
+    48
+   ],
+   "color": "#6fb2a9"
+  },
+  {
+   "fill": null,
+   "text": "Common",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    518,
+    31,
+    583,
+    47
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Test",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    519,
+    48,
+    584,
+    64
+   ],
+   "color": "#6fb2a9"
+  },
+  {
+   "fill": null,
+   "text": "Test",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    518,
+    47,
+    583,
+    63
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    514,
+    105,
+    587,
+    120
+   ],
+   "fill": "#e9f7fe",
+   "text": "Common Test word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    516,
+    105,
+    586,
+    120
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Common",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    601,
+    32,
+    666,
+    48
+   ],
+   "color": "#70afa7"
+  },
+  {
+   "fill": null,
+   "text": "Common",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    600,
+    31,
+    665,
+    47
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Test",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    601,
+    48,
+    666,
+    64
+   ],
+   "color": "#70afa7"
+  },
+  {
+   "fill": null,
+   "text": "Test",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    600,
+    47,
+    665,
+    63
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Top 200",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    601,
+    64,
+    666,
+    76
+   ],
+   "color": "#8db69b"
+  },
+  {
+   "fill": null,
+   "text": "Top 200",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    600,
+    63,
+    665,
+    75
+   ],
+   "color": "#f6fcf8"
+  },
+  {
+   "rect": [
+    596,
+    105,
+    669,
+    120
+   ],
+   "fill": "#e8f7fd",
+   "text": "Common Test: top 250 words",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    598,
+    105,
+    668,
+    120
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Univ. of",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    356,
+    139,
+    421,
+    155
+   ],
+   "color": "#70b2ac"
+  },
+  {
+   "fill": null,
+   "text": "Univ. of",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    355,
+    138,
+    420,
+    154
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Tokyo",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    356,
+    155,
+    421,
+    171
+   ],
+   "color": "#70b2ac"
+  },
+  {
+   "fill": null,
+   "text": "Tokyo",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    355,
+    154,
+    420,
+    170
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    351,
+    212,
+    424,
+    227
+   ],
+   "fill": "#e9f5fd",
+   "text": "Univ. of Tokyo exam word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    353,
+    212,
+    423,
+    227
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Kyoto",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    437,
+    139,
+    502,
+    155
+   ],
+   "color": "#6db2ab"
+  },
+  {
+   "fill": null,
+   "text": "Kyoto",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    436,
+    138,
+    501,
+    154
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Univ.",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    437,
+    155,
+    502,
+    171
+   ],
+   "color": "#6db2ab"
+  },
+  {
+   "fill": null,
+   "text": "Univ.",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    436,
+    154,
+    501,
+    170
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    432,
+    212,
+    505,
+    227
+   ],
+   "fill": "#e9f6fe",
+   "text": "Kyoto Univ. exam word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    434,
+    212,
+    504,
+    227
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Waseda",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    519,
+    139,
+    584,
+    155
+   ],
+   "color": "#6eb1ab"
+  },
+  {
+   "fill": null,
+   "text": "Waseda",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    518,
+    138,
+    583,
+    154
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "& Keio",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    519,
+    155,
+    584,
+    171
+   ],
+   "color": "#6eb1ab"
+  },
+  {
+   "fill": null,
+   "text": "& Keio",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    518,
+    154,
+    583,
+    170
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    514,
+    212,
+    587,
+    227
+   ],
+   "fill": "#e9f7fd",
+   "text": "Waseda & Keio exam word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    516,
+    212,
+    586,
+    227
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Waseda",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    601,
+    139,
+    666,
+    155
+   ],
+   "color": "#6fb2aa"
+  },
+  {
+   "fill": null,
+   "text": "Waseda",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    600,
+    138,
+    665,
+    154
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    596,
+    212,
+    669,
+    227
+   ],
+   "fill": "#e9f7fc",
+   "text": "Waseda exam word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    598,
+    212,
+    668,
+    227
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "High",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    356,
+    247,
+    421,
+    263
+   ],
+   "color": "#71b2ac"
+  },
+  {
+   "fill": null,
+   "text": "High",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    355,
+    246,
+    420,
+    262
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "School",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    356,
+    263,
+    421,
+    279
+   ],
+   "color": "#71b2ac"
+  },
+  {
+   "fill": null,
+   "text": "School",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    355,
+    262,
+    420,
+    278
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    351,
+    320,
+    424,
+    335
+   ],
+   "fill": "#eaf6fc",
+   "text": "High school word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    353,
+    320,
+    423,
+    335
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Grade 10",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    437,
+    247,
+    502,
+    263
+   ],
+   "color": "#70b1ab"
+  },
+  {
+   "fill": null,
+   "text": "Grade 10",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    436,
+    246,
+    501,
+    262
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    432,
+    320,
+    505,
+    335
+   ],
+   "fill": "#eaf6fd",
+   "text": "Grade 10 word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    434,
+    320,
+    504,
+    335
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Grade 10",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    519,
+    247,
+    584,
+    259
+   ],
+   "color": "#70b1ac"
+  },
+  {
+   "fill": null,
+   "text": "Grade 10",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    518,
+    246,
+    583,
+    258
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Mock Exams",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    519,
+    258,
+    584,
+    270
+   ],
+   "color": "#70b1ac"
+  },
+  {
+   "fill": null,
+   "text": "Mock Exams",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    518,
+    257,
+    583,
+    269
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    514,
+    320,
+    587,
+    335
+   ],
+   "fill": "#ebf7fc",
+   "text": "Grade 10 mock exams: top words",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    516,
+    320,
+    586,
+    335
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Grade 11",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    601,
+    247,
+    666,
+    263
+   ],
+   "color": "#70b3ab"
+  },
+  {
+   "fill": null,
+   "text": "Grade 11",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    600,
+    246,
+    665,
+    262
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    596,
+    320,
+    669,
+    335
+   ],
+   "fill": "#e9f7fe",
+   "text": "Grade 11 word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    598,
+    320,
+    668,
+    335
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Grade 11",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    356,
+    355,
+    421,
+    367
+   ],
+   "color": "#6fb2ab"
+  },
+  {
+   "fill": null,
+   "text": "Grade 11",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    355,
+    354,
+    420,
+    366
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "fill": null,
+   "text": "Mock Exams",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    356,
+    366,
+    421,
+    378
+   ],
+   "color": "#6fb2ab"
+  },
+  {
+   "fill": null,
+   "text": "Mock Exams",
+   "size": 10,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    355,
+    365,
+    420,
+    377
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    351,
+    428,
+    424,
+    443
+   ],
+   "fill": "#e8f8fd",
+   "text": "Grade 11 mock exams: top words",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    353,
+    428,
+    423,
+    443
+   ],
+   "line_height": 1.05,
+   "fit": false
+  },
+  {
+   "fill": null,
+   "text": "Grade 12",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    437,
+    355,
+    502,
+    371
+   ],
+   "color": "#70b1ac"
+  },
+  {
+   "fill": null,
+   "text": "Grade 12",
+   "size": 14,
+   "weight": 700,
+   "align": "left",
+   "valign": "top",
+   "line_height": 1.12,
+   "fit": false,
+   "box": [
+    436,
+    354,
+    501,
+    370
+   ],
+   "color": "#ffffff"
+  },
+  {
+   "rect": [
+    432,
+    428,
+    505,
+    443
+   ],
+   "fill": "#eaf7fd",
+   "text": "Grade 12 word list",
+   "size": 7,
+   "weight": 600,
+   "color": "#1f3a4d",
+   "align": "left",
+   "box": [
+    434,
+    428,
+    504,
+    443
+   ],
+   "line_height": 1.05,
+   "fit": false
+  }
+ ],
+ "assets/01-85c2ec77.webp": [
+  {
+   "rect": [
+    124,
+    27,
+    164,
+    41
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    125,
+    28,
+    325,
+    38
+   ],
+   "text": "adj.",
+   "size": 7,
+   "weight": 700,
+   "color": "#4f6f70",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "fill": null,
+   "box": [
+    140,
+    28,
+    340,
+    38
+   ],
+   "text": "turned to ice",
+   "size": 8,
+   "weight": 500,
+   "color": "#d9706a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    177,
+    47,
+    236,
+    60
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    179,
+    47,
+    379,
+    56
+   ],
+   "text": "completely frozen",
+   "size": 7,
+   "weight": 400,
+   "color": "#8a8a8a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    174,
+    65,
+    255,
+    78
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    176,
+    65,
+    376,
+    74
+   ],
+   "text": "extremely cold",
+   "size": 7,
+   "weight": 400,
+   "color": "#8a8a8a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    123,
+    94,
+    220,
+    108
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    125,
+    94,
+    325,
+    104
+   ],
+   "text": "too scared to move",
+   "size": 7,
+   "weight": 400,
+   "color": "#8a8a8a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    161,
+    112,
+    190,
+    126
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    162,
+    113,
+    362,
+    123
+   ],
+   "text": "n.",
+   "size": 7,
+   "weight": 600,
+   "color": "#4f6f70",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "fill": null,
+   "box": [
+    171,
+    113,
+    371,
+    123
+   ],
+   "text": "a period of icy weather",
+   "size": 7,
+   "weight": 400,
+   "color": "#8a8a8a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    163,
+    130,
+    199,
+    144
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    164,
+    131,
+    364,
+    141
+   ],
+   "text": "n.",
+   "size": 7,
+   "weight": 600,
+   "color": "#4f6f70",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "fill": null,
+   "box": [
+    173,
+    131,
+    373,
+    141
+   ],
+   "text": "appliance that freezes food",
+   "size": 7,
+   "weight": 400,
+   "color": "#8a8a8a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    166,
+    148,
+    215,
+    162
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    167,
+    149,
+    367,
+    159
+   ],
+   "text": "adj.",
+   "size": 7,
+   "weight": 600,
+   "color": "#4f6f70",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "fill": null,
+   "box": [
+    182,
+    149,
+    382,
+    159
+   ],
+   "text": "very cold; icy",
+   "size": 7,
+   "weight": 400,
+   "color": "#8a8a8a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    124,
+    167,
+    137,
+    178
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    124,
+    167,
+    324,
+    176
+   ],
+   "text": "e.g.",
+   "size": 7,
+   "weight": 600,
+   "color": "#33575b",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    123,
+    178,
+    175,
+    189
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "rect": [
+    124,
+    215,
+    188,
+    230
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    125,
+    216,
+    325,
+    227
+   ],
+   "text": "n.",
+   "size": 7,
+   "weight": 700,
+   "color": "#4f6f70",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "fill": null,
+   "box": [
+    134,
+    216,
+    334,
+    227
+   ],
+   "text": "small bag for personal items",
+   "size": 8,
+   "weight": 500,
+   "color": "#d9706a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    124,
+    237,
+    137,
+    248
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    124,
+    237,
+    324,
+    246
+   ],
+   "text": "e.g.",
+   "size": 7,
+   "weight": 600,
+   "color": "#33575b",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    123,
+    248,
+    242,
+    258
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "rect": [
+    124,
+    291,
+    158,
+    306
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    125,
+    292,
+    325,
+    303
+   ],
+   "text": "n.",
+   "size": 7,
+   "weight": 700,
+   "color": "#4f6f70",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "fill": null,
+   "box": [
+    134,
+    292,
+    334,
+    303
+   ],
+   "text": "polite way to address a woman",
+   "size": 8,
+   "weight": 500,
+   "color": "#d9706a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    124,
+    312,
+    137,
+    321
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    124,
+    312,
+    324,
+    319
+   ],
+   "text": "e.g.",
+   "size": 7,
+   "weight": 600,
+   "color": "#33575b",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    123,
+    330,
+    256,
+    347
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "rect": [
+    465,
+    27,
+    518,
+    41
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    466,
+    28,
+    666,
+    38
+   ],
+   "text": "n.",
+   "size": 7,
+   "weight": 700,
+   "color": "#4f6f70",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "fill": null,
+   "box": [
+    475,
+    28,
+    675,
+    38
+   ],
+   "text": "connection; bond",
+   "size": 8,
+   "weight": 500,
+   "color": "#d9706a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    541,
+    47,
+    581,
+    60
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    543,
+    47,
+    743,
+    56
+   ],
+   "text": "a strong personal bond",
+   "size": 7,
+   "weight": 400,
+   "color": "#8a8a8a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    554,
+    65,
+    587,
+    78
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    556,
+    65,
+    756,
+    74
+   ],
+   "text": "mixed love and hate",
+   "size": 7,
+   "weight": 400,
+   "color": "#8a8a8a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    551,
+    83,
+    596,
+    96
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    553,
+    83,
+    753,
+    92
+   ],
+   "text": "a professional connection",
+   "size": 7,
+   "weight": 400,
+   "color": "#8a8a8a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    505,
+    100,
+    547,
+    114
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    506,
+    101,
+    706,
+    111
+   ],
+   "text": "adj.",
+   "size": 7,
+   "weight": 600,
+   "color": "#4f6f70",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "fill": null,
+   "box": [
+    521,
+    101,
+    721,
+    111
+   ],
+   "text": "connected",
+   "size": 7,
+   "weight": 400,
+   "color": "#8a8a8a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    507,
+    118,
+    537,
+    131
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    508,
+    119,
+    708,
+    128
+   ],
+   "text": "n.",
+   "size": 7,
+   "weight": 600,
+   "color": "#4f6f70",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "fill": null,
+   "box": [
+    517,
+    119,
+    717,
+    128
+   ],
+   "text": "connection",
+   "size": 7,
+   "weight": 400,
+   "color": "#8a8a8a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    506,
+    136,
+    537,
+    149
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    507,
+    137,
+    707,
+    146
+   ],
+   "text": "n.",
+   "size": 7,
+   "weight": 600,
+   "color": "#4f6f70",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "fill": null,
+   "box": [
+    516,
+    137,
+    716,
+    146
+   ],
+   "text": "family member",
+   "size": 7,
+   "weight": 400,
+   "color": "#8a8a8a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    514,
+    153,
+    560,
+    167
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    515,
+    154,
+    715,
+    164
+   ],
+   "text": "n.",
+   "size": 7,
+   "weight": 600,
+   "color": "#4f6f70",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "fill": null,
+   "box": [
+    524,
+    154,
+    724,
+    164
+   ],
+   "text": "feeling isolated",
+   "size": 7,
+   "weight": 400,
+   "color": "#8a8a8a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    516,
+    171,
+    562,
+    185
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    517,
+    172,
+    717,
+    182
+   ],
+   "text": "n.",
+   "size": 7,
+   "weight": 600,
+   "color": "#4f6f70",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "fill": null,
+   "box": [
+    526,
+    172,
+    726,
+    182
+   ],
+   "text": "being apart",
+   "size": 7,
+   "weight": 400,
+   "color": "#8a8a8a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    465,
+    190,
+    478,
+    201
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    465,
+    190,
+    665,
+    199
+   ],
+   "text": "e.g.",
+   "size": 7,
+   "weight": 600,
+   "color": "#33575b",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    464,
+    200,
+    526,
+    210
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "rect": [
+    465,
+    238,
+    514,
+    253
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    466,
+    239,
+    666,
+    250
+   ],
+   "text": "n.",
+   "size": 7,
+   "weight": 700,
+   "color": "#4f6f70",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "fill": null,
+   "box": [
+    475,
+    239,
+    675,
+    250
+   ],
+   "text": "green, creamy fruit",
+   "size": 8,
+   "weight": 500,
+   "color": "#d9706a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    465,
+    260,
+    478,
+    270
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    465,
+    260,
+    665,
+    268
+   ],
+   "text": "e.g.",
+   "size": 7,
+   "weight": 600,
+   "color": "#33575b",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    464,
+    271,
+    602,
+    288
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "rect": [
+    465,
+    315,
+    499,
+    330
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    466,
+    316,
+    666,
+    327
+   ],
+   "text": "n.",
+   "size": 7,
+   "weight": 700,
+   "color": "#4f6f70",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "fill": null,
+   "box": [
+    475,
+    316,
+    675,
+    327
+   ],
+   "text": "material burned for energy",
+   "size": 8,
+   "weight": 500,
+   "color": "#d9706a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    536,
+    335,
+    575,
+    348
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    538,
+    335,
+    738,
+    344
+   ],
+   "text": "amount of fuel used",
+   "size": 7,
+   "weight": 400,
+   "color": "#8a8a8a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    514,
+    353,
+    541,
+    366
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    516,
+    353,
+    716,
+    362
+   ],
+   "text": "fuel level meter",
+   "size": 7,
+   "weight": 400,
+   "color": "#8a8a8a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    510,
+    370,
+    549,
+    383
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    512,
+    370,
+    712,
+    379
+   ],
+   "text": "container for fuel",
+   "size": 7,
+   "weight": 400,
+   "color": "#8a8a8a",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    465,
+    390,
+    478,
+    400
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  },
+  {
+   "fill": null,
+   "box": [
+    465,
+    390,
+    665,
+    398
+   ],
+   "text": "e.g.",
+   "size": 7,
+   "weight": 600,
+   "color": "#33575b",
+   "align": "left",
+   "fit": false,
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    464,
+    400,
+    551,
+    410
+   ],
+   "fill": "#ffffff",
+   "text": ""
+  }
+ ],
+ "en-src/05-bg-6a18731c.webp": [
+  {
+   "rect": [
+    86,
+    84,
+    382,
+    111
+   ],
+   "fill": "#ffffff",
+   "text": "Learn words you can really use!",
+   "size": 19,
+   "weight": 800,
+   "color": "#12284a",
+   "align": "center",
+   "box": [
+    84,
+    82,
+    386,
+    112
+   ]
+  },
+  {
+   "fill": null,
+   "box": [
+    60,
+    334,
+    456,
+    364
+   ],
+   "text": "Eiken · TOEIC · Entrance Exams",
+   "size": 23,
+   "weight": 700,
+   "color": "#1b5f80",
+   "align": "center"
+  },
+  {
+   "fill": null,
+   "box": [
+    60,
+    368,
+    460,
+    398
+   ],
+   "text": "TOEFL · IELTS · Kids · Conversation",
+   "size": 23,
+   "weight": 700,
+   "color": "#1b5f80",
+   "align": "center"
+  },
+  {
+   "fill": null,
+   "box": [
+    700,
+    74,
+    830,
+    100
+   ],
+   "text": "Huge Collection",
+   "size": 16,
+   "weight": 800,
+   "color": "#7a5b14",
+   "align": "center"
+  }
+ ],
+ "en-src/06-bg-1b4ce71f.webp": [
+  {
+   "rect": [
+    86,
+    91,
+    382,
+    118
+   ],
+   "fill": "#ffffff",
+   "text": "Learn words you can really use!",
+   "size": 19,
+   "weight": 800,
+   "color": "#12284a",
+   "align": "center",
+   "box": [
+    84,
+    89,
+    386,
+    119
+   ]
+  },
+  {
+   "fill": null,
+   "box": [
+    60,
+    341,
+    456,
+    371
+   ],
+   "text": "Eiken · TOEIC · Entrance Exams",
+   "size": 23,
+   "weight": 700,
+   "color": "#1b5f80",
+   "align": "center"
+  },
+  {
+   "fill": null,
+   "box": [
+    60,
+    375,
+    460,
+    405
+   ],
+   "text": "TOEFL · IELTS · Kids · Conversation",
+   "size": 23,
+   "weight": 700,
+   "color": "#1b5f80",
+   "align": "center"
+  },
+  {
+   "fill": null,
+   "box": [
+    700,
+    81,
+    830,
+    107
+   ],
+   "text": "Huge Collection",
+   "size": 16,
+   "weight": 800,
+   "color": "#7a5b14",
+   "align": "center"
+  }
+ ]
+}

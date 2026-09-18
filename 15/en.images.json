@@ -1,0 +1,24 @@
+{
+ "assets/learning-settings.png": [
+  {"rect": [125, 7, 212, 36], "fill": "auto"},
+  {"rect": [40, 4, 298, 33], "fill": null, "text": "Learning Settings", "size": 16, "weight": 700, "color": "#ffffff", "align": "center", "line_height": 1.0, "fit": true},
+  {"rect": [1, 79, 101, 106], "fill": "auto"},
+  {"rect": [4, 76, 318, 102], "fill": null, "text": "Battle Mode", "size": 17, "weight": 700, "color": {"darkest": [4, 82, 95, 102]}, "align": "left", "line_height": 1.0, "fit": true},
+  {"rect": [22, 135, 178, 157], "fill": "auto"},
+  {"rect": [26, 132, 240, 156], "fill": null, "text": "Show word list before a battle", "size": 13, "weight": 500, "color": {"darkest": [26, 139, 170, 153]}, "align": "left", "line_height": 1.0, "fit": true},
+  {"rect": [23, 191, 125, 213], "fill": "auto"},
+  {"rect": [26, 188, 240, 212], "fill": null, "text": "Show Pinyin", "size": 13, "weight": 500, "color": {"darkest": [27, 195, 117, 209]}, "align": "left", "line_height": 1.0, "fit": true}
+ ],
+ "assets/management-settings.png": [
+  {"rect": [103, 8, 219, 39], "fill": "auto"},
+  {"rect": [40, 5, 298, 36], "fill": null, "text": "Manage Settings", "size": 16, "weight": 700, "color": "#ffffff", "align": "center", "line_height": 1.0, "fit": true},
+  {"rect": [0, 56, 101, 83], "fill": "auto"},
+  {"rect": [4, 53, 318, 79], "fill": null, "text": "Manage Children", "size": 17, "weight": 700, "color": {"darkest": [3, 59, 95, 79]}, "align": "left", "line_height": 1.0, "fit": true},
+  {"rect": [20, 97, 117, 121], "fill": "auto"},
+  {"rect": [26, 94, 240, 120], "fill": null, "text": "Board Viewing", "size": 13, "weight": 500, "color": {"darkest": [24, 101, 109, 117]}, "align": "left", "line_height": 1.0, "fit": true},
+  {"rect": [21, 152, 144, 176], "fill": "auto"},
+  {"rect": [26, 149, 240, 175], "fill": null, "text": "Board Posting", "size": 13, "weight": 500, "color": {"darkest": [25, 156, 136, 172]}, "align": "left", "line_height": 1.0, "fit": true},
+  {"rect": [22, 208, 132, 231], "fill": "auto"},
+  {"rect": [26, 205, 240, 230], "fill": null, "text": "Friend Match", "size": 13, "weight": 500, "color": {"darkest": [26, 212, 124, 227]}, "align": "left", "line_height": 1.0, "fit": true}
+ ]
+}

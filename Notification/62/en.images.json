@@ -1,0 +1,544 @@
+{
+ "assets/03-0934ce0c.webp": [
+  {
+   "rect": [
+    489,
+    308,
+    565,
+    332
+   ],
+   "fill": "#ffffff",
+   "text": "Friends",
+   "size": 14,
+   "weight": 700,
+   "color": {
+    "darkest": [
+     495,
+     310,
+     560,
+     330
+    ]
+   },
+   "box": [
+    484,
+    308,
+    570,
+    332
+   ]
+  },
+  {
+   "rect": [
+    567,
+    308,
+    661,
+    332
+   ],
+   "fill": "#ffffff",
+   "text": "Announcements",
+   "size": 13,
+   "weight": 700,
+   "color": {
+    "darkest": [
+     495,
+     310,
+     560,
+     330
+    ]
+   },
+   "box": [
+    569,
+    308,
+    659,
+    332
+   ]
+  }
+ ],
+ "en-src/02-41d03d46.webp": [
+  {
+   "rect": [
+    312,
+    40,
+    648,
+    100
+   ],
+   "fill": "auto",
+   "text": "Streak Rewards",
+   "size": 40,
+   "weight": 800,
+   "color": "#053340",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    320,
+    35,
+    640,
+    91
+   ]
+  },
+  {
+   "rect": null,
+   "fill": null,
+   "text": "Hit a streak milestone\nand get a limited character!",
+   "size": 48,
+   "weight": 800,
+   "color": "#032c40",
+   "align": "center",
+   "line_height": 1.354,
+   "box": [
+    50,
+    145,
+    850,
+    275
+   ]
+  },
+  {
+   "rect": [
+    30,
+    345,
+    530,
+    415
+   ],
+   "fill": "auto",
+   "text": "Guaranteed when you reach it!",
+   "size": 48,
+   "weight": 800,
+   "color": "#0a3352",
+   "align": "left",
+   "line_height": 1.4,
+   "box": [
+    35,
+    344,
+    860,
+    408
+   ]
+  },
+  {
+   "rect": [
+    30,
+    415,
+    665,
+    462
+   ],
+   "fill": "auto",
+   "text": "Grow your streak and collect every limited character!",
+   "size": 30,
+   "weight": 400,
+   "color": "#4c7379",
+   "align": "left",
+   "line_height": 1.4,
+   "box": [
+    38,
+    414,
+    840,
+    456
+   ]
+  },
+  {
+   "rect": null,
+   "fill": null,
+   "text": "Day 3",
+   "size": 22,
+   "weight": 700,
+   "color": "#ffffff",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    37,
+    508,
+    139,
+    539
+   ]
+  },
+  {
+   "rect": null,
+   "fill": null,
+   "text": "Day 7",
+   "size": 22,
+   "weight": 700,
+   "color": "#ffffff",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    250,
+    508,
+    352,
+    539
+   ]
+  },
+  {
+   "rect": null,
+   "fill": null,
+   "text": "Day 14",
+   "size": 22,
+   "weight": 700,
+   "color": "#ffffff",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    462,
+    508,
+    564,
+    539
+   ]
+  },
+  {
+   "rect": null,
+   "fill": null,
+   "text": "Day 50",
+   "size": 22,
+   "weight": 700,
+   "color": "#ffffff",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    674,
+    508,
+    776,
+    539
+   ]
+  },
+  {
+   "rect": null,
+   "fill": null,
+   "text": "Day 100",
+   "size": 22,
+   "weight": 700,
+   "color": "#ffffff",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    37,
+    822,
+    139,
+    853
+   ]
+  },
+  {
+   "rect": null,
+   "fill": null,
+   "text": "Day 150",
+   "size": 22,
+   "weight": 700,
+   "color": "#ffffff",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    250,
+    822,
+    352,
+    853
+   ]
+  },
+  {
+   "rect": null,
+   "fill": null,
+   "text": "Day 200",
+   "size": 22,
+   "weight": 700,
+   "color": "#ffffff",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    462,
+    822,
+    564,
+    853
+   ]
+  },
+  {
+   "rect": null,
+   "fill": null,
+   "text": "Day 250",
+   "size": 22,
+   "weight": 700,
+   "color": "#ffffff",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    674,
+    822,
+    776,
+    853
+   ]
+  },
+  {
+   "rect": null,
+   "fill": null,
+   "text": "Day 300",
+   "size": 22,
+   "weight": 700,
+   "color": "#96701a",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    37,
+    1136,
+    139,
+    1167
+   ]
+  },
+  {
+   "rect": null,
+   "fill": null,
+   "text": "Day 350",
+   "size": 22,
+   "weight": 700,
+   "color": "#96701a",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    250,
+    1136,
+    352,
+    1167
+   ]
+  },
+  {
+   "rect": null,
+   "fill": null,
+   "text": "Day 365",
+   "size": 22,
+   "weight": 700,
+   "color": "#96701a",
+   "align": "center",
+   "line_height": 1.4,
+   "box": [
+    462,
+    1136,
+    564,
+    1167
+   ]
+  },
+  {
+   "rect": [
+    29,
+    720,
+    233,
+    782
+   ],
+   "fill": "auto",
+   "text": "Chubby\nMotibear",
+   "size": 24,
+   "weight": 500,
+   "color": "#0d3446",
+   "align": "center",
+   "line_height": 1.25,
+   "box": [
+    23,
+    716,
+    239,
+    776
+   ]
+  },
+  {
+   "rect": [
+    242,
+    720,
+    445,
+    782
+   ],
+   "fill": "auto",
+   "text": "Disco Dancer\nJohnny",
+   "size": 24,
+   "weight": 500,
+   "color": "#0d3446",
+   "align": "center",
+   "line_height": 1.25,
+   "box": [
+    236,
+    716,
+    451,
+    776
+   ]
+  },
+  {
+   "rect": [
+    454,
+    720,
+    658,
+    782
+   ],
+   "fill": "auto",
+   "text": "Idol Miyu",
+   "size": 24,
+   "weight": 500,
+   "color": "#0d3446",
+   "align": "center",
+   "line_height": 1.25,
+   "box": [
+    448,
+    716,
+    664,
+    776
+   ]
+  },
+  {
+   "rect": [
+    666,
+    720,
+    870,
+    782
+   ],
+   "fill": "auto",
+   "text": "Knight Rex",
+   "size": 24,
+   "weight": 500,
+   "color": "#0d3446",
+   "align": "center",
+   "line_height": 1.25,
+   "box": [
+    660,
+    716,
+    876,
+    776
+   ]
+  },
+  {
+   "rect": [
+    29,
+    1034,
+    233,
+    1096
+   ],
+   "fill": "auto",
+   "text": "Daruma\nMotibear",
+   "size": 24,
+   "weight": 500,
+   "color": "#0d3446",
+   "align": "center",
+   "line_height": 1.25,
+   "box": [
+    23,
+    1030,
+    239,
+    1090
+   ]
+  },
+  {
+   "rect": [
+    242,
+    1034,
+    445,
+    1096
+   ],
+   "fill": "auto",
+   "text": "Galaxy Idol\nSora",
+   "size": 24,
+   "weight": 500,
+   "color": "#0d3446",
+   "align": "center",
+   "line_height": 1.25,
+   "box": [
+    236,
+    1030,
+    451,
+    1090
+   ]
+  },
+  {
+   "rect": [
+    454,
+    1034,
+    658,
+    1096
+   ],
+   "fill": "auto",
+   "text": "Police Officer\nMotibear",
+   "size": 24,
+   "weight": 500,
+   "color": "#0d3446",
+   "align": "center",
+   "line_height": 1.25,
+   "box": [
+    448,
+    1030,
+    664,
+    1090
+   ]
+  },
+  {
+   "rect": [
+    666,
+    1034,
+    870,
+    1096
+   ],
+   "fill": "auto",
+   "text": "DJ Johnny",
+   "size": 24,
+   "weight": 500,
+   "color": "#0d3446",
+   "align": "center",
+   "line_height": 1.25,
+   "box": [
+    660,
+    1030,
+    876,
+    1090
+   ]
+  },
+  {
+   "rect": [
+    29,
+    1348,
+    233,
+    1410
+   ],
+   "fill": "auto",
+   "text": "Divine Motibear",
+   "size": 24,
+   "weight": 500,
+   "color": "#0d3446",
+   "align": "center",
+   "line_height": 1.25,
+   "box": [
+    23,
+    1344,
+    239,
+    1404
+   ]
+  },
+  {
+   "rect": [
+    242,
+    1348,
+    445,
+    1410
+   ],
+   "fill": "auto",
+   "text": "Cheerleader\nMiyu",
+   "size": 24,
+   "weight": 500,
+   "color": "#0d3446",
+   "align": "center",
+   "line_height": 1.25,
+   "box": [
+    236,
+    1344,
+    451,
+    1404
+   ]
+  },
+  {
+   "rect": [
+    454,
+    1348,
+    658,
+    1410
+   ],
+   "fill": "auto",
+   "text": "Marathon\nMotibear",
+   "size": 24,
+   "weight": 500,
+   "color": "#0d3446",
+   "align": "center",
+   "line_height": 1.25,
+   "box": [
+    448,
+    1344,
+    664,
+    1404
+   ]
+  }
+ ]
+}

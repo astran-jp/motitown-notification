@@ -1,0 +1,12 @@
+{
+ "assets/signin.png": [
+  {"rect": [520, 180, 690, 270], "fill": {"sample": [600, 290]}},
+  {"rect": [300, 173, 906, 253], "fill": null, "text": "Settings", "size": 56, "weight": 700, "color": "#ffffff", "align": "center", "line_height": 1.0, "fit": true},
+  {"rect": [40, 405, 852, 500], "fill": "#ffffff"},
+  {"rect": [48, 399, 848, 479], "fill": null, "text": "Sign-In & Linked Accounts", "size": 58, "weight": 700, "color": {"darkest": [45, 415, 840, 488]}, "align": "left", "line_height": 1.0, "fit": true},
+  {"rect": [330, 540, 870, 606], "fill": "#ffffff"},
+  {"rect": [200, 534, 1000, 594], "fill": null, "text": "Already linked? Sign in here", "size": 38, "weight": 500, "color": {"darkest": [342, 553, 854, 592]}, "align": "center", "line_height": 1.0, "fit": true},
+  {"rect": [285, 645, 915, 738], "fill": "#ffffff"},
+  {"rect": [240, 638, 960, 722], "fill": null, "text": "Sign In to Motitown", "size": 56, "weight": 700, "color": {"darkest": [297, 655, 903, 724]}, "align": "center", "line_height": 1.0, "fit": true}
+ ]
+}
