@@ -1,0 +1,463 @@
+{
+ "assets/01-c515ac8a-1.webp": [
+  {
+   "rect": [
+    230,
+    92,
+    890,
+    166
+   ],
+   "fill": "auto",
+   "text": "How to Use Motitan",
+   "size": 54,
+   "weight": 800,
+   "align": "left",
+   "box": [
+    238,
+    92,
+    890,
+    166
+   ],
+   "color": {
+    "darkest": [
+     238,
+     102,
+     674,
+     156
+    ]
+   }
+  },
+  {
+   "rect": [
+    40,
+    280,
+    590,
+    435
+   ],
+   "fill": "auto",
+   "text": "Learning English words is a piece of cake. Why? Because you've installed Motitan!",
+   "size": 33,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    57,
+    280,
+    590,
+    435
+   ],
+   "color": {
+    "darkest": [
+     57,
+     289,
+     538,
+     423
+    ]
+   },
+   "line_height": 1.5
+  },
+  {
+   "rect": [
+    40,
+    640,
+    510,
+    800
+   ],
+   "fill": "auto",
+   "text": "For years I've been studying how people learn at a university.",
+   "size": 33,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    57,
+    640,
+    505,
+    800
+   ],
+   "color": {
+    "darkest": [
+     57,
+     651,
+     470,
+     785
+    ]
+   },
+   "line_height": 1.5
+  },
+  {
+   "rect": [
+    40,
+    843,
+    510,
+    950
+   ],
+   "fill": "auto",
+   "text": "Motitan is the result of all that research.",
+   "size": 33,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    57,
+    843,
+    505,
+    950
+   ],
+   "color": {
+    "darkest": [
+     58,
+     853,
+     448,
+     938
+    ]
+   },
+   "line_height": 1.5
+  },
+  {
+   "rect": [
+    40,
+    1156,
+    860,
+    1262
+   ],
+   "fill": "auto",
+   "text": "I've packed Motitan with all kinds of tricks that make English words easy to remember.",
+   "size": 33,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    57,
+    1156,
+    845,
+    1262
+   ],
+   "color": {
+    "darkest": [
+     59,
+     1166,
+     744,
+     1250
+    ]
+   },
+   "line_height": 1.5
+  },
+  {
+   "rect": [
+    40,
+    1306,
+    860,
+    1391
+   ],
+   "fill": "auto",
+   "text": "With Motitan, even if memorizing has always\nbeen a struggle, you'll soon catch yourself",
+   "size": 33,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    57,
+    1308,
+    845,
+    1391
+   ],
+   "color": {
+    "darkest": [
+     59,
+     1318,
+     779,
+     1391
+    ]
+   },
+   "line_height": 1.25,
+   "valign": "top"
+  }
+ ],
+ "assets/01-c515ac8a-2.webp": [
+  {
+   "rect": [
+    40,
+    0,
+    860,
+    125
+   ],
+   "fill": "auto",
+   "text": "thinking, \"Wait, I already know this one!\"",
+   "size": 33,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    57,
+    22,
+    845,
+    125
+   ],
+   "color": "#1c4c6e",
+   "line_height": 1.5,
+   "valign": "top"
+  },
+  {
+   "rect": [
+    40,
+    270,
+    600,
+    325
+   ],
+   "fill": "auto",
+   "text": "Take a look at these numbers.",
+   "size": 33,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    61,
+    270,
+    600,
+    325
+   ],
+   "color": {
+    "darkest": [
+     61,
+     280,
+     379,
+     314
+    ]
+   }
+  },
+  {
+   "rect": [
+    40,
+    420,
+    200,
+    470
+   ],
+   "fill": "auto",
+   "text": "In 1 week",
+   "size": 32,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    58,
+    420,
+    205,
+    470
+   ],
+   "color": {
+    "darkest": [
+     58,
+     429,
+     177,
+     461
+    ]
+   }
+  },
+  {
+   "rect": [
+    212,
+    400,
+    442,
+    470
+   ],
+   "fill": "auto",
+   "text": "250 words",
+   "size": 46,
+   "weight": 800,
+   "align": "left",
+   "box": [
+    219,
+    400,
+    436,
+    470
+   ],
+   "color": {
+    "darkest": [
+     219,
+     408,
+     440,
+     461
+    ]
+   }
+  },
+  {
+   "rect": [
+    40,
+    517,
+    200,
+    567
+   ],
+   "fill": "auto",
+   "text": "In 3 weeks",
+   "size": 32,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    56,
+    517,
+    205,
+    567
+   ],
+   "color": {
+    "darkest": [
+     56,
+     526,
+     177,
+     558
+    ]
+   }
+  },
+  {
+   "rect": [
+    212,
+    497,
+    586,
+    567
+   ],
+   "fill": "auto",
+   "text": "TOEIC® +100 pts",
+   "size": 50,
+   "weight": 800,
+   "align": "left",
+   "box": [
+    218,
+    497,
+    586,
+    567
+   ],
+   "color": {
+    "darkest": [
+     218,
+     505,
+     584,
+     558
+    ]
+   }
+  },
+  {
+   "rect": [
+    40,
+    615,
+    200,
+    665
+   ],
+   "fill": "auto",
+   "text": "In 1 month",
+   "size": 32,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    58,
+    615,
+    205,
+    665
+   ],
+   "color": {
+    "darkest": [
+     58,
+     624,
+     177,
+     655
+    ]
+   }
+  },
+  {
+   "rect": [
+    212,
+    598,
+    566,
+    665
+   ],
+   "fill": "auto",
+   "text": "Test score +20",
+   "size": 50,
+   "weight": 800,
+   "align": "left",
+   "box": [
+    219,
+    598,
+    566,
+    665
+   ],
+   "color": {
+    "darkest": [
+     219,
+     608,
+     560,
+     654
+    ]
+   }
+  },
+  {
+   "rect": [
+    40,
+    742,
+    860,
+    896
+   ],
+   "fill": "auto",
+   "text": "These are the average results of people actually using Motitan. That's huge growth in a short time.",
+   "size": 33,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    56,
+    742,
+    845,
+    896
+   ],
+   "color": {
+    "darkest": [
+     56,
+     751,
+     810,
+     886
+    ]
+   },
+   "line_height": 1.5
+  },
+  {
+   "rect": [
+    40,
+    1076,
+    580,
+    1282
+   ],
+   "fill": "auto",
+   "text": "Your Motitan life starts now! I can't wait to see how much you grow. I promise you will!",
+   "size": 33,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    56,
+    1076,
+    575,
+    1282
+   ],
+   "color": {
+    "darkest": [
+     56,
+     1086,
+     535,
+     1271
+    ]
+   },
+   "line_height": 1.5
+  }
+ ],
+ "assets/02-151f9161.webp": [
+  {
+   "rect": [
+    180,
+    180,
+    760,
+    234
+   ],
+   "fill": "auto",
+   "text": "Not sure how to play?  ›",
+   "size": 40,
+   "weight": 800,
+   "color": {
+    "darkest": [
+     235,
+     188,
+     712,
+     226
+    ]
+   }
+  }
+ ]
+}

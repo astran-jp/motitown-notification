@@ -1,0 +1,685 @@
+{
+ "assets/01-a2a68ce3-1.webp": [
+  {
+   "rect": [
+    150,
+    40,
+    750,
+    195
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    215,
+    80,
+    685,
+    108
+   ],
+   "fill": {
+    "sample": [
+     300,
+     150
+    ]
+   }
+  },
+  {
+   "rect": [
+    255,
+    150,
+    645,
+    178
+   ],
+   "fill": {
+    "sample": [
+     300,
+     150
+    ]
+   }
+  },
+  {
+   "rect": [
+    150,
+    40,
+    750,
+    195
+   ],
+   "fill": null,
+   "text": "Learn lots of words\nand earn BP!",
+   "size": 54,
+   "weight": 800,
+   "color": {
+    "darkest": [
+     200,
+     50,
+     700,
+     100
+    ]
+   },
+   "line_height": 1.3
+  },
+  {
+   "rect": [
+    130,
+    225,
+    770,
+    305
+   ],
+   "fill": "auto",
+   "text": "What is BP (Battle Points)?",
+   "size": 44,
+   "weight": 800,
+   "color": {
+    "darkest": [
+     200,
+     240,
+     700,
+     300
+    ]
+   }
+  },
+  {
+   "rect": [
+    60,
+    370,
+    840,
+    580
+   ],
+   "fill": "auto",
+   "text": "BP are points you earn based on how you play! Rank high to get exclusive rewards!",
+   "size": 38,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    88,
+    370,
+    812,
+    580
+   ],
+   "color": {
+    "darkest": [
+     100,
+     390,
+     800,
+     560
+    ]
+   },
+   "line_height": 1.45
+  },
+  {
+   "rect": [
+    250,
+    1070,
+    650,
+    1160
+   ],
+   "fill": "auto",
+   "text": "Tips for Earning BP",
+   "size": 52,
+   "weight": 800,
+   "color": {
+    "darkest": [
+     300,
+     1080,
+     600,
+     1150
+    ]
+   }
+  },
+  {
+   "rect": [
+    120,
+    1195,
+    880,
+    1260
+   ],
+   "fill": "auto",
+   "text": "Focus on speed and accuracy!",
+   "size": 34,
+   "weight": 800,
+   "align": "left",
+   "box": [
+    130,
+    1195,
+    880,
+    1260
+   ],
+   "color": {
+    "darkest": [
+     140,
+     1205,
+     600,
+     1250
+    ]
+   }
+  },
+  {
+   "rect": [
+    152,
+    1290,
+    673,
+    1340
+   ],
+   "fill": "auto",
+   "text": "More correct answers boost your base points!",
+   "size": 30,
+   "weight": 500,
+   "box": [
+    156,
+    1290,
+    669,
+    1340
+   ],
+   "color": {
+    "darkest": [
+     160,
+     1290,
+     660,
+     1340
+    ]
+   }
+  },
+  {
+   "rect": [
+    120,
+    1390,
+    880,
+    1455
+   ],
+   "fill": "auto",
+   "text": "Take on new and tricky words!",
+   "size": 34,
+   "weight": 800,
+   "align": "left",
+   "box": [
+    130,
+    1390,
+    880,
+    1455
+   ],
+   "color": {
+    "darkest": [
+     140,
+     1400,
+     680,
+     1450
+    ]
+   }
+  },
+  {
+   "rect": [
+    152,
+    1470,
+    843,
+    1520
+   ],
+   "fill": "auto",
+   "text": "Learn lots of words to raise your Mastery bonus!",
+   "size": 30,
+   "weight": 500,
+   "box": [
+    156,
+    1470,
+    839,
+    1520
+   ],
+   "color": {
+    "darkest": [
+     160,
+     1470,
+     830,
+     1520
+    ]
+   }
+  },
+  {
+   "rect": [
+    120,
+    1555,
+    880,
+    1620
+   ],
+   "fill": "auto",
+   "text": "Level up!",
+   "size": 34,
+   "weight": 800,
+   "align": "left",
+   "box": [
+    130,
+    1555,
+    880,
+    1620
+   ],
+   "color": {
+    "darkest": [
+     140,
+     1565,
+     400,
+     1610
+    ]
+   }
+  },
+  {
+   "rect": [
+    152,
+    1645,
+    693,
+    1695
+   ],
+   "fill": "auto",
+   "text": "The higher your level, the bigger the bonus!",
+   "size": 30,
+   "weight": 500,
+   "box": [
+    156,
+    1645,
+    689,
+    1695
+   ],
+   "color": {
+    "darkest": [
+     160,
+     1650,
+     690,
+     1695
+    ]
+   }
+  }
+ ],
+ "assets/01-a2a68ce3-2.webp": [
+  {
+   "rect": [
+    275,
+    55,
+    625,
+    135
+   ],
+   "fill": "auto",
+   "text": "How BP Works",
+   "size": 46,
+   "weight": 800,
+   "color": {
+    "darkest": [
+     300,
+     70,
+     600,
+     125
+    ]
+   }
+  },
+  {
+   "rect": [
+    60,
+    185,
+    840,
+    255
+   ],
+   "fill": "auto",
+   "text": "Your BP is the total of all of these!",
+   "size": 34,
+   "weight": 500,
+   "color": {
+    "darkest": [
+     120,
+     195,
+     800,
+     245
+    ]
+   }
+  },
+  {
+   "rect": [
+    210,
+    325,
+    880,
+    385
+   ],
+   "fill": "auto",
+   "text": "Base points:",
+   "size": 36,
+   "weight": 800,
+   "align": "left",
+   "color": {
+    "darkest": [
+     220,
+     335,
+     360,
+     375
+    ]
+   }
+  },
+  {
+   "rect": [
+    210,
+    390,
+    880,
+    445
+   ],
+   "fill": "auto",
+   "text": "Based on your number of correct answers!",
+   "size": 32,
+   "weight": 500,
+   "align": "left",
+   "color": {
+    "darkest": [
+     220,
+     395,
+     560,
+     440
+    ]
+   }
+  },
+  {
+   "rect": [
+    210,
+    540,
+    880,
+    600
+   ],
+   "fill": "auto",
+   "text": "Rank bonus:",
+   "size": 36,
+   "weight": 800,
+   "align": "left",
+   "color": {
+    "darkest": [
+     220,
+     550,
+     460,
+     595
+    ]
+   }
+  },
+  {
+   "rect": [
+    210,
+    605,
+    880,
+    662
+   ],
+   "fill": "auto",
+   "text": "Earned when you finish 1st or 2nd in a battle!",
+   "size": 32,
+   "weight": 500,
+   "align": "left",
+   "color": {
+    "darkest": [
+     220,
+     610,
+     780,
+     655
+    ]
+   }
+  },
+  {
+   "rect": [
+    210,
+    760,
+    880,
+    820
+   ],
+   "fill": "auto",
+   "text": "Perfect-score bonus:",
+   "size": 36,
+   "weight": 800,
+   "align": "left",
+   "color": {
+    "darkest": [
+     220,
+     770,
+     520,
+     815
+    ]
+   }
+  },
+  {
+   "rect": [
+    210,
+    822,
+    880,
+    878
+   ],
+   "fill": "auto",
+   "text": "Earned for a perfect score in Adventure!",
+   "size": 32,
+   "weight": 500,
+   "align": "left",
+   "color": {
+    "darkest": [
+     220,
+     830,
+     780,
+     875
+    ]
+   }
+  },
+  {
+   "rect": [
+    210,
+    975,
+    880,
+    1035
+   ],
+   "fill": "auto",
+   "text": "Mastery bonus:",
+   "size": 36,
+   "weight": 800,
+   "align": "left",
+   "color": {
+    "darkest": [
+     220,
+     985,
+     490,
+     1030
+    ]
+   }
+  },
+  {
+   "rect": [
+    210,
+    1038,
+    880,
+    1095
+   ],
+   "fill": "auto",
+   "text": "Based on how many words went up in Mastery!",
+   "size": 32,
+   "weight": 500,
+   "align": "left",
+   "color": {
+    "darkest": [
+     220,
+     1045,
+     860,
+     1090
+    ]
+   }
+  },
+  {
+   "rect": [
+    210,
+    1195,
+    880,
+    1255
+   ],
+   "fill": "auto",
+   "text": "Level bonus:",
+   "size": 36,
+   "weight": 800,
+   "align": "left",
+   "color": {
+    "darkest": [
+     220,
+     1205,
+     490,
+     1250
+    ]
+   }
+  },
+  {
+   "rect": [
+    210,
+    1255,
+    880,
+    1312
+   ],
+   "fill": "auto",
+   "text": "Take on higher levels for a bigger bonus!",
+   "size": 32,
+   "weight": 500,
+   "align": "left",
+   "color": {
+    "darkest": [
+     220,
+     1262,
+     790,
+     1305
+    ]
+   }
+  },
+  {
+   "rect": [
+    40,
+    1425,
+    880,
+    1760
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    50,
+    1430,
+    80,
+    1470
+   ],
+   "fill": null,
+   "text": "•",
+   "size": 30,
+   "weight": 500,
+   "align": "left",
+   "color": {
+    "darkest": [
+     80,
+     1440,
+     860,
+     1500
+    ]
+   },
+   "valign": "top"
+  },
+  {
+   "rect": [
+    80,
+    1430,
+    870,
+    1520
+   ],
+   "fill": null,
+   "text": "The Mastery bonus for a word decreases once it has been earned more than 5 times in one week.",
+   "size": 30,
+   "weight": 500,
+   "align": "left",
+   "color": {
+    "darkest": [
+     80,
+     1440,
+     860,
+     1500
+    ]
+   },
+   "valign": "top",
+   "line_height": 1.35
+  },
+  {
+   "rect": [
+    50,
+    1535,
+    80,
+    1575
+   ],
+   "fill": null,
+   "text": "•",
+   "size": 30,
+   "weight": 500,
+   "align": "left",
+   "color": {
+    "darkest": [
+     80,
+     1440,
+     860,
+     1500
+    ]
+   },
+   "valign": "top"
+  },
+  {
+   "rect": [
+    80,
+    1535,
+    870,
+    1665
+   ],
+   "fill": null,
+   "text": "Playing a level you have already cleared 3 or more times in one day reduces the BP you earn. You still receive the Mastery bonus.",
+   "size": 30,
+   "weight": 500,
+   "align": "left",
+   "color": {
+    "darkest": [
+     80,
+     1440,
+     860,
+     1500
+    ]
+   },
+   "valign": "top",
+   "line_height": 1.35
+  },
+  {
+   "rect": [
+    50,
+    1672,
+    80,
+    1712
+   ],
+   "fill": null,
+   "text": "•",
+   "size": 30,
+   "weight": 500,
+   "align": "left",
+   "color": {
+    "darkest": [
+     80,
+     1440,
+     860,
+     1500
+    ]
+   },
+   "valign": "top"
+  },
+  {
+   "rect": [
+    80,
+    1672,
+    870,
+    1760
+   ],
+   "fill": null,
+   "text": "In friend battles, the rank bonus varies with the number of participants.",
+   "size": 30,
+   "weight": 500,
+   "align": "left",
+   "color": {
+    "darkest": [
+     80,
+     1440,
+     860,
+     1500
+    ]
+   },
+   "valign": "top",
+   "line_height": 1.35
+  }
+ ]
+}

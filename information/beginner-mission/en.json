@@ -1,0 +1,53 @@
+{
+ "title": {
+  "ja": "初心者ミッション｜モチタウン",
+  "en": "Beginner Missions | Motitown"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "初心者ミッション達成で限定モチベアをGET🎁",
+   "en": "Complete the Beginner Missions and get a limited Motibear 🎁"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello~！モチベアだよ！英単語学習のスタートを切ったキミへ限定モチベアが当たるガチャをプレゼントするよ！",
+   "en": "Hello! It's me, Motibear! To celebrate the start of your vocabulary journey, here's a gift: a Gacha that gives you a limited Motibear!"
+  },
+  {
+   "tag": "p",
+   "ja": "なんと、チュートリアルで手に入れられなかった限定モチベアがもう１体当たるんだ！",
+   "en": "That's right, you can get one more of the limited Motibears you couldn't get in the tutorial!"
+  },
+  {
+   "tag": "p",
+   "ja": "どのぼくがキミの手元にやってくるかな？",
+   "en": "Which one of me will come to you?"
+  },
+  {
+   "tag": "p",
+   "ja": "掲示板でゲットしたモチベアの報告も待ってるよ〜！",
+   "en": "Post on the Board and show off the Motibear you got!"
+  },
+  {
+   "tag": "p",
+   "ja": "【詳細】",
+   "en": "Details"
+  },
+  {
+   "tag": "p",
+   "ja": "・初心者ミッションコンプリート後に自動でガチャシーンが表示されます。",
+   "en": "• The Gacha screen opens automatically after you complete all Beginner Missions."
+  },
+  {
+   "tag": "p",
+   "ja": "・ガチャ排出確率：3体均等の33 %",
+   "en": "• Drop rates: 3 Motibears at an equal 33% each."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "初心者ミッション",
+   "en": "Beginner Missions"
+  }
+ ]
+}

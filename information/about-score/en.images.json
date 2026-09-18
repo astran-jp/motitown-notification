@@ -1,0 +1,8 @@
+{
+  "assets/01-db931644.webp": [
+    {"rect": [118, 80, 890, 148], "fill": "auto", "text": "Work on all 6 skills!", "size": 44, "weight": 800, "align": "left", "box": [126, 80, 890, 148], "color": {"darkest": [130, 90, 480, 135]}},
+    {"rect": [118, 200, 890, 268], "fill": "auto", "text": "Say as much as you can in English!", "size": 44, "weight": 800, "align": "left", "box": [126, 200, 890, 268], "color": {"darkest": [130, 90, 480, 135]}},
+    {"rect": [118, 320, 890, 388], "fill": "auto", "text": "Don't lean on Tips or Sample Talks!", "size": 44, "weight": 800, "align": "left", "box": [126, 320, 890, 388], "color": {"darkest": [130, 90, 480, 135]}},
+    {"rect": [118, 440, 890, 508], "fill": "auto", "text": "Higher level, higher BP!", "size": 44, "weight": 800, "align": "left", "box": [126, 440, 890, 508], "color": {"darkest": [130, 90, 480, 135]}}
+  ]
+}

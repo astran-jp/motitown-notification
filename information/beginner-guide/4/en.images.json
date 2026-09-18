@@ -1,0 +1,23 @@
+{
+  "assets/01-de425174-1.webp": [
+    {"rect": [225, 92, 890, 166], "fill": "auto", "text": "Review as You Forget", "size": 54, "weight": 800, "align": "left", "box": [234, 92, 890, 166], "color": {"darkest": [234, 102, 725, 156]}},
+    {"rect": [40, 280, 600, 480], "fill": "auto", "text": "The most effective way to remember anything is to review it right when you're about to forget it.", "size": 33, "weight": 600, "align": "left", "box": [56, 283, 598, 480], "color": {"darkest": [56, 289, 190, 322]}, "line_height": 1.5, "valign": "top"},
+    {"rect": [40, 550, 860, 700], "fill": "auto", "text": "Reviewing too early or too late doesn't work. Review just as a memory starts to fade, and it gets etched in again.", "size": 33, "weight": 600, "align": "left", "box": [56, 550, 845, 700], "color": {"darkest": [56, 559, 814, 689]}, "line_height": 1.5},
+    {"rect": [40, 745, 860, 848], "fill": "auto", "text": "Repeat this, and you'll remember it for life.", "size": 33, "weight": 600, "align": "left", "box": [56, 745, 845, 848], "color": {"darkest": [59, 753, 777, 833]}, "line_height": 1.5},
+    {"rect": [40, 988, 860, 1188], "fill": "auto", "text": "To make this happen, Motitan has a feature called Memory Decay. Even once a word's Mastery hits 100, it gradually drops as time goes by.", "size": 33, "weight": 600, "align": "left", "box": [56, 988, 845, 1188], "color": {"darkest": [56, 997, 818, 1176]}, "line_height": 1.5},
+    {"rect": [40, 1238, 520, 1438], "fill": "auto", "text": "Words whose Mastery has dropped enough are automatically sorted into the \"Rusty\" word book.", "size": 33, "weight": 600, "align": "left", "box": [56, 1238, 515, 1438], "color": {"darkest": [56, 1246, 468, 1424]}, "line_height": 1.5},
+    {"rect": [40, 1480, 520, 1626], "fill": "auto", "text": "All you have to do is play the \"Rusty\" word book regularly.", "size": 33, "weight": 600, "align": "left", "box": [56, 1480, 515, 1626], "color": {"darkest": [57, 1489, 433, 1522]}, "line_height": 1.5}
+  ],
+  "assets/01-de425174-2.webp": [
+    {"rect": [40, 340, 860, 492], "fill": "auto", "text": "By the way, if you just play Picked for You, Motitan handles your reviews for you automatically.", "size": 33, "weight": 600, "align": "left", "box": [56, 340, 845, 492], "color": {"darkest": [59, 350, 776, 480]}, "line_height": 1.5},
+    {"rect": [40, 535, 860, 740], "fill": "auto", "text": "There are also \"Difficult\" and \"Learning\" word books to help you fill any gaps in your vocabulary. And of course, Picked for You brings these up at the perfect time too.", "size": 33, "weight": 600, "align": "left", "box": [56, 535, 845, 740], "color": {"darkest": [56, 544, 813, 723]}, "line_height": 1.5},
+    {"rect": [405, 878, 870, 1080], "fill": "auto", "text": "Memory Decay kicks in up to three times. Once you've learned a word four times, it's locked in for good.", "size": 33, "weight": 600, "align": "left", "box": [422, 878, 865, 1080], "color": {"darkest": [422, 886, 820, 1064]}, "line_height": 1.5},
+    {"rect": [405, 1118, 870, 1322], "fill": "auto", "text": "You're also free to turn Memory Decay back on for a word, or switch it on or off for all words at once.", "size": 33, "weight": 600, "align": "left", "box": [422, 1118, 865, 1322], "color": {"darkest": [423, 1128, 836, 1307]}, "line_height": 1.5}
+  ],
+  "assets/02-73802b8e.webp": [
+    {"rect": [180, 180, 760, 234], "fill": "auto", "text": "One last thing  ›", "size": 40, "weight": 800, "color": {"darkest": [377, 188, 574, 224]}}
+  ],
+  "assets/03-85584032.webp": [
+    {"rect": [110, 44, 320, 90], "fill": "auto", "text": "Back", "size": 34, "weight": 600, "align": "left", "box": [118, 44, 320, 90], "color": {"darkest": [115, 51, 219, 82]}}
+  ]
+}

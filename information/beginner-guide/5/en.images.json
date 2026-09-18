@@ -1,0 +1,32 @@
+{
+  "assets/01-574b644f-1.webp": [
+    {"rect": [225, 50, 890, 205], "fill": "auto", "text": "Get the Most\nOut of Motitan", "size": 52, "weight": 800, "align": "left", "box": [235, 50, 890, 205], "color": {"darkest": [235, 64, 610, 195]}, "line_height": 1.5},
+    {"rect": [40, 272, 860, 475], "fill": "auto", "text": "Motitan isn't just another vocabulary app. I built it to be the most fun vocabulary app out there, packed with features to keep you hooked. Here are just a few of them.", "size": 33, "weight": 600, "align": "left", "box": [57, 272, 845, 475], "color": {"darkest": [57, 282, 792, 460]}, "line_height": 1.5},
+    {"rect": [40, 618, 600, 692], "fill": "auto", "text": "Rankings", "size": 54, "weight": 800, "align": "left", "box": [62, 618, 600, 692], "color": {"darkest": [62, 628, 330, 682]}},
+    {"rect": [40, 748, 860, 948], "fill": "auto", "text": "Motitan has BP rankings. Finish near the top each month and you'll get exclusive characters. Some can only be earned by the top 1%! Push each other with your friends and go for it.", "size": 33, "weight": 600, "align": "left", "box": [59, 748, 845, 948], "color": {"darkest": [59, 757, 832, 936]}, "line_height": 1.5},
+    {"rect": [40, 1518, 600, 1535], "fill": "auto"}
+  ],
+  "assets/01-574b644f-2.webp": [
+    {"rect": [40, 0, 700, 52], "fill": "auto", "text": "Characters & Items", "size": 46, "weight": 800, "align": "left", "box": [60, 0, 700, 52], "color": {"darkest": [60, 0, 436, 44]}},
+    {"rect": [40, 106, 860, 305], "fill": "auto", "text": "Set up your very own characters and items from My Page. Keep at it in Motitan and you'll unlock some special ones, so stay tuned!", "size": 33, "weight": 600, "align": "left", "box": [57, 106, 845, 305], "color": {"darkest": [57, 115, 812, 293]}, "line_height": 1.5},
+    {"rect": [40, 1184, 600, 1245], "fill": "auto", "text": "Gems", "size": 50, "weight": 800, "align": "left", "box": [60, 1184, 600, 1245], "color": {"darkest": [60, 1192, 392, 1237]}},
+    {"rect": [40, 1288, 665, 1392], "fill": "auto", "text": "Gems are handy items you can use all over Motitan.", "size": 33, "weight": 600, "align": "left", "box": [59, 1288, 660, 1392], "color": {"darkest": [59, 1296, 604, 1379]}, "line_height": 1.5},
+    {"rect": [160, 1516, 830, 1535], "fill": {"sample": [450, 1505]}}
+  ],
+  "assets/01-574b644f-3.webp": [
+    {"rect": [160, 0, 830, 46], "fill": "auto", "text": "How to use Gems", "size": 36, "weight": 800, "align": "left", "box": [165, 0, 830, 46], "color": {"darkest": [165, 0, 547, 37]}},
+    {"rect": [100, 82, 830, 128], "fill": "auto", "text": "•  Spin the Gem Gacha", "size": 33, "weight": 600, "align": "left", "box": [113, 82, 830, 128], "color": {"darkest": [113, 88, 456, 121]}},
+    {"rect": [100, 148, 830, 194], "fill": "auto", "text": "•  Restore your streak", "size": 33, "weight": 600, "align": "left", "box": [113, 148, 830, 194], "color": {"darkest": [113, 88, 456, 121]}},
+    {"rect": [100, 215, 830, 261], "fill": "auto", "text": "•  Refill the lives you can send", "size": 33, "weight": 600, "align": "left", "box": [113, 215, 830, 261], "color": {"darkest": [113, 88, 456, 121]}},
+    {"rect": [100, 282, 830, 328], "fill": "auto", "text": "•  Fully restore your lives", "size": 33, "weight": 600, "align": "left", "box": [113, 282, 830, 328], "color": {"darkest": [113, 88, 456, 121]}},
+    {"rect": [158, 452, 830, 516], "fill": "auto", "text": "How to get Gems", "size": 36, "weight": 800, "align": "left", "box": [165, 452, 830, 516], "color": {"darkest": [165, 459, 581, 509]}},
+    {"rect": [100, 552, 830, 598], "fill": "auto", "text": "•  Log in 3 days in a row", "size": 33, "weight": 600, "align": "left", "box": [113, 552, 830, 598], "color": {"darkest": [113, 558, 707, 591]}},
+    {"rect": [100, 619, 830, 665], "fill": "auto", "text": "•  Receive lives (Premium members)", "size": 33, "weight": 600, "align": "left", "box": [113, 619, 830, 665], "color": {"darkest": [113, 558, 707, 591]}},
+    {"rect": [100, 686, 830, 732], "fill": "auto", "text": "•  Buy them", "size": 33, "weight": 600, "align": "left", "box": [113, 686, 830, 732], "color": {"darkest": [113, 558, 707, 591]}},
+    {"rect": [40, 822, 860, 926], "fill": "auto", "text": "You earn Gems by putting in the effort in Motitan. Collect lots of them!", "size": 33, "weight": 600, "align": "left", "box": [56, 822, 845, 926], "color": {"darkest": [56, 832, 708, 914]}, "line_height": 1.5},
+    {"rect": [90, 1126, 810, 1182], "fill": "auto", "text": "Let's all enjoy life with Motitan!", "size": 36, "weight": 800, "color": {"darkest": [133, 1136, 754, 1171]}}
+  ],
+  "assets/02-85584032.webp": [
+    {"rect": [110, 44, 320, 90], "fill": "auto", "text": "Back", "size": 34, "weight": 600, "align": "left", "box": [118, 44, 320, 90], "color": {"darkest": [115, 51, 219, 82]}}
+  ]
+}

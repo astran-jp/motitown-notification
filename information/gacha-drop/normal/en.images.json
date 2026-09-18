@@ -1,0 +1,2426 @@
+{
+ "assets/01-0a6f374c-1.webp": [
+  {
+   "rect": [
+    28,
+    40,
+    880,
+    112
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    225,
+    458,
+    287
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    292,
+    458,
+    354
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    359,
+    458,
+    421
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    426,
+    458,
+    488
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    493,
+    458,
+    555
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    560,
+    458,
+    622
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    626,
+    458,
+    688
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    693,
+    458,
+    755
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    760,
+    458,
+    822
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    827,
+    458,
+    889
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    894,
+    458,
+    956
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    961,
+    458,
+    1023
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1028,
+    458,
+    1090
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1095,
+    458,
+    1157
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1162,
+    458,
+    1224
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1229,
+    458,
+    1291
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1296,
+    458,
+    1358
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1364,
+    458,
+    1426
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1430,
+    458,
+    1492
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1496,
+    458,
+    1558
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1563,
+    458,
+    1625
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1632,
+    458,
+    1694
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1697,
+    458,
+    1759
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1764,
+    458,
+    1826
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1831,
+    458,
+    1893
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1899,
+    458,
+    1961
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    224,
+    850,
+    286
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    291,
+    850,
+    353
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    358,
+    850,
+    420
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    425,
+    850,
+    487
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    492,
+    850,
+    554
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    559,
+    850,
+    621
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    625,
+    850,
+    687
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    692,
+    850,
+    754
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    759,
+    850,
+    821
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    825,
+    850,
+    887
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    893,
+    850,
+    955
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    960,
+    850,
+    1022
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1027,
+    850,
+    1089
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1094,
+    850,
+    1156
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1161,
+    850,
+    1223
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1228,
+    850,
+    1290
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1295,
+    850,
+    1357
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1361,
+    850,
+    1423
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1429,
+    850,
+    1491
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1495,
+    850,
+    1557
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1562,
+    850,
+    1624
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1629,
+    850,
+    1691
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1696,
+    850,
+    1758
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1763,
+    850,
+    1825
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1830,
+    850,
+    1892
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1897,
+    850,
+    1959
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    66,
+    166,
+    848,
+    211
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    55,
+    42,
+    880,
+    110
+   ],
+   "fill": null,
+   "text": "Normal Gacha",
+   "size": 46,
+   "weight": 800,
+   "color": "#0d4962",
+   "align": "left"
+  },
+  {
+   "rect": [
+    76,
+    225,
+    452,
+    287
+   ],
+   "fill": null,
+   "text": "Hayato",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    292,
+    452,
+    354
+   ],
+   "fill": null,
+   "text": "Kotoha",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    359,
+    452,
+    421
+   ],
+   "fill": null,
+   "text": "Mei",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    426,
+    452,
+    488
+   ],
+   "fill": null,
+   "text": "Touma",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    493,
+    452,
+    555
+   ],
+   "fill": null,
+   "text": "Shun",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    560,
+    452,
+    622
+   ],
+   "fill": null,
+   "text": "Takumi",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    626,
+    452,
+    688
+   ],
+   "fill": null,
+   "text": "Kai",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    693,
+    452,
+    755
+   ],
+   "fill": null,
+   "text": "Suzu",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    760,
+    452,
+    822
+   ],
+   "fill": null,
+   "text": "Kou",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    827,
+    452,
+    889
+   ],
+   "fill": null,
+   "text": "Kazu",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    894,
+    452,
+    956
+   ],
+   "fill": null,
+   "text": "Tomoya",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    961,
+    452,
+    1023
+   ],
+   "fill": null,
+   "text": "Ryouga",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1028,
+    452,
+    1090
+   ],
+   "fill": null,
+   "text": "Rui",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1095,
+    452,
+    1157
+   ],
+   "fill": null,
+   "text": "Kei",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1162,
+    452,
+    1224
+   ],
+   "fill": null,
+   "text": "Hinata",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1229,
+    452,
+    1291
+   ],
+   "fill": null,
+   "text": "Yuina",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1296,
+    452,
+    1358
+   ],
+   "fill": null,
+   "text": "Natsume",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1364,
+    452,
+    1426
+   ],
+   "fill": null,
+   "text": "Momo",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1430,
+    452,
+    1492
+   ],
+   "fill": null,
+   "text": "Reina",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1496,
+    452,
+    1558
+   ],
+   "fill": null,
+   "text": "Kaito",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1563,
+    452,
+    1625
+   ],
+   "fill": null,
+   "text": "Naoto",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1632,
+    452,
+    1694
+   ],
+   "fill": null,
+   "text": "Emma",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1697,
+    452,
+    1759
+   ],
+   "fill": null,
+   "text": "Souma",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1764,
+    452,
+    1826
+   ],
+   "fill": null,
+   "text": "Hikaru",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1831,
+    452,
+    1893
+   ],
+   "fill": null,
+   "text": "Koyuki",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1899,
+    452,
+    1961
+   ],
+   "fill": null,
+   "text": "Ritsu",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    224,
+    850,
+    286
+   ],
+   "fill": null,
+   "text": "Sou",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    291,
+    850,
+    353
+   ],
+   "fill": null,
+   "text": "Sena",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    358,
+    850,
+    420
+   ],
+   "fill": null,
+   "text": "Rikuto",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    425,
+    850,
+    487
+   ],
+   "fill": null,
+   "text": "Takeru",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    492,
+    850,
+    554
+   ],
+   "fill": null,
+   "text": "Rei",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    559,
+    850,
+    621
+   ],
+   "fill": null,
+   "text": "Haruto",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    625,
+    850,
+    687
+   ],
+   "fill": null,
+   "text": "Shuu",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    692,
+    850,
+    754
+   ],
+   "fill": null,
+   "text": "Nagisa",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    759,
+    850,
+    821
+   ],
+   "fill": null,
+   "text": "Yuuta",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    825,
+    850,
+    887
+   ],
+   "fill": null,
+   "text": "Kaede",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    893,
+    850,
+    955
+   ],
+   "fill": null,
+   "text": "Ryou",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    960,
+    850,
+    1022
+   ],
+   "fill": null,
+   "text": "Souta",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1027,
+    850,
+    1089
+   ],
+   "fill": null,
+   "text": "Hayate",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1094,
+    850,
+    1156
+   ],
+   "fill": null,
+   "text": "Minato",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1161,
+    850,
+    1223
+   ],
+   "fill": null,
+   "text": "Hikari",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1228,
+    850,
+    1290
+   ],
+   "fill": null,
+   "text": "Mina",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1295,
+    850,
+    1357
+   ],
+   "fill": null,
+   "text": "Kokone",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1361,
+    850,
+    1423
+   ],
+   "fill": null,
+   "text": "Tsubasa",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1429,
+    850,
+    1491
+   ],
+   "fill": null,
+   "text": "Ren",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1495,
+    850,
+    1557
+   ],
+   "fill": null,
+   "text": "Ken",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1562,
+    850,
+    1624
+   ],
+   "fill": null,
+   "text": "Leo",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1629,
+    850,
+    1691
+   ],
+   "fill": null,
+   "text": "Sakura",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1696,
+    850,
+    1758
+   ],
+   "fill": null,
+   "text": "Sara",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1763,
+    850,
+    1825
+   ],
+   "fill": null,
+   "text": "Risa",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1830,
+    850,
+    1892
+   ],
+   "fill": null,
+   "text": "Karen",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1897,
+    850,
+    1959
+   ],
+   "fill": null,
+   "text": "Rina",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    75,
+    166,
+    840,
+    211
+   ],
+   "fill": null,
+   "text": "Total drop rate: 94%",
+   "size": 34,
+   "weight": 700,
+   "color": "#199de8",
+   "align": "left"
+  }
+ ],
+ "assets/01-0a6f374c-2.webp": [
+  {
+   "rect": [
+    62,
+    2,
+    458,
+    57
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    204,
+    458,
+    266
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    272,
+    458,
+    334
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    352,
+    458,
+    417
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    435,
+    458,
+    497
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    503,
+    458,
+    565
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    569,
+    458,
+    631
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    638,
+    458,
+    700
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    703,
+    458,
+    765
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    771,
+    458,
+    833
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    837,
+    458,
+    899
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    904,
+    458,
+    966
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    972,
+    458,
+    1034
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1181,
+    458,
+    1243
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1248,
+    458,
+    1310
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1314,
+    458,
+    1376
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1383,
+    458,
+    1445
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1449,
+    458,
+    1511
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1515,
+    458,
+    1577
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1583,
+    458,
+    1645
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1650,
+    458,
+    1712
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1717,
+    458,
+    1779
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1783,
+    458,
+    1845
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    2,
+    850,
+    55
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    204,
+    850,
+    266
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    272,
+    850,
+    334
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    352,
+    850,
+    417
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    435,
+    850,
+    499
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    502,
+    850,
+    564
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    569,
+    850,
+    631
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    635,
+    850,
+    697
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    702,
+    850,
+    764
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    768,
+    850,
+    830
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    837,
+    850,
+    899
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    903,
+    850,
+    965
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1180,
+    850,
+    1242
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1246,
+    850,
+    1312
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1313,
+    850,
+    1375
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1380,
+    850,
+    1442
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1449,
+    850,
+    1511
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1515,
+    850,
+    1577
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1582,
+    850,
+    1644
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1648,
+    850,
+    1710
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1715,
+    850,
+    1777
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1782,
+    850,
+    1844
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    66,
+    146,
+    848,
+    191
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    66,
+    1122,
+    848,
+    1167
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    76,
+    2,
+    452,
+    57
+   ],
+   "fill": null,
+   "text": "Gaku",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    204,
+    452,
+    266
+   ],
+   "fill": null,
+   "text": "Cubico Sprouter",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    272,
+    452,
+    334
+   ],
+   "fill": null,
+   "text": "Mecato Smileroid",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    352,
+    452,
+    417
+   ],
+   "fill": null,
+   "text": "Shellfrost Crabris",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    435,
+    452,
+    497
+   ],
+   "fill": null,
+   "text": "Hinoka Solblade",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    503,
+    452,
+    565
+   ],
+   "fill": null,
+   "text": "Rail Timesteam",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    569,
+    452,
+    631
+   ],
+   "fill": null,
+   "text": "Pastelina",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    638,
+    452,
+    700
+   ],
+   "fill": null,
+   "text": "Shadorina",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    703,
+    452,
+    765
+   ],
+   "fill": null,
+   "text": "Milpull",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    771,
+    452,
+    833
+   ],
+   "fill": null,
+   "text": "Shuwa",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    837,
+    452,
+    899
+   ],
+   "fill": null,
+   "text": "Chuu",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    904,
+    452,
+    966
+   ],
+   "fill": null,
+   "text": "Komugi",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    972,
+    452,
+    1034
+   ],
+   "fill": null,
+   "text": "Mimosa",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1181,
+    452,
+    1243
+   ],
+   "fill": null,
+   "text": "Quartz Glaciade",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1248,
+    452,
+    1310
+   ],
+   "fill": null,
+   "text": "Glacia Lyrica",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1314,
+    452,
+    1376
+   ],
+   "fill": null,
+   "text": "Reve Crystallize",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1383,
+    452,
+    1445
+   ],
+   "fill": null,
+   "text": "Cantia",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1449,
+    452,
+    1511
+   ],
+   "fill": null,
+   "text": "Shiruku",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1515,
+    452,
+    1577
+   ],
+   "fill": null,
+   "text": "Pomkarin",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1583,
+    452,
+    1645
+   ],
+   "fill": null,
+   "text": "Meresanne",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1650,
+    452,
+    1712
+   ],
+   "fill": null,
+   "text": "Mokoko",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1717,
+    452,
+    1779
+   ],
+   "fill": null,
+   "text": "Lunamew",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1783,
+    452,
+    1845
+   ],
+   "fill": null,
+   "text": "Wataame",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    2,
+    850,
+    55
+   ],
+   "fill": null,
+   "text": "Aoba",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    204,
+    850,
+    266
+   ],
+   "fill": null,
+   "text": "Sonic Drillia",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    272,
+    850,
+    334
+   ],
+   "fill": null,
+   "text": "Meteorite Hermit",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    352,
+    850,
+    417
+   ],
+   "fill": null,
+   "text": "Berte Honey Protector",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    435,
+    850,
+    499
+   ],
+   "fill": null,
+   "text": "Mirage Reflector Knight",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    502,
+    850,
+    564
+   ],
+   "fill": null,
+   "text": "Lumira Discorina",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    569,
+    850,
+    631
+   ],
+   "fill": null,
+   "text": "Chocoleo",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    635,
+    850,
+    697
+   ],
+   "fill": null,
+   "text": "Piarino",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    702,
+    850,
+    764
+   ],
+   "fill": null,
+   "text": "Memopiyo",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    768,
+    850,
+    830
+   ],
+   "fill": null,
+   "text": "Kottonrupa",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    837,
+    850,
+    899
+   ],
+   "fill": null,
+   "text": "Liefe",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    903,
+    850,
+    965
+   ],
+   "fill": null,
+   "text": "Sunny",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1180,
+    850,
+    1242
+   ],
+   "fill": null,
+   "text": "Inferna Draco",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1246,
+    850,
+    1312
+   ],
+   "fill": null,
+   "text": "Reiga Photon Blazer",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1313,
+    850,
+    1375
+   ],
+   "fill": null,
+   "text": "Gaiagoros",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1380,
+    850,
+    1442
+   ],
+   "fill": null,
+   "text": "Pararinu",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1449,
+    850,
+    1511
+   ],
+   "fill": null,
+   "text": "Frutia",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1515,
+    850,
+    1577
+   ],
+   "fill": null,
+   "text": "Fuwayume Maro",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1582,
+    850,
+    1644
+   ],
+   "fill": null,
+   "text": "Chiffonne",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1648,
+    850,
+    1710
+   ],
+   "fill": null,
+   "text": "Berdi",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1715,
+    850,
+    1777
+   ],
+   "fill": null,
+   "text": "Macaron",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1782,
+    850,
+    1844
+   ],
+   "fill": null,
+   "text": "Frostgaunt",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    146,
+    840,
+    191
+   ],
+   "fill": null,
+   "text": "Total drop rate: 5%",
+   "size": 34,
+   "weight": 700,
+   "color": "#199de8",
+   "align": "left"
+  },
+  {
+   "rect": [
+    76,
+    1122,
+    840,
+    1167
+   ],
+   "fill": null,
+   "text": "Total drop rate: 1%",
+   "size": 34,
+   "weight": 700,
+   "color": "#199de8",
+   "align": "left"
+  }
+ ]
+}

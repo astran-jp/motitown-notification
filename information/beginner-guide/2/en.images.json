@@ -1,0 +1,553 @@
+{
+ "assets/01-9035ba5a-1.webp": [
+  {
+   "rect": [
+    225,
+    50,
+    890,
+    205
+   ],
+   "fill": "auto",
+   "text": "Not Sure? Try\nPicked for You",
+   "size": 52,
+   "weight": 800,
+   "align": "left",
+   "box": [
+    234,
+    50,
+    890,
+    205
+   ],
+   "color": {
+    "darkest": [
+     234,
+     64,
+     615,
+     194
+    ]
+   },
+   "line_height": 1.5
+  },
+  {
+   "rect": [
+    40,
+    326,
+    860,
+    430
+   ],
+   "fill": "auto",
+   "text": "Motitan has two modes: Battle Mode and Adventure Mode.",
+   "size": 33,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    56,
+    326,
+    845,
+    430
+   ],
+   "color": {
+    "darkest": [
+     56,
+     337,
+     776,
+     418
+    ]
+   },
+   "line_height": 1.5
+  },
+  {
+   "rect": [
+    118,
+    495,
+    520,
+    568
+   ],
+   "fill": "auto",
+   "text": "Battle Mode",
+   "size": 52,
+   "weight": 800,
+   "align": "left",
+   "box": [
+    128,
+    495,
+    520,
+    568
+   ],
+   "color": {
+    "darkest": [
+     130,
+     505,
+     367,
+     559
+    ]
+   }
+  },
+  {
+   "rect": [
+    40,
+    602,
+    520,
+    705
+   ],
+   "fill": "auto",
+   "text": "A mode where you answer word meanings in a flash.",
+   "size": 33,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    57,
+    602,
+    515,
+    705
+   ],
+   "color": {
+    "darkest": [
+     57,
+     611,
+     466,
+     693
+    ]
+   },
+   "line_height": 1.5
+  },
+  {
+   "rect": [
+    40,
+    748,
+    520,
+    885
+   ],
+   "fill": "auto",
+   "text": "Keep answering faster than your opponent and you win.",
+   "size": 33,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    56,
+    748,
+    515,
+    885
+   ],
+   "color": {
+    "darkest": [
+     56,
+     757,
+     433,
+     839
+    ]
+   },
+   "line_height": 1.5,
+   "valign": "top"
+  },
+  {
+   "rect": [
+    40,
+    893,
+    520,
+    1050
+   ],
+   "fill": "auto",
+   "text": "It's all about recalling meanings instantly, so it trains your word reflexes.",
+   "size": 33,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    56,
+    893,
+    515,
+    1050
+   ],
+   "color": {
+    "darkest": [
+     56,
+     902,
+     470,
+     1033
+    ]
+   },
+   "line_height": 1.5,
+   "valign": "top"
+  },
+  {
+   "rect": [
+    122,
+    1242,
+    520,
+    1318
+   ],
+   "fill": "auto",
+   "text": "Adventure Mode",
+   "size": 48,
+   "weight": 800,
+   "align": "left",
+   "box": [
+    128,
+    1242,
+    520,
+    1318
+   ],
+   "color": {
+    "darkest": [
+     130,
+     1252,
+     367,
+     1308
+    ]
+   }
+  },
+  {
+   "rect": [
+    40,
+    1350,
+    520,
+    1505
+   ],
+   "fill": "auto",
+   "text": "A mode for learning each word thoroughly, from every angle.",
+   "size": 33,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    56,
+    1350,
+    515,
+    1505
+   ],
+   "color": {
+    "darkest": [
+     56,
+     1360,
+     470,
+     1490
+    ]
+   },
+   "line_height": 1.5
+  },
+  {
+   "rect": [
+    40,
+    1545,
+    520,
+    1638
+   ],
+   "fill": "auto",
+   "text": "You learn each word with\nall your senses: meaning,",
+   "size": 33,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    56,
+    1550,
+    515,
+    1638
+   ],
+   "color": {
+    "darkest": [
+     56,
+     1554,
+     389,
+     1636
+    ]
+   },
+   "line_height": 1.28,
+   "valign": "top"
+  }
+ ],
+ "assets/01-9035ba5a-2.webp": [
+  {
+   "rect": [
+    40,
+    0,
+    520,
+    150
+   ],
+   "fill": "auto",
+   "text": "pictures, example\nsentences, listening,\nspelling and more.",
+   "size": 33,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    57,
+    8,
+    515,
+    152
+   ],
+   "color": "#1c4c6e",
+   "line_height": 1.4,
+   "valign": "top"
+  },
+  {
+   "rect": [
+    40,
+    198,
+    520,
+    345
+   ],
+   "fill": "auto",
+   "text": "You understand words deeply and lock them into long-term memory.",
+   "size": 33,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    57,
+    198,
+    515,
+    345
+   ],
+   "color": {
+    "darkest": [
+     57,
+     207,
+     436,
+     336
+    ]
+   },
+   "line_height": 1.5
+  },
+  {
+   "rect": [
+    40,
+    490,
+    860,
+    543
+   ],
+   "fill": "auto",
+   "text": "Here's how I recommend playing:",
+   "size": 33,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    57,
+    490,
+    845,
+    543
+   ],
+   "color": {
+    "darkest": [
+     57,
+     500,
+     483,
+     533
+    ]
+   }
+  },
+  {
+   "rect": [
+    102,
+    592,
+    860,
+    646
+   ],
+   "fill": "auto",
+   "text": "Get to know the words in Adventure Mode first,",
+   "size": 36,
+   "weight": 800,
+   "align": "left",
+   "box": [
+    108,
+    592,
+    845,
+    646
+   ],
+   "color": {
+    "darkest": [
+     110,
+     601,
+     759,
+     638
+    ]
+   }
+  },
+  {
+   "rect": [
+    102,
+    660,
+    860,
+    714
+   ],
+   "fill": "auto",
+   "text": "then test yourself in Battle Mode.",
+   "size": 36,
+   "weight": 800,
+   "align": "left",
+   "box": [
+    108,
+    660,
+    845,
+    714
+   ],
+   "color": {
+    "darkest": [
+     110,
+     668,
+     412,
+     705
+    ]
+   }
+  },
+  {
+   "rect": [
+    40,
+    765,
+    530,
+    915
+   ],
+   "fill": "auto",
+   "text": "Do this and English words will be etched deep into your brain.",
+   "size": 33,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    56,
+    765,
+    525,
+    915
+   ],
+   "color": {
+    "darkest": [
+     56,
+     774,
+     436,
+     904
+    ]
+   },
+   "line_height": 1.5
+  },
+  {
+   "rect": [
+    40,
+    958,
+    530,
+    1210
+   ],
+   "fill": "auto",
+   "text": "To make it a one-tap thing, I put it in the Missions tab as \"Picked for You\".",
+   "size": 33,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    56,
+    958,
+    525,
+    1210
+   ],
+   "color": {
+    "darkest": [
+     56,
+     968,
+     400,
+     1195
+    ]
+   },
+   "line_height": 1.5
+  },
+  {
+   "rect": [
+    40,
+    1322,
+    860,
+    1422
+   ],
+   "fill": "auto",
+   "text": "If you're not sure what to do, just keep playing Picked for You.",
+   "size": 33,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    56,
+    1322,
+    845,
+    1422
+   ],
+   "color": {
+    "darkest": [
+     56,
+     1331,
+     795,
+     1412
+    ]
+   },
+   "line_height": 1.5
+  },
+  {
+   "rect": [
+    40,
+    1466,
+    860,
+    1568
+   ],
+   "fill": "auto",
+   "text": "Stick with it for three weeks and you'll have picked up a lot of words.",
+   "size": 33,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    56,
+    1466,
+    845,
+    1568
+   ],
+   "color": {
+    "darkest": [
+     59,
+     1476,
+     833,
+     1557
+    ]
+   },
+   "line_height": 1.5
+  }
+ ],
+ "assets/02-a7238499.webp": [
+  {
+   "rect": [
+    180,
+    180,
+    760,
+    234
+   ],
+   "fill": "auto",
+   "text": "Find out your level  ›",
+   "size": 40,
+   "weight": 800,
+   "color": {
+    "darkest": [
+     240,
+     188,
+     711,
+     226
+    ]
+   }
+  }
+ ],
+ "assets/03-85584032.webp": [
+  {
+   "rect": [
+    110,
+    44,
+    320,
+    90
+   ],
+   "fill": "auto",
+   "text": "Back",
+   "size": 34,
+   "weight": 600,
+   "align": "left",
+   "box": [
+    118,
+    44,
+    320,
+    90
+   ],
+   "color": {
+    "darkest": [
+     115,
+     51,
+     219,
+     82
+    ]
+   }
+  }
+ ]
+}

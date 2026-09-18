@@ -17,6 +17,28 @@ from extract import ROOT, JA, segments, attrs  # noqa: E402
 SITE = "https://motitown-notification.astran.jp"
 
 
+FALLBACK_MARK = "<!-- fallback: redirect to ja -->"
+
+
+def has_english(path):
+    p = os.path.join(ROOT, "en", path.strip("/"), "index.html")
+    return os.path.isfile(p) and FALLBACK_MARK not in open(p, encoding="utf-8").read(2000)
+
+
+def localize_links(html):
+    """ページ内のサイト内リンク(ルート基準 /information/beginner-guide/2/ や絶対 URL)のうち、
+    英語版が存在するものを /en/ 付きに向ける(使い方ガイドの前後ページなど)。日本語版へ意図して張るリンクは
+    英語版が無いか、すでに /en/ 付きなのでそのまま。"""
+    def rep(m):
+        path = m.group(2)
+        if path.startswith("/en/") or path == "/en" or not has_english(path):
+            return m.group(0)
+        return f'{m.group(1)}/en{path}"'
+    html = re.sub(r'(href=")' + re.escape(SITE) + r'(/[^"#?]*?/?)"', rep, html)
+    html = re.sub(r'(href=")(/[^"#?/][^"#?]*?/?)"', rep, html)
+    return html
+
+
 def main():
     if len(sys.argv) != 2:
         print(__doc__)
@@ -67,6 +89,7 @@ def main():
     rel = os.path.relpath(os.path.join(ROOT, d), en_dir).replace(os.sep, "/")
     out = re.sub(r'((?:src|href|srcset|data-file|poster)=")(?!https?:|/|#|data:)', lambda m: m.group(1) + rel + "/", out)
     out = re.sub(r"(url\(['\"]?)(?!https?:|/|#|data:)(?=[\w.])", lambda m: m.group(1) + rel + "/", out)
+    out = localize_links(out)
     os.makedirs(en_dir, exist_ok=True)
     for name in os.listdir(en_dir):
         if name in ("index.html", "en.json") or name.startswith(".") or os.path.isdir(os.path.join(en_dir, name)):

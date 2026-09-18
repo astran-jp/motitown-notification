@@ -28,11 +28,33 @@ def is_translated(d):
     return os.path.isfile(p) and FALLBACK_MARK not in open(p, encoding="utf-8").read(2000)
 
 
+SKIP_DIRS = {"en", "assets", "scripts", "sql", "node_modules", ".git", ".claude", ".github"}
+
+
+def page_dirs():
+    """日本語ページ(index.html を持つディレクトリ)をルートからの相対パスで列挙する。
+    お知らせ(数字・Notification/{N})だけでなく、アプリが開く information/ document/ なども含む。"""
+    out = []
+    for cur, dirs, files in os.walk(ROOT):
+        rel = os.path.relpath(cur, ROOT).replace(os.sep, "/")
+        if rel == ".":
+            dirs[:] = [x for x in dirs if x not in SKIP_DIRS]
+            continue
+        dirs[:] = [x for x in dirs if x not in SKIP_DIRS and not x.startswith(".")]
+        # 旧来の英語版置き場(information/en/… など)は日本語ページではない
+        if "/en/" in f"/{rel}/":
+            continue
+        if "index.html" in files:
+            out.append(rel)
+    return sorted(out)
+
+
 def write_fallbacks():
-    """英語版の無いお知らせに、日本語ページへ転送する en/{dir}/index.html を置く。"""
-    dirs = [n for n in os.listdir(ROOT) if n.isdigit()] + [f"Notification/{n}" for n in os.listdir(os.path.join(ROOT, "Notification")) if n.isdigit()]
+    """英語版の無いページに、日本語ページへ転送する en/{dir}/index.html を置く。
+    アプリは表示言語が英語のとき、お知らせサイトのどの URL も /en/ を付けて開くので、
+    英語版の無いページでも 404 にならないようにする。"""
     n = 0
-    for d in sorted(dirs):
+    for d in page_dirs():
         if not os.path.isfile(os.path.join(ROOT, d, "index.html")) or is_translated(d):
             continue
         target = f"/{d}/"

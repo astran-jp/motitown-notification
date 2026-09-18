@@ -1,0 +1,13 @@
+{
+  "assets/01-fc20eb57.webp": [
+    {"rect": [225, 50, 890, 205], "fill": "auto", "text": "Skip Ahead with the\nVocabulary Assessment", "size": 52, "weight": 800, "align": "left", "box": [234, 50, 890, 205], "color": {"darkest": [234, 65, 839, 195]}, "line_height": 1.5},
+    {"rect": [40, 326, 860, 480], "fill": "auto", "text": "Motitan covers every level, from total beginners up to advanced learners aiming for Eiken Grade 1 or TOEIC® 990.", "size": 33, "weight": 600, "align": "left", "box": [58, 326, 845, 480], "color": {"darkest": [58, 337, 804, 467]}, "line_height": 1.5},
+    {"rect": [40, 520, 860, 675], "fill": "auto", "text": "Want to start at the level that's right for you? Take the Vocabulary Assessment and skip ahead.", "size": 33, "weight": 600, "align": "left", "box": [58, 520, 845, 675], "color": {"darkest": [58, 531, 400, 564]}, "line_height": 1.5}
+  ],
+  "assets/02-36ca6321.webp": [
+    {"rect": [180, 180, 760, 234], "fill": "auto", "text": "Tips for reviewing  ›", "size": 40, "weight": 800, "color": {"darkest": [353, 188, 594, 226]}}
+  ],
+  "assets/03-85584032.webp": [
+    {"rect": [110, 44, 320, 90], "fill": "auto", "text": "Back", "size": 34, "weight": 600, "align": "left", "box": [118, 44, 320, 90], "color": {"darkest": [115, 51, 219, 82]}}
+  ]
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--
+  月間ミッション報酬のお知らせ（奇数月）
+  - アプリ内 WebView から ?app=motitan / ?app=motispi 付きで開かれ、起動アプリのブロックが上に来る
+  - 中身は両アプリで同一。毎月 奇数月 の分だけをここで差し替える（更新手順は ../README.md）
+  - 現在の内容：2026年9月（202609）
+-->
+<html lang="en" data-app="motitan">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>This Month's Rewards | Motitan & Motispi</title>
+  <meta property="og:title" content="This Month's Rewards">
+  <meta property="og:type" content="article">
+  <meta name="robots" content="noindex">
+  <script>
+    // 描画前に起動アプリを確定させる（順序切り替えのちらつき防止）。
+    // 不正値・パラメータ無しはモチタン扱い。
+    (function () {
+      var m = /[?&]app=([^&#]*)/.exec(window.location.search);
+      var app = m ? decodeURIComponent(m[1]).toLowerCase() : '';
+      document.documentElement.setAttribute('data-app', app === 'motispi' ? 'motispi' : 'motitan');
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../../../be-delivery/monthly-rewards/shared/style.css">
+</head>
+
+<body>
+  <div class="page">
+
+    <!-- ================= モチタン限定 ================= -->
+    <section class="zone zone--motitan">
+      <h1 class="zone__title">Motitan Exclusive</h1>
+
+      <!-- 月間ミッション -->
+      <div class="card card--monthly">
+        <div class="card__glow"><img src="../../../../be-delivery/monthly-rewards/shared/glow.svg" alt=""></div>
+        <div class="card__tag">Monthly Mission<img src="../../../../be-delivery/monthly-rewards/shared/calendar.svg" alt=""></div>
+        <div class="hero">
+          <img class="sparkle sparkle--start" src="../../../../be-delivery/monthly-rewards/shared/sparkle.svg" alt="">
+          <img src="../../../../be-delivery/monthly-rewards/en/odd-months/images/motitan-monthly.png" width="344" height="344" alt="Cowboy Rex">
+          <img class="sparkle sparkle--end" src="../../../../be-delivery/monthly-rewards/shared/sparkle.svg" alt="">
+        </div>
+        <div class="info">
+          <p class="info__name">Cowboy Rex</p>
+          <p class="info__desc">A dependable, grown-up cowboy who roams the frontier, Rex travels the West in a favorite hat and boots. No crisis can shake his calm, and he could never ignore someone in trouble. This is one cowboy you can always trust to have your back!</p>
+        </div>
+      </div>
+
+      <!-- カレンダーミッション -->
+      <div class="card card--calendar">
+        <div class="card__glow"><img src="../../../../be-delivery/monthly-rewards/shared/glow.svg" alt=""></div>
+        <div class="card__tag">Calendar Mission<span class="leaf"><img src="../../../../be-delivery/monthly-rewards/shared/gold-leaf.svg" alt=""><img src="../../../../be-delivery/monthly-rewards/shared/silver-leaf.svg" alt=""></span></div>
+        <img class="sparkle sparkle--start" src="../../../../be-delivery/monthly-rewards/shared/sparkle.svg" alt="">
+
+        <div class="cal-row cal-row--effort">
+          <img class="cal-row__char--overhang" src="../../../../be-delivery/monthly-rewards/en/odd-months/images/motitan-effort.png" width="320" height="320" alt="Literary Master Motibear">
+          <div class="cal-row__spacer"></div>
+          <div class="info">
+            <span class="award award--effort">Achiever Award</span>
+            <p class="info__name">Literary Master Motibear</p>
+            <p class="info__desc">With a towering stack of heavy books balanced overhead, Literary Master Motibear adores reading and tumbles into another world the moment a book opens. Even with a deadline approaching, the bear may laze around and drift off to sleep... Could there be a rather undisciplined side beneath that scholarly exterior? Today brings another leisurely celebration of autumn reading.</p>
+          </div>
+        </div>
+
+        <div class="cal-row cal-row--excellent">
+          <div class="info">
+            <span class="award award--excellent">Excellence Award</span>
+            <p class="info__name">Corne Oakleaf</p>
+            <p class="info__desc">Corne Oakleaf is an autumn fairy dressed in an acorn cap and a skirt of fallen leaves. Nothing beats relaxing under a tree with a picture book, though Corne may nod off before long. Arriving with the cool breeze, this little fairy brings autumn to the forest.</p>
+          </div>
+          <div class="cal-row__figure">
+            <img src="../../../../be-delivery/monthly-rewards/en/odd-months/images/motitan-excellent.png" width="344" height="344" alt="Corne Oakleaf">
+            <img class="sparkle sparkle--end" src="../../../../be-delivery/monthly-rewards/shared/sparkle.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= モチスピ限定 ================= -->
+    <section class="zone zone--motispi">
+      <h1 class="zone__title">Motispi Exclusive</h1>
+
+      <!-- 月間ミッション -->
+      <div class="card card--monthly">
+        <div class="card__glow"><img src="../../../../be-delivery/monthly-rewards/shared/glow.svg" alt=""></div>
+        <div class="card__tag">Monthly Mission<img src="../../../../be-delivery/monthly-rewards/shared/calendar.svg" alt=""></div>
+        <div class="hero">
+          <img class="sparkle sparkle--start" src="../../../../be-delivery/monthly-rewards/shared/sparkle.svg" alt="">
+          <img src="../../../../be-delivery/monthly-rewards/en/odd-months/images/motispi-monthly.png" width="344" height="344" alt="Artist Sora">
+          <img class="sparkle sparkle--end" src="../../../../be-delivery/monthly-rewards/shared/sparkle.svg" alt="">
+        </div>
+        <div class="info">
+          <p class="info__name">Artist Sora</p>
+          <p class="info__desc">Sora is celebrating an artistic autumn dressed as a painter. Ever since discovering oil painting on Earth, Sora has been captivated, and Cézanne is the favorite artist. Wearing a favorite beret, Sora studies the canvas again today and dreams of someday painting an original masterpiece.</p>
+        </div>
+      </div>
+
+      <!-- カレンダーミッション -->
+      <div class="card card--calendar">
+        <div class="card__glow"><img src="../../../../be-delivery/monthly-rewards/shared/glow.svg" alt=""></div>
+        <div class="card__tag">Calendar Mission<span class="leaf"><img src="../../../../be-delivery/monthly-rewards/shared/gold-leaf.svg" alt=""><img src="../../../../be-delivery/monthly-rewards/shared/silver-leaf.svg" alt=""></span></div>
+        <img class="sparkle sparkle--start" src="../../../../be-delivery/monthly-rewards/shared/sparkle.svg" alt="">
+
+        <div class="cal-row cal-row--effort">
+          <img class="cal-row__char--overhang" src="../../../../be-delivery/monthly-rewards/en/odd-months/images/motispi-effort.png" width="320" height="320" alt="Osmanthus Motibear">
+          <div class="cal-row__spacer"></div>
+          <div class="info">
+            <span class="award award--effort">Achiever Award</span>
+            <p class="info__name">Osmanthus Motibear</p>
+            <p class="info__desc">Osmanthus Motibear appears at the start of autumn with a soft, sweet fragrance. Decked out in favorite blossoms, the bear sets off on another fall stroll. The scent of osmanthus lingers gently along the path, so even when Motibear is out of sight, finding him is easy.</p>
+          </div>
+        </div>
+
+        <div class="cal-row cal-row--excellent">
+          <div class="info">
+            <span class="award award--excellent">Excellence Award</span>
+            <p class="info__name">Nashi-chan</p>
+            <p class="info__desc">Nashi-chan is an energetic fairy born from a delicious autumn pear! Always bright, fresh, and lively as perfectly juicy fruit, this curious fairy races toward anything fun and keeps everyone's spirits high all season long.</p>
+          </div>
+          <div class="cal-row__figure">
+            <img src="../../../../be-delivery/monthly-rewards/en/odd-months/images/motispi-excellent.png" width="344" height="344" alt="Nashi-chan">
+            <img class="sparkle sparkle--end" src="../../../../be-delivery/monthly-rewards/shared/sparkle.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</body>
+
+</html>

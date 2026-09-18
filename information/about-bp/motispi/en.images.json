@@ -1,0 +1,7 @@
+{
+  "assets/01-c30b7ad8.webp": [
+    {"rect": [118, 78, 890, 148], "fill": "auto", "text": "Get as many right as you can!", "size": 44, "weight": 800, "align": "left", "box": [126, 78, 890, 148], "color": {"darkest": [130, 90, 550, 135]}},
+    {"rect": [118, 198, 890, 312], "fill": "auto", "text": "Take on new phrases and difficult ones!", "size": 44, "weight": 800, "align": "left", "box": [126, 198, 890, 312], "color": {"darkest": [130, 90, 550, 135]}, "line_height": 1.25},
+    {"rect": [118, 358, 890, 428], "fill": "auto", "text": "Higher level, higher BP!", "size": 44, "weight": 800, "align": "left", "box": [126, 358, 890, 428], "color": {"darkest": [130, 90, 550, 135]}}
+  ]
+}

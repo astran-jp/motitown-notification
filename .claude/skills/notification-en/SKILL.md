@@ -86,3 +86,24 @@ python3 scripts/en/build_list.py        # en/index.html。英語版のあるお�
 
 - 英語版を作っていないお知らせ(build_list.py が自動で除外する)
 - 画像だけの旧お知らせ(`Notification/` のうち本文が画像 1 枚のもの約 30 件)。文字が画像に焼き込まれているため翻訳できない。英語化するなら画像対応仕様(デザイン)として別途起票する
+
+## 画像で作られた説明ページ(information/ recommend/ など)の英語化
+
+STUDIO から移植した説明ページ(`information/about-bp` など)は本文が画像に焼き込まれている。
+英語版は画像の日本語部分を背景色で塗り、同じ位置に英語を描いて作る(`scripts/en/overlay.py`)。
+
+```sh
+python3 scripts/en/overlay.py --grid information/about-bp/assets/01-xxxx.webp /tmp/grid.png   # 100px 目盛り付き画像。Read で見て座標を読む
+# {dir}/en.images.json を書く(形式は overlay.py の docstring。information/about-bp/en.images.json が実例)
+python3 scripts/en/overlay.py information/about-bp        # en/{dir}/<画像名> に英語版画像を書く
+python3 scripts/en/extract.py information/about-bp        # en.json(title と og:title だけ)を作って英訳を書く
+python3 scripts/en/build.py information/about-bp          # en/{dir}/index.html(英語版画像を自動で参照)
+```
+
+- 文字色は `{"darkest": [x0,y0,x1,y1]}` で元画像の日本語の文字から拾う。塗りは `"fill": "auto"`(範囲の四辺の中央値)が基本。
+  グラデーションや絵に重なる文字は塗りが目立つので、範囲を文字ぎりぎりに絞るか、単色の帯・パネルの内側だけ塗る
+- 見出しの蛍光マーカー(帯)は `fill` に `{"sample": [x,y]}` で帯の色を拾って塗り直してから文字を載せる(about-bp の 1 枚目参照)
+- 英語は日本語より長いので `fit` で自動縮小されるが、縮みすぎる(元の 8 割未満)ときは文を短くする。段落は `box` を広げる
+- 画面名・機能名は `MOTITAN_APP=<motitan_app の path> python3 scripts/en/glossary.py 記憶度` で英語版アプリの文言に合わせる(記憶度 = Mastery、市民リーグ = Citizen League など)
+- 生成後は en/{dir}/ の画像を Read で全部見て、塗り残し・はみ出し・日本語の残りが無いことを確認する
+- 英語版を作らないページは `build_list.py` が `en/{dir}/index.html` に日本語ページへの転送を置く(アプリは英語表示のとき全ページを `/en/` 付きで開く)

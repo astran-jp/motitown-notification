@@ -1,0 +1,12 @@
+{
+  "assets/01-e8b05d72.webp": [
+    {"rect": [230, 60, 720, 150], "fill": "auto", "text": "How to Use Motispi", "size": 60, "weight": 800, "align": "left", "box": [238, 60, 720, 150], "color": {"darkest": [240, 75, 680, 140]}},
+    {"rect": [50, 248, 560, 470], "fill": "auto", "text": "You installed Motispi because you want to be able to speak English, right? Very good! That's the right call!", "size": 34, "weight": 500, "align": "left", "box": [56, 248, 555, 470], "color": {"darkest": [60, 260, 540, 450]}, "line_height": 1.45},
+    {"rect": [50, 640, 495, 910], "fill": "auto", "text": "I've spent many years at university researching how people learn. Motispi was built on that foundation.", "size": 34, "weight": 500, "align": "left", "box": [56, 640, 490, 910], "color": {"darkest": [60, 655, 470, 890]}, "line_height": 1.45},
+    {"rect": [50, 945, 495, 1265], "fill": "auto", "text": "With Motispi, even if you've never managed to speak English before, one day you'll notice: \"Wait, I can actually talk now!\"", "size": 34, "weight": 500, "align": "left", "box": [56, 945, 490, 1265], "color": {"darkest": [60, 960, 470, 1250]}, "line_height": 1.45},
+    {"rect": [50, 1412, 560, 1672], "fill": "auto", "text": "Your Motispi journey starts now! I can't wait to see how much you grow. I promise you'll be speaking English fluently!", "size": 34, "weight": 500, "align": "left", "box": [56, 1412, 555, 1672], "color": {"darkest": [60, 1425, 540, 1655]}, "line_height": 1.45}
+  ],
+  "assets/02-151f9161.webp": [
+    {"rect": [180, 178, 682, 238], "fill": "auto", "text": "Not sure where to start?", "size": 42, "weight": 800, "color": {"darkest": [240, 185, 660, 230]}}
+  ]
+}

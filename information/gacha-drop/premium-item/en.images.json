@@ -1,0 +1,2866 @@
+{
+ "assets/01-78ce6ac0-1.webp": [
+  {
+   "rect": [
+    28,
+    40,
+    880,
+    112
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    225,
+    458,
+    287
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    292,
+    458,
+    354
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    359,
+    458,
+    421
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    426,
+    458,
+    488
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    493,
+    458,
+    555
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    574,
+    458,
+    639
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    657,
+    458,
+    719
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    724,
+    458,
+    786
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    804,
+    458,
+    869
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    901,
+    458,
+    965
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    985,
+    458,
+    1047
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1052,
+    458,
+    1114
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1118,
+    458,
+    1180
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1185,
+    458,
+    1247
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1252,
+    458,
+    1314
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1318,
+    458,
+    1380
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1385,
+    458,
+    1447
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1453,
+    458,
+    1515
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1520,
+    458,
+    1582
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1586,
+    458,
+    1648
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1654,
+    458,
+    1716
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    224,
+    850,
+    286
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    291,
+    850,
+    353
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    358,
+    850,
+    420
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    425,
+    850,
+    487
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    492,
+    850,
+    554
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    573,
+    850,
+    637
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    656,
+    850,
+    719
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    723,
+    850,
+    786
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    803,
+    850,
+    869
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    901,
+    850,
+    965
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    983,
+    850,
+    1045
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1050,
+    850,
+    1112
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1117,
+    850,
+    1180
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1184,
+    850,
+    1248
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1251,
+    850,
+    1313
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1318,
+    850,
+    1380
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1386,
+    850,
+    1448
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1452,
+    850,
+    1514
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1519,
+    850,
+    1581
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1586,
+    850,
+    1648
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1652,
+    850,
+    1714
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    66,
+    166,
+    848,
+    211
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    55,
+    42,
+    880,
+    110
+   ],
+   "fill": null,
+   "text": "Premium Item Gacha",
+   "size": 46,
+   "weight": 800,
+   "color": "#0d4962",
+   "align": "left"
+  },
+  {
+   "rect": [
+    76,
+    225,
+    452,
+    287
+   ],
+   "fill": null,
+   "text": "Black Cap",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    292,
+    452,
+    354
+   ],
+   "fill": null,
+   "text": "Blue Cap",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    359,
+    452,
+    421
+   ],
+   "fill": null,
+   "text": "Green Cap",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    426,
+    452,
+    488
+   ],
+   "fill": null,
+   "text": "Purple Cap",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    493,
+    452,
+    555
+   ],
+   "fill": null,
+   "text": "Orange Cap",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    574,
+    452,
+    639
+   ],
+   "fill": null,
+   "text": "Ivory Bucket Hat",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    657,
+    452,
+    719
+   ],
+   "fill": null,
+   "text": "Red Bucket Hat",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    724,
+    452,
+    786
+   ],
+   "fill": null,
+   "text": "Pink Bucket Hat",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    804,
+    452,
+    869
+   ],
+   "fill": null,
+   "text": "Yellow-Green Bucket Hat",
+   "size": 31,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    901,
+    452,
+    965
+   ],
+   "fill": null,
+   "text": "Navy Bucket Hat",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    985,
+    452,
+    1047
+   ],
+   "fill": null,
+   "text": "Mysterious White Orb",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1052,
+    452,
+    1114
+   ],
+   "fill": null,
+   "text": "Mysterious Red Orb",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1118,
+    452,
+    1180
+   ],
+   "fill": null,
+   "text": "Mysterious Yellow Orb",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1185,
+    452,
+    1247
+   ],
+   "fill": null,
+   "text": "Mysterious Pink Orb",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1252,
+    452,
+    1314
+   ],
+   "fill": null,
+   "text": "Mysterious Purple Orb",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1318,
+    452,
+    1380
+   ],
+   "fill": null,
+   "text": "Clear Yo-Yo",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1385,
+    452,
+    1447
+   ],
+   "fill": null,
+   "text": "Purple Yo-Yo",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1453,
+    452,
+    1515
+   ],
+   "fill": null,
+   "text": "Orange Yo-Yo",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1520,
+    452,
+    1582
+   ],
+   "fill": null,
+   "text": "Green Yo-Yo",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1586,
+    452,
+    1648
+   ],
+   "fill": null,
+   "text": "Light Blue Yo-Yo",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1654,
+    452,
+    1716
+   ],
+   "fill": null,
+   "text": "Swift Leaf Car",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    224,
+    850,
+    286
+   ],
+   "fill": null,
+   "text": "Yellow Cap",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    291,
+    850,
+    353
+   ],
+   "fill": null,
+   "text": "Red Cap",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    358,
+    850,
+    420
+   ],
+   "fill": null,
+   "text": "Brown Cap",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    425,
+    850,
+    487
+   ],
+   "fill": null,
+   "text": "Light Blue Cap",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    492,
+    850,
+    554
+   ],
+   "fill": null,
+   "text": "Pink Cap",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    573,
+    850,
+    637
+   ],
+   "fill": null,
+   "text": "Brown Bucket Hat",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    656,
+    850,
+    719
+   ],
+   "fill": null,
+   "text": "Orange Bucket Hat",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    723,
+    850,
+    786
+   ],
+   "fill": null,
+   "text": "Yellow Bucket Hat",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    803,
+    850,
+    869
+   ],
+   "fill": null,
+   "text": "Ice Blue Bucket Hat",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    901,
+    850,
+    965
+   ],
+   "fill": null,
+   "text": "Purple Bucket Hat",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    983,
+    850,
+    1045
+   ],
+   "fill": null,
+   "text": "Mysterious Black Orb",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1050,
+    850,
+    1112
+   ],
+   "fill": null,
+   "text": "Mysterious Orange Orb",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1117,
+    850,
+    1180
+   ],
+   "fill": null,
+   "text": "Mysterious Yellow-Green Orb",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1184,
+    850,
+    1248
+   ],
+   "fill": null,
+   "text": "Mysterious Light Blue Orb",
+   "size": 29,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1251,
+    850,
+    1313
+   ],
+   "fill": null,
+   "text": "Mysterious Blue Orb",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1318,
+    850,
+    1380
+   ],
+   "fill": null,
+   "text": "Brown Yo-Yo",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1386,
+    850,
+    1448
+   ],
+   "fill": null,
+   "text": "Red Yo-Yo",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1452,
+    850,
+    1514
+   ],
+   "fill": null,
+   "text": "Yellow Yo-Yo",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1519,
+    850,
+    1581
+   ],
+   "fill": null,
+   "text": "Pink Yo-Yo",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1586,
+    850,
+    1648
+   ],
+   "fill": null,
+   "text": "Blue Yo-Yo",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1652,
+    850,
+    1714
+   ],
+   "fill": null,
+   "text": "Shining Leaf Car",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    77,
+    166,
+    840,
+    211
+   ],
+   "fill": null,
+   "text": "Total drop rate: 68.5%",
+   "size": 34,
+   "weight": 700,
+   "color": "#199de8",
+   "align": "left"
+  }
+ ],
+ "assets/01-78ce6ac0-2.webp": [
+  {
+   "rect": [
+    62,
+    2,
+    458,
+    61
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    66,
+    458,
+    128
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    133,
+    458,
+    195
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    200,
+    458,
+    262
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    410,
+    458,
+    472
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    476,
+    458,
+    538
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    543,
+    458,
+    605
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    624,
+    458,
+    688
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    707,
+    458,
+    769
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    774,
+    458,
+    836
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    841,
+    458,
+    903
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    921,
+    458,
+    986
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1005,
+    458,
+    1067
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1072,
+    458,
+    1134
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1138,
+    458,
+    1200
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1206,
+    458,
+    1268
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1273,
+    458,
+    1335
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1339,
+    458,
+    1401
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1406,
+    458,
+    1468
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1473,
+    458,
+    1535
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1540,
+    458,
+    1602
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1620,
+    458,
+    1685
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    2,
+    850,
+    60
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    65,
+    850,
+    127
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    132,
+    850,
+    194
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    198,
+    850,
+    260
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    408,
+    850,
+    470
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    474,
+    850,
+    536
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    541,
+    850,
+    603
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    624,
+    850,
+    686
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    706,
+    850,
+    768
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    773,
+    850,
+    835
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    841,
+    850,
+    903
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    922,
+    850,
+    984
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1004,
+    850,
+    1066
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1071,
+    850,
+    1133
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1137,
+    850,
+    1201
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1204,
+    850,
+    1266
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1272,
+    850,
+    1334
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1338,
+    850,
+    1400
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1405,
+    850,
+    1467
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1472,
+    850,
+    1534
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1540,
+    850,
+    1603
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1621,
+    850,
+    1683
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    66,
+    350,
+    848,
+    395
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1700,
+    458,
+    1722
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    76,
+    2,
+    452,
+    61
+   ],
+   "fill": null,
+   "text": "Lively Leaf Car",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    66,
+    452,
+    128
+   ],
+   "fill": null,
+   "text": "Blue Sky Leaf Car",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    133,
+    452,
+    195
+   ],
+   "fill": null,
+   "text": "Gallant Leaf Car",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    200,
+    452,
+    262
+   ],
+   "fill": null,
+   "text": "Sturdy Leaf Car",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    410,
+    452,
+    472
+   ],
+   "fill": null,
+   "text": "Detective Cap",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    476,
+    452,
+    538
+   ],
+   "fill": null,
+   "text": "Warm Russian Hat",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    543,
+    452,
+    605
+   ],
+   "fill": null,
+   "text": "Sweetheart Gift Ribbon",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    624,
+    452,
+    688
+   ],
+   "fill": null,
+   "text": "Fluttering Butterfly Ribbon",
+   "size": 29,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    707,
+    452,
+    769
+   ],
+   "fill": null,
+   "text": "Clover Ribbon",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    774,
+    452,
+    836
+   ],
+   "fill": null,
+   "text": "Night Sky Ribbon",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    841,
+    452,
+    903
+   ],
+   "fill": null,
+   "text": "Beloved Chocolat Ribbon",
+   "size": 31,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    921,
+    452,
+    986
+   ],
+   "fill": null,
+   "text": "Cozy Lantern Orange Flag",
+   "size": 30,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1005,
+    452,
+    1067
+   ],
+   "fill": null,
+   "text": "Sakura Pink Flag",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1072,
+    452,
+    1134
+   ],
+   "fill": null,
+   "text": "Spring Blue Flag",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1138,
+    452,
+    1200
+   ],
+   "fill": null,
+   "text": "Fairy-Tale Purple Flag",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1206,
+    452,
+    1268
+   ],
+   "fill": null,
+   "text": "Cheer Captain's Red Flag",
+   "size": 31,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1273,
+    452,
+    1335
+   ],
+   "fill": null,
+   "text": "Adventure Red Telescope",
+   "size": 31,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1339,
+    452,
+    1401
+   ],
+   "fill": null,
+   "text": "Friendly Pink Scope",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1406,
+    452,
+    1468
+   ],
+   "fill": null,
+   "text": "Breeze Sky Scope",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1473,
+    452,
+    1535
+   ],
+   "fill": null,
+   "text": "Galaxy Purple Scope",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1540,
+    452,
+    1602
+   ],
+   "fill": null,
+   "text": "Secret Brown Telescope",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1620,
+    452,
+    1685
+   ],
+   "fill": null,
+   "text": "Sunset Peach Flower Car",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    2,
+    850,
+    60
+   ],
+   "fill": null,
+   "text": "Friendly Leaf Car",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    65,
+    850,
+    127
+   ],
+   "fill": null,
+   "text": "Vigor Leaf Car",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    132,
+    850,
+    194
+   ],
+   "fill": null,
+   "text": "Enigmatic Leaf Car",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    198,
+    850,
+    260
+   ],
+   "fill": null,
+   "text": "Jet-Black Leaf Car",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    408,
+    850,
+    470
+   ],
+   "fill": null,
+   "text": "Potato Chips",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    474,
+    850,
+    536
+   ],
+   "fill": null,
+   "text": "Blue Ribbon",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    541,
+    850,
+    603
+   ],
+   "fill": null,
+   "text": "Marigold Ribbon",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    624,
+    850,
+    686
+   ],
+   "fill": null,
+   "text": "Fluffy Sugar Ribbon",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    706,
+    850,
+    768
+   ],
+   "fill": null,
+   "text": "Silk Ribbon",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    773,
+    850,
+    835
+   ],
+   "fill": null,
+   "text": "Enchanting Violet Ribbon",
+   "size": 31,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    841,
+    850,
+    903
+   ],
+   "fill": null,
+   "text": "Cherry Red Flag",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    922,
+    850,
+    984
+   ],
+   "fill": null,
+   "text": "Star Yellow Flag",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1004,
+    850,
+    1066
+   ],
+   "fill": null,
+   "text": "Fresh Green Flag",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1071,
+    850,
+    1133
+   ],
+   "fill": null,
+   "text": "Horizon Blue Flag",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1137,
+    850,
+    1201
+   ],
+   "fill": null,
+   "text": "Glory Romance Brown Flag",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1204,
+    850,
+    1266
+   ],
+   "fill": null,
+   "text": "Powder Blue Telescope",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1272,
+    850,
+    1334
+   ],
+   "fill": null,
+   "text": "Happy Orange Telescope",
+   "size": 31,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1338,
+    850,
+    1400
+   ],
+   "fill": null,
+   "text": "Sparkly Yellow Telescope",
+   "size": 31,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1405,
+    850,
+    1467
+   ],
+   "fill": null,
+   "text": "Forest Sprout Scope",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1472,
+    850,
+    1534
+   ],
+   "fill": null,
+   "text": "Starry Blue Telescope",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1540,
+    850,
+    1603
+   ],
+   "fill": null,
+   "text": "Dressy Violet Flower Car",
+   "size": 31,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1621,
+    850,
+    1683
+   ],
+   "fill": null,
+   "text": "Passion Red Flower Car",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    350,
+    840,
+    395
+   ],
+   "fill": null,
+   "text": "Total drop rate: 20%",
+   "size": 34,
+   "weight": 700,
+   "color": "#199de8",
+   "align": "left"
+  }
+ ],
+ "assets/01-78ce6ac0-3.webp": [
+  {
+   "rect": [
+    62,
+    124,
+    458,
+    186
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    206,
+    458,
+    268
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    273,
+    458,
+    335
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    483,
+    458,
+    545
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    550,
+    458,
+    612
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    617,
+    458,
+    679
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    827,
+    458,
+    889
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    894,
+    458,
+    956
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    960,
+    458,
+    1022
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1171,
+    458,
+    1233
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1251,
+    458,
+    1317
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1335,
+    458,
+    1397
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1545,
+    458,
+    1607
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    12,
+    850,
+    75
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    123,
+    850,
+    185
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    204,
+    850,
+    268
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    482,
+    850,
+    544
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    549,
+    850,
+    611
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    615,
+    850,
+    677
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    825,
+    850,
+    887
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    893,
+    850,
+    955
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    960,
+    850,
+    1022
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1170,
+    850,
+    1232
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1251,
+    850,
+    1313
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1334,
+    850,
+    1396
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    66,
+    424,
+    848,
+    469
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    66,
+    767,
+    848,
+    813
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    66,
+    1111,
+    848,
+    1157
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    66,
+    1485,
+    848,
+    1531
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    0,
+    458,
+    94
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    76,
+    124,
+    452,
+    186
+   ],
+   "fill": null,
+   "text": "Sunny Lemon Flower Car",
+   "size": 31,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    206,
+    452,
+    268
+   ],
+   "fill": null,
+   "text": "Nemophila Flower Car",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    273,
+    452,
+    335
+   ],
+   "fill": null,
+   "text": "Amethyst Flower Car",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    483,
+    452,
+    545
+   ],
+   "fill": null,
+   "text": "Pearl Ribbon Beret",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    550,
+    452,
+    612
+   ],
+   "fill": null,
+   "text": "Water",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    617,
+    452,
+    679
+   ],
+   "fill": null,
+   "text": "Basket Bag",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    827,
+    452,
+    889
+   ],
+   "fill": null,
+   "text": "Graduation Cap",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    894,
+    452,
+    956
+   ],
+   "fill": null,
+   "text": "Kindergarten Hat",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    960,
+    452,
+    1022
+   ],
+   "fill": null,
+   "text": "Blue Swim Ring",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1171,
+    452,
+    1233
+   ],
+   "fill": null,
+   "text": "Santa Hat",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1251,
+    452,
+    1317
+   ],
+   "fill": null,
+   "text": "School Bag with Bat Charm",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1335,
+    452,
+    1397
+   ],
+   "fill": null,
+   "text": "Cat-Ear Cap",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1545,
+    452,
+    1607
+   ],
+   "fill": null,
+   "text": "Leaf",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    12,
+    850,
+    75
+   ],
+   "fill": null,
+   "text": "Breeze Sky Flower Car",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    123,
+    850,
+    185
+   ],
+   "fill": null,
+   "text": "Sprout Lime Flower Car",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    204,
+    850,
+    268
+   ],
+   "fill": null,
+   "text": "Mocha Brown Flower Car",
+   "size": 31,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    482,
+    850,
+    544
+   ],
+   "fill": null,
+   "text": "Straw Hat",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    549,
+    850,
+    611
+   ],
+   "fill": null,
+   "text": "Book",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    615,
+    850,
+    677
+   ],
+   "fill": null,
+   "text": "Gear Dozer",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    825,
+    850,
+    887
+   ],
+   "fill": null,
+   "text": "Tablet",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    893,
+    850,
+    955
+   ],
+   "fill": null,
+   "text": "Pink Swim Ring",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    960,
+    850,
+    1022
+   ],
+   "fill": null,
+   "text": "Wooden Boat",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1170,
+    850,
+    1232
+   ],
+   "fill": null,
+   "text": "Candy Cane",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1251,
+    850,
+    1313
+   ],
+   "fill": null,
+   "text": "School Bag",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1334,
+    850,
+    1396
+   ],
+   "fill": null,
+   "text": "Spaceship",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    424,
+    840,
+    469
+   ],
+   "fill": null,
+   "text": "Total drop rate: 8%",
+   "size": 34,
+   "weight": 700,
+   "color": "#199de8",
+   "align": "left"
+  },
+  {
+   "rect": [
+    75,
+    767,
+    840,
+    813
+   ],
+   "fill": null,
+   "text": "Total drop rate: 2%",
+   "size": 34,
+   "weight": 700,
+   "color": "#199de8",
+   "align": "left"
+  },
+  {
+   "rect": [
+    76,
+    1111,
+    840,
+    1157
+   ],
+   "fill": null,
+   "text": "Total drop rate: 1%",
+   "size": 34,
+   "weight": 700,
+   "color": "#199de8",
+   "align": "left"
+  },
+  {
+   "rect": [
+    77,
+    1485,
+    840,
+    1531
+   ],
+   "fill": null,
+   "text": "Total drop rate: 0.5%",
+   "size": 34,
+   "weight": 700,
+   "color": "#199de8",
+   "align": "left"
+  },
+  {
+   "rect": [
+    76,
+    2,
+    452,
+    92
+   ],
+   "fill": null,
+   "text": "Yumekawa Pink Flower Car (Powder Pink)",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  }
+ ]
+}

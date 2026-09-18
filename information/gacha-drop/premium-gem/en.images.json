@@ -1,0 +1,2715 @@
+{
+ "assets/01-22cad7bd-1.webp": [
+  {
+   "rect": [
+    28,
+    40,
+    880,
+    112
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    225,
+    458,
+    287
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    292,
+    458,
+    354
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    358,
+    458,
+    420
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    427,
+    458,
+    489
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    493,
+    458,
+    555
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    559,
+    458,
+    621
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    627,
+    458,
+    689
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    694,
+    458,
+    756
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    761,
+    458,
+    823
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    828,
+    458,
+    890
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1050,
+    458,
+    1115
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1134,
+    458,
+    1196
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1201,
+    458,
+    1263
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1268,
+    458,
+    1330
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1335,
+    458,
+    1397
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1402,
+    458,
+    1464
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1469,
+    458,
+    1530
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    224,
+    850,
+    286
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    290,
+    850,
+    356
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    357,
+    850,
+    419
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    424,
+    850,
+    486
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    493,
+    850,
+    555
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    559,
+    850,
+    621
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    626,
+    850,
+    688
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    693,
+    850,
+    755
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    759,
+    850,
+    821
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    826,
+    850,
+    888
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1051,
+    850,
+    1113
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1133,
+    850,
+    1195
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1200,
+    850,
+    1262
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1267,
+    850,
+    1329
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1334,
+    850,
+    1396
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1401,
+    850,
+    1463
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1468,
+    850,
+    1530
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    66,
+    166,
+    848,
+    211
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    66,
+    978,
+    848,
+    1024
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    55,
+    42,
+    880,
+    110
+   ],
+   "fill": null,
+   "text": "Premium Gem Gacha",
+   "size": 46,
+   "weight": 800,
+   "color": "#0d4962",
+   "align": "left"
+  },
+  {
+   "rect": [
+    76,
+    225,
+    452,
+    287
+   ],
+   "fill": null,
+   "text": "Quartz Glaciade",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    292,
+    452,
+    354
+   ],
+   "fill": null,
+   "text": "Glacia Lyrica",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    358,
+    452,
+    420
+   ],
+   "fill": null,
+   "text": "Reve Crystallize",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    427,
+    452,
+    489
+   ],
+   "fill": null,
+   "text": "Cantia",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    493,
+    452,
+    555
+   ],
+   "fill": null,
+   "text": "Shiruku",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    559,
+    452,
+    621
+   ],
+   "fill": null,
+   "text": "Pomkarin",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    627,
+    452,
+    689
+   ],
+   "fill": null,
+   "text": "Meresanne",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    694,
+    452,
+    756
+   ],
+   "fill": null,
+   "text": "Mokoko",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    761,
+    452,
+    823
+   ],
+   "fill": null,
+   "text": "Lunamew",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    828,
+    452,
+    890
+   ],
+   "fill": null,
+   "text": "Wataame",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1050,
+    452,
+    1115
+   ],
+   "fill": null,
+   "text": "Diadra Brilliance",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1134,
+    452,
+    1196
+   ],
+   "fill": null,
+   "text": "Cosmo Gigaris",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1201,
+    452,
+    1263
+   ],
+   "fill": null,
+   "text": "Ormus Goldknight",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1268,
+    452,
+    1330
+   ],
+   "fill": null,
+   "text": "Nox Nebula",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1335,
+    452,
+    1397
+   ],
+   "fill": null,
+   "text": "Puffy",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1402,
+    452,
+    1464
+   ],
+   "fill": null,
+   "text": "Nemunemu Owl",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1469,
+    452,
+    1530
+   ],
+   "fill": null,
+   "text": "Emoluna",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    224,
+    850,
+    286
+   ],
+   "fill": null,
+   "text": "Inferna Draco",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    290,
+    850,
+    356
+   ],
+   "fill": null,
+   "text": "Reiga Photon Blazer",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    357,
+    850,
+    419
+   ],
+   "fill": null,
+   "text": "Gaiagoros",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    424,
+    850,
+    486
+   ],
+   "fill": null,
+   "text": "Pararinu",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    493,
+    850,
+    555
+   ],
+   "fill": null,
+   "text": "Frutia",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    559,
+    850,
+    621
+   ],
+   "fill": null,
+   "text": "Fuwayume Maro",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    626,
+    850,
+    688
+   ],
+   "fill": null,
+   "text": "Chiffonne",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    693,
+    850,
+    755
+   ],
+   "fill": null,
+   "text": "Berdi",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    759,
+    850,
+    821
+   ],
+   "fill": null,
+   "text": "Macaron",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    826,
+    850,
+    888
+   ],
+   "fill": null,
+   "text": "Frostgaunt",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1051,
+    850,
+    1113
+   ],
+   "fill": null,
+   "text": "Specula Diabolo",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1133,
+    850,
+    1195
+   ],
+   "fill": null,
+   "text": "Aurora Lumiere",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1200,
+    850,
+    1262
+   ],
+   "fill": null,
+   "text": "Big Bang Blazer",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1267,
+    850,
+    1329
+   ],
+   "fill": null,
+   "text": "Orizia Lumina",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1334,
+    850,
+    1396
+   ],
+   "fill": null,
+   "text": "Kuum",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1401,
+    850,
+    1463
+   ],
+   "fill": null,
+   "text": "Shiro",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1468,
+    850,
+    1530
+   ],
+   "fill": null,
+   "text": "Cookie",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    166,
+    840,
+    211
+   ],
+   "fill": null,
+   "text": "Total drop rate: 92%",
+   "size": 34,
+   "weight": 700,
+   "color": "#199de8",
+   "align": "left"
+  },
+  {
+   "rect": [
+    76,
+    978,
+    840,
+    1024
+   ],
+   "fill": null,
+   "text": "Total drop rate: 5%",
+   "size": 34,
+   "weight": 700,
+   "color": "#199de8",
+   "align": "left"
+  }
+ ],
+ "assets/01-22cad7bd-2.webp": [
+  {
+   "rect": [
+    62,
+    4,
+    458,
+    66
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    214,
+    458,
+    276
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    281,
+    458,
+    343
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    348,
+    458,
+    410
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    415,
+    458,
+    477
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    481,
+    458,
+    543
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    562,
+    458,
+    626
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    645,
+    458,
+    707
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    713,
+    458,
+    775
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    779,
+    458,
+    841
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    847,
+    458,
+    909
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    914,
+    458,
+    976
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    980,
+    458,
+    1042
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1047,
+    458,
+    1109
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1114,
+    458,
+    1176
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1181,
+    458,
+    1243
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1248,
+    458,
+    1310
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1315,
+    458,
+    1377
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1382,
+    458,
+    1444
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1464,
+    458,
+    1526
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    213,
+    850,
+    275
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    280,
+    850,
+    342
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    347,
+    850,
+    409
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    414,
+    850,
+    476
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    480,
+    850,
+    542
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    563,
+    850,
+    625
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    645,
+    850,
+    707
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    710,
+    850,
+    772
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    778,
+    850,
+    840
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    845,
+    850,
+    907
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    912,
+    850,
+    974
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    979,
+    850,
+    1041
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1046,
+    850,
+    1108
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1113,
+    850,
+    1175
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1180,
+    850,
+    1242
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1247,
+    850,
+    1309
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1314,
+    850,
+    1376
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1381,
+    850,
+    1443
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1464,
+    850,
+    1526
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    66,
+    155,
+    848,
+    200
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    76,
+    4,
+    452,
+    66
+   ],
+   "fill": null,
+   "text": "Rana",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    214,
+    452,
+    276
+   ],
+   "fill": null,
+   "text": "Santa Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    281,
+    452,
+    343
+   ],
+   "fill": null,
+   "text": "Mochi Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    348,
+    452,
+    410
+   ],
+   "fill": null,
+   "text": "Tiger Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    415,
+    452,
+    477
+   ],
+   "fill": null,
+   "text": "Bear Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    481,
+    452,
+    543
+   ],
+   "fill": null,
+   "text": "Gorilla Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    562,
+    452,
+    626
+   ],
+   "fill": null,
+   "text": "Yellow Raincoat Motibear",
+   "size": 31,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    645,
+    452,
+    707
+   ],
+   "fill": null,
+   "text": "Penguin Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    713,
+    452,
+    775
+   ],
+   "fill": null,
+   "text": "Beach Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    779,
+    452,
+    841
+   ],
+   "fill": null,
+   "text": "Rabbit Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    847,
+    452,
+    909
+   ],
+   "fill": null,
+   "text": "Halloween Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    914,
+    452,
+    976
+   ],
+   "fill": null,
+   "text": "Maple Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    980,
+    452,
+    1042
+   ],
+   "fill": null,
+   "text": "Beaver Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1047,
+    452,
+    1109
+   ],
+   "fill": null,
+   "text": "Black Santa Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1114,
+    452,
+    1176
+   ],
+   "fill": null,
+   "text": "Green Santa Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1181,
+    452,
+    1243
+   ],
+   "fill": null,
+   "text": "Johnny (School Uniform)",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1248,
+    452,
+    1310
+   ],
+   "fill": null,
+   "text": "Blue Oni Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1315,
+    452,
+    1377
+   ],
+   "fill": null,
+   "text": "Red Lord Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1382,
+    452,
+    1444
+   ],
+   "fill": null,
+   "text": "White Entrance Ceremony Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1464,
+    452,
+    1526
+   ],
+   "fill": null,
+   "text": "Chocolate Raincoat Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    213,
+    850,
+    275
+   ],
+   "fill": null,
+   "text": "Oni Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    280,
+    850,
+    342
+   ],
+   "fill": null,
+   "text": "Lord Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    347,
+    850,
+    409
+   ],
+   "fill": null,
+   "text": "Entrance Ceremony Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    414,
+    850,
+    476
+   ],
+   "fill": null,
+   "text": "Gym Uniform Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    480,
+    850,
+    542
+   ],
+   "fill": null,
+   "text": "Panda Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    563,
+    850,
+    625
+   ],
+   "fill": null,
+   "text": "Dog Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    645,
+    850,
+    707
+   ],
+   "fill": null,
+   "text": "Yukata Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    710,
+    850,
+    772
+   ],
+   "fill": null,
+   "text": "Pig Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    778,
+    850,
+    840
+   ],
+   "fill": null,
+   "text": "Squid Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    845,
+    850,
+    907
+   ],
+   "fill": null,
+   "text": "Octopus Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    912,
+    850,
+    974
+   ],
+   "fill": null,
+   "text": "White Cat Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    979,
+    850,
+    1041
+   ],
+   "fill": null,
+   "text": "Fennec Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1046,
+    850,
+    1108
+   ],
+   "fill": null,
+   "text": "Sakura Mochi Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1113,
+    850,
+    1175
+   ],
+   "fill": null,
+   "text": "Zunda Mochi Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1180,
+    850,
+    1242
+   ],
+   "fill": null,
+   "text": "Miyu (Dress)",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1247,
+    850,
+    1309
+   ],
+   "fill": null,
+   "text": "Green Oni Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1314,
+    850,
+    1376
+   ],
+   "fill": null,
+   "text": "Green Lord Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1381,
+    850,
+    1443
+   ],
+   "fill": null,
+   "text": "Green Entrance Ceremony Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1464,
+    850,
+    1526
+   ],
+   "fill": null,
+   "text": "Orange Raincoat Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    155,
+    840,
+    200
+   ],
+   "fill": null,
+   "text": "Total drop rate: 2%",
+   "size": 34,
+   "weight": 700,
+   "color": "#199de8",
+   "align": "left"
+  }
+ ],
+ "assets/01-22cad7bd-3.webp": [
+  {
+   "rect": [
+    62,
+    14,
+    458,
+    76
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    80,
+    458,
+    142
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    148,
+    458,
+    210
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    215,
+    458,
+    277
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    281,
+    458,
+    343
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    348,
+    458,
+    410
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    415,
+    458,
+    477
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    482,
+    458,
+    544
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    549,
+    458,
+    611
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    629,
+    458,
+    695
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    713,
+    458,
+    775
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    781,
+    458,
+    843
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    847,
+    458,
+    909
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    914,
+    458,
+    976
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1124,
+    458,
+    1186
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1191,
+    458,
+    1253
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1258,
+    458,
+    1320
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    62,
+    1338,
+    458,
+    1434
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    13,
+    850,
+    75
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    79,
+    850,
+    141
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    147,
+    850,
+    209
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    213,
+    850,
+    275
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    280,
+    850,
+    342
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    347,
+    850,
+    409
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    414,
+    850,
+    476
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    481,
+    850,
+    543
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    549,
+    850,
+    611
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    630,
+    850,
+    692
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    712,
+    850,
+    774
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    779,
+    850,
+    841
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    846,
+    850,
+    908
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    913,
+    850,
+    975
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1123,
+    850,
+    1185
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1190,
+    850,
+    1252
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    466,
+    1257,
+    850,
+    1319
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    66,
+    1065,
+    848,
+    1110
+   ],
+   "fill": "auto"
+  },
+  {
+   "rect": [
+    76,
+    14,
+    452,
+    76
+   ],
+   "fill": null,
+   "text": "Red Yukata Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    80,
+    452,
+    142
+   ],
+   "fill": null,
+   "text": "Pink Rabbit Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    148,
+    452,
+    210
+   ],
+   "fill": null,
+   "text": "Red Halloween Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    215,
+    452,
+    277
+   ],
+   "fill": null,
+   "text": "Angel Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    281,
+    452,
+    343
+   ],
+   "fill": null,
+   "text": "Devil Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    348,
+    452,
+    410
+   ],
+   "fill": null,
+   "text": "Field Trip Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    415,
+    452,
+    477
+   ],
+   "fill": null,
+   "text": "Farmer Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    482,
+    452,
+    544
+   ],
+   "fill": null,
+   "text": "Komorebi Rabbit",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    549,
+    452,
+    611
+   ],
+   "fill": null,
+   "text": "Innovate",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    629,
+    452,
+    695
+   ],
+   "fill": null,
+   "text": "Melonar Galaxy Green",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    713,
+    452,
+    775
+   ],
+   "fill": null,
+   "text": "Hip-Hop Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    781,
+    452,
+    843
+   ],
+   "fill": null,
+   "text": "Essencia",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    847,
+    452,
+    909
+   ],
+   "fill": null,
+   "text": "Celeste Crystal",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    914,
+    452,
+    976
+   ],
+   "fill": null,
+   "text": "Cream",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1124,
+    452,
+    1186
+   ],
+   "fill": null,
+   "text": "King Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1191,
+    452,
+    1253
+   ],
+   "fill": null,
+   "text": "3D Japanese Islands",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1258,
+    452,
+    1320
+   ],
+   "fill": null,
+   "text": "Bronze 3D Japanese Islands",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1338,
+    452,
+    1434
+   ],
+   "fill": null,
+   "text": "Papa (My Dad Turned Into a Pretty Girl and It's Rough)",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    13,
+    850,
+    75
+   ],
+   "fill": null,
+   "text": "Orange Beach Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    79,
+    850,
+    141
+   ],
+   "fill": null,
+   "text": "Pink Maple Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    147,
+    850,
+    209
+   ],
+   "fill": null,
+   "text": "Explorer Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    213,
+    850,
+    275
+   ],
+   "fill": null,
+   "text": "Miyu (Navy Dress)",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    280,
+    850,
+    342
+   ],
+   "fill": null,
+   "text": "Johnny (Brown Uniform)",
+   "size": 31,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    347,
+    850,
+    409
+   ],
+   "fill": null,
+   "text": "Professor Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    414,
+    850,
+    476
+   ],
+   "fill": null,
+   "text": "Pirate Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    481,
+    850,
+    543
+   ],
+   "fill": null,
+   "text": "Johnny (Summer Ver.)",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    549,
+    850,
+    611
+   ],
+   "fill": null,
+   "text": "Flow",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    630,
+    850,
+    692
+   ],
+   "fill": null,
+   "text": "Miyu (Swimsuit Ver.)",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    712,
+    850,
+    774
+   ],
+   "fill": null,
+   "text": "Glitter Cosmo",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    779,
+    850,
+    841
+   ],
+   "fill": null,
+   "text": "Sora (Moon Viewing Ver.)",
+   "size": 30,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    846,
+    850,
+    908
+   ],
+   "fill": null,
+   "text": "Wizard Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    913,
+    850,
+    975
+   ],
+   "fill": null,
+   "text": "Rex (Halloween Ver.)",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1123,
+    850,
+    1185
+   ],
+   "fill": null,
+   "text": "Knight Motibear",
+   "size": 32,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1190,
+    850,
+    1252
+   ],
+   "fill": null,
+   "text": "Gold 3D Japanese Islands",
+   "size": 30,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    481,
+    1257,
+    850,
+    1319
+   ],
+   "fill": null,
+   "text": "Silver 3D Japanese Islands",
+   "size": 29,
+   "weight": 500,
+   "color": "#0d4962",
+   "align": "left",
+   "line_height": 1.0
+  },
+  {
+   "rect": [
+    76,
+    1065,
+    840,
+    1110
+   ],
+   "fill": null,
+   "text": "Total drop rate: 1%",
+   "size": 34,
+   "weight": 700,
+   "color": "#199de8",
+   "align": "left"
+  }
+ ]
+}

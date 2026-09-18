@@ -1,0 +1,13 @@
+{
+ "title": {
+  "ja": "アイテムガチャ 排出率｜モチタウン",
+  "en": "Gacha Drop Rates (Item) | Motitown"
+ },
+ "segments": [
+  {
+   "tag": "attr:content",
+   "ja": "アイテムガチャ 排出率",
+   "en": "Gacha Drop Rates (Item)"
+  }
+ ]
+}

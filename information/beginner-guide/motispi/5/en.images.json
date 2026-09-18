@@ -1,0 +1,14 @@
+{
+  "assets/01-dbd684da.webp": [
+    {"rect": [225, 88, 820, 172], "fill": "auto", "text": "Fully Linked with Motitan", "size": 54, "weight": 800, "align": "left", "box": [235, 88, 820, 172], "color": {"darkest": [240, 100, 790, 160]}},
+    {"rect": [50, 208, 495, 372], "fill": "auto", "text": "Motispi is fully linked with Motitan, our English vocabulary app.", "size": 34, "weight": 500, "align": "left", "box": [56, 208, 490, 372], "color": {"darkest": [60, 220, 470, 360]}, "line_height": 1.45},
+    {"rect": [50, 408, 495, 677], "fill": "auto", "text": "Words you couldn't say in Motispi, or want to learn, can be memorized through games once you download Motitan.", "size": 34, "weight": 500, "align": "left", "box": [56, 408, 490, 677], "color": {"darkest": [60, 420, 470, 665]}, "line_height": 1.45},
+    {"rect": [50, 713, 495, 1032], "fill": "auto", "text": "What's more, Motitan and Motispi share everything: leagues, streaks, characters, BP and more. Both are apps of the same learning town, Motitown!", "size": 34, "weight": 500, "align": "left", "box": [56, 713, 490, 1032], "color": {"darkest": [60, 725, 470, 1020]}, "line_height": 1.45},
+    {"rect": [50, 1168, 495, 1512], "fill": "auto", "text": "Whenever you feel like studying English, play Motitan or Motispi, whichever you prefer. Either way you earn BP, climb the leagues, and keep your streak going.", "size": 34, "weight": 500, "align": "left", "box": [56, 1168, 490, 1512], "color": {"darkest": [60, 1180, 470, 1500]}, "line_height": 1.45},
+    {"rect": [50, 1553, 495, 1712], "fill": "auto", "text": "Do both, and you'll build your vocabulary and your conversation skills together!", "size": 34, "weight": 500, "align": "left", "box": [56, 1553, 490, 1712], "color": {"darkest": [60, 1565, 470, 1700]}, "line_height": 1.45},
+    {"rect": [120, 2045, 780, 2115], "fill": "auto", "text": "Let's enjoy Motispi together!", "size": 42, "weight": 700, "color": {"darkest": [185, 2055, 700, 2105]}}
+  ],
+  "assets/02-85584032.webp": [
+    {"rect": [108, 38, 250, 102], "fill": "auto", "text": "Back", "size": 40, "weight": 700, "align": "left", "box": [114, 38, 320, 102], "color": {"darkest": [115, 45, 230, 95]}}
+  ]
+}

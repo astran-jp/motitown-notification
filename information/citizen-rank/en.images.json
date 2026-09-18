@@ -1,0 +1,117 @@
+{
+  "assets/01-99fafe7b-1.webp": [
+    {"rect": [70, 50, 830, 72], "fill": {"sample": [20, 61]}},
+    {"rect": [70, 72, 830, 94], "fill": {"sample": [20, 83]}},
+    {"rect": [70, 94, 830, 116], "fill": {"sample": [20, 105]}},
+    {"rect": [70, 116, 830, 138], "fill": {"sample": [20, 127]}},
+    {"rect": [70, 138, 830, 160], "fill": {"sample": [20, 149]}},
+    {"rect": [70, 160, 830, 182], "fill": {"sample": [20, 171]}},
+    {"rect": [70, 182, 830, 204], "fill": {"sample": [20, 193]}},
+    {"rect": [70, 204, 830, 226], "fill": {"sample": [20, 215]}},
+    {"rect": [70, 226, 830, 248], "fill": {"sample": [20, 237]}},
+    {"rect": [64, 36, 844, 209], "fill": null, "text": "In this town, your effort\nbecomes your identity", "size": 62, "weight": 800, "color": "#283f3e", "line_height": 1.15},
+    {"rect": [57, 29, 837, 202], "fill": null, "text": "In this town, your effort\nbecomes your identity", "size": 62, "weight": 800, "color": "#ffffff", "line_height": 1.15},
+    {"rect": [63, 29, 843, 202], "fill": null, "text": "In this town, your effort\nbecomes your identity", "size": 62, "weight": 800, "color": "#ffffff", "line_height": 1.15},
+    {"rect": [57, 35, 837, 208], "fill": null, "text": "In this town, your effort\nbecomes your identity", "size": 62, "weight": 800, "color": "#ffffff", "line_height": 1.15},
+    {"rect": [63, 35, 843, 208], "fill": null, "text": "In this town, your effort\nbecomes your identity", "size": 62, "weight": 800, "color": "#ffffff", "line_height": 1.15},
+    {"rect": [57, 32, 837, 205], "fill": null, "text": "In this town, your effort\nbecomes your identity", "size": 62, "weight": 800, "color": "#ffffff", "line_height": 1.15},
+    {"rect": [63, 32, 843, 205], "fill": null, "text": "In this town, your effort\nbecomes your identity", "size": 62, "weight": 800, "color": "#ffffff", "line_height": 1.15},
+    {"rect": [60, 29, 840, 202], "fill": null, "text": "In this town, your effort\nbecomes your identity", "size": 62, "weight": 800, "color": "#ffffff", "line_height": 1.15},
+    {"rect": [60, 35, 840, 208], "fill": null, "text": "In this town, your effort\nbecomes your identity", "size": 62, "weight": 800, "color": "#ffffff", "line_height": 1.15},
+    {"rect": [60, 32, 840, 205], "fill": null, "text": "In this town, your effort\nbecomes your identity", "size": 62, "weight": 800, "color": "#e6b84e", "line_height": 1.15},
+    {"rect": [170, 252, 730, 292], "fill": {"sample": [20, 272]}},
+    {"rect": [170, 292, 730, 336], "fill": {"sample": [20, 314]}},
+    {"rect": [170, 336, 730, 382], "fill": {"sample": [20, 359]}},
+    {"rect": [152, 252, 752, 382], "fill": null, "text": "Welcome to Motitown!\nHere, the hard work you share with friends\nearns you real status and honor!", "size": 27, "weight": 800, "color": "#1d4b57", "line_height": 1.5},
+    {"rect": [150, 250, 750, 380], "fill": null, "text": "Welcome to Motitown!\nHere, the hard work you share with friends\nearns you real status and honor!", "size": 27, "weight": 800, "color": "#ffffff", "line_height": 1.5},
+    {"rect": [230, 1415, 670, 1493], "fill": "auto", "text": "What is the Citizen League?", "size": 60, "weight": 800, "color": {"darkest": [240, 1420, 660, 1488]}, "box": [50, 1411, 850, 1471], "line_height": 1.0},
+    {"rect": [55, 1518, 845, 1770], "fill": "auto", "text": "It's a weekly event where your hard work at learning gets the recognition it deserves! Learn alongside your friends, and finish high in your league to raise your Citizen Rank. Reach \"Legend\" or the \"Divine Realm\" and make a name for yourself in Motitown!", "size": 32, "weight": 500, "color": {"darkest": [60, 1520, 840, 1750]}, "box": [50, 1512, 850, 1755], "line_height": 1.45},
+    {"rect": [250, 1866, 655, 1918], "fill": "auto", "text": "See how the league works >", "size": 40, "weight": 800, "color": {"darkest": [255, 1870, 650, 1915]}, "box": [150, 1864, 750, 1904], "line_height": 1.0}
+  ],
+  "assets/01-99fafe7b-2.webp": [
+    {"rect": [385, 76, 515, 116], "fill": {"sample": [380, 100]}},
+    {"rect": [431, 76, 465, 82], "fill": {"sample": [450, 120]}},
+    {"rect": [428, 82, 468, 88], "fill": {"sample": [450, 120]}},
+    {"rect": [426, 88, 470, 94], "fill": {"sample": [450, 120]}},
+    {"rect": [423, 94, 473, 100], "fill": {"sample": [450, 120]}},
+    {"rect": [420, 100, 476, 106], "fill": {"sample": [450, 120]}},
+    {"rect": [418, 106, 478, 112], "fill": {"sample": [450, 120]}},
+    {"rect": [415, 112, 481, 116], "fill": {"sample": [450, 120]}},
+    {"rect": [330, 74, 570, 104], "fill": null, "text": "Divine Realm", "size": 30, "weight": 800, "color": {"darkest": [390, 78, 505, 112]}, "line_height": 1.0},
+    {"rect": [405, 241, 495, 283], "fill": "auto", "text": "Legend", "size": 30, "weight": 800, "color": {"darkest": [420, 245, 480, 278]}, "box": [350, 241, 550, 271], "line_height": 1.0},
+    {"rect": [395, 436, 505, 480], "fill": "auto", "text": "Achiever", "size": 30, "weight": 800, "color": {"darkest": [405, 440, 495, 475]}, "box": [350, 437, 550, 467], "line_height": 1.0},
+    {"rect": [395, 626, 505, 670], "fill": "auto", "text": "Resident", "size": 30, "weight": 800, "color": {"darkest": [405, 630, 495, 665]}, "box": [350, 627, 550, 657], "line_height": 1.0},
+    {"rect": [395, 816, 505, 860], "fill": "auto", "text": "Visitor", "size": 30, "weight": 800, "color": {"darkest": [405, 820, 495, 855]}, "box": [350, 817, 550, 847], "line_height": 1.0},
+    {"rect": [290, 1155, 610, 1235], "fill": "auto", "text": "Citizen Rank", "size": 62, "weight": 800, "color": {"darkest": [300, 1160, 600, 1230]}, "box": [200, 1151, 700, 1213], "line_height": 1.0},
+    {"rect": [365, 1313, 535, 1378], "fill": "auto", "text": "Visitor", "size": 56, "weight": 800, "color": {"darkest": [375, 1318, 525, 1372]}, "box": [250, 1305, 650, 1361], "line_height": 1.0},
+    {"rect": [40, 1412, 860, 1550], "fill": "auto", "text": "The journey begins. Adventurers who know nothing about Motitown yet, but stepped through the gate with the curiosity to learn.", "size": 30, "weight": 500, "color": {"darkest": [50, 1418, 850, 1545]}, "box": [45, 1406, 855, 1552], "line_height": 1.4}
+  ],
+  "assets/01-99fafe7b-3.webp": [
+    {"rect": [135, 178, 265, 232], "fill": "auto", "text": "Tourist", "size": 42, "weight": 800, "align": "left", "color": {"darkest": [140, 185, 250, 225]}, "box": [140, 175, 760, 217], "line_height": 1.0},
+    {"rect": [70, 236, 835, 408], "fill": "auto", "text": "An adventurer newly arrived in Motitown. Through the beginner missions they learn how the town works and, cheered on by its people, take the first step of their own learning legend.", "size": 30, "weight": 500, "align": "left", "color": {"darkest": [75, 240, 830, 400]}, "box": [75, 229, 830, 405], "line_height": 1.33, "valign": "top"},
+    {"rect": [135, 1070, 345, 1122], "fill": "auto", "text": "Visa Holder", "size": 42, "weight": 800, "align": "left", "color": {"darkest": [140, 1078, 330, 1115]}, "box": [140, 1066, 760, 1108], "line_height": 1.0},
+    {"rect": [70, 1126, 835, 1262], "fill": "auto", "text": "A learner whose early efforts paid off with a visa (a long-term stay permit). No longer just a tourist, they're all set to register as an official citizen.", "size": 30, "weight": 500, "align": "left", "color": {"darkest": [75, 1132, 830, 1250]}, "box": [75, 1119, 830, 1288], "line_height": 1.33, "valign": "top"},
+    {"rect": [365, 1468, 535, 1533], "fill": "auto", "text": "Resident", "size": 56, "weight": 800, "color": {"darkest": [375, 1473, 525, 1527]}, "box": [250, 1460, 650, 1516], "line_height": 1.0},
+    {"rect": [40, 1580, 860, 1705], "fill": "auto", "text": "A new life begins. Citizens for whom learning is now part of daily life. They've found the joy of learning with friends in Motitown and keep steadily polishing their skills, like gems in the rough.", "size": 30, "weight": 500, "color": {"darkest": [50, 1585, 850, 1700]}, "box": [45, 1572, 855, 1742], "line_height": 1.4}
+  ],
+  "assets/01-99fafe7b-4.webp": [
+    {"rect": [135, 345, 315, 398], "fill": "auto", "text": "New Citizen", "size": 42, "weight": 800, "align": "left", "color": {"darkest": [140, 352, 300, 392]}, "box": [140, 342, 760, 384], "line_height": 1.0},
+    {"rect": [70, 402, 835, 578], "fill": "auto", "text": "A newcomer who has earned citizenship and officially joined Motitown. Diving into the excitement, they meet like-minded rivals who push each other to grow: a rough gem just starting to break out of its shell.", "size": 30, "weight": 500, "align": "left", "color": {"darkest": [75, 408, 830, 570]}, "box": [75, 395, 830, 575], "line_height": 1.33, "valign": "top"},
+    {"rect": [135, 1236, 315, 1290], "fill": "auto", "text": "Citizen", "size": 42, "weight": 800, "align": "left", "color": {"darkest": [140, 1243, 300, 1283]}, "box": [140, 1233, 760, 1275], "line_height": 1.0},
+    {"rect": [70, 1296, 835, 1430], "fill": "auto", "text": "A citizen whose learning has blended into everyday life. Daily effort has become a habit, and they enjoy learning with friends while helping keep Motitown lively.", "size": 30, "weight": 500, "align": "left", "color": {"darkest": [75, 1302, 830, 1420]}, "box": [75, 1289, 830, 1452], "line_height": 1.33, "valign": "top"}
+  ],
+  "assets/01-99fafe7b-5.webp": [
+    {"rect": [135, 86, 375, 140], "fill": "auto", "text": "Veteran Citizen", "size": 42, "weight": 800, "align": "left", "color": {"darkest": [140, 93, 360, 133]}, "box": [140, 83, 760, 125], "line_height": 1.0},
+    {"rect": [70, 147, 835, 280], "fill": "auto", "text": "A long-time resident of the town with a wealth of experience. Their example guides new citizens, and they quietly earn the admiration of those around them.", "size": 30, "weight": 500, "align": "left", "color": {"darkest": [75, 153, 830, 270]}, "box": [75, 140, 830, 300], "line_height": 1.33, "valign": "top"},
+    {"rect": [135, 936, 305, 990], "fill": "auto", "text": "Model Citizen", "size": 42, "weight": 800, "align": "left", "color": {"darkest": [140, 943, 290, 983]}, "box": [140, 933, 760, 975], "line_height": 1.0},
+    {"rect": [70, 997, 835, 1130], "fill": "auto", "text": "An outstanding learner who sets the standard for all citizens. With strong motivation and a solid track record, they raise the standing of the whole town, and promotion to \"Achiever\" is expected next.", "size": 30, "weight": 500, "align": "left", "color": {"darkest": [75, 1003, 830, 1120]}, "box": [75, 990, 830, 1152], "line_height": 1.3, "valign": "top"},
+    {"rect": [365, 1343, 535, 1408], "fill": "auto", "text": "Achiever", "size": 56, "weight": 800, "color": {"darkest": [375, 1348, 525, 1402]}, "box": [250, 1335, 650, 1391], "line_height": 1.0},
+    {"rect": [40, 1447, 860, 1580], "fill": "auto", "text": "A new life begins. Citizens for whom learning is now part of daily life. They've found the joy of learning with friends in Motitown and keep steadily polishing their skills, like gems in the rough.", "size": 30, "weight": 500, "color": {"darkest": [50, 1450, 850, 1575]}, "box": [45, 1440, 855, 1600], "line_height": 1.4}
+  ],
+  "assets/01-99fafe7b-6.webp": [
+    {"rect": [135, 215, 305, 268], "fill": "auto", "text": "Honorary Citizen", "size": 42, "weight": 800, "align": "left", "color": {"darkest": [140, 222, 290, 262]}, "box": [140, 212, 760, 254], "line_height": 1.0},
+    {"rect": [70, 272, 835, 405], "fill": "auto", "text": "An achiever whose record everyone recognizes, with an honored place in the town. Their effort goes beyond the individual and is celebrated as the pride of all Motitown.", "size": 30, "weight": 500, "align": "left", "color": {"darkest": [75, 278, 830, 395]}, "box": [75, 265, 830, 430], "line_height": 1.33, "valign": "top"},
+    {"rect": [135, 1060, 270, 1113], "fill": "auto", "text": "Luminary", "size": 42, "weight": 800, "align": "left", "color": {"darkest": [140, 1067, 255, 1107]}, "box": [140, 1057, 760, 1099], "line_height": 1.0},
+    {"rect": [70, 1122, 835, 1255], "fill": "auto", "text": "Someone so influential that everyone in town knows their name. Everything they do drives the motivation of those around them and fires up the whole town.", "size": 30, "weight": 500, "align": "left", "color": {"darkest": [75, 1128, 830, 1245]}, "box": [75, 1115, 830, 1280], "line_height": 1.33, "valign": "top"},
+    {"rect": [135, 1911, 265, 1964], "fill": "auto", "text": "Councilor", "size": 42, "weight": 800, "align": "left", "color": {"darkest": [140, 1918, 250, 1958]}, "box": [140, 1908, 760, 1950], "line_height": 1.0},
+    {"rect": [70, 1968, 835, 1998], "fill": "auto"}
+  ],
+  "assets/01-99fafe7b-7.webp": [
+    {"rect": [70, 0, 835, 112], "fill": "auto", "text": "Valued for their exceptional insight and skill, they even help run the town. More than a learner, they are a trusted partner in Motitown's growth.", "size": 30, "weight": 500, "align": "left", "color": {"darkest": [75, 20, 830, 95]}, "box": [75, 0, 830, 125], "line_height": 1.33, "valign": "top"},
+    {"rect": [135, 765, 380, 818], "fill": "auto", "text": "Lifetime Honorary Citizen", "size": 42, "weight": 800, "align": "left", "color": {"darkest": [140, 772, 365, 812]}, "box": [140, 762, 830, 804], "line_height": 1.0},
+    {"rect": [70, 821, 835, 955], "fill": "auto", "text": "A distinguished figure who stayed at the top for a long time and left a great mark on the town. Their glory never fades with time, and they are respected forever.", "size": 30, "weight": 500, "align": "left", "color": {"darkest": [75, 827, 830, 945]}, "box": [75, 814, 830, 980], "line_height": 1.33, "valign": "top"},
+    {"rect": [385, 1168, 515, 1233], "fill": "auto", "text": "Legend", "size": 56, "weight": 800, "color": {"darkest": [395, 1173, 505, 1227]}, "box": [250, 1160, 650, 1216], "line_height": 1.0},
+    {"rect": [40, 1266, 860, 1405], "fill": "auto", "text": "A myth passed down through the ages. Their achievements go beyond common sense, and beyond imagination itself. Because of them, the word \"impossible\" has vanished from Motitown.", "size": 30, "weight": 500, "color": {"darkest": [50, 1270, 850, 1400]}, "box": [45, 1258, 855, 1435], "line_height": 1.4}
+  ],
+  "assets/01-99fafe7b-8.webp": [
+    {"rect": [135, 41, 230, 94], "fill": "auto", "text": "Hero", "size": 42, "weight": 800, "align": "left", "color": {"darkest": [140, 48, 215, 88]}, "box": [140, 38, 760, 80], "line_height": 1.0},
+    {"rect": [70, 97, 835, 230], "fill": "auto", "text": "A beacon of hope who breaks through every hardship and gives courage to countless learners. The way they turned \"impossible\" into \"possible\" lives on as a heroic tale.", "size": 30, "weight": 500, "align": "left", "color": {"darkest": [75, 103, 830, 220]}, "box": [75, 90, 830, 256], "line_height": 1.33, "valign": "top"},
+    {"rect": [135, 886, 345, 938], "fill": "auto", "text": "Living Legend", "size": 42, "weight": 800, "align": "left", "color": {"darkest": [140, 893, 330, 933]}, "box": [140, 883, 760, 925], "line_height": 1.0},
+    {"rect": [70, 947, 835, 1080], "fill": "auto", "text": "A living myth; simply sharing an era with them is considered a miracle. Their brilliance defies all common sense and fills everyone who sees it with awe.", "size": 30, "weight": 500, "align": "left", "color": {"darkest": [75, 953, 830, 1070]}, "box": [75, 940, 830, 1100], "line_height": 1.33, "valign": "top"},
+    {"rect": [135, 1736, 230, 1788], "fill": "auto", "text": "Sage", "size": 42, "weight": 800, "align": "left", "color": {"darkest": [140, 1743, 215, 1783]}, "box": [140, 1733, 760, 1775], "line_height": 1.0},
+    {"rect": [70, 1792, 835, 1925], "fill": "auto", "text": "A wise one who has risen above wins, losses and honor to reach the true essence of learning. With deep wisdom and a quiet fighting spirit, their words guide citizens who have lost their way.", "size": 30, "weight": 500, "align": "left", "color": {"darkest": [75, 1798, 830, 1915]}, "box": [75, 1785, 830, 1950], "line_height": 1.33, "valign": "top"}
+  ],
+  "assets/01-99fafe7b-9.webp": [
+    {"rect": [335, 143, 565, 208], "fill": "auto", "text": "Divine Realm", "size": 56, "weight": 800, "color": {"darkest": [345, 148, 555, 202]}, "box": [200, 135, 700, 191], "line_height": 1.0},
+    {"rect": [40, 246, 860, 425], "fill": "auto", "text": "The highest sanctuary, the pinnacle of motivation. Ultimate beings who have become the very laws of Motitown. They no longer chase learning; they are learning itself, an endless energy that keeps Motitown moving forever.", "size": 30, "weight": 500, "color": {"darkest": [50, 250, 850, 420]}, "box": [45, 238, 855, 445], "line_height": 1.35},
+    {"rect": [135, 1061, 230, 1113], "fill": "auto", "text": "Immortal", "size": 42, "weight": 800, "align": "left", "color": {"darkest": [140, 1068, 215, 1108]}, "box": [140, 1058, 760, 1100], "line_height": 1.0},
+    {"rect": [70, 1117, 835, 1280], "fill": "auto", "text": "Through effort beyond human understanding, they now learn as naturally as breathing. The view they see lies far above the clouds, beyond what ordinary people can fathom. They've become almost part of nature itself.", "size": 30, "weight": 500, "align": "left", "color": {"darkest": [75, 1123, 830, 1275]}, "box": [75, 1110, 830, 1290], "line_height": 1.33, "valign": "top"},
+    {"rect": [135, 1944, 290, 1998], "fill": "auto", "text": "Divine Guardian", "size": 42, "weight": 800, "align": "left", "color": {"darkest": [140, 1962, 260, 1998]}, "box": [140, 1952, 760, 1994], "line_height": 1.0}
+  ],
+  "assets/01-99fafe7b-10.webp": [
+    {"rect": [70, 10, 835, 140], "fill": "auto", "text": "The ultimate being, the very embodiment of Motitown's motivation. As long as they keep shining, the town will never fall, and their spirit will be honored with the deepest gratitude for all time.", "size": 30, "weight": 500, "align": "left", "color": {"darkest": [75, 18, 830, 135]}, "box": [75, 5, 830, 165], "line_height": 1.33, "valign": "top"},
+    {"rect": [240, 412, 660, 495], "fill": "auto", "text": "How the League Works", "size": 60, "weight": 800, "color": {"darkest": [250, 418, 650, 488]}, "box": [50, 410, 850, 470], "line_height": 1.0},
+    {"rect": [150, 598, 390, 652], "fill": "auto", "text": "Held every week!", "size": 42, "weight": 800, "align": "left", "color": {"darkest": [160, 603, 380, 645]}, "box": [160, 594, 800, 636], "line_height": 1.0},
+    {"rect": [145, 688, 560, 735], "fill": "auto", "text": "Every Monday 4:00 AM to Sunday 11:59 PM", "size": 32, "weight": 500, "align": "left", "color": {"darkest": [150, 692, 545, 728]}, "box": [150, 687, 830, 733], "line_height": 1.0},
+    {"rect": [150, 862, 710, 922], "fill": "auto", "text": "Climb the Citizen Ranks!", "size": 44, "weight": 800, "align": "left", "color": {"darkest": [160, 868, 700, 915]}, "box": [160, 860, 830, 904], "line_height": 1.0},
+    {"rect": [145, 958, 400, 1004], "fill": "auto", "text": "Finish near the top to get promoted", "size": 32, "weight": 500, "align": "left", "color": {"darkest": [150, 962, 390, 998]}, "box": [150, 946, 830, 992], "line_height": 1.0},
+    {"rect": [145, 1000, 740, 1088], "fill": "auto", "text": "Move up to a new league and unlock an exclusive wallpaper!", "size": 32, "weight": 500, "align": "left", "color": {"darkest": [150, 1008, 730, 1082]}, "box": [150, 1000, 830, 1090], "line_height": 1.25, "valign": "top"},
+    {"rect": [150, 1220, 490, 1280], "fill": "auto", "text": "Who's the strongest?!", "size": 44, "weight": 800, "align": "left", "color": {"darkest": [160, 1225, 480, 1272]}, "box": [160, 1217, 830, 1261], "line_height": 1.0},
+    {"rect": [145, 1310, 540, 1358], "fill": "auto", "text": "The Divine Guardian League has no cap", "size": 32, "weight": 500, "align": "left", "color": {"darkest": [150, 1316, 490, 1350]}, "box": [150, 1310, 830, 1356], "line_height": 1.0},
+    {"rect": [145, 1354, 540, 1400], "fill": "auto", "text": "It's a showdown at the very top!", "size": 32, "weight": 500, "align": "left", "color": {"darkest": [150, 1358, 480, 1392]}, "box": [150, 1352, 830, 1398], "line_height": 1.0},
+    {"rect": [150, 1526, 460, 1600], "fill": "auto", "text": "Demotion Shield", "size": 44, "weight": 800, "align": "left", "color": {"darkest": [160, 1542, 440, 1590]}, "box": [160, 1535, 830, 1579], "line_height": 1.0},
+    {"rect": [145, 1618, 520, 1666], "fill": "auto", "text": "Activate it with Gems", "size": 32, "weight": 500, "align": "left", "color": {"darkest": [150, 1625, 460, 1660]}, "box": [150, 1619, 830, 1665], "line_height": 1.0},
+    {"rect": [145, 1660, 720, 1710], "fill": "auto", "text": "You won't be demoted that week", "size": 32, "weight": 500, "align": "left", "color": {"darkest": [150, 1665, 670, 1700]}, "box": [150, 1659, 830, 1705], "line_height": 1.0},
+    {"rect": [30, 1778, 860, 1940], "fill": "auto", "text": "* Earning BP through unfair means is prohibited. If cheating is found, your use of the app may be restricted.", "size": 30, "weight": 500, "align": "left", "color": {"darkest": [45, 1795, 855, 1930]}, "box": [45, 1786, 855, 1940], "line_height": 1.4, "valign": "top"}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "assets/01-938da4fe.webp": [
+    {"rect": [220, 48, 850, 202], "fill": "auto", "text": "Learn Tons of Phrases\nin Adventure Mode!", "size": 54, "weight": 800, "align": "left", "box": [230, 48, 850, 202], "color": {"darkest": [230, 60, 820, 190]}, "line_height": 1.3},
+    {"rect": [50, 313, 495, 472], "fill": "auto", "text": "If you feel your vocabulary is holding you back, it's time to learn lots of phrases.", "size": 34, "weight": 500, "align": "left", "box": [56, 313, 490, 472], "color": {"darkest": [60, 325, 470, 460]}, "line_height": 1.45},
+    {"rect": [50, 503, 495, 902], "fill": "auto", "text": "Motispi has a special game-like Adventure Mode just for learning phrases. Explore the world of Motitown while meeting the phrases that come up most often in English conversation.", "size": 34, "weight": 500, "align": "left", "box": [56, 503, 490, 902], "color": {"darkest": [60, 515, 470, 890]}, "line_height": 1.45},
+    {"rect": [50, 1068, 495, 1377], "fill": "auto", "text": "Each phrase comes with many question types, translating in both directions, usage, and more. That gives your memory lots of hooks, so phrases really stick.", "size": 34, "weight": 500, "align": "left", "box": [56, 1068, 490, 1377], "color": {"darkest": [60, 1080, 470, 1365]}, "line_height": 1.45}
+  ],
+  "assets/02-94772e4f.webp": [
+    {"rect": [180, 128, 690, 198], "fill": "auto", "text": "Lots of fun features", "size": 46, "weight": 800, "color": {"darkest": [230, 140, 670, 190]}}
+  ],
+  "assets/03-85584032.webp": [
+    {"rect": [108, 38, 250, 102], "fill": "auto", "text": "Back", "size": 40, "weight": 700, "align": "left", "box": [114, 38, 320, 102], "color": {"darkest": [115, 45, 230, 95]}}
+  ]
+}

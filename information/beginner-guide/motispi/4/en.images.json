@@ -1,0 +1,558 @@
+{
+ "assets/01-530e9c5b-1.webp": [
+  {
+   "rect": [
+    225,
+    48,
+    820,
+    202
+   ],
+   "fill": "auto",
+   "text": "Get the Most\nOut of Motispi",
+   "size": 56,
+   "weight": 800,
+   "align": "left",
+   "box": [
+    235,
+    48,
+    820,
+    202
+   ],
+   "color": {
+    "darkest": [
+     235,
+     60,
+     680,
+     190
+    ]
+   },
+   "line_height": 1.3
+  },
+  {
+   "rect": [
+    50,
+    263,
+    845,
+    472
+   ],
+   "fill": "auto",
+   "text": "Motispi isn't just another English conversation app. We built it to be \"the most fun English conversation app ever,\" packed with features that make learning a joy. Here are just a few of them.",
+   "size": 34,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    58,
+    263,
+    840,
+    472
+   ],
+   "color": {
+    "darkest": [
+     60,
+     280,
+     830,
+     460
+    ]
+   },
+   "line_height": 1.45
+  },
+  {
+   "rect": [
+    50,
+    603,
+    520,
+    692
+   ],
+   "fill": "auto",
+   "text": "Rankings",
+   "size": 56,
+   "weight": 800,
+   "align": "left",
+   "box": [
+    58,
+    603,
+    520,
+    692
+   ],
+   "color": {
+    "darkest": [
+     60,
+     615,
+     330,
+     680
+    ]
+   }
+  },
+  {
+   "rect": [
+    50,
+    738,
+    845,
+    947
+   ],
+   "fill": "auto",
+   "text": "There's a weekly BP ranking. Finish near the top and you'll be promoted to a higher league and earn exclusive items. Compete with your friends and let the rivalry fire you up!",
+   "size": 34,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    58,
+    738,
+    840,
+    947
+   ],
+   "color": {
+    "darkest": [
+     60,
+     755,
+     830,
+     935
+    ]
+   },
+   "line_height": 1.45
+  }
+ ],
+ "assets/01-530e9c5b-2.webp": [
+  {
+   "rect": [
+    50,
+    158,
+    620,
+    242
+   ],
+   "fill": "auto",
+   "text": "Characters & Items",
+   "size": 56,
+   "weight": 800,
+   "align": "left",
+   "box": [
+    58,
+    158,
+    620,
+    242
+   ],
+   "color": {
+    "darkest": [
+     60,
+     170,
+     435,
+     225
+    ]
+   }
+  },
+  {
+   "rect": [
+    50,
+    278,
+    845,
+    487
+   ],
+   "fill": "auto",
+   "text": "Set up your very own characters and items from My Page. Keep working at Motispi and you'll unlock special ones, so look forward to it!",
+   "size": 34,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    58,
+    278,
+    840,
+    487
+   ],
+   "color": {
+    "darkest": [
+     60,
+     295,
+     830,
+     475
+    ]
+   },
+   "line_height": 1.45
+  }
+ ],
+ "assets/01-530e9c5b-3.webp": [
+  {
+   "rect": [
+    50,
+    3,
+    620,
+    82
+   ],
+   "fill": "auto",
+   "text": "Gems",
+   "size": 58,
+   "weight": 800,
+   "align": "left",
+   "box": [
+    58,
+    3,
+    620,
+    82
+   ],
+   "color": {
+    "darkest": [
+     60,
+     15,
+     390,
+     65
+    ]
+   }
+  },
+  {
+   "rect": [
+    50,
+    108,
+    650,
+    222
+   ],
+   "fill": "auto",
+   "text": "Gems are handy items you can use in all kinds of places across the app.",
+   "size": 34,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    58,
+    108,
+    645,
+    222
+   ],
+   "color": {
+    "darkest": [
+     60,
+     125,
+     600,
+     205
+    ]
+   },
+   "line_height": 1.45
+  },
+  {
+   "rect": [
+    160,
+    343,
+    760,
+    412
+   ],
+   "fill": "auto",
+   "text": "What Gems Are For",
+   "size": 40,
+   "weight": 800,
+   "align": "left",
+   "box": [
+    170,
+    343,
+    760,
+    412
+   ],
+   "color": {
+    "darkest": [
+     175,
+     355,
+     550,
+     400
+    ]
+   }
+  },
+  {
+   "rect": [
+    140,
+    433,
+    760,
+    502
+   ],
+   "fill": "auto",
+   "text": "Gem Gacha",
+   "size": 34,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    146,
+    433,
+    760,
+    502
+   ],
+   "color": {
+    "darkest": [
+     150,
+     445,
+     460,
+     490
+    ]
+   }
+  },
+  {
+   "rect": [
+    140,
+    502,
+    760,
+    570
+   ],
+   "fill": "auto",
+   "text": "Restore your streak",
+   "size": 34,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    146,
+    502,
+    760,
+    570
+   ],
+   "color": {
+    "darkest": [
+     150,
+     512,
+     460,
+     557
+    ]
+   }
+  },
+  {
+   "rect": [
+    140,
+    570,
+    760,
+    638
+   ],
+   "fill": "auto",
+   "text": "Restore the lives you can send",
+   "size": 34,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    146,
+    570,
+    760,
+    638
+   ],
+   "color": {
+    "darkest": [
+     150,
+     580,
+     460,
+     625
+    ]
+   }
+  },
+  {
+   "rect": [
+    140,
+    638,
+    760,
+    706
+   ],
+   "fill": "auto",
+   "text": "Fully restore your lives",
+   "size": 34,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    146,
+    638,
+    760,
+    706
+   ],
+   "color": {
+    "darkest": [
+     150,
+     648,
+     460,
+     693
+    ]
+   }
+  },
+  {
+   "rect": [
+    160,
+    818,
+    790,
+    892
+   ],
+   "fill": "auto",
+   "text": "How to Get Gems",
+   "size": 40,
+   "weight": 800,
+   "align": "left",
+   "box": [
+    170,
+    818,
+    790,
+    892
+   ],
+   "color": {
+    "darkest": [
+     175,
+     830,
+     580,
+     875
+    ]
+   }
+  },
+  {
+   "rect": [
+    140,
+    905,
+    790,
+    972
+   ],
+   "fill": "auto",
+   "text": "Log in 3 days in a row",
+   "size": 34,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    146,
+    905,
+    790,
+    972
+   ],
+   "color": {
+    "darkest": [
+     150,
+     915,
+     460,
+     960
+    ]
+   }
+  },
+  {
+   "rect": [
+    140,
+    972,
+    790,
+    1040
+   ],
+   "fill": "auto",
+   "text": "Receive lives (Premium members)",
+   "size": 34,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    146,
+    972,
+    790,
+    1040
+   ],
+   "color": {
+    "darkest": [
+     150,
+     985,
+     460,
+     1030
+    ]
+   }
+  },
+  {
+   "rect": [
+    140,
+    1040,
+    790,
+    1108
+   ],
+   "fill": "auto",
+   "text": "Purchase",
+   "size": 34,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    146,
+    1040,
+    790,
+    1108
+   ],
+   "color": {
+    "darkest": [
+     150,
+     1050,
+     300,
+     1095
+    ]
+   }
+  },
+  {
+   "rect": [
+    50,
+    1188,
+    845,
+    1292
+   ],
+   "fill": "auto",
+   "text": "You'll earn Gems by keeping at Motispi. Collect as many as you can!",
+   "size": 34,
+   "weight": 500,
+   "align": "left",
+   "box": [
+    58,
+    1188,
+    840,
+    1292
+   ],
+   "color": {
+    "darkest": [
+     60,
+     1200,
+     830,
+     1280
+    ]
+   },
+   "line_height": 1.45
+  }
+ ],
+ "assets/02-cf122744.webp": [
+  {
+   "rect": [
+    300,
+    128,
+    542,
+    198
+   ],
+   "fill": "auto",
+   "text": "Finally",
+   "size": 46,
+   "weight": 800,
+   "align": "right",
+   "box": [
+    300,
+    128,
+    534,
+    198
+   ],
+   "color": {
+    "darkest": [
+     370,
+     140,
+     530,
+     190
+    ]
+   }
+  }
+ ],
+ "assets/03-85584032.webp": [
+  {
+   "rect": [
+    108,
+    38,
+    250,
+    102
+   ],
+   "fill": "auto",
+   "text": "Back",
+   "size": 40,
+   "weight": 700,
+   "align": "left",
+   "box": [
+    114,
+    38,
+    320,
+    102
+   ],
+   "color": {
+    "darkest": [
+     115,
+     45,
+     230,
+     95
+    ]
+   }
+  }
+ ]
+}
