@@ -22,7 +22,9 @@ Gemini CLI(`npm i -g @google/gemini-cli`)と認証(`GEMINI_API_KEY` または `g
 # 旧 STUDIO サイト (motitan-notification.astran.jp) からの移植ページ
 
 アプリから参照していた STUDIO 製ページを、同じパスのまま静的 HTML として移植したもの。
-アプリ側は `https://motitan-notification.astran.jp/...` を `https://motitown-notification.astran.jp/...` に差し替えるだけで移行できる。
+アプリ側は `https://motitan-notification.astran.jp/...` を差し替えるだけで移行できる。差し替え先は
+`https://motitown.com/notification/...`(Cloudflare Worker がこのサイトを同じパスで中継している)。
+アプリが表示言語に合わせて `/en/` を付けるのはこのホストの URL だけなので、配信する URL はこちらを使う。
 
 | パス | 内容 |
 |---|---|
