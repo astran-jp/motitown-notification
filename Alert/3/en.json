@@ -1,0 +1,33 @@
+{
+ "title": {
+  "ja": "警告｜モチタウン",
+  "en": "Warning | Motitown"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "警告",
+   "en": "Warning"
+  },
+  {
+   "tag": "p",
+   "ja": "モチタンでは、<strong>実際に在籍している学校以外での登録</strong>や、<strong>他のプレイヤーに対し虚偽の学校登録を誘導する行為</strong>は、いずれも不正行為として厳しく禁止されています。",
+   "en": "In Motitan, <strong>registering a school you do not actually attend</strong> and <strong>encouraging other players to register a school falsely</strong> are both strictly prohibited as cheating."
+  },
+  {
+   "tag": "p",
+   "ja": "これらの不正が発覚した場合、報酬の取り消しやアカウント停止措置（BAN）、データ削除の対象となる可能性がございます。",
+   "en": "If such cheating comes to light, your rewards may be revoked and your account may be banned or its data deleted."
+  },
+  {
+   "tag": "p",
+   "ja": "皆様が安心してプレイできるよう、ルールを守り、公正なプレイをお願いいたします。",
+   "en": "So that everyone can play with peace of mind, please follow the rules and play fair."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "警告",
+   "en": "Warning"
+  }
+ ]
+}

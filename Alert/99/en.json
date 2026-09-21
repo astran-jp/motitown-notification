@@ -1,0 +1,28 @@
+{
+ "title": {
+  "ja": "掲示板への投稿が不能になりました｜モチタウン",
+  "en": "You can no longer post to the boards | Motitown"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "掲示板への投稿が不能になりました",
+   "en": "You can no longer post to the boards"
+  },
+  {
+   "tag": "p",
+   "ja": "あなたの投稿への通報が一定回数を超えたため、",
+   "en": "Your posts were reported more than the permitted number of times, so"
+  },
+  {
+   "tag": "p",
+   "ja": "掲示板への投稿が不能となりました。",
+   "en": "you can no longer post to the boards."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "掲示板への投稿が不能になりました",
+   "en": "You can no longer post to the boards"
+  }
+ ]
+}

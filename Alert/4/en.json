@@ -1,0 +1,33 @@
+{
+ "title": {
+  "ja": "【重要】掲示板での個人情報に関する警告｜モチタウン",
+  "en": "[Important] Warning about personal information on the boards | Motitown"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "<strong>【重要】掲示板での個人情報に関する警告</strong>",
+   "en": "<strong>[Important] Warning about personal information on the boards</strong>"
+  },
+  {
+   "tag": "p",
+   "ja": "あなたのアカウントは、本掲示板において <strong>個人情報に関する投稿（例：氏名・居住地・電話番号・メールアドレスなど）</strong> を行っている可能性が確認されました。このような投稿は、他のプレイヤーの安全やプライバシーを脅かす重大な行為です。",
+   "en": "It has been confirmed that your account may have posted <strong>personal information on this board (for example a name, address, phone number or email address)</strong>. Posts like these seriously threaten the safety and privacy of other players."
+  },
+  {
+   "tag": "p",
+   "ja": "速やかに該当行為を中止し、今後同様の行為がないようご注意ください。改善が見られない場合、アカウントを一時停止または停止する場合があります。",
+   "en": "Please stop immediately and make sure it does not happen again. If there is no improvement, your account may be suspended or stopped."
+  },
+  {
+   "tag": "p",
+   "ja": "すべてのユーザーが安心して利用できる環境を保つため、ルールを守ったご利用をお願いいたします。",
+   "en": "So that everyone can use the service with peace of mind, please follow the rules."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "【重要】掲示板での個人情報に関する警告",
+   "en": "[Important] Warning about personal information on the boards"
+  }
+ ]
+}
