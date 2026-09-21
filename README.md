@@ -42,3 +42,22 @@ Gemini CLI(`npm i -g @google/gemini-cli`)と認証(`GEMINI_API_KEY` または `g
 - フォント (Noto Sans JP / Lato / Material Icons) は Google Fonts、Font Awesome は cdnjs から読む
 - 折りたたみ (`button[aria-controls]`) は各ページ末尾の小さなスクリプトで `_isClose` を付け外ししている
 - X のポスト埋め込みは `blockquote.twitter-tweet` + `widgets.js`
+
+# ストアへの案内ページ (`/store/`)
+
+強制アップデートや相互送客でアプリが開く「アプリ一覧」ページ。旧ページは
+`astran-jp/store-links` (`motitan-store.astran.jp`) と `astran-jp/motispi-store-links`
+(`motispi-store.astran.jp`) の 2 リポジトリに分かれていたので、URL も 1 対 1 で移した。
+
+| 公開 URL | 移植元 |
+|---|---|
+| `https://motitown.com/notification/store/motitan/` | `astran-jp/store-links` |
+| `https://motitown.com/notification/store/motispi/` | `astran-jp/motispi-store-links` |
+
+- 移植時点で 2 つの `index.html` はバイト一致（どちらもモチタン・モチスピ両方を並べる）。
+  片方だけ直すと差が出るので、内容を変えるときは 2 枚とも直すこと
+- `?os=android` / `?os=ios` で表示を切り替える。クエリが無いときは UA で判定し、Android 以外は iOS 表示
+- App Store / Google Play への直リンクと、Play のフィーチャーグラフィック・App Store のアイコン
+  (iTunes Lookup API) を読むだけで、ルート基準のリンクは持たない
+- 日本語のみ。`/en/` 版は用意していない
+- 旧リポジトリの `android.html` と `icon.png` はどのページからも参照されていないので移していない
