@@ -17,7 +17,7 @@ description: モチタウンお知らせの配信用SQLを作成し、pushして
 
 ## 1.5 英語版の確認
 
-`en/{N}/index.html` があり、中に `<!-- fallback: redirect to ja -->` が無いことを確認する。無ければ公開前に `/notification-en` の手順で英語版を作る(英語ユーザーには BE が `/en/{N}` を開くため、英語版なしで配信すると日本語ページへの転送になる)。
+`en/{N}/index.html` があり、中に `<!-- fallback: redirect to ja -->` が無いことを確認する。無ければ公開前に `/notification-en` の手順で英語版を作る(アプリが英語表示のユーザーに `/en/{N}` を開くため、英語版なしで配信すると日本語ページへの転送になる)。
 
 ## 2. sql/deployed/{N}.sql の作成
 
@@ -26,7 +26,7 @@ description: モチタウンお知らせの配信用SQLを作成し、pushして
 - `SET @url = 'https://motitown.com/notification/{N}' COLLATE utf8mb4_unicode_ci;` — 配信する URL は `motitown.com/notification/` 配下にする。アプリが表示言語に合わせて `/en/{N}` へ読み替えるのはこの URL だけで、`motitown-notification.astran.jp` のまま配信すると英語表示のユーザーにも日本語ページが開く(ページの公開先と下の確認用 URL は `motitown-notification.astran.jp` のままでよい。`motitown.com/notification/` はそこを同じパスで中継している)
 - 「削除されていない(`deleted_at IS NULL`)」かつ「BOTでない(`is_bot = FALSE`)」かつ「直近3ヶ月以内にログイン」のユーザーへ
 - `app` = `'motispi'` と `'motitan'` のそれぞれに `notices` へ INSERT(タイトルは `'お知らせ'`)
-- 英語ユーザー向けの出し分けは SQL ではやらない。BE が閲覧時に表示言語で URL を `/en/{N}` に読み替え、タイトルを英語にする(仕様裁定 P-17)。そのため配信前に `/notification-en` で英語版を作っておく(英語版が無いお知らせには `build_list.py` が日本語ページへの転送を置くので 404 にはならない)
+- 英語ユーザー向けの出し分けは SQL ではやらない。アプリ(v12 以降)が表示時に URL を `/en/{N}` に読み替え、番号のお知らせのタイトルをアプリ内の訳語に差し替える(仕様裁定 P-17)。BE は URL を書き換えないので、`@url` を上の形で入れておくことがそのまま英語表示の条件になる。配信前に `/notification-en` で英語版を作っておく(英語版が無いお知らせには `build_list.py` が日本語ページへの転送を置くので 404 にはならない)
 
 `apps` が片方だけなら、その `app` の INSERT だけにする。対象を絞る場合も WHERE 句の基本3条件は維持し、条件を追加する形にする。
 
