@@ -1,0 +1,58 @@
+{
+ "title": {
+  "ja": "【重要】掲示板での不適切な投稿に関する警告｜モチタウン",
+  "en": "[Important] Warning about inappropriate posts on the boards | Motitown"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "<strong>【重要】掲示板での不適切な投稿に関する警告全てのプレイヤーにお送りしています。</strong>",
+   "en": "<strong>[Important] Warning about inappropriate posts on the boards. This notice is sent to every player.</strong>"
+  },
+  {
+   "tag": "p",
+   "ja": "本掲示板では、以下のような不適切な投稿を固く禁止しています。",
+   "en": "The following kinds of inappropriate posts are strictly prohibited on this board."
+  },
+  {
+   "tag": "p",
+   "ja": "公序良俗に反する投稿（わいせつな表現、暴力的な表現、卑猥な内容など）",
+   "en": "Posts that offend public decency (obscene wording, violent wording, indecent content and the like)"
+  },
+  {
+   "tag": "p",
+   "ja": "個人情報に関する投稿（氏名、居住地、電話番号、メールアドレス など）",
+   "en": "Posts containing personal information (a name, address, phone number, email address and the like)"
+  },
+  {
+   "tag": "p",
+   "ja": "他のプレイヤーの利用を妨げる投稿（過度な連続投稿、無意味な文字列、誹謗中傷、煽り行為など）",
+   "en": "Posts that get in the way of other players (excessive repeated posting, meaningless strings of characters, abuse, trolling and the like)"
+  },
+  {
+   "tag": "p",
+   "ja": "これらの投稿は、他のプレイヤーの迷惑や不快感を招くだけでなく、安全やプライバシーを脅かす重大な行為です。",
+   "en": "Posts like these do not just annoy and upset other players; they seriously threaten their safety and privacy."
+  },
+  {
+   "tag": "p",
+   "ja": "該当する行為を行っている場合は、<strong>速やかに中止</strong>し、今後同様の行為がないようご注意ください。",
+   "en": "If you are doing any of this, <strong>please stop immediately</strong> and make sure it does not happen again."
+  },
+  {
+   "tag": "p",
+   "ja": "改善が見られない場合、予告なく掲示板の凍結、アカウントの一時停止または凍結する場合があります。",
+   "en": "If there is no improvement, your board access may be frozen and your account temporarily suspended or terminated without notice."
+  },
+  {
+   "tag": "p",
+   "ja": "すべてのユーザーが安心して利用できる環境を保つため、ルールを守ったご利用をお願いいたします。",
+   "en": "So that everyone can use the service with peace of mind, please follow the rules."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "【重要】掲示板での不適切な投稿に関する警告",
+   "en": "[Important] Warning about inappropriate posts on the boards"
+  }
+ ]
+}

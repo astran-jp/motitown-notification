@@ -1,0 +1,28 @@
+{
+ "title": {
+  "ja": "警告｜モチタウン",
+  "en": "Warning | Motitown"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "警告",
+   "en": "Warning"
+  },
+  {
+   "tag": "p",
+   "ja": "あなたのアカウントは、複数端末での同時プレイ、第三者への端末の供与、自動化ツールの使用など、全国高校英単語選手権モチタン杯の運営において、当社が不適切と定めた行為をしている疑いがあります。",
+   "en": "There are signs that your account has engaged in conduct we consider improper in the running of the Motitan Cup National High School Vocabulary Championship, such as playing on several devices at once, lending your device to a third party, or using automation tools."
+  },
+  {
+   "tag": "p",
+   "ja": "速やかに行為が是正されない場合、アカウントを凍結する可能性があります。",
+   "en": "If the conduct is not stopped promptly, your account may be terminated."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "警告",
+   "en": "Warning"
+  }
+ ]
+}
