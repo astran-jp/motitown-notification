@@ -37,6 +37,8 @@ Gemini CLI(`npm i -g @google/gemini-cli`)と認証(`GEMINI_API_KEY` または `g
 
 各ページの作り:
 
+- 全ページの `<head>` に `<meta charset="utf-8">` の直後で `<meta name="robots" content="noindex">` を置き、検索結果に出さない
+  (MT-6141。旧ページが「株式会社Astran / モチタン」として検索に出ていた)。新しいページ・転送スタブ・英語版にも必ず付ける
 - `index.html` は STUDIO が描画していた DOM と、そのページに実際に当たっていた CSS ルールだけを抜き出したもの。
   `data-s-*` 属性が STUDIO 由来のスタイルのキーなので消さないこと
 - 画像は `assets/` に WebP で置いてある。幅 900px 上限・品質 75 で再圧縮し、

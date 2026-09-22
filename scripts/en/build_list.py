@@ -58,7 +58,7 @@ def write_fallbacks():
         if not os.path.isfile(os.path.join(ROOT, d, "index.html")) or is_translated(d):
             continue
         target = f"/{d}/"
-        html = (f'<!DOCTYPE html>{FALLBACK_MARK}\n<html lang="ja"><head><meta charset="utf-8">'
+        html = (f'<!DOCTYPE html>{FALLBACK_MARK}\n<html lang="ja"><head><meta charset="utf-8"><meta name="robots" content="noindex">'
                 f'<meta http-equiv="refresh" content="0; url={target}"><link rel="canonical" href="{SITE}{target}">'
                 f'<title>Redirecting…</title></head><body><a href="{target}">{SITE}{target}</a></body></html>\n')
         os.makedirs(os.path.join(ROOT, "en", d), exist_ok=True)
