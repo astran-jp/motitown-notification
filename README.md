@@ -57,11 +57,14 @@ Gemini CLI(`npm i -g @google/gemini-cli`)と認証(`GEMINI_API_KEY` または `g
 |---|---|
 | `https://motitown.com/notification/store/motitan/` | `astran-jp/store-links` |
 | `https://motitown.com/notification/store/motispi/` | `astran-jp/motispi-store-links` |
+| `https://motitown.com/notification/en/store/{motitan,motispi}/` | 英語版 (MT-6144。アプリは表示言語が英語のとき `/en/` 付きで開く) |
 
 - 移植時点で 2 つの `index.html` はバイト一致（どちらもモチタン・モチスピ両方を並べる）。
   片方だけ直すと差が出るので、内容を変えるときは 2 枚とも直すこと
 - `?os=android` / `?os=ios` で表示を切り替える。クエリが無いときは UA で判定し、Android 以外は iOS 表示
 - App Store / Google Play への直リンクと、Play のフィーチャーグラフィック・App Store のアイコン
   (iTunes Lookup API) を読むだけで、ルート基準のリンクは持たない
-- 日本語のみ。`/en/` 版は用意していない
+- 英語版は `en/store/{motitan,motispi}/index.html`。日本語版と同じ HTML の文言だけを英語にしたもので、
+  App Store のリンクは国コード無し (`apps.apple.com/app/id…`) にしてユーザーのストアフロントで開く。
+  日本語版の構造を変えたら英語版 2 枚も同じように直す (計 4 枚が同じ構造)
 - 旧リポジトリの `android.html` と `icon.png` はどのページからも参照されていないので移していない
