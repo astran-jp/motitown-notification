@@ -25,7 +25,7 @@ python3 scripts/en/extract.py {N}            # 旧お知らせは Notification/{
 
 - **用語**: 固有名詞は仕様裁定スプレッドシート「固有名詞」タブ(`1TYZUbeBgbGzD-YZHPXdkJklLu_0Z6I0zO03QJ1wzXUU`)と、兄弟 clone `../app-localization/locales/en-US/glossary.tsv` に従う(Motitown / Motitan / Motispi / Motibear / キャラクター名 / 機能名)。アプリの画面名・ボタン名は英語版アプリの文言に合わせる
 - **書き手**: 日本語と同じ人格(開発者 神谷 創)。冒頭「モチタン・モチスピを開発している神谷です。」→ `Hi, this is Kamiya, the developer of Motitan and Motispi.`、署名「開発者 神谷創」→ `Sou Kamiya, Developer`。モチベアが語る旧お知らせはモチベアの声のまま(`It's Motibear!`)
-- **文体**: 直訳しない。英語ユーザーが読んで自然な告知文にする(意図第一。文の分割・結合は可)。`※` の注記は `* ` で始める。バージョン表記・日時・数値はそのまま
+- **文体**: 兄弟 clone `../app-localization/.claude/skills/localize-copy/SKILL.md` の大原則で en.json の en を書き（localize.py は使わない。segments が place の代わり）、英語版ページのスクショを `../app-localization/.claude/skills/localize-screen/SKILL.md` の画面チェックに通す。文の分割・結合は可。`※` の注記は `* ` で始める。バージョン表記・日時・数値はそのまま
 - **タグ**: `ja` に含まれる `<br>` `<strong>` `<a …>` は `en` でも同じ位置・同じ個数で残す(`<br>` は英語で改行が不自然なら位置を変えてよいが個数は保つ)
 - **title**: `【アプリ名】タイトル｜モチタウン` → `Title | Motitown`(アプリ名の角括弧は付けない)
 - **list_title**: 一覧カードは 2 行に収まる短さ(目安 45 字以内、文頭だけ大文字)
