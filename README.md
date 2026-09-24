@@ -72,25 +72,29 @@ Gemini CLI(`npm i -g @google/gemini-cli`)と認証(`GEMINI_API_KEY` または `g
 # 公開の仕組み (Cloudflare Workers)
 
 `https://motitown.com/notification/*` は、このリポジトリの内容を静的アセットとして同梱した Cloudflare Worker が配信する。
+Worker のスクリプトは無く、アセットだけを配信するので、リクエストは Worker の起動回数に数えられない
+(無料・無制限。Free プランの 1 日 10 万件制限にも当たらない。2026-09-24 に中継 Worker がこの制限に達して 429 になった)。
 
-- main への push で GitHub Actions (`.github/workflows/deploy-cloudflare.yml`) が `wrangler deploy` を実行する。
-  リポジトリのルートがそのままアセットになり、`worker/index.js` が `/notification` を外してアセットを引き、
-  HTML のルート基準リンク (`/favicon.png`・`/Notification/127/` など) と転送先を `/notification/` 配下に書き換えて返す
-- 原稿 (`*.md`)・翻訳データ (`*.json`)・`scripts/`・`sql/`・`.claude/`・フォントなどは `.assetsignore` で配信対象から外している。
-  配信されるのは HTML・画像・CSS・favicon だけ。新しい種類のファイルを置いたら `.assetsignore` を見直す
+- main への push で GitHub Actions (`.github/workflows/deploy-cloudflare.yml`) が `node scripts/build-assets.mjs` → `wrangler deploy` を実行する
+- `scripts/build-assets.mjs` はリポジトリの内容を `dist/notification/` にコピーし、HTML のルート基準リンク
+  (`/favicon.png`・`/Notification/127/` など)・`<meta http-equiv="refresh">`・`location.replace()` の転送先を
+  `/notification/` 配下に書き換える (以前の中継 Worker が実行時にやっていた書き換えを、組み立て時に済ませる)。
+  motitown.com 自身を指す `/news/` `/motitan/` などは書き換えない。旧ホストの絶対 URL も `motitown.com/notification/` に寄せる
+- 原稿 (`*.md`)・翻訳データ (`*.json`)・`scripts/`・`sql/`・`.claude/`・フォントなどは組み立て時に除外する。
+  配信されるのは HTML・画像・CSS・favicon だけ。新しい種類のファイルを置いたら `build-assets.mjs` の除外リストを見直す
 - 設定は `wrangler.toml`。Worker 名は以前の中継 Worker (`astran-jp/motitown-notification-proxy`) と同じ
   `motitown-notification-proxy` にしてある。同名で deploy すると中継版がその場で置き換わり、ルートを付け替えずに済む
 - 必要な Secrets (リポジトリの Settings → Secrets and variables → Actions):
   `CLOUDFLARE_API_TOKEN` (Workers Scripts:Edit と Zone motitown.com の Workers Routes:Edit) と
   `CLOUDFLARE_ACCOUNT_ID` (motitown.com ゾーンがあるアカウント)。未設定のあいだは deploy をスキップして成功終了する
-- 手元で確認するときは `npm install` → `npx wrangler dev` → `http://127.0.0.1:8787/notification/`。
+- 手元で確認するときは `npm install` → `npm run dev` → `http://127.0.0.1:8787/notification/`。
   本番の確認は `curl -A 'MotitownOpsCheck/1.0' https://motitown.com/notification/...` (素の curl は WAF が 403 にする)
 - motitown.com の WAF カスタムルール・Bot Fight Mode・キャッシュルールは触らない (2026-08 に Googlebot を全ブロックした事故あり)
 
 ## GitHub Pages (motitown-notification.astran.jp) からの切り替え手順
 
 2026-09-24 時点では GitHub Pages (`motitown-notification.astran.jp`) が公開先で、中継 Worker がそれを `motitown.com/notification/` に見せている。
-Worker の静的アセット配信に切り替える手順 (上から順に。1〜3 は本番に影響しない):
+静的アセット配信に切り替える手順 (上から順に。1 は本番に影響しない):
 
 1. 上記 Secrets を登録する
 2. Actions の「Deploy to Cloudflare Workers」を手動実行 (workflow_dispatch) するか main に push する。
@@ -100,4 +104,4 @@ Worker の静的アセット配信に切り替える手順 (上から順に。1�
    App Store Connect / Google Play Console に登録したプライバシーポリシー等の URL、Slack / Notion の固定リンク
 5. 旧アプリ (v12.0.0 未満) は規約・お知らせを旧ホストで開くので、強制アップデートで揃うまでは旧ホストを転送用として残す
 6. 残す必要が無くなったら: GitHub Pages のカスタムドメインを外し `CNAME` を削除、ムームードメインの `motitown-notification` CNAME レコードを削除、
-   `astran-jp/motitown-notification-proxy` リポジトリをアーカイブ、`worker/index.js` の旧ホスト書き換え (`LEGACY_ORIGIN_RE`) を外す
+   `astran-jp/motitown-notification-proxy` リポジトリをアーカイブ、`build-assets.mjs` の旧ホスト書き換え (`LEGACY_ORIGIN_RE`) を外す

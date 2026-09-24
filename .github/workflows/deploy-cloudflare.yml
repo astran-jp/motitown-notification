@@ -45,6 +45,10 @@ jobs:
         if: steps.secrets.outputs.configured == 'true'
         run: npm ci
 
+      - name: 配信するアセットを dist/ に組み立てる
+        if: steps.secrets.outputs.configured == 'true'
+        run: node scripts/build-assets.mjs
+
       - name: Cloudflare Workers へ deploy
         if: steps.secrets.outputs.configured == 'true'
         env:
