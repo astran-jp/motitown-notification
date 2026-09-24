@@ -74,7 +74,7 @@ def read_frontmatter(path):
 def list_title_for(d):
     """一覧 index.html のカードからこのお知らせのタイトルを拾う(無ければ None)。"""
     idx = open(os.path.join(ROOT, "index.html"), encoding="utf-8").read()
-    hrefs = [f"https://motitown-notification.astran.jp/{d}/", f"/{d}/"]
+    hrefs = [f"https://motitown.com/notification/{d}/", f"https://motitown-notification.astran.jp/{d}/", f"/{d}/"]
     for h in hrefs:
         m = re.search(r'<a class="sd appear"[^>]*href="' + re.escape(h) + r'"[^>]*>.*?<p[^>]*>[^<]*</p><p[^>]*>(.*?)</p>', idx, re.S)
         if m:

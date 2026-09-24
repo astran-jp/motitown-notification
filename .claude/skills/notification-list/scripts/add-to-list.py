@@ -14,7 +14,7 @@ from PIL import Image
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.abspath(os.path.join(HERE, "..", "..", "..", ".."))
-BASE_URL = "https://motitown-notification.astran.jp"
+BASE_URL = "https://motitown.com/notification"
 
 
 def frontmatter(path):
@@ -56,17 +56,28 @@ def main():
     idx_path = os.path.join(REPO, "index.html")
     html = open(idx_path, encoding="utf-8").read()
     href = f"{BASE_URL}/{n}/"
-    if f'href="{href}"' in html:
+    if f'href="{href}"' in html or f'href="https://motitown-notification.astran.jp/{n}/"' in html:
         print(f"すでに一覧にあります: {href}")
         return 0
 
     # サムネイル
-    src_png = os.path.join(REPO, n, "assets", "header.png")
+    # 一覧用に別画像 {N}/assets/list.png があればそれを使う(記事のヘッダーが縦長・文字入りのときに差し替える用)
+    src_png = os.path.join(REPO, n, "assets", "list.png")
+    if not os.path.exists(src_png):
+        src_png = os.path.join(REPO, n, "assets", "header.png")
     if not os.path.exists(src_png):
         print(f"ヘッダー画像がありません: {src_png}", file=sys.stderr)
         return 2
     im = Image.open(src_png).convert("RGB")
-    w = 900
+    # 一覧のカードはワイド表示で高さ 150px 固定(STUDIO 由来の CSS)なので、
+    # サムネイルは既存カードと同じ 1000:380 の比率に中央クロップする(縦長だと記事名が隠れる)
+    w, h = 900, 342
+    tw, th = im.size
+    ch = round(tw * 380 / 1000)
+    if th > ch:
+        y0 = (th - ch) // 2
+        im = im.crop((0, y0, tw, y0 + ch))
+    # 横長(1000:380 より低い)はそのまま(カードの固定高 150px に収まる)
     h = round(im.height * w / im.width)
     thumb_rel = f"assets/notice-{n}.webp"
     thumb_abs = os.path.join(REPO, thumb_rel)
@@ -74,7 +85,7 @@ def main():
         im.resize((w, h), Image.LANCZOS).save(thumb_abs, "WEBP", quality=75, method=6)
 
     # 雛形: 直近の番号付きお知らせのカード
-    m = re.search(r'<a class="sd appear" data-s-[0-9a-f-]{36}="" href="' + re.escape(BASE_URL) + r'/\d+/"[^>]*>.*?</a>', html, re.S)
+    m = re.search(r'<a class="sd appear" data-s-[0-9a-f-]{36}="" href="https://(?:motitown\.com/notification|motitown-notification\.astran\.jp)/\d+/"[^>]*>.*?</a>', html, re.S)
     if not m:
         print("雛形にするカード(番号付きお知らせ)が見つかりません", file=sys.stderr)
         return 2

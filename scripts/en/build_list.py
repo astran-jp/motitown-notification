@@ -79,7 +79,8 @@ def sync_thumb(d, card):
     ja_assets = os.path.join(ROOT, d, "assets")
     names = os.listdir(en_dir) if os.path.isdir(en_dir) else []
     # 番号付きお知らせのサムネイルはヘッダー画像から作られているので、英語ヘッダーがあれば常にそこから作り直す
-    header = [n for n in names if n.startswith("header.")]
+    # 一覧専用画像 list.* があればそれを優先(記事ヘッダーが縦長・文字入りのとき用)。無ければ英語ヘッダーから作る
+    header = [n for n in names if n.startswith("list.")] or [n for n in names if n.startswith("header.")]
     if d.isdigit() and header:
         names = header[:1]
     for name in names:
@@ -87,7 +88,7 @@ def sync_thumb(d, card):
         if name in ("index.html", "en.json") or not os.path.isfile(ja):
             continue
         same = hashlib.md5(open(ja, "rb").read()).digest() == hashlib.md5(open(thumb_path, "rb").read()).digest()
-        if not same and not (d.isdigit() and name.startswith("header.")):
+        if not same and not (d.isdigit() and (name.startswith("header.") or name.startswith("list."))):
             continue
         try:
             from PIL import Image
@@ -102,11 +103,15 @@ def sync_thumb(d, card):
         return
 
 
+PUBLIC_SITE = "https://motitown.com/notification"  # 2026-09-24 からのユーザー向けドメイン(SITE を同じパスで中継)
+
+
 def dir_of(href):
-    m = re.match(re.escape(SITE) + r"/(\d+)/?$", href) or re.match(r"/(\d+)/?$", href)
+    sites = r"(?:" + re.escape(SITE) + r"|" + re.escape(PUBLIC_SITE) + r")"
+    m = re.match(sites + r"/(\d+)/?$", href) or re.match(r"/(\d+)/?$", href)
     if m:
         return m.group(1)
-    m = re.match(r"(?:" + re.escape(SITE) + r")?/(Notification/\d+)/?$", href)
+    m = re.match(r"(?:" + sites + r")?/(Notification/\d+)/?$", href)
     return m.group(1) if m else None
 
 
