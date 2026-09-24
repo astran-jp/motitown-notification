@@ -52,19 +52,22 @@ GitHub Pages のデプロイには数十秒〜数分かかる。公開URLに新�
 
 ## 5. Slack に確認依頼を投稿する(デプロイ確認の直後、間を置かずに)
 
-宛先と文面は `slack.json` に固定してある(チャンネル `#02-develop` = `C04APK82UCD`、メンション3名)。`slack_send_message` で次の文面をそのまま投稿する(`{url}` を公開URLに置換。文言は変えない):
+投稿は **Slack App(Bot)** から行う(2026-09-24 から。以前の MCP 経由=ユーザー本人名義の投稿は使わない)。認証情報はリポジトリ直下の `.env`(`SLACK_BOT_TOKEN`)にあり、スクリプトが読む。**`.env` の中身を Read/cat で見ない**(値を会話に出さない。設定でも Read が拒否される)。
 
-```
-<@U037PTX0Q9Z> <@U057R6NQPC2> <@U037PUGC9SN> 神谷です。お知らせを作成しました。ご確認ください。https://motitown.com/notification/{N}/
-```
-
-投稿結果の `ts`(親メッセージのタイムスタンプ)とチャンネルIDを `{N}/review.json` に保存する(返信の追跡に使う):
-
-```json
-{ "channel": "C04APK82UCD", "ts": "1757400000.123456", "url": "https://motitown.com/notification/{N}/", "posted_at": "2026-09-09T15:00:00+09:00", "replies_seen": [] }
+```sh
+.claude/skills/notification-sql/scripts/slack-review-post.sh {N} --dry-run   # 文面と宛先の確認(トークンは表示しない)
+.claude/skills/notification-sql/scripts/slack-review-post.sh {N}             # 投稿。{N}/review.json を更新する
 ```
 
-`review.json` は `git add` して次の push に含める。投稿後、ユーザーには投稿へのリンクと「返信が来たら `/notification-review` で反映する」ことを伝える。
+宛先は `slack.json`(チャンネル `#02-develop` = `C04APK82UCD`、メンション3名)。文面は固定:
+
+```
+<@U037PTX0Q9Z> <@U057R6NQPC2> <@U037PUGC9SN> 神谷です。お知らせを作成しました。ご確認ください。
+日本語版: https://motitown.com/notification/{N}/
+英語版: https://motitown.com/notification/en/{N}/
+```
+
+スクリプトが `{N}/review.json`(channel / ts / url / message_link / posted_at / replies_seen)を書くので、`git add` して次の push に含める。投稿後、ユーザーには permalink と「返信が来たら `/notification-review` で反映する」ことを伝える。スクリプトが `.env` を読めずに止まったら、ユーザーに `! .claude/skills/notification-sql/scripts/slack-review-post.sh {N}` を実行してもらう。
 
 ## 6. お知らせ一覧には載せない(別タイミング)
 
