@@ -61,6 +61,13 @@ AIフレーズ帳
 先生を変更
 コース変更
 
+# ── v12.0.0 で追加(develop/v12.0.0 のローカライズ表から) ──
+ハンズフリーで話す # 学習設定(トーク)のトグル(LearnSettingTalkView.Label.HandsFree)。会話前の設定画面にもある
+ハンズフリー機能   # お知らせ23での呼称(ユーザー指定)。設定項目名は「ハンズフリーで話す」
+使用言語           # 設定 > 言語設定 の項目(DisplayLanguageSettingView.Label.DisplayLanguage)。選択肢は「日本語」「英語」
+もっと詳しく       # 単語詳細の最下部のボタン(MT-6047)。モチタン英語辞典の単語ページをアプリ内で開く
+モチタン英語辞典   # motitown.com/vocabulary(WordDetailUtility.NameMotitanDictionary)
+
 # ── 記憶度 ──
 未学習
 苦手
