@@ -7,8 +7,8 @@
    - `{N}/draft.md` を文言ソースに `{N}/index.html` を作り、アセットを配置して表示確認
    - 続けて英語版も作る(`/notification-page` の中で `/notification-en` の手順を実行): `{N}/en.json` に英訳、`en/{N}/index.html`・英語バナー・英語一覧 `en/index.html` を生成(公開 URL は `/en/{N}/`、一覧は `/en/`)。`/notification-sql` は英語版が無いと公開しない
 4. SQL作成・公開・確認依頼 — `/notification-sql`
-   - `sql/deployed/{N}.sql` を作り、git push で公開(GitHub Pages)
-   - 公開urlは https://motitown-notification.astran.jp/xx/
+   - `sql/deployed/{N}.sql` を作り、git push で公開(main への push で Cloudflare Worker に deploy される。下の「公開の仕組み」を参照)
+   - 公開urlは https://motitown.com/notification/xx/
    - git actionには、初回pushするユーザーは無視される設定がある
    - デプロイ完了を待って、Slack `#02-develop` に確認依頼を投稿(宛先・文面は `.claude/skills/notification-sql/slack.json`)
 5. 返信の反映 — `/notification-review`
@@ -23,7 +23,7 @@ Gemini CLI(`npm i -g @google/gemini-cli`)と認証(`GEMINI_API_KEY` または `g
 
 アプリから参照していた STUDIO 製ページを、同じパスのまま静的 HTML として移植したもの。
 アプリ側は `https://motitan-notification.astran.jp/...` を差し替えるだけで移行できる。差し替え先は
-`https://motitown.com/notification/...`(Cloudflare Worker がこのサイトを同じパスで中継している)。
+`https://motitown.com/notification/...`(Cloudflare Worker がこのリポジトリの内容を同じパスで配信している)。
 アプリが表示言語に合わせて `/en/` を付けるのはこのホストの URL だけなので、配信する URL はこちらを使う。
 
 | パス | 内容 |
@@ -68,3 +68,40 @@ Gemini CLI(`npm i -g @google/gemini-cli`)と認証(`GEMINI_API_KEY` または `g
   App Store のリンクは国コード無し (`apps.apple.com/app/id…`) にしてユーザーのストアフロントで開く。
   日本語版の構造を変えたら英語版 2 枚も同じように直す (計 4 枚が同じ構造)
 - 旧リポジトリの `android.html` と `icon.png` はどのページからも参照されていないので移していない
+
+# 公開の仕組み (Cloudflare Workers)
+
+`https://motitown.com/notification/*` は、このリポジトリの内容を静的アセットとして同梱した Cloudflare Worker が配信する。
+Worker のスクリプトは無く、アセットだけを配信するので、リクエストは Worker の起動回数に数えられない
+(無料・無制限。Free プランの 1 日 10 万件制限にも当たらない。2026-09-24 に中継 Worker がこの制限に達して 429 になった)。
+
+- main への push で GitHub Actions (`.github/workflows/deploy-cloudflare.yml`) が `node scripts/build-assets.mjs` → `wrangler deploy` を実行する
+- `scripts/build-assets.mjs` はリポジトリの内容を `dist/notification/` にコピーし、HTML のルート基準リンク
+  (`/favicon.png`・`/Notification/127/` など)・`<meta http-equiv="refresh">`・`location.replace()` の転送先を
+  `/notification/` 配下に書き換える (以前の中継 Worker が実行時にやっていた書き換えを、組み立て時に済ませる)。
+  motitown.com 自身を指す `/news/` `/motitan/` などは書き換えない。旧ホストの絶対 URL も `motitown.com/notification/` に寄せる
+- 原稿 (`*.md`)・翻訳データ (`*.json`)・`scripts/`・`sql/`・`.claude/`・フォントなどは組み立て時に除外する。
+  配信されるのは HTML・画像・CSS・favicon だけ。新しい種類のファイルを置いたら `build-assets.mjs` の除外リストを見直す
+- 設定は `wrangler.toml`。Worker 名は以前の中継 Worker (`astran-jp/motitown-notification-proxy`) と同じ
+  `motitown-notification-proxy` にしてある。同名で deploy すると中継版がその場で置き換わり、ルートを付け替えずに済む
+- 必要な Secrets (リポジトリの Settings → Secrets and variables → Actions):
+  `CLOUDFLARE_API_TOKEN` (Workers Scripts:Edit と Zone motitown.com の Workers Routes:Edit) と
+  `CLOUDFLARE_ACCOUNT_ID` (motitown.com ゾーンがあるアカウント)。未設定のあいだは deploy をスキップして成功終了する
+- 手元で確認するときは `npm install` → `npm run dev` → `http://127.0.0.1:8787/notification/`。
+  本番の確認は `curl -A 'MotitownOpsCheck/1.0' https://motitown.com/notification/...` (素の curl は WAF が 403 にする)
+- motitown.com の WAF カスタムルール・Bot Fight Mode・キャッシュルールは触らない (2026-08 に Googlebot を全ブロックした事故あり)
+
+## GitHub Pages (motitown-notification.astran.jp) からの切り替え手順
+
+2026-09-24 時点では GitHub Pages (`motitown-notification.astran.jp`) が公開先で、中継 Worker がそれを `motitown.com/notification/` に見せている。
+静的アセット配信に切り替える手順 (上から順に。1 は本番に影響しない):
+
+1. 上記 Secrets を登録する
+2. Actions の「Deploy to Cloudflare Workers」を手動実行 (workflow_dispatch) するか main に push する。
+   中継 Worker が同名で置き換わり、この時点から `motitown.com/notification/` はリポジトリの内容を直接返す
+3. `motitown.com/notification/`・`/Notification/1/`・`/en/`・`/Alert/`・`/en/store/motitan/` などを確認する
+4. 旧ホストを参照している場所を motitown.com に寄せる: 配信済み `notices` 行の URL (SQL の REPLACE)、
+   App Store Connect / Google Play Console に登録したプライバシーポリシー等の URL、Slack / Notion の固定リンク
+5. 旧アプリ (v12.0.0 未満) は規約・お知らせを旧ホストで開くので、強制アップデートで揃うまでは旧ホストを転送用として残す
+6. 残す必要が無くなったら: GitHub Pages のカスタムドメインを外し `CNAME` を削除、ムームードメインの `motitown-notification` CNAME レコードを削除、
+   `astran-jp/motitown-notification-proxy` リポジトリをアーカイブ、`build-assets.mjs` の旧ホスト書き換え (`LEGACY_ORIGIN_RE`) を外す
