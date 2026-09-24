@@ -1,0 +1,12 @@
+{
+  "name": "motitown-notification",
+  "private": true,
+  "description": "motitown.com/notification/ のお知らせサイト（Cloudflare Worker の静的アセットとして配信）",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.137.0"
+  }
+}

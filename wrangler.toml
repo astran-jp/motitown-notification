@@ -1,0 +1,24 @@
+# motitown.com/notification/* を配信する Cloudflare Worker（静的アセット同梱）。
+# デプロイは .github/workflows/deploy-cloudflare.yml（main への push）。手元からは `npx wrangler deploy`。
+# account_id は書かない（公開リポジトリ）。CLOUDFLARE_ACCOUNT_ID 環境変数で渡す。
+
+# 以前の中継 Worker（astran-jp/motitown-notification-proxy）と同じ名前にしてある。
+# 同名で deploy すると中継版がその場で置き換わり、ルート motitown.com/notification* を付け替えずに切り替わる
+# （別名だと同じルートを持つ Worker が 2 つになり deploy が拒否される）。
+name = "motitown-notification-proxy"
+main = "worker/index.js"
+compatibility_date = "2026-09-01"
+workers_dev = false
+
+routes = [
+  { pattern = "motitown.com/notification*", zone_name = "motitown.com" }
+]
+
+[assets]
+# リポジトリのルートをそのまま配信する。配信しないファイルは .assetsignore に書く
+directory = "."
+binding = "ASSETS"
+# 常に worker/index.js を先に通す（/notification を外してアセットを引き、HTML のリンクを書き換えるため）
+run_worker_first = true
+html_handling = "auto-trailing-slash"
+not_found_handling = "none"
