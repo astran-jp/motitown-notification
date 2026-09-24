@@ -20,7 +20,7 @@ draft.md が無い場合(旧来どおりデザイン画像だけ渡された場�
 ls | grep -E '^[0-9]+$' | sort -n | tail -1
 ```
 
-公開URLは `https://motitown-notification.astran.jp/{N}` になる。
+公開URLは `https://motitown.com/notification/{N}/`(ユーザー向け。実体は `motitown-notification.astran.jp/{N}/` を中継)になる。
 
 文言の優先順位は **draft.md > デザイン画像**。両者で文言が違う場合はユーザーに確認し、原則として draft.md に合わせる(デザイン側を直してもらう)。
 

@@ -1,5 +1,5 @@
 -- URLの設定 (以下全てで参照される)
-SET @url = 'https://motitown-notification.astran.jp/23' COLLATE utf8mb4_unicode_ci;
+SET @url = 'https://motitown.com/notification/23' COLLATE utf8mb4_unicode_ci;
 -- すべてのユーザーに配信
 -- (「削除されていない」かつ「BOTでない」かつ「直近3ヶ月以内にログインしたことがある」)
 INSERT INTO `notices` (`user_id`, `title`, `url`, `app`, `created_at`, `updated_at`)

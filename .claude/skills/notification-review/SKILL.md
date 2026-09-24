@@ -51,7 +51,7 @@ description: Slack #02-develop に投稿したお知らせ確認依頼への返�
    神谷です。ご指摘ありがとうございます。次の点を修正しました。
    - <指摘1> → <修正内容>
    - <指摘2> → <修正内容>
-   https://motitown-notification.astran.jp/{N}/
+   https://motitown.com/notification/{N}/
    ```
    対応しなかった指摘があれば、その理由も1行で添える
 4. 処理した返信の ts を `review.json` の `replies_seen` に追加し、コミットに含める

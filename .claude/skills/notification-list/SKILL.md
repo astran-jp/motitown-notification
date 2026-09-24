@@ -34,4 +34,4 @@ description: お知らせ一覧(リポジトリ直下の index.html、モチタ�
    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless --disable-gpu --hide-scrollbars --window-size=500,1100 --screenshot=<scratchpad>/list-top.png "file:///.../index.html"
    ```
 5. **push の前に差分を見せる**: `git diff -U0 index.html` の変更行(追加カード 1 行と lazy の付け替え)と `assets/notice-{N}.webp` の追加を返信に貼り、確認をとる
-6. **push**: `git add index.html assets/notice-{N}.webp {N}/draft.md`(list_title を足した場合)→ コミット「`{N}: お知らせ一覧に追加`」→ `git push origin main` → 公開 URL `https://motitown-notification.astran.jp/` に載ったことを curl で確認して報告
+6. **push**: `git add index.html assets/notice-{N}.webp {N}/draft.md`(list_title を足した場合)→ コミット「`{N}: お知らせ一覧に追加`」→ `git push origin main` → 中継元 `https://motitown-notification.astran.jp/` に載ったことを curl で確認し、ユーザーには `https://motitown.com/notification/` を報告

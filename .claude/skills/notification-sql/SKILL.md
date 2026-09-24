@@ -38,11 +38,11 @@ description: モチタウンお知らせの配信用SQLを作成し、pushして
 1. `git add {N}/ sql/deployed/{N}.sql en/{N}/ en/index.html en/assets/notice-{N}.webp` — `.DS_Store` は追加しない。`{N}/brief.md` `{N}/draft.md` `{N}/en.json` も一緒に入れる(原稿と訳の履歴として残す)
 2. コミットメッセージは過去の慣例に合わせ「`add {N}`」
 3. `git push origin main` — GitHub Actions が回り公開される(初回pushのユーザーは無視される設定あり)
-4. 公開URL `https://motitown-notification.astran.jp/{N}/` を報告する。SQL の実行は配信担当が行うので、`sql/deployed/{N}.sql` のパスも併せて伝える
+4. 公開URL `https://motitown.com/notification/{N}/`(2026-09-24 からユーザー向けはこのドメイン。`motitown-notification.astran.jp` を同じパスで中継)を報告する。SQL の実行は配信担当が行うので、`sql/deployed/{N}.sql` のパスも併せて伝える
 
 ## 4. デプロイ完了を待つ
 
-GitHub Pages のデプロイには数十秒〜数分かかる。公開URLに新しい title が載るまでポーリングする(最大15分):
+GitHub Pages のデプロイには数十秒〜数分かかる。公開URLに新しい title が載るまでポーリングする(最大15分。ポーリングは中継元の `motitown-notification.astran.jp` に対して行う。`motitown.com` は curl を Cloudflare が弾くため):
 
 ```sh
 .claude/skills/notification-sql/scripts/wait-deploy.sh {N}
@@ -55,13 +55,13 @@ GitHub Pages のデプロイには数十秒〜数分かかる。公開URLに新�
 宛先と文面は `slack.json` に固定してある(チャンネル `#02-develop` = `C04APK82UCD`、メンション3名)。`slack_send_message` で次の文面をそのまま投稿する(`{url}` を公開URLに置換。文言は変えない):
 
 ```
-<@U037PTX0Q9Z> <@U057R6NQPC2> <@U037PUGC9SN> 神谷です。お知らせを作成しました。ご確認ください。https://motitown-notification.astran.jp/{N}/
+<@U037PTX0Q9Z> <@U057R6NQPC2> <@U037PUGC9SN> 神谷です。お知らせを作成しました。ご確認ください。https://motitown.com/notification/{N}/
 ```
 
 投稿結果の `ts`(親メッセージのタイムスタンプ)とチャンネルIDを `{N}/review.json` に保存する(返信の追跡に使う):
 
 ```json
-{ "channel": "C04APK82UCD", "ts": "1757400000.123456", "url": "https://motitown-notification.astran.jp/{N}/", "posted_at": "2026-09-09T15:00:00+09:00", "replies_seen": [] }
+{ "channel": "C04APK82UCD", "ts": "1757400000.123456", "url": "https://motitown.com/notification/{N}/", "posted_at": "2026-09-09T15:00:00+09:00", "replies_seen": [] }
 ```
 
 `review.json` は `git add` して次の push に含める。投稿後、ユーザーには投稿へのリンクと「返信が来たら `/notification-review` で反映する」ことを伝える。
