@@ -12,8 +12,8 @@
 ## URL
 
 ```
-https://motitown-notification.astran.jp/be-delivery/monthly-rewards/even-months/?app=motitan
-https://motitown-notification.astran.jp/be-delivery/monthly-rewards/odd-months/?app=motispi
+https://motitown.com/notification/be-delivery/monthly-rewards/even-months/?app=motitan
+https://motitown.com/notification/be-delivery/monthly-rewards/odd-months/?app=motispi
 ```
 
 - `even-months` / `odd-months` … 偶数月 / 奇数月。BE が当月に応じて出し分ける（従来どおり）
