@@ -14,7 +14,7 @@ from PIL import Image
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.abspath(os.path.join(HERE, "..", "..", "..", ".."))
-BASE_URL = "https://motitown-notification.astran.jp"
+BASE_URL = "https://motitown.com/notification"
 
 
 def frontmatter(path):

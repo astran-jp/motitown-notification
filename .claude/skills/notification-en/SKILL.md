@@ -5,7 +5,7 @@ description: モチタウンお知らせの英語版を作る(ワークフロー
 
 # お知らせ英語版の作成
 
-日本語の `{N}/index.html` が完成した後に行う(通常は `/notification-page` の 7 節から続けて実行され、ユーザーが別に呼ぶ必要はない。旧お知らせの英語化や英語版だけの直しでは単独で使う)。英語版は同じ番号で `en/{N}/`(旧お知らせは `en/Notification/{N}/`)に置き、公開 URL は `https://motitown-notification.astran.jp/en/{N}/`、一覧は `https://motitown-notification.astran.jp/en/`。アプリは表示言語が英語のユーザーに、配信された `https://motitown.com/notification/{N}` を `/en/{N}` に読み替えてこの内容を開く(配信 SQL は言語で出し分けない)。
+日本語の `{N}/index.html` が完成した後に行う(通常は `/notification-page` の 7 節から続けて実行され、ユーザーが別に呼ぶ必要はない。旧お知らせの英語化や英語版だけの直しでは単独で使う)。英語版は同じ番号で `en/{N}/`(旧お知らせは `en/Notification/{N}/`)に置き、公開 URL は `https://motitown.com/notification/en/{N}/`、一覧は `https://motitown.com/notification/en/`。アプリは表示言語が英語のユーザーに、配信された `https://motitown.com/notification/{N}` を `/en/{N}` に読み替えてこの内容を開く(配信 SQL は言語で出し分けない)。
 
 ```
 原稿作成 → HTML作成 (/notification-page) → 英語版 (このスキル) → SQL作成・公開 (/notification-sql)
@@ -80,7 +80,7 @@ python3 scripts/en/build_list.py        # en/index.html。英語版のあるお�
 
 - `git add {N}/en.json en/{N}/ en/assets/notice-{N}.webp en/index.html`(`.DS_Store` は入れない)
 - 新しいお知らせは `/notification-sql` の push に同乗させる(コミット「`add {N}`」に含める)。旧お知らせの英語化はコミット「`{N}: 英語版を追加`」で単独 push してよい
-- 公開後 `https://motitown-notification.astran.jp/en/{N}/` と `https://motitown-notification.astran.jp/en/` を curl で確認する
+- 公開後 `https://motitown.com/notification/en/{N}/` と `https://motitown.com/notification/en/` を curl(UA `MotitownOpsCheck/1.0`。素の curl は WAF が弾く)で確認する
 
 ## 英語一覧に載らないもの
 

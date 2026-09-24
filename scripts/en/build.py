@@ -14,7 +14,7 @@ import json, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from extract import ROOT, JA, segments, attrs  # noqa: E402
 
-SITE = "https://motitown-notification.astran.jp"
+SITE = "https://motitown.com/notification"
 
 
 EN_TEXT_STYLE = """<style>
