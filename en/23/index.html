@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Talk Hands-Free, English Display, and More: 4 New Features and Improvements | Motitown</title>
+<meta property="og:title" content="Talk Hands-Free, English Display, and More: 4 New Features and Improvements">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0D4962;
+    --date:#7C878A;
+    --line:#99A7AA;
+    --sky:#DCF1FF;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  img{max-width:100%;}
+  body{
+    background:#fff;
+    font-family:"Noto Sans",-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+    color:var(--navy);
+    -webkit-font-smoothing:antialiased;
+    word-break:break-word;
+  }
+
+  /* 流動カラム：固定px幅を持たせずレスポンシブに */
+  .wrap{width:100%;max-width:430px;margin:0 auto;background:#fff;}
+
+  /* ヘッダーバナー（全幅・比率維持）＋下方向のシャドウ。
+     画像未配置時も崩れないよう、背景にブランドグラデーションを敷く */
+  .banner{
+    display:block;width:100%;height:auto;position:relative;z-index:1;
+    background:linear-gradient(180deg,#DCF1FF 0%,#F4FBFF 100%);
+    box-shadow:0 4px 6px rgba(0,0,0,.12);
+  }
+
+  /* 本文コンテナ：左右パディングで余白を作る */
+  .content{padding:14px 22px 40px;}
+
+  h1.title{margin:0 0 8px;color:var(--navy);font-weight:700;font-size:20px;line-height:1.5;letter-spacing:.02em;}
+  .date{color:var(--date);font-size:16.5px;line-height:1.4;letter-spacing:.02em;margin:0 0 18px;}
+
+  p.lead{font-size:15.5px;line-height:1.9;letter-spacing:.02em;margin:18px 0;}
+
+  /* トピックごとの見出し（左のネイビーバー＋薄い水色の下線） */
+  h2.section{
+    display:flex;align-items:center;gap:10px;
+    margin:36px 0 4px;padding:0 0 8px;border-bottom:2px solid var(--sky);
+    color:var(--navy);font-weight:700;font-size:18px;line-height:1.5;letter-spacing:.02em;
+  }
+  h2.section::before{
+    content:"";flex:0 0 auto;width:5px;height:1.2em;border-radius:3px;background:var(--navy);
+  }
+
+  /* 箇条書き */
+  ul.list{margin:14px 0;padding:0 0 0 1.3em;font-size:15.5px;line-height:1.8;letter-spacing:.02em;}
+  ul.list li{margin:6px 0;}
+
+  /* 操作手順：ラベル＋パス */
+  .steps{margin:18px 0;font-size:15.5px;line-height:1.9;letter-spacing:.02em;}
+  .steps__label{display:block;font-weight:700;}
+  .steps__path{
+    display:block;margin-top:6px;padding:8px 12px;
+    background:#EAF6FF;border:1px solid #C9E8FB;border-radius:8px;
+    font-weight:500;font-size:14.5px;line-height:1.7;
+  }
+
+  /* 画像枠：角丸＋細い枠線＋淡い影。画像が未配置のときはファイル名を表示するプレースホルダーになる */
+  figure.shot{margin:20px 0;}
+  figure.shot img{
+    display:block;width:100%;height:auto;
+    border:1px solid #C9E8FB;border-radius:12px;
+    box-shadow:0 2px 8px rgba(13,73,98,.10);
+  }
+  figure.shot.missing img{display:none;}
+  figure.shot.missing::before{
+    content:"画像を配置してください\A" attr(data-file);
+    white-space:pre;
+    display:flex;align-items:center;justify-content:center;text-align:center;
+    aspect-ratio:var(--ratio,4/3);
+    border:2px dashed #99C9E6;border-radius:12px;background:#F4FBFF;
+    color:var(--date);font-size:13px;line-height:1.7;letter-spacing:.02em;
+  }
+  figure.shot figcaption{margin-top:8px;font-size:12.5px;line-height:1.6;color:var(--date);text-align:center;}
+
+  /* ヘッダーバナー未配置時のプレースホルダー（1000x380 の比率） */
+  figure.banner-box{margin:0;}
+  figure.banner-box.missing img{display:none;}
+  figure.banner-box.missing::before{
+    content:"ヘッダー画像を配置してください\A" attr(data-file);
+    white-space:pre;
+    display:flex;align-items:center;justify-content:center;text-align:center;
+    aspect-ratio:1000/380;
+    background:linear-gradient(180deg,#DCF1FF 0%,#F4FBFF 100%);
+    border-bottom:2px dashed #99C9E6;box-shadow:0 4px 6px rgba(0,0,0,.12);
+    color:var(--date);font-size:13px;line-height:1.7;letter-spacing:.02em;
+  }
+
+  /* 拡大前/拡大後の比較（横並び。狭い画面では縦積み） */
+  .compare{display:flex;gap:12px;margin:20px 0;}
+  .compare figure.shot{flex:1 1 0;min-width:0;margin:0;}
+  .compare figure.shot.missing::before{aspect-ratio:var(--ratio,1170/1382);}
+  @media (max-width:360px){.compare{flex-direction:column;}}
+
+  /* 署名（右寄せ・控えめ） */
+  p.sign{margin:32px 0 0;text-align:right;font-size:14.5px;line-height:1.7;letter-spacing:.02em;}
+
+  /* 補足（※） */
+  p.note{font-size:12.5px;line-height:1.8;letter-spacing:.02em;margin:32px 0 0;color:var(--date);}
+  .steps+p.note{margin-top:-8px;}
+  p.note+p.note{margin-top:8px;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- ヘッダーバナー：ハンズフリー・英語表示／日本語コース（header-bg.png + banner-title.py で合成） -->
+    <figure class="banner-box" data-file="header.png">
+      <img class="banner" src="header.png" alt="Hands-Free & English／Japanese Courses" width="1000" height="380" onerror="this.parentNode.classList.add('missing')">
+    </figure>
+
+    <div class="content">
+
+      <h1 class="title">Talk Hands-Free, English Display,<br>and More:<br>4 New Features and Improvements</h1>
+      <p class="date">2026/9/24 17:00</p>
+
+      <p class="lead">Hi, this is Kamiya, the developer of Motitan and Motispi.</p>
+
+      <p class="lead">Starting with v12.0.0, you get hands-free talking without pressing the mic, English display with Japanese courses, and a new "More Details" button in Word Details. We also made an improvement that reduces battery drain.</p>
+
+      <h2 class="section">Motispi: Talk Hands-Free Without Pressing the Mic</h2>
+
+      <p class="lead">In Talk, you can now speak without pressing the mic button.</p>
+
+      <ul class="list">
+        <li>When it is on, you can hold a conversation without pressing the mic button.</li>
+        <li>While it is on, pressing the mic button mutes your voice.</li>
+      </ul>
+
+      <!-- 学習設定の「ハンズフリーで話す」トグル（Unity Device Simulator iPhone 12 のスクリーンショット） -->
+      <figure class="shot" data-file="handsfree-setting.png" style="--ratio:1170/1290">
+        <img src="handsfree-setting.png" alt="Learning Settings with "Talk Hands-Free" turned on" width="1170" height="1290" onerror="this.parentNode.classList.add('missing')">
+      </figure>
+
+      <!-- トーク画面のマイクボタン：ハンズフリー中（緑）とミュート中（斜線） -->
+      <div class="compare">
+        <figure class="shot" data-file="handsfree-talk.png" style="--ratio:1170/1532">
+          <img src="handsfree-talk.png" alt="Talk screen during a hands-free conversation; the mic button is green" width="1170" height="1532" onerror="this.parentNode.classList.add('missing')">
+          <figcaption>Talking hands-free</figcaption>
+        </figure>
+        <figure class="shot" data-file="handsfree-talk-muted.png" style="--ratio:1170/1532">
+          <img src="handsfree-talk-muted.png" alt="Muted by pressing the mic button" width="1170" height="1532" onerror="this.parentNode.classList.add('missing')">
+          <figcaption>Press the mic button to mute</figcaption>
+        </figure>
+      </div>
+
+      <p class="steps">
+        <span class="steps__label">How to set it up:</span>
+        <span class="steps__path">Profile &gt; Settings &gt; Learning Settings &gt; Talk Hands-Free</span>
+      </p>
+      <p class="note">* You can also switch it from the settings screen before starting a conversation. It is off by default.</p>
+
+      <h2 class="section">Motitan & Motispi: English Added as a Display Language</h2>
+
+      <p class="lead">You can now switch the app display to English. In English, you can learn Japanese, Chinese, Korean, French, Spanish, and German.</p>
+
+      <ul class="list">
+        <li>The first time you switch, you will also choose the language you want to learn and a course.</li>
+      </ul>
+
+      <!-- 言語設定の「使用言語」で英語を選ぶ画面 -->
+      <figure class="shot" data-file="display-language.png" style="--ratio:1170/900">
+        <img src="display-language.png" alt="Choosing English under "Display Language" in Language Settings" width="1170" height="900" onerror="this.parentNode.classList.add('missing')">
+      </figure>
+
+      <p class="steps">
+        <span class="steps__label">How to switch:</span>
+        <span class="steps__path">Profile &gt; Settings &gt; Language Settings &gt; Display Language</span>
+      </p>
+
+      <h2 class="section">Motitan & Motispi: Japanese Courses Added</h2>
+
+      <p class="lead">With the display language set to English, you can choose Japanese as the language to learn.</p>
+
+      <ul class="list">
+        <li>Motitan Japanese courses: Conversation, JLPT, Kids</li>
+        <li>Motispi Japanese courses: Daily Conversation, Business, Travel, Study Abroad, Kids, JLPT</li>
+        <li>In Motispi Talk, you can have conversations with Nathan in Japanese (when Japanese is your learning language, the teacher speaks Japanese).</li>
+      </ul>
+
+      <!-- 英語表示のモチスピで、ヘッダーの国旗から日本語コース（Everyday Life など）を選ぶ画面 -->
+      <figure class="shot" data-file="japanese-course.png" style="--ratio:1170/1560">
+        <img src="japanese-course.png" alt="Choosing a Japanese course from the header in Motispi with the display in English" width="1170" height="1560" onerror="this.parentNode.classList.add('missing')">
+      </figure>
+
+      <p class="note">* These courses are for people overseas who want to learn Japanese, and for English speakers close to you.</p>
+
+      <h2 class="section">Motitan & Motispi: "More Details" Added to Word Details</h2>
+
+      <p class="lead">We added a "More Details" button at the bottom of Word Details.</p>
+
+      <ul class="list">
+        <li>Tap it to open that word's page in the MotiTan English Dictionary (website) inside the app.</li>
+        <li>You can find information that Word Details does not have, such as example sentences by level, common patterns, words often used together, common mistakes, FAQs, and learning data.</li>
+      </ul>
+
+      <!-- 単語詳細の最下部の「もっと詳しく」ボタン -->
+      <figure class="shot" data-file="more-detail.png" style="--ratio:1170/1050">
+        <img src="more-detail.png" alt="The "More Details" button at the bottom of Word Details" width="1170" height="742" onerror="this.parentNode.classList.add('missing')">
+      </figure>
+
+      <p class="note">* The button is not shown for words in languages that have no dictionary.</p>
+
+      <h2 class="section">Motitan & Motispi: Reduced Battery Drain</h2>
+
+      <p class="lead">We made an improvement that reduces battery drain. No settings are needed.</p>
+
+      <p class="sign">Sou Kamiya, Developer</p>
+
+    </div>
+  </div>
+</body>
+</html>
