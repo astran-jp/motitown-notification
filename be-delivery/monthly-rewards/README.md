@@ -2,12 +2,12 @@
 
 アプリ内 WebView で開く「今月の報酬一覧」のページ。
 
-偶数月と奇数月で作りが違う。
+偶数月・奇数月とも同じ作り（2026年10月分から偶数月も HTML 化。それまでの偶数月は旧 STUDIO ページの 1 枚画像だった）。
 
-- **奇数月** … 自前の HTML/CSS。モチタン限定 / モチスピ限定の 2 ブロックを **1 ページに持ち**、
+- 自前の HTML/CSS。モチタン限定 / モチスピ限定の 2 ブロックを **1 ページに持ち**、
   起動アプリのブロックが上に来るように表示順とゾーン背景だけを入れ替える
-- **偶数月** … 旧 STUDIO ページ（`motitan-notification.astran.jp`）の丸ごとコピー。
-  向こうは中身が 1 枚画像なので、この HTML も画像を 1 枚置くだけ
+- `even-months/index.html` と `odd-months/index.html` は中身（キャラ名・説明文・画像）以外は同一。
+  レイアウトを直すときは `shared/style.css` を直せば両方に効く
 
 ## URL
 
@@ -18,50 +18,46 @@ https://motitown-notification.astran.jp/be-delivery/monthly-rewards/odd-months/?
 
 - `even-months` / `odd-months` … 偶数月 / 奇数月。BE が当月に応じて出し分ける（従来どおり）
 - `app` … `motitan` / `motispi`。**このパラメータのブロックが上に来る**。
-  未指定・不正値はモチタン扱い（`<html data-app="motitan">` が初期値）。
-  偶数月は 1 枚画像なので付いていても無視される
+  未指定・不正値はモチタン扱い（`<html data-app="motitan">` が初期値）
 
 ## ディレクトリ
 
 ```
 be-delivery/monthly-rewards/
-├── shared/          … 奇数月ページ用。レイアウト修正はここだけで完結する
+├── shared/          … 両ページ共通。レイアウト修正はここだけで完結する
 │   ├── style.css
 │   ├── glow.svg / sparkle.svg / calendar.svg / gold-leaf.svg / silver-leaf.svg
-├── even-months/     … 旧 STUDIO ページのコピー
-│   ├── index.html   … 画像を 1 枚置くだけ。shared/ は使わない
-│   └── images/page.webp
-└── odd-months/      … 自前 HTML
-    ├── index.html   … 奇数月の中身（キャラ名・説明文）
-    └── images/      … 奇数月のキャラ画像 6 枚
+├── even-months/     … 偶数月
+│   ├── index.html   … 偶数月の中身（キャラ名・説明文）
+│   └── images/      … 偶数月のキャラ画像 6 枚
+├── odd-months/      … 奇数月
+│   ├── index.html   … 奇数月の中身（キャラ名・説明文）
+│   └── images/      … 奇数月のキャラ画像 6 枚
+└── en/{even,odd}-months/ … 英語版への転送スタブと、英語版ページが参照する画像（日本語版のコピー）
 ```
 
-`even-months` と `odd-months` は画像も含めて独立している。ただし `shared/style.css` は
-奇数月ページ専用なので、ここを触っても偶数月ページには影響しない。
+`even-months` と `odd-months` は画像も含めて独立している。`shared/style.css` は両方に効く。
 
 ## 毎月の更新手順（even / odd の 2 枚ローテ）
 
 公開中の月と同じパリティのディレクトリは触らないこと。BE が 1 日に参照先を切り替えるので、
 それまではいつ push しても表示は変わらない。
 
-### 奇数月の準備
+### 翌月の準備（偶数月なら `even-months/`、奇数月なら `odd-months/`）
 
-1. `odd-months/images/` の 6 枚をその月のキャラ画像に差し替える（ファイル名は変えない）
-2. `odd-months/index.html` のキャラ名・説明文・`alt` を書き換える
+1. `{parity}-months/images/` の 6 枚をその月のキャラ画像に差し替える（ファイル名は変えない）
+2. `{parity}-months/index.html` のキャラ名・説明文・`alt`・先頭コメントの「現在の内容」を書き換える
 3. ローカルで両アプリ分を確認（下記）してから push する
 
 キャラと文言は BE のマスタが正。`character_way_of_gettings.way_of_getting` が
 `monthly-mission-{YYYYMM}` / `mission-calendar-effort-1-{YYYYMM}` /
 `mission-calendar-excellence-1-{YYYYMM}`（モチスピは `motispi-` 始まり）の行を引き、
 `characters` の `name` / `profile` をそのまま使う。
-画像は Unity 側 `Assets/AddressableAssets/CharacterImage/{model_id}.png`。
+画像は Unity 側 `Assets/AddressableAssets/CharacterImage/{model_id}.png`（512×512・透過）を下表のサイズに縮小する。
+DB を引けないときは motitan-api の `manual_migration/japan/0015-characters.sql`（name / profile / model_id）と
+`0019-character_way_of_gettings.sql`（`way_of_getting` → character id）が同じ内容の正本。
 
-### 偶数月の準備
-
-`even-months/images/page.webp` を新しい書き出しに差し替えるだけ。
-HTML は幅 100%・比率維持で 1 枚表示しているので、縦横比が変わっても崩れない。
-
-### 画像の仕様（奇数月）
+### 画像の仕様
 
 | ファイル | 表示サイズ | 用意するサイズ |
 |---|---|---|
@@ -78,10 +74,13 @@ cd be-delivery/monthly-rewards
 python3 -m http.server 8931
 # http://localhost:8931/odd-months/index.html?app=motitan
 # http://localhost:8931/odd-months/index.html?app=motispi
-# http://localhost:8931/even-months/index.html
+# http://localhost:8931/even-months/index.html?app=motitan
+# http://localhost:8931/even-months/index.html?app=motispi
 ```
 
-幅 358px（アプリ内 WebView 相当）で確認する。奇数月は両方の `app` を必ず見る。
+幅 358px（アプリ内 WebView 相当）で確認する。両方の `app` を必ず見る。
+英語版も見るときはリポジトリ直下で `python3 -m http.server 8931` を起動し、
+`http://localhost:8931/en/be-delivery/monthly-rewards/{parity}-months/index.html?app=…` を開く（相対パスがリポ直下基準のため）。
 
 ## アプリ / BE 側の前提
 
@@ -92,14 +91,14 @@ python3 -m http.server 8931
 
 ## 英語版（en/）
 
-`en/odd-months/` は奇数月ページの英語版（URL: `…/monthly-rewards/en/odd-months/?app=…`）。
-`shared/style.css` と画像は日本語版と共通（画像は `en/odd-months/images/` にコピー）。
+`/en/be-delivery/monthly-rewards/{even,odd}-months/` が英語版ページ（`be-delivery/monthly-rewards/en/{even,odd}-months/index.html` はそこへの転送スタブ）。
+`shared/style.css` は日本語版と共通、画像は `be-delivery/monthly-rewards/en/{parity}-months/images/` に日本語版のコピーを置く。
 
-毎月の更新: 奇数月の index.html を更新したら、`en/odd-months/index.html` も同じキャラで更新する。
+毎月の更新: 日本語版の index.html を更新したら、英語版の index.html も同じキャラで更新する。
 キャラ名・説明文の英訳は motitan-api の `character_translations`（native=en）を使う
 （正本は app-localization `locales/en-US/drafts/character-translations-*.tsv`）。
 固定ラベルの英訳: モチタン限定=Motitan Exclusive／モチスピ限定=Motispi Exclusive／月間ミッション=Monthly Mission／
 カレンダーミッション=Calendar Mission／努力賞=Achiever Award／優秀賞=Excellence Award。
 
-偶数月（画像 1 枚）の英語版は画像対応仕様 IMG-27（毎月デザイン）。
+（2026年10月分から偶数月も奇数月と同じ HTML 構成になったため、IMG-27 の画像対応は不要になった。）
 

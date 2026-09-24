@@ -1,46 +1,142 @@
 <!DOCTYPE html>
 <!--
   月間ミッション報酬のお知らせ（偶数月）
-  - motitan-notification.astran.jp（STUDIO）の同ページをそのまま持ってきたもの。
-    向こうのページは中身が 1 枚画像なので、この HTML もその画像を 1 枚置くだけ。
-  - 幅 358px のアプリ内 WebView でも絵が切れないよう、幅 100%・比率維持で表示する
-  - 中身の差し替えは images/page.webp を新しい書き出しに置き換える（更新手順は ../README.md）
+  - アプリ内 WebView から ?app=motitan / ?app=motispi 付きで開かれ、起動アプリのブロックが上に来る
+  - 中身は両アプリで同一。毎月 偶数月 の分だけをここで差し替える（更新手順は ../README.md）
+  - 現在の内容：2026年10月（202610）
 -->
-<html lang="ja">
+<html lang="ja" data-app="motitan">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <title>今月の報酬一覧｜モチタン</title>
+  <title>今月の報酬一覧｜モチタン・モチスピ</title>
   <meta property="og:title" content="今月の報酬一覧">
   <meta property="og:type" content="article">
   <meta name="robots" content="noindex">
+  <script>
+    // 描画前に起動アプリを確定させる（順序切り替えのちらつき防止）。
+    // 不正値・パラメータ無しはモチタン扱い。
+    (function () {
+      var m = /[?&]app=([^&#]*)/.exec(window.location.search);
+      var app = m ? decodeURIComponent(m[1]).toLowerCase() : '';
+      document.documentElement.setAttribute('data-app', app === 'motispi' ? 'motispi' : 'motitan');
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../shared/style.css">
   <style>
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      background: #fff;
-    }
-
-    .page {
-      display: flex;
-      justify-content: center;
-    }
-
-    .page img {
-      display: block;
-      width: 100%;
-      /* 元デザインの幅。これより広い画面では拡大しない */
-      max-width: 460px;
-      height: auto;
+    /* 2026年10月だけの例外: モチスピ優秀賞「夕焼けの龍」は顔が画像の左上にあり、説明文ボックスの下に隠れるため右へ寄せる。
+       共通の shared/style.css は触らない。翌々月（12月）の更新時にこのブロックは消すこと。 */
+    .zone--motispi .cal-row--excellent .cal-row__figure img:not(.sparkle) {
+      transform: translateX(40px);
     }
   </style>
 </head>
 
 <body>
   <div class="page">
-    <img src="images/page.webp" alt="今月の報酬一覧">
+
+    <!-- ================= モチタン限定 ================= -->
+    <section class="zone zone--motitan">
+      <h1 class="zone__title">モチタン限定</h1>
+
+      <!-- 月間ミッション -->
+      <div class="card card--monthly">
+        <div class="card__glow"><img src="../shared/glow.svg" alt=""></div>
+        <div class="card__tag">月間ミッション<img src="../shared/calendar.svg" alt=""></div>
+        <div class="hero">
+          <img class="sparkle sparkle--start" src="../shared/sparkle.svg" alt="">
+          <img src="images/motitan-monthly.png" width="344" height="344" alt="ウィッチみゆ">
+          <img class="sparkle sparkle--end" src="../shared/sparkle.svg" alt="">
+        </div>
+        <div class="info">
+          <p class="info__name">ウィッチみゆ</p>
+          <p class="info__desc">大きなとんがり帽子と魔女の衣装に身を包んだ、ちょっぴり特別な日のみゆ。大きなほうきにちょこんと腰かければ、いつものおしとやかな雰囲気も今日は少しだけお休み。秋風に髪をなびかせながら、気ままな空のお散歩を楽しんでいるよ。</p>
+        </div>
+      </div>
+
+      <!-- カレンダーミッション -->
+      <div class="card card--calendar">
+        <div class="card__glow"><img src="../shared/glow.svg" alt=""></div>
+        <div class="card__tag">カレンダーミッション<span class="leaf"><img src="../shared/gold-leaf.svg" alt=""><img src="../shared/silver-leaf.svg" alt=""></span></div>
+        <img class="sparkle sparkle--start" src="../shared/sparkle.svg" alt="">
+
+        <div class="cal-row cal-row--effort">
+          <img class="cal-row__char--overhang" src="images/motitan-effort.png" width="320" height="320" alt="焼き芋モチベア">
+          <div class="cal-row__spacer"></div>
+          <div class="info">
+            <span class="award award--effort">努力賞</span>
+            <p class="info__name">焼き芋モチベア</p>
+            <p class="info__desc">大きな焼き芋に変装し、秋の味覚を満喫中の焼き芋モチベア。手にもほかほかの焼き芋を持って、夢中でもぐもぐ！ひとくち食べれば、やさしい甘さに思わずにっこり。おなかも心もいっぱいになる、食欲の秋を楽しんでいるよ。</p>
+          </div>
+        </div>
+
+        <div class="cal-row cal-row--excellent">
+          <div class="info">
+            <span class="award award--excellent">優秀賞</span>
+            <p class="info__name">キング・オバケーヌ</p>
+            <p class="info__desc">キラキラの王冠とハートのサングラスがトレードマークのキング・オバケーヌ。おばけなのに怖がらせることにはまったく興味なし！音楽と楽しいことが大好きで、どこでもノリノリで盛り上げちゃう、とびきり陽気なパリピおばけだよ。</p>
+          </div>
+          <div class="cal-row__figure">
+            <img src="images/motitan-excellent.png" width="344" height="344" alt="キング・オバケーヌ">
+            <img class="sparkle sparkle--end" src="../shared/sparkle.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= モチスピ限定 ================= -->
+    <section class="zone zone--motispi">
+      <h1 class="zone__title">モチスピ限定</h1>
+
+      <!-- 月間ミッション -->
+      <div class="card card--monthly">
+        <div class="card__glow"><img src="../shared/glow.svg" alt=""></div>
+        <div class="card__tag">月間ミッション<img src="../shared/calendar.svg" alt=""></div>
+        <div class="hero">
+          <img class="sparkle sparkle--start" src="../shared/sparkle.svg" alt="">
+          <img src="images/motispi-monthly.png" width="344" height="344" alt="狼男ジョニー">
+          <img class="sparkle sparkle--end" src="../shared/sparkle.svg" alt="">
+        </div>
+        <div class="info">
+          <p class="info__name">狼男ジョニー</p>
+          <p class="info__desc">ハロウィンの夜、いつものゾンビ姿から狼男に大変身したジョニー。ふさふさの耳と尻尾は、ただの仮装……のはず！？満月が昇ると、なんだかいつもより野生的！？ 本当に狼男になっちゃったのか、その真相はジョニーだけが知っている！</p>
+        </div>
+      </div>
+
+      <!-- カレンダーミッション -->
+      <div class="card card--calendar">
+        <div class="card__glow"><img src="../shared/glow.svg" alt=""></div>
+        <div class="card__tag">カレンダーミッション<span class="leaf"><img src="../shared/gold-leaf.svg" alt=""><img src="../shared/silver-leaf.svg" alt=""></span></div>
+        <img class="sparkle sparkle--start" src="../shared/sparkle.svg" alt="">
+
+        <div class="cal-row cal-row--effort">
+          <img class="cal-row__char--overhang" src="images/motispi-effort.png" width="320" height="320" alt="ラクロスモチベア">
+          <div class="cal-row__spacer"></div>
+          <div class="info">
+            <span class="award award--effort">努力賞</span>
+            <p class="info__name">ラクロスモチベア</p>
+            <p class="info__desc">スポーツの秋に誘われて、ラクロスを始めたモチベア。まだまだ練習中だけど、大きなラケットを握れば気合いは十分！夢中でボールを追いかけて、転んでしまうこともしばしば。ほっぺの絆創膏は、一生懸命がんばった証とちいさな勲章なんだ。</p>
+          </div>
+        </div>
+
+        <div class="cal-row cal-row--excellent">
+          <div class="info">
+            <span class="award award--excellent">優秀賞</span>
+            <p class="info__name">夕焼けの龍</p>
+            <p class="info__desc">夕暮れの空が茜色に染まるころ、どこからともなく姿を現す夕焼けの龍。白い鱗に黄昏の赤をまとい、燃えるような翼で秋空を悠々と駆けていく。昼と夜がすれ違うほんのわずかな時間だけ会える、秋の空を見守る気まぐれで美しい龍だよ。</p>
+          </div>
+          <div class="cal-row__figure">
+            <img src="images/motispi-excellent.png" width="344" height="344" alt="夕焼けの龍">
+            <img class="sparkle sparkle--end" src="../shared/sparkle.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
   </div>
 </body>
 
