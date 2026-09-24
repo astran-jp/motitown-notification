@@ -1,0 +1,197 @@
+{
+ "title": {
+  "ja": "【モチタン・モチスピ】「ハンズフリーで話す」や英語表示など、4つの機能を追加・改善しました｜モチタウン",
+  "en": "Talk Hands-Free, English Display, and More: 4 New Features and Improvements | Motitown"
+ },
+ "banner": {
+  "ja": "ハンズフリー・英語表示／日本語コース",
+  "en": "Hands-Free & English／Japanese Courses"
+ },
+ "segments": [
+  {
+   "tag": "h1",
+   "ja": "「ハンズフリーで話す」や<br>英語表示など、<br>4つの機能を追加・改善しました",
+   "en": "Talk Hands-Free, English Display,<br>and More:<br>4 New Features and Improvements"
+  },
+  {
+   "tag": "p",
+   "ja": "モチタン・モチスピを開発している神谷です。",
+   "en": "Hi, this is Kamiya, the developer of Motitan and Motispi."
+  },
+  {
+   "tag": "p",
+   "ja": "v12.0.0 へのアップデートにより、マイクを押さずに話せる「ハンズフリー機能」、英語表示と日本語コース、単語詳細の「もっと詳しく」ボタンが追加されます。また、電池の消耗を抑える改善を行いました。",
+   "en": "Starting with v12.0.0, you get hands-free talking without pressing the mic, English display with Japanese courses, and a new \"More Details\" button in Word Details. We also made an improvement that reduces battery drain."
+  },
+  {
+   "tag": "h2",
+   "ja": "モチスピ：マイクを押さずに話せる「ハンズフリー機能」",
+   "en": "Motispi: Talk Hands-Free Without Pressing the Mic"
+  },
+  {
+   "tag": "p",
+   "ja": "トークで、マイクボタンを押さなくても話せるようになりました。",
+   "en": "In Talk, you can now speak without pressing the mic button."
+  },
+  {
+   "tag": "li",
+   "ja": "オンにすると、マイクボタンを押さずに会話ができます。",
+   "en": "When it is on, you can hold a conversation without pressing the mic button."
+  },
+  {
+   "tag": "li",
+   "ja": "オンにしているとき、マイクボタンを押すとミュート（消音）にできます。",
+   "en": "While it is on, pressing the mic button mutes your voice."
+  },
+  {
+   "tag": "figcaption",
+   "ja": "ハンズフリーで会話中",
+   "en": "Talking hands-free"
+  },
+  {
+   "tag": "figcaption",
+   "ja": "マイクボタンを押してミュート",
+   "en": "Press the mic button to mute"
+  },
+  {
+   "tag": "p",
+   "ja": "<span class=\"steps__label\">設定手順：</span>\n        <span class=\"steps__path\">マイページ &gt; 設定 &gt; 学習設定 &gt; ハンズフリーで話す</span>",
+   "en": "<span class=\"steps__label\">How to set it up:</span>\n        <span class=\"steps__path\">Profile &gt; Settings &gt; Learning Settings &gt; Talk Hands-Free</span>"
+  },
+  {
+   "tag": "p",
+   "ja": "※会話を始める前の設定画面からも切り替えられます。初期設定はオフです。",
+   "en": "* You can also switch it from the settings screen before starting a conversation. It is off by default."
+  },
+  {
+   "tag": "h2",
+   "ja": "モチタン・モチスピ：表示言語に英語を追加",
+   "en": "Motitan & Motispi: English Added as a Display Language"
+  },
+  {
+   "tag": "p",
+   "ja": "アプリの表示を英語にできるようになりました。英語で日本語、中国語、韓国語、フランス語、スペイン語、ドイツ語を学べます。",
+   "en": "You can now switch the app display to English. In English, you can learn Japanese, Chinese, Korean, French, Spanish, and German."
+  },
+  {
+   "tag": "li",
+   "ja": "初めて切り替えるときは、続けて学びたい言語とコースを選びます。",
+   "en": "The first time you switch, you will also choose the language you want to learn and a course."
+  },
+  {
+   "tag": "p",
+   "ja": "<span class=\"steps__label\">操作手順：</span>\n        <span class=\"steps__path\">マイページ &gt; 設定 &gt; 言語設定 &gt; 使用言語</span>",
+   "en": "<span class=\"steps__label\">How to switch:</span>\n        <span class=\"steps__path\">Profile &gt; Settings &gt; Language Settings &gt; Display Language</span>"
+  },
+  {
+   "tag": "h2",
+   "ja": "モチタン・モチスピ：日本語コースの追加",
+   "en": "Motitan & Motispi: Japanese Courses Added"
+  },
+  {
+   "tag": "p",
+   "ja": "使用言語を英語にすると、学びたい言語に日本語を選べます。",
+   "en": "With the display language set to English, you can choose Japanese as the language to learn."
+  },
+  {
+   "tag": "li",
+   "ja": "モチタンの日本語コース：会話、JLPT、キッズ",
+   "en": "Motitan Japanese courses: Conversation, JLPT, Kids"
+  },
+  {
+   "tag": "li",
+   "ja": "モチスピの日本語コース：日常会話、ビジネス、旅行、留学、キッズ、JLPT",
+   "en": "Motispi Japanese courses: Daily Conversation, Business, Travel, Study Abroad, Kids, JLPT"
+  },
+  {
+   "tag": "li",
+   "ja": "モチスピのトークでは、ネイサンと日本語で会話できます（日本語を学ぶ設定のとき、先生が日本語で話します）。",
+   "en": "In Motispi Talk, you can have conversations with Nathan in Japanese (when Japanese is your learning language, the teacher speaks Japanese)."
+  },
+  {
+   "tag": "p",
+   "ja": "※日本語を学びたい海外の方や、身近な英語話者の方に向けたコースです。",
+   "en": "* These courses are for people overseas who want to learn Japanese, and for English speakers close to you."
+  },
+  {
+   "tag": "h2",
+   "ja": "モチタン・モチスピ：単語詳細に「もっと詳しく」を追加",
+   "en": "Motitan & Motispi: \"More Details\" Added to Word Details"
+  },
+  {
+   "tag": "p",
+   "ja": "単語詳細のいちばん下に「もっと詳しく」ボタンを追加しました。",
+   "en": "We added a \"More Details\" button at the bottom of Word Details."
+  },
+  {
+   "tag": "li",
+   "ja": "タップすると、その単語のモチタン英語辞典（Webサイト）のページをアプリ内で開きます。",
+   "en": "Tap it to open that word's page in the MotiTan English Dictionary (website) inside the app."
+  },
+  {
+   "tag": "li",
+   "ja": "レベル別の例文、よく使う型、よく一緒に使う語、よくある間違い、よくある質問、学習データなど、アプリの単語詳細には無い情報が確認できます。",
+   "en": "You can find information that Word Details does not have, such as example sentences by level, common patterns, words often used together, common mistakes, FAQs, and learning data."
+  },
+  {
+   "tag": "p",
+   "ja": "※辞典が無い言語の単語では表示されません。",
+   "en": "* The button is not shown for words in languages that have no dictionary."
+  },
+  {
+   "tag": "h2",
+   "ja": "モチタン・モチスピ：バッテリーの消耗を抑える改善",
+   "en": "Motitan & Motispi: Reduced Battery Drain"
+  },
+  {
+   "tag": "p",
+   "ja": "バッテリーの消耗を抑える改善を行いました。設定は不要です。",
+   "en": "We made an improvement that reduces battery drain. No settings are needed."
+  },
+  {
+   "tag": "p",
+   "ja": "開発者 神谷創",
+   "en": "Sou Kamiya, Developer"
+  },
+  {
+   "tag": "attr:content",
+   "ja": "「ハンズフリーで話す」や英語表示など、4つの機能を追加・改善しました",
+   "en": "Talk Hands-Free, English Display, and More: 4 New Features and Improvements"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "ハンズフリー・英語表示／日本語コース",
+   "en": "Hands-Free & English／Japanese Courses"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "学習設定の「ハンズフリーで話す」をオンにした画面",
+   "en": "Learning Settings with \"Talk Hands-Free\" turned on"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "ハンズフリーで会話中のトーク画面。マイクボタンが緑色",
+   "en": "Talk screen during a hands-free conversation; the mic button is green"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "マイクボタンを押してミュートにした状態",
+   "en": "Muted by pressing the mic button"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "言語設定の「使用言語」で英語を選ぶ画面",
+   "en": "Choosing English under \"Display Language\" in Language Settings"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "英語表示のモチスピで、ヘッダーから日本語のコースを選ぶ画面",
+   "en": "Choosing a Japanese course from the header in Motispi with the display in English"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "単語詳細の最下部にある「もっと詳しく」ボタン",
+   "en": "The \"More Details\" button at the bottom of Word Details"
+  }
+ ]
+}
