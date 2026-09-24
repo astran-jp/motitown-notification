@@ -23,7 +23,7 @@ description: モチタウンお知らせの配信用SQLを作成し、pushして
 
 直近の `sql/deployed/` のファイルをベースに作成する。`sql/deployed/22.sql` 以前は `@url` のホストが `motitown-notification.astran.jp` なので、番号だけでなくホストも下の形に直す。全員配信のパターン:
 
-- `SET @url = 'https://motitown.com/notification/{N}' COLLATE utf8mb4_unicode_ci;` — 配信する URL は `motitown.com/notification/` 配下にする。アプリが表示言語に合わせて `/en/{N}` へ読み替えるのはこの URL だけで、`motitown-notification.astran.jp` のまま配信すると英語表示のユーザーにも日本語ページが開く(ページの公開先と下の確認用 URL は `motitown-notification.astran.jp` のままでよい。`motitown.com/notification/` はそこを同じパスで中継している)
+- `SET @url = 'https://motitown.com/notification/{N}' COLLATE utf8mb4_unicode_ci;` — 配信する URL は `motitown.com/notification/` 配下にする。アプリが表示言語に合わせて `/en/{N}` へ読み替えるのはこの URL だけで、`motitown-notification.astran.jp` のまま配信すると英語表示のユーザーにも日本語ページが開く(確認用 URL も同じ `motitown.com/notification/` を使う。curl は WAF が弾くので UA `MotitownOpsCheck/1.0` を付ける)
 - 「削除されていない(`deleted_at IS NULL`)」かつ「BOTでない(`is_bot = FALSE`)」かつ「直近3ヶ月以内にログイン」のユーザーへ
 - `app` = `'motispi'` と `'motitan'` のそれぞれに `notices` へ INSERT(タイトルは `'お知らせ'`)
 - 英語ユーザー向けの出し分けは SQL ではやらない。アプリ(v12 以降)が表示時に URL を `/en/{N}` に読み替え、番号のお知らせのタイトルをアプリ内の訳語に差し替える(仕様裁定 P-17)。BE は URL を書き換えないので、`@url` を上の形で入れておくことがそのまま英語表示の条件になる。配信前に `/notification-en` で英語版を作っておく(英語版が無いお知らせには `build_list.py` が日本語ページへの転送を置くので 404 にはならない)
@@ -38,11 +38,11 @@ description: モチタウンお知らせの配信用SQLを作成し、pushして
 1. `git add {N}/ sql/deployed/{N}.sql en/{N}/ en/index.html en/assets/notice-{N}.webp` — `.DS_Store` は追加しない。`{N}/brief.md` `{N}/draft.md` `{N}/en.json` も一緒に入れる(原稿と訳の履歴として残す)
 2. コミットメッセージは過去の慣例に合わせ「`add {N}`」
 3. `git push origin main` — GitHub Actions が回り公開される(初回pushのユーザーは無視される設定あり)
-4. 公開URL `https://motitown.com/notification/{N}/`(2026-09-24 からユーザー向けはこのドメイン。`motitown-notification.astran.jp` を同じパスで中継)を報告する。SQL の実行は配信担当が行うので、`sql/deployed/{N}.sql` のパスも併せて伝える
+4. 公開URL `https://motitown.com/notification/{N}/` を報告する。SQL の実行は配信担当が行うので、`sql/deployed/{N}.sql` のパスも併せて伝える
 
 ## 4. デプロイ完了を待つ
 
-GitHub Pages のデプロイには数十秒〜数分かかる。公開URLに新しい title が載るまでポーリングする(最大15分。ポーリングは中継元の `motitown-notification.astran.jp` に対して行う。`motitown.com` は curl を Cloudflare が弾くため):
+デプロイには数十秒〜数分かかる。公開URL `https://motitown.com/notification/{N}/` に新しい title が載るまでポーリングする(最大15分。素の curl は Cloudflare の WAF が弾くので、スクリプトは UA `MotitownOpsCheck/1.0` を付けている):
 
 ```sh
 .claude/skills/notification-sql/scripts/wait-deploy.sh {N}

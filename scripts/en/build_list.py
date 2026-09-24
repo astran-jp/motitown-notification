@@ -15,7 +15,7 @@ import json, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from extract import ROOT, JA  # noqa: E402
 
-SITE = "https://motitown-notification.astran.jp"
+SITE = "https://motitown.com/notification"
 CARD = re.compile(r'<a class="sd appear"[^>]*href="([^"]*)"[^>]*>.*?</a>', re.S)
 HEAD = {"お知らせ｜モチタウン": "Announcements | Motitown", "お知らせ": "Announcements"}
 

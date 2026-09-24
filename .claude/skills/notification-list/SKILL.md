@@ -21,7 +21,7 @@ description: お知らせ一覧(リポジトリ直下の index.html、モチタ�
 
 ## 手順
 
-1. **前提確認**: `{N}/` が公開済み(`https://motitown-notification.astran.jp/{N}/` が 200)で、`{N}/draft.md` の `date` が確定していること(TBD 不可)
+1. **前提確認**: `{N}/` が公開済み(`curl -A 'MotitownOpsCheck/1.0' https://motitown.com/notification/{N}/` が 200)で、`{N}/draft.md` の `date` が確定していること(TBD 不可)
 2. **一覧用タイトル**: `{N}/draft.md` の frontmatter `list_title`(無ければ `title`)。一覧では 1〜2 行に収まる短い文言が良いので、`title` が長い場合は `list_title` を追加してユーザーに確認する(「／」で改行)
 3. **追加**:
    ```sh
@@ -34,4 +34,4 @@ description: お知らせ一覧(リポジトリ直下の index.html、モチタ�
    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless --disable-gpu --hide-scrollbars --window-size=500,1100 --screenshot=<scratchpad>/list-top.png "file:///.../index.html"
    ```
 5. **push の前に差分を見せる**: `git diff -U0 index.html` の変更行(追加カード 1 行と lazy の付け替え)と `assets/notice-{N}.webp` の追加を返信に貼り、確認をとる
-6. **push**: `git add index.html assets/notice-{N}.webp {N}/draft.md`(list_title を足した場合)→ コミット「`{N}: お知らせ一覧に追加`」→ `git push origin main` → 中継元 `https://motitown-notification.astran.jp/` に載ったことを curl で確認し、ユーザーには `https://motitown.com/notification/` を報告
+6. **push**: `git add index.html assets/notice-{N}.webp {N}/draft.md`(list_title を足した場合)→ コミット「`{N}: お知らせ一覧に追加`」→ `git push origin main` → `https://motitown.com/notification/` に載ったことを curl(UA `MotitownOpsCheck/1.0`)で確認して報告
