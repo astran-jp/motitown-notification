@@ -28,10 +28,19 @@ TEXT="$MENTIONS 神谷です。お知らせを作成しました。ご確認く�
 
 if [ "$DRY" = "--dry-run" ]; then echo "channel=$CHANNEL"; echo "$TEXT"; exit 0; fi
 
+# JSON はブレース展開を避けるため python で組み立てる(環境変数経由)
+PAYLOAD="$(SLACK_CH="$CHANNEL" SLACK_TEXT="$TEXT" python3 -c 'import json,os;print(json.dumps(dict(channel=os.environ["SLACK_CH"],text=os.environ["SLACK_TEXT"],unfurl_links=False)))')"
 RESP="$(curl -s -X POST https://slack.com/api/chat.postMessage \
   -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json; charset=utf-8' \
-  --data "$(python3 -c "import json,sys;print(json.dumps({'channel':sys.argv[1],'text':sys.argv[2],'unfurl_links':False}))" "$CHANNEL" "$TEXT")")"
+  --data "$PAYLOAD")"
 OK="$(printf '%s' "$RESP" | python3 -c "import sys,json;j=json.load(sys.stdin);print('ok' if j.get('ok') else 'error:'+str(j.get('error')))")"
+if [ "$OK" = "error:not_in_channel" ]; then
+  # Bot がチャンネル未参加なら参加してから再送(公開チャンネルのみ。channels:join スコープが要る)
+  JOIN="$(curl -s -X POST https://slack.com/api/conversations.join -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' --data "$(SLACK_CH="$CHANNEL" python3 -c 'import json,os;print(json.dumps(dict(channel=os.environ["SLACK_CH"])))')" | python3 -c "import sys,json;j=json.load(sys.stdin);print('ok' if j.get('ok') else 'error:'+str(j.get('error')))")"
+  [ "$JOIN" = ok ] || { echo "Slack API join $JOIN(Bot を #02-develop に招待してください)" >&2; exit 3; }
+  RESP="$(curl -s -X POST https://slack.com/api/chat.postMessage -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json; charset=utf-8' --data "$PAYLOAD")"
+  OK="$(printf '%s' "$RESP" | python3 -c "import sys,json;j=json.load(sys.stdin);print('ok' if j.get('ok') else 'error:'+str(j.get('error')))")"
+fi
 [ "$OK" = ok ] || { echo "Slack API $OK" >&2; exit 3; }
 TS="$(printf '%s' "$RESP" | python3 -c "import sys,json;print(json.load(sys.stdin)['ts'])")"
 CH="$(printf '%s' "$RESP" | python3 -c "import sys,json;print(json.load(sys.stdin)['channel'])")"
