@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#fff9ee">
+<title>noteの投稿を報告｜モチタウン</title>
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:#fff9ee;color:#0d2a4e;font-family:"Noto Sans JP",sans-serif;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}
+h1,h2,p{margin:0}
+img{display:block}
+button,input{font:inherit;margin:0}
+[hidden]{display:none!important}
+
+.page{max-width:480px;margin:0 auto;padding-top:max(45px, env(safe-area-inset-top, 0px))}
+.head{height:64px;padding:0 20px;display:flex;align-items:center}
+.head img{width:132px;height:27px}
+.welcome{height:166px;padding:8px 20px 0;display:flex;flex-direction:column;gap:4px}
+.welcome h1{font-size:30px;line-height:40px;font-weight:700}
+.welcome-row{display:flex;align-items:center;gap:12px}
+.welcome-row p{flex:1;font-size:16px;line-height:27px;color:#3b5a6e}
+.welcome-row img{flex:none;width:112px;height:102px;object-fit:contain}
+
+.wrap{padding:0 18px}
+.panel{background:#fff;border:1px solid #d9e3e6;border-radius:20px;padding:22px 18px 24px;box-shadow:0 12px 36px rgba(15,41,64,.02)}
+
+.rewards{position:relative;height:172px}
+.rewards img{position:absolute;object-fit:contain;filter:drop-shadow(0 8px 12px rgba(15,41,64,.12))}
+.rewards .c515{left:0;top:96px;width:70px;height:70px}
+.rewards .c513{left:15.19%;top:62px;width:92px;height:92px}
+.rewards .c512{left:0;right:0;margin:0 auto;top:22px;width:128px;height:128px}
+.rewards .c514{right:14.56%;top:62px;width:92px;height:92px}
+.rewards .c516{right:-.63%;top:96px;width:70px;height:70px}
+.caption{font-size:15px;line-height:22px;font-weight:700;text-align:center}
+
+.identity{margin-top:20px;background:#e4f5fc;border-radius:14px;padding:16px 18px;display:flex;flex-direction:column;gap:2px}
+.identity span{font-size:15px;line-height:22px;font-weight:700;color:#3b5a6e}
+.identity strong{font-size:24px;line-height:32px;font-weight:900;overflow-wrap:anywhere}
+
+.field{margin-top:22px;display:flex;flex-direction:column}
+.field label{font-size:17px;line-height:24px;font-weight:700}
+.hint{margin-top:6px;font-size:15px;line-height:24px;color:#3b5a6e}
+.input{margin-top:16px;height:50px;display:flex;align-items:center;gap:1px;padding:0 12px 0 14px;background:#fff;border-radius:10px;box-shadow:inset 0 0 0 1.5px #3193c8}
+.input.error{box-shadow:inset 0 0 0 1.5px #a82921}
+/* 入りきらない URL は鉛筆を押し出して枠の右端まで見せる（Figma の Input と同じ） */
+.input.long{padding-right:0}
+.input.long svg{display:none}
+.input input{flex:1;min-width:0;height:100%;border:0;outline:0;padding:0;background:transparent;color:#0d2a4e;font-size:16px;line-height:19.2px;font-weight:700}
+.input input::placeholder{color:#99a7aa;opacity:1}
+.input svg{flex:none;width:16px;height:16px}
+.identity .input{margin-top:6px}
+
+.status{margin-top:10px;padding:12px 14px;border-radius:10px;background:#fff0eb;color:#a82822;font-size:15px;line-height:24px}
+.submit{margin-top:18px;width:100%;height:44px;border:0;border-radius:100px;background:#199de8;box-shadow:0 1.5px 0 rgba(0,0,0,.15);color:#fefefe;font-size:15px;line-height:18px;font-weight:700;cursor:pointer}
+.submit:disabled{opacity:.4;cursor:default}
+
+.done{display:flex;flex-direction:column;align-items:center;text-align:center;padding-bottom:38px}
+.done svg{width:64px;height:64px}
+.done h2{margin-top:12px;font-size:24px;line-height:34px;font-weight:700}
+.done p{font-size:16px;line-height:27px;color:#3b5a6e}
+
+.foot{padding:22px 20px 24px;display:flex;gap:18px;font-size:13px;line-height:20px;color:#3b5a6e}
+.foot a{color:#226c8c;text-decoration:underline;text-underline-offset:1px}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="head"><img src="../assets/logo-motitown.webp" alt="MotiTown"></header>
+  <section class="welcome">
+    <h1>noteの投稿を報告</h1>
+    <div class="welcome-row">
+      <p>記事のURLを送ると、限定キャラが届きます。</p>
+      <img src="../assets/bear.webp" alt="">
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="panel">
+      <form id="report" novalidate>
+        <div class="rewards" aria-hidden="true">
+          <img class="c515" src="../assets/chara-515.webp" alt="">
+          <img class="c513" src="../assets/chara-513.webp" alt="">
+          <img class="c512" src="../assets/chara-512.webp" alt="">
+          <img class="c514" src="../assets/chara-514.webp" alt="">
+          <img class="c516" src="../assets/chara-516.webp" alt="">
+        </div>
+        <p class="caption">1記事につき1体・5記事まで</p>
+
+        <div class="identity">
+          <span id="player-label">プレイヤーID</span>
+          <strong id="player-id" hidden></strong>
+          <div class="input" id="player-input" hidden><input name="user_id" aria-labelledby="player-label" placeholder="@a12345" autocomplete="off" autocapitalize="none" spellcheck="false"></div>
+        </div>
+
+        <div class="field">
+          <label for="url">note記事のURL</label>
+          <p class="hint" id="url-hint">公開記事・500文字以上・#モチタン か #モチスピ 付き</p>
+          <div class="input" id="url-box">
+            <input id="url" name="url" type="url" lang="en" inputmode="url" placeholder="https://note.com/…" autocomplete="off" autocapitalize="none" spellcheck="false" aria-describedby="url-hint status">
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M15.5021 1.94684L14.0523 0.496839C13.3898 -0.165629 12.312 -0.165597 11.6495 0.496839L11.082 1.06437L14.9346 4.9173L15.5021 4.34977C16.1661 3.68574 16.1662 2.61093 15.5021 1.94684Z" fill="#3193c8"/><path d="M0.687871 11.7734L0.00784107 15.446C-0.0202526 15.5977 0.0281223 15.7536 0.137278 15.8628C0.246559 15.9721 0.402497 16.0204 0.55409 15.9923L4.22633 15.3122L0.687871 11.7734Z" fill="#3193c8"/><path d="M10.4206 1.72754L1.19531 10.9535L5.04793 14.8064L14.2732 5.58047L10.4206 1.72754Z" fill="#3193c8"/></svg>
+          </div>
+          <p class="status" id="status" role="alert" hidden></p>
+        </div>
+
+        <button class="submit" id="submit" type="submit">送信する</button>
+      </form>
+
+      <section class="done" id="done" tabindex="-1" hidden>
+        <svg aria-hidden="true" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#done-shadow)"><circle cx="31.9987" cy="32.0002" r="26.6667" fill="#E4F5FC"/><circle cx="31.9987" cy="32.0002" r="27.1667" stroke="white"/></g><path d="M31.9987 5.3335C17.2707 5.3335 5.33203 17.2722 5.33203 32.0002C5.33203 46.7282 17.2707 58.6668 31.9987 58.6668C46.7267 58.6668 58.6654 46.7282 58.6654 32.0002C58.6654 17.2722 46.7267 5.3335 31.9987 5.3335ZM47.2174 25.8855L28.5507 44.5522C28.0307 45.0722 27.348 45.3335 26.6654 45.3335C25.9827 45.3335 25.3 45.0722 24.78 44.5522L16.78 36.5522C15.7374 35.5095 15.7374 33.8242 16.78 32.7815C17.8227 31.7388 19.508 31.7388 20.5507 32.7815L26.6654 38.8962L43.4467 22.1148C44.4894 21.0722 46.1747 21.0722 47.2174 22.1148C48.26 23.1575 48.26 24.8428 47.2174 25.8855Z" fill="#199DE8"/><defs><filter id="done-shadow" x="3.33203" y="4.3335" width="57.332" height="57.3335" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dy="1"/><feGaussianBlur stdDeviation="0.5"/><feComposite in2="hardAlpha" operator="out"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_88918_42685"/><feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_88918_42685" result="shape"/></filter></defs></svg>
+        <h2>報告を受け付けました</h2>
+        <p>キャラは5日以内に付与されます</p>
+      </section>
+    </div>
+  </div>
+
+  <footer class="foot" id="foot">
+    <a href="https://astran.jp/" data-external>運営会社</a>
+    <a href="../../../document/legal-privacy/motitan/" data-external>プライバシーポリシー</a>
+    <span>© Astran, Inc.</span>
+  </footer>
+</div>
+
+<script>
+(function () {
+  'use strict';
+  // 送信は motitown.com の自前フォーム基盤（/contact/api.php、form=note）。判定と保存はサーバー側
+  var API = '/contact/api.php';
+  var FORM = 'note';
+  var MESSAGES = {
+    not_note: 'note の記事URLを貼ってください',
+    too_short: '500文字以上の記事が対象です',
+    not_public: '公開されている記事のみ報告できます',
+    reported: 'この記事は報告済みです',
+    no_tag: '#モチタン か #モチスピ を付けてください'
+  };
+  var NOTE_URL = /^https?:\/\/(?:www\.)?note\.(?:com|mu)\/[A-Za-z0-9_-]+\/n\/(n[0-9a-f]{12})(?:[/?#]|$)/;
+
+  var form = document.getElementById('report');
+  var url = document.getElementById('url');
+  var urlBox = document.getElementById('url-box');
+  var status = document.getElementById('status');
+  var submit = document.getElementById('submit');
+  var playerInput = form.elements.user_id;
+
+  // アプリは ?user_id=@<display_id> で開く（URLManager.LinkNoteCampaign → イベント詳細 → ここ）。
+  // アプリ外から開いたときだけ手入力にする。ID をリンク先やアクセス解析へ送らないようアドレスからは消す
+  var userId = new URLSearchParams(location.search).get('user_id') || '';
+  try {
+    if (userId) sessionStorage.setItem('note_campaign_user_id', userId);
+    else userId = sessionStorage.getItem('note_campaign_user_id') || '';
+  } catch (e) {}
+  if (location.search) history.replaceState(null, '', location.pathname);
+  if (userId) {
+    var shown = document.getElementById('player-id');
+    shown.textContent = userId.replace(/^@/, '');
+    shown.hidden = false;
+  } else {
+    document.getElementById('player-input').hidden = false;
+  }
+  function player() {
+    var v = (userId || playerInput.value).trim();
+    return v && v.charAt(0) !== '@' ? '@' + v : v;
+  }
+
+  // フッターのリンクは外部（ブラウザ）で開く。アプリ内では Unity に URL を渡す
+  document.querySelectorAll('[data-external]').forEach(function (a) {
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.addEventListener('click', function (e) {
+      if (!(window.Unity && window.Unity.call)) return;
+      e.preventDefault();
+      window.Unity.call('openURL:' + a.href);
+    });
+  });
+
+  var csrf = null;
+  function session() {
+    if (csrf) return Promise.resolve(csrf);
+    return fetch(API + '?action=session', { cache: 'no-store' })
+      .then(function (r) { return r.json().then(function (d) { if (!r.ok) throw new Error(d.error); csrf = d.csrf; return csrf; }); });
+  }
+  function api(action, data) {
+    return session().then(function (token) {
+      return fetch(API + '?action=' + action, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'X-CSRF-Token': token },
+        body: JSON.stringify(data)
+      });
+    }).then(function (r) {
+      return r.json().catch(function () { throw new Error('通信が途切れました。もう一度お試しください。'); })
+        .then(function (d) { if (!r.ok) throw new Error(d.error || '送信できませんでした。もう一度お試しください。'); return d; });
+    });
+  }
+
+  var checked = '';   // サーバー判定を通った URL
+  var pending = 0;
+  var timer = 0;
+  function showError(text) {
+    status.textContent = text;
+    status.hidden = !text;
+    urlBox.classList.toggle('error', !!text);
+    url.setAttribute('aria-invalid', text ? 'true' : 'false');
+  }
+  // Figma どおり、送信ボタンはエラー表示中だけ非活性
+  function refresh() {
+    submit.disabled = !status.hidden;
+  }
+
+  // URL を貼った時点で判定する（形式はここで、公開・文字数・タグ・報告済みはサーバーが note から取って判定）
+  // 判定を通れば URL を、通らなければ null を返す
+  function check() {
+    var value = url.value.trim();
+    var seq = ++pending;
+    if (!NOTE_URL.test(value)) { showError(value ? MESSAGES.not_note : ''); refresh(); return Promise.resolve(null); }
+    if (value === checked) return Promise.resolve(value);
+    return api('note-check', { form: FORM, url: value, user_id: player() }).then(function (d) {
+      if (seq !== pending) return null;
+      checked = d.ok ? value : '';
+      showError(d.ok ? '' : MESSAGES[d.reason] || MESSAGES.not_note);
+      refresh();
+      return d.ok ? value : null;
+    }, function (e) {
+      if (seq === pending) { showError(e.message); refresh(); }
+      return null;
+    });
+  }
+  function fit() {
+    urlBox.classList.remove('long');
+    if (url.scrollWidth > url.clientWidth + 2) urlBox.classList.add('long');
+  }
+  // 長い URL は先頭から見せる
+  url.addEventListener('blur', function () { url.scrollLeft = 0; });
+  url.addEventListener('input', function () {
+    fit();
+    clearTimeout(timer);
+    timer = setTimeout(check, 400);
+  });
+
+  // 受付番号（32 桁 16 進）。crypto.randomUUID は iOS 15.4 から
+  var receipt = Array.prototype.map.call(crypto.getRandomValues(new Uint8Array(16)), function (b) { return (b + 256).toString(16).slice(1); }).join('');
+  var sending = false;
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (sending || submit.disabled) return;
+    clearTimeout(timer);
+    if (!url.value.trim()) { showError(MESSAGES.not_note); refresh(); url.focus(); return; }
+    if (!player()) { playerInput.focus(); return; }
+    sending = true;
+    submit.disabled = true;
+    check()
+      .then(function (value) {
+        if (!value) return;
+        return api('submit', { id: receipt, form: FORM, fields: { user_id: player(), url: value, website: '' }, files: [] }).then(function (d) {
+          if (!d.accepted) throw new Error('受付を確認できませんでした。もう一度お試しください。');
+          form.hidden = true;
+          document.getElementById('foot').hidden = true;
+          var done = document.getElementById('done');
+          done.hidden = false;
+          done.focus();
+        });
+      })
+      .catch(function (err) { showError(err.message); })
+      .then(function () { sending = false; refresh(); });
+  });
+})();
+</script>
+</body>
+</html>
