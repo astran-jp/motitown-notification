@@ -47,6 +47,22 @@ Gemini CLI(`npm i -g @google/gemini-cli`)と認証(`GEMINI_API_KEY` または `g
 - 折りたたみ (`button[aria-controls]`) は各ページ末尾の小さなスクリプトで `_isClose` を付け外ししている
 - X のポスト埋め込みは `blockquote.twitter-tweet` + `widgets.js`
 
+# 法務文書 (`/document/legal-privacy/…`) の正本
+
+利用規約・プライバシーポリシー・特定商取引法・資金決済法・Apple/Google 連携の**正本はこのリポジトリ**
+(2026-09-30 裁定)。Notion「外部公開ページ」の同名ページは写しであり、編集しても公開されない (Notion 側は 5/13 版のまま止まっている)。
+
+| ファイル | 役割 |
+|---|---|
+| `document/legal-privacy/<slug>/index.html` | 日本語 (正本)。改定はここを直す |
+| `document/legal-privacy/<slug>/en.html` | 英語本文 (正本)。日本語を直したら同じコミットで追従させる |
+| `en/document/legal-privacy/<slug>/index.html` | 生成物。`python3 scripts/en/build_doc.py document/legal-privacy/<slug>` で作り直す。手で編集しない |
+
+- モチスピの規約・プラポリの英訳はモチタンの英訳と同じ訳文を土台にし、モチスピ固有の箇所だけ差し替える (改定を 1 回訳せば両方に反映できる)
+- 改定したら末尾の【YYYY年M月D日改定】と英語の [Revised …] を両方更新する
+- 弁護士レビュー用の下書きは Notion に一時ページを作ってよいが、確定したらここへ反映して下書きは閉じる
+- 既知の残件: モチタン `motitan/index.html` 第1条の表が画像 (`assets/01-*.webp`) で、文言がモチスピ用 (音声データ・会話内容) になっている疑い。テキストの `<table>` へ置き換えて直す
+
 # ストアへの案内ページ (`/store/`)
 
 強制アップデートや相互送客でアプリが開く「アプリ一覧」ページ。旧ページは
