@@ -74,6 +74,30 @@ Figma「モチタンUI」の `20260930_noteキャンペーン_…_完成版` セ
 - 登場とスクロール出現のアニメーションは Figma の「🎬 MI仕様」カードの数値どおり。「視差を減らす」ではフェードのみ
 - 画像は Figma の画像フィルをそのまま WebP にしたもの (`event/note_campaign/assets/`)
 
+# 法務文書 (`/document/legal-privacy/…`) の正本
+
+利用規約・プライバシーポリシー・特定商取引法・資金決済法・Apple/Google 連携・Astran プライバシーポリシー・Astran 外部送信ポリシー・ライセンスの**正本はこのリポジトリの HTML**（2026-09-30 裁定、2026-10-01 に会社全体の 2 本も移植して Notion 管理を終了）。Notion「外部公開ページ」は写しであり、編集しても公開されない。
+
+| ファイル | 役割 |
+|---|---|
+| `document/legal-privacy/<slug>/index.html` | 日本語（正本）。改定はここを直す |
+| `document/legal-privacy/<slug>/en.html` | 英語本文（正本）。日本語を直したら同じコミットで追従させる |
+| `en/document/legal-privacy/<slug>/index.html` | 生成物。`python3 scripts/en/build_doc.py document/legal-privacy/<slug>` で作り直す。手で編集しない |
+
+| slug | 文書 | アプリから参照 |
+|---|---|---|
+| `riyokiyaku` / `riyokiyaku/motispi` | 利用規約（モチタン／モチスピ） | ○ |
+| `motitan` / `motispi` | プライバシーポリシー（モチタン／モチスピ） | ○ |
+| `tokuteisyoho` / `shikinkessaiho` | 特定商取引法・資金決済法に基づく表示 | ○ |
+| `data-usage` | Apple/Google 連携により取得する個人情報 | ○ |
+| `astran-privacy` / `external-transmission` | Astran プライバシーポリシー・外部送信ポリシー（会社全体。astran.jp のフッターのリンク先） | — |
+| `../license` | ライセンス | ○ |
+
+- 変更の出し方: 差分を岡島が承認 → 日本語と英語を同じ PR で直す → マージ後に公開 URL を実機で確認。法務文書フォルダへの直接 push はしない
+- モチスピの規約・プラポリの英訳はモチタンの英訳と同じ訳文を土台にし、モチスピ固有の箇所だけ差し替える（改定を 1 回訳せば両方に反映できる）
+- 改定したら末尾の【YYYY年M月D日改定】と英語の [Revised …] を両方更新する
+- 公開中ページの一覧は `python3 scripts/public_pages.py --html <out.html>` で生成する（分類・英語版の有無・改定日・アプリ参照）
+
 # ストアへの案内ページ (`/store/`)
 
 強制アップデートや相互送客でアプリが開く「アプリ一覧」ページ。旧ページは
