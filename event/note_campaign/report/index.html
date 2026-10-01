@@ -40,10 +40,6 @@ button,input{font:inherit;margin:0}
 .rewards .c516{right:-.63%;top:96px;width:70px;height:70px}
 .caption{font-size:15px;line-height:22px;font-weight:700;text-align:center}
 
-.identity{margin-top:20px;background:#e4f5fc;border-radius:14px;padding:16px 18px;display:flex;flex-direction:column;gap:2px}
-.identity span{font-size:15px;line-height:22px;font-weight:700;color:#3b5a6e}
-.identity strong{font-size:24px;line-height:32px;font-weight:900;overflow-wrap:anywhere}
-
 .field{margin-top:22px;display:flex;flex-direction:column}
 .field label{font-size:17px;line-height:24px;font-weight:700}
 .hint{margin-top:6px;font-size:15px;line-height:24px;color:#3b5a6e}
@@ -55,7 +51,6 @@ button,input{font:inherit;margin:0}
 .input input{flex:1;min-width:0;height:100%;border:0;outline:0;padding:0;background:transparent;color:#0d2a4e;font-size:16px;line-height:19.2px;font-weight:700}
 .input input::placeholder{color:#99a7aa;opacity:1}
 .input svg{flex:none;width:16px;height:16px}
-.identity .input{margin-top:6px}
 
 .status{margin-top:10px;padding:12px 14px;border-radius:10px;background:#fff0eb;color:#a82822;font-size:15px;line-height:24px}
 .submit{margin-top:18px;width:100%;height:44px;border:0;border-radius:100px;background:#199de8;box-shadow:0 1.5px 0 rgba(0,0,0,.15);color:#fefefe;font-size:15px;line-height:18px;font-weight:700;cursor:pointer}
@@ -93,12 +88,6 @@ button,input{font:inherit;margin:0}
         </div>
         <p class="caption">1記事につき1体・5記事まで</p>
 
-        <div class="identity">
-          <span id="player-label">プレイヤーID</span>
-          <strong id="player-id" hidden></strong>
-          <div class="input" id="player-input" hidden><input name="user_id" aria-labelledby="player-label" placeholder="@a12345" autocomplete="off" autocapitalize="none" spellcheck="false"></div>
-        </div>
-
         <div class="field">
           <label for="url">note記事のURL</label>
           <p class="hint" id="url-hint">公開記事・500文字以上・#モチタン か #モチスピ 付き</p>
@@ -115,7 +104,8 @@ button,input{font:inherit;margin:0}
       <section class="done" id="done" tabindex="-1" hidden>
         <svg aria-hidden="true" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#done-shadow)"><circle cx="31.9987" cy="32.0002" r="26.6667" fill="#E4F5FC"/><circle cx="31.9987" cy="32.0002" r="27.1667" stroke="white"/></g><path d="M31.9987 5.3335C17.2707 5.3335 5.33203 17.2722 5.33203 32.0002C5.33203 46.7282 17.2707 58.6668 31.9987 58.6668C46.7267 58.6668 58.6654 46.7282 58.6654 32.0002C58.6654 17.2722 46.7267 5.3335 31.9987 5.3335ZM47.2174 25.8855L28.5507 44.5522C28.0307 45.0722 27.348 45.3335 26.6654 45.3335C25.9827 45.3335 25.3 45.0722 24.78 44.5522L16.78 36.5522C15.7374 35.5095 15.7374 33.8242 16.78 32.7815C17.8227 31.7388 19.508 31.7388 20.5507 32.7815L26.6654 38.8962L43.4467 22.1148C44.4894 21.0722 46.1747 21.0722 47.2174 22.1148C48.26 23.1575 48.26 24.8428 47.2174 25.8855Z" fill="#199DE8"/><defs><filter id="done-shadow" x="3.33203" y="4.3335" width="57.332" height="57.3335" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dy="1"/><feGaussianBlur stdDeviation="0.5"/><feComposite in2="hardAlpha" operator="out"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_88918_42685"/><feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_88918_42685" result="shape"/></filter></defs></svg>
         <h2>報告を受け付けました</h2>
-        <p>キャラは5日以内に付与されます</p>
+        <p>限定キャラを付与しました<br>プレゼントボックスで受け取れます</p>
+        <p id="done-count" hidden></p>
       </section>
     </div>
   </div>
@@ -130,16 +120,23 @@ button,input{font:inherit;margin:0}
 <script>
 (function () {
   'use strict';
-  // 送信は motitown.com の自前フォーム基盤（/contact/api.php、form=note）。判定と保存はサーバー側
-  var API = '/contact/api.php';
-  var FORM = 'note';
+  // 判定と報告は motitan-api を直接呼ぶ（別オリジン。Cookie も CSRF トークンも使わず、アプリが渡したトークンで本人を特定する）
+  var API = 'https://motitan-api.astran.dev/note-campaign/';
+  var MAX_REPORTS = 5;
   var MESSAGES = {
     not_note: 'note の記事URLを貼ってください',
     too_short: '500文字以上の記事が対象です',
     not_public: '公開されている記事のみ報告できます',
     reported: 'この記事は報告済みです',
-    no_tag: '#モチタン か #モチスピ を付けてください'
+    no_tag: '#モチタン か #モチスピ を付けてください',
+    official: 'モチタン公式の記事は対象外です',
+    limit_reached: '報告できるのは1アカウント5記事までです',
+    completed: '限定キャラは5体すべて獲得済みです',
+    invalid_token: '確認できませんでした。アプリのバナーから開き直してください'
   };
+  // HTTP が 200 以外・通信失敗・応答が読めない・知らない reason。サーバーの文言は出さない
+  var RETRY = '確認できませんでした。時間をおいてもう一度お試しください';
+  var NO_TOKEN = '報告はアプリから行えます。アプリのバナーから開き直してください';
   var NOTE_URL = /^https?:\/\/(?:www\.)?note\.(?:com|mu)\/[A-Za-z0-9_-]+\/n\/(n[0-9a-f]{12})(?:[/?#]|$)/;
 
   var form = document.getElementById('report');
@@ -147,27 +144,15 @@ button,input{font:inherit;margin:0}
   var urlBox = document.getElementById('url-box');
   var status = document.getElementById('status');
   var submit = document.getElementById('submit');
-  var playerInput = form.elements.user_id;
 
-  // アプリは ?user_id=@<display_id> で開く（URLManager.LinkNoteCampaign → イベント詳細 → ここ）。
-  // アプリ外から開いたときだけ手入力にする。ID をリンク先やアクセス解析へ送らないようアドレスからは消す
-  var userId = new URLSearchParams(location.search).get('user_id') || '';
+  // アプリは ?token=<トークン> で開く（URLManager.LinkNoteCampaign → イベント詳細 → ここ）。
+  // トークンをリンク先やアクセス解析へ送らないよう、タブ内に控えてアドレスからは消す
+  var token = new URLSearchParams(location.search).get('token') || '';
   try {
-    if (userId) sessionStorage.setItem('note_campaign_user_id', userId);
-    else userId = sessionStorage.getItem('note_campaign_user_id') || '';
+    if (token) sessionStorage.setItem('note_campaign_token', token);
+    else token = sessionStorage.getItem('note_campaign_token') || '';
   } catch (e) {}
   if (location.search) history.replaceState(null, '', location.pathname);
-  if (userId) {
-    var shown = document.getElementById('player-id');
-    shown.textContent = userId.replace(/^@/, '');
-    shown.hidden = false;
-  } else {
-    document.getElementById('player-input').hidden = false;
-  }
-  function player() {
-    var v = (userId || playerInput.value).trim();
-    return v && v.charAt(0) !== '@' ? '@' + v : v;
-  }
 
   // フッターのリンクは外部（ブラウザ）で開く。アプリ内では Unity に URL を渡す
   document.querySelectorAll('[data-external]').forEach(function (a) {
@@ -180,23 +165,23 @@ button,input{font:inherit;margin:0}
     });
   });
 
-  var csrf = null;
-  function session() {
-    if (csrf) return Promise.resolve(csrf);
-    return fetch(API + '?action=session', { cache: 'no-store' })
-      .then(function (r) { return r.json().then(function (d) { if (!r.ok) throw new Error(d.error); csrf = d.csrf; return csrf; }); });
-  }
-  function api(action, data) {
-    return session().then(function (token) {
-      return fetch(API + '?action=' + action, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'X-CSRF-Token': token },
-        body: JSON.stringify(data)
-      });
+  // name は checks（判定だけ）か reports（判定して報告・付与）。判定 NG も HTTP 200 で返る
+  // Content-Type は application/json ちょうど（charset を付けるとサーバーが JSON として扱わない）
+  function api(name, value) {
+    return fetch(API + name, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ token: token, url: value })
     }).then(function (r) {
-      return r.json().catch(function () { throw new Error('通信が途切れました。もう一度お試しください。'); })
-        .then(function (d) { if (!r.ok) throw new Error(d.error || '送信できませんでした。もう一度お試しください。'); return d; });
-    });
+      if (!r.ok) throw new Error(RETRY);
+      return r.json();
+    }).then(function (d) {
+      if (!d || typeof d.ok !== 'boolean') throw new Error(RETRY);
+      return d;
+    }, function () { throw new Error(RETRY); });
+  }
+  function message(reason) {
+    return Object.prototype.hasOwnProperty.call(MESSAGES, reason) ? MESSAGES[reason] : RETRY;
   }
 
   var checked = '';   // サーバー判定を通った URL
@@ -220,10 +205,10 @@ button,input{font:inherit;margin:0}
     var seq = ++pending;
     if (!NOTE_URL.test(value)) { showError(value ? MESSAGES.not_note : ''); refresh(); return Promise.resolve(null); }
     if (value === checked) return Promise.resolve(value);
-    return api('note-check', { form: FORM, url: value, user_id: player() }).then(function (d) {
+    return api('checks', value).then(function (d) {
       if (seq !== pending) return null;
       checked = d.ok ? value : '';
-      showError(d.ok ? '' : MESSAGES[d.reason] || MESSAGES.not_note);
+      showError(d.ok ? '' : message(d.reason));
       refresh();
       return d.ok ? value : null;
     }, function (e) {
@@ -243,22 +228,26 @@ button,input{font:inherit;margin:0}
     timer = setTimeout(check, 400);
   });
 
-  // 受付番号（32 桁 16 進）。crypto.randomUUID は iOS 15.4 から
-  var receipt = Array.prototype.map.call(crypto.getRandomValues(new Uint8Array(16)), function (b) { return (b + 256).toString(16).slice(1); }).join('');
   var sending = false;
   form.addEventListener('submit', function (e) {
     e.preventDefault();
     if (sending || submit.disabled) return;
     clearTimeout(timer);
     if (!url.value.trim()) { showError(MESSAGES.not_note); refresh(); url.focus(); return; }
-    if (!player()) { playerInput.focus(); return; }
     sending = true;
     submit.disabled = true;
     check()
       .then(function (value) {
         if (!value) return;
-        return api('submit', { id: receipt, form: FORM, fields: { user_id: player(), url: value, website: '' }, files: [] }).then(function (d) {
-          if (!d.accepted) throw new Error('受付を確認できませんでした。もう一度お試しください。');
+        return api('reports', value).then(function (d) {
+          if (!d.ok) { checked = ''; showError(message(d.reason)); return; }
+          // 「報告済み n/5」は件数が返った時だけ出す
+          var n = d.num_reports;
+          if (typeof n === 'number' && n >= 1 && n <= MAX_REPORTS && n % 1 === 0) {
+            var count = document.getElementById('done-count');
+            count.textContent = '報告済み ' + n + '/' + MAX_REPORTS;
+            count.hidden = false;
+          }
           form.hidden = true;
           document.getElementById('foot').hidden = true;
           var done = document.getElementById('done');
@@ -269,6 +258,14 @@ button,input{font:inherit;margin:0}
       .catch(function (err) { showError(err.message); })
       .then(function () { sending = false; refresh(); });
   });
+
+  // トークンが無い（アプリ外から開いた・アプリが取得できなかった）時は、入力も送信もできない状態で案内だけ出す
+  if (!token) {
+    url.disabled = true;
+    submit.disabled = true;
+    status.textContent = NO_TOKEN;
+    status.hidden = false;
+  }
 })();
 </script>
 </body>
