@@ -57,14 +57,21 @@ def write_fallbacks():
     for d in page_dirs():
         if not os.path.isfile(os.path.join(ROOT, d, "index.html")) or is_translated(d):
             continue
-        target = f"/{d}/"
-        html = (f'<!DOCTYPE html>{FALLBACK_MARK}\n<html lang="ja"><head><meta charset="utf-8"><meta name="robots" content="noindex">'
-                f'<meta http-equiv="refresh" content="0; url={target}"><link rel="canonical" href="{SITE}{target}">'
-                f'<title>Redirecting…</title></head><body><a href="{target}">{SITE}{target}</a></body></html>\n')
-        os.makedirs(os.path.join(ROOT, "en", d), exist_ok=True)
-        open(os.path.join(ROOT, "en", d, "index.html"), "w", encoding="utf-8").write(html)
+        write_fallback(d)
         n += 1
     return n
+
+
+def write_fallback(d):
+    target = f"/{d}/"
+    # meta refresh はクエリを落とす。アプリが付けるクエリ(note キャンペーンの user_id など)を日本語ページへ引き継ぐため、
+    # 先にスクリプトで転送する。転送先は motitown.com 配下への書き換えを受ける <a> の href から取る
+    html = (f'<!DOCTYPE html>{FALLBACK_MARK}\n<html lang="ja"><head><meta charset="utf-8"><meta name="robots" content="noindex">'
+            f'<meta http-equiv="refresh" content="0; url={target}"><link rel="canonical" href="{SITE}{target}">'
+            f'<title>Redirecting…</title></head><body><a href="{target}">{SITE}{target}</a>'
+            f'<script>location.replace(document.querySelector("a").getAttribute("href")+location.search+location.hash)</script></body></html>\n')
+    os.makedirs(os.path.join(ROOT, "en", d), exist_ok=True)
+    open(os.path.join(ROOT, "en", d, "index.html"), "w", encoding="utf-8").write(html)
 
 
 def sync_thumb(d, card):

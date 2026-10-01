@@ -47,6 +47,33 @@ Gemini CLI(`npm i -g @google/gemini-cli`)と認証(`GEMINI_API_KEY` または `g
 - 折りたたみ (`button[aria-controls]`) は各ページ末尾の小さなスクリプトで `_isClose` を付け外ししている
 - X のポスト埋め込みは `blockquote.twitter-tweet` + `widgets.js`
 
+# note 投稿キャンペーン (`/event/note_campaign/`)
+
+MT-6124。ホームのイベントバナーから、アプリがヘッダーなしの全画面 WebView で開くページ
+(`URLManager.LinkNoteCampaign()`、`PopupWebViewFullScreen` の `hideHeader`)。デザインの正本は
+Figma「モチタンUI」の `20260930_noteキャンペーン_…_完成版` セクション (node `88901:149780`)。
+
+| パス | 内容 |
+|---|---|
+| `/event/note_campaign/` | イベント詳細 (KV・限定キャラ 5 体・やること・事例・注意事項・下部固定の CTA)。キャラをタップするとキャラ詳細ポップ |
+| `/event/note_campaign/report/` | 投稿の報告フォーム (入力 → 完了、エラー 5 種) |
+| `/en/event/note_campaign/…` | 英語版は無し。日本語ページへの転送スタブ (クエリを引き継ぐ) |
+
+- アプリは `?user_id=@<display_id>` を付けて開く。イベント詳細は「投稿を報告する」のリンクへ引き継ぎ、
+  報告フォームは表示と送信に使う。どちらのページも読んだ後にアドレスからクエリを消す (contact.js と同じ)。
+  アプリ外から開いて `user_id` が無いときだけ、プレイヤー ID を手入力にする
+- アプリとの橋渡しは `Unity.call()`: 左上の戻る = `swipeBack` (WebView を閉じる)、note へのリンク = `openURL:<url>`
+  (note アプリ / ブラウザで外部に開く。アプリ側が受けるまではアプリ内では何も起きない)。アプリ外では通常のリンク
+- 報告フォームは motitown.com の自前フォーム基盤 (`astran-jp/motitown` の `contact/`) を同一オリジンで呼ぶ。
+  サーバー側に次の 2 つが要る (このリポジトリには無い):
+  - `api.php?action=note-check` — `{form:"note", url, user_id}` → `{ok:true}` か `{ok:false, reason}`。
+    `reason` は `not_note` / `too_short` / `not_public` / `reported` / `no_tag` で、文言はページ側が持つ
+    (note の公開 API `GET https://note.com/api/v3/notes/<key>` で公開・500 文字・`hashtag_notes` を判定)
+  - `schema.php` の `note` フォーム (`user_id`, `url`)。`action=submit` の受付・上限 (1 アカウント 5 記事) はサーバーで判定し、
+    エラーは `{error}` の文言をそのまま入力欄の下に出す
+- 登場とスクロール出現のアニメーションは Figma の「🎬 MI仕様」カードの数値どおり。「視差を減らす」ではフェードのみ
+- 画像は Figma の画像フィルをそのまま WebP にしたもの (`event/note_campaign/assets/`)
+
 # ストアへの案内ページ (`/store/`)
 
 強制アップデートや相互送客でアプリが開く「アプリ一覧」ページ。旧ページは
