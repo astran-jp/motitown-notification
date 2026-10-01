@@ -50,7 +50,9 @@ def main():
     end = html.index("<!-- -->", start)
     # 末尾は「</div></div><!-- -->」(richText の閉じ + appear の閉じ)。appear の閉じは残す
     end = html.rfind("</div>", start, end)
-    new_body = (f'<div class="richText sd"{heading_attr}><h2 id="index_txZJqCzR">{title}</h2></div>'
+    switch = (f'<p class="lang-switch" style="font-size:14px;margin:8px 0 0;">'
+              f'<a data-has-link="true" href="/{d}/" rel="noopener" style="display:inline-block;padding:3px 12px;border:1px solid #1b6aa5;border-radius:999px;color:#1b6aa5;text-decoration:none;">日本語</a></p>')
+    new_body = (f'<div class="richText sd"{heading_attr}><h2 id="index_txZJqCzR">{title}</h2>{switch}</div>'
                 f'<div class="richText sd"{body_attr}>{en_body}</div>')
     out = html[:start] + new_body + html[end:]
 
@@ -68,7 +70,7 @@ def main():
     out = re.sub(r"(url\(['\"]?)(?!https?:|/|#|data:)(?=[\w.])", lambda mm: mm.group(1) + rel + "/", out)
     os.makedirs(en_dir, exist_ok=True)
     open(os.path.join(en_dir, "index.html"), "w", encoding="utf-8").write(out)
-    body = re.sub(r"<!--.*?-->|<style.*?</style>|<script.*?</script>", "", out, flags=re.S)
+    body = re.sub(r"<!--.*?-->|<style.*?</style>|<script.*?</script>|<p class=\"lang-switch\".*?</p>", "", out, flags=re.S)
     left = JA.findall(body)
     runs = re.findall(r"[぀-ヿ一-鿿][^<\"]{0,30}", body)
     print(f"en/{d}/index.html: 生成。残った日本語 {len(left)} 文字" + (f" 例: {runs[:5]}" if runs else ""))

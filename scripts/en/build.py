@@ -11,6 +11,10 @@ usage: build.py <dir>          # 22 / Notification/7 など
 """
 import json, os, re, sys
 
+LANG_SWITCH = ('<p class="lang-switch" style="font-size:14px;margin:8px 0 0;">'
+               '<a data-has-link="true" href="/{d}/" rel="noopener" style="display:inline-block;padding:3px 12px;border:1px solid #1b6aa5;border-radius:999px;color:#1b6aa5;text-decoration:none;">日本語</a></p>')
+
+
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from extract import ROOT, JA, segments, attrs  # noqa: E402
 
@@ -113,6 +117,8 @@ def main():
         out = out.replace("</head>", EN_TEXT_STYLE + "</head>", 1)
 
     # 言語・フォント・URL
+    # 文書ページの言語切替（日本語ページの「English」→ 英語ページでは「日本語」に向け直す）
+    out = re.sub(r'<p class="lang-switch".*?</p>', LANG_SWITCH.format(d=d), out, count=1, flags=re.S)
     out = out.replace('lang="ja"', 'lang="en"', 1)
     out = out.replace("family=Noto+Sans+JP", "family=Noto+Sans").replace('"Noto Sans JP"', '"Noto Sans"').replace("'Noto Sans JP'", "'Noto Sans'")
     # ページ自身の URL(og:url / canonical)だけ英語版に。アセットの絶対 URL は日本語版のまま
@@ -139,7 +145,7 @@ def main():
             pass
 
     open(os.path.join(en_dir, "index.html"), "w", encoding="utf-8").write(out)
-    body = re.sub(r"<!--.*?-->|<style.*?</style>|<script.*?</script>", "", out, flags=re.S)
+    body = re.sub(r"<!--.*?-->|<style.*?</style>|<script.*?</script>|<p class=\"lang-switch\".*?</p>", "", out, flags=re.S)
     left = JA.findall(body)
     runs = re.findall(r"[぀-ヿ一-鿿][^<\"]{0,30}", body)
     print(f"en/{d}/index.html: 生成。残った日本語 {len(left)} 文字" + (f" 例: {runs[:5]}" if runs else ""))
