@@ -254,17 +254,20 @@ img{display:block}
   'use strict';
   var inApp = !!(window.Unity && window.Unity.call);
 
-  // アプリは LinkNoteCampaign() で ?user_id=@<display_id> を付けて開く。報告フォームへ引き継ぎ、アドレスからは消す
-  // 戻る・再読み込みでもクエリは消えているので、タブ内に覚えておく
-  var userId = new URLSearchParams(location.search).get('user_id') || '';
+  // アプリは LinkNoteCampaign() で ?token=<トークン> を付けて開く。タブ内に控えて報告フォームへ引き継ぎ、アドレスからは消す
+  // トークンが無くても（アプリ外・アプリが取得に失敗）このページは普通に読める
+  var token = new URLSearchParams(location.search).get('token') || '';
+  var stored = false;
   try {
-    if (userId) sessionStorage.setItem('note_campaign_user_id', userId);
-    else userId = sessionStorage.getItem('note_campaign_user_id') || '';
+    if (token) { sessionStorage.setItem('note_campaign_token', token); stored = true; }
   } catch (e) {}
   if (location.search) history.replaceState(null, '', location.pathname + location.hash);
-  document.querySelectorAll('[data-report]').forEach(function (a) {
-    if (userId) a.href = 'report/?user_id=' + encodeURIComponent(userId);
-  });
+  // sessionStorage が使えない時だけ、報告フォームへのリンクで渡す（報告フォームも読んだ後にアドレスから消す）
+  if (token && !stored) {
+    document.querySelectorAll('[data-report]').forEach(function (a) {
+      a.href = 'report/?token=' + encodeURIComponent(token);
+    });
+  }
 
   // 戻る: アプリの WebView を閉じる（PopupWebViewFullScreen の swipeBack）。ブラウザでは履歴を戻る
   document.querySelector('[data-close]').addEventListener('click', function () {

@@ -56,21 +56,30 @@ Figma「モチタンUI」の `20260930_noteキャンペーン_…_完成版` セ
 | パス | 内容 |
 |---|---|
 | `/event/note_campaign/` | イベント詳細 (KV・限定キャラ 5 体・やること・事例・注意事項・下部固定の CTA)。キャラをタップするとキャラ詳細ポップ |
-| `/event/note_campaign/report/` | 投稿の報告フォーム (入力 → 完了、エラー 5 種) |
+| `/event/note_campaign/report/` | 投稿の報告フォーム (入力 → 完了、エラー 9 種) |
 | `/en/event/note_campaign/…` | 英語版は無し。日本語ページへの転送スタブ (クエリを引き継ぐ) |
 
-- アプリは `?user_id=@<display_id>` を付けて開く。イベント詳細は「投稿を報告する」のリンクへ引き継ぎ、
-  報告フォームは表示と送信に使う。どちらのページも読んだ後にアドレスからクエリを消す (contact.js と同じ)。
-  アプリ外から開いて `user_id` が無いときだけ、プレイヤー ID を手入力にする
+- アプリはログイン済みの通信で motitan-api からトークンを受け取り、`?token=<トークン>` を付けて開く。
+  どちらのページも読んだ後に sessionStorage (`note_campaign_token`) に控えて、アドレスからクエリを消す。
+  イベント詳細 → 報告フォームへは sessionStorage で引き継ぐ (使えない時だけリンクのクエリで渡す)。
+  トークンはリンク先・解析・ログ・画面に出さない
+- トークンが無い時 (アプリ外から開いた、アプリがトークンを取れなかった): イベント詳細は普通に読める。
+  報告フォームは入力・送信ができない状態になり、アプリのバナーから開き直す案内を出す
 - アプリとの橋渡しは `Unity.call()`: 左上の戻る = `swipeBack` (WebView を閉じる)、note へのリンク = `openURL:<url>`
   (note アプリ / ブラウザで外部に開く。アプリ側が受けるまではアプリ内では何も起きない)。アプリ外では通常のリンク
-- 報告フォームは motitown.com の自前フォーム基盤 (`astran-jp/motitown` の `contact/`) を同一オリジンで呼ぶ。
-  サーバー側に次の 2 つが要る (このリポジトリには無い):
-  - `api.php?action=note-check` — `{form:"note", url, user_id}` → `{ok:true}` か `{ok:false, reason}`。
-    `reason` は `not_note` / `too_short` / `not_public` / `reported` / `no_tag` で、文言はページ側が持つ
-    (note の公開 API `GET https://note.com/api/v3/notes/<key>` で公開・500 文字・`hashtag_notes` を判定)
-  - `schema.php` の `note` フォーム (`user_id`, `url`)。`action=submit` の受付・上限 (1 アカウント 5 記事) はサーバーで判定し、
-    エラーは `{error}` の文言をそのまま入力欄の下に出す
+- 報告フォームは motitan-api (`https://motitan-api.astran.dev`、別オリジン) を直接呼ぶ。
+  motitown.com の `/contact/api.php` は使わない (CSRF トークン・受付番号も無い)。
+  リクエストはどちらも `{token, url}`、`Content-Type` は `application/json` ちょうど (`; charset=…` を付けない):
+  - `POST /note-campaign/checks` — URL を貼って入力が 0.4 秒止まった時の判定。`{ok:true}` か `{ok:false, reason}`
+  - `POST /note-campaign/reports` — 送信時。判定を通ればその場で限定キャラを 1 体付与する。
+    `{ok:true, num_reports}` か `{ok:false, reason, num_reports}`。完了画面の「報告済み n/5」は `num_reports` が取れた時だけ出す
+  - 判定 NG は HTTP 200 + `reason`。`reason` は `not_note` / `reported` / `not_public` / `official` / `too_short` /
+    `no_tag` / `limit_reached` / `completed` / `invalid_token` の 9 種で、文言はページ側が持つ
+  - HTTP が 200 以外・通信失敗・応答が読めない・知らない `reason` は、固定の「時間をおいてもう一度お試しください」を出す。
+    サーバーのエラー本文 (`{message}`) は画面に出さない
+- API の URL は本番だけ (報告フォームの定数 `API`)。環境の切り替えは無い。dev / stg のアプリが発行したトークンは
+  本番 API では `invalid_token` になるので、アプリ → ページ → API の通し確認は、本番に API を出した後、
+  本番向けのアプリでしかできない。それまでは、ローカルで静的サーバーを立て、定数 `API` を手元の模擬サーバーに向けて確かめる
 - 登場とスクロール出現のアニメーションは Figma の「🎬 MI仕様」カードの数値どおり。「視差を減らす」ではフェードのみ
 - 画像は Figma の画像フィルをそのまま WebP にしたもの (`event/note_campaign/assets/`)
 
