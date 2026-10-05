@@ -1,62 +1,258 @@
 <!DOCTYPE html>
-<!-- 移植元: https://motitan-notification.astran.jp/information/beginner-guide/1 (STUDIO) -->
-<html lang="ja">
+<!-- モチタンの使い方（初心者ガイド）。2026-10 刷新: 公式「使い方解説」動画（基本編・効果的に学習する編）の台本が内容の正本。
+     アプリのホームのバナー「モチタンの使い方」から PopupWebViewFullScreen で開く（URLManager.LinkBeginnersGuide）。旧 2〜5 ページはこのページへ転送 -->
+<html lang="ja" class="no-js">
 <head>
 <meta charset="utf-8">
 <meta name="robots" content="noindex">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>モチタンの使い方 (1/5)｜モチタウン</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>モチタンの使い方｜モチタウン</title>
+<meta name="description" content="モチタンの使い方を公式がわかりやすく解説。対戦・単語力診断・ミッションの3つから始めよう。">
 <meta property="og:title" content="モチタンの使い方">
 <meta property="og:type" content="article">
-<link rel="icon" type="image/png" href="/favicon.png">
-
-<style>
-html,body{margin:0;padding:0;background:#fff;}
-@keyframes loading-spin-9f7266e2 { 
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(1turn); }
-}
-.StudioCanvas { height: auto; min-height: 100dvh; display: flex; }
-.StudioCanvas > .sd { min-height: 100dvh; overflow: clip; }
-:where(.render-canvas), :where(.render-canvas) a, :where(.render-canvas) abbr, :where(.render-canvas) address, :where(.render-canvas) article, :where(.render-canvas) aside, :where(.render-canvas) audio, :where(.render-canvas) b, :where(.render-canvas) blockquote, :where(.render-canvas) button, :where(.render-canvas) canvas, :where(.render-canvas) caption, :where(.render-canvas) cite, :where(.render-canvas) code, :where(.render-canvas) dd, :where(.render-canvas) del, :where(.render-canvas) details, :where(.render-canvas) dfn, :where(.render-canvas) div, :where(.render-canvas) dl, :where(.render-canvas) dt, :where(.render-canvas) em, :where(.render-canvas) fieldset, :where(.render-canvas) figcaption, :where(.render-canvas) figure, :where(.render-canvas) footer, :where(.render-canvas) form, :where(.render-canvas) h1, :where(.render-canvas) h2, :where(.render-canvas) h3, :where(.render-canvas) h4, :where(.render-canvas) h5, :where(.render-canvas) h6, :where(.render-canvas) header, :where(.render-canvas) hgroup, :where(.render-canvas) i, :where(.render-canvas) iframe, :where(.render-canvas) img, :where(.render-canvas) input, :where(.render-canvas) ins, :where(.render-canvas) kbd, :where(.render-canvas) label, :where(.render-canvas) legend, :where(.render-canvas) li, :where(.render-canvas) loop-box, :where(.render-canvas) main, :where(.render-canvas) mark, :where(.render-canvas) menu, :where(.render-canvas) nav, :where(.render-canvas) object, :where(.render-canvas) ol, :where(.render-canvas) p, :where(.render-canvas) pre, :where(.render-canvas) q, :where(.render-canvas) samp, :where(.render-canvas) section, :where(.render-canvas) select, :where(.render-canvas) small, :where(.render-canvas) span, :where(.render-canvas) strong, :where(.render-canvas) sub, :where(.render-canvas) summary, :where(.render-canvas) sup, :where(.render-canvas) table, :where(.render-canvas) tbody, :where(.render-canvas) td, :where(.render-canvas) textarea, :where(.render-canvas) tfoot, :where(.render-canvas) th, :where(.render-canvas) thead, :where(.render-canvas) time, :where(.render-canvas) tr, :where(.render-canvas) ul, :where(.render-canvas) var, :where(.render-canvas) video { -webkit-font-smoothing: antialiased; box-sizing: border-box; color: rgb(51, 51, 51); word-spacing: 1px; backface-visibility: hidden; border: 0px; margin: 0px; padding: 0px; font-family: sans-serif; line-height: 1; text-decoration: none; list-style: none; transition: 0.3s cubic-bezier(0.4, 0.4, 0, 1); }
-:where(.render-canvas) a:focus:not(:focus-visible), :where(.render-canvas) button:focus:not(:focus-visible), :where(.render-canvas) summary:focus:not(:focus-visible) { outline: none; }
-:where(.render-canvas) a, :where(.render-canvas) button { vertical-align: baseline; background: 0px 0px; margin: 0px; padding: 0px; font-size: 100%; }
-:where(.render-canvas) .sd { z-index: 0; pointer-events: all; flex-flow: column; flex: 0 0 auto; align-content: center; align-items: center; max-width: 100%; display: flex; position: relative; }
-:where(.render-canvas) .sd::-webkit-scrollbar { display: none; }
-:where(.render-canvas) .sd, :where(.render-canvas) .sd.richText * { transition-property: all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11; }
-:where(.render-canvas) .sd.text, :where(.render-canvas) .sd:where(.icon) { word-break: break-word; overflow-wrap: anywhere; flex-direction: row; place-content: center; align-items: center; display: flex; overflow: visible; }
-:where(.render-canvas) .sd:where(.icon.fa) { display: inline-flex; }
-:where(.render-canvas) .sd:where(.icon.material-symbols) { font-variation-settings: "FILL" var(--symbol-fill,0),"wght" var(--symbol-weight,400); justify-content: center; align-items: center; min-width: 1em; min-height: 1em; font-style: normal; display: flex; }
-:where(.render-canvas) a, :where(.render-canvas) a.icon, :where(.render-canvas) a.text { -webkit-tap-highlight-color: rgba(0, 0, 0, 0.15); }
-.sd[data-s-9c4a6838-a7b8-414c-959d-fa8de5aa50d7] { place-content: center flex-start; align-items: center; background: rgb(255, 255, 255); border-radius: 0px; flex-flow: column; height: 100%; margin: 0px; opacity: 1; padding: 0px; width: 100%; max-width: 100%; }
-@media screen and (max-width: 450px) {
-.sd[data-s-9c4a6838-a7b8-414c-959d-fa8de5aa50d7] { padding: 0px 0px 24px; }
-}
-.sd[data-s-bcb7ca5b-ccc1-4f5f-ba32-1a05f9f3f55a] { height: auto; width: 776px; max-width: 100%; }
-@media screen and (max-width: 840px) {
-.sd[data-s-bcb7ca5b-ccc1-4f5f-ba32-1a05f9f3f55a] { height: auto; width: 100%; max-width: 100%; }
-}
-@media screen and (max-width: 450px) {
-.sd[data-s-bcb7ca5b-ccc1-4f5f-ba32-1a05f9f3f55a] { height: auto; width: 100%; }
-}
-.sd[data-s-6364d6e5-3bad-44b8-920b-b3a1d5358eac] { place-content: center flex-start; align-items: center; flex-flow: column; padding: 0px; }
-.sd[data-s-f6508537-cd1c-44d9-bfbe-5856d5763720] { height: auto; width: 776px; max-width: 100%; }
-@media screen and (max-width: 840px) {
-.sd[data-s-f6508537-cd1c-44d9-bfbe-5856d5763720] { height: auto; margin: 0px 0px 88px; width: 100%; max-width: 100%; }
-}
-@media screen and (max-width: 450px) {
-.sd[data-s-f6508537-cd1c-44d9-bfbe-5856d5763720] { height: auto; width: 100%; }
-}
-:root { --s-color-9bb18529: rgb(248, 248, 248); --s-color-eaa3a4fd: #c7c7c7ff; --s-color-30a8e2c3: #0d4962ff; --s-color-f0adf6b3: #199de8ff; --s-font-c58edbc8: Lato; --s-font-89af1dd3: 'Noto Sans JP'; --s-font-f88811e0: Inter,'Noto Sans JP'; }
-:where(.render-canvas) .tiles{display:flex;flex-direction:column;align-items:stretch;}
-:where(.render-canvas) .tiles>img{display:block;width:100%;height:auto;max-width:100%;}
-
-</style>
+<meta name="theme-color" content="#0D2A4E">
+<link rel="icon" type="image/png" href="../../../favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&display=swap">
+<link rel="stylesheet" href="../_v2/guide.css?v=20261005">
 </head>
 <body>
-<div class="render-canvas"><div class="StudioCanvas">
-<div class="sd appear" data-s-9c4a6838-a7b8-414c-959d-fa8de5aa50d7=""><div class="sd tiles" data-s-bcb7ca5b-ccc1-4f5f-ba32-1a05f9f3f55a=""><img alt="" decoding="async" height="1391" src="assets/01-c515ac8a-1.webp" width="900"/><img alt="" decoding="async" height="1391" loading="lazy" src="assets/01-c515ac8a-2.webp" width="900"/></div><a class="sd appear" data-s-6364d6e5-3bad-44b8-920b-b3a1d5358eac="" href="/information/beginner-guide/2/"><img alt="" class="sd" data-s-f6508537-cd1c-44d9-bfbe-5856d5763720="" decoding="async" height="270" src="assets/02-151f9161.webp" width="900"/></a></div><!-- -->
-</div></div>
 
+<header class="hero">
+  <div class="wrap">
+    <img class="hero__bear" src="../_v2/img/explorer_go_s.webp?v=20261005" alt="" width="163" height="200">
+    <img class="hero__logo" src="../_v2/img/MotiTan-color.svg" alt="MotiTan" width="178" height="48">
+    <div class="hero__kicker">公式の使い方ガイド</div>
+    <h1>ゲームで覚える<br><span class="pop">単語アプリ</span>の<br>遊び方、ぜんぶ。</h1>
+    <p class="hero__lead">モチタンの使い方を、公式がわかりやすく解説します。<br>まずは動画でサクッと、続きは下で。</p>
+
+    <div class="player">
+      <div class="player__tabs" role="tablist" aria-label="動画をえらぶ">
+        <button class="player__tab" role="tab" aria-selected="true"
+          data-src="../_v2/video/tan_basic.mp4?v=20261005" data-poster="../_v2/img/poster_tan_basic.webp?v=20261005">基本編<small>2分24秒</small></button>
+        <button class="player__tab" role="tab" aria-selected="false"
+          data-src="../_v2/video/tan_eff.mp4?v=20261005" data-poster="../_v2/img/poster_tan_eff.webp?v=20261005">効果的に学習する編<small>2分7秒</small></button>
+      </div>
+      <div class="player__frame">
+        <video controls playsinline preload="none"
+          poster="../_v2/img/poster_tan_basic.webp?v=20261005"
+          src="../_v2/video/tan_basic.mp4?v=20261005"></video>
+      </div>
+      <p class="player__note">音が出ます</p>
+    </div>
+  </div>
+</header>
+
+<div class="stats" aria-label="モチタンの数字">
+  <div class="wrap stats__in">
+    <div><b>20<small>万</small></b><span>収録単語</span></div>
+    <div><b>6</b><span>学べる言語</span></div>
+    <div><b>61</b><span>コース</span></div>
+    <div class="stats__note">英語・中国語・韓国語・フランス語・スペイン語・ドイツ語。収録語彙数は大きな辞典を上回ります</div>
+  </div>
+</div>
+
+<main>
+<section class="route">
+  <div class="wrap">
+    <h2 class="rv">はじめは、この<span class="em">3つ</span>だけ。</h2>
+    <p class="route__sub rv">まずは自分に合うコースを選んだら、あとは順番にどうぞ。</p>
+    <ol class="route__list">
+      <li class="rv"><a href="#battle"><span class="route__icon" aria-hidden="true">⚔️</span><span><strong>対戦を1回</strong><span class="t">50秒のオンライン対戦。まずは体験</span></span><span class="route__go" aria-hidden="true">›</span></a></li>
+      <li class="rv"><a href="#diagnosis"><span class="route__icon" aria-hidden="true">🚀</span><span><strong>単語力診断で飛び級</strong><span class="t">60秒で、合うレベルまでジャンプ</span></span><span class="route__go" aria-hidden="true">›</span></a></li>
+      <li class="rv"><a href="#mission"><span class="route__icon" aria-hidden="true">🎯</span><span><strong>ミッションをチェック</strong><span class="t">進めるほど、使い方がわかる</span></span><span class="route__go" aria-hidden="true">›</span></a></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sec" id="battle">
+  <div class="wrap">
+    <div class="chip rv"><i>●</i>まずはこれ</div>
+    <h2 class="rv">対戦を<span class="em">1回</span>やってみよう</h2>
+    <p class="sec__sub rv">ホームの［プレイ］から。上から落ちてくる英単語の意味を、下から選ぶゲームです。</p>
+    <div class="steps">
+      <div class="step rv">
+        <div class="shot"><img src="../_v2/img/t_home.webp?v=20261005" alt="ホーム画面の［プレイ］ボタン" width="525" height="1044" loading="lazy"></div>
+        <div><h3>右下の［プレイ］をタップ</h3><p>初めは、ホームの右下の［プレイ］で対戦を1回。</p></div>
+      </div>
+      <div class="step rv">
+        <div class="shot"><img src="../_v2/img/t_words.webp?v=20261005" alt="対戦に出てくる単語の一覧と［スタート］" width="525" height="1044" loading="lazy"></div>
+        <div><h3>出てくる単語を確かめて［スタート］</h3><p>どんな単語が出るか、先に見ておけます。</p></div>
+      </div>
+      <div class="step rv">
+        <div class="shot"><img src="../_v2/img/t_battle.webp?v=20261005" alt="落ちてくる英単語の意味を下から選ぶ対戦画面" width="525" height="1044" loading="lazy"></div>
+        <div><h3>落ちてくる単語の意味を、下から選ぶ</h3><p>1回は<b>50秒</b>。オンラインのリアルタイム対戦で、スコアを競います。</p></div>
+      </div>
+      <div class="step rv">
+        <div class="shot"><img src="../_v2/img/t_combo.webp?v=20261005" alt="コンボで点がのびる様子" width="525" height="1044" loading="lazy"></div>
+        <div><h3>続けて正解で<span class="em">コンボ</span></h3><p>連続で正解すると、コンボで点がどんどんのびます。</p></div>
+      </div>
+      <div class="step rv">
+        <div class="shot"><img src="../_v2/img/t_result.webp?v=20261005" alt="対戦の結果画面" width="525" height="1044" loading="lazy"></div>
+        <div><h3>結果画面でスコアと順位をチェック</h3><p>終わったら、自分のスコアと順位を確認しよう。</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--white" id="diagnosis">
+  <div class="wrap">
+    <div class="chip rv"><i>●</i>つぎはこれ</div>
+    <h2 class="rv">単語力診断で<br><span class="em">飛び級</span>しよう</h2>
+    <p class="sec__sub rv">最初は、コースのいちばん下のレベルから始まります。自分に合ったレベルの単語を勉強したいなら、単語力診断。</p>
+    <div class="steps">
+      <div class="step rv">
+        <div class="shot"><img src="../_v2/img/t_diag.webp?v=20261005" alt="［単語力を測定］のボタン" width="525" height="1044" loading="lazy"></div>
+        <div><h3>［単語力を測定］で、合うレベルへ</h3><p>測った結果のレベルまで、飛び級できます。</p></div>
+      </div>
+      <div class="step rv">
+        <div class="shot"><img src="../_v2/img/t_diagplay.webp?v=20261005" alt="単語力診断のプレイ画面" width="525" height="1044" loading="lazy"></div>
+        <div><h3>診断は<span class="em">60秒</span></h3><p>対戦と同じように、出てくる単語にどんどん答えていきます。</p></div>
+      </div>
+      <div class="step rv">
+        <div class="shot"><img src="../_v2/img/t_diagres.webp?v=20261005" alt="単語力診断の結果画面" width="525" height="1044" loading="lazy"></div>
+        <div><h3>結果が上なら、そのレベルまで飛び級</h3><p>結果が低くても、今のレベルは<b>下がりません</b>。気軽にどうぞ。</p></div>
+      </div>
+    </div>
+    <ul class="points">
+      <li class="rv">診断は、<b>初心者ミッションの1つ目</b>でもあります。</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="mission">
+  <div class="wrap">
+    <div class="chip rv"><i>●</i>そしてこれ</div>
+    <h2 class="rv">ミッションを<br><span class="em">チェック</span></h2>
+    <p class="sec__sub rv">ミッションは、ホームの右のカードから開きます。最初は「初心者」タブ。進めると、使い方が自然にわかる設計です。</p>
+    <div class="trio">
+      <figure class="rv"><div class="shot"><img src="../_v2/img/t_mcard.webp?v=20261005" alt="ホームの右のカード" width="525" height="1044" loading="lazy"></div><figcaption>ホームの右のカード</figcaption></figure>
+      <figure class="rv"><div class="shot"><img src="../_v2/img/t_mtab.webp?v=20261005" alt="ミッションの初心者タブ" width="525" height="1044" loading="lazy"></div><figcaption>まずは初心者タブ</figcaption></figure>
+      <figure class="rv"><div class="shot"><img src="../_v2/img/t_mlist.webp?v=20261005" alt="初心者ミッションの一覧" width="525" height="1044" loading="lazy"></div><figcaption>できるものから</figcaption></figure>
+    </div>
+    <ul class="points">
+      <li class="rv">できるものから、<b>少しずつ進めれば大丈夫</b>です。</li>
+    </ul>
+
+    <div class="feature rv">
+      <div class="feature__grid">
+        <div>
+          <h3>迷ったら<br><span class="pop">白いボタン</span></h3>
+          <p>ホームの白いボタンは「おすすめプレイ」。何をするか迷ったら、これ。AIが次のプレイを選んでくれます。</p>
+        </div>
+        <div class="shot"><img src="../_v2/img/t_osusume.webp?v=20261005" alt="ホームの白いおすすめプレイボタン" width="525" height="1044" loading="lazy"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--white" id="more">
+  <div class="wrap">
+    <div class="chip rv"><i>＋</i>余裕があれば</div>
+    <h2 class="rv">［冒険］で、<br>じっくり<span class="em">多面的に</span>覚える</h2>
+    <p class="sec__sub rv">下のメニューの［冒険］では、イラストや音声で新しい単語をじっくり覚えます。</p>
+    <div class="steps">
+      <div class="step rv">
+        <div class="shot"><img src="../_v2/img/t_adv.webp?v=20261005" alt="冒険のイラストの問題" width="525" height="1044" loading="lazy"></div>
+        <div><h3>イラストや音声で覚える</h3><p>ひとつの単語を、いろいろな角度から覚えていきます。</p></div>
+      </div>
+      <div class="step rv">
+        <div class="shot"><img src="../_v2/img/t_life.webp?v=20261005" alt="画面上のライフ" width="525" height="1044" loading="lazy"></div>
+        <div><h3>ライフは時間で回復</h3><p>対戦は1回にライフ1つ、冒険はミスで1つ使います。</p></div>
+      </div>
+      <div class="step rv">
+        <div class="shot"><img src="../_v2/img/t_leaf.webp?v=20261005" alt="画面上の葉っぱの連続記録" width="525" height="1044" loading="lazy"></div>
+        <div><h3>毎日1回で、<span class="em">葉っぱ</span>がのびる</h3><p>毎日1回プレイすると、上の葉っぱの連続記録がのびます。区切りは<b>朝4時</b>。ログインだけではつながりません。</p></div>
+      </div>
+    </div>
+    <ul class="points">
+      <li class="rv">迷ったら、下のメニューの<b>［対戦］</b>でホームへ戻れます。</li>
+    </ul>
+  </div>
+</section>
+
+<section class="method" id="method">
+  <div class="wrap">
+    <div class="chip rv"><i>★</i>効果的に学習する編</div>
+    <h2 class="rv">公式おすすめの<br>学習法</h2>
+    <p class="sec__sub rv">知っている単語に時間を使わず、覚えるべき単語から。最短ルートはこれです。</p>
+
+    <ol class="flow">
+      <li class="rv"><b>まずは単語力診断で飛び級</b><span>自分に合うレベルまで一気に。覚えるべき単語から始められます。</span></li>
+      <li class="rv"><b>毎日の基本は、ホームのおすすめプレイ</b><span>AIが次にやるといいプレイを自動で選びます。</span></li>
+      <li class="rv"><b>まずは、最近学んだ単語の復習から</b><span>前の日にやった単語の復習が、記憶の定着には重要です。</span></li>
+    </ol>
+
+    <div class="formula rv">
+      <div class="formula__card">
+        <div class="shot"><img src="../_v2/img/t_adv.webp?v=20261005" alt="冒険" width="525" height="1044" loading="lazy"></div>
+        <b>冒険</b><span>イラスト・例文・音声で、じっくり記憶に刻む</span>
+      </div>
+      <div class="formula__plus" aria-hidden="true">＋</div>
+      <div class="formula__card">
+        <div class="shot"><img src="../_v2/img/t_battle.webp?v=20261005" alt="対戦" width="525" height="1044" loading="lazy"></div>
+        <b>対戦</b><span>覚えた単語を、瞬時に思い出す力を鍛える</span>
+      </div>
+    </div>
+    <p class="formula__out rv">冒険でじっくり、対戦で<span class="pop">瞬発力</span>。<br>これがモチタンの効果的な学び方。</p>
+
+    <div class="steps" style="margin-top:26px">
+      <div class="step rv">
+        <div class="shot"><img src="../_v2/img/e_weak.webp?v=20261005" alt="苦手な単語やうろ覚えの単語の単語帳" width="525" height="1044" loading="lazy"></div>
+        <div><h3>ときどき、苦手・うろ覚えの単語帳も</h3><p>おすすめに選ばれるのは、デイリーミッションでまだ終わっていないプレイです。</p></div>
+      </div>
+      <div class="step rv">
+        <div class="shot"><img src="../_v2/img/e_cal.webp?v=20261005" alt="金の葉っぱが並ぶカレンダー" width="525" height="1044" loading="lazy"></div>
+        <div><h3>続けるだけで<span class="em">金の葉っぱ</span>まで</h3><p>おすすめプレイを続けるだけで、金の葉っぱまで届きます。</p></div>
+      </div>
+      <div class="step rv">
+        <div class="shot"><img src="../_v2/img/e_core.webp?v=20261005" alt="単語詳細のコアイメージ" width="525" height="1044" loading="lazy"></div>
+        <div><h3>あやふやな単語は、コアイメージ</h3><p>意味があやふやな単語は、単語詳細でコアイメージを確認するのも重要です。</p></div>
+      </div>
+    </div>
+
+    <p class="shout rv">迷ったら、<br><span class="pop">おすすめプレイをやりまくろう！</span></p>
+
+    <h3 class="rv" style="font-size:21px;font-weight:900;margin:40px 0 4px">続けるコツは、やる時間を決めておくこと</h3>
+    <div class="times rv">
+      <div><b>7:00</b><span>朝起きた時</span></div>
+      <div><b>8:00</b><span>通勤・通学中</span></div>
+      <div><b>22:00</b><span>寝る前</span></div>
+    </div>
+    <div class="steps" style="margin-top:16px">
+      <div class="step rv">
+        <div class="shot"><img src="../_v2/img/e_remind.webp?v=20261005" alt="マイページの位置" width="525" height="1044" loading="lazy"></div>
+        <div><h3>学習リマインダーで通知</h3><p>マイページ→設定の学習リマインダーを設定すれば、決めた時間に通知が届きます。</p></div>
+      </div>
+    </div>
+    <ul class="points">
+      <li class="rv">1日の区切りは<b>朝4時</b>。毎日1回のプレイで、連続記録をつなげましょう。</li>
+      <li class="rv">単語をある程度覚えたら、<b>モチスピで会話</b>も。モチスピの先生は、あなたがどの単語をどれくらい覚えているかを知っています。実際に使うことで、単語は一層定着しやすくなります。</li>
+    </ul>
+    <p class="shout rv">モチタンをフル活用して、<br><span class="pop">単語力を爆上げしよう！</span></p>
+  </div>
+</section>
+
+<section class="recap">
+  <div class="wrap">
+    <img class="recap__bear rv" src="../_v2/img/explorer_cheer.webp?v=20261005" alt="" width="335" height="400" loading="lazy">
+    <h2 class="rv">おさらい</h2>
+    <div class="recap__three rv"><span>対戦</span><i>→</i><span>単語力診断</span><i>→</i><span>ミッション</span></div>
+    <button class="cta" type="button" data-close-app hidden>まずは今日の1回をプレイ！</button>
+    <p class="recap__hint rv">まずは今日の1回。ホームの［プレイ］から始めよう。</p>
+  </div>
+</section>
+</main>
+
+<footer class="closing">
+  <div class="wrap">
+    <img src="../_v2/img/MotiTan-color.svg" alt="MotiTan" width="170" height="46" loading="lazy">
+    <p>楽しすぎる英単語アプリ『モチタン』</p>
+    <a class="cross" href="../motispi/1/"><img src="../_v2/img/MotiSpi-color.svg" alt="MotiSpi" width="90" height="24" loading="lazy"><span>覚えた単語は、会話で使おう。<br><b>モチスピの使い方を見る ›</b></span></a>
+  </div>
+</footer>
+
+<script src="../_v2/guide.js?v=20261005"></script>
 </body>
 </html>
