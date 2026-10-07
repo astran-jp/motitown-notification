@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- 移植元: https://motitan-notification.astran.jp/information/gacha-drop/premium-gem (STUDIO) -->
 <html lang="ja">
 <head>
 <meta charset="utf-8">
@@ -9,43 +8,190 @@
 <meta property="og:title" content="プレミアム原石ガチャ 排出率">
 <meta property="og:type" content="article">
 <link rel="icon" type="image/png" href="/favicon.png">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;800&display=swap" rel="stylesheet">
 <style>
 html,body{margin:0;padding:0;background:#fff;}
-@keyframes loading-spin-9f7266e2 { 
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(1turn); }
+
+.drop{box-sizing:border-box;width:100%;max-width:900px;margin:0 auto;padding:28px 5% 48px;background:#fff;font-family:'Noto Sans JP',sans-serif;color:#003d3b;text-align:left;}
+.drop h2{margin:0 0 18px;font-size:28px;font-weight:800;line-height:1.3;color:#013649;}
+.drop .panel{background:#e0f3fd;border-radius:18px;padding:16px 22px 20px;margin:0 0 18px;}
+.drop h3{margin:0 0 14px;font-size:22px;font-weight:800;line-height:1.3;color:#0082c1;}
+.drop ul{display:grid;grid-template-columns:1fr 1fr;gap:8px 28px;margin:0;padding:0;list-style:none;}
+.drop li{margin:0;font-size:18px;font-weight:700;line-height:1.45;color:#003d3b;}
+@media (max-width:560px){
+  .drop{padding:20px 16px 36px;}
+  .drop h2{font-size:22px;}
+  .drop h3{font-size:18px;}
+  .drop li{font-size:15px;}
+  .drop ul{gap:6px 14px;}
 }
-.StudioCanvas { height: auto; min-height: 100dvh; display: flex; }
-.StudioCanvas > .sd { min-height: 100dvh; overflow: clip; }
-:where(.render-canvas), :where(.render-canvas) a, :where(.render-canvas) abbr, :where(.render-canvas) address, :where(.render-canvas) article, :where(.render-canvas) aside, :where(.render-canvas) audio, :where(.render-canvas) b, :where(.render-canvas) blockquote, :where(.render-canvas) button, :where(.render-canvas) canvas, :where(.render-canvas) caption, :where(.render-canvas) cite, :where(.render-canvas) code, :where(.render-canvas) dd, :where(.render-canvas) del, :where(.render-canvas) details, :where(.render-canvas) dfn, :where(.render-canvas) div, :where(.render-canvas) dl, :where(.render-canvas) dt, :where(.render-canvas) em, :where(.render-canvas) fieldset, :where(.render-canvas) figcaption, :where(.render-canvas) figure, :where(.render-canvas) footer, :where(.render-canvas) form, :where(.render-canvas) h1, :where(.render-canvas) h2, :where(.render-canvas) h3, :where(.render-canvas) h4, :where(.render-canvas) h5, :where(.render-canvas) h6, :where(.render-canvas) header, :where(.render-canvas) hgroup, :where(.render-canvas) i, :where(.render-canvas) iframe, :where(.render-canvas) img, :where(.render-canvas) input, :where(.render-canvas) ins, :where(.render-canvas) kbd, :where(.render-canvas) label, :where(.render-canvas) legend, :where(.render-canvas) li, :where(.render-canvas) loop-box, :where(.render-canvas) main, :where(.render-canvas) mark, :where(.render-canvas) menu, :where(.render-canvas) nav, :where(.render-canvas) object, :where(.render-canvas) ol, :where(.render-canvas) p, :where(.render-canvas) pre, :where(.render-canvas) q, :where(.render-canvas) samp, :where(.render-canvas) section, :where(.render-canvas) select, :where(.render-canvas) small, :where(.render-canvas) span, :where(.render-canvas) strong, :where(.render-canvas) sub, :where(.render-canvas) summary, :where(.render-canvas) sup, :where(.render-canvas) table, :where(.render-canvas) tbody, :where(.render-canvas) td, :where(.render-canvas) textarea, :where(.render-canvas) tfoot, :where(.render-canvas) th, :where(.render-canvas) thead, :where(.render-canvas) time, :where(.render-canvas) tr, :where(.render-canvas) ul, :where(.render-canvas) var, :where(.render-canvas) video { -webkit-font-smoothing: antialiased; box-sizing: border-box; color: rgb(51, 51, 51); word-spacing: 1px; backface-visibility: hidden; border: 0px; margin: 0px; padding: 0px; font-family: sans-serif; line-height: 1; text-decoration: none; list-style: none; transition: 0.3s cubic-bezier(0.4, 0.4, 0, 1); }
-:where(.render-canvas) .sd { z-index: 0; pointer-events: all; flex-flow: column; flex: 0 0 auto; align-content: center; align-items: center; max-width: 100%; display: flex; position: relative; }
-:where(.render-canvas) .sd::-webkit-scrollbar { display: none; }
-:where(.render-canvas) .sd, :where(.render-canvas) .sd.richText * { transition-property: all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11; }
-:where(.render-canvas) .sd.text, :where(.render-canvas) .sd:where(.icon) { word-break: break-word; overflow-wrap: anywhere; flex-direction: row; place-content: center; align-items: center; display: flex; overflow: visible; }
-:where(.render-canvas) .sd:where(.icon.fa) { display: inline-flex; }
-:where(.render-canvas) .sd:where(.icon.material-symbols) { font-variation-settings: "FILL" var(--symbol-fill,0),"wght" var(--symbol-weight,400); justify-content: center; align-items: center; min-width: 1em; min-height: 1em; font-style: normal; display: flex; }
-.sd[data-s-547294ea-5063-4d80-8a94-804644e2a00e] { place-content: center flex-start; align-items: center; background: rgb(255, 255, 255); border-radius: 0px; flex-flow: column; height: 100%; margin: 0px; opacity: 1; padding: 0px; width: 100%; max-width: 100%; }
-@media screen and (max-width: 450px) {
-.sd[data-s-547294ea-5063-4d80-8a94-804644e2a00e] { padding: 0px 0px 24px; }
-}
-.sd[data-s-a0794200-3d7d-498f-91e9-3b1252c16a83] { height: auto; width: 776px; max-width: 100%; }
-@media screen and (max-width: 840px) {
-.sd[data-s-a0794200-3d7d-498f-91e9-3b1252c16a83] { height: auto; margin: 0px; width: 102%; max-width: 102%; }
-}
-@media screen and (max-width: 450px) {
-.sd[data-s-a0794200-3d7d-498f-91e9-3b1252c16a83] { height: auto; width: 103%; max-width: 103%; }
-}
-:root { --s-color-9bb18529: rgb(248, 248, 248); --s-color-eaa3a4fd: #c7c7c7ff; --s-color-30a8e2c3: #0d4962ff; --s-color-f0adf6b3: #199de8ff; --s-font-c58edbc8: Lato; --s-font-89af1dd3: 'Noto Sans JP'; --s-font-f88811e0: Inter,'Noto Sans JP'; }
-:where(.render-canvas) .tiles{display:flex;flex-direction:column;align-items:stretch;}
-:where(.render-canvas) .tiles>img{display:block;width:100%;height:auto;max-width:100%;}
 
 </style>
 </head>
 <body>
-<div class="render-canvas"><div class="StudioCanvas">
-<div class="sd appear" data-s-547294ea-5063-4d80-8a94-804644e2a00e=""><div class="sd tiles" data-s-a0794200-3d7d-498f-91e9-3b1252c16a83=""><img alt="" decoding="async" height="1532" src="assets/01-22cad7bd-1.webp" width="900"/><img alt="" decoding="async" height="1532" loading="lazy" src="assets/01-22cad7bd-2.webp" width="900"/><img alt="" decoding="async" height="1531" loading="lazy" src="assets/01-22cad7bd-3.webp" width="900"/></div></div><!-- -->
-</div></div>
-
+<main class="drop">
+<h2>プレミアム原石ガチャ</h2>
+<section class="panel">
+<h3>合計確率 : 92%</h3>
+<ul>
+<li>クォーツ・グレイシアド</li>
+<li>インフェルナ・ドラコ</li>
+<li>グレイシャ・リリカ</li>
+<li>レイガ・フォトンブレイザー</li>
+<li>レーヴ・クリスタライズ</li>
+<li>ガイアゴロス</li>
+<li>キャンティア</li>
+<li>ぱらりーぬ</li>
+<li>しるく</li>
+<li>フルーティア</li>
+<li>ポムカリン</li>
+<li>ふわゆめマロ</li>
+<li>メレサンヌ</li>
+<li>シフォンヌ</li>
+<li>もここ</li>
+<li>ベルディ</li>
+<li>ルナミュー</li>
+<li>マカロン</li>
+<li>わたあめ</li>
+<li>フロストガント</li>
+</ul>
+</section>
+<section class="panel">
+<h3>合計確率 : 5%</h3>
+<ul>
+<li>ダイヤドラ・ブリリアンス</li>
+<li>スペキュラ・ディアボロ</li>
+<li>コスモ・ギガリス</li>
+<li>オーロラ・ルミエール</li>
+<li>オルムス・ゴルドナイト</li>
+<li>ビッグバン・ブレイザー</li>
+<li>ノクス・ネビュラ</li>
+<li>オリジア・ルーミナ</li>
+<li>パフィ</li>
+<li>くぅむ</li>
+<li>ねむねむオウル</li>
+<li>しろ</li>
+<li>エモルナ</li>
+<li>クッキー</li>
+<li>ラナ</li>
+</ul>
+</section>
+<section class="panel">
+<h3>合計確率 : 2%</h3>
+<ul>
+<li>サンタモチベア</li>
+<li>オニモチベア</li>
+<li>モチモチベア</li>
+<li>とのモチベア</li>
+<li>トラモチベア</li>
+<li>入学式モチベア</li>
+<li>クマモチベア</li>
+<li>体操服モチベア</li>
+<li>ゴリラモチベア</li>
+<li>パンダモチベア</li>
+<li>黄色レインコートモチベア</li>
+<li>イヌモチベア</li>
+<li>ペンギンモチベア</li>
+<li>ゆかたモチベア</li>
+<li>海水浴モチベア</li>
+<li>ブタモチベア</li>
+<li>うさぎモチベア</li>
+<li>イカモチベア</li>
+<li>ハロウィーンモチベア</li>
+<li>タコモチベア</li>
+<li>もみじモチベア</li>
+<li>白猫モチベア</li>
+<li>ビーバーモチベア</li>
+<li>フェネックモチベア</li>
+<li>黒サンタモチベア</li>
+<li>さくらモチモチベア</li>
+<li>緑サンタモチベア</li>
+<li>ずんだモチモチベア</li>
+<li>制服ジョニー</li>
+<li>ワンピースみゆ</li>
+<li>青オニモチベア</li>
+<li>緑オニモチベア</li>
+<li>赤とのモチベア</li>
+<li>緑とのモチベア</li>
+<li>白入学式モチベア</li>
+<li>緑入学式モチベア</li>
+<li>チョコレインコートモチベア</li>
+<li>オレンジレインコートモチベア</li>
+<li>赤ゆかたモチベア</li>
+<li>オレンジ海水浴モチベア</li>
+<li>ピンクうさぎモチベア</li>
+<li>ピンクもみじモチベア</li>
+<li>赤ハロウィンモチベア</li>
+<li>探検家モチベア</li>
+<li>天使モチベア</li>
+<li>ネイビーワンピースみゆ</li>
+<li>悪魔モチベア</li>
+<li>ブラウン制服ジョニー</li>
+<li>遠足モチベア</li>
+<li>博士モチベア</li>
+<li>農作業モチベア</li>
+<li>海賊モチベア</li>
+<li>こもれびうさぎ</li>
+<li>ジョニー夏服ver.</li>
+<li>イノベート</li>
+<li>フロー</li>
+<li>メロナー・ギャラクシーグリーン</li>
+<li>みゆ水着ver.</li>
+<li>ヒップホップモチベア</li>
+<li>グリッターコスモ</li>
+<li>エッセンシア</li>
+<li>ソラお月見ver.</li>
+<li>セレステ・クリスタル</li>
+<li>魔法使いモチベア</li>
+<li>クリーム</li>
+<li>レックスハロウィンver.</li>
+<li>シフォン</li>
+<li>シュクレ</li>
+<li>レイモンド・ピネ</li>
+<li>ヒノデ</li>
+<li>鈴音（すずね）</li>
+<li>レガリオ</li>
+<li>ネピカ</li>
+<li>いちごのるる</li>
+<li>ゾンビみゆ</li>
+<li>３色団子モチベア</li>
+<li>1年生モチベア</li>
+<li>ギャラクシーレックス</li>
+<li>コード・トラベラー</li>
+<li>手作り兎モチベア</li>
+<li>着ぐるみジョニー</li>
+<li>スズランティア</li>
+<li>雨雲モチベア</li>
+<li>高校生擬態ソラ</li>
+<li>ニセモチベア</li>
+<li>彦星モチベア</li>
+<li>フラダンスみゆ</li>
+<li>DJキャット</li>
+<li>夏満喫モチベア</li>
+<li>百物語ソラ</li>
+<li>スパーク・レモネード</li>
+<li>文豪モチベア</li>
+<li>カウボーイレックス</li>
+<li>コルネ・オークリーフ</li>
+<li>金木犀モチベア</li>
+<li>芸術家ソラ</li>
+<li>なしちゃん</li>
+</ul>
+</section>
+<section class="panel">
+<h3>合計確率 : 1%</h3>
+<ul>
+<li>キングモチベア</li>
+<li>ナイトモチベア</li>
+<li>3D日本列島</li>
+<li>金色3D日本列島</li>
+<li>銅色3D日本列島</li>
+<li>銀色3D日本列島</li>
+<li>パパ（父親が美少女になってしまって色々ツラい）</li>
+</ul>
+</section>
+</main>
 </body>
 </html>
