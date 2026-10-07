@@ -5,6 +5,726 @@
  },
  "segments": [
   {
+   "tag": "h2",
+   "ja": "プレミアム原石ガチャ",
+   "en": "Premium Gem Gacha"
+  },
+  {
+   "tag": "h3",
+   "ja": "合計確率 : 92%",
+   "en": "Total drop rate: 92%"
+  },
+  {
+   "tag": "li",
+   "ja": "クォーツ・グレイシアド",
+   "en": "Quartz Glaciade"
+  },
+  {
+   "tag": "li",
+   "ja": "インフェルナ・ドラコ",
+   "en": "Inferna Draco"
+  },
+  {
+   "tag": "li",
+   "ja": "グレイシャ・リリカ",
+   "en": "Glacia Lyrica"
+  },
+  {
+   "tag": "li",
+   "ja": "レイガ・フォトンブレイザー",
+   "en": "Reiga Photon Blazer"
+  },
+  {
+   "tag": "li",
+   "ja": "レーヴ・クリスタライズ",
+   "en": "Reve Crystallize"
+  },
+  {
+   "tag": "li",
+   "ja": "ガイアゴロス",
+   "en": "Gaiagoros"
+  },
+  {
+   "tag": "li",
+   "ja": "キャンティア",
+   "en": "Cantia"
+  },
+  {
+   "tag": "li",
+   "ja": "ぱらりーぬ",
+   "en": "Pararinu"
+  },
+  {
+   "tag": "li",
+   "ja": "しるく",
+   "en": "Shiruku"
+  },
+  {
+   "tag": "li",
+   "ja": "フルーティア",
+   "en": "Frutia"
+  },
+  {
+   "tag": "li",
+   "ja": "ポムカリン",
+   "en": "Pomkarin"
+  },
+  {
+   "tag": "li",
+   "ja": "ふわゆめマロ",
+   "en": "Fuwayume Maro"
+  },
+  {
+   "tag": "li",
+   "ja": "メレサンヌ",
+   "en": "Meresanne"
+  },
+  {
+   "tag": "li",
+   "ja": "シフォンヌ",
+   "en": "Chiffonne"
+  },
+  {
+   "tag": "li",
+   "ja": "もここ",
+   "en": "Mokoko"
+  },
+  {
+   "tag": "li",
+   "ja": "ベルディ",
+   "en": "Berdi"
+  },
+  {
+   "tag": "li",
+   "ja": "ルナミュー",
+   "en": "Lunamew"
+  },
+  {
+   "tag": "li",
+   "ja": "マカロン",
+   "en": "Macaron"
+  },
+  {
+   "tag": "li",
+   "ja": "わたあめ",
+   "en": "Wataame"
+  },
+  {
+   "tag": "li",
+   "ja": "フロストガント",
+   "en": "Frostgaunt"
+  },
+  {
+   "tag": "h3",
+   "ja": "合計確率 : 5%",
+   "en": "Total drop rate: 5%"
+  },
+  {
+   "tag": "li",
+   "ja": "ダイヤドラ・ブリリアンス",
+   "en": "Diadra Brilliance"
+  },
+  {
+   "tag": "li",
+   "ja": "スペキュラ・ディアボロ",
+   "en": "Specula Diabolo"
+  },
+  {
+   "tag": "li",
+   "ja": "コスモ・ギガリス",
+   "en": "Cosmo Gigaris"
+  },
+  {
+   "tag": "li",
+   "ja": "オーロラ・ルミエール",
+   "en": "Aurora Lumiere"
+  },
+  {
+   "tag": "li",
+   "ja": "オルムス・ゴルドナイト",
+   "en": "Ormus Goldknight"
+  },
+  {
+   "tag": "li",
+   "ja": "ビッグバン・ブレイザー",
+   "en": "Big Bang Blazer"
+  },
+  {
+   "tag": "li",
+   "ja": "ノクス・ネビュラ",
+   "en": "Nox Nebula"
+  },
+  {
+   "tag": "li",
+   "ja": "オリジア・ルーミナ",
+   "en": "Orizia Lumina"
+  },
+  {
+   "tag": "li",
+   "ja": "パフィ",
+   "en": "Puffy"
+  },
+  {
+   "tag": "li",
+   "ja": "くぅむ",
+   "en": "Kuum"
+  },
+  {
+   "tag": "li",
+   "ja": "ねむねむオウル",
+   "en": "Nemunemu Owl"
+  },
+  {
+   "tag": "li",
+   "ja": "しろ",
+   "en": "Shiro"
+  },
+  {
+   "tag": "li",
+   "ja": "エモルナ",
+   "en": "Emoluna"
+  },
+  {
+   "tag": "li",
+   "ja": "クッキー",
+   "en": "Cookie"
+  },
+  {
+   "tag": "li",
+   "ja": "ラナ",
+   "en": "Rana"
+  },
+  {
+   "tag": "h3",
+   "ja": "合計確率 : 2%",
+   "en": "Total drop rate: 2%"
+  },
+  {
+   "tag": "li",
+   "ja": "サンタモチベア",
+   "en": "Santa Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "オニモチベア",
+   "en": "Oni Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "モチモチベア",
+   "en": "Mochi Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "とのモチベア",
+   "en": "Lord Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "トラモチベア",
+   "en": "Tiger Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "入学式モチベア",
+   "en": "Entrance Ceremony Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "クマモチベア",
+   "en": "Bear Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "体操服モチベア",
+   "en": "Gym Uniform Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "ゴリラモチベア",
+   "en": "Gorilla Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "パンダモチベア",
+   "en": "Panda Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "黄色レインコートモチベア",
+   "en": "Yellow Raincoat Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "イヌモチベア",
+   "en": "Dog Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "ペンギンモチベア",
+   "en": "Penguin Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "ゆかたモチベア",
+   "en": "Yukata Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "海水浴モチベア",
+   "en": "Beach Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "ブタモチベア",
+   "en": "Pig Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "うさぎモチベア",
+   "en": "Rabbit Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "イカモチベア",
+   "en": "Squid Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "ハロウィーンモチベア",
+   "en": "Halloween Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "タコモチベア",
+   "en": "Octopus Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "もみじモチベア",
+   "en": "Maple Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "白猫モチベア",
+   "en": "White Cat Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "ビーバーモチベア",
+   "en": "Beaver Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "フェネックモチベア",
+   "en": "Fennec Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "黒サンタモチベア",
+   "en": "Black Santa Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "さくらモチモチベア",
+   "en": "Sakura Mochi Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "緑サンタモチベア",
+   "en": "Green Santa Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "ずんだモチモチベア",
+   "en": "Zunda Mochi Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "制服ジョニー",
+   "en": "Johnny (School Uniform)"
+  },
+  {
+   "tag": "li",
+   "ja": "ワンピースみゆ",
+   "en": "Miyu (Dress)"
+  },
+  {
+   "tag": "li",
+   "ja": "青オニモチベア",
+   "en": "Blue Oni Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "緑オニモチベア",
+   "en": "Green Oni Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "赤とのモチベア",
+   "en": "Red Lord Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "緑とのモチベア",
+   "en": "Green Lord Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "白入学式モチベア",
+   "en": "White Entrance Ceremony Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "緑入学式モチベア",
+   "en": "Green Entrance Ceremony Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "チョコレインコートモチベア",
+   "en": "Chocolate Raincoat Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "オレンジレインコートモチベア",
+   "en": "Orange Raincoat Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "赤ゆかたモチベア",
+   "en": "Red Yukata Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "オレンジ海水浴モチベア",
+   "en": "Orange Beach Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "ピンクうさぎモチベア",
+   "en": "Pink Rabbit Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "ピンクもみじモチベア",
+   "en": "Pink Maple Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "赤ハロウィンモチベア",
+   "en": "Red Halloween Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "探検家モチベア",
+   "en": "Explorer Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "天使モチベア",
+   "en": "Angel Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "ネイビーワンピースみゆ",
+   "en": "Miyu (Navy Dress)"
+  },
+  {
+   "tag": "li",
+   "ja": "悪魔モチベア",
+   "en": "Devil Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "ブラウン制服ジョニー",
+   "en": "Johnny (Brown Uniform)"
+  },
+  {
+   "tag": "li",
+   "ja": "遠足モチベア",
+   "en": "Field Trip Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "博士モチベア",
+   "en": "Professor Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "農作業モチベア",
+   "en": "Farmer Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "海賊モチベア",
+   "en": "Pirate Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "こもれびうさぎ",
+   "en": "Komorebi Rabbit"
+  },
+  {
+   "tag": "li",
+   "ja": "ジョニー夏服ver.",
+   "en": "Johnny (Summer Ver.)"
+  },
+  {
+   "tag": "li",
+   "ja": "イノベート",
+   "en": "Innovate"
+  },
+  {
+   "tag": "li",
+   "ja": "フロー",
+   "en": "Flow"
+  },
+  {
+   "tag": "li",
+   "ja": "メロナー・ギャラクシーグリーン",
+   "en": "Melonar Galaxy Green"
+  },
+  {
+   "tag": "li",
+   "ja": "みゆ水着ver.",
+   "en": "Miyu (Swimsuit Ver.)"
+  },
+  {
+   "tag": "li",
+   "ja": "ヒップホップモチベア",
+   "en": "Hip-Hop Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "グリッターコスモ",
+   "en": "Glitter Cosmo"
+  },
+  {
+   "tag": "li",
+   "ja": "エッセンシア",
+   "en": "Essencia"
+  },
+  {
+   "tag": "li",
+   "ja": "ソラお月見ver.",
+   "en": "Sora (Moon Viewing Ver.)"
+  },
+  {
+   "tag": "li",
+   "ja": "セレステ・クリスタル",
+   "en": "Celeste Crystal"
+  },
+  {
+   "tag": "li",
+   "ja": "魔法使いモチベア",
+   "en": "Wizard Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "クリーム",
+   "en": "Cream"
+  },
+  {
+   "tag": "li",
+   "ja": "レックスハロウィンver.",
+   "en": "Rex (Halloween Ver.)"
+  },
+  {
+   "tag": "li",
+   "ja": "シフォン",
+   "en": "Chiffon"
+  },
+  {
+   "tag": "li",
+   "ja": "シュクレ",
+   "en": "Sucre"
+  },
+  {
+   "tag": "li",
+   "ja": "レイモンド・ピネ",
+   "en": "Raymond Pinet"
+  },
+  {
+   "tag": "li",
+   "ja": "ヒノデ",
+   "en": "Hinode"
+  },
+  {
+   "tag": "li",
+   "ja": "鈴音（すずね）",
+   "en": "Suzune"
+  },
+  {
+   "tag": "li",
+   "ja": "レガリオ",
+   "en": "Regalio"
+  },
+  {
+   "tag": "li",
+   "ja": "ネピカ",
+   "en": "Nepika"
+  },
+  {
+   "tag": "li",
+   "ja": "いちごのるる",
+   "en": "Strawberry Ruru"
+  },
+  {
+   "tag": "li",
+   "ja": "ゾンビみゆ",
+   "en": "Zombie Miyu"
+  },
+  {
+   "tag": "li",
+   "ja": "３色団子モチベア",
+   "en": "Three-Color Dango MotiBear"
+  },
+  {
+   "tag": "li",
+   "ja": "1年生モチベア",
+   "en": "First Grader MotiBear"
+  },
+  {
+   "tag": "li",
+   "ja": "ギャラクシーレックス",
+   "en": "Galaxy Rex"
+  },
+  {
+   "tag": "li",
+   "ja": "コード・トラベラー",
+   "en": "Code Traveler"
+  },
+  {
+   "tag": "li",
+   "ja": "手作り兜モチベア",
+   "en": "Handmade Samurai MotiBear"
+  },
+  {
+   "tag": "li",
+   "ja": "着ぐるみジョニー",
+   "en": "Costume Johnny"
+  },
+  {
+   "tag": "li",
+   "ja": "スズランティア",
+   "en": "Lilybellia"
+  },
+  {
+   "tag": "li",
+   "ja": "雨雲モチベア",
+   "en": "Raincloud MotiBear"
+  },
+  {
+   "tag": "li",
+   "ja": "高校生擬態ソラ",
+   "en": "High School Disguise Sora"
+  },
+  {
+   "tag": "li",
+   "ja": "ニセモチベア",
+   "en": "Impostor MotiBear"
+  },
+  {
+   "tag": "li",
+   "ja": "彦星モチベア",
+   "en": "Hikoboshi MotiBear"
+  },
+  {
+   "tag": "li",
+   "ja": "フラダンスみゆ",
+   "en": "Hula Dancer Miyu"
+  },
+  {
+   "tag": "li",
+   "ja": "DJキャット",
+   "en": "DJ Cat"
+  },
+  {
+   "tag": "li",
+   "ja": "夏満喫モチベア",
+   "en": "Summer Fun MotiBear"
+  },
+  {
+   "tag": "li",
+   "ja": "百物語ソラ",
+   "en": "Hundred Tales Sora"
+  },
+  {
+   "tag": "li",
+   "ja": "スパーク・レモネード",
+   "en": "Spark Lemonade"
+  },
+  {
+   "tag": "li",
+   "ja": "文豪モチベア",
+   "en": "Literary Master MotiBear"
+  },
+  {
+   "tag": "li",
+   "ja": "カウボーイレックス",
+   "en": "Cowboy Rex"
+  },
+  {
+   "tag": "li",
+   "ja": "コルネ・オークリーフ",
+   "en": "Corne Oakleaf"
+  },
+  {
+   "tag": "li",
+   "ja": "金木犀モチベア",
+   "en": "Osmanthus MotiBear"
+  },
+  {
+   "tag": "li",
+   "ja": "芸術家ソラ",
+   "en": "Artist Sora"
+  },
+  {
+   "tag": "li",
+   "ja": "なしちゃん",
+   "en": "Nashi-chan"
+  },
+  {
+   "tag": "h3",
+   "ja": "合計確率 : 1%",
+   "en": "Total drop rate: 1%"
+  },
+  {
+   "tag": "li",
+   "ja": "キングモチベア",
+   "en": "King Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "ナイトモチベア",
+   "en": "Knight Motibear"
+  },
+  {
+   "tag": "li",
+   "ja": "3D日本列島",
+   "en": "3D Japanese Islands"
+  },
+  {
+   "tag": "li",
+   "ja": "金色3D日本列島",
+   "en": "Gold 3D Japanese Islands"
+  },
+  {
+   "tag": "li",
+   "ja": "銅色3D日本列島",
+   "en": "Bronze 3D Japanese Islands"
+  },
+  {
+   "tag": "li",
+   "ja": "銀色3D日本列島",
+   "en": "Silver 3D Japanese Islands"
+  },
+  {
+   "tag": "li",
+   "ja": "パパ（父親が美少女になってしまって色々ツラい）",
+   "en": "Papa (My Dad Turned Into a Pretty Girl and It's Rough)"
+  },
+  {
    "tag": "attr:content",
    "ja": "プレミアム原石ガチャ 排出率",
    "en": "Gacha Drop Rates (Premium Gem)"
