@@ -15,7 +15,7 @@ import json, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from extract import ROOT, JA  # noqa: E402
 
-SITE = "https://motitown-notification.astran.jp"
+SITE = "https://motitown.com/notification"
 CARD = re.compile(r'<a class="sd appear"[^>]*href="([^"]*)"[^>]*>.*?</a>', re.S)
 HEAD = {"お知らせ｜モチタウン": "Announcements | Motitown", "お知らせ": "Announcements"}
 
@@ -57,14 +57,21 @@ def write_fallbacks():
     for d in page_dirs():
         if not os.path.isfile(os.path.join(ROOT, d, "index.html")) or is_translated(d):
             continue
-        target = f"/{d}/"
-        html = (f'<!DOCTYPE html>{FALLBACK_MARK}\n<html lang="ja"><head><meta charset="utf-8"><meta name="robots" content="noindex">'
-                f'<meta http-equiv="refresh" content="0; url={target}"><link rel="canonical" href="{SITE}{target}">'
-                f'<title>Redirecting…</title></head><body><a href="{target}">{SITE}{target}</a></body></html>\n')
-        os.makedirs(os.path.join(ROOT, "en", d), exist_ok=True)
-        open(os.path.join(ROOT, "en", d, "index.html"), "w", encoding="utf-8").write(html)
+        write_fallback(d)
         n += 1
     return n
+
+
+def write_fallback(d):
+    target = f"/{d}/"
+    # meta refresh はクエリを落とす。アプリが付けるクエリ(note キャンペーンの user_id など)を日本語ページへ引き継ぐため、
+    # 先にスクリプトで転送する。転送先は motitown.com 配下への書き換えを受ける <a> の href から取る
+    html = (f'<!DOCTYPE html>{FALLBACK_MARK}\n<html lang="ja"><head><meta charset="utf-8"><meta name="robots" content="noindex">'
+            f'<meta http-equiv="refresh" content="0; url={target}"><link rel="canonical" href="{SITE}{target}">'
+            f'<title>Redirecting…</title></head><body><a href="{target}">{SITE}{target}</a>'
+            f'<script>location.replace(document.querySelector("a").getAttribute("href")+location.search+location.hash)</script></body></html>\n')
+    os.makedirs(os.path.join(ROOT, "en", d), exist_ok=True)
+    open(os.path.join(ROOT, "en", d, "index.html"), "w", encoding="utf-8").write(html)
 
 
 def sync_thumb(d, card):
@@ -79,7 +86,8 @@ def sync_thumb(d, card):
     ja_assets = os.path.join(ROOT, d, "assets")
     names = os.listdir(en_dir) if os.path.isdir(en_dir) else []
     # 番号付きお知らせのサムネイルはヘッダー画像から作られているので、英語ヘッダーがあれば常にそこから作り直す
-    header = [n for n in names if n.startswith("header.")]
+    # 一覧専用画像 list.* があればそれを優先(記事ヘッダーが縦長・文字入りのとき用)。無ければ英語ヘッダーから作る
+    header = [n for n in names if n.startswith("list.")] or [n for n in names if n.startswith("header.")]
     if d.isdigit() and header:
         names = header[:1]
     for name in names:
@@ -87,7 +95,7 @@ def sync_thumb(d, card):
         if name in ("index.html", "en.json") or not os.path.isfile(ja):
             continue
         same = hashlib.md5(open(ja, "rb").read()).digest() == hashlib.md5(open(thumb_path, "rb").read()).digest()
-        if not same and not (d.isdigit() and name.startswith("header.")):
+        if not same and not (d.isdigit() and (name.startswith("header.") or name.startswith("list."))):
             continue
         try:
             from PIL import Image
@@ -102,11 +110,15 @@ def sync_thumb(d, card):
         return
 
 
+PUBLIC_SITE = "https://motitown.com/notification"  # 2026-09-24 からのユーザー向けドメイン(SITE を同じパスで中継)
+
+
 def dir_of(href):
-    m = re.match(re.escape(SITE) + r"/(\d+)/?$", href) or re.match(r"/(\d+)/?$", href)
+    sites = r"(?:" + re.escape(SITE) + r"|" + re.escape(PUBLIC_SITE) + r")"
+    m = re.match(sites + r"/(\d+)/?$", href) or re.match(r"/(\d+)/?$", href)
     if m:
         return m.group(1)
-    m = re.match(r"(?:" + re.escape(SITE) + r")?/(Notification/\d+)/?$", href)
+    m = re.match(r"(?:" + sites + r")?/(Notification/\d+)/?$", href)
     return m.group(1) if m else None
 
 

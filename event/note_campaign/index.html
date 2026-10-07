@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b1026">
+<title>note投稿キャンペーン｜モチタウン</title>
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap">
+<link rel="preload" as="image" href="assets/kv-bg.webp">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:#0b1026;color:#fff;font-family:"Noto Sans JP",sans-serif;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;margin:0;cursor:pointer}
+h1,h2,h3,p,ol,ul,li{margin:0;padding:0}
+ol,ul{list-style:none}
+img{display:block}
+
+/* デザインは幅 390 の iPhone 画面。KV は幅に合わせて丸ごと拡縮し、本文は px のまま流す */
+.page{position:relative;max-width:480px;margin:0 auto;
+  --u:calc(min(100vw, 480px) / 390);
+  /* Figma のステータスバーは 45px。それより深いセーフエリアの端末だけ KV の中身を下げる */
+  --st:max(0px, calc(env(safe-area-inset-top, 0px) - 45px));
+  --bar-h:calc(67px + max(34px, env(safe-area-inset-bottom, 0px)))}
+
+/* ---------- KV ---------- */
+.kv{position:relative;height:calc(var(--u) * 677 + var(--st));overflow:hidden;background:linear-gradient(180deg,#0b1026 0%,#1e2658 100%)}
+.kv-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.kv-stage{position:absolute;left:0;top:var(--st);width:100%;height:calc(var(--u) * 677)}
+.kv-stage>*{position:absolute}
+.kv-glow{left:calc(var(--u) * -35);top:calc(var(--u) * 107);width:calc(var(--u) * 460);height:calc(var(--u) * 460);border-radius:50%;opacity:.45;
+  background:radial-gradient(closest-side,rgba(246,200,95,.55),rgba(246,200,95,0))}
+.kv-chip{left:0;right:0;top:calc(var(--u) * 54);margin:0 auto;width:max-content;height:calc(var(--u) * 30);padding:0 calc(var(--u) * 12);
+  border:1px solid #f6c85f;border-radius:100px;color:#f6c85f;font-weight:700;font-size:calc(var(--u) * 14);line-height:calc(var(--u) * 28);white-space:nowrap}
+.kv-title{left:calc(var(--u) * 16);top:calc(var(--u) * 90);width:calc(var(--u) * 358);text-align:center;font-weight:900;letter-spacing:calc(var(--u) * .32);white-space:nowrap}
+.kv-title .l1{display:block;position:relative;top:calc(var(--u) * 1.5);font-size:calc(var(--u) * 20);line-height:calc(var(--u) * 40)}
+.kv-title .l2{display:block;position:relative;top:calc(var(--u) * -2);font-size:calc(var(--u) * 35);line-height:calc(var(--u) * 47)}
+.kv-title em{font-style:normal;color:#f6c85f}
+.kv-chara{object-fit:contain}
+.kv-chara.c512{left:calc(var(--u) * 72);top:calc(var(--u) * 236);width:calc(var(--u) * 280);height:calc(var(--u) * 280)}
+.kv-chara.c515{left:calc(var(--u) * -38);top:calc(var(--u) * 344);width:calc(var(--u) * 200);height:calc(var(--u) * 200)}
+.kv-chara.c513{left:calc(var(--u) * 234);top:calc(var(--u) * 339);width:calc(var(--u) * 200);height:calc(var(--u) * 200)}
+.kv-chara.c516{left:calc(var(--u) * 46);top:calc(var(--u) * 460);width:calc(var(--u) * 210);height:calc(var(--u) * 210)}
+.kv-chara.c514{left:calc(var(--u) * 165);top:calc(var(--u) * 450);width:calc(var(--u) * 210);height:calc(var(--u) * 210);overflow:hidden}
+/* Figma の画像フィルに平行移動が入っている（imageTransform）。枠からはみ出た分は切れる */
+.kv-chara.c514 img{width:100%;height:100%;transform:translate(6.313%,10.705%)}
+.kv-spark{width:calc(var(--u) * var(--s));height:calc(var(--u) * var(--s));left:calc(var(--u) * var(--x));top:calc(var(--u) * var(--y))}
+.kv-spark{filter:blur(calc(var(--u) * .4));background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='.4 .4 14.2 14.2'%3E%3Cpath d='M7.5.4l.9 6.2 6.2.9-6.2.9-.9 6.2-.9-6.2-6.2-.9 6.2-.9z' fill='%23ffdb8c'/%3E%3C/svg%3E") center/100% 100% no-repeat}
+.back{left:calc(var(--u) * 6);top:calc(var(--u) * 49);width:calc(var(--u) * 44);height:calc(var(--u) * 44);display:flex;align-items:center;justify-content:center}
+.back svg{width:calc(var(--u) * 12);height:calc(var(--u) * 21);filter:drop-shadow(0 1px 4px rgba(0,0,0,.35));margin-left:calc(var(--u) * -4);margin-top:calc(var(--u) * 3)}
+
+/* ---------- 本文 ---------- */
+.body{padding:36px 24px calc(40px + var(--bar-h));display:flex;flex-direction:column;gap:44px}
+.h-lg{font-size:24px;line-height:34px;font-weight:900}
+.h-md{font-size:20px;line-height:28px;font-weight:900}
+.sub{font-size:14px;line-height:22px;color:#c9cfe6}
+.sec-chara{display:flex;flex-direction:column;gap:16px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.card{display:flex;flex-direction:column;align-items:center;gap:6px;height:156px;padding:8px 6px 0;background:#141b3c;border-radius:16px;text-align:center}
+.card img{width:100%;max-width:94px;aspect-ratio:1;object-fit:contain}
+.card span{font-size:14px;line-height:20px;font-weight:700}
+.ctas{display:flex;gap:10px}
+.btn{height:54px;border-radius:100px;display:flex;align-items:center;justify-content:center;font-size:17px;line-height:24px;font-weight:900;white-space:nowrap}
+.btn-gold{background:linear-gradient(180deg,#f8d57a 0%,#e8a93a 100%);color:#1a1405}
+.btn-white{background:#fff;color:#0b1026}
+.ctas .btn-gold{flex:154 1 0}
+.ctas .btn-white{flex:178 1 0}
+.sec-steps{display:flex;flex-direction:column;gap:12px}
+.step{display:flex;gap:16px;padding:16px 0;border-top:1px solid #232b55;font-weight:700;line-height:24px}
+.step b{width:17px;flex:none;font-size:14px;font-weight:700;color:#f6c85f}
+.step span{font-size:16px}
+.sec-themes{display:flex;flex-direction:column;gap:14px}
+.themes{display:flex;flex-direction:column;gap:10px}
+.themes li{display:flex;align-items:center;gap:12px;font-size:16px;line-height:24px;font-weight:700}
+.themes li::before{content:"";flex:none;width:6px;height:6px;border-radius:3px;background:#ffd66b}
+.sec-posts{display:flex;flex-direction:column;gap:14px}
+.posts{display:flex;flex-direction:column;gap:12px}
+.post{display:flex;flex-direction:column;gap:10px;padding:16px;background:#151c3f;border-radius:16px}
+.post-meta{display:flex;align-items:center;gap:8px;height:28px}
+.post-meta img{width:28px;height:28px;border-radius:50%;object-fit:cover}
+.post-name{font-size:14px;line-height:20px;font-weight:700;white-space:nowrap}
+.post-chip{margin-left:auto;padding:3px 10px;border-radius:100px;background:#ffd66b;color:#1a1405;font-size:12px;line-height:16px;font-weight:700;white-space:nowrap}
+.post-title{font-size:16px;line-height:24px;font-weight:700}
+.post-excerpt{font-size:14px;line-height:22px;color:#c9cfe6}
+.post-link{align-self:flex-start;font-size:14px;line-height:20px;font-weight:700;color:#ffd66b}
+.more{height:57px;border:1.5px solid #5a648f;border-radius:100px;display:flex;align-items:center;justify-content:center;font-size:16px;line-height:24px;font-weight:700}
+.sec-notes{display:flex;flex-direction:column;gap:10px;color:#c9cfe6}
+.sec-notes h2{font-size:14px;line-height:20px;font-weight:700}
+.sec-notes ul{display:flex;flex-direction:column;gap:4px;font-size:14px;line-height:22px}
+
+/* ---------- 下部固定バー ---------- */
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:10;max-width:480px;margin:0 auto;display:flex;gap:10px;
+  padding:12px 16px max(34px, env(safe-area-inset-bottom, 0px));background:#0b1026;border-top:1px solid #1f2750}
+.bar .btn-gold{flex:154 1 0}
+.bar .btn-white{flex:194 1 0}
+
+/* ---------- キャラ詳細ポップ ---------- */
+.pop{position:fixed;inset:0;z-index:20;display:flex;align-items:center;justify-content:center;padding:0 16px;background:rgba(0,0,0,.5);opacity:0;visibility:hidden;transition:opacity .2s ease-out,visibility 0s linear .2s}
+.pop.open{opacity:1;visibility:visible;transition:opacity .2s ease-out}
+.pop-box{position:relative;width:100%;max-width:358px;height:568px;max-height:calc(100% - 32px);border-radius:10px;overflow:hidden;
+  background:linear-gradient(180deg,#dbf3ff 0%,#d3fff6 51%,#fff 67%);transform:scale(.94);transition:transform .2s ease-out}
+.pop.open .pop-box{transform:none}
+.pop-box:focus{outline:none}
+.pop-head{height:48px;display:flex;align-items:center;justify-content:center;background:linear-gradient(263deg,#3193c8 0%,#28c9be 100%);
+  font-size:17px;line-height:20.4px;font-weight:700}
+.pop-img{width:210px;height:210px;margin:26px auto 0;object-fit:contain;border-radius:50%}
+.pop-name{margin-top:3px;font-size:22px;line-height:26.4px;font-weight:700;color:#005172;text-align:center}
+.pop-desc{margin:12px 25px 0;font-size:15px;line-height:18px;color:#005172;text-align:center}
+.pop-close{position:absolute;left:0;right:0;bottom:28px;margin:0 auto;width:170px;height:44px;border-radius:100px;background:#fff;
+  box-shadow:inset 0 0 0 1px #3193c8,0 2px 1px rgba(0,0,0,.2);color:#3193c8;font-size:15px;line-height:18px}
+
+/* ---------- 登場 MI（Figma 🎬 MI仕様カード） ---------- */
+@keyframes fadeUp12{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes fall{from{opacity:0;transform:translateY(-160px)}30%{opacity:1}to{opacity:1;transform:none}}
+@keyframes pop{from{opacity:0;transform:scale(.2)}to{opacity:1;transform:none}}
+.kv-chip{animation:fadeUp12 .3s ease-out both}
+.kv-title{animation:fadeUp12 .3s ease-out .08s both}
+.kv-chara{animation:fall .45s cubic-bezier(.34,1.56,.64,1) both;animation-delay:calc(.35s + var(--i) * .12s)}
+.kv-spark{animation:pop .35s cubic-bezier(.34,1.56,.64,1) both;animation-delay:calc(1s + var(--i) * .12s)}
+/* スクロール出現: 画面下端から 15% 入ったら 1 回だけ */
+.rv{opacity:0;transform:translate(var(--rx,0),var(--ry,0));
+  transition:opacity var(--rd,.35s) ease-out var(--rdl,0s),transform var(--rd,.35s) var(--re,ease-out) var(--rdl,0s)}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  @keyframes fadeUp12{from{opacity:0}to{opacity:1}}
+  @keyframes fall{from{opacity:0}to{opacity:1}}
+  @keyframes pop{from{opacity:0}to{opacity:1}}
+  .rv{transform:none}
+}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="kv">
+    <img class="kv-bg" src="assets/kv-bg.webp" alt="">
+    <div class="kv-stage">
+      <div class="kv-glow"></div>
+      <p class="kv-chip">note投稿キャンペーン</p>
+      <h1 class="kv-title"><span class="l1">note投稿で</span><span class="l2"><em>激レア</em>キャラをゲット</span></h1>
+      <img class="kv-chara c512" style="--i:0" src="assets/chara-512.webp" alt="ナポレオンモチベア">
+      <img class="kv-chara c515" style="--i:1" src="assets/chara-515.webp" alt="晴明ソラ">
+      <img class="kv-chara c513" style="--i:2" src="assets/chara-513.webp" alt="ジャンヌみゆ">
+      <img class="kv-chara c516" style="--i:3" src="assets/chara-516.webp" alt="アレクサンドレックス">
+      <span class="kv-chara c514" style="--i:4"><img src="assets/chara-514.webp" alt="政宗ジョニー"></span>
+      <i class="kv-spark" style="--i:0;--x:28;--y:257;--s:14" aria-hidden="true"></i>
+      <i class="kv-spark" style="--i:1;--x:346;--y:287;--s:18" aria-hidden="true"></i>
+      <i class="kv-spark" style="--i:2;--x:40;--y:517;--s:10" aria-hidden="true"></i>
+      <i class="kv-spark" style="--i:3;--x:352;--y:477;--s:12" aria-hidden="true"></i>
+      <i class="kv-spark" style="--i:4;--x:300;--y:227;--s:9" aria-hidden="true"></i>
+      <i class="kv-spark" style="--i:5;--x:70;--y:367;--s:8" aria-hidden="true"></i>
+      <button class="back" type="button" aria-label="閉じる" data-close><svg viewBox="0 0 12 21" aria-hidden="true"><path d="M0 10.5c0 .414.153.769.482 1.077l9.144 9.02c.258.26.587.403.975.403.776 0 1.399-.616 1.399-1.409 0-.39-.165-.734-.423-1.006L3.338 10.5l8.239-8.085C11.835 2.143 12 1.787 12 1.409 12 .616 11.377 0 10.601 0c-.388 0-.717.142-.975.402L.482 9.411C.153 9.731 0 10.086 0 10.5z" fill="#fff"/></svg></button>
+    </div>
+  </header>
+
+  <main class="body">
+    <section class="sec-chara">
+      <h2 class="h-lg rv" data-rv="fade">ここでしか手に入らない、<br>限定キャラ</h2>
+      <p class="sub rv" data-rv="fade">1記事で1体。5記事でコンプリート。</p>
+      <div class="grid" data-rv-group="chara">
+        <button class="card rv" type="button" data-chara="512"><img src="assets/chara-512.webp" alt=""><span>ナポレオン<br>モチベア</span></button>
+        <button class="card rv" type="button" data-chara="513"><img src="assets/chara-513.webp" alt=""><span>ジャンヌ<br>みゆ</span></button>
+        <button class="card rv" type="button" data-chara="514"><img src="assets/chara-514.webp" alt=""><span>政宗<br>ジョニー</span></button>
+        <button class="card rv" type="button" data-chara="515"><img src="assets/chara-515.webp" alt=""><span>晴明<br>ソラ</span></button>
+        <button class="card rv" type="button" data-chara="516"><img src="assets/chara-516.webp" alt=""><span>アレクサンド<br>レックス</span></button>
+      </div>
+    </section>
+
+    <div class="ctas rv" data-rv="cta">
+      <a class="btn btn-gold" href="https://note.com/" data-external>noteで書く</a>
+      <a class="btn btn-white" href="report/" data-report>投稿を報告する</a>
+    </div>
+
+    <section class="sec-steps">
+      <h2 class="h-md rv" data-rv="fade">やることは、3つだけ</h2>
+      <ol class="steps" data-rv-group="step">
+        <li class="step rv"><b>01</b><span>noteに記事を書く（500文字〜）</span></li>
+        <li class="step rv"><b>02</b><span>#モチタン か #モチスピ をつけて公開</span></li>
+        <li class="step rv"><b>03</b><span>記事のURLを報告する</span></li>
+      </ol>
+    </section>
+
+    <section class="sec-themes">
+      <h2 class="h-md rv" data-rv="fade">たとえば、こんなこと</h2>
+      <ul class="themes" data-rv-group="theme">
+        <li class="rv">使ってみた、正直な感想</li>
+        <li class="rv">使ってみて実感した効果</li>
+        <li class="rv">自分なりの使い方</li>
+        <li class="rv">実際の英語力・会話力の伸び</li>
+        <li class="rv">好きなところ・おすすめしたいポイント</li>
+        <li class="rv">続けてる理由</li>
+      </ul>
+    </section>
+
+    <section class="sec-posts">
+      <h2 class="h-md rv" data-rv="fade">みんなの投稿</h2>
+      <div class="posts" data-rv-group="post">
+        <article class="post rv">
+          <div class="post-meta"><img src="assets/avatar-ginjib.webp" alt=""><span class="post-name">ぎんじぶ</span><span class="post-chip">英検1級 一次突破</span></div>
+          <a class="post-title" href="https://note.com/ginjib/n/n6c729861c857" data-external>63歳。英検1級、私の一次試験 突破作戦。</a>
+          <p class="post-excerpt">英検準1級（1990年）とTOEIC955点（2018年）からの挑戦です。最初に「英検1級」という難関資格を目指そうと思わせてくれたのは「モチタン」というアプリでした。</p>
+          <a class="post-link" href="https://note.com/ginjib/n/n6c729861c857" data-external>noteで読む ›</a>
+        </article>
+        <article class="post rv">
+          <div class="post-meta"><img src="assets/avatar-hajime.webp" alt=""><span class="post-name">Hajime</span><span class="post-chip">30日継続</span></div>
+          <a class="post-title" href="https://note.com/hajime1109/n/n05ae2edb2dd5" data-external>モチスピを30日間続けてみた！入門から初級へ、AIスペイン語会話の成果と課題</a>
+          <p class="post-excerpt">スペイン語のスピーキング力を伸ばすために始めたAI会話アプリ「モチスピ」。気づけば使い始めて30日が経過しました。</p>
+          <a class="post-link" href="https://note.com/hajime1109/n/n05ae2edb2dd5" data-external>noteで読む ›</a>
+        </article>
+        <article class="post rv">
+          <div class="post-meta"><img src="assets/avatar-yurisense.webp" alt=""><span class="post-name">ゆりセンセ</span><span class="post-chip">韓国語 ネイティブLv.65</span></div>
+          <a class="post-title" href="https://note.com/yurisense/n/n64d05b50c5ea" data-external>韓国語レベルチェックテスト（モチタン）</a>
+          <p class="post-excerpt">モチタンで韓国語もできるようになった、とのことで、レベルチェックをしてみました。早押し系が苦手で…それでも、正答率が高いとレベルは高くなるみたいです。</p>
+          <a class="post-link" href="https://note.com/yurisense/n/n64d05b50c5ea" data-external>noteで読む ›</a>
+        </article>
+      </div>
+      <a class="more rv" data-rv="fadeonly" href="https://note.com/hashtag/%E3%83%A2%E3%83%81%E3%82%BF%E3%83%B3" data-external>実際の投稿をもっと見る</a>
+    </section>
+
+    <section class="sec-notes rv" data-rv="note">
+      <h2>注意事項</h2>
+      <ul>
+        <li>・500文字以上の公開記事が対象</li>
+        <li>・キャラクターはランダムで付与（重複なし）</li>
+        <li>・1アカウント5記事まで</li>
+        <li>・予告なく変更・終了する場合があります</li>
+        <li>・note株式会社とは関係ありません</li>
+      </ul>
+    </section>
+  </main>
+
+  <nav class="bar" aria-label="キャンペーンの操作">
+    <a class="btn btn-gold" href="https://note.com/" data-external>noteで書く</a>
+    <a class="btn btn-white" href="report/" data-report>投稿を報告する</a>
+  </nav>
+</div>
+
+<div class="pop" id="pop" role="dialog" aria-modal="true" aria-labelledby="pop-name" aria-hidden="true">
+  <div class="pop-box" tabindex="-1">
+    <div class="pop-head">キャラ詳細</div>
+    <img class="pop-img" id="pop-img" alt="">
+    <h2 class="pop-name" id="pop-name"></h2>
+    <p class="pop-desc" id="pop-desc"></p>
+    <button class="pop-close" type="button" data-pop-close>とじる</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+  var inApp = !!(window.Unity && window.Unity.call);
+
+  // アプリは LinkNoteCampaign() で ?token=<トークン> を付けて開く。タブ内に控えて報告フォームへ引き継ぎ、アドレスからは消す
+  // トークンが無くても（アプリ外・アプリが取得に失敗）このページは普通に読める
+  var token = new URLSearchParams(location.search).get('token') || '';
+  var stored = false;
+  try {
+    if (token) { sessionStorage.setItem('note_campaign_token', token); stored = true; }
+  } catch (e) {}
+  if (location.search) history.replaceState(null, '', location.pathname + location.hash);
+  // sessionStorage が使えない時だけ、報告フォームへのリンクで渡す（報告フォームも読んだ後にアドレスから消す）
+  if (token && !stored) {
+    document.querySelectorAll('[data-report]').forEach(function (a) {
+      a.href = 'report/?token=' + encodeURIComponent(token);
+    });
+  }
+
+  // 戻る: アプリの WebView を閉じる（PopupWebViewFullScreen の swipeBack）。ブラウザでは履歴を戻る
+  document.querySelector('[data-close]').addEventListener('click', function () {
+    if (inApp) window.Unity.call('swipeBack');
+    else history.back();
+  });
+
+  // note は外部（note アプリ／ブラウザ）で開く。アプリ内では Unity に URL を渡して開いてもらう
+  document.querySelectorAll('[data-external]').forEach(function (a) {
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.addEventListener('click', function (e) {
+      if (!inApp) return;
+      e.preventDefault();
+      window.Unity.call('openURL:' + a.href);
+    });
+  });
+
+  // キャラ詳細ポップ（アプリのキャラ詳細ポップと同じ見た目）
+  var charas = {
+    512: ['ナポレオンモチベア', 'note投稿キャンペーンの限定キャラ。フランスの英雄ナポレオンの姿をしたモチベアで、月桂冠と三角帽がトレードマーク。'],
+    513: ['ジャンヌみゆ', 'note投稿キャンペーンの限定キャラ。フランスの聖女ジャンヌ・ダルクの姿をしたみゆで、白銀の鎧と軍旗がトレードマーク。'],
+    514: ['政宗ジョニー', 'note投稿キャンペーンの限定キャラ。独眼竜・伊達政宗の姿をしたジョニーで、三日月の兜と眼帯がトレードマーク。'],
+    515: ['晴明ソラ', 'note投稿キャンペーンの限定キャラ。陰陽師・安倍晴明の姿をしたソラで、狩衣と扇がトレードマーク。'],
+    516: ['アレクサンドレックス', 'note投稿キャンペーンの限定キャラ。アレクサンドロス大王の姿をしたレックスで、黄金の鎧と太陽の盾がトレードマーク。']
+  };
+  var pop = document.getElementById('pop');
+  var opener = null;
+  function openPop(id, from) {
+    var c = charas[id];
+    document.getElementById('pop-img').src = 'assets/chara-' + id + '.webp';
+    document.getElementById('pop-img').alt = c[0];
+    document.getElementById('pop-name').textContent = c[0];
+    document.getElementById('pop-desc').textContent = c[1];
+    opener = from;
+    pop.classList.add('open');
+    document.documentElement.style.overflow = 'hidden';
+    pop.setAttribute('aria-hidden', 'false');
+    pop.querySelector('.pop-box').focus({ preventScroll: true });
+  }
+  function closePop() {
+    pop.classList.remove('open');
+    document.documentElement.style.overflow = '';
+    pop.setAttribute('aria-hidden', 'true');
+    if (opener) opener.focus({ preventScroll: true });
+  }
+  document.querySelectorAll('[data-chara]').forEach(function (b) {
+    b.addEventListener('click', function () { openPop(b.dataset.chara, b); });
+  });
+  pop.querySelector('[data-pop-close]').addEventListener('click', closePop);
+  pop.addEventListener('click', function (e) { if (e.target === pop) closePop(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && pop.classList.contains('open')) closePop(); });
+
+  // スクロール出現（Figma 🎬 MI仕様カード B）。1 回だけ再生し、以後は固定
+  var kinds = {
+    fade:  { d: .35, y: 16 },
+    cta:   { d: .35, y: 20 },
+    note:  { d: .40, y: 0 },
+    fadeonly: { d: .35, y: 0 },
+    chara: { d: .45, y: -40, step: .10, ease: 'cubic-bezier(.34,1.56,.64,1)' },
+    step:  { d: .35, x: -28, step: .12 },
+    theme: { d: .30, y: 12, step: .08 },
+    post:  { d: .45, y: 28, step: .25 }
+  };
+  function setup(el, k, i) {
+    el.style.setProperty('--rd', k.d + 's');
+    el.style.setProperty('--rdl', (i * (k.step || 0)).toFixed(2) + 's');
+    if (k.x) el.style.setProperty('--rx', k.x + 'px');
+    if (k.y) el.style.setProperty('--ry', k.y + 'px');
+    if (k.ease) el.style.setProperty('--re', k.ease);
+  }
+  document.querySelectorAll('[data-rv]').forEach(function (el) { setup(el, kinds[el.dataset.rv], 0); });
+  document.querySelectorAll('[data-rv-group]').forEach(function (g) {
+    g.querySelectorAll('.rv').forEach(function (el, i) { setup(el, kinds[g.dataset.rvGroup], i); });
+  });
+  var targets = document.querySelectorAll('.rv');
+  if (!('IntersectionObserver' in window)) {
+    targets.forEach(function (el) { el.classList.add('in'); });
+    return;
+  }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (!e.isIntersecting) return;
+      e.target.classList.add('in');
+      io.unobserve(e.target);
+    });
+  }, { rootMargin: '0px 0px -15% 0px' });
+  targets.forEach(function (el) { io.observe(el); });
+})();
+</script>
+</body>
+</html>

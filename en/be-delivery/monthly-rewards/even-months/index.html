@@ -1,2 +1,143 @@
-<!DOCTYPE html><!-- fallback: redirect to ja -->
-<html lang="ja"><head><meta charset="utf-8"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0; url=/be-delivery/monthly-rewards/even-months/"><link rel="canonical" href="https://motitown-notification.astran.jp/be-delivery/monthly-rewards/even-months/"><title>Redirecting…</title></head><body><a href="/be-delivery/monthly-rewards/even-months/">https://motitown-notification.astran.jp/be-delivery/monthly-rewards/even-months/</a></body></html>
+<!DOCTYPE html>
+<!--
+  月間ミッション報酬のお知らせ（偶数月）
+  - アプリ内 WebView から ?app=motitan / ?app=motispi 付きで開かれ、起動アプリのブロックが上に来る
+  - 中身は両アプリで同一。毎月 偶数月 の分だけをここで差し替える（更新手順は ../README.md）
+  - 現在の内容：2026年10月（202610）
+-->
+<html lang="en" data-app="motitan">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>This Month's Rewards | Motitan & Motispi</title>
+  <meta property="og:title" content="This Month's Rewards">
+  <meta property="og:type" content="article">
+  <meta name="robots" content="noindex">
+  <script>
+    // 描画前に起動アプリを確定させる（順序切り替えのちらつき防止）。
+    // 不正値・パラメータ無しはモチタン扱い。
+    (function () {
+      var m = /[?&]app=([^&#]*)/.exec(window.location.search);
+      var app = m ? decodeURIComponent(m[1]).toLowerCase() : '';
+      document.documentElement.setAttribute('data-app', app === 'motispi' ? 'motispi' : 'motitan');
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../../../be-delivery/monthly-rewards/shared/style.css">
+  <style>
+    /* 2026年10月だけの例外: モチスピ優秀賞「夕焼けの龍」は顔が画像の左上にあり、説明文ボックスの下に隠れるため右へ寄せる。
+       共通の shared/style.css は触らない。翌々月（12月）の更新時にこのブロックは消すこと。 */
+    .zone--motispi .cal-row--excellent .cal-row__figure img:not(.sparkle) {
+      transform: translateX(40px);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+
+    <!-- ================= モチタン限定 ================= -->
+    <section class="zone zone--motitan">
+      <h1 class="zone__title">Motitan Exclusive</h1>
+
+      <!-- 月間ミッション -->
+      <div class="card card--monthly">
+        <div class="card__glow"><img src="../../../../be-delivery/monthly-rewards/shared/glow.svg" alt=""></div>
+        <div class="card__tag">Monthly Mission<img src="../../../../be-delivery/monthly-rewards/shared/calendar.svg" alt=""></div>
+        <div class="hero">
+          <img class="sparkle sparkle--start" src="../../../../be-delivery/monthly-rewards/shared/sparkle.svg" alt="">
+          <img src="../../../../be-delivery/monthly-rewards/en/even-months/images/motitan-monthly.png" width="344" height="344" alt="Witch Miyu">
+          <img class="sparkle sparkle--end" src="../../../../be-delivery/monthly-rewards/shared/sparkle.svg" alt="">
+        </div>
+        <div class="info">
+          <p class="info__name">Witch Miyu</p>
+          <p class="info__desc">For one special day, Miyu has put on a tall pointed hat and a witch's outfit. Perched on an enormous broom, she lets her usual refined manner rest for a while. With the autumn breeze flowing through her hair, she enjoys a carefree stroll through the sky.</p>
+        </div>
+      </div>
+
+      <!-- カレンダーミッション -->
+      <div class="card card--calendar">
+        <div class="card__glow"><img src="../../../../be-delivery/monthly-rewards/shared/glow.svg" alt=""></div>
+        <div class="card__tag">Calendar Mission<span class="leaf"><img src="../../../../be-delivery/monthly-rewards/shared/gold-leaf.svg" alt=""><img src="../../../../be-delivery/monthly-rewards/shared/silver-leaf.svg" alt=""></span></div>
+        <img class="sparkle sparkle--start" src="../../../../be-delivery/monthly-rewards/shared/sparkle.svg" alt="">
+
+        <div class="cal-row cal-row--effort">
+          <img class="cal-row__char--overhang" src="../../../../be-delivery/monthly-rewards/en/even-months/images/motitan-effort.png" width="320" height="320" alt="Roasted Sweet Potato MotiBear">
+          <div class="cal-row__spacer"></div>
+          <div class="info">
+            <span class="award award--effort">Achiever Award</span>
+            <p class="info__name">Roasted Sweet Potato MotiBear</p>
+            <p class="info__desc">Disguised as an enormous roasted sweet potato, MotiBear is savoring the flavors of fall—with another piping-hot sweet potato in paw to munch on! One bite of that gentle sweetness brings an instant smile. Autumn's generous appetite fills both belly and heart.</p>
+          </div>
+        </div>
+
+        <div class="cal-row cal-row--excellent">
+          <div class="info">
+            <span class="award award--excellent">Excellence Award</span>
+            <p class="info__name">King Obakēnu</p>
+            <p class="info__desc">A sparkling crown and heart-shaped sunglasses are King Obakēnu's trademarks. Despite being a ghost, he has no interest in scaring anyone! This exceptionally cheerful party spirit loves music and fun, and gets every gathering going wherever he appears.</p>
+          </div>
+          <div class="cal-row__figure">
+            <img src="../../../../be-delivery/monthly-rewards/en/even-months/images/motitan-excellent.png" width="344" height="344" alt="King Obakēnu">
+            <img class="sparkle sparkle--end" src="../../../../be-delivery/monthly-rewards/shared/sparkle.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= モチスピ限定 ================= -->
+    <section class="zone zone--motispi">
+      <h1 class="zone__title">Motispi Exclusive</h1>
+
+      <!-- 月間ミッション -->
+      <div class="card card--monthly">
+        <div class="card__glow"><img src="../../../../be-delivery/monthly-rewards/shared/glow.svg" alt=""></div>
+        <div class="card__tag">Monthly Mission<img src="../../../../be-delivery/monthly-rewards/shared/calendar.svg" alt=""></div>
+        <div class="hero">
+          <img class="sparkle sparkle--start" src="../../../../be-delivery/monthly-rewards/shared/sparkle.svg" alt="">
+          <img src="../../../../be-delivery/monthly-rewards/en/even-months/images/motispi-monthly.png" width="344" height="344" alt="Werewolf Johnny">
+          <img class="sparkle sparkle--end" src="../../../../be-delivery/monthly-rewards/shared/sparkle.svg" alt="">
+        </div>
+        <div class="info">
+          <p class="info__name">Werewolf Johnny</p>
+          <p class="info__desc">On Halloween night, Johnny transforms from his usual zombie self into a werewolf. Those furry ears and that tail are only a costume... right!? When the full moon rises, he certainly seems wilder than usual. Only Johnny knows whether the transformation is real!</p>
+        </div>
+      </div>
+
+      <!-- カレンダーミッション -->
+      <div class="card card--calendar">
+        <div class="card__glow"><img src="../../../../be-delivery/monthly-rewards/shared/glow.svg" alt=""></div>
+        <div class="card__tag">Calendar Mission<span class="leaf"><img src="../../../../be-delivery/monthly-rewards/shared/gold-leaf.svg" alt=""><img src="../../../../be-delivery/monthly-rewards/shared/silver-leaf.svg" alt=""></span></div>
+        <img class="sparkle sparkle--start" src="../../../../be-delivery/monthly-rewards/shared/sparkle.svg" alt="">
+
+        <div class="cal-row cal-row--effort">
+          <img class="cal-row__char--overhang" src="../../../../be-delivery/monthly-rewards/en/even-months/images/motispi-effort.png" width="320" height="320" alt="Lacrosse MotiBear">
+          <div class="cal-row__spacer"></div>
+          <div class="info">
+            <span class="award award--effort">Achiever Award</span>
+            <p class="info__name">Lacrosse MotiBear</p>
+            <p class="info__desc">Inspired by the sporting season, MotiBear has taken up lacrosse. There's still plenty left to learn, but with a big stick in paw, determination is never in short supply! Chasing the ball with total focus often ends in a tumble. The bandage on MotiBear's cheek is proof of all that hard work—a tiny badge of honor.</p>
+          </div>
+        </div>
+
+        <div class="cal-row cal-row--excellent">
+          <div class="info">
+            <span class="award award--excellent">Excellence Award</span>
+            <p class="info__name">Sunset Dragon</p>
+            <p class="info__desc">When the evening sky turns crimson, the Sunset Dragon appears from nowhere. Twilight red washes over white scales as blazing wings carry the dragon majestically across the autumn sky. Beautiful, capricious, and seen only during the fleeting moment when day meets night, this dragon watches over the season from above.</p>
+          </div>
+          <div class="cal-row__figure">
+            <img src="../../../../be-delivery/monthly-rewards/en/even-months/images/motispi-excellent.png" width="344" height="344" alt="Sunset Dragon">
+            <img class="sparkle sparkle--end" src="../../../../be-delivery/monthly-rewards/shared/sparkle.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</body>
+
+</html>
