@@ -74,9 +74,9 @@ def english_page_images():
             if s.startswith("data:"):
                 continue
             if s.startswith("http"):
-                if "motitown-notification.astran.jp" not in s:
+                if "motitown.com/notification/" not in s:
                     continue
-                s = "/" + s.split("astran.jp/", 1)[1]
+                s = "/" + s.split("motitown.com/notification/", 1)[1]
             p = os.path.join(ROOT, s.lstrip("/")) if s.startswith("/") else os.path.normpath(os.path.join(cur, s))
             if os.path.isfile(p) and not p.endswith(".svg"):
                 imgs.setdefault(os.path.relpath(p, ROOT), []).append(os.path.relpath(cur, ROOT))
