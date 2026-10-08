@@ -80,3 +80,20 @@ AIフレーズ帳
 自動再生           # 単語詳細/フレーズ詳細の自動再生(旧お知らせ16では「自動音声読み上げ機能」)
 バックグラウンド再生
 無料プラン
+
+# ── v12.1.0 で追加(develop/v12.1.0 のローカライズ表から) ──
+英語覇者の道       # モチタンの新コース(course 14)。約24,500語
+鬼ムズ             # モチタンの新コース(course 15)。約5,400語
+写真から作成       # 単語帳一覧の「＋」から(PhotoBook.Button.CreateFromPhoto)
+写真               # 帳の詳細「＋ 単語を追加」のシートの選択肢(PhotoBook.Button.Photo)
+カメラで撮影       # 写真入力シート(PopupPhotoBookSource.Button.Camera)
+画像から選ぶ       # 写真入力シート(PopupPhotoBookSource.Button.Gallery)
+単語を追加         # 帳の詳細のボタン(PopupPhotoBookSource.Title.AddWords)
+フレーズを追加     # 同上フレーズ帳(PopupPhotoBookSource.Title.AddPhrases)
+アカウントの管理   # マイページ > 設定 > アカウントの管理(ManageAccountView)
+アカウント連携     # アカウントの管理内の項目名(ManageAccountView.Title.AccountLink)
+レジェンドクエスト # 冒険の最後の挑戦(AdventureStagesScene.Title.LegendQuest)
+note               # note(note.com)。note投稿キャンペーン(MT-6124)
+投稿を報告する     # note投稿キャンペーンページのボタン(event/note_campaign/index.html)
+noteで書く         # 同ページのボタン
+ミニモチベア       # レジェンド入りの報酬キャラ(ExplanationLegendPopup.MultiLine.LegendReward)

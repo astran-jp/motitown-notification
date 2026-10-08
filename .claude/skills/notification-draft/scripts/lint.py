@@ -77,7 +77,7 @@ def term_ok(term, glossary, app, common):
 def extract_terms(line):
     found = []
     for m in re.finditer(QUOTED, line):
-        q = m.group(1)
+        q = m.group(1).lstrip("#＃")  # ハッシュタグ(「#モチタン」)はタグ名で判定する
         # 長い引用(文)や記号だけの引用(「→」)は用語ではない
         if len(q) <= 14 and re.search(r"[A-Za-z0-9ぁ-んァ-ヶ一-龥]", q):
             found.append(q)

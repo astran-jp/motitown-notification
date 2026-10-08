@@ -52,7 +52,10 @@ draft.md からの転記ルール:
 1. 背景(文字なし)を Codex に作らせる。プロンプトの雛形は `scripts/banner-prompt.md`(タイトル文字列と内容を埋める)。Codex 側の `generate-mochitown-banner` スキル(キャラクター・背景素材付き)が使われる。
    ```sh
    sed "s/{{TITLE}}/自動再生の改善と対戦追加/; s/{{N}}/21/" .claude/skills/notification-page/scripts/banner-prompt.md \
-     | codex exec -s workspace-write -i 20/assets/header.png -     # 参考に直近のバナーを添付。プロンプトは stdin で渡す(引数渡しだと stdin 待ちで止まる)
+     | codex exec -m gpt-6-astra -c model_reasoning_effort=high -s workspace-write -i 20/assets/header.png -     # 参考に直近のバナーを添付。プロンプトは stdin で渡す(引数渡しだと stdin 待ちで止まる)
+   ```
+   モデルは `gpt-6-astra` を明示する(2026-10-08 時点、Codex の既定 `gpt-6.1-sol` と `gpt-6-sol` は ChatGPT アカウントでは 400 で拒否される)。
+   ```
    ```
    出力は `{N}/assets/header-bg.png`(1000×380、文字なし、上端 140px の帯に顔や目立つ要素が無いこと)。
 2. タイトルを合成する(フォント Noto Sans JP Black、86px、オレンジ #FF940F、白縁 8px、水色ハロー。お知らせ20のバナーを実測した固定値):
