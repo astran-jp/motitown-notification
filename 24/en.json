@@ -1,0 +1,257 @@
+{
+ "title": {
+  "ja": "【モチタン・モチスピ】「写真から単語帳」や「鬼ムズ」など、5つの要素を追加｜モチタウン",
+  "en": "Create Wordbooks from Photos, \"Ogre Hard\" Course, and More | Motitown"
+ },
+ "banner": {
+  "ja": "写真から単語帳・新コース",
+  "en": "Photo to Wordbook & New Courses"
+ },
+ "segments": [
+  {
+   "tag": "h1",
+   "ja": "「写真から単語帳」や<br>「鬼ムズ」など、<br>5つの要素を追加",
+   "en": "Create Wordbooks from Photos,<br>\"Ogre Hard\" Course,<br>and 3 More Additions"
+  },
+  {
+   "tag": "p",
+   "ja": "モチタン・モチスピを開発している神谷です。",
+   "en": "Hi, this is Kamiya, the developer of Motitan and Motispi."
+  },
+  {
+   "tag": "p",
+   "ja": "v12.1.0 へのアップデートにより、モチタンへの新コース追加、写真から単語帳やフレーズ帳を作成する機能、アカウント連携での限定キャラをプレゼントする機能、ステージごとのレジェンドクエストが追加されます。また、note投稿キャンペーンを開始しました。",
+   "en": "With the v12.1.0 update, we are adding new courses to Motitan, a feature that creates wordbooks and phrasebooks from photos, a limited character gift for linking your account, and stage Legend Quests. We have also started the note posting campaign."
+  },
+  {
+   "tag": "h2",
+   "ja": "モチタン：新コース「英語覇者の道」「鬼ムズ」を追加",
+   "en": "Motitan: New Courses \"Path of the English Conqueror\" and \"Ogre Hard\""
+  },
+  {
+   "tag": "p",
+   "ja": "モチタンの英語コースに「英語覇者の道」と「鬼ムズ」を追加しました。",
+   "en": "We added \"Path of the English Conqueror\" and \"Ogre Hard\" to Motitan's English courses."
+  },
+  {
+   "tag": "li",
+   "ja": "「英語覇者の道」は、超基礎から超難単語まで約24,500語を収録しており、この1コースで基礎から最難関まで学べます。",
+   "en": "\"Path of the English Conqueror\" covers about 24,500 words, from the very basics to the hardest words, so you can go from fundamentals to the top level in a single course."
+  },
+  {
+   "tag": "li",
+   "ja": "「鬼ムズ」は、どのコースにも収録されていない難単語だけを約5,400語収録した、他のコースでは物足りない人向けのコースです。",
+   "en": "\"Ogre Hard\" collects about 5,400 difficult words not found in any other course. It is for people who find the other courses too easy."
+  },
+  {
+   "tag": "li",
+   "ja": "どちらのコースも、レジェンド入りを達成すると、限定のミニモチベアがもらえます。",
+   "en": "Reach Legend in either course to get a limited Mini MotiBear."
+  },
+  {
+   "tag": "p",
+   "ja": "<span class=\"steps__label\">操作手順：</span>\n        <span class=\"steps__path\">マイページ &gt; コース変更</span>",
+   "en": "<span class=\"steps__label\">How to switch:</span>\n        <span class=\"steps__path\">Profile &gt; Change Course</span>"
+  },
+  {
+   "tag": "p",
+   "ja": "※ヘッダーの「コース変更」からも切り替えられます。",
+   "en": "* You can also switch from \"Change Course\" in the header."
+  },
+  {
+   "tag": "h2",
+   "ja": "モチタン・モチスピ：写真から単語帳・フレーズ帳を作成",
+   "en": "Motitan & Motispi: Create Wordbooks and Phrasebooks from Photos"
+  },
+  {
+   "tag": "p",
+   "ja": "教科書や単語帳、字幕、記事などの写真から、単語帳やフレーズ帳を作成したり、既存の単語帳やフレーズ帳に追加したりできるようになりました。",
+   "en": "You can now create wordbooks and phrasebooks, or add to existing ones, from photos of textbooks, vocabulary books, subtitles, articles, and more."
+  },
+  {
+   "tag": "li",
+   "ja": "「カメラで撮影」した写真や、「画像から選ぶ」ことで、一度に10枚まで写真を読み込めます。",
+   "en": "Use \"Take a photo\" or \"Choose from gallery\" to load up to 10 photos at once."
+  },
+  {
+   "tag": "li",
+   "ja": "読み取った単語やフレーズの中から、登録したいものを選んで作成・追加します。",
+   "en": "Pick the words or phrases you want from what was read, then create or add."
+  },
+  {
+   "tag": "li",
+   "ja": "無料プランの方は累計2回まで、Premium 会員の方は1日10回まで利用できます。",
+   "en": "Free plan: up to 2 uses in total. Premium: up to 10 uses per day."
+  },
+  {
+   "tag": "li",
+   "ja": "学習中の言語に合わせて文字を読み取ります。",
+   "en": "Text is read according to the language you are learning."
+  },
+  {
+   "tag": "figcaption",
+   "ja": "写真から作成",
+   "en": "Create from photo"
+  },
+  {
+   "tag": "figcaption",
+   "ja": "読み取り結果",
+   "en": "Reading results"
+  },
+  {
+   "tag": "p",
+   "ja": "<span class=\"steps__label\">操作手順：</span>\n        <span class=\"steps__path\">単語帳 &gt; 写真から作成<br>単語帳詳細 &gt; 単語を追加 &gt; 写真<br>フレーズ帳 &gt; 写真から作成<br>フレーズ帳詳細 &gt; フレーズを追加 &gt; 写真</span>",
+   "en": "<span class=\"steps__label\">How to use:</span>\n        <span class=\"steps__path\">Wordbooks &gt; Create from photo<br>Wordbook details &gt; Add Words &gt; Photo<br>Phrasebooks &gt; Create from photo<br>Phrasebook details &gt; Add Phrases &gt; Photo</span>"
+  },
+  {
+   "tag": "p",
+   "ja": "※「写真から作成」は、単語帳・フレーズ帳の一覧の右下にある「＋」ボタンから選べます。",
+   "en": "* \"Create from photo\" is in the \"+\" button at the bottom right of the wordbook and phrasebook lists."
+  },
+  {
+   "tag": "h2",
+   "ja": "モチタン・モチスピ：アカウント連携で限定キャラをプレゼント",
+   "en": "Motitan & Motispi: Link Your Account and Get a Limited Character"
+  },
+  {
+   "tag": "p",
+   "ja": "Apple または Google のアカウントを連携すると、最初のモチベア4体のうち、まだ持っていない限定キャラを1体プレゼントします。",
+   "en": "Link an Apple or Google account and we will give you one limited character you do not have yet, from the first four MotiBears."
+  },
+  {
+   "tag": "li",
+   "ja": "プレゼントは1回限りです。",
+   "en": "The gift is one time only."
+  },
+  {
+   "tag": "li",
+   "ja": "まだ連携していない方には、ホームにバナーが表示され、バナーをタップすると「アカウントの管理」画面が開きます。",
+   "en": "If you have not linked yet, a banner appears on Home. Tap it to open the \"Manage Account\" screen."
+  },
+  {
+   "tag": "li",
+   "ja": "アカウントを連携しておくことで、機種変更やアプリを削除したときにもデータを引き継げます。",
+   "en": "Linking your account also lets you carry over your data when you change phones or delete the app."
+  },
+  {
+   "tag": "p",
+   "ja": "<span class=\"steps__label\">操作手順：</span>\n        <span class=\"steps__path\">マイページ &gt; 設定 &gt; アカウントの管理</span>",
+   "en": "<span class=\"steps__label\">How to link:</span>\n        <span class=\"steps__path\">Profile &gt; Settings &gt; Manage Account</span>"
+  },
+  {
+   "tag": "h2",
+   "ja": "モチタン・モチスピ：ステージごとのレジェンドクエスト（Premium限定）",
+   "en": "Motitan & Motispi: Stage Legend Quests (Premium Only)"
+  },
+  {
+   "tag": "p",
+   "ja": "冒険で、ステージごとに「レジェンドクエスト」へ挑戦できるようになりました。",
+   "en": "In Adventure, you can now take on a \"Legend Quest\" for each stage."
+  },
+  {
+   "tag": "li",
+   "ja": "ステージのレジェンドクエストでは、そのステージのすべての単語（モチスピはフレーズ）が出題され、不正解になった時点で終了します。",
+   "en": "A stage Legend Quest asks every word in that stage (phrases in Motispi) and ends at your first wrong answer."
+  },
+  {
+   "tag": "li",
+   "ja": "ステージを走破すると挑戦可能になります。",
+   "en": "It unlocks once you clear the stage."
+  },
+  {
+   "tag": "li",
+   "ja": "挑戦できるのは Premium 会員の方のみです。",
+   "en": "Only Premium members can take it on."
+  },
+  {
+   "tag": "li",
+   "ja": "コース全体のレジェンドクエストも、これまで通りプレイできます。",
+   "en": "The course-wide Legend Quest is still available as before."
+  },
+  {
+   "tag": "h2",
+   "ja": "モチタン・モチスピ：note投稿キャンペーンの開始",
+   "en": "Motitan & Motispi: note Posting Campaign"
+  },
+  {
+   "tag": "p",
+   "ja": "note でモチタンやモチスピに関する記事を書いて報告すると、限定キャラがもらえるキャンペーンを開始しました。",
+   "en": "We have started a campaign where you get a limited character for writing and reporting a note article about Motitan or Motispi."
+  },
+  {
+   "tag": "li",
+   "ja": "500文字以上の公開記事に「#モチタン」または「#モチスピ」のタグをつけて投稿し、記事のURLを報告することが条件です。",
+   "en": "To qualify, publish an article of 500 characters or more with the \"#モチタン\" or \"#モチスピ\" tag, then report the article URL."
+  },
+  {
+   "tag": "li",
+   "ja": "報告前に記事の下書き状態を解除し公開してください。",
+   "en": "Make sure the article is published, not a draft, before you report it."
+  },
+  {
+   "tag": "li",
+   "ja": "1記事の報告で1体、最大5記事の報告で5体すべての限定キャラを重複なしのランダムで獲得できます。",
+   "en": "One character per article, up to 5 articles for all 5 limited characters. Characters are given at random with no duplicates."
+  },
+  {
+   "tag": "li",
+   "ja": "本キャンペーンは予告なく変更または終了する場合があります。",
+   "en": "This campaign may change or end without notice."
+  },
+  {
+   "tag": "li",
+   "ja": "本キャンペーンはnote株式会社とは関係ありません。",
+   "en": "This campaign is not affiliated with note, Inc."
+  },
+  {
+   "tag": "p",
+   "ja": "ホームのバナーをタップして表示されるページから、記事を書いたあとに「投稿を報告する」を押して記事のURLを報告してください。",
+   "en": "Tap the banner on Home to open the campaign page. After writing your article, press \"Report a post\" and submit the article URL."
+  },
+  {
+   "tag": "p",
+   "ja": "開発者 神谷創",
+   "en": "Sou Kamiya, Developer"
+  },
+  {
+   "tag": "attr:content",
+   "ja": "「写真から単語帳」や「鬼ムズ」など、5つの要素を追加",
+   "en": "Create Wordbooks from Photos, \"Ogre Hard\" Course, and 3 More Additions"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "写真から単語帳・新コース",
+   "en": "Photo to Wordbook & New Courses"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "コース変更の画面に並ぶ「英語覇者の道」と「鬼ムズ」",
+   "en": "\"Path of the English Conqueror\" and \"Ogre Hard\" in the Change Course list"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "単語帳の「＋」から開く写真入力シート",
+   "en": "The photo input sheet opened from the \"+\" in Wordbooks"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "写真の読み取り結果から登録する単語を選ぶ画面",
+   "en": "Choosing words to register from the photo reading results"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "「アカウントの管理」画面。連携すると限定キャラを1体ゲット",
+   "en": "The \"Manage Account\" screen: link to get one limited character"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "ステージのレジェンドクエストのスタート画面",
+   "en": "The start screen of a stage Legend Quest"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "ホームのバナーから開く note投稿キャンペーンのページ",
+   "en": "The note posting campaign page opened from the Home banner"
+  }
+ ]
+}

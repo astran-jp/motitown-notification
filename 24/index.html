@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>【モチタン・モチスピ】「写真から単語帳」や「鬼ムズ」など、5つの要素を追加｜モチタウン</title>
+<meta property="og:title" content="「写真から単語帳」や「鬼ムズ」など、5つの要素を追加">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0D4962;
+    --date:#7C878A;
+    --line:#99A7AA;
+    --sky:#DCF1FF;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  img{max-width:100%;}
+  body{
+    background:#fff;
+    font-family:"Noto Sans JP",-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+    color:var(--navy);
+    -webkit-font-smoothing:antialiased;
+    word-break:break-word;
+  }
+
+  /* 流動カラム：固定px幅を持たせずレスポンシブに */
+  .wrap{width:100%;max-width:430px;margin:0 auto;background:#fff;}
+
+  /* ヘッダーバナー（全幅・比率維持）＋下方向のシャドウ。
+     画像未配置時も崩れないよう、背景にブランドグラデーションを敷く */
+  .banner{
+    display:block;width:100%;height:auto;position:relative;z-index:1;
+    background:linear-gradient(180deg,#DCF1FF 0%,#F4FBFF 100%);
+    box-shadow:0 4px 6px rgba(0,0,0,.12);
+  }
+
+  /* 本文コンテナ：左右パディングで余白を作る */
+  .content{padding:14px 22px 40px;}
+
+  h1.title{margin:0 0 8px;color:var(--navy);font-weight:700;font-size:20px;line-height:1.5;letter-spacing:.02em;}
+  .date{color:var(--date);font-size:16.5px;line-height:1.4;letter-spacing:.02em;margin:0 0 18px;}
+
+  p.lead{font-size:15.5px;line-height:1.9;letter-spacing:.02em;margin:18px 0;}
+
+  /* トピックごとの見出し（左のネイビーバー＋薄い水色の下線） */
+  h2.section{
+    display:flex;align-items:center;gap:10px;
+    margin:36px 0 4px;padding:0 0 8px;border-bottom:2px solid var(--sky);
+    color:var(--navy);font-weight:700;font-size:18px;line-height:1.5;letter-spacing:.02em;
+  }
+  h2.section::before{
+    content:"";flex:0 0 auto;width:5px;height:1.2em;border-radius:3px;background:var(--navy);
+  }
+
+  /* 箇条書き */
+  ul.list{margin:14px 0;padding:0 0 0 1.3em;font-size:15.5px;line-height:1.8;letter-spacing:.02em;}
+  ul.list li{margin:6px 0;}
+
+  /* 操作手順：ラベル＋パス */
+  .steps{margin:18px 0;font-size:15.5px;line-height:1.9;letter-spacing:.02em;}
+  .steps__label{display:block;font-weight:700;}
+  .steps__path{
+    display:block;margin-top:6px;padding:8px 12px;
+    background:#EAF6FF;border:1px solid #C9E8FB;border-radius:8px;
+    font-weight:500;font-size:14.5px;line-height:1.7;
+  }
+
+  /* 画像枠：角丸＋細い枠線＋淡い影。画像が未配置のときはファイル名を表示するプレースホルダーになる */
+  figure.shot{margin:20px 0;}
+  figure.shot img{
+    display:block;width:100%;height:auto;
+    border:1px solid #C9E8FB;border-radius:12px;
+    box-shadow:0 2px 8px rgba(13,73,98,.10);
+  }
+  figure.shot.missing img{display:none;}
+  figure.shot.missing::before{
+    content:"画像を配置してください\A" attr(data-file);
+    white-space:pre;
+    display:flex;align-items:center;justify-content:center;text-align:center;
+    aspect-ratio:var(--ratio,4/3);
+    border:2px dashed #99C9E6;border-radius:12px;background:#F4FBFF;
+    color:var(--date);font-size:13px;line-height:1.7;letter-spacing:.02em;
+  }
+  figure.shot figcaption{margin-top:8px;font-size:12.5px;line-height:1.6;color:var(--date);text-align:center;}
+
+  /* ヘッダーバナー未配置時のプレースホルダー（1000x380 の比率） */
+  figure.banner-box{margin:0;}
+  figure.banner-box.missing img{display:none;}
+  figure.banner-box.missing::before{
+    content:"ヘッダー画像を配置してください\A" attr(data-file);
+    white-space:pre;
+    display:flex;align-items:center;justify-content:center;text-align:center;
+    aspect-ratio:1000/380;
+    background:linear-gradient(180deg,#DCF1FF 0%,#F4FBFF 100%);
+    border-bottom:2px dashed #99C9E6;box-shadow:0 4px 6px rgba(0,0,0,.12);
+    color:var(--date);font-size:13px;line-height:1.7;letter-spacing:.02em;
+  }
+
+  /* 拡大前/拡大後の比較（横並び。狭い画面では縦積み） */
+  .compare{display:flex;gap:12px;margin:20px 0;}
+  .compare figure.shot{flex:1 1 0;min-width:0;margin:0;}
+  .compare figure.shot.missing::before{aspect-ratio:var(--ratio,1170/1382);}
+  @media (max-width:360px){.compare{flex-direction:column;}}
+
+  /* 署名（右寄せ・控えめ） */
+  p.sign{margin:32px 0 0;text-align:right;font-size:14.5px;line-height:1.7;letter-spacing:.02em;}
+
+  /* 補足（※） */
+  p.note{font-size:12.5px;line-height:1.8;letter-spacing:.02em;margin:32px 0 0;color:var(--date);}
+  .steps+p.note{margin-top:-8px;}
+  p.note+p.note{margin-top:8px;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- ヘッダーバナー：写真から単語帳・新コース（header-bg.png + banner-title.py で合成） -->
+    <figure class="banner-box" data-file="assets/header.png">
+      <img class="banner" src="assets/header.png" alt="写真から単語帳・新コース" width="1000" height="380" onerror="this.parentNode.classList.add('missing')">
+    </figure>
+
+    <div class="content">
+
+      <h1 class="title">「写真から単語帳」や<br>「鬼ムズ」など、<br>5つの要素を追加</h1>
+      <p class="date">2026/10/9 17:00</p>
+
+      <p class="lead">モチタン・モチスピを開発している神谷です。</p>
+
+      <p class="lead">v12.1.0 へのアップデートにより、モチタンへの新コース追加、写真から単語帳やフレーズ帳を作成する機能、アカウント連携での限定キャラをプレゼントする機能、ステージごとのレジェンドクエストが追加されます。また、note投稿キャンペーンを開始しました。</p>
+
+      <h2 class="section">モチタン：新コース「英語覇者の道」「鬼ムズ」を追加</h2>
+
+      <p class="lead">モチタンの英語コースに「英語覇者の道」と「鬼ムズ」を追加しました。</p>
+
+      <ul class="list">
+        <li>「英語覇者の道」は、超基礎から超難単語まで約24,500語を収録しており、この1コースで基礎から最難関まで学べます。</li>
+        <li>「鬼ムズ」は、どのコースにも収録されていない難単語だけを約5,400語収録した、他のコースでは物足りない人向けのコースです。</li>
+        <li>どちらのコースも、レジェンド入りを達成すると、限定のミニモチベアがもらえます。</li>
+      </ul>
+
+      <!-- コース変更の一覧に新コースが並ぶ画面（Unity Device Simulator iPhone 12 のスクリーンショット） -->
+      <figure class="shot" data-file="assets/new-courses.png" style="--ratio:1170/2150">
+        <img src="assets/new-courses.png" alt="コース変更の画面に並ぶ「英語覇者の道」と「鬼ムズ」" width="1170" height="2150" onerror="this.parentNode.classList.add('missing')">
+      </figure>
+
+      <p class="steps">
+        <span class="steps__label">操作手順：</span>
+        <span class="steps__path">マイページ &gt; コース変更</span>
+      </p>
+      <p class="note">※ヘッダーの「コース変更」からも切り替えられます。</p>
+
+      <h2 class="section">モチタン・モチスピ：写真から単語帳・フレーズ帳を作成</h2>
+
+      <p class="lead">教科書や単語帳、字幕、記事などの写真から、単語帳やフレーズ帳を作成したり、既存の単語帳やフレーズ帳に追加したりできるようになりました。</p>
+
+      <ul class="list">
+        <li>「カメラで撮影」した写真や、「画像から選ぶ」ことで、一度に10枚まで写真を読み込めます。</li>
+        <li>読み取った単語やフレーズの中から、登録したいものを選んで作成・追加します。</li>
+        <li>無料プランの方は累計2回まで、Premium 会員の方は1日10回まで利用できます。</li>
+        <li>学習中の言語に合わせて文字を読み取ります。</li>
+      </ul>
+
+      <!-- 写真入力シートと読み取り結果（同上） -->
+      <div class="compare">
+        <figure class="shot" data-file="assets/photo-source.png" style="--ratio:1170/820">
+          <img src="assets/photo-source.png" alt="単語帳の「＋」から開く写真入力シート" width="1170" height="820" onerror="this.parentNode.classList.add('missing')">
+          <figcaption>写真から作成</figcaption>
+        </figure>
+        <figure class="shot" data-file="assets/photo-result.png" style="--ratio:1170/1250">
+          <img src="assets/photo-result.png" alt="写真の読み取り結果から登録する単語を選ぶ画面" width="1170" height="1250" onerror="this.parentNode.classList.add('missing')">
+          <figcaption>読み取り結果</figcaption>
+        </figure>
+      </div>
+
+      <p class="steps">
+        <span class="steps__label">操作手順：</span>
+        <span class="steps__path">単語帳 &gt; 写真から作成<br>単語帳詳細 &gt; 単語を追加 &gt; 写真<br>フレーズ帳 &gt; 写真から作成<br>フレーズ帳詳細 &gt; フレーズを追加 &gt; 写真</span>
+      </p>
+      <p class="note">※「写真から作成」は、単語帳・フレーズ帳の一覧の右下にある「＋」ボタンから選べます。</p>
+
+      <h2 class="section">モチタン・モチスピ：アカウント連携で限定キャラをプレゼント</h2>
+
+      <p class="lead">Apple または Google のアカウントを連携すると、最初のモチベア4体のうち、まだ持っていない限定キャラを1体プレゼントします。</p>
+
+      <ul class="list">
+        <li>プレゼントは1回限りです。</li>
+        <li>まだ連携していない方には、ホームにバナーが表示され、バナーをタップすると「アカウントの管理」画面が開きます。</li>
+        <li>アカウントを連携しておくことで、機種変更やアプリを削除したときにもデータを引き継げます。</li>
+      </ul>
+
+      <!-- アカウントの管理（未連携時の案内カード） -->
+      <figure class="shot" data-file="assets/account-link.png" style="--ratio:1170/1400">
+        <img src="assets/account-link.png" alt="「アカウントの管理」画面。連携すると限定キャラを1体ゲット" width="1170" height="1400" onerror="this.parentNode.classList.add('missing')">
+      </figure>
+
+      <p class="steps">
+        <span class="steps__label">操作手順：</span>
+        <span class="steps__path">マイページ &gt; 設定 &gt; アカウントの管理</span>
+      </p>
+
+      <h2 class="section">モチタン・モチスピ：ステージごとのレジェンドクエスト（Premium限定）</h2>
+
+      <p class="lead">冒険で、ステージごとに「レジェンドクエスト」へ挑戦できるようになりました。</p>
+
+      <ul class="list">
+        <li>ステージのレジェンドクエストでは、そのステージのすべての単語（モチスピはフレーズ）が出題され、不正解になった時点で終了します。</li>
+        <li>ステージを走破すると挑戦可能になります。</li>
+        <li>挑戦できるのは Premium 会員の方のみです。</li>
+        <li>コース全体のレジェンドクエストも、これまで通りプレイできます。</li>
+      </ul>
+
+      <!-- ステージレジェンドのスタート画面（Premium リボン） -->
+      <figure class="shot" data-file="assets/stage-legend.png" style="--ratio:1170/2300">
+        <img src="assets/stage-legend.png" alt="ステージのレジェンドクエストのスタート画面" width="1170" height="2300" onerror="this.parentNode.classList.add('missing')">
+      </figure>
+
+      <h2 class="section">モチタン・モチスピ：note投稿キャンペーンの開始</h2>
+
+      <p class="lead">note でモチタンやモチスピに関する記事を書いて報告すると、限定キャラがもらえるキャンペーンを開始しました。</p>
+
+      <ul class="list">
+        <li>500文字以上の公開記事に「#モチタン」または「#モチスピ」のタグをつけて投稿し、記事のURLを報告することが条件です。</li>
+        <li>報告前に記事の下書き状態を解除し公開してください。</li>
+        <li>1記事の報告で1体、最大5記事の報告で5体すべての限定キャラを重複なしのランダムで獲得できます。</li>
+        <li>本キャンペーンは予告なく変更または終了する場合があります。</li>
+        <li>本キャンペーンはnote株式会社とは関係ありません。</li>
+      </ul>
+
+      <!-- note投稿キャンペーンのページ（ホームのバナーから） -->
+      <figure class="shot" data-file="assets/note-campaign.png" style="--ratio:1170/520">
+        <img src="assets/note-campaign.png" alt="ホームのバナーから開く note投稿キャンペーンのページ" width="1170" height="520" onerror="this.parentNode.classList.add('missing')">
+      </figure>
+
+      <p class="lead">ホームのバナーをタップして表示されるページから、記事を書いたあとに「投稿を報告する」を押して記事のURLを報告してください。</p>
+
+      <p class="sign">開発者 神谷創</p>
+
+    </div>
+  </div>
+</body>
+</html>
