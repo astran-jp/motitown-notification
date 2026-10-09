@@ -252,7 +252,8 @@ img{display:block}
 <script>
 (function () {
   'use strict';
-  var inApp = !!(window.Unity && window.Unity.call);
+  // iOS の WebView は window.Unity をページ読み込みの最後に差し込むので、押した時点で調べる
+  function inApp() { return !!(window.Unity && window.Unity.call); }
 
   // アプリは LinkNoteCampaign() で ?token=<トークン> を付けて開く。タブ内に控えて報告フォームへ引き継ぎ、アドレスからは消す
   // トークンが無くても（アプリ外・アプリが取得に失敗）このページは普通に読める
@@ -271,7 +272,7 @@ img{display:block}
 
   // 戻る: アプリの WebView を閉じる（PopupWebViewFullScreen の swipeBack）。ブラウザでは履歴を戻る
   document.querySelector('[data-close]').addEventListener('click', function () {
-    if (inApp) window.Unity.call('swipeBack');
+    if (inApp()) window.Unity.call('swipeBack');
     else history.back();
   });
 
@@ -280,7 +281,7 @@ img{display:block}
     a.target = '_blank';
     a.rel = 'noopener';
     a.addEventListener('click', function (e) {
-      if (!inApp) return;
+      if (!inApp()) return;
       e.preventDefault();
       window.Unity.call('openURL:' + a.href);
     });
