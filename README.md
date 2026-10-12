@@ -127,17 +127,8 @@ Worker のスクリプトは無く、アセットだけを配信するので、�
   本番の確認は `curl -A 'MotitownOpsCheck/1.0' https://motitown.com/notification/...` (素の curl は WAF が 403 にする)
 - motitown.com の WAF カスタムルール・Bot Fight Mode・キャッシュルールは触らない (2026-08 に Googlebot を全ブロックした事故あり)
 
-## GitHub Pages (motitown-notification.astran.jp) からの切り替え手順
+## 旧ホスト motitown-notification.astran.jp
 
-2026-09-24 時点では GitHub Pages (`motitown-notification.astran.jp`) が公開先で、中継 Worker がそれを `motitown.com/notification/` に見せている。
-静的アセット配信に切り替える手順 (上から順に。1 は本番に影響しない):
-
-1. 上記 Secrets を登録する
-2. Actions の「Deploy to Cloudflare Workers」を手動実行 (workflow_dispatch) するか main に push する。
-   中継 Worker が同名で置き換わり、この時点から `motitown.com/notification/` はリポジトリの内容を直接返す
-3. `motitown.com/notification/`・`/Notification/1/`・`/en/`・`/Alert/`・`/en/store/motitan/` などを確認する
-4. 旧ホストを参照している場所を motitown.com に寄せる: 配信済み `notices` 行の URL (SQL の REPLACE)、
-   App Store Connect / Google Play Console に登録したプライバシーポリシー等の URL、Slack / Notion の固定リンク
-5. 旧アプリ (v12.0.0 未満) は規約・お知らせを旧ホストで開くので、強制アップデートで揃うまでは旧ホストを転送用として残す
-6. 残す必要が無くなったら: GitHub Pages のカスタムドメインを外し `CNAME` を削除、ムームードメインの `motitown-notification` CNAME レコードを削除、
-   `astran-jp/motitown-notification-proxy` リポジトリをアーカイブ、`build-assets.mjs` の旧ホスト書き換え (`LEGACY_ORIGIN_RE`) を外す
+以前は GitHub Pages (`motitown-notification.astran.jp`) で公開し、中継 Worker で `motitown.com/notification/` に見せていた。
+2026-10-07 に静的アセット配信へ切り替え、2026-10-08 に GitHub Pages を削除し、続けてムームードメインの CNAME レコードも削除した。
+旧ホストの URL はどこにも転送されないので、ページ・SQL・スクリプトには `https://motitown.com/notification/` を書く。
