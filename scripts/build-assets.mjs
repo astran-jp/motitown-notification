@@ -14,14 +14,10 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.resolve(process.argv[2] || path.join(ROOT, 'dist'));
 const PREFIX = '/notification';
-const PUBLIC_ORIGIN = 'https://motitown.com';
 
 // motitown.com 自身のページを指すルート基準のパス。お知らせの一部（18・19）は /news/ のページを
 // 元に作られていて、これらは motitown.com のページを読むので書き換えない
 const SITE_SECTIONS = new Set(['news', 'motitan', 'motispi', 'assets', 'styles', 'recruit', 'account', 'vocabulary', 'notification', 'cdn-cgi']);
-
-// 旧ホスト（GitHub Pages）の絶対 URL。移行期間中は HTML に残り得る
-const LEGACY_ORIGIN_RE = /^https?:\/\/motitown-notification\.astran\.jp(?=[/?#]|$)/i;
 
 // 配信しないもの（原稿・翻訳データ・スクリプト・SQL・フォントなど）
 const SKIP_DIRS = new Set(['.git', '.github', '.claude', 'node_modules', '.wrangler', 'worker', 'scripts', 'sql', 'dist', 'en-src']);
@@ -31,9 +27,6 @@ const SKIP_EXT = new Set(['.md', '.json', '.py', '.pyc', '.sh', '.swift', '.sql'
 function rewriteUrl(value) {
   if (!value) return value;
   const trimmed = value.trim();
-  if (LEGACY_ORIGIN_RE.test(trimmed)) {
-    return trimmed.replace(LEGACY_ORIGIN_RE, PUBLIC_ORIGIN + PREFIX);
-  }
   if (trimmed.startsWith('/') && !trimmed.startsWith('//')) {
     const first = trimmed.slice(1).split(/[/?#]/, 1)[0];
     if (SITE_SECTIONS.has(first)) return value;
@@ -71,9 +64,7 @@ function rewriteTag(tag, name, attrs) {
   if (lower === 'meta') {
     const equiv = (/\shttp-equiv\s*=\s*(["'])(.*?)\1/i.exec(attrs) || [])[2] || '';
     return tag.replace(/(\scontent\s*=\s*)(["'])(.*?)\2/i, (m, head, q, content) => {
-      let next = content;
-      if (equiv.toLowerCase() === 'refresh') next = rewriteRefresh(content);
-      else if (LEGACY_ORIGIN_RE.test(content.trim())) next = rewriteUrl(content);
+      const next = equiv.toLowerCase() === 'refresh' ? rewriteRefresh(content) : content;
       return next === content ? m : head + q + next + q;
     });
   }
