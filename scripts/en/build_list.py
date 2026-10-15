@@ -18,6 +18,11 @@ from extract import ROOT, JA  # noqa: E402
 SITE = "https://motitown.com/notification"
 CARD = re.compile(r'<a class="sd appear"[^>]*href="([^"]*)"[^>]*>.*?</a>', re.S)
 HEAD = {"お知らせ｜モチタウン": "Announcements | Motitown", "お知らせ": "Announcements"}
+# 一覧に載せる外部ページ(ブログ記事など)。英語版が無いのでリンク先はそのまま、タイトルだけ英語にする。
+# サムネイルは en/assets/ に同名の英語版があればそちら
+EXTERNAL = {
+    "https://motitown.com/blog/release-12-1-0/": "v12.1.0 Update<br/>Wordbooks from Photos",
+}
 
 
 FALLBACK_MARK = "<!-- fallback: redirect to ja -->"
@@ -130,6 +135,20 @@ def main():
         return 1
     kept, dropped = [], []
     for m in cards:
+        if m.group(1) in EXTERNAL:
+            card = m.group(0)
+            ps = list(re.finditer(r"<p[^>]*>(.*?)</p>", card, re.S))
+            if len(ps) < 2:
+                print(f"ERROR: カードの形が想定外 {m.group(1)}")
+                return 1
+            card = card[: ps[1].start(1)] + EXTERNAL[m.group(1)] + card[ps[1].end(1) :]
+            def ext_thumb(im):
+                name = os.path.basename(im.group(1))
+                local = os.path.isfile(os.path.join(ROOT, "en", "assets", name))
+                return im.group(0).replace(im.group(1), ("assets/" if local else "../assets/") + name)
+            card = re.sub(r'<img[^>]*src="([^"]+)"', ext_thumb, card, count=1)
+            kept.append(card.replace(' loading="lazy"', ""))
+            continue
         d = dir_of(m.group(1))
         if not (d and is_translated(d)):
             dropped.append(m.group(1))
