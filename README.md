@@ -56,7 +56,7 @@ Figma「モチタンUI」の `20260930_noteキャンペーン_…_完成版` セ
 | パス | 内容 |
 |---|---|
 | `/event/note_campaign/` | イベント詳細 (KV・限定キャラ 5 体・やること・事例・注意事項・下部固定の CTA)。キャラをタップするとキャラ詳細ポップ |
-| `/event/note_campaign/report/` | 投稿の報告フォーム (入力 → 完了、エラー 9 種) |
+| `/event/note_campaign/report/` | 投稿の報告フォーム (入力 → 完了、エラー文言 10 種) |
 | `/en/event/note_campaign/…` | 英語版は無し。日本語ページへの転送スタブ (クエリを引き継ぐ) |
 
 - アプリはログイン済みの通信で motitan-api からトークンを受け取り、`?token=<トークン>` を付けて開く。
@@ -73,8 +73,11 @@ Figma「モチタンUI」の `20260930_noteキャンペーン_…_完成版` セ
   - `POST /note-campaign/checks` — URL を貼って入力が 0.4 秒止まった時の判定。`{ok:true}` か `{ok:false, reason}`
   - `POST /note-campaign/reports` — 送信時。判定を通ればその場で限定キャラを 1 体付与する。
     `{ok:true, num_reports}` か `{ok:false, reason, num_reports}`。完了画面の「報告済み n/5」は `num_reports` が取れた時だけ出す
-  - 判定 NG は HTTP 200 + `reason`。`reason` は `not_note` / `reported` / `not_public` / `official` / `too_short` /
-    `no_tag` / `limit_reached` / `completed` / `invalid_token` の 9 種で、文言はページ側が持つ
+  - 判定 NG は HTTP 200 + `reason`。ページ側は `not_note` / `reported` / `not_public` / `official` / `too_short` /
+    `no_tag` / `daily_limit_reached` / `limit_reached` / `completed` / `invalid_token` の 10 種の文言に対応する
+  - `daily_limit_reached` は日次上限用（MT-6312。フロントは対応済み、バックエンドは未実装）。
+    `checks` / `reports` が `{ok:false, reason:"daily_limit_reached"}` を返すと「1日あたり1投稿までが対象です」と表示する。
+    `limit_reached` は従来どおり累計 5 記事の上限を表す
   - HTTP が 200 以外・通信失敗・応答が読めない・知らない `reason` は、固定の「時間をおいてもう一度お試しください」を出す。
     サーバーのエラー本文 (`{message}`) は画面に出さない
 - API の URL は本番だけ (報告フォームの定数 `API`)。環境の切り替えは無い。dev / stg のアプリが発行したトークンは
