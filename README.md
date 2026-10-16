@@ -75,9 +75,12 @@ Figma「モチタンUI」の `20260930_noteキャンペーン_…_完成版` セ
     `{ok:true, num_reports}` か `{ok:false, reason, num_reports}`。完了画面の「報告済み n/5」は `num_reports` が取れた時だけ出す
   - 判定 NG は HTTP 200 + `reason`。ページ側は `not_note` / `reported` / `not_public` / `official` / `too_short` /
     `no_tag` / `daily_limit_reached` / `limit_reached` / `completed` / `invalid_token` の 10 種の文言に対応する
-  - `daily_limit_reached` は日次上限用（MT-6312。フロントは対応済み、バックエンドは未実装）。
-    `checks` / `reports` が `{ok:false, reason:"daily_limit_reached"}` を返すと「1日あたり1投稿までが対象です」と表示する。
-    `limit_reached` は従来どおり累計 5 記事の上限を表す
+  - MT-6312 の条件は、1アカウント内で **note 記事の投稿日が重複しないこと**。
+    報告を受理した日で制限するものではなく、投稿日が異なる記事は同じ日にまとめて報告できる。
+    `checks` / `reports` が `{ok:false, reason:"daily_limit_reached"}` を返すと「同じ投稿日の記事は1記事までが対象です」と表示する。
+    API の reason 名は維持し、`limit_reached` は従来どおり累計 5 記事の上限を表す。
+    この変更は説明・表示文言のみ。マージ済みの motitan-api PR #4100 は報告受理日で判定するため、
+    投稿日の重複を判定するバックエンド修正を別途行う必要がある
   - HTTP が 200 以外・通信失敗・応答が読めない・知らない `reason` は、固定の「時間をおいてもう一度お試しください」を出す。
     サーバーのエラー本文 (`{message}`) は画面に出さない
 - API の URL は本番だけ (報告フォームの定数 `API`)。環境の切り替えは無い。dev / stg のアプリが発行したトークンは
