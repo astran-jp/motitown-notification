@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>【モチタン・モチスピ】期間限定イベント「宇宙に、忘れ物してきた。」｜モチタウン</title>
+<meta property="og:title" content="期間限定イベント「宇宙に、忘れ物してきた。」">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#0a1633;--bg2:#101d45;--fg:#eef2ff;--muted:#aab6dc;--gold:#ffc94d;--sky:#6fc3ff;--line:rgba(255,255,255,.14)}
+  *{box-sizing:border-box}html,body{margin:0;padding:0}img{max-width:100%;display:block}
+  body{background:var(--bg);color:var(--fg);font-family:"Noto Sans JP",-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN",sans-serif;-webkit-font-smoothing:antialiased;word-break:break-word;line-height:1.75}
+  .wrap{width:100%;max-width:430px;margin:0 auto;background:var(--bg);overflow:hidden}
+  /* 星空 */
+  .stars{position:relative}
+  .stars::before{content:"";position:absolute;inset:0;background-image:radial-gradient(1px 1px at 12% 18%,#fff 60%,transparent 61%),radial-gradient(1px 1px at 72% 8%,#fff 60%,transparent 61%),radial-gradient(1.5px 1.5px at 40% 62%,#cfe4ff 60%,transparent 61%),radial-gradient(1px 1px at 88% 44%,#fff 60%,transparent 61%),radial-gradient(1px 1px at 22% 84%,#fff 60%,transparent 61%),radial-gradient(1.5px 1.5px at 58% 30%,#fff 60%,transparent 61%),radial-gradient(1px 1px at 5% 50%,#cfe4ff 60%,transparent 61%),radial-gradient(1px 1px at 93% 78%,#fff 60%,transparent 61%);opacity:.7;pointer-events:none}
+  /* KV */
+  .kv{position:relative;aspect-ratio:3/2;background:#0a1633 url(assets/kv.webp) center/cover no-repeat}
+  .kv::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,var(--bg) 0%,rgba(10,22,51,.45) 28%,transparent 55%),linear-gradient(90deg,rgba(10,22,51,.55),transparent 45%)}
+  .kv .tag{position:absolute;left:14px;top:14px;z-index:2;background:var(--gold);color:#3b2100;font-weight:900;font-size:12px;padding:3px 10px;border-radius:999px;letter-spacing:.04em}
+  .kv .catch{position:absolute;left:16px;top:50%;transform:translateY(-42%);z-index:2;font-size:clamp(26px,8vw,34px);font-weight:900;line-height:1.25;text-shadow:0 2px 14px rgba(0,0,0,.8)}
+  .period{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 8px;align-items:baseline;padding:10px 16px 0;color:var(--gold);font-weight:700;font-size:14px}.period span{white-space:nowrap}.period small{margin-left:4px}
+  .period b{font-size:20px;font-weight:900;letter-spacing:.02em}
+  .period small{color:var(--muted);font-weight:500;font-size:11px}
+  /* 本文 */
+  .sec{padding:26px 20px 8px;position:relative}
+  h2{font-size:17px;font-weight:900;margin:0 0 12px;letter-spacing:.04em;display:flex;align-items:center;gap:10px}
+  h2::before{content:"";width:6px;height:22px;background:var(--gold);border-radius:3px}
+  .intro{position:relative;padding:28px 20px 30px}
+  .intro p{position:relative;margin:0 0 14px;font-size:15px;line-height:1.95}
+  .intro p.quote{font-weight:900;font-size:17px;color:#fff;padding-left:12px;border-left:3px solid var(--gold)}
+  .intro p:last-child{margin-bottom:0}
+  /* 行き先 */
+  .route{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+  .route figure{margin:0;position:relative;border-radius:12px;overflow:hidden;aspect-ratio:4/3;background:#162052}
+  .route img{width:100%;height:100%;object-fit:cover;object-position:center top}
+  .route figcaption{position:absolute;left:0;right:0;bottom:0;padding:28px 8px 8px;font-size:14px;line-height:1.3;font-weight:700;text-align:center;background:linear-gradient(0deg,rgba(10,22,51,.95) 40%,transparent)}
+    .lead{margin:0 0 10px;font-size:14px;color:var(--muted)}
+  /* キャラ */
+  .cast{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+  .cast div{text-align:center}
+  .cast img{width:100%;aspect-ratio:1;object-fit:contain;border-radius:50%;background:radial-gradient(circle at 50% 40%,#2a3a86,#111b45 70%);padding:4px}
+  .cast b{display:block;font-size:14px;margin-top:6px;line-height:1.3}
+    /* 報酬 */
+  .items{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+  .items div{background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:8px 6px 8px;text-align:center}
+  .items img{width:100%;aspect-ratio:1;object-fit:contain}
+  .items b{display:block;font-size:14px;font-weight:700;line-height:1.3;margin-top:6px}
+  .items small{display:block;font-size:11px;color:var(--gold)}
+  .walls{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}
+  .walls img{border-radius:10px;aspect-ratio:4/3;object-fit:cover;width:100%}
+  /* 遊び方 */
+  .how{background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:16px 16px 6px}
+  .how ol{margin:0;padding-left:1.4em;font-size:14px}
+  .how li{margin-bottom:10px}
+  .how li b{color:var(--gold)}
+  .num{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:12px 0 10px}
+  .num div{flex:1;background:rgba(255,255,255,.06);border-radius:12px;padding:10px 6px;text-align:center}
+  .num b{display:block;font-size:22px;font-weight:900;color:#fff;line-height:1.1}
+  .num small{font-size:10px;color:var(--muted)}
+  .note{font-size:11px;color:var(--muted);margin:14px 0 0;line-height:1.7}
+  .say{display:flex;gap:10px;align-items:flex-start;margin:0 0 14px}
+  .say img{width:44px;height:44px;border-radius:50%;flex:none;border:2px solid var(--gold);background:#fff}
+  .say p{margin:0;background:rgba(255,255,255,.08);border-radius:14px;padding:10px 14px;font-size:14px;line-height:1.8;position:relative}
+  .say p::before{content:"";position:absolute;left:-8px;top:14px;border:6px solid transparent;border-right-color:rgba(255,255,255,.08);border-left:0}
+  .memo{background:#fff8e6;color:#3b2f1a;border-radius:14px;padding:16px 16px 10px;position:relative;box-shadow:0 6px 20px rgba(0,0,0,.35)}
+  .memo::before{content:"旅のしおり";position:absolute;right:14px;top:-12px;background:var(--gold);color:#3b2100;font-size:11px;font-weight:900;padding:2px 10px;border-radius:999px}
+  .memo h3{margin:0 0 8px;font-size:14px;font-weight:900;color:#8a5a00}
+  .memo ol{margin:0;padding-left:1.3em;font-size:13.5px;line-height:1.8}
+  .memo li b{color:#b36b00}
+  .memo .num{margin:12px 0 8px}.memo .num div{background:#fff;color:#3b2f1a}.memo .num b{color:#8a5a00}.memo .num small{color:#7a6a50}
+  .memo .note{color:#7a6a50}
+  .foot{padding:28px 20px 36px;text-align:center;font-size:13px;color:var(--muted)}
+  .foot b{display:block;color:#fff;font-size:16px;font-weight:900;margin-bottom:10px}
+  .foot .homeshot{display:block;width:100%;max-width:360px;margin:0 auto 16px;border-radius:14px;box-shadow:0 8px 24px rgba(0,0,0,.5)}
+</style>
+</head>
+<body>
+<div class="wrap stars">
+
+  <div class="kv">
+    <span class="tag">期間限定イベント</span>
+    <div class="catch">宇宙に、<br>忘れ物<br>してきた。</div>
+  </div>
+  <div class="period"><span><b>10/28</b><small>(水) 4:00</small></span><span class="tilde">〜</span><span><b>11/18</b><small>(水) 4:00</small></span></div>
+
+  <div class="intro">
+    <p>大掃除の日。物置の奥から、古い旅のリュックが出てきた。</p>
+    <p>ずっとむかしから生きている宇宙人のソラは、中をのぞいて、しばらく黙った。</p>
+    <p class="quote">「……そういえば、宇宙に忘れ物してきた」</p>
+    <p>その夜、ソラはモチベアたち四人と、忘れ物を取りに旅に出た。</p>
+    <p>長い年月のあいだに、忘れ物たちがそれぞれの星で、ただの忘れ物ではなくなっているとも知らずに。</p>
+  </div>
+
+  <section class="sec">
+    <h2>旅の行き先</h2>
+    <p class="lead">ためた BP のぶんだけ、船は先へ進む。</p>
+    <div class="route">
+      <figure><img src="assets/scene_moon.webp" alt=""><figcaption>月</figcaption></figure>
+      <figure><img src="assets/scene_w06.webp" alt=""><figcaption>ブラックホール</figcaption></figure>
+      <figure><img src="assets/scene_w04.webp" alt=""><figcaption>小惑星帯</figcaption></figure>
+      <figure><img src="assets/scene_w07.webp" alt=""><figcaption>クマの星</figcaption></figure>
+      <figure><img src="assets/scene_w11.webp" alt=""><figcaption>木星</figcaption></figure>
+      <figure><img src="assets/scene_w03.webp" alt=""><figcaption>太陽</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="sec">
+    <h2>旅で出会う、6 体の仲間</h2>
+    <div class="cast">
+      <div><img src="assets/char_rabbit.webp" alt=""><b>月のうさぎ</b></div>
+      <div><img src="assets/char_mienaiko.webp" alt=""><b>ミエナイコ</b></div>
+      <div><img src="assets/char_wolf.webp" alt=""><b>彗星のオオカミ</b></div>
+      <div><img src="assets/char_doll.webp" alt=""><b>ソラの人形</b></div>
+      <div><img src="assets/char_dragon.webp" alt=""><b>フレアドラゴン</b></div>
+      <div><img src="assets/char_nyarlo.webp" alt=""><b>宇宙海賊ニャルロ</b></div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <h2>星で見つけた、ふしぎなアイテム</h2>
+    <p class="lead">帽子・持ち物・乗り物・モーション・背景、あわせて 51 点。</p>
+    <div class="items">
+      <div><img src="assets/item_p13.webp" alt=""><b>ブラックホールのビー玉</b></div>
+      <div><img src="assets/item_h02.webp" alt=""><b>衛星つきの帽子</b></div>
+      <div><img src="assets/item_h04.webp" alt=""><b>星が生まれるベール</b></div>
+      <div><img src="assets/item_p06.webp" alt=""><b>あっちっち！</b></div>
+      <div><img src="assets/item_r01.webp" alt=""><b>船になったクジラ</b></div>
+      <div><img src="assets/item_r09.webp" alt=""><b>土星</b></div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <h2>あそびかた</h2>
+    <div class="how">
+      <ol>
+        <li>期間中にためた BP が、そのまま<b>イベント BP</b> に</li>
+        <li><b>200 BP ごと</b>に、報酬を GET</li>
+      </ol>
+      <div class="num">
+        <div><b>69</b><small>報酬</small></div>
+        <div><b>6</b><small>キャラクター</small></div>
+        <div><b>51</b><small>アイテム</small></div>
+        <div><b>12</b><small>モチベイト原石</small></div>
+      </div>
+      <p class="note">※ 期間が終わると、残っている報酬は受け取れません。</p>
+    </div>
+  </section>
+
+  <div class="foot"><b>旅は、ホームのバナーから。</b><img class="homeshot" src="assets/home_banner.webp" alt="ホームのイベントのバナー">宇宙に置いてきた物が、何になっているのか。<br>ソラといっしょに、確かめに行こう。</div>
+
+</div>
+</body>
+</html>
