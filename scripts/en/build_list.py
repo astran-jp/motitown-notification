@@ -21,6 +21,7 @@ HEAD = {"お知らせ｜モチタウン": "Announcements | Motitown", "お知ら
 # 一覧に載せる外部ページ(ブログ記事など)。英語版が無いのでリンク先はそのまま、タイトルだけ英語にする。
 # サムネイルは en/assets/ に同名の英語版があればそちら
 EXTERNAL = {
+    "https://motitown.com/blog/release-12-2-0/": "v12.2.0 Update<br/>Videos &amp; MotiTan Dictionary",
     "https://motitown.com/blog/release-12-1-0/": "v12.1.0 Update<br/>Wordbooks from Photos",
 }
 
