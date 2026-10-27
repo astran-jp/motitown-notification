@@ -1,0 +1,62 @@
+{
+ "title": {
+  "ja": "【モチタン・モチスピ】イベント誤配信のお詫び｜モチタウン",
+  "en": "Apology for an Event Released by Mistake | Motitown"
+ },
+ "banner": {
+  "ja": "誤配信のお詫び",
+  "en": "Our Apologies"
+ },
+ "segments": [
+  {
+   "tag": "h1",
+   "ja": "イベント誤配信のお詫び",
+   "en": "Apology for an Event Released by Mistake"
+  },
+  {
+   "tag": "p",
+   "ja": "モチタン・モチスピを開発している神谷です。",
+   "en": "Hi, this is Kamiya, the developer of Motitan and Motispi."
+  },
+  {
+   "tag": "p",
+   "ja": "本日、開発途中のイベントが誤って配信されてしまいました。<br>ご迷惑をおかけしたお詫びとして、以下をみなさまにお送りします。",
+   "en": "Today, an event that was still in development was released by mistake.<br>As an apology for the trouble, we are sending everyone the following:"
+  },
+  {
+   "tag": "li",
+   "ja": "Premium 会員の方：モチベイト原石 30 個",
+   "en": "Premium members: 30 Motivation Gems"
+  },
+  {
+   "tag": "li",
+   "ja": "非会員の方：モチベイト原石 20 個・マイクロプレミアムチケット １ 枚",
+   "en": "Non-members: 20 Motivation Gems and 1 Micro Premium Ticket"
+  },
+  {
+   "tag": "p",
+   "ja": "本イベントは、報酬などをさらに充実させて、近日中にあらためて開催する予定です。",
+   "en": "We plan to hold this event again soon, with even better rewards."
+  },
+  {
+   "tag": "p",
+   "ja": "この度はご迷惑をおかけし、申し訳ございませんでした。",
+   "en": "We sincerely apologize for the inconvenience."
+  },
+  {
+   "tag": "p",
+   "ja": "開発者 神谷創",
+   "en": "Sou Kamiya, Developer"
+  },
+  {
+   "tag": "attr:content",
+   "ja": "イベント誤配信のお詫び",
+   "en": "Apology for an Event Released by Mistake"
+  },
+  {
+   "tag": "attr:alt",
+   "ja": "誤配信のお詫び",
+   "en": "Our Apologies"
+  }
+ ]
+}
