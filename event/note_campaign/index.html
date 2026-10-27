@@ -160,7 +160,7 @@ img{display:block}
   <main class="body">
     <section class="sec-chara">
       <h2 class="h-lg rv" data-rv="fade">ここでしか手に入らない、<br>限定キャラ</h2>
-      <p class="sub rv" data-rv="fade">1記事で1体。5記事でコンプリート。</p>
+      <p class="sub rv" data-rv="fade">1記事で1体。5記事でコンプリート。<br>1アカウントにつき、<br>同じ投稿日の記事は1記事まで。</p>
       <div class="grid" data-rv-group="chara">
         <button class="card rv" type="button" data-chara="512"><img src="assets/chara-512.webp" alt=""><span>ナポレオン<br>モチベア</span></button>
         <button class="card rv" type="button" data-chara="513"><img src="assets/chara-513.webp" alt=""><span>ジャンヌ<br>みゆ</span></button>
@@ -226,7 +226,9 @@ img{display:block}
       <ul>
         <li>・500文字以上の公開記事が対象</li>
         <li>・キャラクターはランダムで付与（重複なし）</li>
-        <li>・1アカウント5記事まで</li>
+        <li>・1アカウントにつき合計5記事まで</li>
+        <li>・1アカウントにつき、同じ投稿日の記事は1記事まで</li>
+        <li>・投稿日が異なる記事は、同じ日にまとめて報告できます</li>
         <li>・予告なく変更・終了する場合があります</li>
         <li>・note株式会社とは関係ありません</li>
       </ul>
@@ -252,23 +254,27 @@ img{display:block}
 <script>
 (function () {
   'use strict';
-  var inApp = !!(window.Unity && window.Unity.call);
+  // iOS の WebView は window.Unity をページ読み込みの最後に差し込むので、押した時点で調べる
+  function inApp() { return !!(window.Unity && window.Unity.call); }
 
-  // アプリは LinkNoteCampaign() で ?user_id=@<display_id> を付けて開く。報告フォームへ引き継ぎ、アドレスからは消す
-  // 戻る・再読み込みでもクエリは消えているので、タブ内に覚えておく
-  var userId = new URLSearchParams(location.search).get('user_id') || '';
+  // アプリは LinkNoteCampaign() で ?token=<トークン> を付けて開く。タブ内に控えて報告フォームへ引き継ぎ、アドレスからは消す
+  // トークンが無くても（アプリ外・アプリが取得に失敗）このページは普通に読める
+  var token = new URLSearchParams(location.search).get('token') || '';
+  var stored = false;
   try {
-    if (userId) sessionStorage.setItem('note_campaign_user_id', userId);
-    else userId = sessionStorage.getItem('note_campaign_user_id') || '';
+    if (token) { sessionStorage.setItem('note_campaign_token', token); stored = true; }
   } catch (e) {}
   if (location.search) history.replaceState(null, '', location.pathname + location.hash);
-  document.querySelectorAll('[data-report]').forEach(function (a) {
-    if (userId) a.href = 'report/?user_id=' + encodeURIComponent(userId);
-  });
+  // sessionStorage が使えない時だけ、報告フォームへのリンクで渡す（報告フォームも読んだ後にアドレスから消す）
+  if (token && !stored) {
+    document.querySelectorAll('[data-report]').forEach(function (a) {
+      a.href = 'report/?token=' + encodeURIComponent(token);
+    });
+  }
 
   // 戻る: アプリの WebView を閉じる（PopupWebViewFullScreen の swipeBack）。ブラウザでは履歴を戻る
   document.querySelector('[data-close]').addEventListener('click', function () {
-    if (inApp) window.Unity.call('swipeBack');
+    if (inApp()) window.Unity.call('swipeBack');
     else history.back();
   });
 
@@ -277,7 +283,7 @@ img{display:block}
     a.target = '_blank';
     a.rel = 'noopener';
     a.addEventListener('click', function (e) {
-      if (!inApp) return;
+      if (!inApp()) return;
       e.preventDefault();
       window.Unity.call('openURL:' + a.href);
     });

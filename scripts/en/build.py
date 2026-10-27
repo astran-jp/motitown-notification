@@ -17,7 +17,7 @@ LANG_SWITCH = '<div class="lang-switch" style="position:fixed;top:calc(8px + env
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from extract import ROOT, JA, segments, attrs  # noqa: E402
 
-SITE = "https://motitown-notification.astran.jp"
+SITE = "https://motitown.com/notification"
 
 
 EN_TEXT_STYLE = """<style>
