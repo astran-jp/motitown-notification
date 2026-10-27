@@ -11,6 +11,9 @@ usage: build.py <dir>          # 22 / Notification/7 など
 """
 import json, os, re, sys
 
+LANG_SWITCH = '<div class="lang-switch" style="position:fixed;top:calc(8px + env(safe-area-inset-top,0px));right:8px;z-index:9999;"><span style="display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border:1px solid #d6dde3;border-radius:999px;background:#fff;font-size:14px;line-height:1;color:#1b6aa5;box-shadow:0 1px 3px rgba(0,0,0,.08);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" style="flex:none"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><a data-has-link="true" href="/{d}/" rel="noopener" style="color:#1b6aa5;text-decoration:none">日本語</a><span style="color:#9aa5ad">|</span><strong style="color:#1d2a2e">English</strong></span></div>'
+
+
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from extract import ROOT, JA, segments, attrs  # noqa: E402
 
@@ -113,6 +116,8 @@ def main():
         out = out.replace("</head>", EN_TEXT_STYLE + "</head>", 1)
 
     # 言語・フォント・URL
+    # 文書ページの言語切替（日本語ページの「English」→ 英語ページでは「日本語」に向け直す）
+    out = re.sub(r'<div class="lang-switch".*?</span></div>', LANG_SWITCH.format(d=d), out, count=1, flags=re.S)
     out = out.replace('lang="ja"', 'lang="en"', 1)
     out = out.replace("family=Noto+Sans+JP", "family=Noto+Sans").replace('"Noto Sans JP"', '"Noto Sans"').replace("'Noto Sans JP'", "'Noto Sans'")
     # ページ自身の URL(og:url / canonical)だけ英語版に。アセットの絶対 URL は日本語版のまま
@@ -139,7 +144,7 @@ def main():
             pass
 
     open(os.path.join(en_dir, "index.html"), "w", encoding="utf-8").write(out)
-    body = re.sub(r"<!--.*?-->|<style.*?</style>|<script.*?</script>", "", out, flags=re.S)
+    body = re.sub(r"<!--.*?-->|<style.*?</style>|<script.*?</script>|<div class=\"lang-switch\".*?</span></div>", "", out, flags=re.S)
     left = JA.findall(body)
     runs = re.findall(r"[぀-ヿ一-鿿][^<\"]{0,30}", body)
     print(f"en/{d}/index.html: 生成。残った日本語 {len(left)} 文字" + (f" 例: {runs[:5]}" if runs else ""))
