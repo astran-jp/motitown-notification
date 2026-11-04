@@ -24,6 +24,27 @@ const SKIP_DIRS = new Set(['.git', '.github', '.claude', 'node_modules', '.wrang
 const SKIP_FILES = new Set(['.git', '.gitignore', '.assetsignore', '.DS_Store', 'CNAME', 'wrangler.toml', 'package.json', 'package-lock.json']);
 const SKIP_EXT = new Set(['.md', '.json', '.py', '.pyc', '.sh', '.swift', '.sql', '.ttf', '.txt', '.toml', '.mjs']);
 
+// 法務文書の英語本文 document/legal-privacy/<slug>/en.html は en/document/legal-privacy/<slug>/index.html を作る原稿で、
+// 本文だけ（文字コードの指定も見た目も無い）なのでそのまま配信すると文字化けした下書きに見える（2026-11-03 QA 指摘）。
+// 原稿は配信せず、同じ URL に英語版の正式ページへの転送ページを置く（既に共有されたリンクも正しいページに着く）
+const LEGAL_EN_SOURCE = /^document\/legal-privacy\/(.+)\/en\.html$/;
+
+function legalEnRedirect(slug) {
+  const to = `/en/document/legal-privacy/${slug}/`;
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="${to}">
+<meta http-equiv="refresh" content="0; url=${to}">
+<title>Redirecting…</title>
+</head>
+<body><p><a href="${to}">English version</a></p></body>
+</html>
+`;
+}
+
 function rewriteUrl(value) {
   if (!value) return value;
   const trimmed = value.trim();
@@ -112,7 +133,11 @@ async function main() {
   for (const rel of files) {
     const dest = path.join(OUT, 'notification', rel);
     await fs.mkdir(path.dirname(dest), { recursive: true });
-    if (rel.toLowerCase().endsWith('.html')) {
+    const legalEn = LEGAL_EN_SOURCE.exec(rel);
+    if (legalEn) {
+      await fs.writeFile(dest, rewriteHtml(legalEnRedirect(legalEn[1])));
+      html++;
+    } else if (rel.toLowerCase().endsWith('.html')) {
       const src = await fs.readFile(path.join(ROOT, rel), 'utf8');
       await fs.writeFile(dest, rewriteHtml(src));
       html++;
