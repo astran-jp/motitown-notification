@@ -2,7 +2,7 @@
 // [data-maintenance-time] の要素に表示する。<html lang="en"> のページは英語、それ以外は日本語で出す。
 //   英語:   Wed, Nov 11, 9:00 PM – 10:00 PM PST / Wed, Nov 11, 11:00 PM – Thu, Nov 12, 1:00 AM PST
 //   日本語: 11/12(木) 14:00〜15:00（日本時間の端末は何も付けない）/ 11/11(水) 23:00〜11/12(木) 01:00（PST）
-// タイムゾーンの略称は Intl.DateTimeFormat('en-US', {timeZoneName: 'short'}) の値。
+// タイムゾーンの略称は Intl.DateTimeFormat('en-US', {timeZoneName: 'short'}) の値。英語の日本時間の端末は JST。
 // 変換できない環境では HTML に書かれた日本時間の表示がそのまま残る。
 // scripts/build-assets.mjs はこのファイルの fallback() で、JS が動かない端末向けの日本時間の表示を HTML に書き込む。
 (function (root) {
@@ -30,9 +30,11 @@
     return Math.round((wall - Math.floor(date.getTime() / 1000) * 1000) / 60000);
   }
 
+  // 日本時間の端末か。IANA 名で判定し、名前が取れない環境では時差 +09:00 を日本時間とみなす
   function isJapanTime(date, timeZone) {
     var zone = timeZone || new Intl.DateTimeFormat().resolvedOptions().timeZone;
-    return (zone === 'Asia/Tokyo' || zone === 'Japan') && offsetMinutes(date, timeZone) === 540;
+    if (zone) return zone === 'Asia/Tokyo' || zone === 'Japan';
+    return offsetMinutes(date, timeZone) === 540;
   }
 
   function pad2(value) {
@@ -54,7 +56,7 @@
     var e = partsOf(end, 'en-US', options, keys);
     var day = function (p) { return p.weekday + ', ' + p.month + ' ' + p.day + ', '; };
     var time = function (p) { return p.hour + ':' + p.minute + ' ' + p.dayPeriod; };
-    var zone = label !== undefined ? label : zoneName(start, timeZone);
+    var zone = label !== undefined ? label : (isJapanTime(start, timeZone) ? 'JST' : zoneName(start, timeZone));
     return day(s) + time(s) + ' – ' + (sameDay(s, e) ? '' : day(e)) + time(e) + ' ' + zone;
   }
 
