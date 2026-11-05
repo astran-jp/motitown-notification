@@ -1,2 +1,216 @@
-<!DOCTYPE html><!-- fallback: redirect to ja -->
-<html lang="ja"><head><meta charset="utf-8"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0; url=/event/x_campaign/"><link rel="canonical" href="https://motitown.com/notification/event/x_campaign/"><title>Redirecting…</title></head><body><a href="/event/x_campaign/">https://motitown.com/notification/event/x_campaign/</a></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>X Campaign | Motitown</title>
+<meta property="og:title" content="X Campaign">
+<meta property="og:type" content="article">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#fff}
+body{color:#0c4a60;font-family:"Noto Sans JP",-apple-system,BlinkMacSystemFont,sans-serif;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;line-height:1.6;overflow-wrap:break-word}
+h1,h2,h3,p,ol,ul,li{margin:0;padding:0}
+ol,ul{list-style:none}
+img{display:block}
+a{color:inherit;text-decoration:none}
+
+/* 日本語版 (event/x_campaign/) と同じ構成。文字の入った画像は使わず、文字の無い部分だけを切り出して使う */
+.page{max-width:480px;margin:0 auto;overflow:hidden}
+.crop{display:block;overflow:hidden}
+.crop img{width:100%;height:auto;max-width:none}
+h2{font-size:23px;line-height:1.35;font-weight:900;color:#005070;text-align:center}
+.fine{font-size:13px;line-height:1.75;color:#7c8080}
+
+/* ---------- KV ---------- */
+.hero{text-align:center;padding-top:20px;
+  background:radial-gradient(90% 60% at 50% 0%,#fff 0%,rgba(255,255,255,0) 100%),linear-gradient(180deg,#e6fdff 0%,#a8fdfe 100%)}
+.hero .chip{display:inline-block;padding:2px 16px;border:3px solid #002466;border-radius:100px;background:#fff;color:#002466;font-size:16px;line-height:24px;font-weight:900}
+.hero h1{margin-top:12px;padding:0 12px;color:#002466;font-size:31px;line-height:1.3;font-weight:900}
+.hero h1 span{display:block}
+.hero h1 .swoosh{display:inline-block;padding:0 6px 6px;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 10' preserveAspectRatio='none'%3E%3Cpath d='M1 7.5C30 3.5 70 2.5 99 4.5' stroke='%23f3de44' stroke-width='3.4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") 50% 100%/100% 12px no-repeat}
+/* 01 の y=356〜1240 (キャラクターの集合絵)。上端は背景にぼかしてつなぐ */
+.hero-art{aspect-ratio:900/884;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 8%);mask-image:linear-gradient(180deg,transparent 0,#000 8%)}
+.hero-art img{margin-top:-39.556%}
+
+/* ---------- 概要 ---------- */
+.overview{padding:22px 20px 0;text-align:center}
+.overview p{margin-top:8px;font-size:15px;line-height:1.75}
+.overview .callout{margin-top:14px;padding:10px 12px;border-radius:8px;background:#e7f7f8;color:#2898d4;font-weight:700}
+
+.xbtn{display:flex;align-items:center;justify-content:center;gap:10px;min-height:50px;margin:28px 15px 0;padding:8px 20px;border-radius:100px;background:#000;color:#fff;font-size:16px;line-height:1.3;font-weight:700;text-align:center}
+.xbtn svg{flex:none;width:22px;height:22px}
+
+/* ---------- 参加方法・アクション ---------- */
+.join{padding:34px 16px 0}
+.panel{margin-top:16px;border-radius:18px;background:linear-gradient(180deg,#fff8ca 0%,#fff1a4 100%);box-shadow:inset 0 0 12px rgba(255,236,140,.9)}
+.steps{padding:18px 16px 18px 14px;display:flex;flex-direction:column;gap:14px}
+.steps li{display:flex;gap:10px;font-size:15px;line-height:1.55;font-weight:700}
+.steps b{flex:none;width:24px;height:24px;margin-top:-1px;border-radius:50%;background:#ffe13c;color:#14524d;font-size:13px;line-height:24px;text-align:center}
+.steps small{font-size:13px;font-weight:500}
+.join .fine{margin-top:12px}
+
+.actions{padding:40px 16px 0}
+.actions .lead{margin-top:8px;font-size:15px;line-height:1.55;font-weight:700;text-align:center;color:#002f45}
+.table li{display:flex;align-items:center;gap:14px;min-height:72px;padding:10px 12px;font-size:15px;line-height:1.45;font-weight:700;color:#002c44}
+.table li+li{border-top:1px solid #efe89f}
+.table i{flex:none;width:40px;height:40px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center}
+.table i svg{width:22px;height:22px;fill:#005070}
+.table span{flex:1}
+.table em{flex:none;min-width:72px;padding:4px 10px;border-radius:100px;background:#fee03b;color:#103f16;font-size:13px;line-height:20px;font-style:normal;text-align:center}
+.actions .fine{margin-top:12px}
+
+/* ---------- ラストファイブ賞 (04 の絵を切り出して使う) ---------- */
+.last5{position:relative;margin-top:28px}
+.l5-top{aspect-ratio:780/346}
+.l5-tail{position:absolute;right:0;width:24.359%;aspect-ratio:190/54}
+.l5-tail img{width:410.526%;margin:-182.105% 0 0 -310.526%}
+.l5-body{padding:4px 16px 0;background:linear-gradient(180deg,#84f4ff 0%,#7ac2fe 100%);text-align:center}
+.l5-body>p{margin-top:8px;font-size:15px;line-height:1.6;font-weight:500;color:#00546c}
+.l5-panel{margin-top:20px;padding:20px 12px 18px;border:2px solid rgba(255,255,255,.85);border-radius:8px;background:linear-gradient(180deg,#b1f1ff 0%,#acdaff 100%)}
+.l5-panel h3{font-size:18px;line-height:1.4;font-weight:900;color:#003f55}
+.l5-panel>p{margin-top:6px;font-size:14px;line-height:1.55;font-weight:500;color:#003a51}
+.l5-grid{margin-top:14px;display:flex;flex-wrap:wrap;justify-content:center;gap:12px 8px}
+.l5-grid li{width:calc((100% - 16px) / 3);font-size:12px;line-height:1.35;font-weight:500;color:#0c4c68}
+.l5-grid span+span{display:block;margin-top:6px}
+.thumb{aspect-ratio:214/226}
+.thumb img{width:364.486%}
+.l5-box{margin-top:18px;padding:14px 16px;border-radius:8px;background:rgba(240,250,255,.85);font-size:15px;line-height:1.6;font-weight:700;color:#0c4a60;text-align:left}
+.l5-box strong{color:#2898d4}
+.l5-bottom{aspect-ratio:780/136}
+.l5-bottom img{margin-top:-207.949%}
+
+/* ---------- 限定ガチャ ---------- */
+.limited{padding:26px 16px 30px;background:#f3f9fe;text-align:center}
+.limited>p{margin-top:8px;font-size:15px;line-height:1.6;font-weight:500;color:#073744}
+.cards{margin-top:20px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px 10px}
+.cards li{font-size:12px;line-height:1.3;font-weight:700;color:#0c4c68}
+.cards span{display:block;margin-top:6px}
+/* カード画像の下の名前 (日本語) を切り落とす。414 幅の画像は枠が y=0〜452、344 幅は y=0〜372 */
+.cards img{width:100%;height:auto;aspect-ratio:414/452;object-fit:cover;object-position:50% 0}
+.cards .s img{aspect-ratio:344/372}
+
+.foot-btn{padding:4px 0 28px}
+
+/* ---------- 注意事項 ---------- */
+.notes{padding:26px 22px 48px;background:#f3f9fe}
+.notes ul{margin-top:14px;display:flex;flex-direction:column;gap:6px}
+.notes li{position:relative;padding-left:18px;font-size:14px;line-height:1.75;color:#13424f}
+.notes li::before{content:"";position:absolute;left:4px;top:.75em;width:5px;height:5px;border-radius:50%;background:#004854}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="hero">
+    <p class="chip">X Campaign</p>
+    <h1><span>Join the Motibears</span><span class="swoosh">and light up X!</span></h1>
+    <div class="crop hero-art"><img src="../../../event/x_campaign/assets/01-8a5bc3e5.webp" width="900" height="1718" alt="Motibear, Miyu, Johnny, Sora, Rex and other characters"></div>
+  </header>
+
+  <section class="overview">
+    <h2>Campaign Overview</h2>
+    <p>Cheer on Motitan and Motispi on X and get a limited Gacha! Once you&#39;ve collected them all, go for the Last Five Prize!</p>
+    <p class="callout">And after that, you can win Gems!</p>
+  </section>
+
+  <a class="xbtn" href="https://x.com/moti_english"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>Motitan &amp; Motispi Official Account</span></a>
+
+  <section class="join">
+    <h2>How to Join</h2>
+    <ol class="panel steps">
+      <li><b>1</b><span>Follow the official Motitan &amp; Motispi account</span></li>
+      <li><b>2</b><span>Add your Motitan/Motispi ID to your X profile<br><small>(e.g., Motitan ID: A12345)</small></span></li>
+      <li><b>3</b><span>Complete the specified actions on X to earn entries!</span></li>
+    </ol>
+    <p class="fine">Every day, we hold a drawing from all entries, and 20% of players receive a limited Gacha.</p>
+  </section>
+
+  <section class="actions">
+    <h2>Actions to Earn Entries</h2>
+    <p class="lead">Interact with posts from the official account to earn entries!</p>
+    <ul class="panel table">
+      <li><i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2h8.6L20 7.4V11l-2 2V8.6L13.4 4H6v16h5.4l-.4 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm2 8h8v2H8zm0 4h5v2H8zm12.4-.6 1.6 1.6-6.4 6.4-2.3.6.6-2.3z"/></svg></i><span>Post on X with #モチタン or #モチスピ</span><em>1 entry</em></li>
+      <li><i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></i><span>Like</span><em>1 entry</em></li>
+      <li><i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7h10v3l4-4-4-4v3H5v6h2V7zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2v4z"/></svg></i><span>Repost</span><em>1 entry</em></li>
+      <li><i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3C6.48 3 2 6.58 2 11c0 2.2 1.11 4.19 2.9 5.64L4 21l4.62-2.43c1.07.28 2.21.43 3.38.43 5.52 0 10-3.58 10-8s-4.48-8-10-8z"/></svg></i><span>Reply</span><em>2 entries</em></li>
+      <li><i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20h18v2H3zM5 15.5V18h2.5l9.2-9.2-2.5-2.5zM19.6 5.9a1 1 0 0 0 0-1.4l-1.1-1.1a1 1 0 0 0-1.4 0l-1.5 1.5 2.5 2.5z"/></svg></i><span>Quote post</span><em>2 entries</em></li>
+    </ul>
+    <p class="fine">Likes, reposts, replies, and quote posts count once a day per post by the official Motitan &amp; Motispi account, and only when done on the day the post was published.<br>The more entries you have, the better your chances of winning.</p>
+  </section>
+
+  <section class="last5">
+    <div class="crop l5-top"><img src="../../../event/x_campaign/assets/04-f0f9fb98.webp" width="780" height="1758" loading="lazy" alt=""></div>
+    <div class="crop l5-tail" aria-hidden="true"><img src="../../../event/x_campaign/assets/04-f0f9fb98.webp" width="780" height="1758" loading="lazy" alt=""></div>
+    <div class="l5-body">
+      <h2>Last Five Prize</h2>
+      <p>Players who win the drawing after collecting all the eligible characters get a Gacha that gives 1 of 5 ultra-rare characters!</p>
+      <div class="l5-panel">
+        <h3>What&#39;s in the Last Five Gacha</h3>
+        <p>Your chance to get ultra-rare versions of the main characters, available only here!</p>
+        <ul class="l5-grid">
+          <li><span class="crop thumb"><img src="../../../event/x_campaign/assets/04-f0f9fb98.webp" width="780" height="1758" loading="lazy" alt="" style="margin:-362.150% 0 0 -28.972%"></span><span>Phoenix<br>Motibear</span></li>
+          <li><span class="crop thumb"><img src="../../../event/x_campaign/assets/04-f0f9fb98.webp" width="780" height="1758" loading="lazy" alt="" style="margin:-362.150% 0 0 -132.243%"></span><span>Tea Party<br>Miyu</span></li>
+          <li><span class="crop thumb"><img src="../../../event/x_campaign/assets/04-f0f9fb98.webp" width="780" height="1758" loading="lazy" alt="" style="margin:-362.150% 0 0 -235.981%"></span><span>Tutankhamun<br>Sora</span></li>
+          <li><span class="crop thumb"><img src="../../../event/x_campaign/assets/04-f0f9fb98.webp" width="780" height="1758" loading="lazy" alt="" style="margin:-498.598% 0 0 -81.308%"></span><span>Awakened<br>Rex</span></li>
+          <li><span class="crop thumb"><img src="../../../event/x_campaign/assets/04-f0f9fb98.webp" width="780" height="1758" loading="lazy" alt="" style="margin:-498.598% 0 0 -184.112%"></span><span>Jiangshi<br>Johnny</span></li>
+        </ul>
+        <p class="l5-box">Once you complete the Last Five Gacha, you&#39;ll receive <strong>Gems</strong>!</p>
+      </div>
+    </div>
+    <div class="crop l5-bottom" aria-hidden="true"><img src="../../../event/x_campaign/assets/04-f0f9fb98.webp" width="780" height="1758" loading="lazy" alt=""></div>
+  </section>
+
+  <section class="limited">
+    <h2>What&#39;s in the Limited Gacha</h2>
+    <p>Every day, we draw 20% of players from that day&#39;s entries and give them a limited Gacha!</p>
+    <ul class="cards">
+      <li><img src="../../../event/x_campaign/assets/06-7e7979ad.webp" width="414" height="600" loading="lazy" alt=""><span>Miyu</span></li>
+      <li><img src="../../../event/x_campaign/assets/07-14fd82bb.webp" width="414" height="600" loading="lazy" alt=""><span>Johnny</span></li>
+      <li><img src="../../../event/x_campaign/assets/08-3b861c14.webp" width="415" height="600" loading="lazy" alt=""><span>Sora</span></li>
+      <li><img src="../../../event/x_campaign/assets/09-181114ea.webp" width="415" height="600" loading="lazy" alt=""><span>Rex</span></li>
+      <li><img src="../../../event/x_campaign/assets/10-dec5925b.webp" width="414" height="600" loading="lazy" alt=""><span>Pajama Motibear</span></li>
+      <li><img src="../../../event/x_campaign/assets/11-18369599.webp" width="414" height="600" loading="lazy" alt=""><span>Astronaut Motibear</span></li>
+      <li><img src="../../../event/x_campaign/assets/12-179fd680.webp" width="415" height="600" loading="lazy" alt=""><span>Samurai Motibear</span></li>
+      <li><img src="../../../event/x_campaign/assets/13-baa7f8c9.webp" width="417" height="600" loading="lazy" alt=""><span>Chef Motibear</span></li>
+      <li class="s"><img src="../../../event/x_campaign/assets/14-53744491.webp" width="344" height="474" loading="lazy" alt=""><span>Suit Motibear</span></li>
+      <li class="s"><img src="../../../event/x_campaign/assets/15-6904970f.webp" width="344" height="474" loading="lazy" alt=""><span>Interviewer Motibear</span></li>
+      <li><img src="../../../event/x_campaign/assets/16-86f989e2.webp" width="414" height="600" loading="lazy" alt=""><span>Miyabi Kasagitsune</span></li>
+      <li class="s"><img src="../../../event/x_campaign/assets/17-3e2fbfd8.webp" width="344" height="474" loading="lazy" alt=""><span>Lumina Jellyfloat</span></li>
+      <li class="s"><img src="../../../event/x_campaign/assets/18-59d92c1b.webp" width="344" height="452" loading="lazy" alt=""><span>Mayoroid</span></li>
+      <li class="s"><img src="../../../event/x_campaign/assets/19-56a8b7af.webp" width="344" height="523" loading="lazy" alt=""><span>Breadria Crouton Lancer</span></li>
+      <li class="s"><img src="../../../event/x_campaign/assets/20-91741a7a.webp" width="344" height="476" loading="lazy" alt=""><span>Hinotama Giftflame</span></li>
+      <li class="s"><img src="../../../event/x_campaign/assets/21-c3e8264c.webp" width="344" height="452" loading="lazy" alt=""><span>Bamboo Bao</span></li>
+      <li><img src="../../../event/x_campaign/assets/22-db3b5047.webp" width="415" height="600" loading="lazy" alt=""><span>Tenrai Swallow</span></li>
+      <li class="s"><img src="../../../event/x_campaign/assets/23-2aa73b0c.webp" width="344" height="475" loading="lazy" alt=""><span>Code Classmate</span></li>
+      <li class="s"><img src="../../../event/x_campaign/assets/24-beaf5e9d.webp" width="344" height="524" loading="lazy" alt=""><span>Captain Starcruiser</span></li>
+      <li class="s"><img src="../../../event/x_campaign/assets/25-6df7005d.webp" width="344" height="475" loading="lazy" alt=""><span>Wave Lancer</span></li>
+      <li class="s"><img src="../../../event/x_campaign/assets/26-e5fcf48f.webp" width="344" height="474" loading="lazy" alt=""><span>Lumina Corelia</span></li>
+      <li class="s"><img src="../../../event/x_campaign/assets/27-da3edeac.webp" width="344" height="474" loading="lazy" alt=""><span>Tide Seeker Gull</span></li>
+    </ul>
+  </section>
+
+  <div class="foot-btn"><a class="xbtn" href="https://x.com/moti_english"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>Motitan &amp; Motispi Official Account</span></a></div>
+
+  <section class="notes">
+    <h2>Notes</h2>
+    <ul>
+      <li>The more entries you earn, the better your chances of winning. (Example: with likes, replies, reposts, and quote posts, you can earn up to 7 entries per post.)</li>
+      <li>Likes, replies, reposts, and quote posts count only when done on the same day the official Motitan &amp; Motispi account posted.</li>
+      <li>Only actions on the official Motitan &amp; Motispi account&#39;s own posts count. Actions on its replies do not.</li>
+      <li>Every day, we hold a drawing from all eligible entries, and 20% of them win. (Example: if there are 1,000 entries, 200 entries win.)</li>
+      <li>You can win up to once a day.</li>
+      <li>Each day&#39;s count runs from 4:00 AM to 3:59 AM the next day.</li>
+      <li>Winners are announced by receiving the prize Gacha in the app, from the next business day up to 5 business days later.</li>
+      <li>You won&#39;t get duplicate characters from the limited Gacha or the Last Five Prize.</li>
+      <li>If you win after collecting every character from the limited Gacha and the Last Five Prize, you&#39;ll receive 1 Gem.</li>
+    </ul>
+  </section>
+</div>
+</body>
+</html>
