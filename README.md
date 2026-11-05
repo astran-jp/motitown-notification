@@ -143,6 +143,38 @@ Figma「モチタンUI」の `20260930_noteキャンペーン_…_完成版` セ
   日本語版の構造を変えたら英語版 2 枚も同じように直す (計 4 枚が同じ構造)
 - 旧リポジトリの `android.html` と `icon.png` はどのページからも参照されていないので移していない
 
+# メンテナンス時間ページ (`/information/maintenance-time/`)
+
+アップデートに伴うメンテナンスの日時を出すページ。英語表示のアプリは `/en/information/maintenance-time/` を開く。
+日時は、ページを開いた端末の現地時刻で出す。
+
+**メンテのたびに書き換えるのは `information/maintenance-time/schedule.js` の 2 行だけ**（日本時間、`+09:00` 付き）:
+
+```js
+var MAINTENANCE_TIME = {
+  start: '2026-11-12T14:00:00+09:00',
+  end: '2026-11-12T15:00:00+09:00',
+};
+```
+
+main に push すれば日本語版・英語版の両方に反映される。HTML は触らない。`+09:00` が無い値は組み立て（deploy）が失敗する。
+
+| 端末 | 日本語版 | 英語版 |
+|---|---|---|
+| 日本時間 (Asia/Tokyo) | `11/12(木) 14:00〜15:00` | `Thu, Nov 12, 2:00 PM – 3:00 PM JST` |
+| 日本時間以外 (例 America/Los_Angeles) | `11/11(水) 21:00〜22:00（PST）` | `Wed, Nov 11, 9:00 PM – 10:00 PM PST` |
+| 現地で日をまたぐ | `11/11(水) 23:00〜11/12(木) 01:00（PST）` | `Wed, Nov 11, 11:00 PM – Thu, Nov 12, 1:00 AM PST` |
+| JS が動かない・変換に失敗 | `11/12(木) 14:00〜15:00（日本時間）` | `Thu, Nov 12, 2:00 PM – 3:00 PM JST` |
+
+- 整形は `information/maintenance-time/local-time.js`。日時を出す要素は `data-maintenance-time` 属性の付いた `<h2>`。
+  タイムゾーンの略称は `Intl.DateTimeFormat('en-US', {timeZoneName: 'short'})` の値（PST / PDT / EST など）。
+  日本時間の端末は、英語版は `JST`、日本語版は略称なし。日本時間かどうかは IANA 名（`Asia/Tokyo`）で判定し、
+  名前が取れない古い WebView では時差 +09:00 を日本時間とみなす。+09:00 でも日本以外のゾーン（例 Asia/Seoul）は `GMT+9`
+- JS が動かないとき用の日本時間の表示は、`scripts/build-assets.mjs` が組み立て時に `schedule.js` から書き込む。
+  リポジトリの HTML にある `<h2 data-maintenance-time>` の中身は組み立て時に置き換わる
+- 英語版 `en/information/maintenance-time/index.html` は他の英語ページと同じく `information/maintenance-time/en.json` から
+  `python3 scripts/en/build.py information/maintenance-time` で生成する。日本語版の本文を変えたときだけ作り直す
+
 # 公開の仕組み (Cloudflare Workers)
 
 `https://motitown.com/notification/*` は、このリポジトリの内容を静的アセットとして同梱した Cloudflare Worker が配信する。

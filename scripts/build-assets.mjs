@@ -10,6 +10,7 @@
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import vm from 'node:vm';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.resolve(process.argv[2] || path.join(ROOT, 'dist'));
@@ -43,6 +44,25 @@ function legalEnRedirect(slug) {
 <body><p><a href="${to}">English version</a></p></body>
 </html>
 `;
+}
+
+// メンテナンス時間ページ（日本語・英語）の [data-maintenance-time] の中身を、schedule.js の日本時間で書き込む。
+// JS が動かない端末ではこの表示が出て、JS が動けば local-time.js が端末の現地時刻に置き換える
+const MAINTENANCE_DIR = path.join(ROOT, 'information', 'maintenance-time');
+const MAINTENANCE_ELEMENT = /(<([a-z][a-z0-9]*)\b[^>]*\sdata-maintenance-time\b[^>]*>)[^<]*(<\/\2>)/i;
+let maintenanceContext;
+
+async function fillMaintenanceTime(html) {
+  if (!MAINTENANCE_ELEMENT.test(html)) return html;
+  if (!maintenanceContext) {
+    maintenanceContext = vm.createContext({});
+    for (const name of ['schedule.js', 'local-time.js']) {
+      vm.runInContext(await fs.readFile(path.join(MAINTENANCE_DIR, name), 'utf8'), maintenanceContext, { filename: name });
+    }
+  }
+  const lang = /<html\b[^>]*\slang=["']en/i.test(html) ? 'en' : 'ja';
+  const text = maintenanceContext.MaintenanceTime.fallback(lang, maintenanceContext.MAINTENANCE_TIME);
+  return html.replace(MAINTENANCE_ELEMENT, (_, open, tag, close) => open + text + close);
 }
 
 function rewriteUrl(value) {
@@ -139,7 +159,7 @@ async function main() {
       html++;
     } else if (rel.toLowerCase().endsWith('.html')) {
       const src = await fs.readFile(path.join(ROOT, rel), 'utf8');
-      await fs.writeFile(dest, rewriteHtml(src));
+      await fs.writeFile(dest, rewriteHtml(await fillMaintenanceTime(src)));
       html++;
     } else {
       await fs.copyFile(path.join(ROOT, rel), dest);
