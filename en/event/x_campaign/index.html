@@ -20,14 +20,12 @@ ol,ul{list-style:none}
 img{display:block}
 a{color:inherit;text-decoration:none}
 
-/* 日本語版 (event/x_campaign/) と同じ構成。文字の入った画像は使わず、文字の無い部分だけを切り出して使う */
 .page{max-width:480px;margin:0 auto;overflow:hidden}
 .crop{display:block;overflow:hidden}
 .crop img{width:100%;height:auto;max-width:none}
 h2{font-size:23px;line-height:1.35;font-weight:900;color:#005070;text-align:center}
 .fine{font-size:13px;line-height:1.75;color:#7c8080}
 
-/* ---------- KV ---------- */
 .hero{text-align:center;padding-top:20px;
   background:radial-gradient(90% 60% at 50% 0%,#fff 0%,rgba(255,255,255,0) 100%),linear-gradient(180deg,#e6fdff 0%,#a8fdfe 100%)}
 .hero .chip{display:inline-block;padding:2px 16px;border:3px solid #002466;border-radius:100px;background:#fff;color:#002466;font-size:16px;line-height:24px;font-weight:900}
@@ -35,11 +33,9 @@ h2{font-size:23px;line-height:1.35;font-weight:900;color:#005070;text-align:cent
 .hero h1 span{display:block}
 .hero h1 .swoosh{display:inline-block;padding:0 6px 6px;
   background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 10' preserveAspectRatio='none'%3E%3Cpath d='M1 7.5C30 3.5 70 2.5 99 4.5' stroke='%23f3de44' stroke-width='3.4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") 50% 100%/100% 12px no-repeat}
-/* 01 の y=356〜1240 (キャラクターの集合絵)。上端は背景にぼかしてつなぐ */
 .hero-art{aspect-ratio:900/884;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 8%);mask-image:linear-gradient(180deg,transparent 0,#000 8%)}
 .hero-art img{margin-top:-39.556%}
 
-/* ---------- 概要 ---------- */
 .overview{padding:22px 20px 0;text-align:center}
 .overview p{margin-top:8px;font-size:15px;line-height:1.75}
 .overview .callout{margin-top:14px;padding:10px 12px;border-radius:8px;background:#e7f7f8;color:#2898d4;font-weight:700}
@@ -47,7 +43,6 @@ h2{font-size:23px;line-height:1.35;font-weight:900;color:#005070;text-align:cent
 .xbtn{display:flex;align-items:center;justify-content:center;gap:10px;min-height:50px;margin:28px 15px 0;padding:8px 20px;border-radius:100px;background:#000;color:#fff;font-size:16px;line-height:1.3;font-weight:700;text-align:center}
 .xbtn svg{flex:none;width:22px;height:22px}
 
-/* ---------- 参加方法・アクション ---------- */
 .join{padding:34px 16px 0}
 .panel{margin-top:16px;border-radius:18px;background:linear-gradient(180deg,#fff8ca 0%,#fff1a4 100%);box-shadow:inset 0 0 12px rgba(255,236,140,.9)}
 .steps{padding:18px 16px 18px 14px;display:flex;flex-direction:column;gap:14px}
@@ -66,7 +61,6 @@ h2{font-size:23px;line-height:1.35;font-weight:900;color:#005070;text-align:cent
 .table em{flex:none;min-width:72px;padding:4px 10px;border-radius:100px;background:#fee03b;color:#103f16;font-size:13px;line-height:20px;font-style:normal;text-align:center}
 .actions .fine{margin-top:12px}
 
-/* ---------- ラストファイブ賞 (04 の絵を切り出して使う) ---------- */
 .last5{position:relative;margin-top:28px}
 .l5-top{aspect-ratio:780/346}
 .l5-tail{position:absolute;right:0;width:24.359%;aspect-ratio:190/54}
@@ -80,25 +74,22 @@ h2{font-size:23px;line-height:1.35;font-weight:900;color:#005070;text-align:cent
 .l5-grid li{width:calc((100% - 16px) / 3);font-size:12px;line-height:1.35;font-weight:500;color:#0c4c68}
 .l5-grid span+span{display:block;margin-top:6px}
 .thumb{aspect-ratio:214/226}
-.thumb img{width:364.486%}
+.thumb img{width:500%}
 .l5-box{margin-top:18px;padding:14px 16px;border-radius:8px;background:rgba(240,250,255,.85);font-size:15px;line-height:1.6;font-weight:700;color:#0c4a60;text-align:left}
 .l5-box strong{color:#2898d4}
 .l5-bottom{aspect-ratio:780/136}
 .l5-bottom img{margin-top:-207.949%}
 
-/* ---------- 限定ガチャ ---------- */
 .limited{padding:26px 16px 30px;background:#f3f9fe;text-align:center}
 .limited>p{margin-top:8px;font-size:15px;line-height:1.6;font-weight:500;color:#073744}
 .cards{margin-top:20px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px 10px}
 .cards li{font-size:12px;line-height:1.3;font-weight:700;color:#0c4c68}
 .cards span{display:block;margin-top:6px}
-/* カード画像の下の名前 (日本語) を切り落とす。414 幅の画像は枠が y=0〜452、344 幅は y=0〜372 */
 .cards img{width:100%;height:auto;aspect-ratio:414/452;object-fit:cover;object-position:50% 0}
 .cards .s img{aspect-ratio:344/372}
 
 .foot-btn{padding:4px 0 28px}
 
-/* ---------- 注意事項 ---------- */
 .notes{padding:26px 22px 48px;background:#f3f9fe}
 .notes ul{margin-top:14px;display:flex;flex-direction:column;gap:6px}
 .notes li{position:relative;padding-left:18px;font-size:14px;line-height:1.75;color:#13424f}
@@ -154,11 +145,11 @@ h2{font-size:23px;line-height:1.35;font-weight:900;color:#005070;text-align:cent
         <h3>What&#39;s in the Last Five Gacha</h3>
         <p>Your chance to get ultra-rare versions of the main characters, available only here!</p>
         <ul class="l5-grid">
-          <li><span class="crop thumb"><img src="../../../event/x_campaign/assets/04-f0f9fb98.webp" width="780" height="1758" loading="lazy" alt="" style="margin:-362.150% 0 0 -28.972%"></span><span>Phoenix<br>Motibear</span></li>
-          <li><span class="crop thumb"><img src="../../../event/x_campaign/assets/04-f0f9fb98.webp" width="780" height="1758" loading="lazy" alt="" style="margin:-362.150% 0 0 -132.243%"></span><span>Tea Party<br>Miyu</span></li>
-          <li><span class="crop thumb"><img src="../../../event/x_campaign/assets/04-f0f9fb98.webp" width="780" height="1758" loading="lazy" alt="" style="margin:-362.150% 0 0 -235.981%"></span><span>Tutankhamun<br>Sora</span></li>
-          <li><span class="crop thumb"><img src="../../../event/x_campaign/assets/04-f0f9fb98.webp" width="780" height="1758" loading="lazy" alt="" style="margin:-498.598% 0 0 -81.308%"></span><span>Awakened<br>Rex</span></li>
-          <li><span class="crop thumb"><img src="../../../event/x_campaign/assets/04-f0f9fb98.webp" width="780" height="1758" loading="lazy" alt="" style="margin:-498.598% 0 0 -184.112%"></span><span>Jiangshi<br>Johnny</span></li>
+          <li><span class="crop thumb"><img src="last-five.webp" width="1070" height="226" loading="lazy" alt=""></span><span>Phoenix<br>Motibear</span></li>
+          <li><span class="crop thumb"><img src="last-five.webp" width="1070" height="226" loading="lazy" alt="" style="margin-left:-100%"></span><span>Tea Party<br>Miyu</span></li>
+          <li><span class="crop thumb"><img src="last-five.webp" width="1070" height="226" loading="lazy" alt="" style="margin-left:-200%"></span><span>Tutankhamun<br>Sora</span></li>
+          <li><span class="crop thumb"><img src="last-five.webp" width="1070" height="226" loading="lazy" alt="" style="margin-left:-300%"></span><span>Awakened<br>Rex</span></li>
+          <li><span class="crop thumb"><img src="last-five.webp" width="1070" height="226" loading="lazy" alt="" style="margin-left:-400%"></span><span>Jiangshi<br>Johnny</span></li>
         </ul>
         <p class="l5-box">Once you complete the Last Five Gacha, you&#39;ll receive <strong>Gems</strong>!</p>
       </div>
@@ -200,13 +191,13 @@ h2{font-size:23px;line-height:1.35;font-weight:900;color:#005070;text-align:cent
   <section class="notes">
     <h2>Notes</h2>
     <ul>
-      <li>The more entries you earn, the better your chances of winning. (Example: with likes, replies, reposts, and quote posts, you can earn up to 7 entries per post.)</li>
+      <li>The more entries you earn, the better your chances of winning. (Example: with likes, replies, reposts, quote posts, and a post, you can earn up to 7 entries.)</li>
       <li>Likes, replies, reposts, and quote posts count only when done on the same day the official Motitan &amp; Motispi account posted.</li>
       <li>Only actions on the official Motitan &amp; Motispi account&#39;s own posts count. Actions on its replies do not.</li>
       <li>Every day, we hold a drawing from all eligible entries, and 20% of them win. (Example: if there are 1,000 entries, 200 entries win.)</li>
       <li>You can win up to once a day.</li>
       <li>Each day&#39;s count runs from 4:00 AM to 3:59 AM the next day.</li>
-      <li>Winners are announced by receiving the prize Gacha in the app, from the next business day up to 5 business days later.</li>
+      <li>We&#39;ll announce winners by sending them the prize Gacha in the app within 1–5 business days.</li>
       <li>You won&#39;t get duplicate characters from the limited Gacha or the Last Five Prize.</li>
       <li>If you win after collecting every character from the limited Gacha and the Last Five Prize, you&#39;ll receive 1 Gem.</li>
     </ul>

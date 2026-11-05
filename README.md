@@ -33,6 +33,7 @@ Gemini CLI(`npm i -g @google/gemini-cli`)と認証(`GEMINI_API_KEY` または `g
 | `/information/...` | 市民リーグ・使い方ガイド・BP・ガチャ排出率などの説明 |
 | `/document/legal-privacy/...`, `/document/license/` | 利用規約・プライバシーポリシー・各種法定表示・ライセンス |
 | `/event/x_campaign/...` | X キャンペーン |
+| `/en/event/x_campaign/` | X キャンペーンの英語版 (下記) |
 | `/recommend/{motitan,motispi}/` | 相互アプリ紹介 (クロスプロモ広告の遷移先) |
 
 各ページの作り:
@@ -46,6 +47,11 @@ Gemini CLI(`npm i -g @google/gemini-cli`)と認証(`GEMINI_API_KEY` または `g
 - フォント (Noto Sans JP / Lato / Material Icons) は Google Fonts、Font Awesome は cdnjs から読む
 - 折りたたみ (`button[aria-controls]`) は各ページ末尾の小さなスクリプトで `_isClose` を付け外ししている
 - X のポスト埋め込みは `blockquote.twitter-tweet` + `widgets.js`
+- X キャンペーンの英語版 `en/event/x_campaign/index.html` は STUDIO の DOM ではなく、日本語版の画像に書かれた内容を
+  HTML の文章に起こしたもの。絵は日本語版の `event/x_campaign/assets/` の文字の無い部分を CSS で切り出して使い、
+  ラストファイブ賞の 5 体だけは `04-…webp` から背景を抜いた `en/event/x_campaign/last-five.webp` を使う。
+  日本語版の画像・内容 (キャラ・枠数・注意事項など) を変えたら英語版も同じように直す。
+  当選発表 (`/en/event/x_campaign/notification-1/` `notification-2/`) は日本語ページへの転送スタブのまま
 
 # note 投稿キャンペーン (`/event/note_campaign/`)
 
@@ -57,8 +63,10 @@ Figma「モチタンUI」の `20260930_noteキャンペーン_…_完成版` セ
 |---|---|
 | `/event/note_campaign/` | イベント詳細 (KV・限定キャラ 5 体・やること・事例・注意事項・下部固定の CTA)。キャラをタップするとキャラ詳細ポップ |
 | `/event/note_campaign/report/` | 投稿の報告フォーム (入力 → 完了、エラー文言 10 種) |
-| `/en/event/note_campaign/…` | 英語版は無し。日本語ページへの転送スタブ (クエリを引き継ぐ) |
+| `/en/event/note_campaign/`, `/en/event/note_campaign/report/` | 英語版。日本語版と同じ HTML・画像・JS の表示文言 (エラー文言を含む) だけを英語にしたもの |
 
+- 英語版の 2 枚は日本語版と同じ構造・同じ動き (トークンの扱い・API の呼び方) なので、日本語版の構造・JS・文言を変えたら英語版 2 枚も同じように直す (計 4 枚)。
+  ハッシュタグは英語版でも `#モチタン` / `#モチスピ` のまま (motitan-api がこの 2 つで判定している)
 - アプリはログイン済みの通信で motitan-api からトークンを受け取り、`?token=<トークン>` を付けて開く。
   どちらのページも読んだ後に sessionStorage (`note_campaign_token`) に控えて、アドレスからクエリを消す。
   イベント詳細 → 報告フォームへは sessionStorage で引き継ぐ (使えない時だけリンクのクエリで渡す)。
