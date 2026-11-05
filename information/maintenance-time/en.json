@@ -1,0 +1,33 @@
+{
+ "title": {
+  "ja": "アップデートに伴うメンテナンスのお知らせ｜モチタウン",
+  "en": "Scheduled Maintenance for the Update | Motitown"
+ },
+ "segments": [
+  {
+   "tag": "h2",
+   "ja": "【アップデートに伴うメンテナンスのお知らせ】",
+   "en": "Scheduled Maintenance for the Update"
+  },
+  {
+   "tag": "p",
+   "ja": "Hello~！モチベアだよ！",
+   "en": "Hello~! It's MotiBear!"
+  },
+  {
+   "tag": "h2",
+   "ja": "10/23(金) 14:00〜15:00（日本時間）",
+   "en": "Fri, Oct 23, 2:00 PM – 3:00 PM JST"
+  },
+  {
+   "tag": "p",
+   "ja": "にメンテナンスを行うよ！この時間帯はプレイできないから気をつけてね。始まる前にプレイを終えて、モチタン・モチスピを閉じておいてね。",
+   "en": "We'll be doing maintenance during this time! You won't be able to play while it's going on, so please finish playing and close MotiTan and MotiSpi before it starts."
+  },
+  {
+   "tag": "attr:content",
+   "ja": "アップデートに伴うメンテナンスのお知らせ",
+   "en": "Scheduled Maintenance for the Update"
+  }
+ ]
+}
