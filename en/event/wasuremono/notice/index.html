@@ -26,7 +26,11 @@
   .period{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 8px;align-items:baseline;padding:10px 16px 0;color:var(--gold);font-weight:700;font-size:14px}.period span{white-space:nowrap}.period small{margin-left:4px}
   .period b{font-size:20px;font-weight:900;letter-spacing:.02em}
   .period small{color:var(--muted);font-weight:500;font-size:11px}
-  .headline{margin:6px 16px 0;text-align:center;font-size:28px;font-weight:900;color:var(--gold);letter-spacing:.06em;line-height:1.3;text-shadow:0 2px 12px rgba(255,201,77,.35)}
+  .kv .ribbon{position:absolute;left:-6px;right:-6px;bottom:14px;z-index:3;transform:rotate(-3deg);background:var(--gold);color:#3b2100;text-align:center;font-weight:900;font-size:17px;padding:6px 0;letter-spacing:.06em;box-shadow:0 4px 14px rgba(0,0,0,.4)}
+  .crew{margin:20px 16px 0;text-align:center}
+  .crew .f{display:flex;justify-content:center}.crew .f img{width:46px;height:46px;border-radius:50%;background:#fff;border:2px solid var(--gold);margin:0 -4px}
+  .crew p{margin:10px 0 0;font-size:15px;font-weight:900}
+  .crew small{display:block;color:var(--muted);font-size:12px;font-weight:500}
   /* 本文 */
   .sec{padding:26px 20px 8px;position:relative}
   h2{font-size:17px;font-weight:900;margin:0 0 12px;letter-spacing:.04em;display:flex;align-items:center;gap:10px}
@@ -87,9 +91,9 @@
   <div class="kv">
     <span class="tag">LIMITED-TIME EVENT</span>
     <div class="catch">I Left<br>Something<br>in Space.</div>
+    <div class="ribbon" style="font-size:13px;letter-spacing:.02em">Now On!　Nov 9 4:00 AM – Nov 30 4:00 AM JST</div>
   </div>
-  <h1 class="headline">New Event Now On!</h1>
-  <div class="period"><span><b>Nov 9</b><small>(Mon) 4:00 AM</small></span><span class="tilde">–</span><span><b>Nov 30</b><small>(Mon) 4:00 AM JST</small></span></div>
+  <div class="crew"><div class="f"><img src="../../../../event/wasuremono/notice/assets/char_rabbit.webp" alt=""><img src="../../../../event/wasuremono/notice/assets/char_mienaiko.webp" alt=""><img src="../../../../event/wasuremono/notice/assets/char_wolf.webp" alt=""><img src="../../../../event/wasuremono/notice/assets/char_doll.webp" alt=""><img src="../../../../event/wasuremono/notice/assets/char_dragon.webp" alt=""><img src="../../../../event/wasuremono/notice/assets/char_nyarlo.webp" alt=""><img src="../../../../event/wasuremono/notice/assets/char_blackhole.webp" alt=""></div><p>Go get what was left behind, with 7 friends<small>Get a reward for every 200 BP</small></p></div>
 
   <div class="intro">
     <p>It was cleaning day. From the back of the storeroom came an old travel backpack.</p>
@@ -101,7 +105,7 @@
 
   <section class="sec">
     <h2>Where the Journey Goes</h2>
-    <p class="lead">The more BP you earn, the farther the ship goes.</p>
+    <p class="lead">Six places to search for what was left behind.</p>
     <div class="route">
       <figure><img src="../../../../event/wasuremono/notice/assets/scene_moon.webp" alt=""><figcaption>The Moon</figcaption></figure>
       <figure><img src="../../../../event/wasuremono/notice/assets/scene_w06.webp" alt=""><figcaption>The Black Hole</figcaption></figure>
