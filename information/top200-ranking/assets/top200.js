@@ -90,6 +90,16 @@
       }, { threshold: 0.4 });
       mo.observe(meter);
     } else { play(); }
+    // 一部の Web ビューは、アンカーで開いた直後に交差の知らせが来ない。画面に入っていれば自分で始める
+    var startIfVisible = function () {
+      if (started) return;
+      var r = meter.getBoundingClientRect();
+      var h = window.innerHeight || document.documentElement.clientHeight;
+      if (r.top < h * 0.85 && r.bottom > h * 0.15) { started = true; play(); }
+    };
+    setTimeout(startIfVisible, 600);
+    setTimeout(startIfVisible, 1800);
+    window.addEventListener('scroll', startIfVisible, { passive: true });
     var again = meter.querySelector('.meter__replay');
     if (again) again.addEventListener('click', play);
   }
