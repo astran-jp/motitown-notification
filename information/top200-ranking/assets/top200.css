@@ -469,3 +469,7 @@ body.en .rk__name { font-size: 22px; }
 body.en .menu a { font-size: 12px; }
 body.en .langs div { font-size: 12px; }
 body.en .vis th { width: 34%; }
+
+/* 英語は部門名が長い（Vocabulary）。名前の欄を広げ、タブの字を少し小さくして 1 行に収める */
+html[lang="en"] .part { grid-template-columns: 108px 1fr; }
+html[lang="en"] .parts-demo span { font-size: 12.5px; letter-spacing: -.01em; }
