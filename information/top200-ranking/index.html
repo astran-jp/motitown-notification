@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<!-- トップ200（炎マークのランキング）の解説。アプリのランキング右上の「i」から PopupWebViewFullScreen で開く（URLManager.LinkTop200Guide）。
+     #bp24h #learned24h #power24h #learned #stars #streak #power（#power-vocab / -game / -talk）#multi #scope #friend #prefecture #newcomer #privacy
+     でその種類から見せる。?app=motispi でモチスピの言い方、?lang=zh などで学習言語の闘力の名前。英語版は ../../en/information/top200-ranking/。
+     計算式・係数は書かない（仕様の正本は Notion「炎マークのランキング」）。 -->
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>トップ200のひみつ｜モチタウン</title>
+<meta name="description" content="炎マークのランキング「トップ200」の楽しみ方。何をすれば順位が上がるかを紹介します。">
+<meta name="theme-color" content="#0A1F3D">
+<link rel="icon" type="image/png" href="../../favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&display=swap">
+<link rel="stylesheet" href="assets/top200.css?v=20261121">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="g-flame" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#FF4D0A"/><stop offset=".6" stop-color="#FF8A1F"/><stop offset="1" stop-color="#FFC94A"/></linearGradient>
+    <linearGradient id="g-gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE9A0"/><stop offset="1" stop-color="#F2A01C"/></linearGradient>
+  </defs>
+  <symbol id="i-flame" viewBox="0 0 40 48"><path d="M20 2c2 8 12 13 12 26a12 12 0 0 1-24 0c0-6 3-10 6-12 0 4 2 7 4 7-1-8 0-15 2-21z" fill="url(#g-flame)"/><path d="M20 26c1 4 6 6 6 12a6 6 0 0 1-12 0c0-4 3-6 6-12z" fill="#FFE27A"/></symbol>
+  <symbol id="i-crown" viewBox="0 0 44 34"><path d="M3 10l9 8 10-15 10 15 9-8-4 21H7z" fill="url(#g-gold)" stroke="#B86B00" stroke-width="1.5" stroke-linejoin="round"/><circle cx="22" cy="22" r="3" fill="#FF6506"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 40 40"><circle cx="20" cy="20" r="15" fill="none" stroke="#fff" stroke-width="4"/><path d="M20 11v10l7 4" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/></symbol>
+  <symbol id="i-trophy" viewBox="0 0 40 40"><path d="M12 6h16v9a8 8 0 0 1-16 0z" fill="#fff"/><path d="M12 9H6c0 6 3 9 7 9M28 9h6c0 6-3 9-7 9" fill="none" stroke="#fff" stroke-width="3"/><path d="M17 23h6v6h-6zM12 31h16v4H12z" fill="#fff"/></symbol>
+  <symbol id="i-bolt" viewBox="0 0 30 30"><path d="M17 2L5 17h8l-2 11 13-16h-8z" fill="#fff"/></symbol>
+  <symbol id="i-book" viewBox="0 0 30 30"><path d="M4 6c4-1 8 0 11 2v17c-3-2-7-3-11-2zM26 6c-4-1-8 0-11 2v17c3-2 7-3 11-2z" fill="#fff"/></symbol>
+  <symbol id="i-up" viewBox="0 0 30 30"><path d="M4 23l8-8 5 5 9-10" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M19 9h8v8" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-star" viewBox="0 0 30 30"><path d="M15 3l3.6 7.6 8.2 1-6 5.7 1.6 8.2L15 21.5l-7.4 4 1.6-8.2-6-5.7 8.2-1z" fill="#fff"/></symbol>
+  <symbol id="i-leaf" viewBox="0 0 30 30"><path d="M6 24C5 12 13 5 25 5c0 12-7 20-19 19z" fill="#fff"/><path d="M7 23c4-6 8-10 13-13" stroke="#199DE8" stroke-width="2" fill="none" stroke-linecap="round"/></symbol>
+  <symbol id="i-words" viewBox="0 0 30 30"><rect x="4" y="5" width="16" height="20" rx="3" fill="#fff"/><rect x="10" y="3" width="16" height="20" rx="3" fill="#fff" opacity=".7"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 30 30"><circle cx="15" cy="15" r="11" fill="none" stroke="#fff" stroke-width="3"/><path d="M4 15h22M15 4c-5 6-5 16 0 22M15 4c5 6 5 16 0 22" fill="none" stroke="#fff" stroke-width="2.4"/></symbol>
+  <symbol id="t-balance" viewBox="0 0 40 40"><rect x="5" y="18" width="8" height="17" rx="3" fill="#1BB5B0"/><rect x="16" y="14" width="8" height="21" rx="3" fill="#F2A01C"/><rect x="27" y="16" width="8" height="19" rx="3" fill="#7B6CF0"/><path d="M4 9h32" stroke="#0F2840" stroke-width="3" stroke-linecap="round"/></symbol>
+  <symbol id="t-mountain" viewBox="0 0 40 40"><path d="M3 35l12-20 6 9 5-7 11 18z" fill="#199DE8"/><path d="M15 15l3 5-3 2-3-2z" fill="#fff"/><path d="M26 6v10M26 6l7 3-7 3" stroke="#FF6506" stroke-width="2.6" fill="#FF6506" stroke-linejoin="round"/></symbol>
+  <symbol id="t-shield" viewBox="0 0 40 40"><path d="M20 3l14 5v10c0 9-6 16-14 19C12 34 6 27 6 18V8z" fill="#F2A01C"/><path d="M20 27V13M14 19l6-6 6 6" stroke="#fff" stroke-width="3.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="t-target" viewBox="0 0 40 40"><circle cx="20" cy="20" r="16" fill="#7B6CF0"/><circle cx="20" cy="20" r="10" fill="#fff"/><circle cx="20" cy="20" r="4.5" fill="#7B6CF0"/><path d="M20 20L35 5" stroke="#FF6506" stroke-width="3" stroke-linecap="round"/></symbol>
+  <symbol id="i-eye" viewBox="0 0 30 30"><path d="M2 15c4-7 9-10 13-10s9 3 13 10c-4 7-9 10-13 10S6 22 2 15z" fill="#199DE8"/><circle cx="15" cy="15" r="5" fill="#fff"/><circle cx="15" cy="15" r="2.4" fill="#0F2840"/></symbol>
+</svg>
+
+<nav class="snav" aria-label="ランキングの種類">
+  <div class="snav__row">
+    <a href="#bp24h">BP</a>
+    <a href="#learned24h"><span class="tan-only">覚えた単語</span><span class="spi-only">覚えたフレーズ</span></a>
+    <a href="#power24h"><span data-power>英闘力</span>の伸び</a>
+    <a href="#learned">単語・フレーズ</a>
+    <a href="#stars">星</a>
+    <a href="#streak">連続</a>
+    <a href="#power"><span data-power>英闘力</span></a>
+    <a href="#multi">多闘力</a>
+    <a href="#scope">しぼり込み</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="hero__brand">
+      <img class="tan-only" src="assets/MotiTan-color.svg" alt="モチタン" width="178" height="48">
+      <img class="spi-only" src="assets/MotiSpi-color.svg" alt="モチスピ" width="178" height="48">
+    </div>
+    <h1 class="hero__title">
+      <span class="top"><svg aria-hidden="true"><use href="#i-flame"/></svg>トップ<span data-count="200">200</span></span>
+      モチタウンの頂点へ。
+    </h1>
+    <p class="hero__lead">毎日のがんばりも、積み上げた実力も。<br>あなたが輝ける舞台が、ここにある。</p>
+
+    <div class="podium" aria-hidden="true">
+      <span class="spark" style="left:8%;top:18%"></span>
+      <span class="spark" style="left:88%;top:8%;animation-delay:.8s"></span>
+      <span class="spark" style="left:60%;top:-4%;animation-delay:1.5s"></span>
+      <div class="podium__col podium__col--2"><img src="assets/c1.webp" alt="" width="254" height="360"><div class="podium__block">2</div></div>
+      <div class="podium__col podium__col--1"><svg class="podium__crown"><use href="#i-crown"/></svg><img src="assets/c36.webp" alt="" width="360" height="357"><div class="podium__block">1</div></div>
+      <div class="podium__col podium__col--3"><img src="assets/c437.webp" alt="" width="352" height="360"><div class="podium__block">3</div></div>
+    </div>
+
+    <div class="menu">
+      <div class="menu__group">
+        <div class="menu__head"><svg aria-hidden="true"><use href="#i-clock"/></svg>24時間</div>
+        <div class="menu__grid">
+          <a href="#bp24h"><img src="assets/c41.webp" alt="" width="188" height="360">BP</a>
+          <a href="#learned24h"><img src="assets/c32.webp" alt="" width="282" height="360"><span class="tan-only">覚えた単語</span><span class="spi-only">覚えたフレーズ</span></a>
+          <a href="#power24h"><img src="assets/c7.webp" alt="" width="223" height="360"><span><span data-power>英闘力</span>の伸び</span></a>
+        </div>
+      </div>
+      <div class="menu__group">
+        <div class="menu__head"><svg aria-hidden="true"><use href="#i-trophy"/></svg>累計</div>
+        <div class="menu__grid">
+          <a href="#learned"><img src="assets/c428.webp" alt="" width="321" height="360">単語・フレーズ</a>
+          <a href="#stars"><img src="assets/c425.webp" alt="" width="237" height="360">星</a>
+          <a href="#streak"><img src="assets/c534.webp" alt="" width="321" height="360">連続</a>
+          <a href="#power"><img src="assets/c403.webp" alt="" width="220" height="360"><span data-power>英闘力</span></a>
+          <a href="#multi"><img src="assets/c384.webp" alt="" width="244" height="360">多闘力</a>
+          <a href="#scope"><img src="assets/c21.webp" alt="" width="257" height="360">しぼり込み</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="period" id="day">
+  <div class="wrap">
+    <div class="period__head rv">
+      <div class="period__icon"><svg aria-hidden="true"><use href="#i-clock"/></svg></div>
+      <div><h2>24時間</h2><p class="period__catch">毎日がチャンス。</p></div>
+    </div>
+    <p class="rk__text rv">直近24時間の記録で競います。きのう出遅れても、今日の1回で一気に上位へ。</p>
+
+    <article class="rk rv" id="bp24h" style="--c1:#B8F27A;--c2:#FFF4A0">
+      <div class="rk__art">
+        <span class="rk__badge"><svg aria-hidden="true"><use href="#i-bolt"/></svg></span>
+        <h3 class="rk__name">BP</h3>
+        <img class="chara" src="assets/c41.webp" alt="" width="188" height="360" loading="lazy">
+      </div>
+      <div class="rk__body">
+        <p class="rk__catch">今日いちばん燃えた人が、<br>いちばん上に。</p>
+        <p class="rk__text tan-only">対戦・冒険・ゲームで遊ぶほど、BPがたまります。</p>
+        <p class="rk__text spi-only">トーク・冒険・ゲームで遊ぶほど、BPがたまります。</p>
+        <ul class="do">
+          <li class="tan-only">対戦で高いスコアを出す</li>
+          <li class="spi-only">トークで高いスコアを出す</li>
+          <li>手ごたえのある上のレベルに挑む</li>
+          <li>ゲームは星を狙って最後まで</li>
+        </ul>
+        <a class="rk__link tan-only" href="../about-bp/">BPのしくみを見る ›</a>
+        <a class="rk__link spi-only" href="../about-bp/motispi/">BPのしくみを見る ›</a>
+      </div>
+    </article>
+
+    <article class="rk rv" id="learned24h" style="--c1:#FFF6A0;--c2:#FFD86B">
+      <div class="rk__art">
+        <span class="rk__badge"><svg aria-hidden="true"><use href="#i-book"/></svg></span>
+        <h3 class="rk__name"><span class="tan-only">覚えた単語</span><span class="spi-only">覚えたフレーズ</span></h3>
+        <img class="chara" src="assets/c32.webp" alt="" width="282" height="360" loading="lazy">
+      </div>
+      <div class="rk__body">
+        <p class="rk__catch">今日、新しく覚えた数で勝負。</p>
+        <p class="rk__text tan-only">24時間のあいだに、はじめて「覚えた」になった単語の数です。覚え直した単語は数えません。</p>
+        <p class="rk__text spi-only">24時間のあいだに、はじめて「覚えた」になったフレーズの数です。覚え直したフレーズは数えません。</p>
+        <ul class="do">
+          <li class="tan-only">新しい単語に、どんどん出会う</li>
+          <li class="spi-only">新しいフレーズに、どんどん出会う</li>
+          <li class="tan-only">冒険で覚えて、対戦で思い出す</li>
+          <li class="spi-only">覚えたフレーズを、トークで使う</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="rk rv" id="power24h" style="--c1:#7CF2C8;--c2:#4FB8F5">
+      <div class="rk__art">
+        <span class="rk__badge"><svg aria-hidden="true"><use href="#i-up"/></svg></span>
+        <h3 class="rk__name"><span data-power>英闘力</span>の伸び</h3>
+        <img class="chara" src="assets/c7.webp" alt="" width="223" height="360" loading="lazy">
+      </div>
+      <div class="rk__body">
+        <p class="rk__catch">きのうの自分より、<br>どれだけ強くなれたか。</p>
+        <p class="rk__text">24時間で闘力がどれだけ伸びたかで競います。トップの人も、はじめたばかりの人も、伸びなら同じ土俵です。</p>
+        <ul class="do">
+          <li>いちばん苦手な力を伸ばす</li>
+          <li>まだ星を取っていないレベルに挑む</li>
+        </ul>
+        <p class="rk__note">はじめて7日たつと、このランキングに載ります。</p>
+        <a class="rk__link" href="#power">闘力の上げ方を見る ›</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="period period--total" id="total">
+  <div class="wrap">
+    <div class="period__head rv">
+      <div class="period__icon"><svg aria-hidden="true"><use href="#i-trophy"/></svg></div>
+      <div><h2>累計</h2><p class="period__catch">積み重ねは、消えない。</p></div>
+    </div>
+    <p class="rk__text rv">これまでのすべての記録で競います。続けるほど、順位は確実に上がっていきます。</p>
+
+    <article class="rk rv" id="learned" style="--c1:#D9CCFF;--c2:#B9E3FF">
+      <div class="rk__art">
+        <span class="rk__badge"><svg aria-hidden="true"><use href="#i-words"/></svg></span>
+        <h3 class="rk__name">単語・<br>フレーズ</h3>
+        <img class="chara" src="assets/c428.webp" alt="" width="321" height="360" loading="lazy">
+      </div>
+      <div class="rk__body">
+        <p class="rk__catch">覚えた数は、一生もの。</p>
+        <p class="rk__text">一度でも「覚えた」になった単語とフレーズの数です。あとで忘れても減りません。</p>
+        <ul class="do">
+          <li class="tan-only">毎日少しずつ、新しい単語を覚える</li>
+          <li class="spi-only">毎日少しずつ、新しいフレーズを覚える</li>
+          <li>うろ覚えは、もう一押しで「覚えた」へ</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="rk rv" id="stars" style="--c1:#FFE08A;--c2:#FFB27A">
+      <div class="rk__art">
+        <span class="rk__badge"><svg aria-hidden="true"><use href="#i-star"/></svg></span>
+        <h3 class="rk__name">星</h3>
+        <img class="chara" src="assets/c425.webp" alt="" width="237" height="360" loading="lazy">
+      </div>
+      <div class="rk__body">
+        <p class="rk__catch">星を集めるほど、上へ。</p>
+        <p class="rk__text">レベルごとに取った、いちばん良い星の合計です。</p>
+        <ul class="do">
+          <li>星1・2のレベルで、星3を取り直す</li>
+          <li>新しいレベルに進んで、星を増やす</li>
+          <li>いろいろなゲームで星を取る</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="rk rv" id="streak" style="--c1:#A8F0D8;--c2:#7FD3F7">
+      <div class="rk__art">
+        <span class="rk__badge"><svg aria-hidden="true"><use href="#i-leaf"/></svg></span>
+        <h3 class="rk__name">連続</h3>
+        <img class="chara" src="assets/c534.webp" alt="" width="321" height="360" loading="lazy">
+      </div>
+      <div class="rk__body">
+        <p class="rk__catch">毎日の1回が、最強の武器。</p>
+        <p class="rk__text">いま続いている、連続学習の日数です。</p>
+        <ul class="do">
+          <li>毎日1回プレイ（区切りは朝4時）</li>
+          <li>ログインだけでは、つながらない</li>
+          <li>やる時間を決めると、続けやすい</li>
+        </ul>
+        <p class="rk__note">連続を回復したときは、次に遊んだときにランキングへ戻ります。</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="power" id="power">
+  <div class="wrap">
+    <div class="power__top rv">
+      <img src="assets/c403.webp" alt="" width="220" height="360" loading="lazy">
+      <div>
+        <h2><img class="flag" data-flag="assets/flag_{lang}.webp" src="assets/flag_en.webp" alt="" width="108" height="75"><span data-power>英闘力</span></h2>
+        <p class="power__catch">あなたの実力が、<br>そのまま数字に。</p>
+      </div>
+    </div>
+    <p class="power__text rv">語彙・ゲーム・会話の3つの力で決まる、いま学んでいる言語の実力です。</p>
+
+    <div class="meter rv" aria-hidden="true">
+      <div class="meter__total">
+        <svg><use href="#i-flame"/></svg>
+        <div class="meter__track"><div class="meter__fill"></div></div>
+        <span class="meter__up">↑</span>
+      </div>
+      <div class="meter__parts">
+        <div class="part part--vocab" data-part="vocab"><span class="part__name">語彙</span><div class="part__bar"><i></i></div></div>
+        <div class="part part--game" data-part="game"><span class="part__name">ゲーム</span><div class="part__bar"><i></i></div></div>
+        <div class="part part--talk" data-part="talk"><span class="part__name">会話</span><div class="part__bar"><i></i></div></div>
+      </div>
+      <p class="meter__say">いちばん苦手な力を伸ばすと、<br><b>闘力はぐんと上がる。</b></p>
+      <button class="meter__replay" type="button">もう一度見る</button>
+    </div>
+
+    <div class="truths">
+      <div class="truth rv"><svg aria-hidden="true"><use href="#t-balance"/></svg><b>バランスが大事</b><span>3つの力をバランスよく鍛えるほど伸びる。</span></div>
+      <div class="truth rv"><svg aria-hidden="true"><use href="#t-target"/></svg><b>苦手が近道</b><span>苦手な力から伸ばすのが近道。</span></div>
+      <div class="truth rv"><svg aria-hidden="true"><use href="#t-mountain"/></svg><b>難しいほど大きい</b><span>難しいレベルほど、大きく上がる。</span></div>
+      <div class="truth rv"><svg aria-hidden="true"><use href="#t-shield"/></svg><b>下がらない</b><span>一度上がったら、忘れても下がらない。</span></div>
+    </div>
+
+    <ul class="do rv">
+      <li class="tan-only">ゲームで正解して単語を「覚えた」へ</li>
+      <li class="tan-only">いろいろなゲームで、上の星を取る</li>
+      <li class="tan-only">モチスピのトークで、会話も鍛える</li>
+      <li class="spi-only">いろいろな場面のトークで高スコア</li>
+      <li class="spi-only">上のクラスの場面に挑む</li>
+      <li class="spi-only">フレーズを覚えて、ゲームで星を取る</li>
+    </ul>
+
+    <div class="parts-demo rv" aria-hidden="true"><span class="is-on">総合</span><span>語彙</span><span>ゲーム</span><span>会話</span></div>
+    <p class="parts-say rv">部門ごとのトップ200もある。<br>得意な力で、頂点を狙おう。</p>
+
+    <div class="langs rv">
+      <div data-lang="en"><img src="assets/flag_en.webp" alt="" width="108" height="75" loading="lazy">英闘力</div>
+      <div data-lang="zh"><img src="assets/flag_zh.webp" alt="" width="108" height="75" loading="lazy">中闘力</div>
+      <div data-lang="ko"><img src="assets/flag_ko.webp" alt="" width="108" height="75" loading="lazy">韓闘力</div>
+      <div data-lang="es"><img src="assets/flag_es.webp" alt="" width="108" height="75" loading="lazy">西闘力</div>
+      <div data-lang="fr"><img src="assets/flag_fr.webp" alt="" width="108" height="72" loading="lazy">仏闘力</div>
+      <div data-lang="de"><img src="assets/flag_de.webp" alt="" width="108" height="72" loading="lazy">独闘力</div>
+      <div data-lang="ja"><img src="assets/flag_ja.webp" alt="" width="108" height="75" loading="lazy">日闘力</div>
+    </div>
+    <p class="parts-say rv">学んでいる言語ごとに、闘力があります。</p>
+
+    <article class="rk rv" id="multi" style="--c1:#D9CCFF;--c2:#9FE0FF">
+      <div class="rk__art">
+        <span class="rk__badge"><svg aria-hidden="true"><use href="#i-globe"/></svg></span>
+        <h3 class="rk__name" style="right:auto;top:84px;bottom:auto">多闘力</h3>
+        <div class="stairs" style="position:absolute;inset:auto 0 0 34%">
+          <img src="assets/c373.webp" alt="" width="236" height="360" loading="lazy">
+          <img src="assets/c370.webp" alt="" width="225" height="360" loading="lazy">
+          <img src="assets/c387.webp" alt="" width="229" height="360" loading="lazy">
+          <img src="assets/c384.webp" alt="" width="244" height="360" loading="lazy">
+          <img src="assets/c397.webp" alt="" width="330" height="360" loading="lazy">
+        </div>
+      </div>
+      <div class="rk__body">
+        <p class="rk__catch">言語を増やすほど、<br>必ず強くなる。</p>
+        <p class="rk__text">学んでいるすべての言語を合わせた実力です。1つの言語だけなら、その言語の闘力と同じ数字で載ります。</p>
+        <ul class="do">
+          <li>新しい言語で、多闘力が増える</li>
+          <li>深く学んだ言語ほど、大きく効く</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="scope" id="scope">
+  <div class="wrap">
+    <h2 class="rv">しぼり込み</h2>
+    <p class="scope__catch rv">右上の「全国」から、ライバルを選べる。</p>
+    <div class="dropdown rv">
+      <div class="dropdown__item" id="all"><img src="assets/c1.webp" alt="" width="254" height="360" loading="lazy"><div><h3>全国</h3><p>全国のトップ200。</p></div></div>
+      <div class="dropdown__item" id="friend"><img src="assets/c66.webp" alt="" width="192" height="360" loading="lazy"><div><h3>フレンド</h3><p>フレンドの中で何位？<br>身近なライバルと競おう。</p></div></div>
+      <div class="dropdown__item" id="newcomer"><img src="assets/c519.webp" alt="" width="295" height="360" loading="lazy"><div><h3>新人</h3><p>はじめて<b>30日以内</b>の人だけのトップ200。はじめたばかりでも1位が狙える。</p></div></div>
+      <div class="dropdown__item" id="prefecture"><img src="assets/c21.webp" alt="" width="257" height="360" loading="lazy"><div><h3>都道府県</h3><p>同じ県のトップ200。プロフィールで<b>都道府県を公開</b>にすると載ります。</p></div></div>
+    </div>
+
+    <div class="privacy rv" id="privacy">
+      <h3><svg aria-hidden="true"><use href="#i-eye"/></svg>ランキングに載るには</h3>
+      <table class="vis">
+        <tr><th>BP</th><td>いつでも載ります</td></tr>
+        <tr><th>全国・都道府県</th><td>学習記録を<b>みんなに公開</b></td></tr>
+        <tr><th>フレンド</th><td><b>フレンドまで</b>でもOK</td></tr>
+      </table>
+      <div class="privacy__path"><span>プライバシー</span><i>›</i><span>学習記録の公開</span></div>
+      <p class="privacy__note">自分の順位は、設定にかかわらず、いつでも自分には見えます。</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="closing">
+  <div class="wrap">
+    <img class="bear" src="assets/bear_cheer.webp" alt="" width="335" height="400" loading="lazy">
+    <h2>今日の1回が、順位を動かす。</h2>
+    <p>トップ200で、待ってるよ。</p>
+    <button class="cta" type="button" data-close-app hidden>ランキングを見る</button>
+    <img class="closing__logo tan-only" src="assets/MotiTan-color.svg" alt="モチタン" width="178" height="48" loading="lazy">
+    <img class="closing__logo spi-only" src="assets/MotiSpi-color.svg" alt="モチスピ" width="178" height="48" loading="lazy">
+  </div>
+</footer>
+
+<script src="assets/top200.js?v=20261121"></script>
+</body>
+</html>
