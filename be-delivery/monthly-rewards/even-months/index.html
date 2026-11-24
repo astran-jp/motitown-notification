@@ -3,7 +3,7 @@
   月間ミッション報酬のお知らせ（偶数月）
   - アプリ内 WebView から ?app=motitan / ?app=motispi 付きで開かれ、起動アプリのブロックが上に来る
   - 中身は両アプリで同一。毎月 偶数月 の分だけをここで差し替える（更新手順は ../README.md）
-  - 現在の内容：2026年10月（202610）
+  - 現在の内容：2026年12月（202612）
 -->
 <html lang="ja" data-app="motitan">
 
@@ -27,13 +27,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../shared/style.css">
-  <style>
-    /* 2026年10月だけの例外: モチスピ優秀賞「夕焼けの龍」は顔が画像の左上にあり、説明文ボックスの下に隠れるため右へ寄せる。
-       共通の shared/style.css は触らない。翌々月（12月）の更新時にこのブロックは消すこと。 */
-    .zone--motispi .cal-row--excellent .cal-row__figure img:not(.sparkle) {
-      transform: translateX(40px);
-    }
-  </style>
 </head>
 
 <body>
@@ -49,12 +42,12 @@
         <div class="card__tag">月間ミッション<img src="../shared/calendar.svg" alt=""></div>
         <div class="hero">
           <img class="sparkle sparkle--start" src="../shared/sparkle.svg" alt="">
-          <img src="images/motitan-monthly.png" width="344" height="344" alt="ウィッチみゆ">
+          <img src="images/motitan-monthly.png" width="344" height="344" alt="くるみ割り兵隊ジョニー">
           <img class="sparkle sparkle--end" src="../shared/sparkle.svg" alt="">
         </div>
         <div class="info">
-          <p class="info__name">ウィッチみゆ</p>
-          <p class="info__desc">大きなとんがり帽子と魔女の衣装に身を包んだ、ちょっぴり特別な日のみゆ。大きなほうきにちょこんと腰かければ、いつものおしとやかな雰囲気も今日は少しだけお休み。秋風に髪をなびかせながら、気ままな空のお散歩を楽しんでいるよ。</p>
+          <p class="info__name">くるみ割り兵隊ジョニー</p>
+          <p class="info__desc">ライブハウス「モチビート」の冬の舞台で、くるみ割り人形の兵隊を演じるジョニー。裏方職人のタクミが仕立てた赤い詰襟で、ぎこちない行進をわざと大げさにして客席を沸かせる。敬礼だけは、本物の兵隊のようにぴしっと決まる。</p>
         </div>
       </div>
 
@@ -65,23 +58,23 @@
         <img class="sparkle sparkle--start" src="../shared/sparkle.svg" alt="">
 
         <div class="cal-row cal-row--effort">
-          <img class="cal-row__char--overhang" src="images/motitan-effort.png" width="320" height="320" alt="焼き芋モチベア">
+          <img class="cal-row__char--overhang" src="images/motitan-effort.png" width="320" height="320" alt="トナカイのかぶりもの">
           <div class="cal-row__spacer"></div>
           <div class="info">
             <span class="award award--effort">努力賞</span>
-            <p class="info__name">焼き芋モチベア</p>
-            <p class="info__desc">大きな焼き芋に変装し、秋の味覚を満喫中の焼き芋モチベア。手にもほかほかの焼き芋を持って、夢中でもぐもぐ！ひとくち食べれば、やさしい甘さに思わずにっこり。おなかも心もいっぱいになる、食欲の秋を楽しんでいるよ。</p>
+            <p class="info__name">トナカイのかぶりもの</p>
+            <p class="info__desc">キャラメル色のふわふわ生地に、小さな角と赤い鼻がついたトナカイのかぶりもの。かぶると、そりを引く役を任されそうになる。</p>
           </div>
         </div>
 
         <div class="cal-row cal-row--excellent">
           <div class="info">
             <span class="award award--excellent">優秀賞</span>
-            <p class="info__name">キング・オバケーヌ</p>
-            <p class="info__desc">キラキラの王冠とハートのサングラスがトレードマークのキング・オバケーヌ。おばけなのに怖がらせることにはまったく興味なし！音楽と楽しいことが大好きで、どこでもノリノリで盛り上げちゃう、とびきり陽気なパリピおばけだよ。</p>
+            <p class="info__name">トナカイモチベア</p>
+            <p class="info__desc">茶色いトナカイの着ぐるみにすっぽり入ったモチベア。フードの赤い鼻と立派な角がお気に入りで、歩くたびに首の鈴がりんりん鳴る。角をゆらしてぴょんと跳ねるのが、出発の合図。雪の夜道も、みんなの先頭を張りきって進む。</p>
           </div>
           <div class="cal-row__figure">
-            <img src="images/motitan-excellent.png" width="344" height="344" alt="キング・オバケーヌ">
+            <img src="images/motitan-excellent.png" width="344" height="344" alt="トナカイモチベア">
             <img class="sparkle sparkle--end" src="../shared/sparkle.svg" alt="">
           </div>
         </div>
@@ -98,12 +91,12 @@
         <div class="card__tag">月間ミッション<img src="../shared/calendar.svg" alt=""></div>
         <div class="hero">
           <img class="sparkle sparkle--start" src="../shared/sparkle.svg" alt="">
-          <img src="images/motispi-monthly.png" width="344" height="344" alt="狼男ジョニー">
+          <img src="images/motispi-monthly.png" width="344" height="344" alt="ジンジャーブレッドみゆ">
           <img class="sparkle sparkle--end" src="../shared/sparkle.svg" alt="">
         </div>
         <div class="info">
-          <p class="info__name">狼男ジョニー</p>
-          <p class="info__desc">ハロウィンの夜、いつものゾンビ姿から狼男に大変身したジョニー。ふさふさの耳と尻尾は、ただの仮装……のはず！？満月が昇ると、なんだかいつもより野生的！？ 本当に狼男になっちゃったのか、その真相はジョニーだけが知っている！</p>
+          <p class="info__name">ジンジャーブレッドみゆ</p>
+          <p class="info__desc">カフェ「モチブースト」の冬の窓を飾るお菓子の家づくりを手伝う、ジンジャーブレッドの服のみゆ。アイシングの線は定規で測ったようにまっすぐで、店主のカレンに「真面目すぎ」と笑われる。うまく焼けた日は、つい体がるんるん揺れる。</p>
         </div>
       </div>
 
@@ -114,23 +107,23 @@
         <img class="sparkle sparkle--start" src="../shared/sparkle.svg" alt="">
 
         <div class="cal-row cal-row--effort">
-          <img class="cal-row__char--overhang" src="images/motispi-effort.png" width="320" height="320" alt="ラクロスモチベア">
+          <img class="cal-row__char--overhang" src="images/motispi-effort.png" width="320" height="320" alt="黒いサンタのぼうし">
           <div class="cal-row__spacer"></div>
           <div class="info">
             <span class="award award--effort">努力賞</span>
-            <p class="info__name">ラクロスモチベア</p>
-            <p class="info__desc">スポーツの秋に誘われて、ラクロスを始めたモチベア。まだまだ練習中だけど、大きなラケットを握れば気合いは十分！夢中でボールを追いかけて、転んでしまうこともしばしば。ほっぺの絆創膏は、一生懸命がんばった証とちいさな勲章なんだ。</p>
+            <p class="info__name">黒いサンタのぼうし</p>
+            <p class="info__desc">黒い生地にグレーのふわふわを合わせた、黒いサンタのぼうし。かぶると、プレゼントをそっと置いて帰りたくなる。</p>
           </div>
         </div>
 
         <div class="cal-row cal-row--excellent">
           <div class="info">
             <span class="award award--excellent">優秀賞</span>
-            <p class="info__name">夕焼けの龍</p>
-            <p class="info__desc">夕暮れの空が茜色に染まるころ、どこからともなく姿を現す夕焼けの龍。白い鱗に黄昏の赤をまとい、燃えるような翼で秋空を悠々と駆けていく。昼と夜がすれ違うほんのわずかな時間だけ会える、秋の空を見守る気まぐれで美しい龍だよ。</p>
+            <p class="info__name">ブラックサンタクロースモチベア</p>
+            <p class="info__desc">子どもたちにプレゼントを配り終えたあと、黒いコートに着替えて夜更けの町を回るもう一人のサンタ。ポケットに手を入れて渋く決めているが、夜回り番や灯り番に配る差し入れの袋がいちばん重い。お礼を言われると、そっぽを向く。</p>
           </div>
           <div class="cal-row__figure">
-            <img src="images/motispi-excellent.png" width="344" height="344" alt="夕焼けの龍">
+            <img src="images/motispi-excellent.png" width="344" height="344" alt="ブラックサンタクロースモチベア">
             <img class="sparkle sparkle--end" src="../shared/sparkle.svg" alt="">
           </div>
         </div>
