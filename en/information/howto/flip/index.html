@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!-- Word Flipの遊び方。アプリの単語パークの i マークから WebView で開く想定（アプリへの組み込みはまだ）。
+     生成物: growth/projects/planning/prototypes/home_game_entry/howto_web/build.py で作る。手で直さず build.py を直して作り直す。
+     日本語版は ../../../information/howto/flip/ -->
+<html lang="en" class="nojs">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to play Word Flip | MotiTown</title>
+<meta name="description" content="How to play Word Flip, with screenshots from the game.">
+<meta name="theme-color" content="#EEF6FF">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&family=Zen+Kaku+Gothic+New:wght@700;900&display=swap">
+<style>:root{--bg:#EEF6FF;--bg2:#D9EAFF;--ink:#0C2136;--muted:#48607A;--acc:#1467B8;--acc2:#FFAE1A;--card:#FFFFFF;--line:rgba(12,33,54,.11);--dfont:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif;--h1:min(57px,14.6vw);--frame:#ffffff;--shadow:rgba(60,30,10,.45);--accSoft:#1467B833}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font-family:'Noto Sans JP',system-ui,sans-serif;font-weight:500;line-height:1.75;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+.wrap{max-width:520px;margin:0 auto;padding-left:20px;padding-right:20px}
+.disp{font-family:var(--dfont);font-weight:400;letter-spacing:.01em;line-height:1.24;text-wrap:balance}
+.serif .disp{font-weight:900}
+.hero{position:relative;min-height:min(128vw,680px);display:flex;align-items:flex-end;overflow:hidden;isolation:isolate}
+.hero .kv{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;object-position:center 30%;transform:scale(1.08);animation:kb 18s ease-out forwards}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,.04) 18%,rgba(0,0,0,.55) 52%,rgba(0,0,0,.62) 82%,var(--bg) 100%)}
+@keyframes kb{to{transform:scale(1)}}
+.hero .in{width:100%;max-width:520px;margin:0 auto;padding:0 20px 30px}
+.badge{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.badge img{width:58px;height:58px;filter:drop-shadow(0 6px 10px rgba(0,0,0,.35))}
+.badge span{font-weight:900;font-size:12px;letter-spacing:.24em;color:#fff;text-shadow:0 1px 8px rgba(0,0,0,.6)}
+.hero h1{font-size:var(--h1);color:#fff;text-shadow:0 3px 0 rgba(0,0,0,.18),0 8px 30px rgba(0,0,0,.5)}
+.hero .catch{margin-top:12px;font-size:clamp(22px,6.2vw,28px);color:#fff;text-shadow:0 2px 16px rgba(0,0,0,.65)}
+.lead{margin-top:16px;font-size:15px;color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:24px 0 6px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:12px 6px 10px;text-align:center}
+.stat b{display:block;font-size:18px;font-weight:900;color:var(--ink);line-height:1.3;white-space:nowrap}
+.stat small{display:block;font-size:11px;color:var(--muted);letter-spacing:.06em;margin-bottom:2px}
+.sec{padding-top:46px;padding-bottom:8px}
+.kicker{font-size:12px;font-weight:900;letter-spacing:.2em;color:var(--acc)}
+.sec h2{font-size:clamp(25px,7.4vw,33px);margin-top:6px}
+.loop{display:grid;gap:12px;margin-top:22px}
+.beat{position:relative;display:grid;grid-template-columns:108px minmax(0,1fr);align-items:center;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:14px 16px}
+.beat .v{font-family:var(--dfont);font-size:22px;line-height:1.1;color:var(--acc);text-align:center;white-space:nowrap}
+.serif .beat .v{font-weight:900}
+.beat p{font-size:14.5px;color:var(--ink);font-weight:700;line-height:1.55}
+.beat:not(:last-child)::after{content:"";position:absolute;left:69px;bottom:-13px;width:2px;height:14px;background:var(--acc);opacity:.6}
+.step{position:relative;padding:26px 0 8px}
+.step .num{position:absolute;right:0;top:-4px;font-family:var(--dfont);font-size:92px;line-height:1;color:var(--acc);opacity:.13;pointer-events:none}
+.serif .step .num{font-family:'Cormorant Garamond',serif;font-weight:700;opacity:.18}
+.step .tag{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:900;letter-spacing:.18em;color:var(--acc)}
+.step .tag i{display:inline-block;width:22px;height:2px;background:var(--acc)}
+.step h3{position:relative;font-size:clamp(22px,6.4vw,28px);margin:8px 0 10px;padding-right:64px}
+.step p{position:relative;font-size:15px;color:var(--muted)}
+.phone{position:relative;width:min(64vw,270px);margin:22px auto 6px;border-radius:34px;padding:9px;background:var(--frame);box-shadow:0 22px 50px -18px var(--shadow),0 0 0 1px var(--line)}
+.phone img{border-radius:26px;width:100%;height:auto}
+.step:nth-child(even) .phone{transform:rotate(2deg)}
+.step:nth-child(odd) .phone{transform:rotate(-2deg)}
+.panel{margin-top:22px;background:var(--card);border:1px solid var(--line);border-radius:26px;padding:22px 18px}
+.panel p{font-size:14.5px;color:var(--muted)}
+.tips{list-style:none;margin-top:18px;display:grid;gap:10px}
+.tips li{position:relative;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px 16px 14px 46px;font-size:15px;font-weight:700;line-height:1.6}
+.tips li::before{content:"";position:absolute;left:18px;top:20px;width:12px;height:12px;border-radius:50%;background:var(--acc);box-shadow:0 0 0 5px var(--accSoft)}
+.outro{margin:56px 0 0;padding:44px 20px calc(60px + env(safe-area-inset-bottom));text-align:center;background:var(--bg2)}
+.outro img.b{width:150px;height:auto;margin:0 auto 10px;filter:drop-shadow(0 14px 18px rgba(0,0,0,.25));animation:bob 3.2s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-8px)}}
+.outro .disp{font-size:clamp(26px,7.4vw,34px);color:var(--ink)}
+.outro p{margin-top:8px;color:var(--muted);font-size:14px}
+.rv{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.8,.2,1)}
+.rv.on{opacity:1;transform:none}
+.nojs .rv{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}.hero .kv,.outro img.b,.fx,.fx *{animation:none!important}}
+
+.disp{font-weight:900;letter-spacing:0}
+body{background:linear-gradient(180deg,#EEF6FF 0,#F7FBFF 900px,#EEF6FF 100%)}
+.deckwrap{position:relative;margin:30px auto 0;width:min(74vw,290px)}
+.deck{position:relative;aspect-ratio:10/13}
+.cd{position:absolute;inset:0;border-radius:28px;background:#fff;border:1px solid var(--line);box-shadow:0 26px 50px -26px rgba(12,60,120,.55);padding:22px 20px;display:flex;flex-direction:column;animation:fl 9s cubic-bezier(.3,.7,.2,1) infinite both}
+.cd:nth-child(2){animation-delay:-6s}.cd:nth-child(3){animation-delay:-3s}
+@keyframes fl{0%{transform:translateY(26px) scale(.9);opacity:0;z-index:1}7%,33%{transform:translateY(14px) scale(.95);opacity:.6;z-index:1}40%,66%{transform:none;opacity:1;z-index:2}75%,100%{transform:translateY(-118%) rotate(-5deg);opacity:0;z-index:3}}
+.cd .pic{flex:1;border-radius:18px;background:var(--tint);display:grid;place-items:center;min-height:0}
+.cd .pic svg{width:46%;height:auto}
+.cd b{display:block;margin-top:14px;font-family:var(--dfont);font-weight:900;font-size:34px;line-height:1.1;color:var(--ink)}
+.cd i{display:block;font-style:normal;font-size:13px;color:var(--muted);margin-top:2px}
+.cd em{display:flex;align-items:center;gap:8px;font-style:normal;font-weight:900;font-size:19px;margin-top:8px;color:var(--ink)}
+.cd em span{font-size:11px;color:#fff;background:var(--ink);border-radius:6px;padding:1px 6px}
+.hand{position:absolute;right:-14px;bottom:18%;width:44px;height:44px;border-radius:50%;background:rgba(20,103,184,.16);border:2px solid var(--acc);z-index:5;animation:hand 3s cubic-bezier(.3,.7,.2,1) infinite}
+@keyframes hand{0%,45%{transform:translateY(0);opacity:0}55%{opacity:1}85%{transform:translateY(-150px);opacity:.9}100%{transform:translateY(-170px);opacity:0}}
+.why3{display:grid;gap:12px;margin-top:30px}
+.why3 div{background:#fff;border:1px solid var(--line);border-radius:22px;padding:18px 18px 16px}
+.why3 b{display:block;font-family:var(--dfont);font-weight:900;font-size:20px;line-height:1.35;color:var(--ink)}
+.why3 p{font-size:14.5px;color:var(--muted);margin-top:4px}
+.why3 b u{text-decoration:none;background:linear-gradient(transparent 62%,rgba(255,174,26,.5) 62%)}
+.pages{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;margin:22px -20px 0;padding:6px 20px 14px;scrollbar-width:none}
+.pages::-webkit-scrollbar{display:none}
+.pages figure{flex:0 0 62%;max-width:280px;scroll-snap-align:center}
+.pages img{width:100%;height:auto;border-radius:24px;border:1px solid var(--line);box-shadow:0 20px 40px -24px rgba(12,60,120,.6)}
+.pages figcaption{margin-top:10px;text-align:center;font-weight:900;font-size:14px;color:var(--ink)}
+.pages figcaption small{display:block;font-weight:500;font-size:12.5px;color:var(--muted)}
+.pdots{display:flex;justify-content:center;gap:6px;margin-top:2px}
+.pdots i{width:7px;height:7px;border-radius:4px;background:rgba(12,33,54,.2);transition:width .25s,background .25s}
+.pdots i.on{width:22px;background:var(--acc)}
+.rail{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:20px}
+.rail div{background:#fff;border:1px solid var(--line);border-radius:20px;padding:16px 12px 14px;text-align:center}
+.rail .ic{width:54px;height:54px;border-radius:50%;margin:0 auto 10px;display:grid;place-items:center;background:#fff;color:var(--ink);box-shadow:0 6px 14px -6px rgba(12,60,120,.5),0 0 0 1px var(--line)}
+.rail .ic svg{width:26px;height:26px}
+.rail .ic.ok{background:#12A150;color:#fff;box-shadow:none}.rail .ic.mic{background:#2B8FD6;color:#fff;box-shadow:none}
+.rail b{display:block;font-size:15.5px;font-weight:900;color:var(--ink)}
+.rail small{display:block;font-size:12.5px;color:var(--muted);line-height:1.5;margin-top:2px}
+.speed{display:flex;flex-wrap:wrap;gap:5px;margin-top:16px}
+.speed span{flex:1 0 34px;min-width:0;text-align:center;font-weight:900;font-size:12.5px;padding:9px 0;white-space:nowrap;border-radius:12px;background:#fff;border:1px solid var(--line);color:var(--muted)}
+.speed span.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.eq{display:flex;gap:4px;align-items:center;height:34px;margin-top:18px}
+.eq i{flex:1;height:100%;border-radius:3px;background:var(--acc);opacity:.75;animation:eq 1.2s ease-in-out infinite;transform-origin:center}
+@keyframes eq{0%,100%{transform:scaleY(.2)}50%{transform:scaleY(1)}}
+.reads{display:grid;gap:8px;margin-top:16px}
+.reads div{display:flex;align-items:baseline;gap:10px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px 14px}
+.reads b{font-size:16px;font-weight:900;color:var(--ink)}.reads small{font-size:13px;color:var(--muted)}
+@media (prefers-reduced-motion:reduce){.cd{animation:none;opacity:0}.cd:nth-child(1){opacity:1}.hand{display:none}}
+</style>
+</head>
+<body class="">
+<header class="hero"><img class="kv" src="/information/howto/assets/kv_flip.webp?v=20261124" width="900" height="900" alt="" fetchpriority="high">
+<div class="in"><div class="badge"><img src="/information/howto/assets/icon_flip.webp?v=20261124" width="300" height="300" alt=""><span>WORD FLIP</span></div>
+<h1 class="disp">Word Flip</h1><p class="catch disp">Just flip,<br>and meet new words.</p></div></header>
+<main>
+<div class="wrap"><p class="lead">Word cards with pictures, voice and examples, one swipe at a time. No questions to answer. Just look, and the words sink in.</p><div class="stats"><div class="stat"><small>Time</small><b>No limit</b></div><div class="stat"><small>Lives</small><b>Not needed</b></div><div class="stat"><small>Control</small><b>Swipe up</b></div></div></div>
+<section class="sec wrap rv"><div class="kicker">At a glance</div><h2 class="disp">Just 3 things to do.</h2><div class="loop"><div class="beat"><div class="v">Flip</div><p>Swipe up for<br>the next word</p></div><div class="beat"><div class="v">Open</div><p>Swipe sideways for<br>examples and more</p></div><div class="beat"><div class="v">Keep</div><p>Rate it, save it,<br>write a note</p></div></div></section>
+<section class="sec wrap"><div class="kicker rv">Why it works</div>
+<h2 class="disp rv">Not a test.<br>That is why it lasts.</h2>
+<div class="deckwrap rv fx" aria-hidden="true"><div class="deck"><div class="cd" style="--tint:#E4F1FF"><div class="pic"><svg viewBox="0 0 80 80" aria-hidden="true"><rect x="16" y="10" width="42" height="56" rx="6" fill="#fff" stroke="#0C2136" stroke-width="3"/><path d="M25 26h24M25 36h24M25 46h14" stroke="#9DB4C8" stroke-width="3" stroke-linecap="round"/><path d="M46 60l4-12 16-16 8 8-16 16z" fill="#FFAE1A" stroke="#0C2136" stroke-width="3" stroke-linejoin="round"/></svg></div><b>revise</b><i>riváiz</i><em><span>v.</span>to change and improve</em></div><div class="cd" style="--tint:#FFF1D6"><div class="pic"><svg viewBox="0 0 80 80" aria-hidden="true"><path d="M12 18h42a8 8 0 018 8v18a8 8 0 01-8 8H34L20 64V52h-8a8 8 0 01-8-8V26a8 8 0 018-8z" fill="#fff" stroke="#0C2136" stroke-width="3" stroke-linejoin="round"/><path d="M16 32c5-5 9 5 14 0s9 5 14 0 9 5 12 1M16 42c5-5 9 5 14 0s9 5 14 0" fill="none" stroke="#1467B8" stroke-width="3" stroke-linecap="round"/></svg></div><b>fluent</b><i>flúːənt</i><em><span>adj.</span>smooth and easy</em></div><div class="cd" style="--tint:#E3F6EA"><div class="pic"><svg viewBox="0 0 80 80" aria-hidden="true"><rect x="10" y="18" width="60" height="42" rx="6" fill="#fff" stroke="#0C2136" stroke-width="3"/><path d="M22 32h36M22 42h22" stroke="#9DB4C8" stroke-width="3" stroke-linecap="round"/><circle cx="56" cy="48" r="9" fill="#FFAE1A" stroke="#0C2136" stroke-width="3"/><path d="M51 55l-2 12 7-4 7 4-2-12" fill="#FFAE1A" stroke="#0C2136" stroke-width="3" stroke-linejoin="round"/></svg></div><b>grant</b><i>grǽnt</i><em><span>v.</span>to give officially</em></div></div><div class="hand"></div></div>
+<div class="why3"><div class="rv"><b><u>Nothing to answer</u>,<br>so you can open it on tired days.</b><p>No right or wrong. Look, listen, move on. That is all it takes.</p></div><div class="rv"><b><u>No lives needed</u>,<br>so flip as much as you like.</b><p>Five words or a hundred. Open it in any spare moment.</p></div><div class="rv"><b><u>Picture, voice and example</u><br>for every single word.</b><p>Unlike a plain word list, you learn with both your eyes and your ears.</p></div></div></section>
+<section class="sec wrap"><div class="kicker rv">How to play</div><h2 class="disp rv">See it on screen.</h2><div class="steps"><div class="step rv"><div class="num" aria-hidden="true">1</div><div class="tag"><i></i>STEP 1</div><h3 class="disp">Swipe up for<br>the next word</h3><p>Picture, sound, meaning and phrases on one card. At the end of a level, it continues to the next.</p><div class="phone"><img src="/information/howto/assets/flip_1.webp?v=20261124" width="500" height="1083" alt="Swipe up for the next word" loading="eager" decoding="async"></div></div><div class="step rv"><div class="num" aria-hidden="true">2</div><div class="tag"><i></i>STEP 2</div><h3 class="disp">Swipe sideways<br>for details</h3><p>Go deep only on the words you care about: examples, similar words, related words and word origins. Try swiping the screens below.</p><div class="pages" id="pages" tabindex="0" aria-label="Three example pages you reach by swiping sideways"><figure><img src="/information/howto/assets/flip_1.webp?v=20261124" width="500" height="1083" alt="Page 1 Picture, meaning, phrases" loading="lazy" decoding="async"><figcaption>Page 1<small>Picture, meaning, phrases</small></figcaption></figure><figure><img src="/information/howto/assets/flip_2.webp?v=20261124" width="500" height="1083" alt="Page 2 Example with a picture" loading="lazy" decoding="async"><figcaption>Page 2<small>Example with a picture</small></figcaption></figure><figure><img src="/information/howto/assets/flip_3.webp?v=20261124" width="500" height="1083" alt="Page 3 Similar words, related words, tips" loading="lazy" decoding="async"><figcaption>Page 3<small>Similar words, related words, tips</small></figcaption></figure></div><div class="pdots" id="pdots" aria-hidden="true"><i class="on"></i><i></i><i></i></div></div><div class="step rv"><div class="num" aria-hidden="true">3</div><div class="tag"><i></i>STEP 3</div><h3 class="disp">Make each word<br>yours</h3><p>Do more than look. Four buttons on the right make the word yours.</p><div class="rail"><div><span class="ic ok"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>How well you know it</b><small>You decide: known or still shaky</small></div><div><span class="ic "><svg viewBox="0 0 24 24"><path d="M7 4h10v16l-5-4-5 4z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg></span><b>Word list</b><small>Save words to come back to</small></div><div><span class="ic "><svg viewBox="0 0 24 24"><path d="M4 20l1-4L16 5l3 3L8 19z" fill="currentColor"/></svg></span><b>Notes</b><small>Write what you notice. Long-press text to quote it</small></div><div><span class="ic mic"><svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3" fill="currentColor"/><path d="M6 11a6 6 0 0012 0M12 17v4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></span><b>Pronunciation</b><small>Say it and get a score (Premium)</small></div></div></div><div class="step rv"><div class="num" aria-hidden="true">4</div><div class="tag"><i></i>STEP 4</div><h3 class="disp">Tap ▶ to flip<br>automatically</h3><p>It reads the word, meaning and example aloud and moves on. When it reads an example, the card slides to the example page. Speed: 0.5x to 3x.</p><div class="phone"><img src="/information/howto/assets/flip_auto.webp?v=20261124" width="500" height="1083" alt="Tap ▶ to flip automatically" loading="lazy" decoding="async"></div></div><div class="step rv"><div class="num" aria-hidden="true">5</div><div class="tag"><i></i>STEP 5</div><h3 class="disp">Tap the mic and<br>say it</h3><p>You get a score as soon as you finish. Compare your voice with the model and try again. Sounds you missed come with a tip (MotiTan Premium).</p><div class="phone"><img src="/information/howto/assets/flip_pron.webp?v=20261124" width="500" height="1083" alt="Tap the mic and say it" loading="lazy" decoding="async"></div></div><div class="step rv"><div class="num" aria-hidden="true">6</div><div class="tag"><i></i>STEP 6</div><h3 class="disp">Earn BP<br>as you flip</h3><p>You earn a little BP while you are flipping, using the buttons, or auto-flipping. Tap &lt; to finish and see the words you met.</p><div class="phone"><img src="/information/howto/assets/flip_result.webp?v=20261124" width="500" height="1083" alt="Earn BP as you flip" loading="lazy" decoding="async"></div></div></div></section>
+<section class="sec wrap rv"><div class="kicker">Auto flip</div><h2 class="disp">Hands full?<br>Learn by ear.</h2>
+<div class="panel"><p>Tap ▶ and it reads the word, the meaning and the example, then moves to the next word. Good for listening while you walk or do chores.</p>
+<div class="eq fx" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="reads"><div><b>revise</b><small>Word</small></div><div><b>to change and improve</b><small>Meaning</small></div><div><b>Please revise the report.</b><small>Example</small></div></div>
+<p style="margin-top:16px;font-weight:700;color:var(--ink)">Speeds you can choose in the app</p><div class="speed"><span>0.5×</span><span>0.75×</span><span>1.0×</span><span>1.25×</span><span>1.5×</span><span>2.0×</span><span>3.0×</span></div>
+<p style="margin-top:12px">You can also choose what is read: word, meaning, example and its translation. Change both by tapping the speed tag under ▶ in the app.</p></div></section>
+<section class="sec wrap rv"><div class="kicker">Tips</div><h2 class="disp">What good players do.</h2><ul class="tips"><li>Check &quot;Hide meanings&quot;, recall the meaning, then tap to see it</li><li>Viewing a card does not change its saved rating. Tap the check mark on the right to update it</li><li>Tap the tag at the top to switch course, level or word list</li><li>You can also open it from Play in a word list, to flip through only the words you saved</li></ul></section>
+</main>
+<footer class="outro"><img class="b" src="/information/howto/assets/icon_flip.webp?v=20261124" width="300" height="300" alt="" loading="lazy"><p class="disp">Ready? Play Word Flip.</p><p>Play anytime from its building in Word Park.</p></footer>
+<script>
+(function(){
+  document.documentElement.classList.remove('nojs');
+  var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!('IntersectionObserver' in window)){document.querySelectorAll('.rv').forEach(function(e){e.classList.add('on')});return;}
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target);}})},{threshold:.12});
+  document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+  function once(el,fn){if(!el)return;var o=new IntersectionObserver(function(es){if(es[0].isIntersecting){o.disconnect();fn()}},{threshold:.5});o.observe(el);}
+  var c=document.getElementById('cnt');
+  once(c,function(){if(reduce)return;var seq=[2,8,32,128,512,2048,8192],i=0;c.textContent='2';var h=setInterval(function(){i++;if(i>=seq.length){clearInterval(h);return}c.textContent=seq[i].toLocaleString('en-US')},420)});
+  var hub=document.getElementById('hub');
+  once(hub,function(){hub.querySelectorAll('.node').forEach(function(n){n.classList.add('on')})});
+  var pgs=document.getElementById('pages'),pd=document.getElementById('pdots');
+  if(pgs&&pd){var ds=pd.querySelectorAll('i'),fs=pgs.querySelectorAll('figure');pgs.addEventListener('scroll',function(){var c=pgs.scrollLeft+pgs.clientWidth/2,b=0,bd=1e9;fs.forEach(function(f,k){var d=Math.abs(f.offsetLeft-pgs.offsetLeft+f.offsetWidth/2-c);if(d<bd){bd=d;b=k}});ds.forEach(function(x,k){x.classList.toggle('on',k===b)})},{passive:true});}
+  var bar=document.getElementById('hookbar');
+  once(bar,function(){var is=bar.querySelectorAll('i');is.forEach(function(x,k){setTimeout(function(){x.classList.add('on')},reduce?0:280*k)})});
+})();
+</script>
+</body></html>
