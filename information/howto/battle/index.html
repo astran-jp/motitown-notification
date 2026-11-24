@@ -101,6 +101,9 @@ body{background-image:radial-gradient(rgba(255,255,255,.05) 1px,transparent 1px)
 (function(){
   document.documentElement.classList.remove('nojs');
   var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // IntersectionObserver が動かない WebView でも中身が出るように、位置を自分でも見る
+  function sweep(){var h=window.innerHeight||document.documentElement.clientHeight;document.querySelectorAll('.rv:not(.on)').forEach(function(e){var r=e.getBoundingClientRect();if(r.top<h*.92&&r.bottom>0)e.classList.add('on')})}
+  window.addEventListener('scroll',sweep,{passive:true});window.addEventListener('resize',sweep);setTimeout(sweep,400);setTimeout(sweep,1500);
   if(!('IntersectionObserver' in window)){document.querySelectorAll('.rv').forEach(function(e){e.classList.add('on')});return;}
   var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target);}})},{threshold:.12});
   document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
