@@ -202,3 +202,17 @@ Worker のスクリプトは無く、アセットだけを配信するので、�
 以前は GitHub Pages (`motitown-notification.astran.jp`) で公開し、中継 Worker で `motitown.com/notification/` に見せていた。
 2026-10-07 に静的アセット配信へ切り替え、2026-10-08 に GitHub Pages を削除し、続けてムームードメインの CNAME レコードも削除した。
 旧ホストの URL はどこにも転送されないので、ページ・SQL・スクリプトには `https://motitown.com/notification/` を書く。
+
+# ゲームの遊び方 (`/information/howto/`)
+
+単語パークの 6 ゲーム（単語軍団 `army`・単語バスターズ `buster`・単語くぐり `gate`・発音ラッシュ `pron`・対戦 `battle`・冒険 `adventure`）の遊び方。
+アプリのゲームの i マークから WebView で開く想定（社長 2026-11-24。アプリへの組み込みはまだ）。一覧は `/information/howto/`。
+
+| 公開 URL | 中身 |
+|---|---|
+| `https://motitown.com/notification/information/howto/<ゲーム>/` | 日本語版 |
+| `https://motitown.com/notification/en/information/howto/<ゲーム>/` | 英語版（アプリは表示言語が英語のとき `/en/` を付けて開く） |
+
+- **HTML は生成物。手で直さない。** 正本は growth リポジトリの `projects/planning/prototypes/home_game_entry/howto_web/build.py`（文・数字・見た目・日英）。直したら `uv run --with pillow python build.py <このリポジトリ>` で作り直して push する
+- 文の正本はアプリの遊び方（`motitan_app` の `PopupWordParkHowTo.cs`）＋サーバーの数字（くぐりの星 100/150/200 m など）。ゲームが変わったら両方を直す
+- 画像は `information/howto/assets/`（日英で共有・WebP・幅 900px まで）

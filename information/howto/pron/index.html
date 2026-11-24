@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- 発音ラッシュの遊び方。アプリの単語パークの i マークから WebView で開く想定（アプリへの組み込みはまだ）。
+     生成物: growth/projects/planning/prototypes/home_game_entry/howto_web/build.py で作る。手で直さず build.py を直して作り直す。
+     英語版は ../../../en/information/howto/pron/ -->
+<html lang="ja" class="nojs">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>発音ラッシュのあそびかた｜モチタウン</title>
+<meta name="description" content="発音ラッシュの遊び方を、画面の写真といっしょに紹介します。">
+<meta name="theme-color" content="#160A2B">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&family=Dela+Gothic+One&display=swap">
+<style>:root{--bg:#160A2B;--bg2:#2A0F45;--ink:#FFF4FB;--muted:#D7C2E6;--acc:#FF5BAA;--acc2:#FFD23F;--card:rgba(255,255,255,.07);--line:rgba(255,140,210,.26);--dfont:'Dela Gothic One', 'Noto Sans JP', sans-serif;--h1:min(55px,14.1vw);--frame:#1b1b22;--shadow:rgba(0,0,0,.8);--accSoft:#FF5BAA33}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font-family:'Noto Sans JP',system-ui,sans-serif;font-weight:500;line-height:1.75;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+.wrap{max-width:520px;margin:0 auto;padding-left:20px;padding-right:20px}
+.disp{font-family:var(--dfont);font-weight:400;letter-spacing:.01em;line-height:1.24;text-wrap:balance}
+.serif .disp{font-weight:900}
+.hero{position:relative;min-height:min(128vw,680px);display:flex;align-items:flex-end;overflow:hidden;isolation:isolate}
+.hero .kv{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;object-position:center 30%;transform:scale(1.08);animation:kb 18s ease-out forwards}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,.04) 18%,rgba(0,0,0,.55) 52%,rgba(0,0,0,.62) 82%,var(--bg) 100%)}
+@keyframes kb{to{transform:scale(1)}}
+.hero .in{width:100%;max-width:520px;margin:0 auto;padding:0 20px 30px}
+.badge{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.badge img{width:58px;height:58px;filter:drop-shadow(0 6px 10px rgba(0,0,0,.35))}
+.badge span{font-weight:900;font-size:12px;letter-spacing:.24em;color:#fff;text-shadow:0 1px 8px rgba(0,0,0,.6)}
+.hero h1{font-size:var(--h1);color:#fff;text-shadow:0 3px 0 rgba(0,0,0,.18),0 8px 30px rgba(0,0,0,.5)}
+.hero .catch{margin-top:12px;font-size:clamp(22px,6.2vw,28px);color:#fff;text-shadow:0 2px 16px rgba(0,0,0,.65)}
+.lead{margin-top:16px;font-size:15px;color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:24px 0 6px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:12px 6px 10px;text-align:center}
+.stat b{display:block;font-size:18px;font-weight:900;color:var(--ink);line-height:1.3;white-space:nowrap}
+.stat small{display:block;font-size:11px;color:var(--muted);letter-spacing:.06em;margin-bottom:2px}
+.sec{padding-top:46px;padding-bottom:8px}
+.kicker{font-size:12px;font-weight:900;letter-spacing:.2em;color:var(--acc)}
+.sec h2{font-size:clamp(25px,7.4vw,33px);margin-top:6px}
+.loop{display:grid;gap:12px;margin-top:22px}
+.beat{position:relative;display:grid;grid-template-columns:108px minmax(0,1fr);align-items:center;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:14px 16px}
+.beat .v{font-family:var(--dfont);font-size:22px;line-height:1.1;color:var(--acc);text-align:center;white-space:nowrap}
+.serif .beat .v{font-weight:900}
+.beat p{font-size:14.5px;color:var(--ink);font-weight:700;line-height:1.55}
+.beat:not(:last-child)::after{content:"";position:absolute;left:69px;bottom:-13px;width:2px;height:14px;background:var(--acc);opacity:.6}
+.step{position:relative;padding:26px 0 8px}
+.step .num{position:absolute;right:0;top:-4px;font-family:var(--dfont);font-size:92px;line-height:1;color:var(--acc);opacity:.13;pointer-events:none}
+.serif .step .num{font-family:'Cormorant Garamond',serif;font-weight:700;opacity:.18}
+.step .tag{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:900;letter-spacing:.18em;color:var(--acc)}
+.step .tag i{display:inline-block;width:22px;height:2px;background:var(--acc)}
+.step h3{position:relative;font-size:clamp(22px,6.4vw,28px);margin:8px 0 10px;padding-right:64px}
+.step p{position:relative;font-size:15px;color:var(--muted)}
+.phone{position:relative;width:min(64vw,270px);margin:22px auto 6px;border-radius:34px;padding:9px;background:var(--frame);box-shadow:0 22px 50px -18px var(--shadow),0 0 0 1px var(--line)}
+.phone img{border-radius:26px;width:100%;height:auto}
+.step:nth-child(even) .phone{transform:rotate(2deg)}
+.step:nth-child(odd) .phone{transform:rotate(-2deg)}
+.panel{margin-top:22px;background:var(--card);border:1px solid var(--line);border-radius:26px;padding:22px 18px}
+.panel p{font-size:14.5px;color:var(--muted)}
+.tips{list-style:none;margin-top:18px;display:grid;gap:10px}
+.tips li{position:relative;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px 16px 14px 46px;font-size:15px;font-weight:700;line-height:1.6}
+.tips li::before{content:"";position:absolute;left:18px;top:20px;width:12px;height:12px;border-radius:50%;background:var(--acc);box-shadow:0 0 0 5px var(--accSoft)}
+.outro{margin:56px 0 0;padding:44px 20px calc(60px + env(safe-area-inset-bottom));text-align:center;background:var(--bg2)}
+.outro img.b{width:150px;height:auto;margin:0 auto 10px;filter:drop-shadow(0 14px 18px rgba(0,0,0,.25));animation:bob 3.2s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-8px)}}
+.outro .disp{font-size:clamp(26px,7.4vw,34px);color:var(--ink)}
+.outro p{margin-top:8px;color:var(--muted);font-size:14px}
+.rv{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.8,.2,1)}
+.rv.on{opacity:1;transform:none}
+.nojs .rv{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}.hero .kv,.outro img.b,.fx,.fx *{animation:none!important}}
+
+.judge{display:grid;gap:10px;margin-top:14px}
+.judge div{display:flex;align-items:center;justify-content:space-between;gap:10px;border-radius:16px;padding:12px 16px;background:rgba(255,255,255,.06);border:1px solid var(--line)}
+.judge b{font-family:var(--dfont);font-size:24px;font-weight:400;letter-spacing:.04em}
+.judge small{font-size:13px;color:var(--muted);text-align:right}
+.j1 b{color:#FFD23F;text-shadow:0 0 14px rgba(255,210,63,.6)}.j2 b{color:#FF8FCB}.j3 b{color:#7FE8FF}
+.eq{display:flex;gap:5px;align-items:flex-end;height:40px;margin-top:18px}
+.eq i{flex:1;height:100%;border-radius:3px;background:linear-gradient(0deg,var(--acc),var(--acc2));animation:eq 1.1s ease-in-out infinite;transform-origin:bottom}
+@keyframes eq{0%,100%{transform:scaleY(.25)}50%{transform:scaleY(1)}}
+</style>
+</head>
+<body class="">
+<header class="hero"><img class="kv" src="/information/howto/assets/kv_pron.webp?v=20261124" width="900" height="900" alt="" fetchpriority="high">
+<div class="in"><div class="badge"><img src="/information/howto/assets/icon_pron.webp?v=20261124" width="300" height="300" alt=""><span>PRONUNCIATION RUSH</span></div>
+<h1 class="disp">発音ラッシュ</h1><p class="catch disp">声に出すほど、<br>うまくなる。</p></div></header>
+<main>
+<div class="wrap"><p class="lead">画面に出る英単語を、声に出して読む。50 秒でコンボをつなぎ、4 人で 1 位をめざす発音のライブステージ。</p><div class="stats"><div class="stat"><small>1 回</small><b>50 秒</b></div><div class="stat"><small>対戦</small><b>4 人</b></div><div class="stat"><small>操作</small><b>声で読む</b></div></div></div>
+<section class="sec wrap rv"><div class="kicker">ひと目でわかる</div><h2 class="disp">やることは、3 つだけ。</h2><div class="loop"><div class="beat"><div class="v">読む</div><p>出た単語を<br>すぐ声に出す</p></div><div class="beat"><div class="v">つなぐ</div><p>続けて読めると<br>コンボ</p></div><div class="beat"><div class="v">なおす</div><p>コツを見て<br>言い直す</p></div></div></section>
+
+<section class="sec wrap"><div class="kicker rv">あそびかた</div><h2 class="disp rv">画面で見てみよう。</h2><div class="steps"><div class="step rv"><div class="num" aria-hidden="true">1</div><div class="tag"><i></i>STEP 1</div><h3 class="disp">出た単語を、<br>声に出して読む</h3><p>絵と意味を見て、すぐ読む。読めたら次の単語へ。</p><div class="phone"><img src="/information/howto/assets/howto_pron_1.webp?v=20261124" width="500" height="940" alt="出た単語を、声に出して読む" loading="eager" decoding="async"></div></div><div class="step rv"><div class="num" aria-hidden="true">2</div><div class="tag"><i></i>STEP 2</div><h3 class="disp">うまく読めると<br>PERFECT</h3><p>PERFECT・GREAT・GOOD の 3 段階。続けて読めるとコンボで点がのびる。判定は左上に出る（この画面では前の単語 sufficient が PERFECT）。</p><div class="phone"><img src="/information/howto/assets/howto_pron_2.webp?v=20261124" width="500" height="940" alt="うまく読めるとPERFECT" loading="lazy" decoding="async"></div></div><div class="step rv"><div class="num" aria-hidden="true">3</div><div class="tag"><i></i>STEP 3</div><h3 class="disp">読めなかった音は、<br>コツが出る</h3><p>口の形の絵つきで教えてくれる。言い直して通ると「直った！」。むずかしければ「パス」で次の単語へ。</p><div class="phone"><img src="/information/howto/assets/howto_pron_3.webp?v=20261124" width="500" height="940" alt="読めなかった音は、コツが出る" loading="lazy" decoding="async"></div></div><div class="step rv"><div class="num" aria-hidden="true">4</div><div class="tag"><i></i>STEP 4</div><h3 class="disp">4 人で 1 位を<br>めざす</h3><p>終わるとスコアと発音ランク。読めた単語が多いほど BP も多い。</p></div></div></section>
+<section class="sec wrap rv"><div class="kicker">判定は 3 段階</div><h2 class="disp">はっきり読めたら、<br>PERFECT。</h2>
+<div class="panel"><div class="judge"><div class="j1"><b>PERFECT</b><small>いちばん高い点</small></div><div class="j2"><b>GREAT</b><small>おしい！</small></div><div class="j3"><b>GOOD</b><small>通じる</small></div></div>
+<div class="eq fx" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><p style="margin-top:14px">続けて読めるとコンボで点がのびる。終わると、発音ランクも分かる。</p></div></section>
+<section class="sec wrap rv"><div class="kicker">コツ</div><h2 class="disp">うまい人は、こうしてる。</h2><ul class="tips"><li>大きく、はっきり。語尾まで言い切る</li><li>むずかしい単語は「パス」で次へ進める</li><li>静かな場所のほうが、正しく聞き取れる</li><li>スタート画面で「シャドーイング」を選ぶと、お手本を聞いてから読める</li></ul></section>
+</main>
+<footer class="outro"><img class="b" src="/information/howto/assets/icon_pron.webp?v=20261124" width="300" height="300" alt="" loading="lazy"><p class="disp">さあ、発音ラッシュへ。</p><p>単語パークの建物から、いつでも遊べる。</p></footer>
+<script>
+(function(){
+  document.documentElement.classList.remove('nojs');
+  var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!('IntersectionObserver' in window)){document.querySelectorAll('.rv').forEach(function(e){e.classList.add('on')});return;}
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target);}})},{threshold:.12});
+  document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+  function once(el,fn){if(!el)return;var o=new IntersectionObserver(function(es){if(es[0].isIntersecting){o.disconnect();fn()}},{threshold:.5});o.observe(el);}
+  var c=document.getElementById('cnt');
+  once(c,function(){if(reduce)return;var seq=[2,8,32,128,512,2048,8192],i=0;c.textContent='2';var h=setInterval(function(){i++;if(i>=seq.length){clearInterval(h);return}c.textContent=seq[i].toLocaleString('en-US')},420)});
+  var hub=document.getElementById('hub');
+  once(hub,function(){hub.querySelectorAll('.node').forEach(function(n){n.classList.add('on')})});
+  var bar=document.getElementById('hookbar');
+  once(bar,function(){var is=bar.querySelectorAll('i');is.forEach(function(x,k){setTimeout(function(){x.classList.add('on')},reduce?0:280*k)})});
+})();
+</script>
+</body></html>
